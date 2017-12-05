@@ -1,0 +1,524 @@
+subject: Piwigo 2.2.2, 2.2.3 et 2.3.0beta1
+from: Equipe Piwigo <announcements@piwigo.org>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*" />
+        
+        <title>Piwigo Newsletter: versions 2.2.2, 2.2.3 et 2.3.0beta1</title>
+		<style type="text/css">
+			/* Client-specific Styles */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table td{border-collapse:collapse;}
+			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* Template Styles */
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Page
+			* @section background color
+			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+			* @theme page
+			*/
+			body, #backgroundTable{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border: 1px solid #DDDDDD;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1, .h1{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2, .h2{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:30px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3, .h3{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4, .h4{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:22px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color for your email's preheader area.
+			* @theme page
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and border for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-bottom:0;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding:0;
+				/*@editable*/ text-align:center;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px !important;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color for your email's body area.
+			*/
+			#templateContainer, .bodyContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and top border for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent div{
+				/*@editable*/ color:#707070;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.footerContent img{
+				display:inline;
+			}
+
+			/**
+			* @tab Footer
+			* @section social bar style
+			* @tip Set the background color and border for your email's footer social bar.
+			* @theme footer
+			*/
+			#social{
+				/*@editable*/ background-color:#FAFAFA;
+				/*@editable*/ border:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section social bar style
+			* @tip Set the background color and border for your email's footer social bar.
+			*/
+			#social div{
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			* @theme footer
+			*/
+			#utility{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			*/
+			#utility div{
+				/*@editable*/ text-align:center;
+			}
+
+			#monkeyRewards img{
+				max-width:190px;
+			}
+		</style>
+	</head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable" style="background-color:#fafafa">
+            	<tr>
+                	<td align="center" valign="top">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader">
+                            <tr>
+                                <td valign="top" class="preheaderContent" style="font-size:80%;text-align:center;color:#777">
+                                  Voir les dernières annonces <a href="http://fr.piwigo.org/forum/viewforum.php?id=23" target="_blank" style="color:#777">dans votre navigateur web</a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="border: 1px solid #DDDDDD; background-color:#ffffff;">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                        <tr>
+                                            <td class="headerContent">
+                                            
+                                            	<!-- // Begin Module: Standard Header Image \\ -->
+                                            	<img src="http://piwigo.org/screenshots/newsletter/piwigo_newsletter_header.png" style="max-width:600px;" id="headerImage campaign-icon"/>
+                                            	<!-- // End Module: Standard Header Image \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    	<tr>
+                                            <td valign="top" class="bodyContent">
+                                
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <div mc:edit="std_content00">
+<div style="margin-bottom:10px">
+Bonjour utilisateur de Piwigo, vous recevez cet newsletter car vous vous êtes enregistré pour recevoir des emails de la part du projet Piwigo. Piwigo est le logiciel libre de création de galerie photo pour le web.
+</div>
+
+                                                                <h3 class="h3" style="font-size:150%; font-weight:bold; font-family:'Trebuchet MS',Verdana, sans-serif;">Piwigo 2.2.2</h3>
+
+La version 2.2.1 est disponible. Le Grec a été ajouté et plusieurs autres langues ont été mises à jour, plusieurs bugs ont été corrigés et quelques fonctionnalités mineures ont été ajoutées. Tous les détails sur <a href="http://fr.piwigo.org/releases/2.2.2">les notes de la version 2.2.2</a>
+<br>
+<br>
+<ul>
+  <li>en raison de nombreux bugs sur le gestionnaire de tags, nous avons remplacé la bibliothèque technique. Le visuel est identique mais tous les bugs devraient être corrigés maintenant
+<br>
+<br>
+<img src="http://piwigo.org/forum/showimage.php?pid=122466&amp;filename=piwigo222_01_tag_manager.png">
+<br>
+<br>
+</li>
+<li>sur la Gestion par lot, en <em>mode unitaire</em>, vous pouvez zoomer sur chaque photo avec une "lightbox" (plus facile de tagger une photo quand vous pouvez la voir en grand)
+<br>
+<br>
+</li>
+<li>si vous utilisez la méthode d'ajout de photo par FTP + synchronisation et si vous avez de nombreux albums (des milliers d'albums), vous apprécierez le nouvel icône <em>"synchroniser"</em> sur l'écran d'administration de l'album : plus besoin de trouver l'album dans une liste de sélection sur l'écran de synchronisation,&nbsp; un clic sur l'icône suffit.
+<br>
+<br>
+<img src="http://piwigo.org/forum/showimage.php?pid=122466&amp;filename=piwigo222_03_synchronize_button.png">
+<br>
+<br>
+</li>
+<li>De nouvelles options pour l'API Web : pwg.categories.getList est capable de retourner l'arborescence des albums à la place d'une liste plate et de pwg.categories.getImages renvoie désormais la date de création et la date d'ajout de chaque photo (pour plus de performances dans le plugin Lightroom de publication vers Piwigo)
+<br>
+<br>
+</li>
+</ul>
+Suivez <a href="http://fr.piwigo.org/basics/upgrade_automatic">la procédure de mise à jour automatique</a> et utilisez la dernière version de Piwigo.
+<br>
+<br>
+<h3 class="h3" style="font-size:150%; font-weight:bold; font-family:'Trebuchet MS',Verdana, sans-serif;">Piwigo 2.2.3</h3>
+La version 2.2.3 a été publiée seulement quelques jours après la 2.2.2. Elle corrige des bugs introduits dans la version 2.2.2, tous les détails sont disponibles sur <a href="http://fr.piwigo.org/releases/2.2.3">les notes de la version 2.2.3</a>.
+<br>
+<br>
+<h3 class="h3" style="font-size:150%; font-weight:bold; font-family:'Trebuchet MS',Verdana, sans-serif;">Piwigo 2.3.0beta1</h3>
+
+Voici la version 2.3.0beta1. Cette version est <strong>seulement pour des tests</strong>, il ne faut pas l'installer sur votre <em>vrai</em> site. Même si Piwigo 2.2 a été publié il y a seulement quelques semaines, nous avons déjà de nouvelles fonctionnalités intéressantes à vous montrer pour la future version Piwigo 2.3.
+<br>
+<br>
+<strong>1) Changements</strong>
+<br>
+<br>
+Voici la liste des modifications par rapport à Piwigo 2.2 :
+<br>
+<br>
+<ul>
+<li><a href="http://piwigo.org/bugs/view.php?id=2260">[fonctionnalité 2260] seulement 2 états pour les plugins (activé ou désactivé)</a></li>
+<li><a href="http://piwigo.org/bugs/view.php?id=2271">[fonctionnalité 2271] intégrer la mise à jour automatique en standard</a></li>
+<li><a href="http://piwigo.org/bugs/view.php?id=2284">[fonctionnalité 2284] une class PHP pour manipuler les photos</a></li>
+<li><a href="http://piwigo.org/bugs/view.php?id=2259">[fonctionnalité 2259] pouvoir redimensionner les miniatures et les tailles web déjà en ligne</a></li>
+<li><a href="http://piwigo.org/bugs/view.php?id=2274">[fonctionnalité 2274] génération des miniatures en AJAX (processus asynchrone)</a></li>
+<li><a href="http://piwigo.org/bugs/view.php?id=2273">[fonctionnalité 2273] rogner les miiatures (avec une taille fixe)</a></li>
+<li>ability to use the command line Image Magick tools instead of PHP Imagick or GD libraries</li>
+<li><a href="http://piwigo.org/bugs/view.php?id=2224">[bug 2224] impossible de changer le nombre de miniatures par page</a></li>
+<li><a href="http://piwigo.org/bugs/view.php?id=1874">[bug 1874] le template "month_calendar.tpl" est introuvable dans la liste des modèles</a></li>
+</ul>
+<br>
+<br>
+<strong>2) Captures d'écran</strong>
+<br>
+<br>
+<img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo230beta1_01_plugin_manager.png">
+<br>
+<em>Mise à jour du gestionnaire de plugin avec un nouveau design compact et simplification uniquement 2 états: un plugin est activé ou désactivé (ce qui rend la gestion des plugins beaucoup plus simple !)</em>
+<br>
+<br>
+<br>
+<br>
+<img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo230beta1_02_updates.png">
+<br>
+<em>Le plugin <em>Piwigo Auto Upgrade</em> a été intégré dans le noyau Piwigo</em>
+<br>
+<br>
+<img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo230beta1_03_crop_thumbnails.png">
+<br>
+<em>Possibilité de générer des vignettes carrées sans installation de plugin</em>
+<br>
+<br>
+<br>
+<br>
+<img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo230beta1_04_menubar_on_all_pages.png">
+<br>
+<em>Possibilité d'avoir Les menus sur toutes les pages (tags, le profil, les commentaires, <u>enregistrement</u>)</em>
+<br>
+<br>
+<strong>3) Commencez les tests</strong>
+<br>
+<br>
+<a href="http://piwigo.org/download/dlcounter.php?code=2.3.0beta1">Télécharger Piwigo 2.3.0beta1</a>
+<br>
+<br>
+Merci d'ouvrir un nouveau sujet dans le forum <a href="http://fr.piwigo.org/forum/viewforum.php?id=14">Beta testing et développement</a> pour chaque problème rencontré.
+<br>
+<br>
+La beta2 de Piwigo 2.3.0 sera publiée dans un mois, avec de nouvelles fonctionnalités.
+<br>
+<br>
+Passer un moment agréable tout en découvrant les nouvelles fonctionnalités de Piwigo 2.3 !
+<br>
+<div style="margin:15px;margin-bottom:0;border-top:1px solid #dddddd">&nbsp;</div>
+<a href="http://fr.piwigo.org/forum">Utilisez le forum Piwigo</a> pour vos question, vos suggestions et vos demandes de fonctionnalités
+                                                            </div>
+														</td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <div style="text-align:center;margin-bottom:15px">
+                                        <a href="http://fr.piwigo.org/forum/extern.php?action=new&amp;type=RSS&amp;fid=23"><img src="http://piwigo.org/screenshots/newsletter/feed.png"></a>
+                                        <a href="http://www.facebook.com/Piwigo"><img src="http://piwigo.org/screenshots/newsletter/facebook.png"></a>
+                                        <a href="http://twitter.com/piwigo"><img src="http://piwigo.org/screenshots/newsletter/twitter.png"></a>
+                                        <a href="mailto:contact@piwigo.org"><img src="http://piwigo.org/screenshots/newsletter/email.png"></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader">
+                            <tr>
+                                <td valign="top" class="preheaderContent" style="font-size:80%;text-align:center;color:#777">
+                                  &copy; <a href="http://fr.piwigo.org" style="color:#777">Projet Piwigo</a> 2002-2011 - <a href="http://fr.piwigo.org/announcement/unsubscribe/%recipient%" style="color:#777">Se désinscrire de la newsletter</a> - <a href="http://piwigo.org/donate" style="color:#777">Supportez le projet, faites un don</a>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

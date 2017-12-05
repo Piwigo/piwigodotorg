@@ -1,0 +1,12 @@
+
+.icon-puzzle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-wrench { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-attention { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-plus-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-globe { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;'); }
+.icon-flash { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;'); }
+.icon-check { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;'); }
+.icon-info-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;'); }
+.icon-check-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf096;&nbsp;'); }
+.icon-dropbox { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16b;&nbsp;'); }
+.icon-circle-thin { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1db;&nbsp;'); }
