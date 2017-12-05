@@ -2,6 +2,23 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Daniel',
+      'country' => 'France',
+      'type' => 'Individual',
+      'url' => 'http://lechodes3baies.fr/phototheque/',
+      'picture' => 'images/testimonies/writer.png',
+    ),
+    'content' => '
+Merci pour Piwigo. Je ne sais plus pourquoi je l\'ai choisi. Softaculous me proposait plusieurs logiciels. J\'en voulais un qui soit simple et, surtout, rapide.
+
+Pas de fioriture dans Piwigo, on va à l\'essentiel, simplement et rapidement, efficacement puisque certaines photos ont reçu plus de 7000 visites en une année, ce sans référencement de ma part.
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-05',
     'user' => array(
