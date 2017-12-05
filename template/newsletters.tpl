@@ -38,13 +38,12 @@ $(document).ready(function() {
   </section>
 
   <section class="container form-newsletter">
-    <form class="form-inline form-newsletter-subscribe text-center">
+    <form action="{$PORG_ROOT}announcement/subscribe.php" method="get" class="form-inline form-newsletter-subscribe text-center">
       <h1 class="bold">Subscribe to our newsletter and stay updated!</h1>
       <div class="form-group">
-        <label for="email"></label>
-        <input type="email" class="form-newsletter-email" id="email" placeholder="Enter your email here" name="email">
+        <input type="text" name="email" class="form-newsletter-email" placeholder="Enter your email here" onfocus="this.placeholder=(this.placeholder=='Enter your email here') ? '' : this.placeholder;" onblur="this.placeholder=(this.placeholder=='') ? 'Enter your email here' : this.placeholder;"/>
+        <button type="submit" value="Subscribe me!" class="btn btn-default"><span class="bold">SIGN UP</span></button>
       </div>
-      <button type="submit" class="btn btn-default"><span class="bold">SIGN UP</span></button>
     </form>
   </section>
 
