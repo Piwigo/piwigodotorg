@@ -3,6 +3,25 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Yann Aguillon',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Rocker.svg',
+      'url' => 'https://www.marieetyann.org/',
+    ),
+    'content' => '
+J\'utilise Piwigo depuis maintenant 8 ans, j\'ai pu apprécier les différentes fonctionnalités ainsi que tous les plugins et également les thèmes et la personnalisation des galeries. En plus de ça j\'ai profité de l\'entraide sur le forum, toujours efficace et sympathique.
+
+Mais le vrai plus de Piwigo en ce qui me concerne c\'est l\'intégration avec Lightroom, et le workflow de publication totalement transparent vers mon site web, avec en la mise en ligne des albums directement depuis les collections de Lightroom.
+
+Que du bonheur ! Merci à toute l\'équipe.
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-06',
     'user' => array(
       'username' => 'Colette',
@@ -16,7 +35,6 @@ $testimonials = array(
  Je précise que je suis auto entrepreneur, rédactrice et correctrice à mon compte et écrivain par ailleurs.
 ',
   ),
-
 
   array(
     'language' => 'en',
