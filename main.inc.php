@@ -14,7 +14,7 @@ define('PORG_PATH', PHPWG_PLUGINS_PATH . PORG_ID . '/');
 
 // we put these handlers "before" the test on index page (and the return) because
 // whatever the page, we want to execute them
-add_event_handler('ws_add_methods', 'porg_newsletter_add_methods');
+include(PORG_PATH . 'include/functions_ws_porg.php');
 add_event_handler('user_init', 'porg_user_init');
 
  if (script_basename() != 'index') {
@@ -81,65 +81,6 @@ function porg_load_header()
     $template->parse('header_porg');
 }
 
-function porg_newsletter_add_methods($arr)
-{
-    $service = &$arr[0];
- 
-    $service->addMethod(
-        'porg.newsletters.seemore',
-        'ws_porg_newsletters_seemore',
-        array(
-            'start' =>  array(),
-            'count' =>  array(),
-        ),
-        'Show more newsletters'
-    );
-}
- 
-function ws_porg_newsletters_seemore($params, &$service) {
-    global $template, $lang_info, $newsletters_nbr;
- 
-    include(PORG_PATH . "data/newsletters.data.php");
- 
-    $lang_newsletters = array();
-    foreach ($newsletters as $language => $newsletters_content)
-    {
-        if ($language == $lang_info['code'])
-        {
-            $lang_newsletters = $newsletters_content;
-            foreach ($lang_newsletters as $date => $newsletters_content) 
-            {
-                $timestamp = strtotime($date);
-                if ($language == 'en')
-                {
-                    $date_formated = date("F jS, Y", $timestamp);
-                }
-                if ($language == 'fr')
-                {
-                    $date_formated = format_date($timestamp, array('day', 'month', 'year'));
-                }
-                $lang_newsletters[$date_formated] = $lang_newsletters[$date];
-                unset($lang_newsletters[$date]);
-            }
-            break;
-        }
-    }
-
-    $start = $params['start'];
-    $count = $params['count'];
-
-    $lang_newsletters = array_slice($lang_newsletters, $start, $count);
-    $template->set_filenames(array('page_porg' => realpath(PORG_PATH .'template/newsletters_articles.tpl')));
-    $template->assign(
-        array(
-            'newsletters' => $lang_newsletters,
-        )
-    );
-    $template->parse('page_porg');
-    $template->p();
-}
-
-
 add_event_handler('init', 'porg_load_content');
 function porg_load_content()
 {
@@ -163,9 +104,11 @@ function porg_load_content()
     else
     {
         $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . 'home.tpl')));
+        $image = get_showcases();
     }
     $template->assign(array(
         'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
+        'SHOWCASES' => isset($image) ? $image : null,
     ));
     $template->parse('porg_page');
 }

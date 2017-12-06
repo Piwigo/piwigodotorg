@@ -1,3 +1,25 @@
+{literal}
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.btn-refresh .refresh-showcases').click(function() {
+      var $start = $(".newsletter-content").length;
+      $.ajax({
+        type: "GET",
+        url: "ws.php",
+        dataType: "html",
+        data: {
+          method: "porg.home.refresh_showcases",
+        },
+        success: function(html) {
+          $(".showcases-content").remove();
+          $(".showcases-home").append(html);
+        },
+      });
+    });
+});
+</script>
+{/literal}
+
   <section class="pwg-banner container-fluide">
       <div class="container">
         <div class="pwg-tagline col-md-9 col-xs-12">
@@ -144,17 +166,10 @@
           <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.showcases}">View more Showcases</a>
       </div>
       <div class="col-md-2 col-xs-6 btn-refresh">
-          <a href="#"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
+          <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
       </div>
-      <div class="col-md-4 col-xs-12">
-        <div class="showcase">
-          <a href="http://guillaumecyriaque.be/"><img src="http://piwigo.org/showcase/_data/i/upload/2013/06/16/20130616200148-d752544a-me.jpg" alt="A Piwigo gallery"></a>
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <div class="showcase">
-          <a href="http://www.yvonneschleicher.de/"><img src="http://piwigo.org/showcase/_data/i/upload/2012/11/06/20121106023625-d752544a-me.jpg" alt="A Piwigo gallery"></a>
-        </div>
+      <div class="showcases-home">
+        {include file='template/home_showcases.tpl'}
       </div>
     </div>
   </section>
