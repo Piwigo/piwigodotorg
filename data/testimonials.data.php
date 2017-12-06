@@ -18,6 +18,22 @@ Les plugins pour améliorer la gestion sont d\'une facilité à utiliser. Je m\'
   ),
 
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Jean-Pierre Pascaud',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/writer.png',
+    ),
+    'content' => '
+Utilisateur de Piwigo depuis 2011, je suis en ce moment en pleine refonte de mon espace. Ce que j\'aime c\'est la possibilité de montrer ses images à qui l\'on veut,avec les droits soit sur les albums, soit sur les utilisateurs. Ça donne vraiment une grande liberté d\'action. Comme ça je peux mettre mes photos de familles et ne les montrer qu\'à ma famille.
+
+Les plugins pour améliorer la gestion sont d\'une facilité à utiliser. Je m\'en suis servi pendant un temps pour vendre mes images, mais j\'ai arrêté, ça me donnait trop de travail, j\'ai 72 ans et je suis à la retraite ! le choix des thèmes faciles à installer (1 clic) c\'est génial ! merci et longue vie à vous!
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-05',
     'user' => array(
@@ -244,17 +260,13 @@ Longue vie à Piwigo.',
       'picture' => 'images/testimonies/Man-9-.svg',
     ),
     'content' => '
-I\'ve tried other platforms before and found myself limited by either being restricted to a single brand of computer/tablet/phone equipment, or by not being able to define myself the access rules for different groups of people, or spammed by so called community experts with their unsolicited comments, or by giving away my copyright on my pictures on social media.
+I\'ve tried other platforms before and found myself limited by either being restricted to a single brand of computer/tablet/phone equipment, or by not being able to define myself the access rules.
 
-Then I found Piwigo. I like the fact it is Open Source, but I opted for Piwigo.com so I can concentrate on using Piwigo without the hassle of running a server at home and taking care of upgrades and backups (and yes, I also keep a backup of all my pictures somewhere else).
+Then I found Piwigo. It is accessible on all platforms, so when I upload new pictures, I can tell my mom to have a look and although she is 94, she can use her tablet to immediately look at the new pictures. Family, colleagues and other people have separate groups so I can share what I want with who I want. And there is no need for them to belong to any social media.
 
-It is accessible on all platforms, so when I upload new pictures, I can tell my mom to have a look and although she is 94, she can use her tablet to immediately look at the new pictures. Family, colleagues and other groups of people have separate groups so I can share what I want with who I want. I also give individual access to certain people which I consider real close friends. No need for those people to belong to any social media.
-
-I decide if comments are allowed or not, I decide if comments should be published or not. I do not allow the download of a picture, and if you take a screenshot the pictures will carry a copyright mention. I like the calendar view, and yes I have images dating back to the year 1720, in order to sort out scans with genealogy data. With Piwigo I am in control, while other platforms were trying to control me.
+I like the calendar view, and yes I have images dating back to the year 1720, in order to sort out scans with genealogy data. With Piwigo I am in control, while other platforms were trying to control me.
 
 I like to be in control, that\'s why I like Piwigo.
-
-Some stats: over 10 K pictures, 207 albums, 15 users, 7 groups, 77 K pages seen, 41.3 GB used, first photo added 2 years ago.
 ',
   ),
 
