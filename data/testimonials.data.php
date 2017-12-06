@@ -2,6 +2,22 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Alain',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-1.svg',
+    ),
+    'content' => '
+J\'ai installé ma gallery  sur mon serveur Raspberry avec un accès depuis le net. Ca fonctionne à merveille !
+
+J\'ai commencé il y a 12 ans avec PhpWebGallery et je suis devenu accro à Piwigo ! Bravo !
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-05',
     'user' => array(
