@@ -14,14 +14,15 @@ define('PORG_PATH', PHPWG_PLUGINS_PATH . PORG_ID . '/');
 
 // we put these handlers "before" the test on index page (and the return) because
 // whatever the page, we want to execute them
-include(PORG_PATH . 'include/functions_ws_porg.php');
+add_event_handler('ws_add_methods', 'porg_add_methods');
 add_event_handler('user_init', 'porg_user_init');
+
+include(PORG_PATH . 'include/functions_piwigodotorg.php');
+include(PORG_PATH . 'include/functions_ws_porg.php');
 
  if (script_basename() != 'index') {
     return;
  }
-
-include(PORG_PATH . 'include/functions_piwigodotorg.php');
 
 // adapt language depending on url
 function porg_user_init()
@@ -56,6 +57,28 @@ function porg_user_init()
 add_event_handler('init', 'porg_lang_init');
 function porg_lang_init() {
     load_language('plugin.lang', PORG_PATH);
+}
+
+/* Add ws_methods */
+function porg_add_methods($arr)
+{
+    $service = &$arr[0];
+
+    $service->addMethod(
+        'porg.newsletters.seemore',
+        'ws_porg_newsletters_seemore',
+        array(
+            'start' =>  array(),
+            'count' =>  array(),
+        ),
+        'Show more newsletters'
+    );
+    $service->addMethod(
+        'porg.home.refresh_showcases',
+        'ws_porg_home_refresh_showcases',
+        null,
+        'Refresh showcases thumbnail'
+    );
 }
 
 /* Load Piwigo.org header */

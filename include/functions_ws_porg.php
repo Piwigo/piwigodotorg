@@ -1,21 +1,5 @@
 <?php
 
-add_event_handler('ws_add_methods', 'porg_newsletter_add_methods');
-function porg_newsletter_add_methods($arr)
-{
-    $service = &$arr[0];
- 
-    $service->addMethod(
-        'porg.newsletters.seemore',
-        'ws_porg_newsletters_seemore',
-        array(
-            'start' =>  array(),
-            'count' =>  array(),
-        ),
-        'Show more newsletters'
-    );
-}
- 
 function ws_porg_newsletters_seemore($params, &$service) {
     global $template, $lang_info, $newsletters_nbr;
  
@@ -59,41 +43,11 @@ function ws_porg_newsletters_seemore($params, &$service) {
     $template->p();
 }
 
-add_event_handler('ws_add_methods', 'porg_home_add_methods');
-function porg_home_add_methods($arr)
-{
-    $service = &$arr[0];
- 
-    $service->addMethod(
-        'porg.home.refresh_showcases',
-        'ws_porg_home_refresh_showcases',
-        null,
-        'Refresh showcases thumbnail'
-    );
-}
-
 function ws_porg_home_refresh_showcases($params, &$service) 
 {
     global $lang_info, $template;
 
-    $cache_path = '_data/homepage-showcases-piwigo.com.php';
-    if (!file_exists(dirname($cache_path)))
-    {
-        mkdir(dirname($cache_path));
-    }
-    $url = 'http://'.$lang_info['code'].'.piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
-    $content = @file_get_contents($url);
-    if ($content !== false) 
-    {
-        $result = unserialize($content);
-        file_put_contents($cache_path, serialize($result['result']['images']));
-    }
-    $image = unserialize(file_get_contents($cache_path));
-    $rand_key = array_rand($image, 2);
-
-    $final_image[0] = $image[$rand_key[0]];
-    $final_image[1] = $image[$rand_key[1]];
-
+    $final_image = get_showcases();
     $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . 'home_showcases.tpl')));
     $template->assign(array(
         'SHOWCASES' => isset($final_image) ? $final_image : null,

@@ -30,29 +30,25 @@ function set_porg_url() {
 
 function get_showcases()
 {
-    global $lang_info;
+    global $lang_info, $conf;
 
-    $cache_path = '_data/homepage-showcases-piwigo.com.php';
-    if (!file_exists(dirname($cache_path)))
-    {
-        mkdir(dirname($cache_path));
-    }
+    $cache_path = $conf['data_location'].'showcases.cache.php';
     if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 hour ago'))
     {
-        $url = 'http://'.$lang_info['code'].'.piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
+        $url = 'http://piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
         $content = @file_get_contents($url);
         if ($content !== false)
         {
             $result = unserialize($content);
             file_put_contents($cache_path, serialize($result['result']['images']));
         }
-  }
-  $image = unserialize(file_get_contents($cache_path));
-  $rand_key = array_rand($image, 2);
+    }
+    $image = unserialize(file_get_contents($cache_path));
+    $rand_key = array_rand($image, 2);
 
-  $final_image[0] = $image[$rand_key[0]];
-  $final_image[1] = $image[$rand_key[1]];
-  return $final_image;
+    $final_image[0] = $image[$rand_key[0]];
+    $final_image[1] = $image[$rand_key[1]];
+    return $final_image;
 }
 
 ?>
