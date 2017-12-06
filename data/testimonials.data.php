@@ -2,6 +2,21 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Nigel Aves',
+      'country' => 'USA',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Rocker.svg',
+      'url' => 'https://gallery.soft-focus-imagining.com/',
+    ),
+    'content' => '
+ Just wanted to thank the development team behind the ever growing Piwigo community. Piwigo is easy to install, easy to learn and use, and most importantly gives a good user experience to visitors of your gallery site. Plus many well designed "plugins" to customize to a galleries need.
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
