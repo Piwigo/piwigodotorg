@@ -2,6 +2,24 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Sami Onur Zaim',
+      'country' => 'Turkey',
+      'type' => 'Professional',
+      'picture' => 'images/testimonies/photographer.png',
+    ),
+    'content' => '
+I have been using piwigo for 1 year. The feature in piwigo took my attention is I could create categories and let specific users access to them with a password so easily. So I could offer privacy to my clients with the ease of browsing that piwigo offers.
+
+I have over 5000 images in my piwigo system. One of the best thing is after you upload original files resizing to different sizes are done only once. Once file is resized it is cached and ready to be served from the disk.
+
+The mobile site is fantastic. I could show a gallery to anyone without teaching the interface. Mobile apps makes upload very easy.
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
