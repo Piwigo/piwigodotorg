@@ -3,6 +3,38 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Colette',
+      'country' => 'France',
+      'type' => 'Professional',
+      'picture' => 'images/testimonies/Woman-9.svg',
+    ),
+    'content' => '
+ Utilisatrice de Piwigo depuis 2013, j’avais vainement cherché avant un lieu où puissent se croiser différentes expressions. En effet, la photo est pour moi parfaitement complémentaire à l’écriture, son langage ne devrait pas être isolé ou se replier sur lui-même tant ses connexions avec la peinture et les autres arts est évidente. Malheureusement, je n’en ai pas trouvé, j’écris donc d’un côté, je mets mes photographies ailleurs. Cependant, Piwigo est pour la non-technicienne que je suis, et qui refuse surtout que la technique prenne le pas sur ce qu’on montre, est pour moi une solution très valorisante. Très simple d’utilisation, assez ergonomique, peu onéreuse, elle permet de toucher un grand nombre de gens même si un échange véritable autour de l’image ne s’opère pas vraiment.
+
+ Je précise que je suis auto entrepreneur, rédactrice et correctrice à mon compte et écrivain par ailleurs.
+',
+  ),
+
+
+  array(
+    'language' => 'en',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Wilfried',
+      'country' => 'Belgium',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/beer.png',
+      'url' => 'http://beerlabels.be/piwigo/',
+    ),
+    'content' => '
+ A longtime search for a suitable photo gallery brought me to Piwigo. This is the only gallery that gives a collector incredible help with the possibility of integrating an easy to use SEARCH engine into the collection of photo\'s.
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
       'username' => 'Daniel',
