@@ -101,7 +101,7 @@
           please report it here.</p>
         </div>
         <div class="col-md-4 text-center">
-          <a class="btn" href="{$PORG_ROOT}{$URL.contact}">Create a report</a>
+          <a class="btn" href="{$PORG_ROOT}{$URL.contact}&type=security">Create a report</a>
         </div>
       </div>
     </div>

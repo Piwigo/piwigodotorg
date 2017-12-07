@@ -21,10 +21,30 @@
         <div class="col-md-4 form-group">
           <p class="contact-category bold">Category</p>
           <span class="dropdown-el">
-            <input type="radio" name="sortType" value="Popularity" id="sort-best"><label for="sort-best">Press inquiry</label>
-            <input type="radio" name="sortType" value="PriceIncreasing" id="sort-low"><label for="sort-low">Partnership</label>
-            <input type="radio" name="sortType" value="PriceDecreasing" id="sort-high"><label for="sort-high">Security report</label>
-            <input type="radio" name="sortType" value="ProductBrand" id="sort-brand"><label for="sort-brand">Testimonial</label>
+
+            {if $category == 'press'}
+              <input type="radio" name="sortType" value="Popularity" id="sort-best" checked><label for="sort-best">Press inquiry</label>
+            {else}
+              <input type="radio" name="sortType" value="Popularity" id="sort-best"><label for="sort-best">Press inquiry</label>
+            {/if}
+
+            {if $category == 'partnership'}
+              <input type="radio" name="sortType" value="PriceIncreasing" id="sort-low" checked><label for="sort-low">Partnership</label>
+            {else}
+              <input type="radio" name="sortType" value="PriceIncreasing" id="sort-low"><label for="sort-low">Partnership</label>
+            {/if}
+
+            {if $category == 'security'}
+              <input type="radio" name="sortType" value="PriceDecreasing" id="sort-high" checked><label for="sort-high">Security report</label>
+            {else}
+              <input type="radio" name="sortType" value="PriceDecreasing" id="sort-high"><label for="sort-high">Security report</label>
+            {/if}
+
+            {if $category == 'testimonial'}
+              <input type="radio" name="sortType" value="ProductBrand" id="sort-brand" checked><label for="sort-brand">Testimonial</label>
+            {else}
+              <input type="radio" name="sortType" value="ProductBrand" id="sort-brand"><label for="sort-brand">Testimonial</label>              
+            {/if}
           </span>
         </div>
         <div class="col-md-12 form-group">
