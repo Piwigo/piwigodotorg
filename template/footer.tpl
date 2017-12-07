@@ -13,57 +13,57 @@
             <div class="row">
               <div class="col-md-12 col-xs-6">
                 <div class="footer-donate-content">
-                  <a type="button" class="btn" href="{$PORG_ROOT}{$URL.get_involved}"><img src="{$PORG_ROOT_URL}images/footer/donate.svg" alt="Donate to Piwigo"/>Donate</a>
+                  <a type="button" class="btn" href="{$PORG_ROOT}{$URL.get_involved}"><img src="{$PORG_ROOT_URL}images/footer/donate.svg" alt="Donate to Piwigo"/>{'Donate'|translate}</a>
                 </div>
               </div>
               <div class="col-md-12 col-xs-6">
                 <div class=" footer-newspaper-content">
-                  <a type="button" class="btn" href="{$PORG_ROOT}{$URL.newsletters}"><img src="{$PORG_ROOT_URL}images/footer/newsletters.svg" alt="Newsletter from Piwigo"/>Newsletter</a>
+                  <a type="button" class="btn" href="{$PORG_ROOT}{$URL.newsletters}"><img src="{$PORG_ROOT_URL}images/footer/newsletters.svg" alt="Newsletter from Piwigo"/>{'Newsletters'|translate}</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-8 equal footer-list">
             <div class="col-md-15 col-xs-6">
-              <h5>DISCOVER</h5>
+              <h5>{'DISCOVER'|translate}</h5>
                 <ul>
-                  <li><a href="http://piwigo.org/demo/">Demo</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.whatispiwigo}">What is Piwigo?</a> </li>
-                  <li><a href="{$PORG_ROOT}{$URL.features}">Features</a> </li>
-                  <li><a href="{$PORG_ROOT}{$URL.showcases}">Showcases</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.changelogs}">Changelogs</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.testimonials}">Testimonials</a></li>
+                  <li><a href="http://piwigo.org/demo/">{'Demo'|translate}</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.whatispiwigo}">{'What is Piwigo?'|translate}</a> </li>
+                  <li><a href="{$PORG_ROOT}{$URL.features}">{'Features'|translate}</a> </li>
+                  <li><a href="{$PORG_ROOT}{$URL.showcases}">{'Showcases'|translate}</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.changelogs}">{'Changelogs'|translate}</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>EXTENSION</h5>
+              <h5>{'EXTENSION'|translate}</h5>
                 <ul>
-                  <li><a href="{$PORG_ROOT}{$URL.extensions}">Themes</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.extensions}">Plugins</a> </li>
-                  <li><a href="{$PORG_ROOT}{$URL.extensions}">Langages</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.extensions}">{'Themes'|translate}</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.extensions}">{'Plugins'|translate}</a> </li>
+                  <li><a href="{$PORG_ROOT}{$URL.extensions}">{'Languages'|translate}</a></li>
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>SUPPORT</h5>
+              <h5>{'SUPPORT'|translate}</h5>
                 <ul>
-                  <li><a href="http://piwigo.org/forum/">Forum</a></li>
-                  <li><a href="http://piwigo.org/doc">Documentation</a> </li>
-                  <li><a href="{$PORG_ROOT}{$URL.get_started}">Getting Started</a></li>
+                  <li><a href="http://piwigo.org/forum/">{'Forum'|translate}</a></li>
+                  <li><a href="http://piwigo.org/doc">{'Documentation'|translate}</a> </li>
+                  <li><a href="{$PORG_ROOT}{$URL.get_started}">{'Get Started'|translate}</a></li>
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>ABOUT</h5>
+              <h5>{'ABOUT'|translate}</h5>
                 <ul>
-                  <li><a href="{$PORG_ROOT}{$URL.about_us}">About us</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.press}">Press</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.get_involved}">Get Involved</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.about_us}">{'About us'|translate}</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.press}">{'Press'|translate}</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved'|translate}</a></li>
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>NEWS</h5>
+              <h5>{'NEWS'|translate}</h5>
                 <ul>
-                  <li><a href="{$PORG_ROOT}{$URL.news}">What's new?</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.newsletters}">Newsletters</a> </li>
+                  <li><a href="{$PORG_ROOT}{$URL.news}">{'What\'s new?'|translate}</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.newsletters}">{'Newsletters'|translate}</a> </li>
                 </ul>
             </div>
           </div>
@@ -74,7 +74,7 @@
               </div>
               <div class="col-xs-12 footer-language">
                 <li class="dropdown active">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span> Language : Français</a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>{'Languages'|translate}</a>
                   <ul class="dropdown-menu">
                     <li><a href="#">English</a></li>
                     <li><a href="#">Español</a></li>
@@ -84,7 +84,7 @@
                 </li>
               </div>
               <div class="footer-contact col-md-12 col-xs-6">
-                <a href="{$PORG_ROOT}{$URL.contact}"><span class="glyphicon glyphicon-envelope"></span> contact</a>
+                <a href="{$PORG_ROOT}{$URL.contact}"><span class="glyphicon glyphicon-envelope"></span>{'Contact'|translate}</a>
               </div>
               <div class="footer-copyright col-md-12 col-xs-6">
                 <p>Piwigo.org ©<br>2002-2017</p>

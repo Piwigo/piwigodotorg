@@ -23,12 +23,12 @@ $(document).ready(function() {
   <section class="pwg-banner container-fluide">
       <div class="container">
         <div class="pwg-tagline col-md-9 col-xs-12">
-          <h1>Manage your photo collection with Piwigo</h1>
-          <p>Piwigo is open source photo gallery software for the web. Designed for organisations, teams and individuals.</p>
+          <h1>{'porg_home_title'|translate}</h1>
+          <p>{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
         </div>
         <div class="col-md-3 col-xs-12">
-          <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">Get Piwigo</a>
-          <p class="pwg-release-date"><i class="glyphicon glyphicon-fire"></i> v2.9.2, October 6th 2017</p>
+          <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
+          <p class="pwg-release-date"><i class="glyphicon glyphicon-fire"></i>v2.9.2 {'porg_home_release_date'|translate}</p>
         </div>
           <!--<div class="pwg-news col-md-1 col-xs-6">
             News
@@ -42,7 +42,7 @@ $(document).ready(function() {
   <div class="container-fluide container-organization">
     <div class="container">
       <div class="row text-center organization-title">
-        <p>Thousands of organizations and millions of individuals love using Piwigo</p>
+        <p>{'porg_home_organisation_title'|translate}</p>
       </div>
       <div class="equal text-center organization-content">
         <div class="col-md-3 col-xs-6">
@@ -65,18 +65,18 @@ $(document).ready(function() {
       <div class="row text-center fact-content">
         <div class="col-md-4">
           <img src="{$PORG_ROOT_URL}images/home/growth.svg"/>
-          <h1>High Volume</h1>
-          <p>Piwigo shines when it comes to classifying thousands or even hundreds of thousands of photos.</p>
+          <h1>{'High Volume'|translate}</h1>
+          <p>{'porg_home_high_volume_desc'|translate}</p>
         </div>
         <div class="col-md-4">
           <img src="{$PORG_ROOT_URL}images/home/diploma.svg"/>
-          <h1>Sustainable</h1>
-          <p>Born in 2002, Piwigo has been supporting its users for more than 15 years. Always evolving!</p>
+          <h1>{'Sustainable'|translate}</h1>
+          <p>{'porg_home_sustainable_desc'|translate}</p>
         </div>
         <div class="col-md-4">
           <img src="{$PORG_ROOT_URL}images/home/code.svg"/>
-          <h1>Open Source</h1>
-          <p>Source code is available, editable, auditable and extendable thanks to plugins and themes.</p>
+          <h1>{'Open Source'|translate}</h1>
+          <p>{'porg_home_open_source_desc'|translate}</p>
         </div>
       </div>
       <div class="row homepage-batch-manager-image">
@@ -84,7 +84,7 @@ $(document).ready(function() {
       </div>
       <div class="row text-center btn-know-content">
         <div class="col-md-12">
-          <a class="btn btn-know-more" href="{$PORG_ROOT}{$URL.features}">Start discovering Piwigo</a>
+          <a class="btn btn-know-more" href="{$PORG_ROOT}{$URL.features}">{'Start discovering Piwigo'}</a>
         </div>
       </div>
     </div>
@@ -94,45 +94,45 @@ $(document).ready(function() {
       <div class="row text-center">
         <div class="col col-md-3 col-xs-6 feature-content">
           <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/web.svg" alt="A piwigo feature"><br>
-          <p>Albums Hierarchy</p></a>
+          <p>{'Albums Hierarchy'|translate}</p></a>
         </div>
         <div class="col col-md-3 col-xs-6 feature-content">
           <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/batch.svg" alt="A piwigo feature"><br>
-          <p>Batch Management</p></a>
+          <p>{'Batch Management'|translate}</p></a>
         </div>
         <div class="col col-md-3 col-xs-6 feature-content">
           <a href="{$PORG_ROOT}{$URL.extensions}"><img src="{$PORG_ROOT_URL}images/home/paint-brush.svg" alt="A piwigo feature"><br>
-          <p>Themes &amp; Plugins</p></a>
+          <p>{'Themes & Plugins'|translate}</p></a>
         </div>
         <div class="col col-md-3 col-xs-6 feature-content">
           <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/lock.svg" alt="A piwigo feature"><br>
-          <p>Permissions Control</p></a>
+          <p>{'Permissions Control'|translate}</p></a>
         </div>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="title-user">
-      <p>Who are Piwigo users?</p>
+      <p>{'Who are Piwigo users?'|translate}</p>
     </div>
     <div class="row text-center">
       <div class="col col-md-15 piwigo-individual">
         <img src="{$PORG_ROOT_URL}images/home/individual.svg" alt="Piwigo individuals">
-        <p>Individuals<p>
+        <p>{'Individuals'|translate}<p>
       </div>
       <div class="col col-md-15 piwigo-arrow">
         <img src="{$PORG_ROOT_URL}images/home/arrow1.svg" alt="Piwigo arrow1">
       </div>
       <div class="col col-md-15 piwigo-professional">
         <img src="{$PORG_ROOT_URL}images/home/professional.svg" alt="Piwigo professional">
-        <p>Professionals<p>
+        <p>{'Professionals'|translate}<p>
       </div>
       <div class="col col-md-15 piwigo-arrow">
         <img src="{$PORG_ROOT_URL}images/home/arrow2.svg" alt="Piwigo professional">
       </div>
       <div class="col col-md-15 piwigo-organization">
         <img src="{$PORG_ROOT_URL}images/home/organisations.svg" alt="Piwigo Organization">
-        <p>Organisations<p>
+        <p>{'Organisations'|translate}<p>
       </div>
     </div>
     <div class="row row-advice">
@@ -163,7 +163,7 @@ $(document).ready(function() {
   <section class="container container-showcase">
     <div class="row text-center">
       <div class="col-md-2 col-xs-6 showcase-button">
-          <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.showcases}">View more Showcases</a>
+          <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.showcases}">{'View more showcases'|translate}</a>
       </div>
       <div class="col-md-2 col-xs-6 btn-refresh">
           <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
@@ -178,9 +178,9 @@ $(document).ready(function() {
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1>Get started with Piwigo</h1>
-          <p>Ready to start managing your photos with Piwigo? Join our community!</p>
-          <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">Get Piwigo</a>
+          <h1>{'Get started with Piwigo'|translate}</h1>
+          <p>{'porg_get_started_desc'|translate}</p>
+          <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">{'Get Piwigo'|translate}</a>
         </div>
       </div>
     </div>

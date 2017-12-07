@@ -36,41 +36,41 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{$PORG_ROOT_URL}"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="{$PORG_ROOT_URL}"><span class="glyphicon glyphicon-home"></span>{'Home'|translate}</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>  Discover <span class="glyphicon glyphicon-triangle-bottom"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>  {'Discover'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
           <ul class="dropdown-menu dropdown-menu-left">
-            <li><a href="{$PORG_ROOT}{$URL.whatispiwigo}">What is Piwigo?</a></li>
-            <li><a href="{$PORG_ROOT}{$URL.features}">Features</a></li>
-            <li><a href="{$PORG_ROOT}{$URL.changelogs}">Changelogs</a></li>
-            <li><a href="{$PORG_ROOT}{$URL.testimonials}">Testimonials</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.whatispiwigo}">{'What is Piwigo?'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.features}">{'Features'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.changelogs}">{'Changelogs'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>
           </ul>
         </li>
-        <li class=""><a href="{$PORG_ROOT}{$URL.extensions}"><i class="icon-puzzle"></i>Extensions</a></li>
+        <li class=""><a href="{$PORG_ROOT}{$URL.extensions}"><i class="icon-puzzle"></i>{'Extensions'|translate}</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-wrench"></span> Support <span class="glyphicon glyphicon-triangle-bottom"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-wrench"></span>{'Support'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
           <ul class="dropdown-menu dropdown-menu-left">
-            <li><a href="{$PORG_ROOT}{$URL.get_started}">Get Started</a></li>
-            <li><a href="http://piwigo.org/forum/">Forum</a></li>
-            <li><a href="http://piwigo.org/doc/">Documentation</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-info-sign"></span> About <span class="glyphicon glyphicon-triangle-bottom"></span></a>
-          <ul class="dropdown-menu dropdown-menu-left">
-            <li><a href="{$PORG_ROOT}{$URL.about_us}">About us</a></li>
-            <li><a href="{$PORG_ROOT}{$URL.press}">Press</a></li>
-            <li><a href="{$PORG_ROOT}{$URL.get_involved}">Get Involved</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.get_started}">{'Get Started'|translate}</a></li>
+            <li><a href="http://piwigo.org/forum/">{'Forum'|translate}</a></li>
+            <li><a href="http://piwigo.org/doc/">{'Documentation'|translate}</a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-comment"></span> News <span class="glyphicon glyphicon-triangle-bottom"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-info-sign"></span> {'About'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
           <ul class="dropdown-menu dropdown-menu-left">
-            <li><a href="{$PORG_ROOT}{$URL.news}">Latest news</a></li>
-            <li><a href="{$PORG_ROOT}{$URL.newsletters}">Newsletter</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.about_us}">{'About us'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.press}">{'Press'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved'|translate}</a></li>
           </ul>
         </li>
-        <li class="pwg-navbar-button"><a href="http://piwigo.org/demo/" class="pwg-navbar-button-demo"><span>Demo</span></a><a href="{$PORG_ROOT}{$URL.get_piwigo}" class="pwg-navbar-button-get-piwigo"><span>Get Piwigo</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-comment"></span> {'News'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
+          <ul class="dropdown-menu dropdown-menu-left">
+            <li><a href="{$PORG_ROOT}{$URL.news}">{'Latest news'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.newsletters}">{'Newsletters'|translate}</a></li>
+          </ul>
+        </li>
+        <li class="pwg-navbar-button"><a href="http://piwigo.org/demo/" class="pwg-navbar-button-demo"><span>{'Demo'|translate}</span></a><a href="{$PORG_ROOT}{$URL.get_piwigo}" class="pwg-navbar-button-get-piwigo"><span>{'Get Piwigo'|translate}</span></a></li>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
