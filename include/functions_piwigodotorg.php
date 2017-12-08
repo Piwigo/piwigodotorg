@@ -35,7 +35,15 @@ function get_showcases()
     $cache_path = $conf['data_location'].'showcases.cache.php';
     if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 hour ago'))
     {
-        $url = 'http://piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
+        if ($lang_info['code'] != 'en')
+        {
+            $url = 'http://' . $lang_info['code'] . '.piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
+        }
+        else
+        {
+            $url = 'http://piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
+        }
+
         $content = @file_get_contents($url);
         if ($content !== false)
         {
