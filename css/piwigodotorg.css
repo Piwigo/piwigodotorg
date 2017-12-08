@@ -4859,6 +4859,11 @@ label {
     padding-right: 20px;
  }
 
+ .piwigo-press-articles img {
+    width: 100%;
+    height: auto;
+ }
+
  .piwigo-press-articles h1 {
     font-size: 24px;
  }
