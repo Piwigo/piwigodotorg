@@ -273,6 +273,13 @@
   content: '';
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        margin-top: 0px;
+        padding-top: 5px;
+    }
+}
+
 /* Boostrap change Navbar collapse sooner than 768px */
 
 @media (min-width: 768px) and (max-width: 991px) {
