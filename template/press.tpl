@@ -64,32 +64,21 @@
 
   <section class="container">
     <div class="row row-press-articles">
+      {foreach from=$press key=press_date item=press_content}
       <div class="col-md-12 col-xs-12 equal">
         <div class="piwigo-press-articles">
           <div class="col-md-3 col-xs-12">
-            <img src="{$PORG_ROOT_URL}images/press/img_article.svg" alt="A press logo"/>
+            <img src="{$press_content.article.image}" alt="A press logo"/>
           </div>
           <div class="col-md-9 col-xs-12">
-            <h1>Piwigo, Lorem ipsum dolor sit amet, consectetur adipiscing elit..</h1>
-            <p><span>October 18th, 2017</span></p>
-            <p>Proin neque felis, ultrices at accumsan eu, vulputate eu nisi. Ut porta suscipit diam, ut eleifend lectus scelerisque a. Proin aliquam vulputate nisi, ut finibus neque placerat vitae. Nunc non nisl ut risus placerat elementum sit amet eu eros. Ut mattis tempor velit, a ornare nisl iaculis et...</p>
-            <a class="bold" href="#">Read article</a>
+            <h1>{$press_content.article.title}</h1>
+            <p><span>{$press_content.added_on}</span></p>
+            <p>{$press_content.article.content}</p>
+            <a class="bold" href="{$press_content.article.link}">Read article</a>
           </div>
         </div>
       </div>
-      <div class="col-md-12 col-xs-12 equal">
-        <div class="piwigo-press-articles">
-          <div class="col-md-3 col-xs-12">
-            <img src="{$PORG_ROOT_URL}images/press/img_article.svg" alt="A press logo"/>
-          </div>
-          <div class="col-md-9 col-xs-12">
-            <h1>Interdum et malesuada fames Piwigo ipsum primis in faucibus..</h1>
-            <p><span>18 Octobre 2017</span></p>
-            <p>Donec dignissim vehicula sapien bibendum porta. Pellentesque eu convallis est, nec congue quam. Donec vestibulum odio nec iaculis facilisis. Fusce eleifend eget justo in faucibus....</p>
-            <a class="bold" href="#">Read article</a>
-          </div>
-        </div>
-      </div>
+      {/foreach}
     </div>
   </section>
 
