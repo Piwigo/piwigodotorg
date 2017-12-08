@@ -38,5 +38,4 @@ $lang['Donate'] = 'Donate';
 $lang['Get started with Piwigo'] = 'Get started with Piwigo';
 $lang['porg_get_started_desc'] = 'Ready to start managing your photos with Piwigo? Join our community!';
 
-include('index.lang.php');
 ?>

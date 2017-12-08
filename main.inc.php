@@ -115,17 +115,23 @@ function porg_load_content()
         $porg_page = $_GET['porg'];
         $porg_page = str_replace('-', '_', $porg_page);
         $porg_pages = set_porg_url();
-        if (isset($porg_pages[$porg_page])) {
+        if (isset($porg_pages[$porg_page]))
+        {
             $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . $porg_page . '.tpl')));
-            if (file_exists(PORG_PATH . '/include/' . $porg_page . '.inc.php')) {
+            load_language($porg_page . '.lang', PORG_PATH);
+            if (file_exists(PORG_PATH . '/include/' . $porg_page . '.inc.php'))
+            {
                 include(PORG_PATH . '/include/' . $porg_page . '.inc.php');
             }
-        } else {
+        }
+        else
+        {
             $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/404.tpl')));
         }
     }
     else
     {
+        load_language('home.lang', PORG_PATH);
         $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . 'home.tpl')));
         $image = get_showcases();
     }

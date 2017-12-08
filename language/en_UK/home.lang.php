@@ -3,7 +3,6 @@
 $lang['porg_home_title'] = 'Manage your photo collection with Piwigo';
 $lang['porg_home_desc1'] = 'Piwigo is open source photo gallery software for the web.';
 $lang['porg_home_desc2'] = 'Designed for organisations, teams and individuals.';
-$lang['porg_home_release_date'] = 'October 6th 2017';
 $lang['porg_home_organisation_title'] = 'Thousands of organizations and millions of individuals love using Piwigo';
 $lang['High Volume'] = 'High Volume';
 $lang['porg_home_high_volume_desc'] = 'Piwigo shines when it comes to classifying thousands or even hundreds of thousands of photos.';
