@@ -3,6 +3,20 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-08',
+    'user' => array(
+      'username' => 'Christophe',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Boss-3.svg',
+    ),
+    'content' => '
+ Je m\'occupe d’un site de passeport vacance. Je cherchais une galerie photo sécurisé, ou seuls les parents peuvent aller voir. Au début c\'était un login commun pour tous puis après chacun le sien. Cela fait 3 ans que c\'est en place et j\'en suis ravi. J\'ai actuellement un peu de 5000 photos et plus de 100 parents enregistrés. J\'ai même quelques séquences vidéos.
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-06',
     'user' => array(
       'username' => 'Alain',
@@ -52,22 +66,6 @@ Les plugins pour améliorer la gestion sont d\'une facilité à utiliser. Je m\'
   ),
 
   array(
-    'language' => 'fr',
-    'added_on' => '2017-12-05',
-    'user' => array(
-      'username' => 'Jean-Pierre Pascaud',
-      'country' => 'France',
-      'type' => 'Individual',
-      'picture' => 'images/testimonies/writer.png',
-    ),
-    'content' => '
-Utilisateur de Piwigo depuis 2011, je suis en ce moment en pleine refonte de mon espace. Ce que j\'aime c\'est la possibilité de montrer ses images à qui l\'on veut,avec les droits soit sur les albums, soit sur les utilisateurs. Ça donne vraiment une grande liberté d\'action. Comme ça je peux mettre mes photos de familles et ne les montrer qu\'à ma famille.
-
-Les plugins pour améliorer la gestion sont d\'une facilité à utiliser. Je m\'en suis servi pendant un temps pour vendre mes images, mais j\'ai arrêté, ça me donnait trop de travail, j\'ai 72 ans et je suis à la retraite ! le choix des thèmes faciles à installer (1 clic) c\'est génial ! merci et longue vie à vous!
-',
-  ),
-
-  array(
     'language' => 'en',
     'added_on' => '2017-12-05',
     'user' => array(
@@ -86,7 +84,7 @@ Les plugins pour améliorer la gestion sont d\'une facilité à utiliser. Je m\'
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
-      'username' => 'Yann Aguillon',
+      'username' => 'Yann Aguillion',
       'country' => 'France',
       'type' => 'Individual',
       'picture' => 'images/testimonies/Rocker.svg',
