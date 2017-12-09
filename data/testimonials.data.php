@@ -5,6 +5,20 @@ $testimonials = array(
     'language' => 'fr',
     'added_on' => '2017-12-08',
     'user' => array(
+      'username' => 'Albert Richard',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Man-16.svg',
+    ),
+    'content' => '
+Je suis un utilisateur basique de Piwigo que j\'utilise depuis très longtemps, depuis le début et même avant lorsqu\'à l\'époque il se nommait PhpWebGallery (NDLR soit avant 2009). Il me sert à publier mes photographies sur Internet. J\'ai 9 galeries qui comportent au total 17.209 photographies.
+',
+  ),
+
+  array(
+    'language' => 'fr',
+    'added_on' => '2017-12-08',
+    'user' => array(
       'username' => 'Christophe',
       'country' => 'France',
       'type' => 'Organisation',
