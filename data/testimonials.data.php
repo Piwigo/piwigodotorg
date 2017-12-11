@@ -5,6 +5,25 @@ $testimonials = array(
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
+      'username' => 'Norbert Baudraz',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-1.svg',
+      'url' => 'http://equiphotos.ch/PWG/',
+    ),
+    'content' => '
+Tous mes remerciements à toute l\'équipe pour cette super galerie photo qu\'est Piwigo ! Je l\'utilise maintenant depuis plus de 11 ans pour gérer mon site equiphotos.ch, d\'abord avec PhpWebGallery, et maintenant Piwigo.
+
+Et je n\'ai jamais regretté mon choix de galerie photo, vu que mon site qui à la base avait juste pour but d\'héberger quelques photos, en gère maintenant plus de 240,000 sans aucune difficulté :-)
+
+J\'avais quelques craintes l\'année dernière quand je me suis décidé à enfin mettre à jour PhpWebGallery 1.7 directement en Piwigo 2.7, et malgré quelques petits problèmes à régler la mise à jour s\'est déroulée quasi sans difficulté !
+',
+  ),
+
+  array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
       'username' => 'Robin Moret',
       'country' => 'France',
       'type' => 'Individual',
