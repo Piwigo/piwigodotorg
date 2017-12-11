@@ -15,7 +15,7 @@
     <div class="row">
       <form>
         <div class="col-md-4 form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label for="exampleFormControlInput1">Your email address</label>
           <input type="email" class="form-control input-email" id="exampleFormControlInput1">
         </div>
         <div class="col-md-4 form-group">
@@ -28,7 +28,7 @@
           </span>
         </div>
         <div class="col-md-12 form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
+          <label for="exampleFormControlTextarea1">Your message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <div class="col-md-12">
