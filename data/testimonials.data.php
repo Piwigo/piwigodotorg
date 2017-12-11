@@ -5,6 +5,23 @@ $testimonials = array(
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
+      'username' => 'Robin Moret',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-16.svg',
+      'url' => 'http://photos.daedalum.org/',
+    ),
+    'content' => '
+Piwigo fourni une base très robuste que l\'on peut soit utiliser tel quelle, soit modifiée en utilisant des thèmes et des plugins disponibles en grand nombres, soit en la modifiant soi meme.
+
+Grâce à une extension de Lightroom, je peux directement uploader mes séries sur ma galerie sans passer par des logiciels FTP ou autre. La gestion des tags, des miniatures, des requêtes est très bonne et la communauté qui entoure Piwigo très active. Un must ! 
+',
+  ),
+
+  array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
       'username' => 'Jean-Michel Benoit',
       'country' => 'France',
       'type' => 'Individual',
