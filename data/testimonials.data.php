@@ -2,6 +2,20 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Bernard Ceurstemont',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Man-9-.svg',
+    ),
+    'content' => '
+J\'utilise Piwigo depuis 5 ans pour animer un club photo : outre une vitrine de photos visibles sur l\'Internet, une configuration particulière permet à chacun des 20 membres d\'avoir sa propre galerie consultable par tous les autres membres. Un outil précieux pour nos exercices de lecture photos.
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-05',
     'user' => array(
