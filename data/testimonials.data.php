@@ -3,6 +3,23 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Pierrot Rubira',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Man-14.svg',
+      'url' => 'http://p-rubira.com/galerie'
+    ),
+    'content' => '
+Je suis très satisfait de Piwigo  que j\'utilise sur mes sites p-rubira.com et saint-jory-rando-nature.com, depuis le tout début du temps où il s\'appelait PhpWebGallery. Il n\'est pas besoin d\'être informaticien pour l\'utiliser, les mises à jour sont automatiques. Le gestionnaire de l\'administration affiche 4,893 photos... 14,663 commentaires. Je l\'avais quelque temps avant dans un espace chez Free.
+
+Bravo et merci
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-06',
     'user' => array(
       'username' => 'Boris Ringenbach',
