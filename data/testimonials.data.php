@@ -2,6 +2,22 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Bogusław Swierczek',
+      'country' => 'Poland',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Boss-3.svg',
+    ),
+    'content' => '
+I\'d recommend this tool for those who want to create organisations\' galleries or for individual purposes.
+
+I found Piwigo simple and useful. I\'ve been using it for few years now. THe Piwigo Community is growing and it sounds very positively as well. Add-ons for more demanded users are in place. The platform is being developed and updated on regular basis. I\'ve already made few galleries with Piwigo.
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
