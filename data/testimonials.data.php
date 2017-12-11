@@ -5,6 +5,22 @@ $testimonials = array(
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
+      'username' => 'Jean-Michel Benoit',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-14.svg',
+    ),
+    'content' => '
+Photographe aérien amateur, j\'utilise depuis de nombreuses années ce logiciel de gestion de photos. J\'ai eu l\'occasion de mettre à jour plusieurs versions et de changer d\'hébergeur avec toujours la sécurité de pouvoir compter sur une équipe réactive en cas de problème. Les différents modules proposés par les contributeurs permettent de personnaliser l\'application. Je ne peux que la conseiller.
+
+Merci à toute l\'équipe
+',
+  ),
+
+  array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
       'username' => 'Bernard Ceurstemont',
       'country' => 'France',
       'type' => 'Organisation',
