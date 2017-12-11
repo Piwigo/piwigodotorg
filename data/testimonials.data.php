@@ -2,6 +2,23 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Thomas Feuster',
+      'country' => 'Germany',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-16.svg',
+      'url' => 'http://www.feuster.com/piwigo/',
+    ),
+    'content' => '
+I\'m using Piwigo now for 2 years now to host my private collection of about 9000 photos. For me its the perfect way to show my pictures since its 1) easy to use 2) comes with a number of plugins, themes, ... to adapt to my needs 3) gives me the chance to tweak things on a low level if I feel like it 4) has an active community with great support in case of questions.
+
+And of course its FREE to use!
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
