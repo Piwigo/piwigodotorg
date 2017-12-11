@@ -5,6 +5,20 @@ $testimonials = array(
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
+      'username' => 'François Peignier',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/writer.png',
+    ),
+    'content' => '
+Mon site photo est propulsé par piwigo depuis 2002 ou 2003, quelle simplicité par rapport aux pages en HTML d\'avant ! Merci à l\'équipe de Piwigo
+',
+  ),
+
+  array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
       'username' => 'Pierrot Rubira',
       'country' => 'France',
       'type' => 'Organisation',
