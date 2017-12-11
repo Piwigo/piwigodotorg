@@ -2,6 +2,25 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Jean-Daniel Gonon',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Man-1.svg',
+      'url' => 'https://photos.espoir-et-vie.net/',
+    ),
+    'content' => '
+Je gère (depuis 2.5 ans) un album avec sous-albums de presque 5000 photos pour une association : c\'est au top&nbsp;!
+
+J\'étais avant sur Google Picasa... Le fonctionnement et l\'administration de Piwigo sont beaucoup plus sympas, plus intéressants, personnalisables, clairs !! Aucun regret d\'avoir opté pour la solution Piwigo !
+
+Merci pour votre travail !
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-05',
     'user' => array(
