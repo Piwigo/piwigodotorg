@@ -3,6 +3,27 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-11',
+    'user' => array(
+      'username' => 'Benoît Rozec',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/basketball-jersey.png',
+      'url' => 'http://photos.planete-urb.com/phototheque/',
+    ),
+    'content' => '
+Membre d\'une association sportive de basket-ball de l\'équipe de Rennes planete-urb.com j\'ai mis en place Piwigo cette année pour gérer les nombreuses photos de notre équipe. J\'ai même injecté dans Piwigo les deux dernières saisons !
+
+Aujourd\'hui, il y a pas loin de 6000 photos en public, et 500 de plus en mode privé ! et ce n\'est pas fini. La gestion des albums et surtout des tags est un vrai plaisir, surtout pour retrouver facilement la photo qui va bien pour illustrer notre site Internet ou faire une affiche ou un flyer spécifique.
+
+L\'accès privé donne également un accès privilégié à notre graphiste qui peut ainsi récupérer les photos originales pour travailler dessus.
+
+Un grand merci à l\'équipe de Piwigo, et à tous les auteurs des plugins dans lesquels on peut piocher suivant nos besoins et trouver notre bonheur !
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
       'username' => 'Norbert Baudraz',
