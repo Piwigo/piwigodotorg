@@ -3,6 +3,23 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Boris Ringenbach',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-1.svg',
+    ),
+    'content' => '
+Piwigo est vraiment un système de gestion de photo génial! Je l\'utilise depuis 4 ans, il est très simple à utiliser et l\'ajout de fonctionnalités par plugin est aussi simple qu\'un simple clic.
+
+Je suis un particulier et j\'utilise Piwigo dans le cadre familial. Piwigo est d\'ailleurs installé sur un serveur dédié aux photos et je les partage avec ma famille sur le net (accès restreint). C\'est vraiment un outil très intéressant. Les mises à jour sont facile à appliquer.
+
+Bravo et merci à toute l\'équipe!',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-08',
     'user' => array(
       'username' => 'Albert Richard',
