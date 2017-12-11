@@ -16,7 +16,7 @@
     <div class="row">
       <button class="btn">Download Piwigo <?php echo $_GET["version"] ?></button>
       <p class="release-date"><i class="icon-dropbox"></i>Released the October 6th, 2017</p>
-      <a data-container="body" title="d7e64ca32cb1695762254aecae033181" data-toggle="popover" data-placement="bottom" data-content="The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.">md5sum</a>
+      <a href="#" title="d7e64ca32cb1695762254aecae033181" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.">md5sum</a>
       <p><i class="icon-info-circled"></i>The list of major changes is described on <span><a href="#">Piwigo 2.9.0</a></span> release note</p>
     </div>
   </section>
