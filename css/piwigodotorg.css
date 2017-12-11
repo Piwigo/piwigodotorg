@@ -1760,7 +1760,7 @@ and (max-device-width : 480px) {
     background-position: 75%;
 }
 
- .pwg-whats-news-elements button {
+ .pwg-whats-news-elements a {
     margin-top: 50px;
     background-color: #FFFFFF;
     border-radius: 0px;
@@ -1770,7 +1770,7 @@ and (max-device-width : 480px) {
     border: 1px solid #F46755;
 }
 
-.pwg-whats-news-elements button:hover {
+.pwg-whats-news-elements a:hover {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -1780,12 +1780,12 @@ and (max-device-width : 480px) {
     padding-bottom: 2px;
 }
 
- .pwg-whats-news button > span {
+ .pwg-whats-news a > span {
     color: #F46755;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .pwg-whats-news-elements button {
+    .pwg-whats-news-elements a {
         margin-top: 13.9%;
         margin-bottom: 13.9%;
     }
@@ -1803,7 +1803,7 @@ and (max-device-width : 480px) {
         background-image: none;
     }
 
-    .pwg-whats-news-elements button {
+    .pwg-whats-news-elements a {
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -5857,6 +5857,77 @@ label {
         padding-right: 30px;
     }
  }
+
+/******************************
+ * Piwigo coding-activity CSS *
+ ******************************/
+
+.container-fluid-coding-activity {
+    background-color: #F46755;
+}
+
+.container-fluid-coding-activity h1, .container-fluid-coding-activity p {
+    color: white;
+}
+
+.container-fluid-coding-activity p {
+    font-size: 20px;
+}
+
+.coding-activity-logo {
+    height: 165px;
+    background: url(../images/coding_activity/coding.svg);
+    background-size: 33%;
+    background-position: 66% -50%;
+    background-repeat: no-repeat;
+}
+
+.container-commit {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.day {
+    margin-bottom:30px;
+}
+
+.day-headline {
+    color: #FF7700;
+    font-size: 18px;
+}
+
+.commit {
+    margin-left: 20px;
+    margin-bottom: 0px;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-top: -1px;
+}
+
+.commit + .commit {
+    border-top: 1px solid transparent;
+}
+
+.commit p {
+    margin: 0;
+}
+
+.commit-headline {
+    font-size: 90%;
+}
+
+.commit-headline a {
+    color: #F46755;
+}
+
+.commit-message {
+    font-weight:bold;
+}
+
+.commit:hover {
+    border: 1px solid #FF7700;
+    border-collapse: collapse;
+}
 
 /***********************
  * Piwigo error404 CSS *

@@ -18,6 +18,7 @@ function set_porg_url() {
         'get_involved' => porg_get_page_url('get-involved'),
         'get_piwigo' => porg_get_page_url('get-piwigo'),
         'get_started' => porg_get_page_url('get-started'),
+        'coding_activity' => porg_get_page_url('coding-activity'),
         'news' => porg_get_page_url('news'),
         'newsletters' => porg_get_page_url('newsletters'),
         'press' => porg_get_page_url('press'),

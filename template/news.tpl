@@ -6,7 +6,7 @@
           <p>Find out about Piwigo latest news here. Upcoming events, new releases, beta versions and more...</p>
         </div>
         <div class="col-md-6 pwg-whats-news-elements text-right">
-          <button class="btn"><span class="bold"><img src="{$PORG_ROOT_URL}images/news/code.svg"/>Coding Activity</span></button>
+          <a href="{$PORG_ROOT}{$URL.coding_activity}" class="btn"><span class="bold"><img src="{$PORG_ROOT_URL}images/news/code.svg"/>Coding Activity</span></a>
         </div>
       </div>
     </div>
