@@ -2,6 +2,24 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Peter Preneas',
+      'country' => 'Australia',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-9-.svg',
+    ),
+    'content' => '
+I have been using Piwigo since April 2013 for a family photo album.
+
+It is so powerful, uses a tagging system to share photos across albums and is so easy to use.
+
+I love Piwigo.
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-12',
     'user' => array(
