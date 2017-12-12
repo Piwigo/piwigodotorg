@@ -3,6 +3,20 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-12',
+    'user' => array(
+      'username' => 'Jean Sailley',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/writer.png',
+    ),
+    'content' => '
+Depuis que j\'utilise Piwigo sur mon site, je vois la différence : un gain de temps appréciable et une facilité d\'utilisation. Je pratique la généalogie et mon site accueille presque 80 000 photos. C\'est génial !
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-11',
     'user' => array(
       'username' => 'Benoît Rozec',
