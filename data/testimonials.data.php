@@ -66,6 +66,7 @@ Grâce à une extension de Lightroom, je peux directement uploader mes séries s
       'country' => 'France',
       'type' => 'Individual',
       'picture' => 'images/testimonies/Man-14.svg',
+      'url' => 'http://jmbenoit.fr/',
     ),
     'content' => '
 Photographe aérien amateur, j\'utilise depuis de nombreuses années ce logiciel de gestion de photos. J\'ai eu l\'occasion de mettre à jour plusieurs versions et de changer d\'hébergeur avec toujours la sécurité de pouvoir compter sur une équipe réactive en cas de problème. Les différents modules proposés par les contributeurs permettent de personnaliser l\'application. Je ne peux que la conseiller.
