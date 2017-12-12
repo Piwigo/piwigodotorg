@@ -2,6 +2,22 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'JCL Vanier',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Man-1.svg',
+    ),
+    'content' => '
+J\'utilise trois instances de Piwigo depuis plusieurs années pour une association et dans le cadre privé. Les différents thèmes et greffons proposés permettent une personnalisation que je trouve suffisante sans avoir besoin d\'aller désosser le code. De plus, jusqu\'à maintenant, aucune mise à jour n’a planté et ça c\'est appréciable ;)
+
+Piwigo, j\'y go ! (j\'ai honte)
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-06',
     'user' => array(
