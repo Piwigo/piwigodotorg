@@ -5,6 +5,20 @@ $testimonials = array(
     'language' => 'en',
     'added_on' => '2017-12-06',
     'user' => array(
+      'username' => 'Allen Simpson',
+      'country' => 'USA',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-1.svg',
+    ),
+    'content' => '
+I discovered Piwigo after my parents died and left tens of thousands of slides and negatives that tracked the lives of their ten children from birth. The setup and organization has been simple and intuitive so many local and extended family members have found connections here. Say it: Amazing. Thank you. Thank you. Thank you.
+',
+  ),
+
+  array(
+    'language' => 'en',
+    'added_on' => '2017-12-06',
+    'user' => array(
       'username' => 'Peter Preneas',
       'country' => 'Australia',
       'type' => 'Individual',
