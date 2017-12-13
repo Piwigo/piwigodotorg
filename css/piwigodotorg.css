@@ -5602,12 +5602,12 @@ label {
     margin-bottom: 60px;
 }
 
-.container-bugs-fixed .row > h1 {
+.container-bugs-fixed .row .col-md-12 > h1 {
     color: #54616F;
     margin-bottom: 30px;
 }
 
-.container-bugs-fixed .row > h1 > i.icon-wrench {
+.container-bugs-fixed .row .col-md-12 > h1 > i.icon-wrench {
     margin-right: 15px;
 }
 
@@ -5617,8 +5617,12 @@ label {
 }
 
 .container-bugs-fixed .row .col-md-4 > h2 {
-    color: #FF7700;
     font-size: 20px;
+}
+
+.container-bugs-fixed .row .col-md-4 > h2 > a {
+    color: #FF7700;
+    text-decoration: none;
 }
 
 .container-bugs-fixed .row .col-md-4 > p {
