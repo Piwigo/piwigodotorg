@@ -2,6 +2,22 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Johann Mohin',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Rocker.svg',
+    ),
+    'content' => '
+Cela fait quelques années que j\'utilise Piwigo. J\'ai plein d\'amis et souvent nos rencontres ou retrouvailles sont forcément accompagnées de photos et de vidéos pour ne jamais oublier. Ce qui est facile, c\'est que je peux accorder des droits d\'accès aux albums à Pierre et Paul, mais pas spécialement à Jacques vu qu\'il ne les connait pas. Chaque visiteur avec accès peut télécharger les photos de son choix au format original.
+
+J\'invite tous les débutants à se lancer avec Piwigo, vu qu\'il n\'est pas nécessaire d\'avoir fait des études de programmations informatiques pour l\'installer sur son serveur, c\'est simple comme bonjour. Pour ma part, c\'est o2switch qui héberge mon Piwigo. Pour 60 euros par an, je peux placer autant de photos, de vidéos, et d\'albums Piwigo que je veux. (j\'en suis pour le moment à 32go) C\'est vraiment trop magique. Merci à tous les développeurs Piwigo.
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-11',
     'user' => array(
