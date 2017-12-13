@@ -5,6 +5,20 @@ $testimonials = array(
     'language' => 'en',
     'added_on' => '2017-12-11',
     'user' => array(
+      'username' => 'William R Oliver, MD',
+      'country' => 'USA',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/doctor.png',
+    ),
+    'content' => '
+I am writing to compliment you on your photograph organization software.  I am a pathologist, and I use this to organize photomicrographs for teaching and distribution to colleagues.  It is easy to use, easy to understand, requires minimal maintenance, and my colleague have no trouble getting what they need.  I appreciate having access to such a great product.
+',
+  ),
+
+  array(
+    'language' => 'en',
+    'added_on' => '2017-12-11',
+    'user' => array(
       'username' => 'John Anderson',
       'country' => 'Canada',
       'type' => 'Individual',
