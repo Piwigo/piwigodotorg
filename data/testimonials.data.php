@@ -2,6 +2,22 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-11',
+    'user' => array(
+      'username' => 'John Anderson',
+      'country' => 'Canada',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/maple-leaf.png',
+    ),
+    'content' => '
+I\'ve used Piwigo for my personal website on a Raspberry Pi for years. It is wonderful open source software. It allows family and friends to view our pictures and saves shipping them around by email.
+
+Keep up the good work team!
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-06',
     'user' => array(
