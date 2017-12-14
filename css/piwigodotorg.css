@@ -833,6 +833,7 @@
 
 .btn-refresh img {
     height: 45px;
+    cursor: pointer;
 }
 
 @media (max-width: 991px) {
