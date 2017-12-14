@@ -2,6 +2,20 @@
 
 $testimonials = array(
   array(
+    'language' => 'es',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Albert Parera',
+      'country' => 'España',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-1.svg',
+    ),
+    'content' => '
+ Gracias a Piwigo he podido gestionar, organizar y compartir a mi antojo toda mi galería de álbumes de fotos en función de mis necesidades. Y todo ello solo con unos pocos clics. Brutal!
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-10',
     'user' => array(
