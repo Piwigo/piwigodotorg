@@ -84,7 +84,7 @@ $(document).ready(function() {
       </div>
       <div class="row text-center btn-know-content">
         <div class="col-md-12">
-          <a class="btn btn-know-more" href="{$PORG_ROOT}{$URL.features}">{'Start discovering Piwigo'}</a>
+          <a class="btn btn-know-more" href="{$PORG_ROOT}{$URL.features}">{'Start discovering Piwigo'|translate}</a>
         </div>
       </div>
     </div>
