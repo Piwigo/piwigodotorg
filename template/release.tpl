@@ -18,7 +18,8 @@
       <p class="release-date"><i class="icon-dropbox"></i>Released the {$released_on}</p>
       <a href="#" title="{$md5sum}" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.">md5sum</a>
       {if $state == minor}
-        <p><i class="icon-info-circled"></i>The list of major changes is described on <span><a href="{$PORG_ROOT}{$URL.release}&version={$version_major}">Piwigo 2.9.0</a></span> release note</p>
+        <p><i class="icon-info-circled"></i>The list of major changes is described on <span><a href="{$PORG_ROOT}{$URL.release}&version={$version_major}">Piwigo
+        {$version_major}</a></span> release note</p>
       {/if}
     </div>
   </section>
@@ -95,7 +96,7 @@
       <h2>Updated langugages</h2>
       {foreach from=$updated_languages key=key item=language}
       <div class="col-md-3">
-        <p>{$language.lang}</p>
+        <p>{$language.lang} ({$language.nativ_lang})</p>
       </div>
       {/foreach}
       {/if}

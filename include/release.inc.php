@@ -67,7 +67,7 @@ if (isset($_GET['version']))
             $know_issue[] = array(
                 'id' => $issue_id,
                 'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue_id,
-                'label' => $lang['porg_issue_' . $issue_id],
+                'label' => isset($lang['porg_issue_' . $issue_id]) ? $lang['porg_issue_' . $issue_id] : null,
             );
         }
 
@@ -88,7 +88,8 @@ if (isset($_GET['version']))
         foreach ($updated_languages as $language)
         {
             $updated_language[] = array(
-                'lang' => $porg_languages[$language],
+                'lang' => $lang['language_' . $language],
+                'nativ_lang' => $porg_languages[$language],
             );
         }
 
@@ -103,7 +104,7 @@ if (isset($_GET['version']))
                 'updated_languages' => isset($updated_language) ? $updated_language : null,
                 'version' => $version,
                 'state' => $state,
-                'version_major' => $major,
+                'version_major' => isset($major) ? $major : null,
             )
         );
     }
