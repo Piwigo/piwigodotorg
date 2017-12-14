@@ -40,12 +40,14 @@ if (isset($_GET['version']))
 
         /* Get bugs issue */
         $bugs = $porg_releases[$version]['bugs'];
-        foreach ($bugs as $issue_id)
+        foreach ($bugs as $bug_content)
         {
+            $id = $bug_content['id'];
             $bug[] = array(
-                'id' => $issue_id,
-                'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue_id,
-                'label' => $lang['porg_issue_' . $issue_id],
+                'id' => $id,
+                'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $id,
+                'label' => stripslashes($lang['porg_issue_' . $id]),
+                'section' => isset($bug_content['section']) ? '/ ' . $bug_content['section'] : null,
             );
         }
 
@@ -56,7 +58,7 @@ if (isset($_GET['version']))
             $feature[] = array(
                 'id' => $issue_id,
                 'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue_id,
-                'label' => $lang['porg_issue_' . $issue_id],
+                'label' => stripslashes($lang['porg_issue_' . $issue_id]),
             );
         }
 
@@ -67,7 +69,7 @@ if (isset($_GET['version']))
             $know_issue[] = array(
                 'id' => $issue_id,
                 'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue_id,
-                'label' => isset($lang['porg_issue_' . $issue_id]) ? $lang['porg_issue_' . $issue_id] : null,
+                'label' => isset($lang['porg_issue_' . $issue_id]) ? stripslashes($lang['porg_issue_' . $issue_id]) : null,
             );
         }
 
