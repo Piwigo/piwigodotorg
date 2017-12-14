@@ -7,8 +7,8 @@
     define('PORG_PATH', PHPWG_PLUGINS_PATH . PORG_ID . '/');
 
     /* Include file for FetchRemote */
-    include('../../../admin/include/functions.php'); 
-    include('../../../include/functions_url.inc.php');
+    include(PHPWG_ROOT_PATH . 'admin/include/functions.php');
+    include(PHPWG_ROOT_PATH . 'include/functions_url.inc.php');
 
     global $lang;
 
@@ -47,6 +47,7 @@
         $id = $issue->{'number'};
         $title = $issue->{'title'};
         /* Get 'section' label */
+        $section = null;
         foreach ($issue->{'labels'} as $label)
         {
             $label_name = explode(':', $label->{'name'});
