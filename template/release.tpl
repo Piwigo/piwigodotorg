@@ -2,11 +2,11 @@
     <div class="container">
       <div class="equal">
         <div class="col-md-8">
-          <h1>Release note / Piwigo <?php echo $_GET["version"] ?></h1>
-          <p>Focus minor few features, bug fixes</p>
+          <h1>Release note / Piwigo {$version}</h1>
+          <p>{$summary}</p>
         </div>
         <div class="col col-md-4">
-          <span><?php echo $_GET["version"] ?></span>
+          <span>{$version}</span>
         </div>
       </div>
     </div>
@@ -14,10 +14,12 @@
 
   <section class="container container-download-release text-center">
     <div class="row">
-      <button class="btn">Download Piwigo <?php echo $_GET["version"] ?></button>
-      <p class="release-date"><i class="icon-dropbox"></i>Released the October 6th, 2017</p>
-      <a href="#" title="d7e64ca32cb1695762254aecae033181" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.">md5sum</a>
-      <p><i class="icon-info-circled"></i>The list of major changes is described on <span><a href="#">Piwigo 2.9.0</a></span> release note</p>
+      <button class="btn">Download Piwigo {$version}</button>
+      <p class="release-date"><i class="icon-dropbox"></i>Released the {$released_on}</p>
+      <a href="#" title="{$md5sum}" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.">md5sum</a>
+      {if $state == minor}
+        <p><i class="icon-info-circled"></i>The list of major changes is described on <span><a href="{$PORG_ROOT}{$URL.release}&version={$version_major}">Piwigo 2.9.0</a></span> release note</p>
+      {/if}
     </div>
   </section>
 
@@ -46,122 +48,76 @@
     </div>
   </section>
 
+  {if $bugs != null}
   <section class="container container-bugs-fixed">
-    <div class="row">
-      <h1><i class="icon-wrench"></i>Bugs fixed</h1>
-      <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002921 / Tags</h2>
-        <p>Can’t create tags with special chars
-        like (+[.<p>
+    <div class="row equal">
+      <div class="col-md-12">
+        <h1><i class="icon-wrench"></i>Bugs fixed</h1>
       </div>
+      {foreach from=$bugs key=key item=bug}
       <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002895 / Display</h2>
-        <p>Dark administration theme, plugin
-        menu flashes<p>
+        <h2><i class="icon-check"></i><a href="{$bug.url}">{$bug.id}</a></h2>
+        <p>{$bug.label}<p>
       </div>
-      <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002895 / Display</h2>
-        <p>Dark administration theme, plugin
-        menu flashes<p>
-      </div>
-      <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002925 / Synchronization</h2>
-        <p>Synchronization not really disabled.<p>
-      </div>
-      <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002907 / Albums</h2>
-        <p>Wrong number of sub-albums.<p>
-      </div>
-      <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002907 / Albums</h2>
-        <p>Wrong number of sub-albums.<p>
-      </div>
-      <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002894 / Albums</h2>
-        <p>et an album thumbnail on picture.php does not apply to all users.<p>
-      </div>
-      <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002917 / Web API</h2>
-        <p>If the photo is album thumbnail, blocking error on gallery.<p>
-      </div>
-      <div class="col-md-4">
-        <h2><i class="icon-check"></i>0002907 / Albums</h2>
-        <p>If the photo is album thumbnail, blocking error on gallery.<p>
-      </div>
+      {/foreach}
     </div>
   </section>
+  {/if}
 
+  {if $know_issues != null}
   <section class="container-fluide container-fluide-known-issues">
     <div class="container">
       <div class="row">
         <h1><i class="icon-attention"></i>Known issues</h1>
+        {foreach from=$know_issues key=key item=know_issue}
         <div class="col-md-12">
-          <h2><i class="icon-check-empty"></i>Issue #710</h2>
-          <p>Input parameter "redirect_decoded" is not valid, if you use a $conf['gallery_url'] custom setting</p>
+          <h2><i class="icon-check-empty"></i><a href="{$know_issue.url}">{$know_issue.id}</a></h2>
+          <p>{$know_issue.label}</p>
         </div>
-        <div class="col-md-12">
-          <h2><i class="icon-check-empty"></i>Issue #815</h2>
-          <p>Input parameter "redirect_decoded" is not valid, if you use a $conf['gallery_url'] custom setting</p>
-        </div>
+        {/foreach}
       </div>
     </div>
   </section>
+  {/if}
 
+  {if $news_languages != null || $updated_languages != null}
   <section class="container container-release-language">
     <div class="row">
       <h1><i class="icon-globe"></i>Languages</h1>
-      <p><i class="icon-plus-circled"></i>New language: Mongolian (Монгол хэл)</p>
+      {if $news_languages != null}
+      <p><i class="icon-plus-circled"></i>New language:
+        {$news_languages}
+      </p>
+      {/if}
     </div>
     <div class="row">
+      {if $updated_languages != null}
       <h2>Updated langugages</h2>
+      {foreach from=$updated_languages key=key item=language}
       <div class="col-md-3">
-        <p>Czech (Česky)</p>
-        <p>Persian (یسراف)</p>
-        <p>Kannada (fbekjsbvksjekv)</p>
-        <p>Slovak (Slovensky)</p>
+        <p>{$language.lang}</p>
       </div>
-      <div class="col-md-3">
-        <p>Danish (Dansk)</p>
-        <p>Finnish (Suomi)</p>
-        <p>Lithuanian (Lietuviq)</p>
-        <p>Slovenian (Slovenščina)</p>
-      </div>
-      <div class="col-md-3">
-        <p>Esperanto</p>
-        <p>Galician (Galego)</p>
-        <p>Portuguese Brazil (portguëses Brasil)</p>
-        <p>Turkish (Tûrkçe)</p>
-      </div>
-      <div class="col-md-3">
-        <p>Spanish (Español)</p>
-        <p>Italian (Italiano)</p>
-        <p>Russian (Русский)</p>
-        <p>Vietnamese (Tiếng Việt)</p>
-      </div>
+      {/foreach}
+      {/if}
     </div>
   </section>
+  {/if}
 
+  {if $features != null}
   <section class="container-fluide container-fluide-features-added">
     <div class="container">
       <div class="row">
         <h1><i class="icon-plus-circled"></i>Features added</h1>
+        {foreach from=$features key=key item=feature}
         <div class="col-md-4">
-          <h2><i class="icon-circle-thin"></i>0003053 / User &amp; Groups</h2>
-          <p>Display groups and privacy level in main
-          table</p>
+          <h2><i class="icon-circle-thin"></i><a href="{$feature.url}">{$feature.id}</a></h2>
+          <p>{$feature.label}</p>
         </div>
-        <div class="col-md-4">
-          <h2><i class="icon-circle-thin"></i>0003014 / Plugins</h2>
-          <p>Add event trigger ws_users_getList</p>
-        </div>
-        <div class="col-md-4">
-          <h2><i class="icon-circle-thin"></i>0003043 / Photos</h2>
-          <p>Add event to allow calculation of rating
-          score with a different algorithm</p>
-        </div>
+        {/foreach}
       </div>
     </div>
   </section>
+  {/if}
 
   <section class="container-fluide container-fluide-release-upgrade">
     <div class="container">
@@ -177,13 +133,13 @@
         </div>
         <div class="transfer-upgrade">
           <div class="col-md-8">
-            <p>If you're running <span class="bold">Piwigo 2.9.*</span> you can also download the <span class="bold">2.9.x_to_<?php echo $_GET["version"] ?>.zip</span>
+            <p>If you're running <span class="bold">Piwigo 2.9.*</span> you can also download the <span class="bold">2.9.x_to_{$version}.zip</span>
             archive that contains all new and modified files. Once you have extracted the
             files, transfer them onto your web server with a FTP client (like FileZilla) over your
             Piwigo 2.9.x installation. No database upgrade is required</p>
           </div>
           <div class="col-md-4">
-            <button class="btn">2.9.x_to_<?php echo $_GET["version"] ?>.ZIP</button>
+            <button class="btn">2.9.x_to_{$version}.ZIP</button>
           </div>
         </div>
         <div class="manual-upgrade">
