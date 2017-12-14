@@ -2,6 +2,21 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Kurt Schneider',
+      'country' => 'Suisse',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/mountain.png',
+      'url' => 'https://www.kurt-clindoeil.com',
+    ),
+    'content' => '
+J\'utilise Piwigo depuis 2011 pour mon site : facile à mettre en oeuvre et même de le personnaliser sois-même. Mes pages ont été vues plus de 265,000 fois et plus de 190,000 images ont été visualisées.
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-06',
     'user' => array(
