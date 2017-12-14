@@ -45,9 +45,26 @@
     foreach ($issues as $issue)
     {
         $id = $issue->{'number'};
-        $label = $issue->{'title'};
-        $language .= '$lang[\'porg_issue_'.$id.'\'] = \''.addslashes($label).'\';'."\n";
-        //echo '$lang[\'porg_issue_'.$id.'\'] = \''.$label.'\';'."</br>";
+        $title = $issue->{'title'};
+        /* Get 'section' label */
+        foreach ($issue->{'labels'} as $label)
+        {
+            $label_name = explode(':', $label->{'name'});
+            if ($label_name[0] == 'Section')
+            {
+                $section = $label_name[1];
+                break;
+            }
+        }
+        if (isset($section))
+        {
+            echo 'array(\'id\' => '.$id.', \'section\' => \''.$section.'\'),'."\n";
+        }
+        else
+        {
+            echo 'array(\'id\' => '.$id.'),'."\n";
+        }
+        $language .= '$lang[\'porg_issue_'.$id.'\'] = \''.addslashes($title).'\';'."\n";
     }
     $language .= "?>\n";
 
