@@ -3,6 +3,23 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-10',
+    'user' => array(
+      'username' => 'Reno Laithienne',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/reno-laithienne.jpg',
+      'url' => 'https://renolaithienne.fr/',
+    ),
+    'content' => '
+ Je tiens à témoigner toute ma gratitude et ma reconnaissance à Piwigo, sans qui l\'archiviste que je suis serait resté bien malheureux. Depuis 2007, je shoote ma vie, au jour le jour. Parfois une photo par jour, parfois cent en une soirée... En 2010, j\'ai ressenti la peur intrinsèque de perdre mes photos. Je cherchais donc une solution pour héberger mes photos sur un FTP de façon simple. Et c\'est là que Piwigo est entré dans ma vie, pour ne plus jamais en sortir. C\'est aujourd\'hui plus de 50000 photos que je gère, et malgré le nombre, la galerie reste fluide et les nombreux thèmes améliorent l\'interface selon vos goûts.
+
+ Piwigo, c\'est un peu le Wordpress de la photo.
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-06',
     'user' => array(
       'username' => 'Johann Mohin',
