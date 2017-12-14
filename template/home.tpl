@@ -6,13 +6,19 @@ $(document).ready(function() {
       $.ajax({
         type: "GET",
         url: "ws.php",
-        dataType: "html",
+        dataType: "json",
         data: {
           method: "porg.home.refresh_showcases",
+          format: "json",
         },
-        success: function(html) {
-          $(".showcases-content").remove();
-          $(".showcases-home").append(html);
+        success: function(response) {
+          var showcases = jQuery.parseJSON(response['result']);
+          $('.showcase1 a').attr("href", showcases[0].tags[0].page_url);
+          $('.showcase1 a').attr("title", showcases[0].name);
+          $('.showcase1 a img').attr("src", showcases[0].derivatives.xsmall.url);
+          $('.showcase2 a').attr("href", showcases[1].tags[0].page_url);
+          $('.showcase2 a').attr("title", showcases[1].name);
+          $('.showcase2 a img').attr("src", showcases[1].derivatives.xsmall.url);
         },
       });
     });
@@ -169,7 +175,16 @@ $(document).ready(function() {
           <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
       </div>
       <div class="showcases-home">
-        {include file='template/home_showcases.tpl'}
+        <div class="col-md-4 col-xs-12 showcases-content">
+          <div class="showcase showcase1">
+            <a href="{$SHOWCASES[0].tags[0].page_url}" title="{$SHOWCASES[0].name}"><img src="{$SHOWCASES[0].derivatives.2small.url}" alt="{$SHOWCASES[0].name}"></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 showcases-content">
+          <div class="showcase showcase2">
+            <a href="{$SHOWCASES[1].tags[0].page_url}" title="{$SHOWCASES[1].name}"><img src="{$SHOWCASES[1].derivatives.2small.url}" alt="{$SHOWCASES[1].name}"></a>
+          </div>
+        </div>
       </div>
     </div>
   </section>

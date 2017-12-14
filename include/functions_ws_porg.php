@@ -45,15 +45,8 @@ function ws_porg_newsletters_seemore($params, &$service) {
 
 function ws_porg_home_refresh_showcases($params, &$service) 
 {
-    global $lang_info, $template;
-
     $final_image = get_showcases();
-    $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . 'home_showcases.tpl')));
-    $template->assign(array(
-        'SHOWCASES' => isset($final_image) ? $final_image : null,
-    ));
-    $template->parse('porg_page');
-    $template->p();
+    return json_encode($final_image);
 }
 
 ?>
