@@ -5,6 +5,22 @@ $testimonials = array(
     'language' => 'en',
     'added_on' => '2017-12-06',
     'user' => array(
+      'username' => 'David K',
+      'country' => 'Australia',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/kangaroo.png',
+    ),
+    'content' => '
+ I was having increasing problems with Gallery3 because the support and development was effectively discontinued. I was able to move my then 15,000 photos in dozens of albums and sub-albums to Piwigo with a relatively small amount of effort and I am so pleased I did. In particular, I was able to move all the captions which did not want to retype!
+
+ Piwigo works well on a variety of web browsers, mobiles and tablets. I have since added several thousand more photos and another dozen albums. It is a wonderful product and solution.
+',
+  ),
+
+  array(
+    'language' => 'en',
+    'added_on' => '2017-12-06',
+    'user' => array(
       'username' => 'Jan Eijdenberg',
       'country' => 'The Netherlands',
       'type' => 'Individual',
