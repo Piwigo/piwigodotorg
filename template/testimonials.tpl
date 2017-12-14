@@ -21,7 +21,7 @@
           </div>
           <div class="equal pwg-testimonies-user">
             <div class="col-md-2 col-xs-2 pwg-testimonies-picture">
-              <a href="{$testimonials_content.user.url}"><img src="{$PORG_ROOT_URL}{$testimonials_content.user.picture}"/></a>
+              <a{if $testimonials_content.user.url != null} href="{$testimonials_content.user.url}" {/if}><img src="{$PORG_ROOT_URL}{$testimonials_content.user.picture}"/></a>
             </div>
             <div class="col-md-5 col-xs-5 pwg-testimonies-name">
               <p><span class="bold">{$testimonials_content.user.username}</span><br>{$testimonials_content.user.type}</p>
