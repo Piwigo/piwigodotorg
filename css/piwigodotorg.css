@@ -6093,6 +6093,10 @@ label {
     text-decoration: none;
 }
 
+.footer-list h5 {
+    text-transform: uppercase;
+}
+
 @media (max-width: 991px) {
     .footer-list {
         padding-bottom: 40px;

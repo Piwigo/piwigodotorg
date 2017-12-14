@@ -25,7 +25,7 @@
           </div>
           <div class="col-md-8 equal footer-list">
             <div class="col-md-15 col-xs-6">
-              <h5>{'DISCOVER'|translate}</h5>
+              <h5>{'Discover'|translate}</h5>
                 <ul>
                   <li><a href="http://piwigo.org/demo/">{'Demo'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.whatispiwigo}">{'What is Piwigo?'|translate}</a> </li>
@@ -36,7 +36,7 @@
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>{'EXTENSION'|translate}</h5>
+              <h5>{'Extension'|translate}</h5>
                 <ul>
                   <li><a href="{$PORG_ROOT}{$URL.extensions}">{'Themes'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.extensions}">{'Plugins'|translate}</a> </li>
@@ -44,7 +44,7 @@
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>{'SUPPORT'|translate}</h5>
+              <h5>{'Support'|translate}</h5>
                 <ul>
                   <li><a href="http://piwigo.org/forum/">{'Forum'|translate}</a></li>
                   <li><a href="http://piwigo.org/doc">{'Documentation'|translate}</a> </li>
@@ -52,7 +52,7 @@
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>{'ABOUT'|translate}</h5>
+              <h5>{'About'|translate}</h5>
                 <ul>
                   <li><a href="{$PORG_ROOT}{$URL.about_us}">{'About us'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.press}">{'Press'|translate}</a></li>
@@ -60,7 +60,7 @@
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>{'NEWS'|translate}</h5>
+              <h5>{'News'|translate}</h5>
                 <ul>
                   <li><a href="{$PORG_ROOT}{$URL.news}">{'What\'s new?'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.newsletters}">{'Newsletters'|translate}</a> </li>
