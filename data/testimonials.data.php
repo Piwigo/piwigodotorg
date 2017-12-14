@@ -2,6 +2,22 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Thomas B',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/palm-tree.png',
+    ),
+    'content' => '
+ De retour d\'un magnifique voyage en famille, il fallait trouver une façon de mettre en commun nos photos tout en facilitant la diffusion à nos amis. Étant libriste, peu désireux de partager ces photos avec les GAFAM et titulaire d\'un hébergement sur Internet, Piwigo s\'est avéré la solution parfaite ! Modulable à souhait, facile d\'utilisation...
+
+ Inutile de dire que pour le prochain voyage de ce type je connais déjà comment nous partagerons les photos :-).
+',
+  ),
+
+  array(
     'language' => 'es',
     'added_on' => '2017-12-05',
     'user' => array(
