@@ -117,7 +117,10 @@ function porg_load_content()
         $porg_pages = set_porg_url();
         if (isset($porg_pages[$porg_page]))
         {
-            $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . $porg_page . '.tpl')));
+            if (!getRelease($porg_pages, $porg_page))
+            {
+                $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . $porg_page . '.tpl')));
+            }
             load_language($porg_page . '.lang', PORG_PATH);
             if (file_exists(PORG_PATH . '/include/' . $porg_page . '.inc.php'))
             {
