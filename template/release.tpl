@@ -96,7 +96,7 @@
       <h2>Updated languages</h2>
       {foreach from=$updated_languages key=key item=language}
       <div class="col-md-3">
-        <p>{$language.lang} ({$language.nativ_lang})</p>
+        <p>{$language.lang} {if $language.lang != $language.nativ_lang} ({$language.nativ_lang}) {/if}</p>
       </div>
       {/foreach}
       {/if}
