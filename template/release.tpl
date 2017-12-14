@@ -93,7 +93,7 @@
     </div>
     <div class="row">
       {if $updated_languages != null}
-      <h2>Updated langugages</h2>
+      <h2>Updated languages</h2>
       {foreach from=$updated_languages key=key item=language}
       <div class="col-md-3">
         <p>{$language.lang} ({$language.nativ_lang})</p>
