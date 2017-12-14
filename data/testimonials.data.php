@@ -2,6 +2,27 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Jan Eijdenberg',
+      'country' => 'The Netherlands',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/eagle.png',
+      'url' => 'http://www.eijdenberg.nl/',
+    ),
+    'content' => '
+I have been using Piwigo since 2013. Before I had a website based on Adobe-Flash and I wanted something new and more organised. As open-source platform (and free of charge) Piwigo had all the good cards. The options that really convinced me were: easy to use, quickly upload your new photos, create password protected private albums, the search options, display the photos metadata, give your own personal touch to your site etc.
+
+At first I ran my website on my own server and tried to customise my site to my liking with the help of the numerous tools and plug-ins. But due my lack of knowledge in the PHP-language I move over to the Piwigo.com server. For me this suited a lot better, no maintenance for myself, just uploading my pictures, so I can spend more time with taking photos.
+
+Over the years I had some contact with the real programmers to help me out if I made a mess again. In the time my website was on my own server I used a lot of the support tools provided by Piwigo: the documentation, the forum and even direct e-mail contact. All very helpful.
+
+In other words a great and alive initiative.
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-06',
     'user' => array(
