@@ -2,6 +2,20 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-13',
+    'user' => array(
+      'username' => 'Robert M',
+      'country' => 'Canada',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Boss-3.svg',
+    ),
+    'content' => '
+ Piwigo is an amazing help. All the heavy lifting of transferring your photography to an online gallery is easily managed, along with so many advanced features: smart albums, tagging, searches, plug-ins, themes, resizing, downloads, watermarks, users, stats... go get it.
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-08',
     'user' => array(
