@@ -57,7 +57,7 @@ In other words a great and alive initiative.
     'language' => 'fr',
     'added_on' => '2017-12-06',
     'user' => array(
-      'username' => 'Thomas B',
+      'username' => 'Thomas Bury',
       'country' => 'France',
       'type' => 'Individual',
       'picture' => 'images/testimonies/palm-tree.png',
