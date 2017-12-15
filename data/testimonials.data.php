@@ -54,8 +54,8 @@ Une fois paramètré et le bon thème trouvé la gestion est d\'une extrème sim
     'language' => 'en',
     'added_on' => '2017-12-06',
     'user' => array(
-      'username' => 'Stefan E',
-      'country' => 'Saudi Arabia',
+      'username' => 'Ştefan-Liviu Ene',
+      'country' => 'Romania',
       'type' => 'Individual',
       'picture' => 'images/testimonies/Man-14.svg',
     ),
