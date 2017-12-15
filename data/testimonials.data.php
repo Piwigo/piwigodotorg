@@ -2,6 +2,24 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2017-12-06',
+    'user' => array(
+      'username' => 'Stefan E',
+      'country' => 'Saudi Arabia',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-14.svg',
+    ),
+    'content' => '
+I discovered Piwigo 3 years ago and, since the beginning, it was a pleasant surprise. I am using it for my private photos database on a Synology NAS, around 340 GB and 70.000 pics.
+
+Piwigo it works like a charm and it is very customizable. Due to NAS hardware limitations, I prefer to generate the thumbnails outside of Piwigo.
+
+Piwigo doesn\'t have a rival! Thank you, Piwigo Team!
+',
+  ),
+
+  array(
     'language' => 'fr',
     'added_on' => '2017-12-07',
     'user' => array(
