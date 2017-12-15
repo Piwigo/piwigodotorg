@@ -56,6 +56,9 @@ function porg_user_init()
 /* Load Piwigo.org language */
 add_event_handler('init', 'porg_lang_init');
 function porg_lang_init() {
+    /* Load en_UK translation */
+    load_language('plugin.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+    /* Load user language translation */
     load_language('plugin.lang', PORG_PATH);
 }
 
@@ -121,6 +124,9 @@ function porg_load_content()
             {
                 $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . $porg_page . '.tpl')));
             }
+            /* Load en_UK translation */
+            load_language($porg_page . '.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+            /* Load user language translation */
             load_language($porg_page . '.lang', PORG_PATH);
             if (file_exists(PORG_PATH . '/include/' . $porg_page . '.inc.php'))
             {

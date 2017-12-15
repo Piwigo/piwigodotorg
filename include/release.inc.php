@@ -10,6 +10,9 @@ if (isset($_GET['version']))
     $version = $_GET['version'];
     if (isset($porg_releases[$version]))
     {
+        /* Load en_UK translation*/
+        load_language('release-'.$version.'.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+        /* Load user translation */
         load_language('release-'.$version.'.lang', PORG_PATH);
 
         /* Major or minor release */
