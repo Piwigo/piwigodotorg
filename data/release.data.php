@@ -75,9 +75,9 @@ $porg_releases = array(
   ),
 
   '2.8.6' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2017-01-27',
+    'md5sum' => 'd866b89309c84618aaf90fb0da0bb2bd',
+    'summary' => array('bug fixes (including security)'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -88,9 +88,9 @@ $porg_releases = array(
   ),
 
   '2.8.5' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2017-01-01',
+    'md5sum' => '38ab182083e8e5ae6d5a51295305ae8b',
+    'summary' => array('security fixes'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -101,9 +101,9 @@ $porg_releases = array(
   ),
 
   '2.8.4' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2016-12-27',
+    'md5sum' => '93e075bf705dc7a7c0b995cdfd948674',
+    'summary' => array('security fix'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -114,9 +114,9 @@ $porg_releases = array(
   ),
 
   '2.8.3' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2016-11-22',
+    'md5sum' => 'da7d4fd93bca8dd2fdd7ca6782ed2a86',
+    'summary' => array('bug fixes (including security)'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -127,9 +127,9 @@ $porg_releases = array(
   ),
 
   '2.8.2' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2016-07-08',
+    'md5sum' => '0772c52bf56bf9424cf67402b8fed6db',
+    'summary' => array('bug fixes'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -140,9 +140,9 @@ $porg_releases = array(
   ),
 
   '2.8.1' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2016-05-04',
+    'md5sum' => '4aae0e462a0e7e5423832905001116f9',
+    'summary' => array('bug fixes (including security)'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -153,9 +153,9 @@ $porg_releases = array(
   ),
 
   '2.8.0' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2016-03-08',
+    'md5sum' => '93a9ce657b5f450d598d6d9d2482ce6e',
+    'summary' => array('Authentication keys', 'Multiple format', 'PHP 7'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -166,9 +166,9 @@ $porg_releases = array(
   ),
 
   '2.7.4' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2015-02-16',
+    'md5sum' => 'cd2954a9d9dd6879adc43d2bf289da3b',
+    'summary' => array('security bug fix, bug fixes'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -179,9 +179,9 @@ $porg_releases = array(
   ),
 
   '2.7.3' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2015-01-09',
+    'md5sum' => '97ef4d0ce4bbb1455d593a8c189654ee',
+    'summary' => array('security bug fix, bug fixes'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -192,9 +192,9 @@ $porg_releases = array(
   ),
 
   '2.7.2' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-11-21',
+    'md5sum' => 'c6625885619c7e1305c4f90945feb3a3',
+    'summary' => array('security bug fix, bug fixes'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -205,9 +205,9 @@ $porg_releases = array(
   ),
 
   '2.7.1' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-10-12',
+    'md5sum' => '9b490fafe7597d1cf124cacf2c07331f',
+    'summary' => array('bug fixes'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -218,9 +218,9 @@ $porg_releases = array(
   ),
 
   '2.7.0' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-09-24',
+    'md5sum' => '784a2707eb508588c4de6eff13aee595',
+    'summary' => array('HTML5 upload', 'Take a Tour plugin'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -231,9 +231,9 @@ $porg_releases = array(
   ),
 
   '2.6.5' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2015-01-09',
+    'md5sum' => '49590d10b636f8e349a9c1562b7272d5',
+    'summary' => array('security bug fix'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -244,9 +244,9 @@ $porg_releases = array(
   ),
 
   '2.6.4' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-11-21',
+    'md5sum' => 'a9a8cd3fd196f81be8cde2c4e878de48',
+    'summary' => array('security bug fix'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -257,9 +257,9 @@ $porg_releases = array(
   ),
 
   '2.6.3' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-06-11',
+    'md5sum' => '938077351c3e9b00303630e61b62ce46',
+    'summary' => array('bug fixes, security bug fix'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -270,9 +270,9 @@ $porg_releases = array(
   ),
 
   '2.6.2' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-03-25',
+    'md5sum' => '9dd404d282c5b9283b075b9f3898daf3',
+    'summary' => array('minor new features, bug fixes'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -283,9 +283,9 @@ $porg_releases = array(
   ),
 
   '2.6.1' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-01-24',
+    'md5sum' => '1f82ae4d2c7ba66d2ccdc369d2896fa6',
+    'summary' => array('bug fixes, security bug fix'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -296,9 +296,9 @@ $porg_releases = array(
   ),
 
   '2.6.0' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-01-17',
+    'md5sum' => '3e46cede814f74c2bf9af535868c6343',
+    'summary' => array('Mobile theme improved', 'New user manager', 'New mail system'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -309,9 +309,9 @@ $porg_releases = array(
   ),
 
   '2.5.6' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2015-01-09',
+    'md5sum' => 'd319811a46b8a6db9fec047eb46bf746',
+    'summary' => array('security bug fix'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -322,9 +322,9 @@ $porg_releases = array(
   ),
 
   '2.5.5' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-11-21',
+    'md5sum' => '4e502a7192a42f1095f4de13977996d6',
+    'summary' => array('security bug fix'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -335,9 +335,9 @@ $porg_releases = array(
   ),
 
   '2.5.4' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2014-03-25',
+    'md5sum' => '12f8ac99264fb5733adb9bf82df8839c',
+    'summary' => array('security bug fixes'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -348,9 +348,9 @@ $porg_releases = array(
   ),
 
   '2.5.3' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2013-10-26',
+    'md5sum' => 'e8dd634c944ad100004aadbfd2f62d1f',
+    'summary' => array('bug fixes, new languages'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -361,9 +361,9 @@ $porg_releases = array(
   ),
 
   '2.5.2' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2013-06-24',
+    'md5sum' => '93ac6bb2d79ccde5f460fbd98d2d6ed0',
+    'summary' => array('bug fixes, new language'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -374,27 +374,27 @@ $porg_releases = array(
   ),
 
   '2.5.1' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2013-04-19',
+    'md5sum' => '7a1cc31fab6d9cfc7519f557bdfbcfb4',
+    'summary' => array('bug fixes, new languages'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
     'languages' => array(
-      'new' => array(),
+      'new' => array('kn_IN', 'nn_NO'),
       'updated' => array(),
     ),
   ),
 
   '2.5.0' => array(
-    'released_on' => '2017-06-15',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
-    'summary' => array('Modernized design', 'update notification'),
+    'released_on' => '2013-03-04',
+    'md5sum' => '2e523f9c7b9d670d95161a9b03bbb8f5',
+    'summary' => array('New group manager', 'Improved user comments', 'Better icons'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
     'languages' => array(
-      'new' => array(),
+      'new' => array('gl_ES', 'lt_LT', 'ta_IN', 'zh_HK'),
       'updated' => array(),
     ),
   ),
@@ -493,7 +493,7 @@ $porg_releases = array(
   '2.4.0' => array(
     'released_on' => '2012-06-22',
     'md5sum' => '568839e5f3d6010d68e1e5a313ed63ee',
-    'summary' => array('multiple size', 'new theme "elegant"', 'watermark', 'mobile theme...'),
+    'summary' => array('Multiple size', 'New theme "elegant"', 'Watermark', 'Mobile theme'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -571,7 +571,7 @@ $porg_releases = array(
   '2.3.0' => array(
     'released_on' => '2011-10-04',
     'md5sum' => '13870130dcdda90bf2d2e3c20a49b04f',
-    'summary' => array('new plugin manager', 'rating score', 'update manager...'),
+    'summary' => array('New plugin manager', 'Rating score', 'Update manager'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -649,7 +649,7 @@ $porg_releases = array(
   '2.2.0' => array(
     'released_on' => '2011-04-01',
     'md5sum' => 'e13a1f53d8fd72221ad90f47a4ce3ec7',
-    'summary' => array('user upload with Community', 'new batch manager...'),
+    'summary' => array('User upload with Community', 'New batch manager'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -740,7 +740,7 @@ $porg_releases = array(
   '2.1.0' => array(
     'released_on' => '2010-05-18',
     'md5sum' => '1b2958a5ade678b384d58fd196e4d882',
-    'summary' => array('browser upload', 'theme manager', 'admin usability...'),
+    'summary' => array('Browser upload', 'Theme manager', 'Admin usability'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -884,7 +884,7 @@ $porg_releases = array(
   '2.0.0' => array(
     'released_on' => '2009-02-15',
     'md5sum' => '58f53023562dff383c9895ec60fd7aa8',
-    'summary' => array('pLoader', 'new theme "Sylvia"', 'privacy levels', 'netinstall...'),
+    'summary' => array('pLoader', 'New theme "Sylvia"', 'Privacy levels', 'NetInstall'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -936,7 +936,7 @@ $porg_releases = array(
   '1.7.0' => array(
     'released_on' => '2007-05-05',
     'md5sum' => null,
-    'summary' => array('major feature enhancements'),
+    'summary' => array('Major feature enhancements'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -975,7 +975,7 @@ $porg_releases = array(
   '1.6.0' => array(
     'released_on' => '2006-07-04',
     'md5sum' => null,
-    'summary' => array('major feature enhancements'),
+    'summary' => array('Major feature enhancements'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -1014,7 +1014,7 @@ $porg_releases = array(
   '1.5.0' => array(
     'released_on' => '2005-11-08',
     'md5sum' => null,
-    'summary' => array('major feature enhancements'),
+    'summary' => array('Major feature enhancements'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -1040,7 +1040,7 @@ $porg_releases = array(
   '1.4.0' => array(
     'released_on' => '2005-03-12',
     'md5sum' => null,
-    'summary' => array('major feature enhancements'),
+    'summary' => array('Major feature enhancements'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -1105,7 +1105,7 @@ $porg_releases = array(
   '1.3.0' => array(
     'released_on' => '2003-10-12',
     'md5sum' => null,
-    'summary' => array('major feature enhancements'),
+    'summary' => array('Major feature enhancements'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -1131,7 +1131,7 @@ $porg_releases = array(
   '1.2.0' => array(
     'released_on' => '2002-11-11',
     'md5sum' => null,
-    'summary' => array('major feature enhancements'),
+    'summary' => array('Major feature enhancements'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
@@ -1144,7 +1144,7 @@ $porg_releases = array(
   '1.1.0' => array(
     'released_on' => '2002-07-19',
     'md5sum' => null,
-    'summary' => array('major feature enhancements'),
+    'summary' => array('Major feature enhancements'),
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
