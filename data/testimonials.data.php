@@ -20,7 +20,7 @@ J\'utilise Piwigo depuis 2011 pour mon site : facile à mettre en oeuvre et mêm
     'language' => 'en',
     'added_on' => '2017-12-06',
     'user' => array(
-      'username' => 'David K',
+      'username' => 'David Kerr',
       'country' => 'Australia',
       'type' => 'Individual',
       'picture' => 'images/testimonies/kangaroo.png',
