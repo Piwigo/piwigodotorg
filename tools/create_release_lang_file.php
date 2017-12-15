@@ -53,7 +53,7 @@
             $label_name = explode(':', $label->{'name'});
             if ($label_name[0] == 'Section')
             {
-                $section = $label_name[1];
+                $section = trim($label_name[1]);
                 break;
             }
         }
