@@ -3,6 +3,24 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-15',
+    'user' => array(
+      'username' => 'Christian C',
+      'country' => 'France',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/chochris.jpg',
+    ),
+    'content' => '
+J\'ai débuté avec Piwigo en janvier 2010. J\'avais seulement quelques rudiments sur la création d\'un site sur Internet. L\'équipe Piwigo m\'a tout appris. Une assistance très réactive, pleine de conseils pour un néophyte comme moi.
+
+Un forum très complet et abordable pour les débutants. Des thèmes et plugins très variés et riches pour composer sa galerie sur mesure. Pour ma part j\'utilise le thème très épuré Élégant qui met vraiment l\'image en valeur.
+
+Satisfaction garantie, n\'hésitez pas à nous rejoindre !
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
       'username' => 'Bernard G',
