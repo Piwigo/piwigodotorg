@@ -3,8 +3,16 @@
     /* Run this script from /tools folder */
     define ('PHPWG_ROOT_PATH', '../../../');
     define('PHPWG_PLUGINS_PATH', PHPWG_ROOT_PATH.'plugins/');
-    define('PORG_ID', basename(dirname(__FILE__, 2)));
+    /* I didn't use dirname(__FILE__, 2) to be compatible with PHP 4 and higher */
+    define('PORG_ID', basename(dirname(dirname(__FILE__))));
     define('PORG_PATH', PHPWG_PLUGINS_PATH . PORG_ID . '/');
+
+    if (basename(dirname(__FILE__)) != 'tools')
+    {
+        echo 'run this script inside tools/ folder';
+        echo 'example : php create_release_lang_file.php --version=[version_nb]';
+        return ;
+    }
 
     /* Include file for FetchRemote */
     include(PHPWG_ROOT_PATH . 'admin/include/functions.php');
@@ -12,12 +20,20 @@
 
     global $lang;
 
-    $options = getopt(null,
-        array(
-            "version:",
-            "force",
-        )
+    $options = getopt(null, array('version:', 'force'));
+
+    /* We always need a version to run this script */
+    $mandatory_field = array(
+        'version',
     );
+
+    foreach ($mandatory_field as $field)
+    {
+        if (!isset($options[$field])) 
+        {
+            die ('Missing --'.$field);
+        }
+    }
 
     $version = $options['version'];
 
