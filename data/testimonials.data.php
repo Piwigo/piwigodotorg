@@ -3,6 +3,23 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-07',
+    'user' => array(
+      'username' => 'Michel B',
+      'country' => 'Suisse',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/swiss-army-knife.png',
+      'url' => 'http://www.genevois.org/piwigo'
+    ),
+    'content' => '
+Je cherchais comment voir mes photos depuis chez moi, aussi les afficher sur ma smart-tv, je voulais également pouvoir les regarder à distance, de n\'importe où. Pouvoir masquer des photos privées au public, quelque chose de simple à mettre en place, tout en ayant une présentation sympathique. Cahier des charges en apparence très compliqué.
+
+J\'ai trouvé Piwigo, c\'est génial, ça a une présentation quasi-pro. Et encore, je n\'utilise pas grand-chose parmi tous les plugins disponibles, je pourrais faire encore plus beau. Je ne changerais pour rien au monde maintenant. 
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-15',
     'user' => array(
       'username' => 'Christian C',
