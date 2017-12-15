@@ -94,9 +94,11 @@ In other words a great and alive initiative.
       'url' => 'https://renolaithienne.fr/',
     ),
     'content' => '
- Je tiens à témoigner toute ma gratitude et ma reconnaissance à Piwigo, sans qui l\'archiviste que je suis serait resté bien malheureux. Depuis 2007, je shoote ma vie, au jour le jour. Parfois une photo par jour, parfois cent en une soirée... En 2010, j\'ai ressenti la peur intrinsèque de perdre mes photos. Je cherchais donc une solution pour héberger mes photos sur un FTP de façon simple. Et c\'est là que Piwigo est entré dans ma vie, pour ne plus jamais en sortir. C\'est aujourd\'hui plus de 50000 photos que je gère, et malgré le nombre, la galerie reste fluide et les nombreux thèmes améliorent l\'interface selon vos goûts.
+ Je tiens à témoigner toute ma gratitude et ma reconnaissance à Piwigo, sans qui l\'archiviste que je suis serait resté bien malheureux. Depuis 2007, je shoote ma vie, au jour le jour. En 2010, j\'ai ressenti la peur intrinsèque de perdre mes photos. C\'est là que Piwigo est entré dans ma vie, pour ne plus jamais en sortir. C\'est aujourd\'hui plus de 50,000 photos que je gère, et malgré le nombre, la galerie reste fluide et les nombreux thèmes améliorent l\'interface selon vos goûts.
 
- Piwigo, c\'est un peu le Wordpress de la photo.
+L\'autre raison qui fait que j\'adore Piwigo, c’est la possibilité de personnaliser, pour chaque dossier, les personnes qui le voient. J’ai 200 utilisateurs qui peuvent voir toutes les photos de toutes les soirées qu’on a passées ensemble. Et grâce aux tags, chacun de mes amis peut, en quelque sorte, suivre son évolution en voyant toutes les photos sur lesquelles il apparaît et a été taggé.
+
+Piwigo, c\'est un peu le Wordpress de la photo.
 ',
   ),
 
