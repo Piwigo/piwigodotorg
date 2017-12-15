@@ -31,6 +31,7 @@ $porg_languages = array(
   'ja_JP' => '日本語',
   'is_IS' => 'Íslenska',
   'it_IT' => 'Italiano',
+  'ka_GE' => 'ქართული',
   'km_KH' => 'ភាសាខ្មែរ',
   'kn_IN' => 'ಕನ್ನಡ',
   'ko_KR' => '한국어',

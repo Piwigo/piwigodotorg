@@ -66,6 +66,7 @@ $lang['language_hu_HU'] = 'Hungarian';
 $lang['language_ja_JP'] = 'Japanese';
 $lang['language_is_IS'] = 'Icelandic';
 $lang['language_it_IT'] = 'Italian';
+$lang['language_ka_GE'] = 'Georgian';
 $lang['language_km_KH'] = 'Cambodia';
 $lang['language_kn_IN'] = 'Kannada';
 $lang['language_ko_KR'] = 'Korean';

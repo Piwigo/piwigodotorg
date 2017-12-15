@@ -14,186 +14,28 @@
 
   <div class="container container-changelogs-versions">
     <div class="row grid text-center">
+      {foreach from=$releases key=version item=summary}
       <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.9.2</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.9.2">Read more</a>
-          </div>  
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.9.1</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.9.1">Read more</a>
-          </div>
-        </div>
-      </div>    
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-major">
-          <h1 class="bold">Piwigo 2.9.0</h1>
-          <p>2017-10-6</p>
+        <div class="version-{$releases[$version].state}">
+          <h1 class="bold">Piwigo {$version}</h1>
+          <p>{$releases[$version].released_on}</p>
+          {if {$releases[$version].state} == 'major'}
           <div class="version-major-content">
             <div class="version-major-border-top"></div>
             <ul class="bold">
-              <li>Modernized design</li>
-              <li>Update notification</li>
+            {foreach from=$releases[$version].summary key=key item=summary}
+              <li>{$summary}</li>
+            {/foreach}
             </ul>
             <div class="version-major-border-bottom"></div>
           </div>
-          <a href="{$PORG_ROOT}{$URL.release}&version=2.9.0">Read more</a>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.8.6</h1>
-          <p>2017-10-6</p>
+          {/if}
           <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.8.6">Read more</a>
+            <a href="{$PORG_ROOT}{$URL.release}&version={$version}">Read more</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.8.5</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.8.5">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.8.4</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.8.4">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.8.3</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.8.3">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.8.2</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.8.2">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.8.1</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.8.1">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-major">
-          <h1 class="bold">Piwigo 2.8.0</h1>
-          <p>2017-10-6</p>
-          <div class="version-major-content">
-            <div class="version-major-border-top"></div>
-            <ul class="bold">
-              <li>Modernized design</li>
-              <li>Update notification</li>
-            </ul>
-            <div class="version-major-border-bottom"></div>
-          </div>
-          <a href="{$PORG_ROOT}{$URL.release}&version=2.8.0">Read more</a>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.7.4</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.7.4">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.7.3</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.7.3">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.7.2</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.7.2">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 2.7.1</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=2.7.1">Read more</a>
-          </div>
-        </div>
-      </div>
-       <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-major">
-          <h1 class="bold">Piwigo 2.7.0</h1>
-          <p>2017-10-6</p>
-          <div class="version-major-content">
-            <div class="version-major-border-top"></div>
-            <ul class="bold">
-              <li>Modernized design</li>
-              <li>Update notification</li>
-            </ul>
-            <div class="version-major-border-bottom"></div>
-          </div>
-          <a href="{$PORG_ROOT}{$URL.release}&version=2.7.0">Read more</a>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 1.0.3</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=1.0.3">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 1.0.2</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=1.0.2">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 version-box">
-        <div class="version-minor">
-          <h1 class="bold">Piwigo 1.0.1</h1>
-          <p>2017-10-6</p>
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version=1.0.1">Read more</a>
-          </div>
-        </div>
-      </div>
+      {/foreach}
        <div class="col-md-9 col-xs-12 version-box">
         <div class="primary-version">
           <div class="col-md-3 col-xs-3">

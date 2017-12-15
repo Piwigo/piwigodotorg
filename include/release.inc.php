@@ -80,7 +80,7 @@ if (isset($_GET['version']))
         $new_languages = $porg_releases[$version]['languages']['new'];
         foreach ($new_languages as $language)
         {
-            $new_language[] = $porg_languages[$language];
+            $new_language[] = $lang['language_' . $language] . ' (' . $porg_languages[$language] . ')';
         }
         
         if (isset($new_language))
