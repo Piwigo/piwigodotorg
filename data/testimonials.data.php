@@ -74,7 +74,7 @@ Satisfaction garantie, n\'hésitez pas à nous rejoindre !
     'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
-      'username' => 'Bernard G',
+      'username' => 'Bernard Gacongne',
       'country' => 'France',
       'type' => 'Organisation',
       'picture' => 'images/testimonies/sprout.png',
