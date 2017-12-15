@@ -3,6 +3,25 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-08',
+    'user' => array(
+      'username' => 'Michel Dehaye',
+      'country' => 'France',
+      'type' => 'Professional',
+      'picture' => 'images/testimonies/kite.png',
+      'url' => 'http://avuedoiseau.com',
+    ),
+    'content' => '
+Piwigo est vraiment un outil très pratique pour la mise en ligne d\'images de façon simple et interactive.
+
+Utilisateur depuis 5 ans, et n’ayant pas de compétences informatiques poussées, j’utilise la version hébergée pour mettre mes images en ligne, directement depuis Lightroom. le plug-in dédié permet de gérer plusieurs milliers d’images à publier, et les mises à jour sont modifiées au fur et à mesure. Avec le cas échéant des autorisations d’accès et/ou des tailles différentes.
+
+Le produit propose une personnalisation intéressante grace aux plug-ins disponibles et évolue régulièrement positivement. J’en suis vraiment très satisfait.
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-05',
     'user' => array(
       'username' => 'Merlin',
