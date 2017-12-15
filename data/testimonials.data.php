@@ -2,6 +2,22 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Merlin',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/Man-1.svg',
+    ),
+    'content' => '
+Avec Piwigo je gère et mets à dispositions des membres de notre association et de leurs familles l\'ensemble des archives photos sur 20 ans. Cela représente à ce jour 13,332 photos sur 115 albums et 129,000 pages vues.
+
+Une fois paramètré et le bon thème trouvé la gestion est d\'une extrème simplicité pour un amateur. Merci à l\'équipe.
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-06',
     'user' => array(
