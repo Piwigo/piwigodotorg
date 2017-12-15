@@ -3,6 +3,20 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2017-12-05',
+    'user' => array(
+      'username' => 'Bernard G',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'picture' => 'images/testimonies/sprout.png',
+    ),
+    'content' => '
+Petite équipe de botanistes, nous partageons nos photos pour identifier les plantes de notre inventaire local. Autrefois je gérais ces images (quelques milliers) avec Google qui a eu la bonne idée de perdre mon identifiant et du même coup 4 ans de travail sans recours ni assistance compétente. Maintenant avec Piwigo installé sur mon site je maîtrise toute la chaîne et sa sécurité.
+',
+  ),
+
+  array(
+    'language' => 'fr',
     'added_on' => '2017-12-06',
     'user' => array(
       'username' => 'Kurt Schneider',
