@@ -72,7 +72,7 @@ Piwigo doesn\'t have a rival! Thank you, Piwigo Team!
     'language' => 'fr',
     'added_on' => '2017-12-07',
     'user' => array(
-      'username' => 'Michel B',
+      'username' => 'Michel Braito',
       'country' => 'Suisse',
       'type' => 'Individual',
       'picture' => 'images/testimonies/swiss-army-knife.png',
@@ -89,10 +89,11 @@ J\'ai trouvé Piwigo, c\'est génial, ça a une présentation quasi-pro. Et enco
     'language' => 'fr',
     'added_on' => '2017-12-15',
     'user' => array(
-      'username' => 'Christian C',
+      'username' => 'Christian Choveau',
       'country' => 'France',
       'type' => 'Individual',
       'picture' => 'images/testimonies/chochris.jpg',
+      'url' => 'https://chochris-images.fr',
     ),
     'content' => '
 J\'ai débuté avec Piwigo en janvier 2010. J\'avais seulement quelques rudiments sur la création d\'un site sur Internet. L\'équipe Piwigo m\'a tout appris. Une assistance très réactive, pleine de conseils pour un néophyte comme moi.
