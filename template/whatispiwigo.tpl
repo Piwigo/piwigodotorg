@@ -2,8 +2,8 @@
     <div class="container">
       <div class="row row-whatsispiwigo">
         <div class="col-md-6 col-title-whatispiwigo-content">
-          <h1>What is Piwigo ?</h1>
-          <p>Piwigo is a web application to manage your collection of photos, and other medias. Embedding powerful features, it powers photo galleries all around the world.</p>
+          <h1>{'What is Piwigo ?'|translate}</h1>
+          <p>{'porg_whatispiwigo_desc1'|translate} {'porg_whatispiwigo_desc2'|translate}</p>
         </div>
         <div class="col-md-6 col-title-whatispiwigo-logo">
           <img src="{$PORG_ROOT_URL}images/whatispiwigo/logo_white.svg"/>
@@ -14,8 +14,8 @@
 
   <section class="container">
     <div class="row text-center row-use-piwigo-for">
-      <h1 class="bold">What can I use Piwigo for ?</h1>
-      <p>There is a wide variety of usages among Piwigo users community. From medium sized galleries<br> to huge image banks, Piwigo can make your life easier and save you time and effort.</p>
+      <h1 class="bold">{'What can I use Piwigo for ?'|translate}</h1>
+      <p>{'porg_whatispiwigo_use_desc1'|translate} {'porg_whatispiwigo_use_desc2'|translate}</p>
       <img src="{$PORG_ROOT_URL}images/whatispiwigo/paper.svg"/>
     </div>
   </section>
@@ -24,20 +24,20 @@
     <div class="container">
       <div class="row row-whatsispiwigo-organization">
         <div class="col-md-6 col-whatispiwigo-organization-content">
-          <h1 class="bold">Organizations</h1>
-          <p>Public sector, companies, foundations... all of them have to manage their own collection. In the <em>Digital Asset Management</em> field, Piwigo focuses on ease-of-use, affordability, performances and sustainability.</p>
+          <h1 class="bold">{'Organisations'|translate}</h1>
+          <p>{'porg_whatispiwigo_organisation_desc1'|translate} {'porg_whatispiwigo_organisation_desc2'|translate}</p>
         </div>
         <div class="col-md-6 col-whatispiwigo-organization-logo">
           <div class="col-md-4 col-xs-4 whatispiwigo-organization">
-            <p class="bold">Multiple Administrators</p>
+            <p class="bold">{'Multiple Administrators'|translate}</p>
             <div class="whatispiwigo-organization-line"></div>
           </div>
           <div class="col-md-4 col-xs-4 whatispiwigo-editable">
-            <p class="bold">Batch Management</p>
+            <p class="bold">{'Batch Management'|translate}</p>
             <div class="whatispiwigo-editable-line"></div>
           </div>
           <div class="col-md-4 col-xs-4 whatispiwigo-dam">
-            <p class="bold">Lightning Fast</p>
+            <p class="bold">{'Lightning Fast'|translate}</p>
             <div class="whatispiwigo-dam-line"></div>
           </div>
         </div>
@@ -50,17 +50,17 @@
       <div class="row row-whatsispiwigo-professional">
           <div class="col-md-6 col-whatispiwigo-professional-logo">
             <div class="col-md-6 col-xs-6 whatispiwigo-showcases">
-              <p class="bold">Share with Clients</p>
+              <p class="bold">{'Share with Clients'|translate}</p>
               <div class="whatispiwigo-showcases-line"></div>
             </div>
             <div class="col-md-6 col-xs-6 whatispiwigo-communication">
-              <p class="bold">Batch Downloader</p>
+              <p class="bold">{'Batch Downloader'|translate}</p>
               <div class="whatispiwigo-communication-line"></div>
             </div>
           </div>
           <div class="col-md-6 col-whatispiwigo-professional-content">
-            <h1 class="bold">Professionals</h1>
-            <p>Pro photographers need to show their work to their clients, publicly or privately. Piwigo provides advanced permissions control. Clients can download photos one by one or whole albums.</p>
+            <h1 class="bold">{'Professionals'|translate}</h1>
+            <p>{'porg_whatispiwigo_professional_desc1'|translate} {'porg_whatispiwigo_professional_desc2'|translate} {'porg_whatispiwigo_professional_desc3'|translate}</p>
           </div>
         </div>
     </div>
@@ -70,24 +70,24 @@
     <div class="container">
       <div class="row row-whatsispiwigo-individual">
         <div class="col-md-6 col-whatispiwigo-individual-content">
-          <h1 class="bold">Individuals</h1>
-          <p>Managing a family albums over the last 20 years, organizing a collection of European spiders, showing your best landscape photos as photo amateur... these are a few examples of how Piwigo is used by its community.</p>
+          <h1 class="bold">{'Individuals'|translate}</h1>
+          <p>{'porg_whatispiwigo_individual_desc1'|translate} {'porg_whatispiwigo_individual_desc2'|translate}</p>
         </div>
         <div class="col-md-6 col-whatispiwigo-individual-logo text-center">
           <div class="col-md-3 col-xs-6 whatispiwigo-amateur">
-            <p class="bold">Amateurs</p>
+            <p class="bold">{'Amateurs'|translate}</p>
             <div class="whatispiwigo-amateur-line"></div>
           </div>
           <div class="col-md-3 col-xs-6 whatispiwigo-family">
-            <p class="bold">Families</p>
+            <p class="bold">{'Families'|translate}</p>
             <div class="whatispiwigo-family-line"></div>
           </div>
           <div class="col-md-3 col-xs-6 whatispiwigo-collector">
-            <p class="bold">Collections</p>
+            <p class="bold">{'Collections'|translate}</p>
             <div class="whatispiwigo-collector-line"></div>
           </div>
           <div class="col-md-3 col-xs-6 whatispiwigo-fansite">
-            <p class="bold">Fansites</p>
+            <p class="bold">{'Fansites'|translate}</p>
             <div class="whatispiwigo-fansite-line"></div>
           </div>
         </div>
@@ -97,7 +97,7 @@
 
   <section class="container">
     <div class="row row-whatispiwigo-choosing-piwigo">
-      <h1 class="bold">Why choosing Piwigo ?</h1>
+      <h1 class="bold">{'Why choosing Piwigo ?'|translate}</h1>
     </div>
   </section>
 
@@ -105,13 +105,13 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">High Volume</h1>
+          <h1 class="bold">{'High Volume'|translate}</h1>
         </div>
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">Sustainable</h1>
+          <h1 class="bold">{'Sustainable'|translate}</h1>
         </div>
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">Open source</h1>
+          <h1 class="bold">{'Open source'|translate}</h1>
         </div>
       </div>
     </div>
@@ -120,13 +120,13 @@
   <section class="container container-piwigo-fundamental-content">
     <div class="row text-center">
       <div class="col-md-4 col-xs-4">
-        <p>500,000 photos in your collection? Not a problem for Piwigo. Lightning fast performances is included, by default.</p>
+        <p>{'porg_whatispiwigo_high_volume_desc1'|translate} {'porg_whatispiwigo_high_volume_desc2'|translate}</p>
       </div>
       <div class="col-md-4 col-xs-4">
-        <p>Born in 2002, Piwigo has clearly reached the <em>maturity</em> level. Of course it keeps evolving to match current techs!</p>
+        <p> {'porg_whatispiwigo_sustainable_desc1'|translate} {'porg_whatispiwigo_sustainable_desc2'|translate}</p>
       </div>
       <div class="col-md-4 col-xs-4">
-        <p>Piwigo has always been, and will always be a free software. A code you can read and understand is a code you can trust.</p>
+        <p>{'porg_whatispiwigo_open_source_desc1'|translate} {'porg_whatispiwigo_open_source_desc2'|translate}</p>
       </div>
     </div>
   </section>
@@ -134,10 +134,10 @@
   <section class="container container-whatispiwigo-how-to-use-piwigo">
     <div class="row">
       <div class="col-md-6 col-xs-12">
-        <h1 class="bold">How to use Piwigo ?</h1>
-        <p>You can download Piwigo from Piwigo<span style="color:#f70;">.org</span> and install it on your web hosting, with the appropriate technical requirements. Using Piwigo is free, you only pay your hosting provider.
+        <h1 class="bold">{'How to use Piwigo ?'|translate}</h1>
+        <p>{'porg_whatispiwigo_how_to_desc1'|translate} {'porg_whatispiwigo_how_to_desc2'|translate}
         <br><br>
-        Piwigo also comes <em>as a service</em> on Piwigo<span style="color:#ff3363">.com</span>: take a few seconds to open a trial account, use Piwigo and forget about technical details. A Piwigo.com account involves hosting fees.</p>
+        {'porg_whatispiwigo_how_to_desc3'|translate} {'porg_whatispiwigo_how_to_desc4'|translate}</p>
       </div>
       <div class="col-md-6 col-xs-12">
         <img src="{$PORG_ROOT_URL}images/whatispiwigo/piwigo_friends.svg"/>
@@ -152,7 +152,7 @@
           <img src="{$PORG_ROOT_URL}images/whatispiwigo/gnu_white.svg"/>
         </div>
         <div class="col-md-11 col-xs-10 gnu-license">
-          <a data-toggle="collapse" href="#gnuLicense" aria-expanded="false" aria-controls="collapseExample">GNU License <span class="glyphicon glyphicon-chevron-right"></span></a>
+          <a data-toggle="collapse" href="#gnuLicense" aria-expanded="false" aria-controls="collapseExample">{'GNU License'|translate} <span class="glyphicon glyphicon-chevron-right"></span></a>
         </div>
       </div>
       <div class="row">
@@ -163,13 +163,9 @@
                 <img src="{$PORG_ROOT_URL}images/whatispiwigo/gnu_black.svg"/>
               </div>
               <div class="col-md-9 col-xs-9">
-                <p>The GNU General Public License, or GPL, is an open source license. Open source doesn't
-                just mean that you can view the source code — it has political and philosophical
-                implications as well. Open source, or "Free Software", means you are free to modify and
-                redistribute the source code under certain conditions.<br><br>
-                Free doesn't refer to the price, it refers to freedom. The difference between the two
-                meanings of free is often characterized as "Free as in speech vs. free as in beer." The GPL is
-                free as in speech.</p>
+                <p>{'porg_whatispiwigo_gnu_desc1'|translate} {'porg_whatispiwigo_gnu_desc2'|translate} {'porg_whatispiwigo_gnu_desc3'|translate}<br><br>
+                  {'porg_whatispiwigo_gnu_desc4'|translate} {'porg_whatispiwigo_gnu_desc5'|translate} {'porg_whatispiwigo_gnu_desc6'|translate}
+                </p>
               </div>
             </div>
           </div>
