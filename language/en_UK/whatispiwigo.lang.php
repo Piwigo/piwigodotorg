@@ -8,7 +8,6 @@ $lang['porg_whatispiwigo_use_desc2'] = 'From medium sized galleries<br> to huge 
 $lang['porg_whatispiwigo_organisation_desc1'] = 'Public sector, companies, foundations... all of them have to manage their own collection.';
 $lang['porg_whatispiwigo_organisation_desc2'] = 'In the <em>Digital Asset Management</em> field, Piwigo focuses on ease-of-use, affordability, performances and sustainability.';
 $lang['Multiple Administrators'] = 'Multiple Administrators';
-$lang['Batch Management'] = 'Batch Management';
 $lang['Lightning Fast'] = 'Lightning Fast';
 $lang['Share with Clients'] = 'Share with Clients';
 $lang['Batch Downloader'] = 'Batch Downloader';
