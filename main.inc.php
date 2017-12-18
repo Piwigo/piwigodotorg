@@ -77,6 +77,15 @@ function porg_add_methods($arr)
         'Show more newsletters'
     );
     $service->addMethod(
+        'porg.news.seemore',
+        'ws_porg_news_seemore',
+        array(
+            'start' =>  array(),
+            'count' =>  array(),
+        ),
+        'Show more news'
+    );
+    $service->addMethod(
         'porg.home.refresh_showcases',
         'ws_porg_home_refresh_showcases',
         null,

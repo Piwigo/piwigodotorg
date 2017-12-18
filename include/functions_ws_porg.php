@@ -43,7 +43,27 @@ function ws_porg_newsletters_seemore($params, &$service) {
     $template->p();
 }
 
-function ws_porg_home_refresh_showcases($params, &$service) 
+function ws_porg_news_seemore($params, &$service)
+{
+  global $template;
+
+  include_once(PORG_PATH . "include/functions_piwigodotorg.php");
+
+  $start = $params['start'];
+  $count = $params['count'];
+
+  $topics = getNews($start, $count);
+  $template->set_filenames(array('page_porg' => realpath(PORG_PATH .'template/news_articles.tpl')));
+  $template->assign(
+    array(
+      'topics' => $topics,
+    )
+  );
+  $template->parse('page_porg');
+  $template->p();
+}
+
+function ws_porg_home_refresh_showcases($params, &$service)
 {
     $final_image = get_showcases();
     return json_encode($final_image);
