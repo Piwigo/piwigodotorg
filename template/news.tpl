@@ -14,67 +14,20 @@
 
   <section class="container">
     <div class="equal">
-      <div class="col-md-6 news-release-left">
-        <div class="news-padding-top-left"></div>
-        <div class="news-release-date-left">
-          <span>June 15th 2017</span>
+      {foreach from=$topics key=key item=topics_content}
+      <div class="col-md-6 news-release-{$topics_content.state}">
+        <div class="news-padding-top-{$topics_content.state}"></div>
+        <div class="news-release-date-{$topics_content.state}">
+          <span>{$topics_content.posted}</span>
         </div>
-        <div class="news-release-content-left">
+        <div class="news-release-content-{$topics_content.state}">
           <img src="{$PORG_ROOT_URL}images/news/news1.svg"/>
-          <h1 class="bold">Piwigo 2.9.1</h1>
-          <p>Here comes Piwigo 2.9.1. This release includes fixes for 
-          the bugs discovered by the Piwigo community on 2.9. It 
-          also fixes several "minor" security issues. Thank you very 
-          much for reporting bugs and helping us to fix them as 
-          efficiently as possible!</p>
+          <h1 class="bold">{$topics_content.subject}</h1>
+          <p>{$topics_content.message}</p>
         </div>
+        {if $topics_content.last == true}<div class="news-padding-bottom-right"></div>{/if}
       </div>
-      <div class="col-md-6 news-release-right">
-        <div class="news-release-date-right">
-          <span>May 2th 2017</span>
-        </div>
-        <div class="news-release-content-right">
-          <img src="{$PORG_ROOT_URL}images/news/news2.svg"/>
-          <h1 class="bold">Piwigo 2.9</h1>
-          <p>Greetings everybody!
-          Design matters. This is what recent user testing sessions
-          have clearly revealed. This is why this version 2.9 focuses
-          on refreshing our design, for the administration pages. Of
-          course we have also added a few features, improved
-          ergonomy and made your Piwigo even faster.</p>
-        </div>
-      </div>
-      <div class="col-md-6 news-release-left">
-        <div class="news-release-date-left">
-          <span>April 12nd 2017</span>
-        </div>
-        <div class="news-release-content-left">
-          <img src="{$PORG_ROOT_URL}images/news/news4.svg"/>
-          <h1 class="bold">Happy birthday Piwigo, 15 years !</h1>
-          <p>Today, 15 years ago, Piwigo 1.0.0 was released. Back then 
-          its name was still PhpWebGallery. I started this project as 
-          a personal project. Living next to my engineering school, I 
-          wanted to share photos with my parents, 500 kilometers 
-          away. Because I was using other open source software I 
-          wanted to give back to the community and published 
-          Piwigo with an open....</p>
-        </div>
-      </div>
-      <div class="col-md-6 news-release-right">
-        <div class="news-release-date-right">
-          <span>April 10th 2017</span>
-        </div>
-        <div class="news-release-content-right">
-          <img src="{$PORG_ROOT_URL}images/news/news3.svg"/>
-          <h1 class="bold">Piwigo 2.9.0RC2</h1>
-          <p>Dear "release candidate" testers,<br><br>
-          2.9 is very near. Here is the second release candidate, and 
-          we hope the last one. As usual with "release candidates", 
-          this release is for test only, so don't install it on your live 
-          website.</p>
-        </div>
-        <div class="news-padding-bottom-right"></div>
-      </div>
+      {/foreach}
     </div>
   </section>
 
