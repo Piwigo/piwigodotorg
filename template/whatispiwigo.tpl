@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row row-whatsispiwigo">
         <div class="col-md-6 col-title-whatispiwigo-content">
-          <h1>{'What is Piwigo ?'|translate}</h1>
+          <h1>{'What is Piwigo?'|translate}</h1>
           <p>{'porg_whatispiwigo_desc1'|translate} {'porg_whatispiwigo_desc2'|translate}</p>
         </div>
         <div class="col-md-6 col-title-whatispiwigo-logo">
