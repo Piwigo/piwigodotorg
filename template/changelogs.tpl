@@ -2,8 +2,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1>Changelogs</h1>
-          <p>The Piwigo lorem ipsum dolor sit amet, consectetuer adipiscing 
+          <h1>{'Changelogs'|translate}</h1>
+          <p>The Piwigo lorem ipsum dolor sit amet, consectetuer adipiscing
           elit, sed diam nonummy nibh euismod tincidunt ut.</p>
         </div>
         <div class="col-md-6 changelogs-logo">
@@ -56,8 +56,8 @@
   <section class="container-fluide container-fluide-techs-view">
     <div class="container">
       <div class="row text-center">
-        <p> If you need technicals view of the releases go to the<br>
-        <a href="http://piwigo.org/doc/doku.php?id=about:release_and_branchs" class="bold">Branches and Realeases</a> page.</p>
+        <p>{'porg_changelogs_technicals_desc1'|translate}<br>
+        <a href="http://piwigo.org/doc/doku.php?id=about:release_and_branchs" class="bold">{'porg_changelogs_technicals_desc2'|translate}</a> {'porg_changelogs_technicals_desc3'|translate}</p>
       </div>
     </div>
   </section>
