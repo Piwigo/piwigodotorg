@@ -2,11 +2,8 @@
     <div class="container">
       <div class="row-get-involved-banner equal">
         <div class="col-md-6">
-          <h1>Get Involved</h1>
-          <p>Piwigo is built by an active community of users and developers, 
-          working together in order to create a great photo manager.
-          There are numerous ways to contribute, depending on your skills 
-          and the time you would like to spend on the project</p>
+          <h1>{'Get Involved'|translate}</h1>
+          <p>{'porg_get_involved_desc1'|translate} {'porg_get_involved_desc2'|translate}</p>
         </div>
         <div class="col-md-6 get-involved-banner-logo">
         </div>
@@ -18,28 +15,28 @@
     <div class="row row-get-involved-inside-piwigo text-center">
       <div class="col-md-6 get-involved-help-community">
         <img src="{$PORG_ROOT_URL}images/get_involved/community.svg"/>
-        <h1 class="bold">Help the Community</h1>
-        <p>Support other users on the forums<br>and meet other Piwigo users.</p>
-        <a class="btn" href="http://piwigo.org/forum/">Forum</a>
+        <h1 class="bold">{'Help the Community'|translate}</h1>
+        <p>{'porg_get_involved_community_desc'|translate}</p>
+        <a class="btn" href="http://piwigo.org/forum/">{'Forum'|translate}</a>
       </div>
       <div class="col-md-6 get-involved-how-to-code">
         <img src="{$PORG_ROOT_URL}images/get_involved/code.svg"/>
-        <h1 class="bold">You know how to code?</h1>
-        <p>Select issues on Github, fork Piwigo...<br>... and submit pull-requests.</p>
+        <h1 class="bold">{'You know how to code?'|translate}</h1>
+        <p>{'porg_get_involved_how_to_code_desc'|translate}</p>
         <div class="col-md-12">
           <a class="btn" href="https://github.com/Piwigo">Github</a>
         </div>
       </div>
       <div class="col-md-6 get-involved-submit-prod">
         <img src="{$PORG_ROOT_URL}images/get_involved/idea.svg"/>
-        <h1 class="bold">Submit product improvment</h1>
-        <p>Use the forum to share your ideas<br>on how to improve Piwigo.</p>
-        <a class="btn" href="http://piwigo.org/forum/">Forum</a>
+        <h1 class="bold">{'Submit product improvment'|translate}</h1>
+        <p>{'porg_get_involved_improvment_desc'|translate}</p>
+        <a class="btn" href="http://piwigo.org/forum/">{'Forum'|translate}</a>
       </div>
       <div class="col-md-6 get-involved-write-review">
         <img src="{$PORG_ROOT_URL}images/get_involved/review.svg"/>
-        <h1 class="bold">Recommend Piwigo</h1>
-        <p>... to the communication department in your company<br> or on several websites.</p>
+        <h1 class="bold">{'Recommend Piwigo'|translate}</h1>
+        <p>{'porg_get_involved_recommend_desc'|translate}</p>
         <div class="col-md-4">
           <a class="btn" href="https://alternativeto.net/software/piwigo/" target="_blank">alternativeTo</a>
         </div>
@@ -57,13 +54,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">Develop plugins</h1>
+          <h1 class="bold">{'Develop plugins'|translate}</h1>
         </div>
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">Submit bugs</h1>
+          <h1 class="bold">{'Submit bugs'|translate}</h1>
         </div>
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">Translate</h1>
+          <h1 class="bold">{'Translate'|translate}</h1>
         </div>
       </div>
     </div>
@@ -73,20 +70,20 @@
     <div class="row">
       <div class="col-md-4 col-xs-4">
         <img src="{$PORG_ROOT_URL}images/get_involved/plugin.svg"/>
-        <p>You need a feature that does not exist yet in Piwigo? Create a plugin, publish it and make it available to the community!</p>
+        <p>{'porg_get_involved_dev_plugins_desc'|translate}</p>
         <div class="col-md-12">
-          <a href="//piwigo.org/doc/doku.php?id=dev:extensions:start">Coding documentation</a>
+          <a href="//piwigo.org/doc/doku.php?id=dev:extensions:start">{'Coding documentation'|translate}</a>
         </div>
       </div>
       <div class="col-md-4 col-xs-4">
         <img src="{$PORG_ROOT_URL}images/get_involved/bug.svg"/>
-        <p>You have identified a bug in Piwigo? Report it on our bugtracker... or the forum if you're not sure. Describe how we can reproduce it.</p>
-        <a href="https://github.com/Piwigo/Piwigo/issues" target="_blank">Bugtracker</a>
+        <p>{'porg_get_involved_bugs_desc1'|translate} {'porg_get_involved_bugs_desc2'|translate}</p>
+        <a href="https://github.com/Piwigo/Piwigo/issues" target="_blank">{'Bugtracker'|translate}</a>
       </div>
       <div class="col-md-4 col-xs-4">
         <img src="{$PORG_ROOT_URL}images/get_involved/translation.svg"/>
-        <p>Translate Piwigo into your language, correct what is missing or wrong or improvable. This applies to Piwigo core and extensions.</p>
-        <a href="//piwigo.org/translate">Translation tool</a>        
+        <p>{'porg_get_involved_translate_desc1'|translate} {'porg_get_involved_translate_desc2'|translate}</p>
+        <a href="//piwigo.org/translate">{'Translation tool'|translate}</a>
       </div>
     </div>
   </section>
@@ -96,12 +93,11 @@
       <div class="row row-get-involved-security">
         <div class="col-md-8 col-get-involved-security-report">
           <img src="{$PORG_ROOT_URL}images/get_involved/security.svg"/>
-          <h1 class="bold">Security Report</h1>
-          <p>Help us to build the most secure photo manager. If you have identified a potential security vulnerability on Piwigo software or a mobile application,
-          please report it here.</p>
+          <h1 class="bold">{'Security Report'|translate}</h1>
+          <p>{'porg_get_involved_security_desc1'|translate} {'porg_get_involved_security_desc2'|translate}</p>
         </div>
         <div class="col-md-4 text-center">
-          <a class="btn" href="{$PORG_ROOT}{$URL.contact}&type=security">Create a report</a>
+          <a class="btn" href="{$PORG_ROOT}{$URL.contact}&type=security">{'Create a report'|translate}</a>
         </div>
       </div>
     </div>
@@ -110,13 +106,13 @@
   <section class="container container-get-involved-donate" id="donate">
     <div class="row">
       <div class="col-md-8 col-get-involved-donate-content">
-        <h1>Donate to Piwigo</h1>
-        <p>Want to help but don't have the time or technical skills? Want to ensure that Piwigo's infrastructure stays healthy and strong? Why not consider a monetary donation?<br><br>
-        This money, collected by the Piwigo Association, is used to pay direct fees such as piwigo.org hosting, domain names, marketplace subscription (Apple AppStore)...<br><br>
-        Payment with <a href="https://www.paypal.com/"><img src="{$PORG_ROOT_URL}images/get_involved/paypal.svg"/></a></p>
+        <h1>{'Donate to Piwigo'|translate}</h1>
+        <p>{'porg_get_involved_donate_desc1'|translate} {'porg_get_involved_donate_desc2'|translate} {'porg_get_involved_donate_desc3'|translate}<br><br>
+        {'porg_get_involved_donate_desc4'|translate}<br><br>
+        {'porg_get_involved_donate_desc5'|translate} <a href="https://www.paypal.com/"><img src="{$PORG_ROOT_URL}images/get_involved/paypal.svg"/></a></p>
       </div>
       <div class="col-md-4 col-get-involved-donate-form text-center">
-        <h1>Your Gift</h1>
+        <h1>{'Your Gift'|translate}</h1>
         <button class="btn btn-gift-money bold">100€</button>
         <button class="btn btn-gift-money bold">50€</button>
         <button class="btn btn-gift-money bold">25€</button>
@@ -124,10 +120,10 @@
         <div class="form-check">
           <label class="form-check-label">
           <input type="checkbox" class="form-check-input">
-          <span>Make this a monthly gift</span>
+          <span>{'Make this a monthly gift'|translate}</span>
           </label>
         </div>
-        <button class="btn btn-gift-donate">Donate</button>
+        <button class="btn btn-gift-donate">{'Donate'|translate}</button>
       </div>
     </div>
   </section>
@@ -136,8 +132,8 @@
     <div class="container">
       <div class="row row-thanks-donator">
         <div class="col-md-8 col-thanks-donator-content">
-          <h1>We are grateful !</h1>
-          <p>Thank you for your contributions and involvement. We will always appreciate efforts from everyone and help to Piwigo development and its community!</p>
+          <h1>{'We are grateful !'|translate}</h1>
+          <p>{'porg_get_involved_grateful_desc1'|translate} {'porg_get_involved_grateful_desc2'|translate}</p>
         </div>
         <div class="col-md-4 col-thanks-donator-logo">
           <img src="{$PORG_ROOT_URL}images/get_involved/thanks.svg"/>
