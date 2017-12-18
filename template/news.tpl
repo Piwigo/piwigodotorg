@@ -28,8 +28,8 @@ $(document).ready(function() {
     <div class="container">
       <div class="equal">
         <div class="col-md-6">
-          <h1>What's New?</h1>
-          <p>Find out about Piwigo latest news here. Upcoming events, new releases, beta versions and more...</p>
+          <h1>{'Latest news'|translate}</h1>
+          <p>{'porg_news_desc1'|translate} {'porg_news_desc2'|translate}</p>
         </div>
         <div class="col-md-6 pwg-whats-news-elements text-right">
           <a href="{$PORG_ROOT}{$URL.coding_activity}" class="btn"><span class="bold"><img src="{$PORG_ROOT_URL}images/news/code.svg"/>Coding Activity</span></a>
@@ -48,7 +48,7 @@ $(document).ready(function() {
     <div class="container">
       {if $topics_nbr > 4}
       <div class="text-center btn-news-see-more">
-        <button class="btn" data-length={$topics_nbr}><span class="bold">See More</span></button>
+        <button class="btn" data-length={$topics_nbr}><span class="bold">{'See more'|translate}</span></button>
       </div>
       {/if}
     </div>
