@@ -1,9 +1,14 @@
 <?php
 
 function porg_get_page_url($page) {
-  $url = 'index.php?porg=' . $page;
+  global $conf;
 
-  return ($url);
+  if (isset($conf['porg_url_rewrite']) and $conf['porg_url_rewrite'])
+  {
+    return $page;
+  }
+
+  return 'index.php?porg='.$page;
 }
 
 function set_porg_url() {
