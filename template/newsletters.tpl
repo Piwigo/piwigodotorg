@@ -28,8 +28,8 @@ $(document).ready(function() {
     <div class="container">
       <div class="equal">
         <div class="col-md-6">
-          <h1>Newsletter</h1>
-          <p>Keep up with Piwigo news. You will receive emails when a new release is available and when major events happen to the project.</p>
+          <h1>{'Newsletters'|translate}</h1>
+          <p>{'porg_newsletters_desc1'|translate} {'porg_newsletters_desc2'|translate}</p>
         </div>
         <div class="col-md-6 pwg-newsletter-icon">
         </div>
@@ -39,15 +39,15 @@ $(document).ready(function() {
 
   <section class="container form-newsletter">
     <form action="{$PORG_ROOT}announcement/subscribe.php" method="get" class="form-inline form-newsletter-subscribe text-center">
-      <h1 class="bold">Subscribe to our newsletter and stay updated!</h1>
+      <h1 class="bold">{'porg_newsletters_subscribe_title'|translate}</h1>
       <div class="form-group">
         <input type="text" name="email" class="form-newsletter-email" placeholder="Enter your email here" onfocus="this.placeholder=(this.placeholder=='Enter your email here') ? '' : this.placeholder;" onblur="this.placeholder=(this.placeholder=='') ? 'Enter your email here' : this.placeholder;"/>
-        <button type="submit" value="Subscribe me!" class="btn btn-default"><span class="bold">SIGN UP</span></button>
+        <button type="submit" value="Subscribe me!" class="btn btn-default"><span class="bold">{'Sign up'|translate}</span></button>
       </div>
     </form>
   </section>
 
-  <section class="container newsletter-container" {counter start=0 skip=1}>
+  <section class="container newsletter-container">
     <div class="equal row-newsletters">
     {include file='template/newsletters_articles.tpl'} 
     </div>
@@ -57,7 +57,7 @@ $(document).ready(function() {
     <div class="container">
       {if {$newsletters_length > 9}}
       <div class="text-center btn-news-see-more">
-        <button class="btn" data-length="{$newsletters_length}"><span class="bold">See More</span></button>
+        <button class="btn" data-length="{$newsletters_length}"><span class="bold">{'See more'|translate}</span></button>
       </div>
       {/if}
     </div>

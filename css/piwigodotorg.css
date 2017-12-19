@@ -2023,6 +2023,10 @@ and (max-device-width : 480px) {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
+.form-newsletter-subscribe .btn-default > span {
+    text-transform: uppercase;
+}
+
 .form-newsletter-email::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     text-align: center;
 }
