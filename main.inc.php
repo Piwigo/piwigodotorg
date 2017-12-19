@@ -119,7 +119,9 @@ function porg_load_header()
 add_event_handler('init', 'porg_load_content');
 function porg_load_content()
 {
-    global $template;
+    global $template, $logger;
+
+    $logger->info(__FUNCTION__.', $_GET[porg] = '.(isset($_GET['porg']) ? $_GET['porg'] : 'null'));
 
     $porg_root_url = get_absolute_root_url();
     if (isset($_GET['porg']))
