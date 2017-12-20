@@ -2,8 +2,8 @@
     <div class="container">
       <div class="equal">
         <div class="col-md-6">
-          <h1>Testimonials</h1>
-          <p>Let's discover what Piwigo users have to say! On this page you can read genuine testimonials from real life experiences with Piwigo.</p>
+          <h1>{'Testimonials'|translate}</h1>
+          <p>{'porg_testimonials_desc1'|translate} {'porg_testimonials_desc2'|translate}</p>
         </div>
         <div class="col-md-6 pwg-testimonies-icon">
         </div>
@@ -40,8 +40,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <p>We're proud to have such a community!<br>
-          If you have a story to tell, <a href="{$PORG_ROOT}{$URL.contact}&type=testimonial">share yours</a></p>
+          <p>{'porg_testimonials_share_title'|translate}<br>
+          {'porg_testimonials_share_desc1'|translate} <a href="{$PORG_ROOT}{$URL.contact}&type=testimonial">{'porg_testimonials_share_desc2'|translate}</a></p>
         </div>
       </div>
     </div>
