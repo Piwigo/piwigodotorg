@@ -60,6 +60,7 @@ function porg_lang_init() {
     load_language('plugin.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
     /* Load user language translation */
     load_language('plugin.lang', PORG_PATH);
+    load_language('urls.lang', PORG_PATH);
 }
 
 /* Add ws_methods */
@@ -101,14 +102,13 @@ function porg_load_header()
 
     $porg_root_url = get_absolute_root_url();
     $porg_root_url_piwigodotorg = get_absolute_root_url() . PORG_PATH;
-    $url = set_porg_url();
     $template->set_template_dir(PORG_PATH);
     $template->set_filenames(array('header_porg' => realpath(PORG_PATH .'template/header.tpl')));
     $template->assign(
         array(
             'PORG_ROOT_URL' => $porg_root_url,
             'PORG_ROOT_URL_PLUGINS' => $porg_root_url_piwigodotorg,
-            'URL' => $url,
+            'URL' => porg_get_page_urls(),
         )
     );
 
@@ -126,22 +126,28 @@ function porg_load_content()
     $porg_root_url = get_absolute_root_url();
     if (isset($_GET['porg']))
     {
-        $porg_page = $_GET['porg'];
-        $porg_page = str_replace('-', '_', $porg_page);
-        $porg_pages = set_porg_url();
-        if (isset($porg_pages[$porg_page]))
+        $porg_page = porg_label_to_page($_GET['porg']);
+
+        if ($porg_page !== false)
         {
-            if (!getRelease($porg_pages, $porg_page))
+            $porg_file = porg_page_to_file($porg_page);
+
+            $tpl_file = PORG_PATH . 'template/' . $porg_file . '.tpl';
+            if (isset($_GET['version'])) // might have been set by porg_label_to_page called earlier
             {
-                $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . $porg_page . '.tpl')));
+                $tpl_file = porg_get_release_tpl($_GET['version']);
             }
+
+            $template->set_filenames(array('porg_page' => realpath($tpl_file)));
+
             /* Load en_UK translation */
-            load_language($porg_page . '.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+            load_language($porg_file . '.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
             /* Load user language translation */
-            load_language($porg_page . '.lang', PORG_PATH);
-            if (file_exists(PORG_PATH . '/include/' . $porg_page . '.inc.php'))
+            load_language($porg_file . '.lang', PORG_PATH);
+
+            if (file_exists(PORG_PATH . '/include/' . $porg_file . '.inc.php'))
             {
-                include(PORG_PATH . '/include/' . $porg_page . '.inc.php');
+                include(PORG_PATH . '/include/' . $porg_file . '.inc.php');
             }
         }
         else

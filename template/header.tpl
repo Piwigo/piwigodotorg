@@ -40,7 +40,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>  {'Discover'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
           <ul class="dropdown-menu dropdown-menu-left">
-            <li><a href="{$PORG_ROOT}{$URL.whatispiwigo}">{'What is Piwigo?'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.what_is_piwigo}">{'What is Piwigo?'|translate}</a></li>
             <li><a href="{$PORG_ROOT}{$URL.features}">{'Features'|translate}</a></li>
             <li><a href="{$PORG_ROOT}{$URL.changelogs}">{'Changelogs'|translate}</a></li>
             <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>

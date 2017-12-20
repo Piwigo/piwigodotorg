@@ -1,53 +1,142 @@
 <?php
+/**
+ * list of pages identifiers. They are the default "porg=xxx" in URLs. We use "-" and not "_".
+ */
+function porg_get_pages()
+{
+  return array(
+    'home',
+    'features',
+    'what-is-piwigo',
+    'changelogs',
+    'contact',
+    'about-us',
+    'extensions',
+    'get-involved',
+    'get-piwigo',
+    'get-started',
+    'coding-activity',
+    'news',
+    'newsletters',
+    'press',
+    'release',
+    'showcases',
+    'testimonials',
+    );
+}
 
-function porg_get_page_url($page) {
+/**
+ * transforms a page id into a localized label. In French, "features" becomes "fonctionnalites" in the URL
+ */
+function porg_get_page_label($page)
+{
+  global $lang;
+
+  if (isset($lang['porg_urls'][$page]))
+  {
+    return $lang['porg_urls'][$page];
+  }
+
+  return $page;
+}
+
+/**
+ * returns the relative URL for a page id. The pattern can be changed with configuration param $conf['porg_url_rewrite']
+ */
+function porg_get_page_url($page)
+{
   global $conf;
+
+  $label = porg_get_page_label($page);
 
   if (isset($conf['porg_url_rewrite']) and $conf['porg_url_rewrite'])
   {
-    return $page;
+    return $label;
   }
 
-  return 'index.php?porg='.$page;
+  return 'index.php?porg='.$label;
 }
 
-function set_porg_url() {
-  $url = array(
-    'home' => porg_get_page_url('home'),
-    'features' => porg_get_page_url('features'),
-    'whatispiwigo' => porg_get_page_url('whatispiwigo'),
-    'changelogs' => porg_get_page_url('changelogs'),
-    'contact' => porg_get_page_url('contact'),
-    'about_us' => porg_get_page_url('about-us'),
-    'extensions' => porg_get_page_url('extensions'),
-    'get_involved' => porg_get_page_url('get-involved'),
-    'get_piwigo' => porg_get_page_url('get-piwigo'),
-    'get_started' => porg_get_page_url('get-started'),
-    'coding_activity' => porg_get_page_url('coding-activity'),
-    'news' => porg_get_page_url('news'),
-    'newsletters' => porg_get_page_url('newsletters'),
-    'press' => porg_get_page_url('press'),
-    'release' => porg_get_page_url('release'),
-    'showcases' => porg_get_page_url('showcases'),
-    'testimonials' => porg_get_page_url('testimonials'),
-  );
-  return $url;
-}
-
-function getRelease($porg_pages, $porg_page)
+/**
+ * converts a page id into the file name. We use "_" instead of "-" in files (include/xxx.inc.php or template/xxx.tpl)
+ */
+function porg_page_to_file($porg_page)
 {
-  global $template;
+  return str_replace('-', '_', $porg_page);
+}
 
-  if (isset($_GET['version']))
+/**
+ * list of all urls, used in header/footer (and in the middle of some pages).
+ *
+ * return associative array 'file id' => 'relative url to page', like 'what_is_piwigo' => 'piwigo-cest-quoi' (FR)
+ */
+function porg_get_page_urls()
+{
+  $porg_pages = porg_get_pages();
+
+  $porg_page_urls = array();
+  foreach ($porg_pages as $porg_page)
   {
-    $version = $_GET['version'];
-    if (file_exists(PORG_PATH . 'template/' . $porg_page . '-' . $version . '.tpl'))
-    {
-      $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . $porg_page . '-' . $version . '.tpl')));
-      return true;
-    }
-    return false;
+    $porg_page_urls[porg_page_to_file($porg_page)] = porg_get_page_url($porg_page);
   }
+
+  return $porg_page_urls;
+}
+
+/**
+ * list of all page labels
+ *
+ * erturn associative array 'page id' => 'page label'
+ */
+function porg_get_page_labels()
+{
+  $porg_pages = porg_get_pages();
+
+  $porg_page_labels = array();
+  foreach ($porg_pages as $porg_page)
+  {
+    $porg_page_labels[$porg_page] = porg_get_page_label($porg_page);
+  }
+
+  return $porg_page_labels;
+}
+
+/**
+ * returns the page id, based on a label. Returns false if nothing found.
+ */
+function porg_label_to_page($label)
+{
+  // specific for release-x.y.z : split to label+version
+  $release_label = porg_get_page_label('release');
+  if (preg_match('/^'.$release_label.'\-(\d+\.\d+\.\d+)$/', $label, $matches))
+  {
+    $label = $release_label;
+    $_GET['version'] = $matches[1];
+  }
+
+  $porg_page_labels = porg_get_page_labels();
+  $flip = array_flip($porg_page_labels);
+
+  if (isset($flip[$label]))
+  {
+    return $flip[$label];
+  }
+
+  return false;
+}
+
+/**
+ * in case a release has a special release notes (like 2.9.0), we do not use the generic release.tpl template
+ */
+function porg_get_release_tpl($version)
+{
+  $candidate = PORG_PATH . 'template/release-' . $version . '.tpl';
+  if (file_exists($candidate))
+  {
+    return $candidate;
+  }
+
+  return PORG_PATH . 'template/release.tpl';
 }
 
 function get_showcases()

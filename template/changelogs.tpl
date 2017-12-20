@@ -31,7 +31,7 @@
           </div>
           {/if}
           <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}&version={$version}">Read more</a>
+            <a href="{$PORG_ROOT}{$URL.release}-{$version}">Read more</a>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
             <p>Birth of Piwigo</p>
           </div>
           <div class="col-md-3 col-xs-3 primary-version-read-more">
-            <p><a href="{$PORG_ROOT}{$URL.release}&version=1.0.0">Read more</a></p>
+            <p><a href="{$PORG_ROOT}{$URL.release}-1.0.0">Read more</a></p>
           </div>
         </div>
       </div>
