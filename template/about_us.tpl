@@ -132,12 +132,11 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-left">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h2 class="bold">Piwigo iOS App</h2>
-                <p>Lorem ipsum dolor sit amet,
-                consectetuer adipiscing.</p>
+                <h2 class="bold">Mobile apps</h2>
+                <p>Piwigo comes as mobile apps for iPhone/iPad and Android.</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h1 class="bold">2016</h1>
+                <h1 class="bold">2011</h1>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_phone.svg"/>
@@ -148,11 +147,10 @@
             <div class="pwg-timeline-content-right">
               <div class="col-md-6 col-piwigo-timeline-content-left">
                 <h2 class="bold">Piwigo moves to GitHub</h2>
-                <p>Lorem ipsum dolor sit amet,
-                consectetuer adipiscing.</p>
+                <p>Piwigo officialy joins the Github community of coders.</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h1 class="bold">2017</h1>
+                <h1 class="bold">2015</h1>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_github.svg"/>
@@ -176,9 +174,8 @@
                 <h1 class="bold">2010</h1>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h2 class="bold">Start of Piwigo.com</h2>
-                <p>Lorem ipsum dolor sit amet,
-                consectetuer adipiscing.</p>
+                <h2 class="bold">Piwigo.com is launched</h2>
+                <p>Cloud-hosting, ready-to-use Piwigo for everybody.</p>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_com.svg"/>
@@ -192,8 +189,7 @@
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h2 class="bold">PhpWebGallery becomes Piwigo</h2>
-                <p>Lorem ipsum dolor sit amet,
-                consectetuer adipiscing.</p>
+                <p>New name, version 2.0 but same project.</p>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_pen.svg"/>
@@ -213,9 +209,8 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-left">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h2 class="bold">Something interesting</h2>
-                <p>Lorem ipsum dolor sit amet,
-                consectetuer adipiscing.</p>
+                <h2 class="bold">Recruitement</h2>
+                <p>The team gets bigger and coding activity is growing strongly.</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h1 class="bold">2005</h1>
@@ -229,8 +224,7 @@
             <div class="pwg-timeline-content-right">
               <div class="col-md-6 col-piwigo-timeline-content-left">
                 <h2 class="bold">Arrivals of Plugins</h2>
-                <p>Lorem ipsum dolor sit amet,
-                consectetuer adipiscing.</p>
+                <p>Major technical and mindset shift. New features and new contributors.</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h1 class="bold">2007</h1>
@@ -257,8 +251,7 @@
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h2 class="bold">Beginning</h2>
-                <p>Lorem ipsum dolor sit amet,
-                consectetuer adipiscing.</p>
+                <p>Available on Free.fr with a 1-click install. Will attract many contributors.</p>
               </div>
               <div id="circle">
                 <img src=""/>
@@ -273,8 +266,7 @@
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h2 class="bold">Birth</h2>
-                <p>Lorem ipsum dolor sit amet,
-                consectetuer adipiscing.</p>
+                <p>After months of preparation, version 1.0.0 was released.</p>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_birth.svg"/>
