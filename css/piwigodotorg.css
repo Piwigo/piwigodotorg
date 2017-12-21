@@ -908,6 +908,10 @@
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
+.row-getting-started-content .btn {
+    text-transform: uppercase;
+}
+
 /***********************
  * Piwigo download CSS *
  ***********************/
