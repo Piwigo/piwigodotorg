@@ -5571,6 +5571,10 @@ label {
     font-size: 14px;
 }
 
+.container-download-release .row > a.copy-md5sum {
+    color: #54616F;
+}
+
 /* Introduction release content */
 
 .container-fluide-release-note-content-intro {

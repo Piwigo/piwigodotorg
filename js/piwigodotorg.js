@@ -29,6 +29,16 @@ $(document).ready(function() {
     $('[data-toggle="popover"]').popover();
 });
 
+/* Clipboard */
+$(document).ready(function() {
+    var md5sum = $("#md5sum-content").attr("value");
+    new Clipboard('.copy-md5sum', {
+        text: function() {
+            return md5sum;
+        }
+    });
+});
+
 
 /* Handle testimonies grid system */
 $(function(){
