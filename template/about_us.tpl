@@ -2,8 +2,8 @@
     <div class="container">
       <div class="equal">
         <div class="col-md-6">
-          <h1>About Us</h1>
-          <p>We're a community of contributors from all around the globe. If you believe in our open source mission, we hope you will join us!</p>
+          <h1>{'About us'|translate}</h1>
+          <p>{'porg_about_us_desc1'|translate} {'porg_about_us_desc2'|translate}</p>
         </div>
         <div class="col-md-6 crowd-background">
         </div>
@@ -14,8 +14,8 @@
   <section class="container-fluide container-fluide-missions">
     <div class="container text-center" id="pwg-missions">
       <div class="row pwg-about-missions">
-        <h1>Our Mission</h1>
-        <p>The Piwigo mission is to build the best open source photo manager for the web : user experience comes first, lightning fast and easy to use.</p>
+        <h1>{'Our Mission'|translate}</h1>
+        <p>{'porg_about_us_mission_desc'|translate}</p>
       </div>
       <div class="row pwg-about-stats">
         <div class="col-md-15 col-xs-6 pwg-about-download">
@@ -53,7 +53,7 @@
         <img src="{$PORG_ROOT_URL}images/about_us/earth.svg"/>
       </div>
       <div class="col-md-9 text-center">
-        <h1>Piwigo contributors</h1>
+        <h1>{'Piwigo contributors'|translate}</h1>
       </div>
     </div>
   </section>
@@ -61,7 +61,7 @@
   <section class="container-fluide container-fluide-about-contributors">
     <div class="container">
       <div class="row text-center">
-        <span>Contributors from all over the world, working on every pieces of the Piwigo ecosytem!</span>
+        <span>{'porg_about_us_contributors_desc'|translate}</span>
       </div>
     </div>
   </section>
@@ -88,9 +88,9 @@
           <a href="#"><img src="{$PORG_ROOT_URL}images/about_us/avatar1.svg"/></a>
         </div>
         <div class="col-md-15 col-xs-12 pwg-team-contributors-involved">
-          <a href="{$PORG_ROOT}{$URL.get_involved}"><h1>You?</h1>
-          <p>Take part in our adventure<br>
-          <span class="text-center">Get involved!</span></p></a>
+          <a href="{$PORG_ROOT}{$URL.get_involved}"><h1>{'You?'|translate}</h1>
+          <p>{'Take part in our adventure'|translate}<br>
+          <span class="text-center">{'Get involved!'|translate}</span></p></a>
         </div>
         <div class="col-md-15 col-xs-4">
           <a href="#"><img src="{$PORG_ROOT_URL}images/about_us/avatar1.svg"/></a>
@@ -132,8 +132,8 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-left">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h2 class="bold">Mobile apps</h2>
-                <p>Piwigo comes as mobile apps for iPhone/iPad and Android.</p>
+                <h2 class="bold">{'Mobile apps'|translate}</h2>
+                <p>{'porg_about_us_apps_desc'|translate}</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h1 class="bold">2011</h1>
@@ -146,8 +146,8 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-right">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h2 class="bold">Piwigo moves to GitHub</h2>
-                <p>Piwigo officialy joins the Github community of coders.</p>
+                <h2 class="bold">{'Piwigo moves to GitHub'|translate}</h2>
+                <p>{'porg_about_us_github_desc'|translate}</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h1 class="bold">2015</h1>
@@ -174,8 +174,8 @@
                 <h1 class="bold">2010</h1>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h2 class="bold">Piwigo.com is launched</h2>
-                <p>Cloud-hosting, ready-to-use Piwigo for everybody.</p>
+                <h2 class="bold">{'Piwigo.com is launched'|translate}</h2>
+                <p>{'porg_about_us_launch_desc'|translate}</p>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_com.svg"/>
@@ -188,8 +188,8 @@
                 <h1 class="bold">2009</h1>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h2 class="bold">PhpWebGallery becomes Piwigo</h2>
-                <p>New name, version 2.0 but same project.</p>
+                <h2 class="bold">{'PhpWebGallery becomes Piwigo'|translate}</h2>
+                <p>{'porg_about_us_webgallery_desc'|translate}</p>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_pen.svg"/>
@@ -209,8 +209,8 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-left">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h2 class="bold">Recruitement</h2>
-                <p>The team gets bigger and coding activity is growing strongly.</p>
+                <h2 class="bold">{'Recruitement'|translate}</h2>
+                <p>{'porg_about_us_recruitement_desc'|translate}</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h1 class="bold">2005</h1>
@@ -223,8 +223,8 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-right">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h2 class="bold">Arrivals of Plugins</h2>
-                <p>Major technical and mindset shift. New features and new contributors.</p>
+                <h2 class="bold">{'Arrivals of Plugins'|translate}</h2>
+                <p>{'porg_about_us_plugins_desc1'|translate} {'porg_about_us_plugins_desc2'|translate}</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h1 class="bold">2007</h1>
@@ -250,8 +250,8 @@
                 <h1 class="bold">2003</h1>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h2 class="bold">Beginning</h2>
-                <p>Available on Free.fr with a 1-click install. Will attract many contributors.</p>
+                <h2 class="bold">{'Beginning'|translate}</h2>
+                <p>{'porg_about_us_beginning_desc1'|translate} {'porg_about_us_beginning_desc2'|translate}</p>
               </div>
               <div id="circle">
                 <img src=""/>
@@ -265,8 +265,8 @@
                 <h1 class="bold">2002</h1>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h2 class="bold">Birth</h2>
-                <p>After months of preparation, version 1.0.0 was released.</p>
+                <h2 class="bold">{'Birth'|translate}</h2>
+                <p>{'porg_about_us_birth_desc'|translate}</p>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_birth.svg"/>
@@ -286,10 +286,9 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2017</h1>
-            <h2 class="bold">Piwigo moves to GitHub</h2>
-            <p>Lorem ipsum dolor sit amet,
-            consectetuer adipiscing.</p>
+            <h1 class="bold">2015</h1>
+            <h2 class="bold">{'Piwigo moves to GitHub'|translate}</h2>
+            <p>{'porg_about_us_github_desc'|translate}</p>
           </div>
         </div>
         <div class="col-xs-12">
@@ -299,10 +298,9 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2016</h1>
-            <h2 class="bold">Piwigo iOS App</h2>
-            <p>Lorem ipsum dolor sit amet,
-            consectetuer adipiscing.</p>
+            <h1 class="bold">2011</h1>
+            <h2 class="bold">{'Mobile apps'|translate}</h2>
+            <p>{'porg_about_us_apps_desc'|translate}</p>
           </div>
         </div>
         <div class="col-xs-12">
@@ -312,9 +310,8 @@
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
             <h1 class="bold">2010</h1>
-            <h2 class="bold">Start of Piwigo.com</h2>
-            <p>Lorem ipsum dolor sit amet,
-            consectetuer adipiscing.</p>
+            <h2 class="bold">{'Piwigo.com is launched'|translate}</h2>
+            <p>{'porg_about_us_launch_desc'|translate}</p>
           </div>
         </div>
         <div class="col-xs-12">
@@ -325,9 +322,8 @@
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
             <h1 class="bold">2009</h1>
-            <h2 class="bold">PhpWebGallery becomes Piwigo</h2>
-            <p>Lorem ipsum dolor sit amet,
-            consectetuer adipiscing.</p>
+            <h2 class="bold">{'PhpWebGallery becomes Piwigo'|translate}</h2>
+            <p>{'porg_about_us_webgallery_desc'|translate}</p>
           </div>
         </div>
         <div class="col-xs-12">
@@ -338,9 +334,8 @@
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
             <h1 class="bold">2007</h1>
-            <h2 class="bold">Arrivals of Plugins</h2>
-            <p>Lorem ipsum dolor sit amet,
-            consectetuer adipiscing.</p>
+            <h2 class="bold">{'Arrivals of Plugins'|translate}</h2>
+            <p>{'porg_about_us_plugins_desc1'|translate} {'porg_about_us_plugins_desc2'|translate}</p>
           </div>
         </div>
         <div class="col-xs-12">
@@ -350,9 +345,8 @@
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
             <h1 class="bold">2005</h1>
-            <h2 class="bold">Something interesting</h2>
-            <p>Lorem ipsum dolor sit amet,
-            consectetuer adipiscing.</p>
+            <h2 class="bold">{'Recruitement'|translate}</h2>
+            <p>{'porg_about_us_recruitement_desc'|translate}</p>
           </div>
         </div>
         <div class="col-xs-12">
@@ -362,9 +356,8 @@
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
             <h1 class="bold">2003</h1>
-            <h2 class="bold">Beginning</h2>
-            <p>Lorem ipsum dolor sit amet,
-            consectetuer adipiscing.</p>
+            <h2 class="bold">{'Beginning'|translate}</h2>
+            <p>{'porg_about_us_beginning_desc1'|translate} {'porg_about_us_beginning_desc2'|translate}</p>
           </div>
         </div>
         <div class="col-xs-12">
@@ -375,9 +368,8 @@
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
             <h1 class="bold">2002</h1>
-            <h2 class="bold">Piwigo Birth</h2>
-            <p>Lorem ipsum dolor sit amet,
-            consectetuer adipiscing.</p>
+            <h2 class="bold">{'Birth'|translate}</h2>
+            <p>{'porg_about_us_birth_desc'|translate}</p>
           </div>
         </div>
       </div>
@@ -386,26 +378,26 @@
 
   <section class="container container-about-business-model">
     <div class="row row-about-title-business-model text-center">
-      <h1>Business Model</h1>
-      <p>Although animated by a largely volunteer community of contributors, a project like Piwigo has to pay some fees: web servers, domain names, Apple AppStore subscription, development time and website management. How is the project viable at money level?</p>
+      <h1>{'Business Model'|translate}</h1>
+      <p>{'porg_about_us_business_desc1'|translate} {'porg_about_us_business_desc2'|translate}</p>
     </div>
     <div class="equal row-about-content-business-model">
       <div class="col-md-4">
         <div class=" col-about-donations">
-          <h1>Donations</h1>
-          <p>The Piwigo Association collects donations from its community of users. This money is used to pay the direct fees: web servers or domain names. <a href="{$PORG_ROOT}{$URL.get_involved}#donate">Your financial contribution</a> would mark your commitment to the project.</p>
+          <h1>{'Donations'|translate}</h1>
+          <p>{'porg_about_us_donation_desc1'|translate} {'porg_about_us_donation_desc2'|translate} <a href="{$PORG_ROOT}{$URL.get_involved}#donate">{'porg_about_us_donation_desc3'|translate}</a> {'porg_about_us_donation_desc4'|translate}</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="col-about-piwigodotcom">
-          <h1>Piwigo.com</h1>
-          <p>Profits generated make it possible to spend some time on Piwigo. For example Pierrick, creator of Piwigo and now paid thanks to Piwigo.com, can work on Piwigo.org. The two projects thus maintain a virtuous circle: the success of one leads to the success of the other, and vice versa.</p>
+          <h1>{'Piwigo.com'|translate}</h1>
+          <p>{'porg_about_us_dotcom_desc1'|translate} {'porg_about_us_dotcom_desc2'|translate} {'porg_about_us_dotcom_desc3'|translate}</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="col-about-prestations">
-          <h1>Services</h1>
-          <p>Some coders and theme creators are paid by customers to create new features. Most of the time, these creations are also available to the Piwigo community as a whole.</p>
+          <h1>{'Services'|translate}</h1>
+          <p>{'porg_about_us_service_desc1'|translate} {'porg_about_us_service_desc2'|translate}</p>
         </div>
       </div>
     </div>
@@ -414,9 +406,9 @@
   <section class="container-fluide container-fluide-about-get-involved text-center">
     <div class="container container-about-get-involved" id="pwg-get-involved">
       <div class="row">
-        <h1>Want to be part of the adventure?</h1>
-        <p>The Piwigo project needs various skills, such as coders, designers, documentation writers, helpers. If you believe in our mission, be part of it :-)</p>
-        <a class="btn btn-get-involved" href="{$PORG_ROOT}{$URL.get_involved}">Get Involved!</a>
+        <h1>{'Want to be part of the adventure?'}</h1>
+        <p>{'porg_about_us_join_desc1'|translate} {'porg_about_us_join_desc2'|translate}</p>
+        <a class="btn btn-get-involved" href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved!'|translate}</a>
       </div>
     </div>
   </section>
