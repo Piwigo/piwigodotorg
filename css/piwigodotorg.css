@@ -5514,6 +5514,24 @@ label {
     color: #54616F;
  }
 
+ .btn-close-popover {
+    color: red;
+    float: right;
+    cursor: pointer;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+ }
+
+ .btn-close-popover:active, .btn-close-popover:hover {
+    color: red;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+ }
+
  .container-download-release .row > button {
     font-size: 20px;
     color: white;

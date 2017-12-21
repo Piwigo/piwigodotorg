@@ -27,16 +27,15 @@ $(function() {
 /* Popovers */
 $(document).ready(function() {
     $('[data-toggle="popover"]').popover();
+    /* Fixs double click needed when closing popover from button */
+    $('body').on('hidden.bs.popover', function (e) {
+        $(e.target).data("bs.popover").inState.click = false;
+    });
 });
 
 /* Clipboard */
 $(document).ready(function() {
-    var md5sum = $("#md5sum-content").attr("value");
-    new Clipboard('.copy-md5sum', {
-        text: function() {
-            return md5sum;
-        }
-    });
+    new Clipboard('.copy-md5sum');
 });
 
 

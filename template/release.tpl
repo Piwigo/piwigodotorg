@@ -16,8 +16,8 @@
     <div class="row">
       <button class="btn">Download Piwigo {$version}</button>
       <p class="release-date"><i class="icon-dropbox"></i>Released the {$released_on}</p>
-      <a id="md5sum-content" title="{$md5sum}" value="{$md5sum}" data-toggle="popover" data-placement="bottom" data-content="The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.">md5sum</a>
-      <a class="copy-md5sum" title="Copy md5sum" data-clipboard-target="#md5sum-content"><i class="icon-clipboard"></i></a>
+      <a class="copy-md5sum" title="Copy md5sum" data-clipboard-text="{$md5sum}"><i class="icon-clipboard"></i></a>
+      <a id="popover" title="{$md5sum} <a class='btn-close-popover' onclick='$(&quot;#popover&quot;).popover(&quot;hide&quot;);'><i class='icon-cancel-circled'></i></a>" data-html="true" data-toggle="popover" data-placement="bottom" data-content="The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.">md5sum</a>
       {if $state == minor}
         <p><i class="icon-info-circled"></i>The list of major changes is described on <span><a href="{$PORG_ROOT}{$URL.release}-{$version_major}">Piwigo
         {$version_major}</a></span> release note</p>
