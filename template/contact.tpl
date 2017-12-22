@@ -42,8 +42,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1>Contact us</h1>
-          <p>You can leave a message using the contact form below. Please use this mainly for website remarks. We prefer using the Support forums for any feedback, it eases tracking by the team.</p>
+          <h1>{'Contact us'|translate}</h1>
+          <p>{'porg_contact_desc1'|translate} {'porg_contact_desc2'|translate} {'porg_contact_desc3'|translate}</p>
         </div>
         <div class="col-md-6 contact-logo">
         </div>
@@ -55,26 +55,26 @@
     <div class="row">
       <form data-toggle="validator" role="form">
         <div class="col-md-4 form-group">
-          <label for="form-email" class="control-label">Your email address</label>
-          <input type="email" class="form-control input-email" id="form-email" data-error="Whoops, that email address is invalid" required>
+          <label for="form-email" class="control-label">{'Your email address'|translate}</label>
+          <input type="email" class="form-control input-email" id="form-email" data-error="{'porg_contact_error_email'|translate}" required>
           <div class="help-block with-errors"></div>
         </div>
         <div class="col-md-4 form-group">
-          <p class="contact-category bold">Category</p>
+          <p class="contact-category bold">{'Category'|translate}</p>
           <span class="dropdown-el">
-            <input type="radio" name="sortType" value="press" id="sort-best" {if $category == 'press'} checked {/if}><label for="sort-best">Press inquiry</label>
-            <input type="radio" name="sortType" value="partnership" id="sort-low" {if $category == 'partnership'} checked {/if}><label for="sort-low">Partnership</label>
-            <input type="radio" name="sortType" value="security" id="sort-high" {if $category == 'security'} checked {/if}><label for="sort-high">Security report</label>
-            <input type="radio" name="sortType" value="testimonial" id="sort-brand" {if $category == 'testimonial'} checked {/if}><label for="sort-brand">Testimonial</label>
+            <input type="radio" name="sortType" value="press" id="sort-best" {if $category == 'press'} checked {/if}><label for="sort-best">{'Press inquiry'|translate}</label>
+            <input type="radio" name="sortType" value="partnership" id="sort-low" {if $category == 'partnership'} checked {/if}><label for="sort-low">{'Partnership'|translate}</label>
+            <input type="radio" name="sortType" value="security" id="sort-high" {if $category == 'security'} checked {/if}><label for="sort-high">{'Security report'|translate}</label>
+            <input type="radio" name="sortType" value="testimonial" id="sort-brand" {if $category == 'testimonial'} checked {/if}><label for="sort-brand">{'Testimonial'|translate}</label>
           </span>
         </div>
         <div class="col-md-12 form-group">
-          <label for="form-message">Your message</label>
-          <textarea class="form-control" id="form-message" rows="5" data-error="Whoops, your message seems to be wrong" required></textarea>
+          <label for="form-message">{'Your message'|translate}</label>
+          <textarea class="form-control" id="form-message" rows="5" data-error="{'porg_contact_error_message'|translate}" required></textarea>
           <div class="help-block with-errors"></div>
         </div>
         <div class="col-md-6 contact-submit">
-          <button type="submit" id="form-submit" data-state="not-push" class="btn btn-send-mail">Send message</button>
+          <button type="submit" id="form-submit" data-state="not-push" class="btn btn-send-mail">{'Send message'|translate}</button>
         </div>
       </form>
     </div>
