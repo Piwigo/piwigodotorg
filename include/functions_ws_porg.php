@@ -75,13 +75,9 @@ function ws_porg_contact_send($params, &$service)
   $to = "contact@piwigo.org";
 
   /* EMAIL */
-  if (empty($params["email"]))
+  if(!filter_var($params["email"], FILTER_VALIDATE_EMAIL))
   {
-    $error .= "<li>Email is required</li>";
-  }
-  else if(!filter_var($params["email"], FILTER_VALIDATE_EMAIL))
-  {
-    $error .= "<li>Invalid email format</li>";
+    $error .= "<li>Whoops, invalid email format</li>";
   }
   else
   {
@@ -89,7 +85,6 @@ function ws_porg_contact_send($params, &$service)
   }
 
   /* SUBJECT */
-
   if (empty($params["subject"]))
   {
     $subject = "Misc";
@@ -99,15 +94,7 @@ function ws_porg_contact_send($params, &$service)
     $subject = $params["subject"];
   }
 
-  /* MESSAGE */
-  if (empty($params["message"]))
-  {
-    $error .= "<li>Message is required</li>";
-  }
-  else
-  {
-    $message = $params["message"];
-  }
+  $message = $params["message"];
 
   if (empty($error))
   {
@@ -119,13 +106,14 @@ function ws_porg_contact_send($params, &$service)
     $headers.= "MIME-Version: 1.0\n";
     $headers.= "Content-type: text/plain; charset=utf-8\n";
     $headers.= "Content-Transfer-Encoding: quoted-printable\n";
-    // Écrit le résultat dans le fichier
+
     mail($to, $subject, $message, $headers);
     echo json_encode(['code'=>200, 'msg'=>$message, 'subject'=>$subject]);
     exit;
   }
 
   echo json_encode(['code'=>404, 'msg'=>$error]);
+  exit;
 }
 
 ?>

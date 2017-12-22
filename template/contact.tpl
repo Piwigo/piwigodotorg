@@ -28,8 +28,8 @@
                   $("form").remove();
                   $(".container-contact .row").append('<div class="contact-success text-center"><p><i class="icon-ok"></i> Thanks for contacting us! We will be in touch with you shortly.</p></div>');
                 } else {
-                    $(".display-error").html("<ul>"+data.msg+"</ul>");
-                    $(".display-error").css("display","block");
+                    $(".email-error").html("<ul class='list-unstyled' style='color: #a94442;'><li>"+data.msg+"<li></ul>");
+                    $("#form-submit").data("state", "not-push");
                 }
             }
         });
@@ -57,7 +57,7 @@
         <div class="col-md-4 form-group">
           <label for="form-email" class="control-label">{'Your email address'|translate}</label>
           <input type="email" class="form-control input-email" id="form-email" data-error="{'porg_contact_error_email'|translate}" required>
-          <div class="help-block with-errors"></div>
+          <div class="help-block with-errors email-error"></div>
         </div>
         <div class="col-md-4 form-group">
           <p class="contact-category bold">{'Category'|translate}</p>
