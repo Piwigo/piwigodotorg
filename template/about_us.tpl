@@ -216,7 +216,7 @@
                 <h1 class="bold">2005</h1>
               </div>
               <div id="circle">
-                <img src=""/>
+                <img src="{$PORG_ROOT_URL}images/about_us/add-user.svg"/>
               </div>
             </div>
           </div>
