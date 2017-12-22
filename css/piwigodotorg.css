@@ -5351,6 +5351,18 @@ label {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
  }
 
+
+.contact-success {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: #1D5D2B;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
  @media (max-width: 380px) {
     .btn-send-mail {
         padding-left: 50px;
@@ -5358,7 +5370,7 @@ label {
     }
  }
 
- .btn-send-mail:hover {
+ .btn-send-mail:hover, .btn-send-mail:focus {
     color: #FFFFFF;
     background-color: #FF7700;
  }

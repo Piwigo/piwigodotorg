@@ -92,6 +92,16 @@ function porg_add_methods($arr)
         null,
         'Refresh showcases thumbnail'
     );
+    $service->addMethod(
+        'porg.contact.send',
+        'ws_porg_contact_send',
+        array(
+            'email' => array(),
+            'subject' => array(),
+            'message' => array(),
+        ),
+        'Send email to Piwigo.org (PLG)'
+    );
 }
 
 /* Load Piwigo.org header */
