@@ -56,7 +56,8 @@
       <form data-toggle="validator" role="form">
         <div class="col-md-4 form-group">
           <label for="form-email" class="control-label">Your email address</label>
-          <input type="email" class="form-control input-email" id="form-email" data-error="Your email address is invalid" required>
+          <input type="email" class="form-control input-email" id="form-email" data-error="Whoops, that email address is invalid" required>
+          <div class="help-block with-errors"></div>
         </div>
         <div class="col-md-4 form-group">
           <p class="contact-category bold">Category</p>
@@ -69,7 +70,8 @@
         </div>
         <div class="col-md-12 form-group">
           <label for="form-message">Your message</label>
-          <textarea class="form-control" id="form-message" rows="5" required></textarea>
+          <textarea class="form-control" id="form-message" rows="5" data-error="Whoops, your message seems to be wrong" required></textarea>
+          <div class="help-block with-errors"></div>
         </div>
         <div class="col-md-6 contact-submit">
           <button type="submit" id="form-submit" data-state="not-push" class="btn btn-send-mail">Send message</button>
