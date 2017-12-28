@@ -96,6 +96,15 @@ $lang['language_zh_HK'] = 'Hong-Kong';
 $lang['language_zh_TW'] = 'Chinois traditionnel';
 
 /* Common words */
+$lang['See more'] = 'Voir plus';
+$lang['Individuals'] = 'Individus';
+$lang['Professionals'] = 'Professionnels';
+$lang['Organisations'] = 'Organisations';
+$lang['High Volume'] = 'Forte Volumétrie';
+$lang['Sustainable'] = 'Pérenne';
+$lang['Open Source'] = 'Open Source';
+$lang['Batch Management'] = 'Gestion par lot';
+$lang['Themes & Plugins'] = 'Thèmes & Plugins';
 $lang['Get started with Piwigo'] = 'Démarrez avec Piwigo';
 $lang['porg_get_started_desc'] = 'Prêt à gérer vos photos grâce à Piwigo ? Rejoignez notre communauté !';
 ?>
