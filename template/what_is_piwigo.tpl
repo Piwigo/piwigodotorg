@@ -177,9 +177,9 @@
   <section class="container-fluide get-started text-center">
     <div class="container">
       <div class="row">
-        <h1>Get started with Piwigo</h1>
-        <p>Ready to start managing your photos with Piwigo? Join our community!</p>
-        <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">Get Piwigo</a>
+        <h1>{'Get started with Piwigo'|translate}</h1>
+        <p>{'porg_get_started_desc'|translate}</p>
+        <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">{'Get Piwigo'|translate}</a>
       </div>
     </div>
   </section>
