@@ -3,8 +3,7 @@
       <div class="row">
         <div class="col-md-6">
           <h1>{'Changelogs'|translate}</h1>
-          <p>The Piwigo lorem ipsum dolor sit amet, consectetuer adipiscing
-          elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+          <p>{'porg_changelogs_desc1'|translate} {'porg_changelogs_desc2'|translate}</p>
         </div>
         <div class="col-md-6 changelogs-logo">
         </div>
@@ -56,8 +55,7 @@
   <section class="container-fluide container-fluide-techs-view">
     <div class="container">
       <div class="row text-center">
-        <p>{'porg_changelogs_technicals_desc1'|translate}<br>
-        <a href="http://piwigo.org/doc/doku.php?id=about:release_and_branchs" class="bold">{'porg_changelogs_technicals_desc2'|translate}</a> {'porg_changelogs_technicals_desc3'|translate}</p>
+        <p>{'porg_changelogs_technicals_desc1'|translate:'http://piwigo.org/doc/doku.php?id=about:release_and_branchs'}</p>
       </div>
     </div>
   </section>
