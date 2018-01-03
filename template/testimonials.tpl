@@ -36,12 +36,14 @@
     </div>
   </section>
 
+{assign var=share_url value="{$URL.contact}&type=testimonial"}
+
   <section class="container-fluide share-testimonies">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
           <p>{'porg_testimonials_share_title'|translate}<br>
-          {'porg_testimonials_share_desc1'|translate} <a href="{$PORG_ROOT}{$URL.contact}&type=testimonial">{'porg_testimonials_share_desc2'|translate}</a></p>
+          {'porg_testimonials_share_desc1'|translate:$share_url}</p>
         </div>
       </div>
     </div>
