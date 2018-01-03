@@ -1,7 +1,7 @@
 <?php
 
 $lang['porg_whatispiwigo_desc1'] = 'Piwigo est une application web pour gérer votre collection de photos, et autres médias.';
-$lang['porg_whatispiwigo_desc2'] = 'Équipé de fonctionnalités puissantes, il propulse des galeries photos partout dans le monde.';
+$lang['porg_whatispiwigo_desc2'] = 'Doté de puissantes fonctionnalités, il gère des galeries partout dans le monde.';
 $lang['What can I use Piwigo for ?'] = 'Piwigo, pour quelles utilisations ?';
 $lang['porg_whatispiwigo_use_desc1'] = 'Il existe une large variété d\'utilisations parmi les membres de la communauté Piwigo.';
 $lang['porg_whatispiwigo_use_desc2'] = 'De la galerie de taille moyenne à d\'immenses photothèques, Piwigo peut vous simplifier la vie en vous faisant gagner du temps et de l\'énergie.';
