@@ -9,7 +9,6 @@ $lang['porg_get_started_download_desc'] = 'Download Piwigo package including all
 $lang['Installation guide'] = 'Installation guide';
 $lang['porg_get_started_guide_desc'] = 'Learn how to install Piwigo on your hosting, from download and database credentials to first connection in your photo library.';
 $lang['Still got some unanswered questions ?'] = 'Still got some unanswered questions ?';
-$lang['porg_get_started_question_desc1'] = 'You can get some help on';
-$lang['porg_get_started_question_desc2'] = 'or find your own answers in the';
+$lang['porg_get_started_question_desc1'] = 'You can get some help on the <a href="%s">forum</a> or find your own answers in the <a href="%s">documentation</a>';
 
 ?>

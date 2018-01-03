@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row text-center">
         <h1>{'Still got some unanswered questions ?'|translate}</h1>
-        <p>{'porg_get_started_question_desc1'|translate} <a href="http://piwigo.org/forum/">{'Forum'|translate}</a> {'porg_get_started_question_desc2'|translate} <a href="http://piwigo.org/doc">{'Documentation'|translate}</a></p>
+        <p>{'porg_get_started_question_desc1'|translate:"http://piwigo.org/forum/":"http://piwigo.org/doc"}</p>
       </div>
     </div>
   </section>
