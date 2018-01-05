@@ -38,20 +38,20 @@
           <h1 class="text-white bold">{'Cloud-hosted Piwigo'|translate}</h1>
           <p class="text-white">{'porg_get_piwigo_cloud_hosted_desc1'|translate} {'porg_get_piwigo_cloud_hosted_desc2'|translate} {'porg_get_piwigo_cloud_hosted_desc3'|translate}</p>
           <div class="btn-cloud-individual col-xs-6 col-md-6">
-            <a class="btn" href="https://piwigo.com/"><img src="{$PORG_ROOT_URL}images/get_piwigo/house_trait.svg"/><br><span class="bold">{'Individuals'|translate}</span></a>
+            <a class="btn" href="https://{$PCOM_PREFIX}piwigo.com/"><img src="{$PORG_ROOT_URL}images/get_piwigo/house_trait.svg"/><br><span class="bold">{'Individuals'|translate}</span></a>
           </div>
           <div class="btn-cloud-entreprise col-xs-6 col-md-6">
-            <a class="btn" href="https://piwigo.com/enterprise/"><img src="{$PORG_ROOT_URL}images/get_piwigo/building_trait.svg"/><br><span class="bold">{'Enterprises'|translate}</span></a>
+            <a class="btn" href="https://{$PCOM_PREFIX}piwigo.com/enterprise/"><img src="{$PORG_ROOT_URL}images/get_piwigo/building_trait.svg"/><br><span class="bold">{'Enterprises'|translate}</span></a>
           </div>
           <div class="row">
             <div class="col-md-4 text-right col-xs-4">
-              <a href="https://piwigo.com/infrastructure">{'Infrastructure'|translate}</a>
+              <a href="https://{$PCOM_PREFIX}piwigo.com/infrastructure">{'Infrastructure'|translate}</a>
             </div>
             <div class="col-md-4 col-xs-4">
-              <a href="http://piwigo.com/blog">{'Blog'|translate}</a>
+              <a href="http://{$PCOM_PREFIX}piwigo.com/blog">{'Blog'|translate}</a>
             </div>
             <div class="col-md-4 text-left col-xs-4">
-              <a href="https://piwigo.com/testimonials">{'Testimonials'|translate}</a>
+              <a href="https://{$PCOM_PREFIX}piwigo.com/testimonials">{'Testimonials'|translate}</a>
             </div>
           </div>
         </div>
