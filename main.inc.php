@@ -127,6 +127,7 @@ function porg_load_header()
             'PORG_ROOT_URL_PLUGINS' => $porg_root_url_piwigodotorg,
             'URL' => porg_get_page_urls(),
             'PCOM_PREFIX' => isset($page['porg_pcom_prefix']) ? $page['porg_pcom_prefix'] : '',
+            'PORG_IS_PRODUCTION' => preg_match('/^([a-z]+\.)?piwigo\.org$/', $_SERVER['HTTP_HOST']),
         )
     );
 

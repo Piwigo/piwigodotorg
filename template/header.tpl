@@ -4,6 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{if !$PORG_IS_PRODUCTION}
+    <!-- Robots -->
+    <meta name="robots" content="noindex, nofollow">
+{/if}
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/fontello/css/fontello.css">
