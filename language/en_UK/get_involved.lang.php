@@ -6,7 +6,7 @@ $lang['Help the Community'] = 'Help the Community';
 $lang['porg_get_involved_community_desc'] = 'Support other users on the forums<br>and meet other Piwigo users.';
 $lang['You know how to code?'] = 'You know how to code?';
 $lang['porg_get_involved_how_to_code_desc'] = 'Select issues on Github, fork Piwigo...<br>... and submit pull-requests.';
-$lang['Submit product improvment'] = 'Submit product improvment';
+$lang['Submit product improvment'] = 'Submit product improvement';
 $lang['porg_get_involved_improvment_desc'] = 'Use the forum to share your ideas<br>on how to improve Piwigo.';
 $lang['Recommend Piwigo'] = 'Recommend Piwigo';
 $lang['porg_get_involved_recommend_desc'] = '... to the communication department in your company<br> or on several websites.';
@@ -36,12 +36,5 @@ $lang['Make this a monthly gift'] = 'Make this a monthly gift';
 $lang['We are grateful !'] = 'We are grateful !';
 $lang['porg_get_involved_grateful_desc1'] = 'Thank you for your contributions and involvement.';
 $lang['porg_get_involved_grateful_desc2'] = 'We will always appreciate efforts from everyone and help to Piwigo development and its community!';
-//$lang[''] = '';
-//$lang[''] = '';
-//$lang[''] = '';
-//$lang[''] = '';
-//$lang[''] = '';
-//$lang[''] = '';
-//$lang[''] = '';
 
 ?>
