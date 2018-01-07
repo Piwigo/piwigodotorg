@@ -385,7 +385,7 @@
       <div class="col-md-4">
         <div class=" col-about-donations">
           <h1>{'Donations'|translate}</h1>
-          <p>{'porg_about_us_donation_desc1'|translate} {'porg_about_us_donation_desc2'|translate} <a href="{$PORG_ROOT}{$URL.get_involved}#donate">{'porg_about_us_donation_desc3'|translate}</a> {'porg_about_us_donation_desc4'|translate}</p>
+          <p>{'porg_about_us_donation_desc1'|translate} {'porg_about_us_donation_desc2'|translate} {'porg_about_us_donation_desc3'|translate:"{$URL.get_involved}#donate"}</p>
         </div>
       </div>
       <div class="col-md-4">
@@ -408,7 +408,7 @@
       <div class="row">
         <h1>{'Want to be part of the adventure?'}</h1>
         <p>{'porg_about_us_join_desc1'|translate} {'porg_about_us_join_desc2'|translate}</p>
-        <a class="btn btn-get-involved" href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved!'|translate}</a>
+        <a class="btn btn-get-involved" href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved'|translate}</a>
       </div>
     </div>
   </section>
