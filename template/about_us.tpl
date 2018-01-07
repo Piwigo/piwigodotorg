@@ -250,11 +250,11 @@
                 <h1 class="bold">2003</h1>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h2 class="bold">{'Beginning'|translate}</h2>
+                <h2 class="bold">Free.fr</h2>
                 <p>{'porg_about_us_beginning_desc1'|translate} {'porg_about_us_beginning_desc2'|translate}</p>
               </div>
-              <div id="circle">
-                <img src=""/>
+              <div id="circle" class="logo-freefr">
+                <img src="{$PORG_ROOT_URL}images/about_us/free.png"/>
               </div>
             </div>
           </div>
@@ -356,7 +356,7 @@
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
             <h1 class="bold">2003</h1>
-            <h2 class="bold">{'Beginning'|translate}</h2>
+            <h2 class="bold">Free.fr</h2>
             <p>{'porg_about_us_beginning_desc1'|translate} {'porg_about_us_beginning_desc2'|translate}</p>
           </div>
         </div>

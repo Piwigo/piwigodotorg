@@ -2936,6 +2936,12 @@ and (max-device-width : 480px) {
     height: auto;
 }
 
+#circle.logo-freefr img {
+    margin-top: -30px;
+    margin-left: 9px;
+    width: 80%;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .col-piwigo-timeline-content-left h2,
     .col-piwigo-timeline-content-right h2 {
