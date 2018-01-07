@@ -406,7 +406,7 @@
   <section class="container-fluide container-fluide-about-get-involved text-center">
     <div class="container container-about-get-involved" id="pwg-get-involved">
       <div class="row">
-        <h1>{'Want to be part of the adventure?'}</h1>
+        <h1>{'Want to be part of the adventure?'|translate}</h1>
         <p>{'porg_about_us_join_desc1'|translate} {'porg_about_us_join_desc2'|translate}</p>
         <a class="btn btn-get-involved" href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved'|translate}</a>
       </div>
