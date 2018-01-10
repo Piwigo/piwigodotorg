@@ -18,30 +18,25 @@
         <p>{'porg_about_us_mission_desc'|translate}</p>
       </div>
       <div class="row pwg-about-stats">
-        <div class="col-md-15 col-xs-6 pwg-about-download">
-          <img src="{$PORG_ROOT_URL}images/about_us/icon_number.svg"/>
-          <h1 class="bold">2,258,305</h1>
-          <p>Downloads</p>
-        </div>
         <div class="col-md-15 col-xs-6 pwg-about-software-old">
-          <img src="{$PORG_ROOT_URL}images/about_us/icon_number.svg"/>
-          <h1 class="bold">15</h1>
+          <div class="number-infos">15</div>
           <p>Years old</p>
         </div>
+        <div class="col-md-15 col-xs-6 pwg-about-software-old">
+          <div class="number-infos">52</div>
+          <p>Releases</p>
+        </div>
+        <div class="col-md-15 col-xs-6 pwg-about-download">
+          <div class="number-infos">2,8M</div>
+          <p>Downloads</p>
+        </div>
+        <div class="col-md-15 col-xs-6 pwg-about-download">
+          <div class="number-infos">302k</div>
+          <p>Forum messages</p>
+        </div>
         <div class="col-md-15 col-xs-6 pwg-about-pic-uploaded">
-          <img src="{$PORG_ROOT_URL}images/about_us/icon_number.svg"/>
-          <h1 class="bold">456M+</h1>
-          <p>Pictures uploaded</p>
-        </div>
-        <div class="col-md-15 col-xs-6 pwg-about-nationalities">
-          <img src="{$PORG_ROOT_URL}images/about_us/icon_number.svg"/>
-          <h1 class="bold">24+</h1>
-          <p>Nationalities</p>
-        </div>
-        <div class="col-md-15 col-xs-12 pwg-about-contributors">
-          <img src="{$PORG_ROOT_URL}images/about_us/icon_number.svg"/>
-          <h1 class="bold">∞</h1>
-          <p>Contributors</p>
+          <div class="number-infos">354</div>
+          <p>Extensions</p>
         </div>
       </div>
     </div>
