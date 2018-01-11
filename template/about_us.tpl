@@ -20,23 +20,23 @@
       <div class="row pwg-about-stats">
         <div class="col-md-15 col-xs-6 pwg-about-software-old">
           <div class="number-infos">{$NB_YEARS}</div>
-          <p>Years old</p>
+          <p>{'Years old'|translate}</p>
         </div>
         <div class="col-md-15 col-xs-6 pwg-about-software-old">
           <div class="number-infos">{$NB_RELEASES}</div>
-          <p>Releases</p>
+          <p>{'Releases'|translate}</p>
         </div>
         <div class="col-md-15 col-xs-6 pwg-about-download">
           <div class="number-infos">2,8M</div>
-          <p>Downloads</p>
+          <p>{'Downloads'|translate}</p>
         </div>
         <div class="col-md-15 col-xs-6 pwg-about-download">
           <div class="number-infos">282k</div>
-          <p>Forum messages</p>
+          <p>{'Forum messages'|translate}</p>
         </div>
         <div class="col-md-15 col-xs-6 pwg-about-pic-uploaded">
           <div class="number-infos">599</div>
-          <p>Extensions</p>
+          <p>{'Extensions'|translate}</p>
         </div>
       </div>
     </div>
