@@ -19,11 +19,11 @@
       </div>
       <div class="row pwg-about-stats">
         <div class="col-md-15 col-xs-6 pwg-about-software-old">
-          <div class="number-infos">15</div>
+          <div class="number-infos">{$NB_YEARS}</div>
           <p>Years old</p>
         </div>
         <div class="col-md-15 col-xs-6 pwg-about-software-old">
-          <div class="number-infos">52</div>
+          <div class="number-infos">{$NB_RELEASES}</div>
           <p>Releases</p>
         </div>
         <div class="col-md-15 col-xs-6 pwg-about-download">
@@ -31,11 +31,11 @@
           <p>Downloads</p>
         </div>
         <div class="col-md-15 col-xs-6 pwg-about-download">
-          <div class="number-infos">302k</div>
+          <div class="number-infos">282k</div>
           <p>Forum messages</p>
         </div>
         <div class="col-md-15 col-xs-6 pwg-about-pic-uploaded">
-          <div class="number-infos">354</div>
+          <div class="number-infos">599</div>
           <p>Extensions</p>
         </div>
       </div>
