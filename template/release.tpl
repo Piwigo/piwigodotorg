@@ -1,29 +1,4 @@
-  <section class="container-fluide container-release-note">
-    <div class="container">
-      <div class="equal">
-        <div class="col-md-8">
-          <h1>Release note / Piwigo {$version}</h1>
-          <p>{$summary}</p>
-        </div>
-        <div class="col col-md-4">
-          <span>{$version}</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container container-download-release text-center">
-    <div class="row">
-      <button class="btn">Download Piwigo {$version}</button>
-      <p class="release-date"><i class="icon-dropbox"></i>Released the {$released_on}</p>
-      <a class="copy-md5sum" title="Copy md5sum" data-clipboard-text="{$md5sum}"><i class="icon-clipboard"></i></a>
-      <a id="popover" title="{$md5sum} <a class='btn-close-popover' onclick='$(&quot;#popover&quot;).popover(&quot;hide&quot;);'><i class='icon-cancel-circled'></i></a>" data-html="true" data-toggle="popover" data-placement="bottom" data-content="The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.">md5sum</a>
-      {if $state == minor}
-        <p><i class="icon-info-circled"></i>The list of major changes is described on <span><a href="{$PORG_ROOT}{$URL.release}-{$version_major}">Piwigo
-        {$version_major}</a></span> release note</p>
-      {/if}
-    </div>
-  </section>
+{include file="template/release_top_sections.tpl"}
 
   <section class="container-fluide container-fluide-release-note-content-intro">
     <div class="container text-center">
