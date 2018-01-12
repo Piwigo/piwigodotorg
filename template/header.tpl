@@ -20,8 +20,6 @@
     <script src="{$PORG_ROOT_URL_PLUGINS}vendor/masonry-layout/dist/masonry.pkgd.min.js"></script>
     <script src="{$PORG_ROOT_URL_PLUGINS}vendor/clipboard/clipboard.min.js"></script>
     <script src="{$PORG_ROOT_URL_PLUGINS}js/validator.min.js"></script>
-    <script src="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="{$PORG_ROOT_URL_PLUGINS}js/piwigodotorg.js"></script>
   </head>  
