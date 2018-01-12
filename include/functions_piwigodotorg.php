@@ -130,6 +130,14 @@ function porg_label_to_page($label)
  */
 function porg_get_release_tpl($version)
 {
+  global $user;
+
+  $candidate = PORG_PATH . 'language/'.$user['language'].'/template/release-' . $version . '.tpl';
+  if (file_exists($candidate))
+  {
+    return $candidate;
+  }
+
   $candidate = PORG_PATH . 'template/release-' . $version . '.tpl';
   if (file_exists($candidate))
   {
