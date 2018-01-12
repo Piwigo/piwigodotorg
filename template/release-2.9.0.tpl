@@ -1,9 +1,5 @@
 {include file="template/release_top_sections.tpl"}
 
-<style>
-.back_overview { margin-bottom:30px; font-size:90%;text-align:right; }
-</style>
-
 <div id="releaseNotesMain">
 
 <section class="container release-notes-intro">

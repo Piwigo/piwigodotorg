@@ -5544,6 +5544,12 @@ label {
     text-align: justify;
 }
 
+#releaseNotesMain .back_overview {
+    margin-bottom:30px;
+    font-size:90%;
+    text-align:right;
+}
+
 #releaseNotesMain img.screenshot {
     margin:20px auto;
     display: block;
