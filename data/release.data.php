@@ -62,7 +62,7 @@ $porg_releases = array(
   ),
 
   '2.9.0' => array(
-    'released_on' => '2017-06-15',
+    'released_on' => '2017-05-02',
     'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
     'summary' => array('Modernized design', 'update notification'),
     'features' => array(),
