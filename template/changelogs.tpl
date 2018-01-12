@@ -39,7 +39,7 @@
         <div class="primary-version">
           <div class="col-md-3 col-xs-3">
             <h1 class="bold">Piwigo 1.0.0</h1>
-            <p>2017-10-6</p>
+            <p>2002-04-15</p>
           </div>
           <div class="col-md-6 col-xs-6 primary-version-content">
             <p>Birth of Piwigo</p>

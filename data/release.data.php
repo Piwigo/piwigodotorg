@@ -1179,6 +1179,19 @@ $porg_releases = array(
       'updated' => array(),
     ),
   ),
+
+  '1.0.0' => array(
+    'released_on' => '2002-04-15',
+    'md5sum' => null,
+    'summary' => array('Birth of Piwigo'),
+    'features' => array(),
+    'bugs' => array(),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+  ),
 );
 
 ?>

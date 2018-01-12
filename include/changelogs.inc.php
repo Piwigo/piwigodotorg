@@ -4,6 +4,8 @@ include(PORG_PATH . '/data/release.data.php');
 
 global $template, $lang_info;
 
+unset($porg_releases['1.0.0']);
+
 foreach ($porg_releases as $version => $version_content)
 {
   $state = substr($version, strrpos($version, '.') + 1);
