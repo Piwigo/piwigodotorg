@@ -12,4 +12,6 @@ $lang['porg_issue_679'] = 'admin dashboard, need trigger for plugins';
 $lang['porg_issue_674'] = '[php7.1] user edit box, [] operator not supported for strings';
 $lang['porg_issue_667'] = 'Bug Report:  Cross Site Scripting(XSS) in page parameter of admin.php';
 $lang['porg_issue_663'] = 'SQL error in tour 2.9';
+
+$lang['porg_issue_710'] = 'input parameter \"redirect_decoded\" is not valid';
 ?>
