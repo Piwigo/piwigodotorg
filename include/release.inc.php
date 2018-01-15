@@ -66,13 +66,14 @@ if (isset($_GET['version']))
         }
 
         /* Get know_issues */
-        $know_issues = $porg_releases[$version]['known_issues'];
-        foreach ($know_issues as $issue_id)
+        $known_issues = array();
+        foreach ($porg_releases[$version]['known_issues'] as $issue)
         {
-            $know_issue[] = array(
-                'id' => $issue_id,
-                'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue_id,
-                'label' => isset($lang['porg_issue_' . $issue_id]) ? stripslashes($lang['porg_issue_' . $issue_id]) : null,
+            $known_issues[] = array(
+                'id' => $issue['id'],
+                'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue['id'],
+                'label' => isset($lang['porg_issue_' . $issue['id']]) ? stripslashes($lang['porg_issue_' . $issue['id']]) : null,
+                'section' => isset($issue['section']) ? '/ ' . $issue['section'] : null,
             );
         }
 
@@ -104,7 +105,7 @@ if (isset($_GET['version']))
                 'summary' => $summary,
                 'bugs' => isset($bug) ? $bug : null,
                 'features' => isset($feature) ? $feature : null,
-                'know_issues' => isset($know_issues) ? $know_issues : null,
+                'known_issues' => isset($known_issues) ? $known_issues : null,
                 'news_languages' => isset($new_language) ? $new_language : null,
                 'updated_languages' => isset($updated_language) ? $updated_language : null,
                 'version' => $version,

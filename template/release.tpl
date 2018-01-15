@@ -41,15 +41,15 @@
   </section>
   {/if}
 
-  {if $know_issues != null}
+  {if $known_issues != null}
   <section class="container-fluide container-fluide-known-issues">
     <div class="container">
       <div class="row">
         <h1><i class="icon-attention"></i>Known issues</h1>
-        {foreach from=$know_issues key=key item=know_issue}
+        {foreach from=$known_issues key=key item=known_issue}
         <div class="col-md-12">
-          <h2><i class="icon-check-empty"></i><a href="{$know_issue.url}">{$know_issue.id}</a></h2>
-          <p>{$know_issue.label}</p>
+          <h2><i class="icon-check-empty"></i><a href="{$known_issue.url}">{$known_issue.id} {$known_issue.section}</a></h2>
+          <p>{$known_issue.label}</p>
         </div>
         {/foreach}
       </div>
