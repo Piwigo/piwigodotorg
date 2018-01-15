@@ -64,6 +64,7 @@ $lang['language_he_IL'] = 'Hebrew';
 $lang['language_hr_HR'] = 'Croatian';
 $lang['language_hu_HU'] = 'Hungarian';
 $lang['language_ja_JP'] = 'Japanese';
+$lang['language_id_ID'] = 'Bahasa Indonesia';
 $lang['language_is_IS'] = 'Icelandic';
 $lang['language_it_IT'] = 'Italian';
 $lang['language_ka_GE'] = 'Georgian';
