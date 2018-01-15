@@ -29,6 +29,7 @@ $porg_languages = array(
   'hr_HR' => 'Hrvatski',
   'hu_HU' => 'Magyar',
   'ja_JP' => '日本語',
+  'id_ID' => 'Bahasa Indonesia',
   'is_IS' => 'Íslenska',
   'it_IT' => 'Italiano',
   'ka_GE' => 'ქართული',
