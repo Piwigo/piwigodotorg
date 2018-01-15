@@ -31,7 +31,8 @@
     {
         if (!isset($options[$field])) 
         {
-            die ('Missing --'.$field);
+            echo 'Missing --'.$field."\n";
+            die();
         }
     }
 
