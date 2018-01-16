@@ -486,7 +486,7 @@
 }
 
 .pwg-banner .pwg-tagline p {
-    color:#ff7700;
+    color:#666;
     font-size: 1.1em;
     margin-top: 20px;
     transition: all 1s;
@@ -644,7 +644,7 @@
 
 .fact-content p {
     padding: 20px;
-    color: #AAA;
+    color: #666;
 }
 
 .homepage-batch-manager-image {
@@ -662,6 +662,12 @@
 
 .btn-know-content {
     padding-bottom: 40px;
+}
+
+.btn-know-content a {
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 /* Who are our users - different type of users */
@@ -765,7 +771,7 @@
 }
 
 .user-advice {
-    color: #FF7700;
+    color: #666;
 }
 
 .user-advice-name {
@@ -815,6 +821,9 @@
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .showcase-button .btn-view-more-showcases:hover,
@@ -829,6 +838,11 @@
     margin: 5px;
     text-align: center;
     color: #FF7700;
+}
+
+.btn-refresh {
+    text-align: right;
+    padding-right: 34px;
 }
 
 .btn-refresh img {
@@ -6208,13 +6222,32 @@ section.release-notes-overview li a {
     text-decoration: none;
 }
 
+.footer-contact a .glyphicon {
+    margin-right: 5px;
+}
+
 .footer-language {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.footer-language li {
+    line-height: 35px;
+}
+.footer-language li a {
+/*    font-size:16px;*/
+    color:#666;
+    text-transform: uppercase;
+}
+
+.footer-language .glyphicon {
+    float:left;
+    font-size: 32px;
 }
 
 @media (max-width: 991px) {
@@ -6242,9 +6275,17 @@ section.release-notes-overview li a {
     list-style-type: none;
 }
 
+.footer-list ul li {
+    margin-top: 9px;
+}
+
 .footer-list a {
-    color: #FF7700;
+    color: #666;
     text-decoration: none;
+}
+
+.footer-list a:hover {
+    color:#ff7700;
 }
 
 .footer-list h5 {
@@ -6260,13 +6301,17 @@ section.release-notes-overview li a {
 /* Social media icon */
 
 .icon-social-media {
-    margin-bottom: 75px;
+    padding-top: 10px;
+    margin-bottom: 35px;
 }
 
 .icon-facebook, .icon-twitter, .icon-github, .icon-google {
-    height: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
+    height: 37px;
+}
+
+.icon-twitter {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -6285,10 +6330,11 @@ section.release-notes-overview li a {
     font-weight: bold;
     text-decoration: none;
     color: #FF7700;
+    line-height: 30px;
 }
 
 .footer-donate-content {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .footer-donate-content a:hover, .footer-donate-content a:active, .footer-donate-content a:focus,

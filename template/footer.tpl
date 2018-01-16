@@ -7,7 +7,6 @@
             <div class="text-center icon-social-media">
               <a href="http://www.facebook.com/Piwigo"><img src="{$PORG_ROOT_URL}images/footer/facebook.svg" class="icon-facebook" alt="Facebook icon"></a>
               <a href="http://twitter.com/piwigo"><img src="{$PORG_ROOT_URL}images/footer/twitter.svg" class="icon-twitter" alt="Twitter icon"></a>
-              <a href="https://plus.google.com/b/106491745812113497493/106491745812113497493/posts"><img src="{$PORG_ROOT_URL}images/footer/google.svg" class="icon-google" alt="Google icon"></a>
               <a href="https://github.com/Piwigo"><img src="{$PORG_ROOT_URL}images/footer/github.svg" class="icon-github" alt="Github icon"></a>
             </div>
             <div class="row">
@@ -74,12 +73,12 @@
               </div>
               <div class="col-xs-12 footer-language">
                 <li class="dropdown active">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>{'Languages'|translate}</a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>Languages</a>
                   <ul class="dropdown-menu">
                     <li><a href="#">English</a></li>
                     <li><a href="#">Español</a></li>
-                    <li><a href="#">Français</a></li>
                     <li><a href="#">Deutsch</a></li>
+                    <li><a href="#">Français</a></li>
                   </ul>
                 </li>
               </div>
