@@ -196,6 +196,7 @@ function porg_load_footer()
     $template->set_filenames(array('footer_porg' => realpath(PORG_PATH .'template/footer.tpl')));
     $template->assign(array(
         'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
+        'CURRENT_YEAR' => date('Y'),
     ));
     $template->parse('footer_porg');
     $template->p();
