@@ -759,9 +759,10 @@
 }
 
 .content-advice-box {
-    height: 150px;
+    height: 135px;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
     padding: 10px;
+    font-size:16px;
 }
 
 @media (max-width: 991px) {
@@ -776,6 +777,7 @@
 
 .user-advice-name {
     text-align: right;
+    margin:26px 5px 0 0;
 }
 
 /* Piwigo gallery showcases */

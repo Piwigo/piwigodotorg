@@ -142,27 +142,14 @@ $(document).ready(function() {
       </div>
     </div>
     <div class="row row-advice">
+{foreach from=$TESTIMONIALS item=testimonial}
       <div class="col col-md-4 advice-box">          
         <div class="content-advice-box">
-          <p class="user-advice">Piwigo is great mix of simplicity and 
-            functionality. Security configuration 
-            options in particular are appreciated. 
-            Thank you for making such a wonderful piece of software.</p>
-          <p class="user-advice-name">Helmut Rammstein, Germany</p>
+          <p class="user-advice">{$testimonial.content}{if $testimonial.is_cut}... <a href="{$URL.testimonials}">→</a>{/if}</p>
+          <p class="user-advice-name">{$testimonial.user.username}, {$testimonial.user.country}</p>
         </div>
       </div>
-      <div class="col col-md-4 advice-box">
-        <div class="content-advice-box">
-          <p class="user-advice">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis justo ut risus tristique congue. Phasellus sit amet sapien vitae sapien fermentum interdum.</p>
-          <p class="user-advice-name">John Connor, United States</p>
-        </div>
-      </div>
-      <div class="col col-md-4 advice-box">
-        <div class="content-advice-box">
-          <p class="user-advice">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus enim eros, tincidunt sed ex quis, tincidunt vulputate lectus. Curabitur viverra maximus nunc.</p>
-          <p class="user-advice-name">Acme Corp, Australia</p>
-        </div>
-      </div>
+{/foreach}
     </div>
   </div>
 
