@@ -185,7 +185,7 @@ function porg_get_testimonials_sample()
   // in this function we use a cache just to avoid changing the sample on every
   // refresh, not because of performances. This whole function, without cache,
   // takes less than 1ms.
-  $cache_path = $conf['data_location'].'testimonials.cache.php';
+  $cache_path = $conf['data_location'].'testimonials-'.$lang_info['code'].'.cache.php';
   if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 hour ago'))
   {
     include(PORG_PATH . '/data/testimonials.data.php');
