@@ -178,11 +178,16 @@ function porg_load_content()
     {
         load_language('home.lang', PORG_PATH);
         $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . 'home.tpl')));
-        $image = get_showcases();
+
+        $template->assign(
+            array(
+                'SHOWCASES' => get_showcases(),
+                'TESTIMONIALS' => porg_get_testimonials_sample(),
+            )
+        );
     }
     $template->assign(array(
         'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
-        'SHOWCASES' => isset($image) ? $image : null,
     ));
     $template->parse('porg_page');
 }
