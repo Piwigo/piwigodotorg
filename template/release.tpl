@@ -1,132 +1,141 @@
 {include file="template/release_top_sections.tpl"}
 
-  <section class="container-fluide container-fluide-release-note-content-intro">
+  <section class="container-fluid container-fluide-release-note-content-intro">
     <div class="container text-center">
       <div class="row">
+{if $bugs != null}
         <div class="col-md-4 col-xs-6">
-          <p><i class="icon-wrench"></i>Bugs fixed</p>
+          <p><i class="icon-wrench"></i>{'Bugs fixed'|translate}</p>
         </div>
+{/if}
+
+{if $known_issues != null}
         <div class="col-md-4 col-xs-6">
-          <p><i class="icon-attention"></i>Know issues</p>
+          <p><i class="icon-attention"></i>{'Known issues'|translate}</p>
         </div>
+{/if}
+
+{if $news_languages != null || $updated_languages != null}
         <div class="col-md-4 col-xs-6">
-          <p><i class="icon-plus-circled"></i>Featured added</p>
+          <p><i class="icon-globe"></i>{'Languages'|translate}</p>
         </div>
+{/if}
+{if $known_issues != null}
         <div class="col-md-4 col-xs-6">
-          <p><i class="icon-globe"></i>Languages</p>
+          <p><i class="icon-plus-circled"></i>{'Featured added'|translate}</p>
         </div>
+{/if}
         <div class="col-md-4 col-xs-6">
-          <p><i class="icon-flash"></i>Upgrade</p>
-        </div>
-        <div class="col-md-4 col-xs-6">
-          <p><i class="icon-flash"></i>Upgrade</p>
+          <p><i class="icon-flash"></i>{'Upgrade'|translate}</p>
         </div>
       </div>
     </div>
   </section>
 
-  {if $bugs != null}
+{if $bugs != null}
   <section class="container container-bugs-fixed">
     <div class="row equal">
       <div class="col-md-12">
-        <h1><i class="icon-wrench"></i>Bugs fixed</h1>
+        <h1><i class="icon-wrench"></i>{'Bugs fixed'|translate}</h1>
       </div>
-      {foreach from=$bugs key=key item=bug}
+  {foreach from=$bugs key=key item=bug}
       <div class="col-md-4">
         <h2><i class="icon-check"></i><a href="{$bug.url}">{$bug.id} {$bug.section}</a></h2>
         <p>{$bug.label}<p>
       </div>
-      {/foreach}
+  {/foreach}
     </div>
   </section>
-  {/if}
+{/if}
 
-  {if $known_issues != null}
+{if $known_issues != null}
   <section class="container-fluide container-fluide-known-issues">
     <div class="container">
       <div class="row">
-        <h1><i class="icon-attention"></i>Known issues</h1>
-        {foreach from=$known_issues key=key item=known_issue}
+        <h1><i class="icon-attention"></i>{'Known issues'|translate}</h1>
+  {foreach from=$known_issues key=key item=known_issue}
         <div class="col-md-12">
           <h2><i class="icon-check-empty"></i><a href="{$known_issue.url}">{$known_issue.id} {$known_issue.section}</a></h2>
           <p>{$known_issue.label}</p>
         </div>
-        {/foreach}
+  {/foreach}
       </div>
     </div>
   </section>
-  {/if}
+{/if}
 
-  {if $news_languages != null || $updated_languages != null}
+{if $news_languages != null || $updated_languages != null}
   <section class="container container-release-language">
     <div class="row">
-      <h1><i class="icon-globe"></i>Languages</h1>
-      {if $news_languages != null}
-      <p><i class="icon-plus-circled"></i>New language:
+      <h1><i class="icon-globe"></i>{'Languages'|translate}</h1>
+  {if $news_languages != null}
+      <p><i class="icon-plus-circled"></i>{'New language:'|translate}
         {$news_languages}
       </p>
-      {/if}
+  {/if}
     </div>
     <div class="row">
-      {if $updated_languages != null}
-      <h2>Updated languages</h2>
-      {foreach from=$updated_languages key=key item=language}
+  {if $updated_languages != null}
+      <h2>{'Updated languages'|translate}</h2>
+    {foreach from=$updated_languages key=key item=language}
       <div class="col-md-3">
         <p>{$language.lang} {if $language.lang != $language.nativ_lang} ({$language.nativ_lang}) {/if}</p>
       </div>
-      {/foreach}
-      {/if}
+    {/foreach}
+  {/if}
     </div>
   </section>
-  {/if}
+{/if}
 
-  {if $features != null}
+{if $features != null}
   <section class="container-fluide container-fluide-features-added">
     <div class="container">
       <div class="row">
-        <h1><i class="icon-plus-circled"></i>Features added</h1>
-        {foreach from=$features key=key item=feature}
+        <h1><i class="icon-plus-circled"></i>{'Features added'|translate}</h1>
+  {foreach from=$features key=key item=feature}
         <div class="col-md-4">
           <h2><i class="icon-circle-thin"></i><a href="{$feature.url}">{$feature.id}</a></h2>
           <p>{$feature.label}</p>
         </div>
-        {/foreach}
+  {/foreach}
       </div>
     </div>
   </section>
-  {/if}
+{/if}
 
   <section class="container-fluide container-fluide-release-upgrade">
     <div class="container">
       <div class="row">
-        <h1><i class="icon-flash"></i>Upgrade</h1>
+        <h1><i class="icon-flash"></i>{'Upgrade'|translate}</h1>
         <div class="automatic-upgrade">
           <div class="col-md-8">
-            <p>Follow the <span class="bold">automatic upgrade</span></p>
+            <p>
+              {'We recommend the <b>automatic upgrade</b>.'|translate}
+              {'If you\'re running <b>version 2.2+</b>, Piwigo will tell you which plugins may be not compatible with Piwigo %s before upgrade.'|translate:$branch}
+            </p>
           </div>
           <div class="col-md-4">
-            <button class="btn">Automatic upgrade</button>
+            <button class="btn">{'Automatic upgrade'|translate}</button>
           </div>
         </div>
         <div class="transfer-upgrade">
           <div class="col-md-8">
-            <p>If you're running <span class="bold">Piwigo 2.9.*</span> you can also download the <span class="bold">2.9.x_to_{$version}.zip</span>
-            archive that contains all new and modified files. Once you have extracted the
-            files, transfer them onto your web server with a FTP client (like FileZilla) over your
-            Piwigo 2.9.x installation. No database upgrade is required</p>
+            <p>
+              {'If you\'re running <b>Piwigo %s</b> you can also download the <b>%s_to_%s.zip</b> archive that contains all new and modified files.'|translate:$upgrade_from:$upgrade_from:$version}
+              {'Once you have extracted the files, transfer them onto your web server with a FTP client over your Piwigo %s installation.'|translate:$upgrade_from}
+              {'No database upgrade is required.'|translate}
+            </p>
           </div>
           <div class="col-md-4">
-            <button class="btn">2.9.x_to_{$version}.ZIP</button>
+            <button class="btn">{$upgrade_from}_to_{$version}.zip</button>
           </div>
         </div>
         <div class="manual-upgrade">
           <div class="col-md-8">
-            <p>f you're currently running <span class="bold">Piwigo 2.2+</span>, the Automatic Upgrade will tell you which
-            plugin may be not compatible with Piwigo 2.9 before upgrade, then follow the
-            <span class="bold">manual upgrade</span></p>
+            <p>{'If you are running a version older than %s and do not want to use the automatic upgrade, then follow the <b>manual upgrade</b>.'|translate:$branch}</p>
           </div>
           <div class="col-md-4">
-            <button class="btn">Manual Upgrade</button>
+            <button class="btn">{'Manual Upgrade'|translate}</button>
           </div>
         </div>
       </div>

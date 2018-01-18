@@ -16,11 +16,14 @@ if (isset($_GET['version']))
         load_language('release-'.$version.'.lang', PORG_PATH);
 
         /* Major or minor release */
-        $state = substr($version, strrpos($version, '.') + 1);
-        if ($state!= 0)
+        $branch = get_branch_from_version($version);
+        $major = $branch.'.0';
+
+        $upgrade_from = $branch.'.x';
+        $tokens = explode('.', $version);
+        if (array_pop($tokens) == '1')
         {
-            $state = "minor";
-            $major = substr($version, 0, -1).'0';
+            $upgrade_from = $branch.'.0';
         }
 
         /* Release md5sum */
@@ -109,8 +112,9 @@ if (isset($_GET['version']))
                 'news_languages' => isset($new_language) ? $new_language : null,
                 'updated_languages' => isset($updated_language) ? $updated_language : null,
                 'version' => $version,
-                'state' => $state,
-                'version_major' => isset($major) ? $major : null,
+                'branch' => $branch,
+                'version_major' => $major,
+                'upgrade_from' => $upgrade_from,
             )
         );
     }
