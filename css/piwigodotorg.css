@@ -5745,6 +5745,7 @@ section.release-notes-overview li a {
 .container-fluide-release-note-content-intro p {
     font-size: 18px;
     color: #54616F;
+    white-space: nowrap;
 }
 
 .container-fluide-release-note-content-intro i {
