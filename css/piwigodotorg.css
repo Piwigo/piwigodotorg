@@ -5930,7 +5930,6 @@ section.release-notes-overview li a {
 
 .automatic-upgrade p {
     color: white;
-    margin-top: 20px;
     font-size: 20px;
 }
 
@@ -6021,15 +6020,15 @@ section.release-notes-overview li a {
     font-size: 20px;
 }
 
+.automatic-upgrade button, .transfer-upgrade button, .manual-upgrade button {
+    width: 100%;
+}
+
  @media (max-width: 991px) {
-    .transfer-upgrade button,
-    .automatic-upgrade button {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .manual-upgrade button {
-        padding-left: 30px;
-        padding-right: 30px;
+    .automatic-upgrade button, .transfer-upgrade button, .manual-upgrade button {
+        width: auto;
+        margin: 30px auto 0 auto;
+        display: block;
     }
  }
 
