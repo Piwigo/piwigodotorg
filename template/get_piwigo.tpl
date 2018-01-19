@@ -18,7 +18,7 @@
           <h1>{'Self-hosted Piwigo'|translate}</h1>
           <p>{'porg_get_piwigo_self_hosted_desc1'|translate} {'porg_get_piwigo_self_hosted_desc2'|translate}</p>
           <div class="btn-download-piwigo">
-            <button class="btn"><span class="bold">{'download_piwigo'|translate} 2.9.2</span></button>
+            <button class="btn"><span class="bold">{'download_piwigo'|translate} {$LATEST_VERSION_NUMBER}</span></button>
           </div>
           <div class="row">
             <div class="col-md-4 text-right col-xs-4">

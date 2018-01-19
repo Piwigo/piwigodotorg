@@ -34,7 +34,7 @@ $(document).ready(function() {
         </div>
         <div class="col-md-3 col-xs-12">
           <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
-          <p class="pwg-release-date"><i class="glyphicon glyphicon-fire"></i>v2.9.2, October 6th 2017</p>
+          <p class="pwg-release-date"><i class="glyphicon glyphicon-fire"></i>v{$LATEST_VERSION_NUMBER}, {$LATEST_VERSION_DATE}</p>
         </div>
           <!--<div class="pwg-news col-md-1 col-xs-6">
             News

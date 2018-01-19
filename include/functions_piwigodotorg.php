@@ -240,6 +240,34 @@ function porg_get_testimonials_sample()
   return unserialize(file_get_contents($cache_path));
 }
 
+function porg_get_latest_version()
+{
+  global $conf;
+
+  $cache_path = $conf['data_location'].'porg_latest_version.cache.php';
+  // echo "<pre>data  = ".filemtime(PORG_PATH.'/data/release.data.php')."\n";
+  // echo "cache = ".filemtime($cache_path).'</pre>';
+  if (!is_file($cache_path) or filemtime($cache_path) < filemtime(PORG_PATH.'/data/release.data.php'))
+  {
+    $latest_version = porg_get_latest_version_nocache();
+    file_put_contents($cache_path, serialize($latest_version));
+  }
+
+  return unserialize(file_get_contents($cache_path));
+}
+
+function porg_get_latest_version_nocache()
+{
+  // echo '['.__FUNCTION__.'] called<br>';
+  include(PORG_PATH . '/data/release.data.php');
+
+  $latest_version_number = array_keys($porg_releases)[0];
+  $latest_version = array_shift($porg_releases);
+  $latest_version['version'] = $latest_version_number;
+  // echo '<pre>'; print_r($latest_version); echo '</pre>';
+  return $latest_version;
+}
+
 function getNewsNumber()
 {
   include (PORG_PATH . '/data/news.data.php');
@@ -359,4 +387,20 @@ function getNews($start, $count)
   }
 }
 
+function porg_date_format($datetime)
+{
+  global $lang_info;
+
+  $timestamp = strtotime($datetime);
+
+  if ('en' == $lang_info['code'])
+  {
+    return date("F jS Y", $timestamp);
+  }
+
+  if ('fr' == $lang_info['code'])
+  {
+    return format_date($timestamp, array('day', 'month', 'year'));
+  }
+}
 ?>
