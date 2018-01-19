@@ -2,6 +2,8 @@
 $lang['Release note'] = 'Release note';
 $lang['Download Piwigo %s'] = 'Download Piwigo %s';
 $lang['Released on %s'] = 'Released on %s';
+$lang['The MD5 sum is a convenient tool to make sure that your file is not corrupted.'] = 'The MD5 sum is a convenient tool to make sure that your file is not corrupted.';
+$lang['You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.'] = 'You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.';
 $lang['The list of major changes is described on <a href="%s">Piwigo %s</a> release note'] = 'The list of major changes is described on <a href="%s">Piwigo %s</a> release note';
 $lang['Bugs fixed'] = 'Bugs fixed';
 $lang['Known issues'] = 'Known issues';

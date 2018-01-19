@@ -2,6 +2,8 @@
 $lang['Release note'] = 'Notes de version';
 $lang['Download Piwigo %s'] = 'Télécharger Piwigo %s';
 $lang['Released on %s'] = 'Sortie le %s';
+$lang['The MD5 sum is a convenient tool to make sure that your file is not corrupted.'] = 'Le md5sum est un outil pratique pour vérifier qu\'un fichier n\'est pas corrompu.';
+$lang['You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.'] = 'Vous pouvez comparer le md5sum du fichier téléchargé avec le md5sum officiel fourni ici sur piwigo.org.';
 $lang['The list of major changes is described on <a href="%s">Piwigo %s</a> release note'] = 'La liste des changements majeurs est décrite sur les <a href="%s">notes de la version %s</a>.';
 $lang['Bugs fixed'] = 'Bugs corrigés';
 $lang['Known issues'] = 'Problèmes connus';

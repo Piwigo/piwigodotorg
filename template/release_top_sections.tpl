@@ -17,7 +17,7 @@
       <button class="btn">{'Download Piwigo %s'|translate:$version}</button>
       <p class="release-date"><i class="icon-dropbox"></i>{'Released on %s'|translate:$released_on}</p>
       <a class="copy-md5sum" title="Copy md5sum" data-clipboard-text="{$md5sum}"><i class="icon-clipboard"></i></a>
-      <a id="popover" title="{$md5sum} <a class='btn-close-popover' onclick='$(&quot;#popover&quot;).popover(&quot;hide&quot;);'><i class='icon-cancel-circled'></i></a>" data-html="true" data-toggle="popover" data-placement="bottom" data-content="The MD5 sum is a convenient tool to make sure that your file is not corrupted. You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.">md5sum</a>
+      <a id="popover" title="{$md5sum} <a class='btn-close-popover' onclick='$(&quot;#popover&quot;).popover(&quot;hide&quot;);'><i class='icon-cancel-circled'></i></a>" data-html="true" data-toggle="popover" data-placement="bottom" data-content="{'The MD5 sum is a convenient tool to make sure that your file is not corrupted.'|translate|escape:html} {'You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.'|translate|escape:html}">md5sum</a>
       {if $version_major != $version}
         <p><i class="icon-info-circled"></i>{'The list of major changes is described on <a href="%s">Piwigo %s</a> release note'|translate:"{$URL.release}-{$version_major}":$version_major}</p>
       {/if}
