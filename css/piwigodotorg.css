@@ -5014,7 +5014,7 @@ label {
     margin-bottom: 100px;
 }
 
-.row-getting-started-content button {
+.row-getting-started-content .btn {
     font-size: 20px;
     color: #FF7700;
     border-radius: 0px;
@@ -5028,9 +5028,9 @@ label {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
-.row-getting-started-content button:hover,
-.row-getting-started-content button:focus,
-.row-getting-started-content button:active {
+.row-getting-started-content .btn:hover,
+.row-getting-started-content .btn:focus,
+.row-getting-started-content .btn:active {
     color: #FFFFFF;
     background-color: #FF7700;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);

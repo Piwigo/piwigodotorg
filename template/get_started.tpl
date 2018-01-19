@@ -14,15 +14,15 @@
   <section class="container">
     <div class="row row-getting-started-content text-center">
       <div class="col-md-4 col-xs-12">
-        <button class="btn">{'Requirements'|translate}</button>
+        <a class="btn" href="http://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before">{'Requirements'|translate}</a>
         <p>{'porg_get_started_requirement_desc1'|translate} {'porg_get_started_requirement_desc2'|translate}</p>
       </div>
       <div class="col-md-4 col-xs-12">
-        <button class="btn">{'Download'|translate}</button>
+        <a class="btn" href="{$URL.get_piwigo}">{'Download'|translate}</a>
         <p>{'porg_get_started_download_desc'|translate}</p>
       </div>
       <div class="col-md-4 col-xs-12">
-        <button class="btn">{'Installation guide'|translate}</button>
+        <a class="btn" href="http://piwigo.org/doc/doku.php?id=user_documentation:learn:install">{'Installation guide'|translate}</a>
         <p>{'porg_get_started_guide_desc'|translate}</p>
       </div>
     </div>
