@@ -1836,6 +1836,10 @@ and (max-device-width : 480px) {
 
  /* Piwigo release */
 
+.news-releases img {
+    width:100%;
+}
+
  .news-release-left {
     border-right: 1px solid #F46755;
 }
@@ -1883,19 +1887,21 @@ and (max-device-width : 480px) {
     padding-bottom: 80px;
 }
 
- .news-release-content-left h1, .news-release-content-left p,
- .news-release-content-right h1, .news-release-content-right p {
+ .news-releases h2, .news-releases p {
     padding-left: 25px;
     padding-right: 25px;
 }
 
- .news-release-content-left p, .news-release-content-right p {
+ .news-releases p {
     font-size: 18px;
     padding-bottom: 20px;
 }
 
- .news-release-content-left h1, .news-release-content-right h1 {
+.news-releases h2 {
     font-size: 20px;
+}
+
+.news-releases h2 a {
     color: #F46755;
 }
 

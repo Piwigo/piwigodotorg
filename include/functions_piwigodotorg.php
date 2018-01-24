@@ -268,130 +268,96 @@ function porg_get_latest_version_nocache()
   return $latest_version;
 }
 
-function getNewsNumber()
+function porg_get_news($start, $count)
 {
-  include (PORG_PATH . '/data/news.data.php');
+  global $lang_info, $conf, $page;
 
-  if (isset($announcement_forum_id))
+  $topics = null;
+
+  $cache_path = $conf['data_location'].'porg_news-'.$lang_info['code'].'.cache.php';
+  if (!is_file($cache_path) or filemtime($cache_path) < strtotime('15 minutes ago'))
   {
-    $query = '
-    SELECT
-    poster,
-    id  ,
-    posted,
-    num_replies,
-    subject
-    FROM forum.topics
-    WHERE forum_id = '.$announcement_forum_id.'
-    ORDER BY posted DESC
-    ';
-    $result = pwg_query($query);
-    $nb = pwg_db_num_rows($result);
+    $forum_url = 'http://'.$page['porg_domain_prefix'].'piwigo.org/forum';
+    $url = $forum_url.'/news.php?format=json';
 
-    return ($nb);
-  }
-}
-
-function getNews($start, $count)
-{
-  include_once (PORG_PATH . '/data/news.data.php');
-  include_once (PORG_PATH . '/vendor/jBBCode/JBBCode/Parser.php');
-
-  if (isset($announcement_forum_id))
-  {
-    $topics = array();
-    $topic_ids = array();
-
-    $query = '
-    SELECT
-    id,
-    poster,
-    posted,
-    num_replies,
-    subject
-    FROM forum.topics
-    WHERE forum_id = '.$announcement_forum_id.'
-    ORDER BY posted DESC
-    ';
-    $result = pwg_query($query);
-    $i = 0;
-    while ($row = pwg_db_fetch_assoc($result))
+    $content = @file_get_contents($url);
+    if ($content !== false)
     {
-      $topics[] = $row;
-      $topic_ids[] = $row['id'];
-      $topics[$i]['posted'] = format_date($row['posted']);
-      $i++;
-    }
+      $topics = json_decode($content, true);
 
-    $topics = array_slice($topics, $start, $count);
-    $topic_ids = array_slice($topic_ids, $start, $count);
-
-    if (count($topics) > 0)
-    {
-      $query = '
-      SELECT
-      topic_id,
-      MIN(forum.posts.id) as post_id
-      FROM forum.posts
-      JOIN forum.topics ON forum.topics.id = forum.posts.topic_id
-      WHERE topic_id IN ('.implode(',', $topic_ids).')
-      GROUP BY topic_id
-      ;';
-      $result = pwg_query($query);
-      $first_post_of_topic = array();
-      while ($row = pwg_db_fetch_assoc($result))
-      {
-        $first_post_of_topic[ $row['topic_id'] ] = $row['post_id'];
-      }
-
-      $data_of_post = array();
-      $query = '
-      SELECT
-      id,
-      message,
-      poster_id
-      FROM forum.posts
-      WHERE id IN ('.implode(',', array_values($first_post_of_topic)).')
-      ;';
-
-      $jBBparser = new JBBCode\Parser();
-      $jBBparser->addCodeDefinitionSet(new JBBCode\DefaultCodeDefinitionSet());
-      $result = pwg_query($query);
-      while ($row = pwg_db_fetch_assoc($result))
-      {
-        $data_of_post[ $row['id'] ] = $row;
-        $jBBparser->parse($data_of_post[ $row['id'] ]['message']);
-        $data_of_post[ $row['id'] ]['message'] = $jBBparser->getAsText();
-        $message = explode(' ', $data_of_post[ $row['id'] ]['message']);
-        $data_of_post[ $row['id'] ]['message'] = implode(' ', array_slice($message, 0, 30)) . '...';
-      }
-
-      $data_of_post = array_reverse($data_of_post, TRUE);
+      $doc = new DOMDocument();
       $i = 0;
-      foreach ($data_of_post as $data)
+
+      foreach ($topics as $idx => $topic)
       {
-        $topics[$i]['message'] = $data['message'];
-        if ($i % 2 == 0)
-        {
-          $topics[$i]['state'] = 'left';
+        // looking for the image in the message
+        @$doc->loadHTML($topic['message']);
+
+        $imgs = $doc->getElementsByTagName('img');
+
+        foreach ($imgs as $img) {
+          $topics[$idx]['img_src'] = $img->getAttribute('src');
+          break;
         }
-        else
+
+        $message = $topic['message'];
+        $message = str_replace('<br />', ' ', $message);
+        $message = strip_tags($message);
+
+        $topics[$idx]['is_cut'] = false;
+        $max_length = 150;
+        if (strlen($message) > $max_length)
         {
-          $topics[$i]['state'] = 'right';
+          $delimiter = '~#~';
+          $lines = explode($delimiter, wordwrap(trim($message), $max_length, $delimiter));
+          $message = array_shift($lines);
+
+          $topics[$idx]['is_cut'] = true;
         }
-        $i++;
+
+        $topics[$idx]['message'] = $message;
+        $topics[$idx]['id'] = $topic['topic_id'];
+        $topics[$idx]['posted'] = porg_date_format($topic['posted_on'], true);
+        $topics[$idx]['url'] = $forum_url.'/viewtopic.php?id='.$topic['topic_id'];
+
+        $topics[$idx]['state'] = 'right';
+        if ($i++ % 2 == 0)
+        {
+          $topics[$idx]['state'] = 'left';
+        }
+
       }
-      $topics[$i - 1]['last'] = true;
+
+      file_put_contents($cache_path, serialize($topics));
     }
-    return $topics;
   }
+
+  if (is_null($topics))
+  {
+    $topics = unserialize(file_get_contents($cache_path));
+  }
+
+  $topics_slice = array_slice($topics, $start, $count);
+
+  end($topics_slice);
+  $last_idx = key($topics_slice);
+  $topics_slice[$last_idx]['last'] = true;
+
+  return array(
+    'total_count' => count($topics),
+    'topics' => $topics_slice,
+  );
 }
 
-function porg_date_format($datetime)
+function porg_date_format($datetime, $is_timestamp=false)
 {
   global $lang_info;
 
-  $timestamp = strtotime($datetime);
+  $timestamp = $datetime;
+  if (!$is_timestamp)
+  {
+    $timestamp = strtotime($datetime);
+  }
 
   if ('en' == $lang_info['code'])
   {

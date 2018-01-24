@@ -52,11 +52,11 @@ function ws_porg_news_seemore($params, &$service)
   $start = $params['start'];
   $count = $params['count'];
 
-  $topics = getNews($start, $count);
+  $news = porg_get_news($start, $count);
   $template->set_filenames(array('page_porg' => realpath(PORG_PATH .'template/news_articles.tpl')));
   $template->assign(
     array(
-      'topics' => $topics,
+      'topics' => $news['topics'],
     )
   );
   $template->parse('page_porg');

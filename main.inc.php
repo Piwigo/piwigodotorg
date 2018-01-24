@@ -27,8 +27,9 @@ include(PORG_PATH . 'include/functions_ws_porg.php');
 // adapt language depending on url
 function porg_user_init()
 {
-    global $user;
+    global $user, $page;
 
+    $page['porg_domain_prefix'] = '';
     $user['language'] = 'en_UK';
 
     $raw_url = $_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME'];
@@ -48,6 +49,7 @@ function porg_user_init()
 
         if (isset($subdomain_to_language[$subdomain]))
         {
+            $page['porg_domain_prefix'] = $subdomain.'.';
             $user['language'] = $subdomain_to_language[$subdomain];
 
             if ('fr' == $subdomain)
