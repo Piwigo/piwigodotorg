@@ -7,7 +7,7 @@ if (isset($newsletters))
 {
   $template->assign(
     array(
-      'newsletters' => array_slice($newsletters, 0, 90),
+      'newsletters' => array_slice($newsletters, 0, 9),
       'newsletters_length' => count($newsletters),
     )
   );
