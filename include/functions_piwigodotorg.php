@@ -349,6 +349,27 @@ function porg_get_news($start, $count)
   );
 }
 
+function porg_get_newsletters($lang_code)
+{
+  include(PORG_PATH . "data/newsletters.data.php");
+
+  if (isset($newsletters[$lang_code]))
+  {
+    $newsletters = $newsletters[$lang_code];
+
+    foreach ($newsletters as $idx => $newsletter)
+    {
+      $newsletters[$idx]['id'] = $lang_code.'-'.$idx;
+      $newsletters[$idx]['date_label'] = porg_date_format($idx);
+      $newsletters[$idx]['url'] = 'plugins/piwigo-piwigodotorg/data/newsletters/'.str_replace('-', '', $idx).'_'.$lang_code.'.html';
+    }
+
+    return $newsletters;
+  }
+
+  return null;
+}
+
 function porg_date_format($datetime, $is_timestamp=false)
 {
   global $lang_info;

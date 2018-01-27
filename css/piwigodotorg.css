@@ -2080,18 +2080,24 @@ and (max-device-width : 480px) {
     background-color: #F46755;
 }
 
-.newsletter-title h1 {
+.newsletter-title h2 {
     font-size: 18px;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 2px;
+    font-weight: bold;
+    margin:0;
 }
 
-.newsletter-title h1 > p {
+.newsletter-title h2 a {
+    color:white;
+}
+
+.newsletter-title p.newsletter-date {
     font-size: 10px;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    font-weight: bold;
+    padding: 0 5px 5px 0;
+    margin:0;
     text-align: right;
 }
 
@@ -2110,13 +2116,21 @@ and (max-device-width : 480px) {
 
 .newsletter-image {
     text-align: center;
-    margin-top: -10px;
+    /*margin-top: -10px;*/
     overflow: hidden;
 }
 
 .newsletter-image img {
     width: 100%;
     height: auto;
+}
+
+/* specific newsletters */
+
+#newsletter-en-2015-03-28 img, #newsletter-en-2013-06-25 img {
+  height:244px;
+  width:auto;
+  margin-top: 10px;
 }
 
 /**************************

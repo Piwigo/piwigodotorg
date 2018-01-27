@@ -1,11 +1,12 @@
-     {foreach from=$newsletters key=date_news item=news name=loop}
-       <div class="col-md-4 col-newsletters">
+     {foreach from=$newsletters item=news}
+       <div class="col-md-4 col-newsletters" id="newsletter-{$news.id}">
          <div class="newsletter-content">
            <div class="newsletter-title">
-             <h1 class="bold">{$news.title}<p>{$date_news}<p></h1>
+             <h2><a href="{$news.url}" target="_blank">{$news.title}</a></h2>
+             <p class="newsletter-date">{$news.date_label}</p>
           </div>
           <div class="newsletter-image">
-            <img src="{$news.image}" width="100%" height="100%"/>
+            <img src="{$news.image}"/>
           </div>
           <p>{$news.summary}</p>
         </div> 
