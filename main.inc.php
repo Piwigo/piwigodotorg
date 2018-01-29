@@ -147,6 +147,41 @@ function porg_load_content()
     $porg_root_url = get_absolute_root_url();
     if (isset($_GET['porg']))
     {
+        $redirects = array(
+            'basics' => 'what-is-piwigo',
+            'basics/' => 'what-is-piwigo',
+            'basics/features' => 'features',
+            'basics/requirements' => 'get-started', // TODO change to wiki page
+            'basics/installation' => 'get-started', // TODO change to wiki page
+            'basics/installation_netinstall' => 'get-started', // TODO change to wiki page
+            'basics/installation_manual' => 'get-started', // TODO change to wiki page
+            'basics/upgrade' => 'get-started', // TODO change to wiki page
+            'basics/upgrade_automatic' => 'get-started', // TODO change to wiki page
+            'basics/upgrade_manual' => 'get-started', // TODO change to wiki page
+            'basics/downloads' => 'get-piwigo',
+            'basics/archive' => 'changelogs',
+            'basics/newsletter' => 'newsletters',
+            'basics/license' => 'what-is-piwigo', // TODO redirect on the #license
+            'basics/contribute' => 'get-involved',
+            'news/' => 'news',
+            'hosting' => 'get-piwigo',
+            'hosting/' => 'get-piwigo',
+            'donate' => 'get-involved', // TODO redirect on the #donate
+            );
+
+        // specific case for releases/a.b.c => release-a.b.c
+        if (preg_match('/^releases\/(\d+\.\d+\.\d+)$/', $_GET['porg'], $matches))
+        {
+            $redirects[ $_GET['porg'] ] = 'release-'.$matches[1];
+        }
+
+        if (isset($redirects[ $_GET['porg'] ]))
+        {
+            set_status_header(301);
+            redirect_http($porg_root_url.porg_get_page_url($redirects[ $_GET['porg'] ]));
+            exit();
+        }
+
         $porg_page = porg_label_to_page($_GET['porg']);
 
         if ($porg_page !== false)
