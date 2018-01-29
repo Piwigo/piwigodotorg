@@ -44,8 +44,16 @@ function ws_porg_home_refresh_showcases($params, &$service)
 
 function ws_porg_contact_send($params, &$service)
 {
-  $error = "";
-  $to = "contact@piwigo.org";
+  global $conf;
+
+  if (!isset($conf['porg_contact_form_to']))
+  {
+    echo json_encode(['code'=>400, 'msg'=>'contact form recipient not configured']);
+    exit;
+  }
+  $to = $conf['porg_contact_form_to'];
+
+  $error = '';
 
   /* EMAIL */
   if(!filter_var($params["email"], FILTER_VALIDATE_EMAIL))
@@ -58,14 +66,13 @@ function ws_porg_contact_send($params, &$service)
   }
 
   /* SUBJECT */
-  if (empty($params["subject"]))
+  $category = 'misc';
+  if (!empty($params['subject']) and preg_match('/^\w+$/', $params['subject']))
   {
-    $subject = "Misc";
+    $category = $params['subject'];
   }
-  else
-  {
-    $subject = $params["subject"];
-  }
+
+  $subject = l10n('[piwigo.org contact form, %s] %s contacted you on %s', $category, $email, date('Y-m-d H:i:s'));
 
   $message = $params["message"];
 
