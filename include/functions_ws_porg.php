@@ -50,7 +50,7 @@ function ws_porg_contact_send($params, &$service)
   /* EMAIL */
   if(!filter_var($params["email"], FILTER_VALIDATE_EMAIL))
   {
-    $error .= "<li>Whoops, invalid email format</li>";
+    $error .= "Whoops, invalid email format";
   }
   else
   {
@@ -85,7 +85,7 @@ function ws_porg_contact_send($params, &$service)
     exit;
   }
 
-  echo json_encode(['code'=>404, 'msg'=>$error]);
+  echo json_encode(['code'=>400, 'msg'=>$error]);
   exit;
 }
 

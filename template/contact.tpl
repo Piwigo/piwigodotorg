@@ -3,7 +3,9 @@
   $(document).ready(function() {
     $('#form-submit').click(function(e) {
         e.preventDefault();
-        if ($(this).data("state") == "push") {
+
+        if (jQuery("#form-submit").hasClass('disabled') || $(this).data("state") == "push") {
+          console.log("oula");
           return false;
         }
         $(this).data("state", "push");
@@ -15,7 +17,7 @@
 
         $.ajax({
             type: "POST",
-            url: "ws.php",
+            url: "ws.php?format=json",
             dataType: "json",
             data: {
               method: 'porg.contact.send',
@@ -31,6 +33,11 @@
                     $(".email-error").html("<ul class='list-unstyled' style='color: #a94442;'><li>"+data.msg+"<li></ul>");
                     $("#form-submit").data("state", "not-push");
                 }
+            },
+            error : function(data) {
+              console.log("[error] data.code="+data.code);
+              $(".email-error").html("<ul class='list-unstyled' style='color: #a94442;'><li>"+data.message+"<li></ul>");
+                    $("#form-submit").data("state", "not-push");
             }
         });
       });
