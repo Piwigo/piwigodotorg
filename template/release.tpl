@@ -115,7 +115,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <button class="btn">{'Automatic upgrade'|translate}</button>
+            <a class="btn">{'Automatic upgrade'|translate}</a>
           </div>
         </div>
         <div class="transfer-upgrade">
@@ -127,7 +127,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <button class="btn">{$upgrade_from}_to_{$version}.zip</button>
+            <a class="btn">{$upgrade_from}_to_{$version}.zip</a>
           </div>
         </div>
         <div class="manual-upgrade">
@@ -135,7 +135,7 @@
             <p>{'If you are running a version older than %s and do not want to use the automatic upgrade, then follow the <b>manual upgrade</b>.'|translate:$branch}</p>
           </div>
           <div class="col-md-4">
-            <button class="btn">{'Manual Upgrade'|translate}</button>
+            <a class="btn">{'Manual Upgrade'|translate}</a>
           </div>
         </div>
       </div>

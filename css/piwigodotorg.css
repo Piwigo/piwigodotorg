@@ -5953,7 +5953,7 @@ section.release-notes-overview li a {
     font-size: 20px;
 }
 
-.automatic-upgrade button {
+.automatic-upgrade a.btn {
     font-size: 20px;
     color: #54616F;
     padding-top: 10px;
@@ -5968,7 +5968,7 @@ section.release-notes-overview li a {
     -moz-transition: background-color 0.2s ease-out;
 }
 
-.automatic-upgrade button:hover, .automatic-upgrade button:focus {
+.automatic-upgrade a.btn:hover, .automatic-upgrade a.btn:focus {
     color: white;
     border: 1px solid white;
     background-color: #54616F;
@@ -5993,7 +5993,7 @@ section.release-notes-overview li a {
     font-size: 20px;
 }
 
-.transfer-upgrade button, .manual-upgrade button {
+.transfer-upgrade a.btn, .manual-upgrade a.btn {
     font-size: 20px;
     color: white;
     padding-top: 10px;
@@ -6010,14 +6010,14 @@ section.release-notes-overview li a {
     -moz-transition: background-color 0.2s ease-out;
 }
 
-.transfer-upgrade button:hover, .transfer-upgrade button:focus,
-.manual-upgrade button:hover, .manual-upgrade button:focus {
+.transfer-upgrade a.btn:hover, .transfer-upgrade a.btn:focus,
+.manual-upgrade a.btn:hover, .manual-upgrade a.btn:focus {
     color: #54616F;
     background-color: white;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
-.manual-upgrade button {
+.manual-upgrade a.btn {
     margin-top: 15px;
     padding-left: 90px;
     padding-right: 90px;
@@ -6040,12 +6040,12 @@ section.release-notes-overview li a {
     font-size: 20px;
 }
 
-.automatic-upgrade button, .transfer-upgrade button, .manual-upgrade button {
+.automatic-upgrade a.btn, .transfer-upgrade a.btn, .manual-upgrade a.btn {
     width: 100%;
 }
 
  @media (max-width: 991px) {
-    .automatic-upgrade button, .transfer-upgrade button, .manual-upgrade button {
+    .automatic-upgrade a.btn, .transfer-upgrade a.btn, .manual-upgrade a.btn {
         width: auto;
         margin: 30px auto 0 auto;
         display: block;
