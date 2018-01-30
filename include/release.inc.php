@@ -115,6 +115,7 @@ if (isset($_GET['version']))
                 'branch' => $branch,
                 'version_major' => $major,
                 'upgrade_from' => $upgrade_from,
+                'upgrade_code' => str_replace('.', '', $upgrade_from.'to'.$version),
             )
         );
     }

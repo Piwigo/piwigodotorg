@@ -5691,7 +5691,7 @@ section.release-notes-overview li a {
     transform: rotate(45deg);
  }
 
- .container-download-release .row > button {
+ .container-download-release .row > a.btn {
     font-size: 20px;
     color: white;
     padding-top: 10px;
@@ -5706,12 +5706,12 @@ section.release-notes-overview li a {
     -moz-transition: background-color 0.2s ease-out;
  }
 
- .container-download-release .row > button:hover {
+ .container-download-release .row > a.btn:hover {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
  }
 
  @media (max-width: 991px) {
-    .container-download-release .row > button {
+    .container-download-release .row > a.btn {
         padding-left: 20px;
         padding-right: 20px;
     }
