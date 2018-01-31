@@ -16,7 +16,7 @@
       {foreach from=$releases key=version item=summary}
       <div class="col-md-3 col-xs-12 version-box">
         <div class="version-{$releases[$version].state}">
-          <h1 class="bold">Piwigo {$version}</h1>
+          <h2>Piwigo {$version}</h2>
           <p>{$releases[$version].released_on}</p>
           {if {$releases[$version].state} == 'major'}
           <div class="version-major-content">
@@ -38,7 +38,7 @@
        <div class="col-md-9 col-xs-12 version-box">
         <div class="primary-version">
           <div class="col-md-3 col-xs-3">
-            <h1 class="bold">Piwigo 1.0.0</h1>
+            <h2>Piwigo 1.0.0</h2>
             <p>2002-04-15</p>
           </div>
           <div class="col-md-6 col-xs-6 primary-version-content">

@@ -14,7 +14,7 @@
   <section class="container-fluide container-fluide-missions">
     <div class="container text-center" id="pwg-missions">
       <div class="row pwg-about-missions">
-        <h1>{'Our Mission'|translate}</h1>
+        <h2>{'Our Mission'|translate}</h2>
         <p>{'porg_about_us_mission_desc'|translate}</p>
       </div>
       <div class="row pwg-about-stats">
@@ -48,7 +48,7 @@
         <img src="{$PORG_ROOT_URL}images/about_us/earth.svg"/>
       </div>
       <div class="col-md-9 text-center">
-        <h1>{'Piwigo contributors'|translate}</h1>
+        <h2>{'Piwigo contributors'|translate}</h2>
       </div>
     </div>
   </section>
@@ -83,7 +83,7 @@
           <a href="#"><img src="{$PORG_ROOT_URL}images/about_us/avatar1.svg"/></a>
         </div>
         <div class="col-md-15 col-xs-12 pwg-team-contributors-involved">
-          <a href="{$PORG_ROOT}{$URL.get_involved}"><h1>{'You?'|translate}</h1>
+          <a href="{$PORG_ROOT}{$URL.get_involved}"><div class="contributor-you">{'You?'|translate}</div>
           <p>{'Take part in our adventure'|translate}<br>
           <span class="text-center">{'Get involved!'|translate}</span></p></a>
         </div>
@@ -131,7 +131,7 @@
                 <p>{'porg_about_us_apps_desc'|translate}</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h1 class="bold">2011</h1>
+                <div class="year">2011</div>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_phone.svg"/>
@@ -145,7 +145,7 @@
                 <p>{'porg_about_us_github_desc'|translate}</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h1 class="bold">2015</h1>
+                <div class="year">2015</div>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_github.svg"/>
@@ -153,7 +153,7 @@
             </div>
           </div>
           <div class="col-md-1 pwg-timeline-top pwg-piwigo-title">
-            <h1 class="bold">PIWIGO</h1>
+            <div class="pwg-timeline-end">PIWIGO</div>
           </div>
         </div>
         <div class="row">
@@ -166,7 +166,7 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-left">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h1 class="bold">2010</h1>
+                <div class="year">2010</div>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h2 class="bold">{'Piwigo.com is launched'|translate}</h2>
@@ -180,7 +180,7 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-right">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h1 class="bold">2009</h1>
+                <div class="year">2009</div>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h2 class="bold">{'PhpWebGallery becomes Piwigo'|translate}</h2>
@@ -208,7 +208,7 @@
                 <p>{'porg_about_us_recruitement_desc'|translate}</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h1 class="bold">2005</h1>
+                <div class="year">2005</div>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/add-user.svg"/>
@@ -222,7 +222,7 @@
                 <p>{'porg_about_us_plugins_desc1'|translate} {'porg_about_us_plugins_desc2'|translate}</p>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
-                <h1 class="bold">2007</h1>
+                <div class="year">2007</div>
               </div>
               <div id="circle">
                 <img src="{$PORG_ROOT_URL}images/about_us/dot_plugin.svg"/>
@@ -242,7 +242,7 @@
           <div class="col-md-5 pwg-timeline-top">
             <div class="pwg-timeline-content-left">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h1 class="bold">2003</h1>
+                <div class="year">2003</div>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h2 class="bold">Free.fr</h2>
@@ -257,7 +257,7 @@
             <div class="pwg-timeline-top-half"></div>
             <div class="pwg-timeline-content-right">
               <div class="col-md-6 col-piwigo-timeline-content-left">
-                <h1 class="bold">2002</h1>
+                <div class="year">2002</div>
               </div>
               <div class="col-md-6 col-piwigo-timeline-content-right">
                 <h2 class="bold">{'Birth'|translate}</h2>
@@ -281,7 +281,7 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2015</h1>
+            <div class="year">2015</div>
             <h2 class="bold">{'Piwigo moves to GitHub'|translate}</h2>
             <p>{'porg_about_us_github_desc'|translate}</p>
           </div>
@@ -293,7 +293,7 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2011</h1>
+            <div class="year">2011</div>
             <h2 class="bold">{'Mobile apps'|translate}</h2>
             <p>{'porg_about_us_apps_desc'|translate}</p>
           </div>
@@ -304,7 +304,7 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2010</h1>
+            <div class="year">2010</div>
             <h2 class="bold">{'Piwigo.com is launched'|translate}</h2>
             <p>{'porg_about_us_launch_desc'|translate}</p>
           </div>
@@ -316,7 +316,7 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2009</h1>
+            <div class="year">2009</div>
             <h2 class="bold">{'PhpWebGallery becomes Piwigo'|translate}</h2>
             <p>{'porg_about_us_webgallery_desc'|translate}</p>
           </div>
@@ -328,7 +328,7 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2007</h1>
+            <div class="year">2007</div>
             <h2 class="bold">{'Arrivals of Plugins'|translate}</h2>
             <p>{'porg_about_us_plugins_desc1'|translate} {'porg_about_us_plugins_desc2'|translate}</p>
           </div>
@@ -339,7 +339,7 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2005</h1>
+            <div class="year">2005</div>
             <h2 class="bold">{'Recruitement'|translate}</h2>
             <p>{'porg_about_us_recruitement_desc'|translate}</p>
           </div>
@@ -350,7 +350,7 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2003</h1>
+            <div class="year">2003</div>
             <h2 class="bold">Free.fr</h2>
             <p>{'porg_about_us_beginning_desc1'|translate} {'porg_about_us_beginning_desc2'|translate}</p>
           </div>
@@ -362,7 +362,7 @@
             </div>
           </div>
           <div class="col-xs-10 pwg-timeline-mobile-article">
-            <h1 class="bold">2002</h1>
+            <div class="year">2002</div>
             <h2 class="bold">{'Birth'|translate}</h2>
             <p>{'porg_about_us_birth_desc'|translate}</p>
           </div>
@@ -373,25 +373,25 @@
 
   <section class="container container-about-business-model">
     <div class="row row-about-title-business-model text-center">
-      <h1>{'Business Model'|translate}</h1>
+      <h2>{'Business Model'|translate}</h2>
       <p>{'porg_about_us_business_desc1'|translate} {'porg_about_us_business_desc2'|translate}</p>
     </div>
     <div class="equal row-about-content-business-model">
       <div class="col-md-4">
         <div class=" col-about-donations">
-          <h1>{'Donations'|translate}</h1>
+          <h3>{'Donations'|translate}</h3>
           <p>{'porg_about_us_donation_desc1'|translate} {'porg_about_us_donation_desc2'|translate} {'porg_about_us_donation_desc3'|translate:"{$URL.get_involved}#donate"}</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="col-about-piwigodotcom">
-          <h1>{'Piwigo.com'|translate}</h1>
+          <h3>{'Piwigo.com'|translate}</h3>
           <p>{'porg_about_us_dotcom_desc1'|translate} {'porg_about_us_dotcom_desc2'|translate} {'porg_about_us_dotcom_desc3'|translate}</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="col-about-prestations">
-          <h1>{'Services'|translate}</h1>
+          <h3>{'Services'|translate}</h3>
           <p>{'porg_about_us_service_desc1'|translate} {'porg_about_us_service_desc2'|translate}</p>
         </div>
       </div>
@@ -401,7 +401,7 @@
   <section class="container-fluide container-fluide-about-get-involved text-center">
     <div class="container container-about-get-involved" id="pwg-get-involved">
       <div class="row">
-        <h1>{'Want to be part of the adventure?'|translate}</h1>
+        <h2>{'Want to be part of the adventure?'|translate}</h2>
         <p>{'porg_about_us_join_desc1'|translate} {'porg_about_us_join_desc2'|translate}</p>
         <a class="btn btn-get-involved" href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved'|translate}</a>
       </div>

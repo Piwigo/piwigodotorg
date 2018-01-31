@@ -14,7 +14,7 @@
 
   <section class="container">
     <div class="row text-center row-use-piwigo-for">
-      <h1 class="bold">{'What can I use Piwigo for ?'|translate}</h1>
+      <h2>{'What can I use Piwigo for ?'|translate}</h2>
       <p>{'porg_whatispiwigo_use_desc1'|translate} {'porg_whatispiwigo_use_desc2'|translate}</p>
       <img src="{$PORG_ROOT_URL}images/whatispiwigo/paper.svg"/>
     </div>
@@ -24,7 +24,7 @@
     <div class="container">
       <div class="row row-whatsispiwigo-organization">
         <div class="col-md-6 col-whatispiwigo-organization-content">
-          <h1 class="bold">{'Organisations'|translate}</h1>
+          <h2>{'Organisations'|translate}</h2>
           <p>{'porg_whatispiwigo_organisation_desc1'|translate} {'porg_whatispiwigo_organisation_desc2'|translate}</p>
         </div>
         <div class="col-md-6 col-whatispiwigo-organization-logo">
@@ -59,7 +59,7 @@
             </div>
           </div>
           <div class="col-md-6 col-whatispiwigo-professional-content">
-            <h1 class="bold">{'Professionals'|translate}</h1>
+            <h2>{'Professionals'|translate}</h2>
             <p>{'porg_whatispiwigo_professional_desc1'|translate} {'porg_whatispiwigo_professional_desc2'|translate} {'porg_whatispiwigo_professional_desc3'|translate}</p>
           </div>
         </div>
@@ -70,7 +70,7 @@
     <div class="container">
       <div class="row row-whatsispiwigo-individual">
         <div class="col-md-6 col-whatispiwigo-individual-content">
-          <h1 class="bold">{'Individuals'|translate}</h1>
+          <h2>{'Individuals'|translate}</h2>
           <p>{'porg_whatispiwigo_individual_desc1'|translate} {'porg_whatispiwigo_individual_desc2'|translate}</p>
         </div>
         <div class="col-md-6 col-whatispiwigo-individual-logo text-center">
@@ -97,7 +97,7 @@
 
   <section class="container">
     <div class="row row-whatispiwigo-choosing-piwigo">
-      <h1 class="bold">{'Why choosing Piwigo ?'|translate}</h1>
+      <h2>{'Why choosing Piwigo ?'|translate}</h2>
     </div>
   </section>
 
@@ -105,13 +105,13 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">{'High Volume'|translate}</h1>
+          <h3>{'High Volume'|translate}</h3>
         </div>
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">{'Sustainable'|translate}</h1>
+          <h3>{'Sustainable'|translate}</h3>
         </div>
         <div class="col-md-4 col-xs-4">
-          <h1 class="bold">{'Open source'|translate}</h1>
+          <h3>{'Open source'|translate}</h3>
         </div>
       </div>
     </div>
@@ -134,7 +134,7 @@
   <section class="container container-whatispiwigo-how-to-use-piwigo">
     <div class="row">
       <div class="col-md-6 col-xs-12">
-        <h1 class="bold">{'How to use Piwigo ?'|translate}</h1>
+        <h2>{'How to use Piwigo ?'|translate}</h2>
         <p>{'porg_whatispiwigo_how_to_desc1'|translate} {'porg_whatispiwigo_how_to_desc2'|translate}
         <br><br>
         {'porg_whatispiwigo_how_to_desc3'|translate} {'porg_whatispiwigo_how_to_desc4'|translate}</p>
@@ -177,7 +177,7 @@
   <section class="container-fluide get-started text-center">
     <div class="container">
       <div class="row">
-        <h1>{'Get started with Piwigo'|translate}</h1>
+        <h2>{'Get started with Piwigo'|translate}</h2>
         <p>{'porg_get_started_desc'|translate}</p>
         <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">{'Get Piwigo'|translate}</a>
       </div>

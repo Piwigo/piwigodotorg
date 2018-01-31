@@ -39,7 +39,7 @@ $(document).ready(function() {
 
   <section class="container form-newsletter">
     <form action="{$PORG_ROOT}announcement/subscribe.php" method="get" class="form-inline form-newsletter-subscribe text-center">
-      <h1 class="bold">{'porg_newsletters_subscribe_title'|translate}</h1>
+      <h2>{'porg_newsletters_subscribe_title'|translate}</h2>
       <div class="form-group">
         <input type="text" name="email" class="form-newsletter-email" placeholder="Enter your email here" onfocus="this.placeholder=(this.placeholder=='Enter your email here') ? '' : this.placeholder;" onblur="this.placeholder=(this.placeholder=='') ? 'Enter your email here' : this.placeholder;"/>
         <button type="submit" value="Subscribe me!" class="btn btn-default"><span class="bold">{'Sign up'|translate}</span></button>

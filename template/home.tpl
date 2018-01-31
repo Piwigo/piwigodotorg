@@ -36,20 +36,20 @@ $(document).ready(function() {
           <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
           <p class="pwg-release-date"><i class="glyphicon glyphicon-fire"></i>v{$LATEST_VERSION_NUMBER}, {$LATEST_VERSION_DATE}</p>
         </div>
-          <!--<div class="pwg-news col-md-1 col-xs-6">
+{*
+        <div class="pwg-news col-md-1 col-xs-6">
             News
           </div>
           <div class="pwg-version col-md-2 col-xs-6">
             <span>Piwigo 2.9.2 is here!</span>
-          </div>-->
+        </div>
+*}
       </div>
   </section>
     
   <div class="container-fluide container-organization">
     <div class="container">
-      <div class="row text-center organization-title">
-        <p>{'porg_home_organisation_title'|translate}</p>
-      </div>
+      <h2>{'porg_home_organisation_title'|translate}</h2>
       <div class="equal text-center organization-content">
         <div class="col-md-3 col-xs-6">
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/arles.png">
@@ -71,17 +71,17 @@ $(document).ready(function() {
       <div class="row text-center fact-content">
         <div class="col-md-4">
           <img src="{$PORG_ROOT_URL}images/home/growth.svg"/>
-          <h1>{'High Volume'|translate}</h1>
+          <h2>{'High Volume'|translate}</h2>
           <p>{'porg_home_high_volume_desc'|translate}</p>
         </div>
         <div class="col-md-4">
           <img src="{$PORG_ROOT_URL}images/home/diploma.svg"/>
-          <h1>{'Sustainable'|translate}</h1>
+          <h2>{'Sustainable'|translate}</h2>
           <p>{'porg_home_sustainable_desc'|translate}</p>
         </div>
         <div class="col-md-4">
           <img src="{$PORG_ROOT_URL}images/home/code.svg"/>
-          <h1>{'Open Source'|translate}</h1>
+          <h2>{'Open Source'|translate}</h2>
           <p>{'porg_home_open_source_desc'|translate}</p>
         </div>
       </div>
@@ -117,28 +117,26 @@ $(document).ready(function() {
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="title-user">
-      <p>{'Who are Piwigo users?'|translate}</p>
-    </div>
+  <div class="container container-home-users">
+    <h2>{'Who are Piwigo users?'|translate}</h2>
     <div class="row text-center">
       <div class="col col-md-15 piwigo-individual">
         <img src="{$PORG_ROOT_URL}images/home/individual.svg" alt="Piwigo individuals">
-        <p>{'Individuals'|translate}<p>
+        <h3>{'Individuals'|translate}</h3>
       </div>
       <div class="col col-md-15 piwigo-arrow">
         <img src="{$PORG_ROOT_URL}images/home/arrow1.svg" alt="Piwigo arrow1">
       </div>
       <div class="col col-md-15 piwigo-professional">
         <img src="{$PORG_ROOT_URL}images/home/professional.svg" alt="Piwigo professional">
-        <p>{'Professionals'|translate}<p>
+        <h3>{'Professionals'|translate}</h3>
       </div>
       <div class="col col-md-15 piwigo-arrow">
         <img src="{$PORG_ROOT_URL}images/home/arrow2.svg" alt="Piwigo professional">
       </div>
       <div class="col col-md-15 piwigo-organization">
         <img src="{$PORG_ROOT_URL}images/home/organisations.svg" alt="Piwigo Organization">
-        <p>{'Organisations'|translate}<p>
+        <h3>{'Organisations'|translate}</h3>
       </div>
     </div>
     <div class="row row-advice">
@@ -180,7 +178,7 @@ $(document).ready(function() {
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1>{'Get started with Piwigo'|translate}</h1>
+          <h2>{'Get started with Piwigo'|translate}</h2>
           <p>{'porg_get_started_desc'|translate}</p>
           <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">{'Get Piwigo'|translate}</a>
         </div>

@@ -13,7 +13,7 @@
   <section class="container features-type">
     <div class="row features-upload">
       <div class="col-md-12 text-center">
-        <h1 class="bold">{'Upload your photos'|translate}</h1>
+        <h2>{'Upload your photos'|translate}</h2>
         <p>{'porg_features_upload_desc'|translate}</p>
         <a href="http://www.adobe.com/fr/products/photoshop-lightroom.html"><img src="{$PORG_ROOT_URL}images/features/lightroom.svg"/></a>
         <a href="https://www.digikam.org/"><img src="{$PORG_ROOT_URL}images/features/digicam.svg"/></a>
@@ -27,7 +27,7 @@
     <div class="container">
       <div class="row row-features-batch-manager text-center">
         <div class="col-md-6">
-          <h1 class="bold">{'Batch Manager'|translate}</h1>
+          <h2>{'Batch Manager'|translate}</h2>
           <p>{'porg_features_batch_manager_desc'|translate}</p>
         </div>
         <div class="col-md-6 pwg-features-batch-manager-screen">
@@ -37,35 +37,37 @@
     </div>
   </section>
 
-  <!--<section class="container">
+{*
+  <section class="container">
     <div class="row features-tags text-center">
       <div class="col-md-6 col-xs-12 tags-pics">
         <img src="assets/mockup/elements_features/illustration1.svg"/>
       </div>
       <div class="col-md-6 col-md-12 tags-text">
-        <h1 class="bold">Describe with Tags</h1>
+        <h2>Describe with Tags</h2>
         <p>Offer your visitors another way to browse your photos, <br>
 starting from the tags cloud and using multiple related <br>
 tags to reduce the selection.</p>
       </div>
     </div>
-  </section>-->
+  </section>
+*}
 
   <section class="container">
     <div class="row features-elements">
       <div class="col-md-4 features-file">
         <img src="{$PORG_ROOT_URL}images/features/file.svg"/>
-        <h1 class="bold">{'Organize with Album'|translate}</h1>
+        <h2>{'Organize with Album'|translate}</h2>
         <p>{'porg_features_organize_desc1'|translate} {'porg_features_organize_desc2'|translate} {'porg_features_organize_desc3'|translate}</p>
       </div>
       <div class="col-md-4 features-calendar">
         <img src="{$PORG_ROOT_URL}images/features/calendar.svg"/>
-        <h1 class="bold">{'Browse by Dates'|translate}</h1>
+        <h2>{'Browse by Dates'|translate}</h2>
         <p>{'porg_features_browse_date_desc'|translate}</p>
       </div>
       <div class="col-md-4 features-lock">
         <img src="{$PORG_ROOT_URL}images/features/lock.svg"/>
-        <h1 class="bold">{'Privacy on your Photos'|translate}</h1>
+        <h2>{'Privacy on your Photos'|translate}</h2>
         <p>{'porg_features_privacy_desc1'|translate} {'porg_features_privacy_desc2'|translate}</p>
       </div>
     </div>
@@ -78,7 +80,7 @@ tags to reduce the selection.</p>
           <img src="{$PORG_ROOT_URL}images/features/screenshot-piwigo-geolocation.jpg"/>
         </div>
         <div class="col-md-6">
-          <h1 class="bold">{'Geolocate your photos on a map'|translate}</h1>
+          <h2>{'Geolocate your photos on a map'|translate}</h2>
           <p>{'porg_features_geolocate_desc1'|translate} {'porg_features_geolocate_desc2'|translate}</p>
         </div>
       </div>
@@ -91,7 +93,7 @@ tags to reduce the selection.</p>
         <img src="{$PORG_ROOT_URL}images/features/puzzle1.svg"/>
       </div>
       <div class="col-md-4 text-center themes-plugins-content">
-        <h1 class="bold">{'Themes & Plugins'|translate}</h1>
+        <h2>{'Themes & Plugins'|translate}</h2>
         <p>{'porg_features_plugins_desc1'|translate} {'porg_features_plugins_desc2'|translate} {'porg_features_plugins_desc3'|translate}
         {'porg_features_plugins_desc4'|translate}<p>
         <a class="btn bold" href="{$PORG_ROOT}{$URL.extensions}">{'See more'|translate}</a>
@@ -106,7 +108,7 @@ tags to reduce the selection.</p>
     <div class="container">
       <div class="row">
         <div class="col-md-6 pwg-great-place text-center">
-          <h1 class="bold">{'Full screen slideshow'|translate}</h1>
+          <h2>{'Full screen slideshow'|translate}</h2>
           <p>{'porg_features_slideshow_desc'|translate}</p>
         </div>
         <div class="col-md-6 pwg-great-place-img">
@@ -120,17 +122,17 @@ tags to reduce the selection.</p>
     <div class="row features-elements">
       <div class="col-md-4 features-easy-install">
         <img src="{$PORG_ROOT_URL}images/features/easy.svg"/>
-        <h1 class="bold">{'Easy installation and updates'|translate}</h1>
+        <h2>{'Easy installation and updates'|translate}</h2>
         <p>{'porg_features_easy_install_desc1'|translate} {'porg_features_easy_install_desc2'|translate}</p>
       </div>
       <div class="col-md-4 features-great-place">
         <img src="{$PORG_ROOT_URL}images/features/visitors.svg"/>
-        <h1 class="bold">{'A great place for your visitors'|translate}</h1>
+        <h2>{'A great place for your visitors'|translate}</h2>
         <p>{'porg_features_great_place_desc'|translate}</p>
       </div>
       <div class="col-md-4 features-metadata">
         <img src="{$PORG_ROOT_URL}images/features/import.svg"/>
-        <h1 class="bold">{'Import automatic your metadata'|translate}</h1>
+        <h2>{'Import automatic your metadata'|translate}</h2>
         <p>{'porg_features_metadata_desc'|translate}</p>
       </div>
     </div>
@@ -143,7 +145,7 @@ tags to reduce the selection.</p>
           <img src="{$PORG_ROOT_URL}images/features/piwigo-features-user-manager.png"/>
         </div>
         <div class="col-md-6">
-          <h1 class="bold">{'Users management'|translate}</h1>
+          <h2>{'Users management'|translate}</h2>
           <p>{'porg_features_user_management_desc1'|translate} {'porg_features_user_management_desc2'|translate} {'porg_features_user_management_desc3'|translate}</p>
         </div>
       </div>
@@ -154,7 +156,7 @@ tags to reduce the selection.</p>
     <div class="container">
       <div class="row row-api text-center">
         <div class="col-md-6">
-          <h1>{'API'|translate}</h1>
+          <h2>{'API'|translate}</h2>
           <p>{'porg_features_api_desc1'|translate} {'porg_features_api_desc2'|translate}</p>
         </div>
         <div class="col-md-6">
@@ -169,7 +171,7 @@ tags to reduce the selection.</p>
       <img src="{$PORG_ROOT_URL}images/features/hands.svg"/>
     </div>
     <div class="col-md-8 pwg-configuration-description text-center">
-      <h1 class="bold">{'Many configuration settings to make Piwigo fit your own needs'|translate}</h1>
+      <h2>{'Many configuration settings to make Piwigo fit your own needs'|translate}</h2>
     </div>
   </section>
 
@@ -178,7 +180,7 @@ tags to reduce the selection.</p>
   <section class="container-fluide get-started">
     <div class="container">
       <div class="row text-center">
-        <h1>{'Get started with Piwigo'|translate}</h1>
+        <h2>{'Get started with Piwigo'|translate}</h2>
         <p>{'porg_get_started_desc'|translate}</p>
         <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">{'Get Piwigo'|translate}</a>
       </div>

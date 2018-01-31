@@ -15,7 +15,6 @@
     <div class="row pwg-testimonies-row">
       {foreach from=$testimonials key=testimonials_date item=testimonials_content}
       <div class="col-md-6 col-xs-12 pwg-testimonies-content">
-        <!--<div class="pwg-testimonies-content">-->
           <div class="pwg-testimonies-advice {$testimonials_content.user.type}">
             <p>{$testimonials_content.content}</p>
           </div>
@@ -30,7 +29,6 @@
               <p>{$testimonials_content.user.country}, {$testimonials_content.added_on}</p>
             </div>
           </div>
-        <!--</div>-->
       </div>
       {/foreach}
     </div>

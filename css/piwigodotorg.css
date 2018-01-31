@@ -599,15 +599,17 @@
     background-color: #f1f3f5;
 }
 
-.organization-content {
-    padding: 5px 40px 40px 40px;
-}
-
-.organization-title p {
+.container-organization h2 {
+    font-size:14px;
     color: #888;
     margin-top: 27px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-align: center;
+}
+
+.organization-content {
+    padding: 5px 40px 40px 40px;
 }
 
 .organization-content img {
@@ -636,7 +638,7 @@
     height: 50px;
 }
 
-.fact-content h1 {
+.fact-content h2 {
     color: #000000;
     font-size: 16px;
     font-weight: bold;
@@ -672,15 +674,16 @@
 
 /* Who are our users - different type of users */
 
-.title-user {
+.container-home-users h2 {
     color: #FF7700;
     font-size: 30px;
     padding-top: 100px;
     text-transform: uppercase;
+    margin:0 0 10px 0;
 }
 
 @media (max-width: 991px) {
-    .title-user {
+    .container-home-users h2 {
         font-size: 18px;
         padding: 40px;
         text-align: center;
@@ -696,10 +699,12 @@
     margin-bottom: 100px;
 }
 
-.piwigo-individual p, .piwigo-professional p, .piwigo-organization p {
+.piwigo-individual h3, .piwigo-professional h3, .piwigo-organization h3 {
+    margin-top: 0;
     font-size: 28px;
     font-weight: normal;
     color: #666;
+    line-height: 40px;
 }
 
 .piwigo-professional img {
@@ -901,6 +906,11 @@
     color: #FF7700;
 }
 
+.get-started h2 {
+    color: #FF7700;
+    font-size:36px;
+}
+
 .get-started p {
     font-size: 20px;
     color: #4E4E4E;
@@ -1020,12 +1030,13 @@
     background-position: center;
  }
 
- .self-hosted-piwigo h1 {
+ .self-hosted-piwigo h2 {
     color: #FF7700;
+    font-size: 36px;
     font-weight: bold;
  }
 
- .self-hosted-piwigo h1, .self-hosted-piwigo p, .btn-download-piwigo {
+ .self-hosted-piwigo h2, .self-hosted-piwigo p, .btn-download-piwigo {
     padding-top: 30px;
  }
 
@@ -1047,8 +1058,14 @@
     background-color: #FF3362;
 }
 
-.cloud-hosted-piwigo h1, .cloud-hosted-piwigo p {
+.cloud-hosted-piwigo h2, .cloud-hosted-piwigo p {
     padding-top: 30px;
+}
+
+.cloud-hosted-piwigo h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
 }
 
 .btn-cloud-individual, .btn-cloud-entreprise {
@@ -1107,6 +1124,11 @@
 
 .piwigo-mobile-apps {
     margin-bottom: 20px;
+}
+
+.piwigo-mobile-apps h2 {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .btn-applestore {
@@ -1250,7 +1272,8 @@ and (max-device-width : 480px) {
  }
 
 
- .features-upload h1, .features-file h1, .features-calendar h1, .features-lock h1 {
+ .features-upload h2, .features-file h2, .features-calendar h2, .features-lock h2 {
+    font-weight: bold;
     font-size: 28px;
     color: #54616F;
  }
@@ -1366,7 +1389,8 @@ and (max-device-width : 480px) {
     margin-bottom: 100px;
 }
 
-.row-features-batch-manager h1 {
+.row-features-batch-manager h2 {
+    font-weight: bold;
     font-size: 28px;
     padding-bottom: 30px;
     color: #FF7700;
@@ -1399,7 +1423,7 @@ and (max-device-width : 480px) {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .row-features-batch-manager h1 {
+    .row-features-batch-manager h2 {
         padding-bottom: 15px;
     }
     .pwg-features-batch-manager-screen {
@@ -1420,7 +1444,8 @@ and (max-device-width : 480px) {
     margin-bottom: 50px;
 }
 
-.row-features-geolocalisation h1 {
+.row-features-geolocalisation h2 {
+    font-weight: bold;
     font-size: 28px;
     padding-top: 200px;
     padding-bottom: 30px;
@@ -1481,9 +1506,14 @@ and (max-device-width : 480px) {
     margin-bottom: 40px;
 }
 
-.themes-plugins-content h1, .themes-plugins-content p {
+.themes-plugins-content h2, .themes-plugins-content p {
     color: #FFFFFF;
     margin-bottom: 20px;
+}
+
+.themes-plugins-content h2 {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .themes-plugins-content p {
@@ -1533,9 +1563,10 @@ and (max-device-width : 480px) {
 
 /* Features Language - Slide show - Management Tools */
 
-.features-easy-install h1, .features-great-place h1, .features-metadata h1 {
+.features-easy-install h2, .features-great-place h2, .features-metadata h2 {
     font-size: 28px;
     color: #54616F;
+    font-weight: bold;
 }
 
  .features-easy-install p, .features-great-place p, .features-metadata p {
@@ -1563,8 +1594,9 @@ and (max-device-width : 480px) {
 
 /* Features Users Management */
 
-.row-features-users-management h1 {
+.row-features-users-management h2 {
     font-size: 28px;
+    font-weight: bold;
     padding-top: 100px;
     padding-bottom: 30px;
     color: #FF7700;
@@ -1609,7 +1641,7 @@ and (max-device-width : 480px) {
     background-color: #272822;
 }
 
-.container-fluide-api h1 {
+.container-fluide-api h2 {
     font-size: 28px;
     color: #FF7700;
     margin-top: 65px;
@@ -1659,9 +1691,10 @@ and (max-device-width : 480px) {
     overflow: hidden;
 }
 
- .pwg-great-place h1 {
+ .pwg-great-place h2 {
     color: #FF7700;
     font-size: 28px;
+    font-weight: bold;
     margin-top: 175px;
     margin-bottom: 30px;
 }
@@ -1710,9 +1743,11 @@ and (max-device-width : 480px) {
     margin-bottom: 100px;
 }
 
- .pwg-configuration-description h1 {
-    color: #54616F;   
-    margin-bottom: 25px; 
+ .pwg-configuration-description h2 {
+    color: #54616F;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 36px;
 }
 
  .pwg-configuration-description p {
@@ -2020,9 +2055,10 @@ and (max-device-width : 480px) {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
- .form-newsletter-subscribe h1 {
+ .form-newsletter-subscribe h2 {
     padding-bottom: 10px;
     font-size: 20px;
+    font-weight: bold;
     color: #F46755;
 }
 
@@ -2649,7 +2685,7 @@ and (max-device-width : 480px) {
     }
 }
 
-.pwg-about-missions h1 {
+.pwg-about-missions h2 {
     font-size: 28px;
     padding-bottom: 30px;
     color: #FF7700;
@@ -2704,7 +2740,7 @@ and (max-device-width : 480px) {
     padding-top: 150px;
 }
 
-.container-about-title-our-team h1 {
+.container-about-title-our-team h2 {
     color: #FF7700;
     font-size: 28px;
     padding-top: 50px;
@@ -2728,7 +2764,7 @@ and (max-device-width : 480px) {
         display: none;
     }
 
-    .container-about-title-our-team h1 {
+    .container-about-title-our-team h2 {
         color: #FF7700;
         font-size: 28px;
         padding-top: 20px;
@@ -2764,11 +2800,12 @@ and (max-device-width : 480px) {
     text-decoration: none;
 }
 
-.pwg-team-contributors-involved h1 {
+.pwg-team-contributors-involved .contributor-you {
     font-size: 28px;
     color: #FF7700;
     padding-top: 50px;
     padding-bottom: 10px;
+    margin-top: 20px;
 }
 
 .pwg-team-contributors-involved p {
@@ -2914,11 +2951,14 @@ and (max-device-width : 480px) {
     margin-top: -165px;
 }
 
-.pwg-piwigo-title h1 {
+.pwg-piwigo-title .pwg-timeline-end {
     font-size: 64px;
+    font-weight: bold;
     margin-top: -67px;
     margin-left: -149px;
+    margin-bottom: 10px;
     color: #FFFFFF;
+    line-height: 1.1em;
 }
 
 .pwg-timeline-content-left {
@@ -2941,17 +2981,19 @@ and (max-device-width : 480px) {
     margin-top: -250px;
 }
 
-.col-piwigo-timeline-content-left h1, .col-piwigo-timeline-content-right h1 {
+.col-piwigo-timeline-content-left .year, .col-piwigo-timeline-content-right .year {
     font-size: 42px;
     margin-top: -5px;
     color: #4E4E4E;
+    font-weight: bold;
+    line-height: 47px;
 }
 
-.col-piwigo-timeline-content-left h1, .col-piwigo-timeline-content-left h2, .col-piwigo-timeline-content-left p {
+.col-piwigo-timeline-content-left .year, .col-piwigo-timeline-content-left h2, .col-piwigo-timeline-content-left p {
     text-align: right;
 }
 
-.col-piwigo-timeline-content-right h1, .col-piwigo-timeline-content-right h2, .col-piwigo-timeline-content-right p {
+.col-piwigo-timeline-content-right .year, .col-piwigo-timeline-content-right h2, .col-piwigo-timeline-content-right p {
     text-align: left;
 }
 
@@ -3014,11 +3056,14 @@ and (max-device-width : 480px) {
     }
 }
 
-.pwg-timeline-mobile-content h1 {
+.pwg-timeline-mobile-content .year {
     font-size: 20px;
+    font-weight: bold;
     /*margin-top: 79px;
     text-align: center;*/
     color: #4E4E4E;
+    margin:20px 0 10px 0;
+    line-height: 22px;
 }
 
 .pwg-timeline-mobile-content h2,
@@ -3140,7 +3185,7 @@ and (max-device-width : 480px) {
     margin-bottom: 50px;
 }
 
-.row-about-title-business-model h1 {
+.row-about-title-business-model h2 {
     font-size: 32px;
     color: #FF7700;
     margin-bottom: 40px;
@@ -3243,7 +3288,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-size: 225px
 }
 
-.col-about-donations h1, .col-about-piwigodotcom h1, .col-about-prestations h1 {
+.col-about-donations h3, .col-about-piwigodotcom h3, .col-about-prestations h3 {
     font-size: 32px;
     color: #FF7700;
     padding-bottom: 30px;
@@ -3272,7 +3317,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     padding-bottom: 50px;
 }
 
-.container-about-get-involved h1 {
+.container-about-get-involved h2 {
     font-size: 32px;
     margin-bottom: 40px;
     color: #FF7700;
@@ -3355,9 +3400,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     overflow: hidden;
 }
 
-.row-use-piwigo-for h1 {
+.row-use-piwigo-for h2 {
     color: #FF7700;
     padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 36px;
 }
 
 @media (max-width: 991px) {
@@ -3365,7 +3412,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-top: 30px;
     }
 
-    .row-use-piwigo-for h1 {
+    .row-use-piwigo-for h2 {
         font-size: 28px;
         padding-bottom: 30px;
     }
@@ -3398,18 +3445,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
     overflow: hidden;
 }
 
-.col-whatispiwigo-organization-content h1, .col-whatispiwigo-organization-content p {
+.col-whatispiwigo-organization-content h2, .col-whatispiwigo-organization-content p {
     color: #FFFFFF
 }
 
-.col-whatispiwigo-organization-content h1 {
+.col-whatispiwigo-organization-content h2 {
     font-size: 32px;
+    font-weight: bold;
     margin-bottom: 30px;
     margin-top: 200px;
 }
 
 @media (max-width: 991px) {
-    .col-whatispiwigo-organization-content h1 {
+    .col-whatispiwigo-organization-content h2 {
         margin-top: 30px;
         text-align: center;
     }
@@ -3605,13 +3653,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     overflow: hidden;
 }
 
-.col-whatispiwigo-professional-content h1, .col-whatispiwigo-professional-content p {
+.col-whatispiwigo-professional-content h2, .col-whatispiwigo-professional-content p {
     text-align: right;
     color: #54616F;
 }
 
-.col-whatispiwigo-professional-content h1 {
+.col-whatispiwigo-professional-content h2 {
     font-size: 32px;
+    font-weight: bold;
     margin-bottom: 30px;
     margin-top: 150px;
 }
@@ -3755,12 +3804,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     overflow: hidden;
 }
 
-.col-whatispiwigo-individual-content h1, .col-whatispiwigo-individual-content p {
+.col-whatispiwigo-individual-content h2, .col-whatispiwigo-individual-content p {
     color: #FFFFFF
 }
 
-.col-whatispiwigo-individual-content h1 {
+.col-whatispiwigo-individual-content h2 {
     font-size: 32px;
+    font-weight: bold;
     margin-bottom: 30px;
     margin-top: 200px;
 }
@@ -3972,22 +4022,23 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-repeat: no-repeat;
 }
 
-.row-whatispiwigo-choosing-piwigo h1 {
+.row-whatispiwigo-choosing-piwigo h2 {
     padding-top: 200px;
     padding-left: 80px;
     font-size: 32px;
+    font-weight: bold;
     color: #FF7700;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .row-whatispiwigo-choosing-piwigo h1 {
+    .row-whatispiwigo-choosing-piwigo h2 {
         padding-top: 0px;
         margin-top: 100px;
     }
 }
 
 @media (max-width: 991px) {
-    .row-whatispiwigo-choosing-piwigo h1 {
+    .row-whatispiwigo-choosing-piwigo h2 {
         padding-top: 10px;
         padding-left: 0px;
         font-size: 28px;
@@ -3999,13 +4050,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
-.container-fluide-piwigo-fundamental h1 {
+.container-fluide-piwigo-fundamental h3 {
     font-size: 28px;
     color: #54616F;
+    font-weight: bold;
 }
 
 @media (max-width: 991px) {
-    .container-fluide-piwigo-fundamental h1 {
+    .container-fluide-piwigo-fundamental h3 {
         font-size: 16px;
         color: #54616F;
     }
@@ -4039,8 +4091,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-bottom: 60px;
 }
 
-.container-whatispiwigo-how-to-use-piwigo h1 {
+.container-whatispiwigo-how-to-use-piwigo h2 {
     font-size: 32px;
+    font-weight: bold;
     color: #FF7700;
     padding-bottom: 30px;
 }
@@ -4059,7 +4112,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .container-whatispiwigo-how-to-use-piwigo br {
         display: none;
     }
-    .container-whatispiwigo-how-to-use-piwigo h1, .container-whatispiwigo-how-to-use-piwigo p {
+    .container-whatispiwigo-how-to-use-piwigo h2, .container-whatispiwigo-how-to-use-piwigo p {
         text-align: center;
     }
 
@@ -4281,13 +4334,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-bottom: 100px;
 }
 
-.row-get-involved-inside-piwigo h1,
+.row-get-involved-inside-piwigo h2,
 .row-get-involved-inside-piwigo p {
     color: #4E4E4E;
 }
 
-.row-get-involved-inside-piwigo h1 {
+.row-get-involved-inside-piwigo h2 {
     font-size: 24px;
+    font-weight: bold;
     padding-top: 20px;
 }
 
@@ -4389,15 +4443,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-color: #FF7700;
 }
 
-.container-fluide-get-involved-improve-pwg h1 {
+.container-fluide-get-involved-improve-pwg h2 {
     font-size: 24px;
+    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
     color: #FFFFFF;
 }
 
 @media (max-width: 991px) {
-    .container-fluide-get-involved-improve-pwg h1 {
+    .container-fluide-get-involved-improve-pwg h2 {
         font-size: 14px;
     }
 }
@@ -4468,8 +4523,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     float: left;
 }
 
-.row-get-involved-security h1 {
+.row-get-involved-security h2 {
     font-size: 28px;
+    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 40px;
     color: #4e4e4e;
@@ -4539,7 +4595,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-bottom: 100px;
 }
 
-.container-get-involved-donate h1,
+.container-get-involved-donate h2,
 .container-get-involved-donate span,
 .container-get-involved-donate label {
     color: #00AAFF;
@@ -4553,7 +4609,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     color: #4E4E4E;
 }
 
-.col-get-involved-donate-content h1 {
+.col-get-involved-donate-content h2 {
+    font-size: 36px;
     margin-bottom: 60px;
 }
 
@@ -4571,8 +4628,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 20px;
 }
 
-.col-get-involved-donate-form h1 {
+.col-get-involved-donate-form h2 {
     margin-bottom: 60px;
+    font-size: 36px;
 }
 
 .btn-gift-money {
@@ -4730,12 +4788,12 @@ label {
     padding-right: 15%;
 }
 
-.col-thanks-donator-content h1,
+.col-thanks-donator-content h2,
 .col-thanks-donator-content p {
     color: #FFFFFF;
 }
 
-.col-thanks-donator-content h1 {
+.col-thanks-donator-content h2 {
     font-size: 28px;
     margin-bottom: 30px;
 }
@@ -5145,14 +5203,15 @@ label {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
-.version-major h1,
+.version-major h2,
 .version-major p,
 .version-major a {
     color: #FFFFFF;
 }
 
-.version-major h1 {
+.version-major h2 {
     font-size: 28px;
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
@@ -5211,10 +5270,11 @@ label {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
- .version-minor h1 {
+ .version-minor h2 {
     color: #54616F;
     margin-bottom: 15px;
     font-size: 28px;
+    font-weight: bold;
 }
 
  .version-minor p {
@@ -5256,14 +5316,15 @@ label {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
-.primary-version h1,
+.primary-version h2,
 .primary-version p {
     color: #FFFFFF;
 }
 
 
-.primary-version h1 {
+.primary-version h2 {
     font-size: 28px;
+    font-weight: bold;
     margin-top: 100px;
 }
 
