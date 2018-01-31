@@ -1,4 +1,3 @@
-  </body>
   <footer>
     <div class="container-fluide footer">
       <div class="container">
@@ -94,4 +93,5 @@
       </div>
     </div>
   </footer>
+  </body>
 </html>

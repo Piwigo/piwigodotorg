@@ -23,7 +23,6 @@
     <script src="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="{$PORG_ROOT_URL_PLUGINS}js/piwigodotorg.js"></script>
   </head>  
-  </head>  
   <body>
   <nav class="navbar navbar-default">
   <div class="container">
@@ -74,7 +73,9 @@
             <li><a href="{$PORG_ROOT}{$URL.newsletters}">{'Newsletters'|translate}</a></li>
           </ul>
         </li>
-        <li class="pwg-navbar-button"><a href="http://piwigo.org/demo/" class="pwg-navbar-button-demo"><span>{'Demo'|translate}</span></a><a href="{$PORG_ROOT}{$URL.get_piwigo}" class="pwg-navbar-button-get-piwigo"><span>{'Get Piwigo'|translate}</span></a></li>
+        <li class="pwg-navbar-button">
+          <a href="http://piwigo.org/demo/" class="pwg-navbar-button-demo"><span>{'Demo'|translate}</span></a>
+          <a href="{$PORG_ROOT}{$URL.get_piwigo}" class="pwg-navbar-button-get-piwigo"><span>{'Get Piwigo'|translate}</span></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
