@@ -8,6 +8,7 @@ global $lang_info, $lang;
 if (isset($_GET['version']))
 {
     $version = $_GET['version'];
+    $meta_title = 'Piwigo '.$version.' | '.l10n('Release note');
     if (isset($porg_releases[$version]))
     {
         /* Load en_UK translation*/

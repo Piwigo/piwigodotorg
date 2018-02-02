@@ -1,5 +1,5 @@
 <?php
-
+$lang['Piwigo - Manage your photo collection'] = 'Piwigo - Manage your photo collection';
 $lang['porg_home_title'] = 'Manage your photo collection with Piwigo';
 $lang['porg_home_desc1'] = 'Piwigo is open source photo gallery software for the web.';
 $lang['porg_home_desc2'] = 'Designed for organisations, teams and individuals.';

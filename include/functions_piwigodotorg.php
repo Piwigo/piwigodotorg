@@ -1,27 +1,27 @@
 <?php
 /**
- * list of pages identifiers. They are the default "porg=xxx" in URLs. We use "-" and not "_".
+ * list of <page ids> => <language key for page title>. They are the default "porg=xxx" in URLs. We use "-" and not "_".
  */
 function porg_get_pages()
 {
   return array(
-    'home',
-    'features',
-    'what-is-piwigo',
-    'changelogs',
-    'contact',
-    'about-us',
-    'extensions',
-    'get-involved',
-    'get-piwigo',
-    'get-started',
-    'coding-activity',
-    'news',
-    'newsletters',
-    'press',
-    'release',
-    'showcases',
-    'testimonials',
+    'home' => 'Piwigo - Manage your photo collection',
+    'features' => 'Features',
+    'what-is-piwigo' => 'What is Piwigo?',
+    'changelogs' => 'Changelogs',
+    'contact' => 'Contact',
+    'about-us' => 'About us',
+    'extensions' => null,
+    'get-involved' => 'Get Involved',
+    'get-piwigo' => 'Get Piwigo',
+    'get-started' => 'Get Started',
+    'coding-activity' => 'Coding activity',
+    'news' => 'News',
+    'newsletters' => 'Newsletters',
+    'press' => 'Press',
+    'release' => null, // will be filled by include/release.inc.php
+    'showcases' => null,
+    'testimonials' => 'Testimonials',
     );
 }
 
@@ -72,7 +72,7 @@ function porg_page_to_file($porg_page)
  */
 function porg_get_page_urls()
 {
-  $porg_pages = porg_get_pages();
+  $porg_pages = array_keys(porg_get_pages());
 
   $porg_page_urls = array();
   foreach ($porg_pages as $porg_page)
@@ -90,7 +90,7 @@ function porg_get_page_urls()
  */
 function porg_get_page_labels()
 {
-  $porg_pages = porg_get_pages();
+  $porg_pages = array_keys(porg_get_pages());
 
   $porg_page_labels = array();
   foreach ($porg_pages as $porg_page)
@@ -123,6 +123,19 @@ function porg_label_to_page($label)
   }
 
   return false;
+}
+
+function porg_get_page_title($page)
+{
+  $porg_pages = porg_get_pages();
+
+  $title = l10n($porg_pages[$page]);
+  if ('home' != $page)
+  {
+    $title.= ' | Piwigo';
+  }
+
+  return $title;
 }
 
 /**

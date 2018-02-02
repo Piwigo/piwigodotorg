@@ -132,9 +132,6 @@ function porg_load_header()
             'PORG_IS_PRODUCTION' => preg_match('/^([a-z]+\.)?piwigo\.org$/', $_SERVER['HTTP_HOST']),
         )
     );
-
-    /* Display header */
-    $template->parse('header_porg');
 }
 
 add_event_handler('init', 'porg_load_content');
@@ -143,6 +140,8 @@ function porg_load_content()
     global $template, $logger;
 
     $logger->info(__FUNCTION__.', $_GET[porg] = '.(isset($_GET['porg']) ? $_GET['porg'] : 'null'));
+
+    $meta_title = null;
 
     $porg_root_url = get_absolute_root_url();
     if (isset($_GET['porg']))
@@ -187,6 +186,7 @@ function porg_load_content()
         if ($porg_page !== false)
         {
             $porg_file = porg_page_to_file($porg_page);
+            $meta_title = porg_get_page_title($porg_page);
 
             $tpl_file = PORG_PATH . 'template/' . $porg_file . '.tpl';
             if (isset($_GET['version'])) // might have been set by porg_label_to_page called earlier
@@ -215,11 +215,13 @@ function porg_load_content()
     {
         load_language('home.lang', PORG_PATH);
         $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . 'home.tpl')));
+        $meta_title = porg_get_page_title('home');
 
         $latest_version = porg_get_latest_version();
 
         $template->assign(
             array(
+                'meta_description' => l10n('porg_home_title').'. '.l10n('porg_home_desc1').' '.l10n('porg_home_desc2'),
                 'SHOWCASES' => get_showcases(),
                 'TESTIMONIALS' => porg_get_testimonials_sample(),
                 'LATEST_VERSION_NUMBER' => $latest_version['version'],
@@ -227,16 +229,19 @@ function porg_load_content()
             )
         );
     }
-    $template->assign(array(
-        'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
-    ));
-    $template->parse('porg_page');
+
+    $template->assign(
+        array(
+            'meta_title' => $meta_title,
+            'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
+        )
+    );
 }
 
 add_event_handler('init', 'porg_load_footer');
 function porg_load_footer()
 {
-    global $template;
+    global $template, $t2;
 
     $porg_root_url = get_absolute_root_url();
     $template->set_filenames(array('footer_porg' => realpath(PORG_PATH .'template/footer.tpl')));
@@ -244,6 +249,9 @@ function porg_load_footer()
         'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
         'CURRENT_YEAR' => date('Y'),
     ));
+    $template->parse('header_porg');
+    $template->parse('porg_page');
+    $template->assign('time', get_elapsed_time($t2, get_moment()));
     $template->parse('footer_porg');
     $template->p();
     exit();

@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="{$lang_info.code}"  dir="{$lang_info.direction}">
   <head>
-    <!-- Required meta tags -->
+    {* Required meta tags *}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {if !$PORG_IS_PRODUCTION}
-    <!-- Robots -->
+    {* Robots *}
     <meta name="robots" content="noindex, nofollow">
 {/if}
+
+{if isset($meta_title)}
+    <title>{$meta_title}</title>
+{/if}
+{if isset($meta_description)}
+    <meta name="description" content="{$meta_description|escape:html}">
+{/if}
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/fontello/css/fontello.css">
