@@ -30,6 +30,8 @@
     <script src="{$PORG_ROOT_URL_PLUGINS}js/validator.min.js"></script>
     <script src="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="{$PORG_ROOT_URL_PLUGINS}js/piwigodotorg.js"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="themes/default/icon/favicon.ico">
   </head>  
   <body>
   <nav class="navbar navbar-default">
