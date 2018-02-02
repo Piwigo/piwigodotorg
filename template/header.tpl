@@ -32,6 +32,25 @@
     <script src="{$PORG_ROOT_URL_PLUGINS}js/piwigodotorg.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="themes/default/icon/favicon.ico">
+
+{if $PORG_IS_PRODUCTION}
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.piwigo.org","*.fr.piwigo.org"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwigo.us/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwigo.us/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+{/if}
   </head>  
   <body>
   <nav class="navbar navbar-default">
