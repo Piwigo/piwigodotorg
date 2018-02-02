@@ -74,10 +74,9 @@
                 <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>Languages</a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">Español</a></li>
-                    <li><a href="#">Deutsch</a></li>
-                    <li><a href="#">Français</a></li>
+{foreach from=$switch_languages item=switch_language}
+                    <li><a href="{$switch_language.url}">{$switch_language.label}</a></li>
+{/foreach}
                   </ul>
                 </li>
               </div>

@@ -1,4 +1,20 @@
 <?php
+$porg_subdomains = array(
+  'da' => 'da_DK',
+  'de' => 'de_DE',
+  'en' => 'en_UK',
+  'es' => 'es_ES',
+  'fr' => 'fr_FR',
+  'it' => 'it_IT',
+  'hu' => 'hu_HU',
+  'nl' => 'nl_NL',
+  'pl' => 'pl_PL',
+  'br' => 'pt_BR',
+  'tr' => 'tr_TR',
+  'ru' => 'ru_RU',
+  'cn' => 'zh_CN',
+);
+
 $porg_languages = array(
   'af_ZA' => 'Afrikaans',
   'ar_EG' => 'االعربية (مصر',

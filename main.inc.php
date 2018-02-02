@@ -39,18 +39,12 @@ function porg_user_init()
     {
         $subdomain = $matches[1];
 
-        $subdomain_to_language = array(
-            'en' => 'en_UK',
-            'fr' => 'fr_FR',
-            'de' => 'de_DE',
-            'it' => 'it_IT',
-            'es' => 'es_ES',
-            );
+        include(PORG_PATH . '/data/languages.data.php');
 
-        if (isset($subdomain_to_language[$subdomain]))
+        if (isset($porg_subdomains[$subdomain]))
         {
             $page['porg_domain_prefix'] = $subdomain.'.';
-            $user['language'] = $subdomain_to_language[$subdomain];
+            $user['language'] = $porg_subdomains[$subdomain];
 
             if ('fr' == $subdomain)
             {
@@ -244,6 +238,31 @@ function porg_load_footer()
     global $template, $t2;
 
     $porg_root_url = get_absolute_root_url();
+    if (preg_match('/^(http.*?)([a-z]+\.)?piwigo.org/', $porg_root_url, $matches))
+    {
+        $base_url = $matches[1];
+
+        include(PORG_PATH . '/data/languages.data.php');
+
+        $switch_languages = array();
+
+        foreach ($porg_subdomains as $subdomain => $lang_code)
+        {
+            $prefix = $subdomain.'.';
+            if ('en' == $subdomain)
+            {
+                $prefix = '';
+            }
+
+            $switch_languages[] = array(
+                'url' => $base_url.$prefix.'piwigo.org',
+                'label' => $porg_languages[$lang_code],
+            );
+        }
+
+        $template->assign('switch_languages', $switch_languages);
+    }
+
     $template->set_filenames(array('footer_porg' => realpath(PORG_PATH .'template/footer.tpl')));
     $template->assign(array(
         'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
