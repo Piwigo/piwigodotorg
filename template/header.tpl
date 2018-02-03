@@ -78,13 +78,13 @@
             <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>
           </ul>
         </li>
-        <li class=""><a href="{$PORG_ROOT}{$URL.extensions}"><i class="icon-puzzle"></i>{'Extensions'|translate}</a></li>
+        <li class=""><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext"><i class="icon-puzzle"></i>{'Extensions'|translate}</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-wrench"></span>{'Support'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
           <ul class="dropdown-menu dropdown-menu-left">
             <li><a href="{$PORG_ROOT}{$URL.get_started}">{'Get Started'|translate}</a></li>
-            <li><a href="http://piwigo.org/forum/">{'Forum'|translate}</a></li>
-            <li><a href="http://piwigo.org/doc/">{'Documentation'|translate}</a></li>
+            <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a></li>
+            <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/doc/">{'Documentation'|translate}</a></li>
           </ul>
         </li>
         <li class="dropdown">

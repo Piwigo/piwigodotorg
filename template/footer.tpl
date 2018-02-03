@@ -36,16 +36,16 @@
             <div class="col-md-15 col-xs-6">
               <h5>{'Extension'|translate}</h5>
                 <ul>
-                  <li><a href="{$PORG_ROOT}{$URL.extensions}">{'Themes'|translate}</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.extensions}">{'Plugins'|translate}</a> </li>
-                  <li><a href="{$PORG_ROOT}{$URL.extensions}">{'Languages'|translate}</a></li>
+                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Themes'|translate}</a></li>
+                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Plugins'|translate}</a> </li>
+                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Languages'|translate}</a></li>
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
               <h5>{'Support'|translate}</h5>
                 <ul>
-                  <li><a href="http://piwigo.org/forum/">{'Forum'|translate}</a></li>
-                  <li><a href="http://piwigo.org/doc">{'Documentation'|translate}</a> </li>
+                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a></li>
+                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/doc/">{'Documentation'|translate}</a> </li>
                   <li><a href="{$PORG_ROOT}{$URL.get_started}">{'Get Started'|translate}</a></li>
                 </ul>
             </div>
