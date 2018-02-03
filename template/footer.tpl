@@ -28,7 +28,7 @@
                   <li><a href="http://piwigo.org/demo/">{'Demo'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.what_is_piwigo}">{'What is Piwigo?'|translate}</a> </li>
                   <li><a href="{$PORG_ROOT}{$URL.features}">{'Features'|translate}</a> </li>
-                  <li><a href="{$PORG_ROOT}{$URL.showcases}">{'Showcases'|translate}</a></li>
+                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'Showcases'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.changelogs}">{'Changelogs'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>
                 </ul>
