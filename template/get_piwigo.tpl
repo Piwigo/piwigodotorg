@@ -18,17 +18,17 @@
           <h2>{'Self-hosted Piwigo'|translate}</h2>
           <p>{'porg_get_piwigo_self_hosted_desc1'|translate} {'porg_get_piwigo_self_hosted_desc2'|translate}</p>
           <div class="btn-download-piwigo">
-            <button class="btn"><span class="bold">{'download_piwigo'|translate} {$LATEST_VERSION_NUMBER}</span></button>
+            <a class="btn" href="http://piwigo.org/download/dlcounter.php?code=latest"><span class="bold">{'download_piwigo'|translate} {$LATEST_VERSION_NUMBER}</span></a>
           </div>
           <div class="row">
             <div class="col-md-4 text-right col-xs-4">
-              <a href="#">{'Install Guide'|translate}</a>
+              <a href="http://piwigo.org/doc/doku.php?id=user_documentation:learn:install">{'Install Guide'|translate}</a>
             </div>
             <div class="col-md-4 col-xs-4">
-              <a href="#">{'NetInstall'|translate}</a>
+              <a href="http://piwigo.org/download/dlcounter.php?code=netinstall">{'NetInstall'|translate}</a>
             </div>
             <div class="col-md-4 text-left col-xs-4">
-              <a href="#">{'Upgrade Guide'|translate}</a>
+              <a href="http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade">{'Upgrade Guide'|translate}</a>
             </div>
           </div>
         </div>
