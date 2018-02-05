@@ -47,6 +47,11 @@ function porg_get_page_url($page)
 {
   global $conf;
 
+  if ('home' == $page)
+  {
+    return get_gallery_home_url();
+  }
+
   $label = porg_get_page_label($page);
 
   if (isset($conf['porg_url_rewrite']) and $conf['porg_url_rewrite'])

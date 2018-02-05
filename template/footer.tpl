@@ -70,7 +70,7 @@
           <div class="col-md-2 text-center">
             <div class="row">
               <div class="col-xs-12 footer-piwigo-logo">
-                <a href="index.php"><img src="//piwigo.us/dev/mistic100/logo-svg/piwigo-full.svg" alt="Piwigo.org" title="go to Piwigo.org home page"></a>
+                <a href="{$URL.home}"><img src="//piwigo.us/dev/mistic100/logo-svg/piwigo-full.svg" alt="Piwigo.org" title="go to Piwigo.org home page"></a>
               </div>
               <div class="col-xs-12 footer-language">
                 <li class="dropdown active">
