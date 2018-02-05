@@ -113,6 +113,12 @@
       </div>
       <div class="col-md-4 col-get-involved-donate-form text-center">
         <h2>{'Your Gift'|translate}</h2>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="text-align:center">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="SY9HLFGH49ERU" />
+          <input type="submit" value="{'Donate'|translate|escape:html}" class="btn btn-gift-donate" />
+        </form>
+{*
         <button class="btn btn-gift-money bold">100€</button>
         <button class="btn btn-gift-money bold">50€</button>
         <button class="btn btn-gift-money bold">25€</button>
@@ -124,6 +130,7 @@
           </label>
         </div>
         <button class="btn btn-gift-donate">{'Donate'|translate}</button>
+*}
       </div>
     </div>
   </section>
