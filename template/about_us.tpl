@@ -42,6 +42,7 @@
     </div>
   </section>
 
+{*
   <section class="container container-about-title-our-team">
     <div class="row" id="pwg-our-team">
       <div class="col-md-3 pwg-about-earth">
@@ -117,7 +118,7 @@
       </div>
     </div>
   </section>
-
+*}
   <section class="container-fluide container-fluide-about-piwigo-timeline" id="pwg-history">
     <div class="container container-piwigo-timeline">
       <div class="row row-pwg-timeline-computer">
