@@ -53,7 +53,9 @@
               <h5>{'About'|translate}</h5>
                 <ul>
                   <li><a href="{$PORG_ROOT}{$URL.about_us}">{'About us'|translate}</a></li>
+{*
                   <li><a href="{$PORG_ROOT}{$URL.press}">{'Press'|translate}</a></li>
+*}
                   <li><a href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved'|translate}</a></li>
                 </ul>
             </div>

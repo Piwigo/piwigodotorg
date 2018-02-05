@@ -91,7 +91,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-info-sign"></span> {'About'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
           <ul class="dropdown-menu dropdown-menu-left">
             <li><a href="{$PORG_ROOT}{$URL.about_us}">{'About us'|translate}</a></li>
+{*
             <li><a href="{$PORG_ROOT}{$URL.press}">{'Press'|translate}</a></li>
+*}
             <li><a href="{$PORG_ROOT}{$URL.get_involved}">{'Get Involved'|translate}</a></li>
           </ul>
         </li>
