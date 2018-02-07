@@ -132,7 +132,7 @@ function porg_load_header()
 add_event_handler('init', 'porg_load_content');
 function porg_load_content()
 {
-    global $template, $logger;
+    global $template, $logger, $lang;
 
     $logger->info(__FUNCTION__.', $_GET[porg] = '.(isset($_GET['porg']) ? $_GET['porg'] : 'null'));
 
@@ -166,7 +166,7 @@ function porg_load_content()
         // specific case for releases/a.b.c => release-a.b.c
         if (preg_match('/^releases\/(\d+\.\d+\.\d+)$/', $_GET['porg'], $matches))
         {
-            $redirects[ $_GET['porg'] ] = 'release-'.$matches[1];
+            $redirects[ $_GET['porg'] ] = $lang['porg_urls']['release'].'-'.$matches[1];
         }
 
         if (isset($redirects[ $_GET['porg'] ]))
