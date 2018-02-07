@@ -107,7 +107,7 @@ $(document).ready(function() {
           <p>{'Batch Management'|translate}</p></a>
         </div>
         <div class="col col-md-3 col-xs-6 feature-content">
-          <a href="{$PORG_ROOT}{$URL.extensions}"><img src="{$PORG_ROOT_URL}images/home/paint-brush.svg" alt="A piwigo feature"><br>
+          <a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext/"><img src="{$PORG_ROOT_URL}images/home/paint-brush.svg" alt="A piwigo feature"><br>
           <p>{'Themes & Plugins'|translate}</p></a>
         </div>
         <div class="col col-md-3 col-xs-6 feature-content">
