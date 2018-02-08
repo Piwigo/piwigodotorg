@@ -17,7 +17,7 @@
         {foreach from=$commits_day key=key item=commit}
             <div class="commit">
                 <p class="commit-message">{$commit.message}</p>
-                <p class="commit-headline">{$commit.name} <a href="{$commit.url}"> {$commit.commit_id} </a> {$commit.author}</p>
+                <p class="commit-headline">{$commit.name} <a href="{$commit.commit_url}"> {$commit.commit_id} </a> {$commit.author}</p>
             </div>
         {/foreach}
     </div>
