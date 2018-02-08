@@ -10,8 +10,8 @@ SELECT
     author,
     occured_on,
     message
-  FROM commit
-    JOIN project ON project_idx = project_id
+  FROM activity_timeline.commit
+    JOIN activity_timeline.project ON project_idx = project_id
   WHERE occured_on > SUBDATE(NOW(), INTERVAL 30 DAY)
   ORDER BY occured_on DESC
 ;';
