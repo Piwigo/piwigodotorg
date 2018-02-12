@@ -1,21 +1,19 @@
 <?php
-global $template, $lang_info;
+global $template, $lang_info, $conf;
 
-$query = '
-SELECT
-    project_id,
-    name,
-    url,
-    local_id,
-    author,
-    occured_on,
-    message
-  FROM activity_timeline.commit
-    JOIN activity_timeline.project ON project_idx = project_id
-  WHERE occured_on > SUBDATE(NOW(), INTERVAL 30 DAY)
-  ORDER BY occured_on DESC
-;';
-$commits = query2array($query);
+$cache_path = $conf['data_location'].'porg_coding_activity.cache.php';
+if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 minutes ago'))
+{
+  $url = 'http://piwigo.org/activity/api/commits.get.php';
+
+  $content = @file_get_contents($url);
+  if ($content !== false)
+  {
+    file_put_contents($cache_path, serialize(json_decode($content, true)));
+  }
+}
+
+$commits = unserialize(file_get_contents($cache_path));
 
 $current_day = null;
 
