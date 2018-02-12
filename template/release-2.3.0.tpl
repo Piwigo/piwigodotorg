@@ -61,13 +61,13 @@
       <div class="col-md-4">
 
 <ul>
-<li><a href="#postgresql_dropped">Support of PostgreSQL was removed</li>
+<li><a href="#postgresql_dropped">Support of PostgreSQL was removed</a></li>
 </ul>
 </div>
 
 <div class="col-md-4">
 <ul>
-<li><a href="#misc_technical">jQuery 1.6 and Piwigo version in database</li>
+<li><a href="#misc_technical">jQuery 1.6 and Piwigo version in database</a></li>
 </ul>
 </div>
 
