@@ -9,6 +9,11 @@
             ),
         ),
         'en' => array(
+            '2017-12-05' => array(
+                'title' => '[call for help] Send us your testimonial about Piwigo',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=169256&filename=call-for-testimonial.jpg',
+                'summary' => 'We\'re preparing a &quot;testimonials&quot; page on piwigo.org. This new page would collect (positive) feedback on Piwigo. It would mainly be useful to people discovering Piwigo, trying to know if it would fit their needs.'
+            ),
             '2017-10-06' => array(
                 'title' => 'Piwigo 2.9.2',
                 'image' => 'http://piwigo.org/forum/showimage.php?pid=168796&filename=piwigo-2.9.2-annoucement.png',
