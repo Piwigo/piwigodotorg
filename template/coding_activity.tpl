@@ -3,7 +3,7 @@
     <div class="container">
         <div class="col-md-6">
             <h1>Coding activity</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus vestibulum nunc nec dapibus. Vestibulum posuere quis elit sit amet tempus.</p>
+            <p>Latest commits in Piwigo core, plugins, themes and other tools. This page gathers data from various code repositories to provide a "one place to watch".</p>
         </div>
         <div class="col-md-6 coding-activity-logo">
         </div>
