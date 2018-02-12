@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2017-12-05' => array (
+                'title' => '[appel à contribution] envoyez nous votre témoignage sur Piwigo',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=169256&filename=call-for-testimonial.jpg',
+                'summary' => 'Nous préparons une page &quot;témoignages&quot; sur piwigo.org. Cette nouvelle page collectera les retours d\'expérience (positifs) sur Piwigo. Ils seront principalement utiles aux personnes qui découvrent Piwigo, et qui cherchent à savoir s\'il conviendra à leurs besoins.',
+            ),
             '2017-09-21' => array (
                 'title' => '21 septembre 2017, 2 rencontres Piwigo à Nantes',
                 'image' => 'http://piwigo.org/screenshots/newsletter/rrll-2017.png',
