@@ -54,7 +54,7 @@ if (isset($_GET['version']))
                 'id' => $id,
                 'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $id,
                 'label' => stripslashes($lang['porg_issue_' . $id]),
-                'section' => isset($bug_content['section']) ? '/ ' . $bug_content['section'] : null,
+                'section' => isset($bug_content['section']) ? '/ ' . l10n(trim($bug_content['section'])) : null,
             );
         }
 
@@ -77,7 +77,7 @@ if (isset($_GET['version']))
                 'id' => $issue['id'],
                 'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue['id'],
                 'label' => isset($lang['porg_issue_' . $issue['id']]) ? stripslashes($lang['porg_issue_' . $issue['id']]) : null,
-                'section' => isset($issue['section']) ? '/ ' . $issue['section'] : null,
+                'section' => isset($issue['section']) ? '/ ' . l10n(trim($issue['section'])) : null,
             );
         }
 
