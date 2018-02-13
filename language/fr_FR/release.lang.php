@@ -20,4 +20,10 @@ $lang['If you\'re running <b>Piwigo %s</b> you can also download the <b>%s_to_%s
 $lang['Once you have extracted the files, transfer them onto your web server with a FTP client over your Piwigo %s installation.'] = 'Une fois les fichiers extraits, transférez-les par FTP sur votre site par dessus votre installation %s.';
 $lang['No database upgrade is required.'] = 'Votre base de données n\'a pas besoin de mise à jour.';
 $lang['If you are running a version older than %s and do not want to use the automatic upgrade, then follow the <b>manual upgrade</b>.'] = 'Si vous utilisez une version plus ancienne que la %s et que vous ne souhaitez pas profiter de la mise à jour automatique, suivez la <b>mise à jour manuelle</b>.';
+
+// issues Section
+$lang['Display'] = 'Affichage';
+$lang['Security'] = 'Sécurité';
+$lang['web API'] = 'API web';
+$lang['Technical'] = 'Technique';
 ?>
