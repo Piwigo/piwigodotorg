@@ -14,7 +14,7 @@
   <section class="container">
     <div class="row row-getting-started-content text-center">
       <div class="col-md-4 col-xs-12">
-        <a class="btn" href="http://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before">{'Requirements'|translate}</a>
+        <a class="btn" href="{$DOC_URL.requirements}">{'Requirements'|translate}</a>
         <p>{'porg_get_started_requirement_desc1'|translate} {'porg_get_started_requirement_desc2'|translate}</p>
       </div>
       <div class="col-md-4 col-xs-12">
@@ -22,7 +22,7 @@
         <p>{'porg_get_started_download_desc'|translate}</p>
       </div>
       <div class="col-md-4 col-xs-12">
-        <a class="btn" href="http://piwigo.org/doc/doku.php?id=user_documentation:learn:install">{'Installation guide'|translate}</a>
+        <a class="btn" href="{$DOC_URL.install}">{'Installation guide'|translate}</a>
         <p>{'porg_get_started_guide_desc'|translate}</p>
       </div>
     </div>
@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row text-center">
         <h1>{'Still got some unanswered questions ?'|translate}</h1>
-        <p>{'porg_get_started_question_desc1'|translate:"http://piwigo.org/forum/":"http://piwigo.org/doc"}</p>
+        <p>{'porg_get_started_question_desc1'|translate:"http://{$PORG_DOMAIN_PREFIX}piwigo.org/forum/":"http://{$PORG_DOMAIN_PREFIX}piwigo.org/doc"}</p>
       </div>
     </div>
   </section>
