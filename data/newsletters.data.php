@@ -7,10 +7,30 @@
                 'image' => 'http://piwigo.org/forum/showimage.php?pid=169256&filename=call-for-testimonial.jpg',
                 'summary' => 'Nous préparons une page &quot;témoignages&quot; sur piwigo.org. Cette nouvelle page collectera les retours d\'expérience (positifs) sur Piwigo. Ils seront principalement utiles aux personnes qui découvrent Piwigo, et qui cherchent à savoir s\'il conviendra à leurs besoins.',
             ),
-            '2017-09-21' => array (
+            '2017-09-13' => array (
                 'title' => '21 septembre 2017, 2 rencontres Piwigo à Nantes',
                 'image' => 'http://piwigo.org/screenshots/newsletter/rrll-2017.png',
                 'summary' => 'Les RRLL, ou Rencontres Régionales du Logiciel Libre, organisées à Nantes, sont destinées aux entreprises qui désirent s\'informer sur des solutions libres. &quot;entreprises&quot; au sens large bien sûr : secteur public ou privé, TPE, PME ou grands groupes... Piwigo, par l\'intermédiaire de Piwigo.com, y participe. Nous y tiendrons un stand toute la journée et animerons un atelier.',
+            ),
+            '2017-06-21' => array (
+                'title' => 'Piwigo 2.9.1',
+                'image' => 'http://fr.piwigo.org/forum/showimage.php?pid=221637&filename=piwigo-2.9.1-annonce-fr.png',
+                'summary' => 'Il fait chaud. Vraiment trop chaud. [point santé] Pensez à vous hydrater ! (avec de l\'eau donc) [/point santé]. On ne chôme pas pour autant ! Voici Piwigo 2.9.1. Cette version corrige des bugs découverts par la communauté Piwigo sur Piwigo 2.9.',
+            ),
+            '2017-05-02' => array (
+                'title' => 'Piwigo a 15 ans et sort en version 2.9',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=167253&filename=piwigo-15th-birthday-full-cake.jpg',
+                'summary' => '<em>par Pierrick, fondateur de Piwigo</em> Il y a 15 ans, Piwigo 1.0.0 voyait le jour. A cette époque, il s\'appelait encore PhpWebGallery. J\'ai démarré ce projet comme un projet personnel. Vivant près de mon école d\'ingénieur...',
+            ),
+            '2017-01-30' => array (
+                'title' => 'Piwigo 2.8.6 et 2.9 beta2',
+                'image' => 'http://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif',
+                'summary' => 'Piwigo 2.8.6 est disponible, joyeuse mise à jour en 1 clic ! On continue la phase beta pour Piwigo 2.9 avec cette seconde version, avec entre autres la suppression des photos orphelines "par blocs".',
+            ),
+            '2017-01-03' => array (
+                'title' => 'Piwigo 2.8.5 et beta-test 2.9',
+                'image' => 'http://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif',
+                'summary' => 'La période des fêtes a été quelque peu perturbée par la découverte de failles de sécurité sur le module technique qui permet à Piwigo d\'envoyer des emails : PHP Mailer. Cela nous a conduit à sortir une version 2.8.4 en urgence le 27 décembre 2016 puis une version 2.8.5 le 1er janvier 2017 ! C\'est parti pour la phase de beta-test de la version 2.9 !',
             ),
         ),
         'en' => array(
