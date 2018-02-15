@@ -22,13 +22,13 @@
           </div>
           <div class="row">
             <div class="col-md-4 text-right col-xs-4">
-              <a href="http://piwigo.org/doc/doku.php?id=user_documentation:learn:install">{'Install Guide'|translate}</a>
+              <a href="{$DOC_URL.install}">{'Install Guide'|translate}</a>
             </div>
             <div class="col-md-4 col-xs-4">
               <a href="http://piwigo.org/download/dlcounter.php?code=netinstall">{'NetInstall'|translate}</a>
             </div>
             <div class="col-md-4 text-left col-xs-4">
-              <a href="http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade">{'Upgrade Guide'|translate}</a>
+              <a href="{$DOC_URL.upgrade}">{'Upgrade Guide'|translate}</a>
             </div>
           </div>
         </div>
