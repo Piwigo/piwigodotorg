@@ -20,16 +20,14 @@ $current_day = null;
 $commits_activity = array();
 foreach ($commits as $commit)
 {
-  $day = date('Y-m-d', strtotime($commit['occured_on']));
-
-  $timestamp = strtotime($day);
+  $timestamp = strtotime($commit['occured_on']);
   if ($lang_info['code'] == 'en')
   {
     $date_formated = date("F jS, Y", $timestamp);
   }
-  if ($lang_info['code'] == 'fr')
+  else
   {
-    $date_formated = format_date($timestamp, array('day', 'month', 'year'));
+    $date_formated = format_date($timestamp);
   }
 
   $commit_id = $commit['local_id'];
