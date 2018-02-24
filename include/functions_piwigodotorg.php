@@ -378,7 +378,7 @@ function porg_get_newsletters($lang_code)
     foreach ($newsletters as $idx => $newsletter)
     {
       $newsletters[$idx]['id'] = $lang_code.'-'.$idx;
-      $newsletters[$idx]['date_label'] = porg_date_format($idx);
+      $newsletters[$idx]['date_label'] = porg_date_format($idx.' 12:00:00');
       $newsletters[$idx]['url'] = 'plugins/piwigo-piwigodotorg/data/newsletters/'.str_replace('-', '', $idx).'_'.$lang_code.'.html';
     }
 
