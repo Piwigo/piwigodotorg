@@ -32,6 +32,181 @@
                 'image' => 'http://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif',
                 'summary' => 'La période des fêtes a été quelque peu perturbée par la découverte de failles de sécurité sur le module technique qui permet à Piwigo d\'envoyer des emails : PHP Mailer. Cela nous a conduit à sortir une version 2.8.4 en urgence le 27 décembre 2016 puis une version 2.8.5 le 1er janvier 2017 ! C\'est parti pour la phase de beta-test de la version 2.9 !',
             ),
+            '2016-11-23' => array (
+                'title' => 'Piwigo 2.8.3 et apercu 2.9',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=164927&filename=piwigo-2.9-redesign-admin-menu-201610132158.png',
+                'summary' => 'Piwigo 2.8.3 est disponible [...] Nombreux parmi vous l\'attendaient car elle corrige un problème avec les paramètres par défaut de MySQL 5.7. Pour la 2.9, un rafraîchissement des pages d\'administration sur le thème "clear" est en cours.',
+            ),
+            '2016-06-06' => array (
+                'title' => 'Conference Piwigo, Nantes le 8 juin 2016',
+                'image' => 'http://piwigo.org/screenshots/newsletter/elephant-nantes-frederic-augris.jpg',
+                'summary' => 'Découverte et discussions sur Piwigo à Nantes ! Cette présentation est organisée par l\'association Alliance Libre, le pôle d\'expertise en logiciels libres sur la région nantaise. <strong>Où ?</strong> La cantine Atlantic 2.0.',
+            ),
+            '2016-05-05' => array (
+                'title' => 'Piwigo 2.8.1 et demo participative',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=163105&filename=contributed-by.jpg',
+                'summary' => 'Nous lançons officiellement un nouveau projet concernant la démo Piwigo. Les photos de la démo Piwigo proviennent des utilisateurs Piwigo depuis tous les pays. L\'idée est de présenter dans la démo du contenu de belle qualité et fréquemment mis à jour tout en mettant en avant les membres de la communauté.',
+            ),
+            '2016-03-08' => array (
+                'title' => 'Piwigo 2.8',
+                'image' => 'http://piwigo.org/screenshots/piwigo-2.8-auth-key.png',
+                'summary' => 'Après plus d\'une année sans nouveauté majeure et un déménagement sur Github, Piwigo revient avec une version 2.8 et son lot d\'évolutions.',
+            ),
+            '2016-01-25' => array (
+                'title' => 'Bonne annee 2016 et Piwigo 2.8 en beta-test',
+                'image' => 'http://piwigo.org/screenshots/piwigo-2.8-album-notify-users.png',
+                'summary' => 'L\'attente fut longue. Très longue. Mais la voilà. La première "release candidate" pour Piwigo 2.8. Nous allons consacrer les prochaines semaines sur les finitions et les corrections de bugs pour vous proposer une 2.8.0 aussi soignée que possible !',
+            ),
+            '2015-11-24' => array (
+                'title' => 'Piwigo Remote Sync, MacShare, témoignages et Github',
+                'image' => 'http://piwigo.org/screenshots/newsletter/piwigo-github.jpg',
+                'summary' => 'Après plusieurs années à héberger notre propre dépôt Subversion sur le serveur piwigo.org le temps d\'un changement majeur est venu pour les activités de développement. Déménager le code sur Github est une énorme étape, orchestrée et préparée par Mistic depuis des mois.',
+            ),
+            '2015-02-17' => array (
+                'title' => 'Piwigo 2.7.4',
+                'image' => '',
+                'summary' => 'Piwigo 2.7.4 vient de sortir. Disponible pour les nouvelles installations et pour les mises à jour. Cette version corrige de bugs, et même quelques failles de sécurité plutôt mineures. 21 langues mises à jour. Corrections de divers bugs propres à chaque navigateur web (Chrome, Internet Explorer ou Safari). Injection SQL et faille XSS rapportées et corrigées par Steffen Rösemann.',
+            ),
+            '2015-01-09' => array (
+                'title' => 'Piwigo 2.7.3, 2.6.5 et 2.5.6 corrigent une faille',
+                'image' => '',
+                'summary' => 'Une importante faille de sécurité a été corrigée et à cette occasion nous sortons (encore une fois) trois nouvelles versions de Piwigo ! Piwigo 2.5.6 (pour ceux bloqués avec PHP 5.1) et Piwigo 2.6.5 (pour les retardataires qui ne sont pas encore passés en 2.7) ne font que corriger la faille de sécurité. La version 2.7.3, en plus de la correction de sécurité, corrige quelques bugs. La faille de sécurité a été rapportée par achn30.',
+            ),
+            '2014-11-21' => array (
+                'title' => 'Piwigo 2.7.2, 2.6.4, 2.5.5, faille de securite',
+                'image' => '',
+                'summary' => 'Une importante faille de sécurité, rapportée par xd_xd, a été corrigée et à cette occasion nous sortons non pas une, ni deux, mais bien trois nouvelles versions de Piwigo ! Piwigo 2.5.5 (pour ceux bloqués avec PHP 5.1) et Piwigo 2.6.4 (pour ceux qui ne sont pas encore passés en 2.7) ne font que corriger la faille de sécurité. La version 2.7.2, en plus de la correction de sécurité, corrige quelques bugs.',
+            ),
+            '2014-10-13' => array (
+                'title' => 'Piwigo 2.7.1',
+                'image' => '',
+                'summary' => 'La version 2.7.1 de Piwigo est disponible. Cette version corrige principalement des bugs introduits par la version 2.7.0. En résumé : problèmes de compatibilité avec PHP 5.2, échec sur le chargement de Zlib avec Ubuntu, compatibilité de SmartPocket avec Firefox Mobile, correction du système de mise à jour automatique des plugins.',
+            ),
+            '2014-09-24' => array (
+                'title' => 'Piwigo 2.7',
+                'image' => 'http://piwigo.org/screenshots/piwigo-2.7-videosnap.jpg',
+                'summary' => 'Cette version propose de nombreuses améliorations majeures. Le formulaire web d\'ajout de photo a été entièrement réécrit. Un nouveau plugin Take a Tour propose des visites guidées interactives dans votre Piwigo. Les fonctionnalités de recherche ont été améliorées en profondeur. Les développeurs de plugins découvriront de nombreuses nouveautés techniques.',
+            ),
+            '2014-06-11' => array (
+                'title' => 'Piwigo 2.6.3 et beta-test 2.7',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=152022&filename=piwigo-2.7-html5-upload-form.png',
+                'summary' => 'Piwigo 2.6.3 vient de sortir. Piwigo 2.7 arrive. C\'est parti avec la première version beta : ajout de photo avec HTML5, filtre de recherche, algorithme amélioré pour la recherche rapide...',
+            ),
+            '2014-03-26' => array (
+                'title' => 'Piwigo 2.6.2 et 2.5.4',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=150682&filename=piwigo-2.6.2-user-manager-groups.png',
+                'summary' => 'Piwigo version 2.6.2 est disponible. En résumé : des permissions incohérentes produisent un crash SQL, faille CSRF, amélioration de la sécurité sur les méthodes de l\'API introduites en 2.6, gestionnaire d\'utilisateurs : affichage de groupes et du niveau de confidentialité dans le tableau principal, problèmes de compatibilité avec PHP 5.4+...',
+            ),
+            '2014-01-31' => array (
+                'title' => 'Piwigo 2.6',
+                'image' => 'http://piwigo.org/screenshots/piwigo-2.6-mobile-new-features.png',
+                'summary' => 'La version 2.6 apporte de nouvelles fonctionnalités, particulièrement pour les administrateurs. Le thème mobile a reçu d\'importantes améliorations. Le gestionnaire d\'utilisateurs a été entièrement réécrit. Le nouveau plugin "Admin Tools" permet d\'éditer albums et photos directement depuis la galerie.',
+            ),
+            '2013-10-27' => array (
+                'title' => 'Piwigo 2.5.3, 500 galeries dans l\'annuaire, 2.6 en cours',
+                'image' => 'http://piwigo.org/showcase/i.php?/upload/2012/02/03/20120203141313-d752544a-sm.jpg',
+                'summary' => 'Lancé il y a 2 ans durant l\'été 2011, l\'annuaire Piwigo contient désormais plus de 500 galeries Piwigo, venant des 4 coins du monde !',
+            ),
+            '2013-06-25' => array (
+                'title' => 'Piwigo 2.5.2, beta 2.6 et Windows Phone',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=143905&filename=admin-icons-albums.png',
+                'summary' => 'La version 2.5.2 de Piwigo est disponible, pour une installation toute neuve ou pour une mise à jour. Piwigo 2.6 est activement en cours de développement. Nous sommes fiers de vous présenter l\'application Piwigo pour Windows Phone. Elle a été créée par l\'équipe Kwengi.',
+            ),
+            '2013-04-21' => array (
+                'title' => 'Piwigo 2.5.1 et nouveau serveur pour Piwigo.org',
+                'image' => '',
+                'summary' => 'La version 2.5.1 de Piwigo est disponible. A noter une fois encore l\'important travail de l\'équipe de traduction, avec 2 nouvelles langues et 18 langues mises à jour pour refléter les changements introduits sur Piwigo 2.5. Piwigo.org a déménagé sur un nouveau serveur, plus rapide et plus fiable. L\'association Piwigo souhaite remercier chaleureusement ses donateurs.',
+            ),
+            '2013-03-06' => array (
+                'title' => 'Piwigo 2.5',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png',
+                'summary' => 'Piwigo 2.5.0 est disponible pour une installation neuve ou pour la mise à jour d\'une ancienne version. Prenez le temps de découvrir cette nouvelle version majeure avec les Notes de la version 2.5.0, en texte et en images.',
+            ),
+            '2013-02-20' => array (
+                'title' => 'Piwigo 2.4.7 et beta tests sur 2.5',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-icons.png',
+                'summary' => 'La version 2.4.7 est disponible. 10 langues ont été mises à jour. Une faille de sécurité a été corrigée. Nous préparons actuellement Piwigo 2.5, la prochaine version majeure. Vous êtes invités à tester la version 2.5.0RC1 et bientôt la 2.5.0RC2.',
+            ),
+            '2012-12-19' => array (
+                'title' => 'Piwigo 2.4.6',
+                'image' => '',
+                'summary' => 'La version 2.4.6 est disponible. Cette version inclut une nouvelle langue, le lituanien. 6 autres langues ont été mises à jour. 4 bugs ont été corrigés ainsi qu\'un bug mineur de sécurité sur d\'éventuels code javascript dans les métadonnées EXIF ou IPTC.',
+            ),
+            '2012-10-21' => array (
+                'title' => 'Piwigo 2.4.5 et votre avis sur les fonctionnalites',
+                'image' => '',
+                'summary' => 'La version 2.4.5 est à votre disposition. Nous avons besoin de votre aide pour améliorer la présentation de Piwigo : quelles fonctionnalités mettriez vous en avant sur la page d\'accueil ? quelles fonctionnalités ajouteriez vous ou déplaceriez vous sur la page des fonctionnalités ?',
+            ),
+            '2012-09-27' => array (
+                'title' => 'Piwigo 2.4.4',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=135667&filename=piwigo-2.4.4-link-on-tags.png',
+                'summary' => 'Après un été bien rempli à rendre les extensions compatibles avec Piwigo 2.4, voici la version 2.4.4. Elle ajoute quelques fonctionnalités mineures, corrige plusieurs bugs dont un bug mineur de sécurité. 12 langues sont mises à jour.',
+            ),
+            '2012-07-27' => array (
+                'title' => 'Piwigo 2.4.2 et 2.4.3',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=133510&filename=piwigo-2.4.2-tabs-for-plugins.png',
+                'summary' => 'La version 2.4.2 de Piwigo est disponible. L\'objectif de cette version est encore de stabiliser la 2.4 en corrigeant les bugs, mais également d\'ajouter quelques petites fonctionnalités.',
+            ),
+            '2012-07-03' => array (
+                'title' => 'Piwigo 2.4.1',
+                'image' => 'http://piwigo.org/screenshots/piwigo-2.4-filigrane.png',
+                'summary' => 'La version 2.4.1 de Piwigo est disponible. L\'objectif principale de cette version est de stabiliser la 2.4 en corrigeant les bugs que vous nous avez rapportés lors de vos mises à jour, notamment les problèmes de génération des miniatures et tailles multiples.',
+            ),
+            '2012-06-22' => array (
+                'title' => 'Piwigo 2.4',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-photo-properties-on-gallery.jpg',
+                'summary' => 'La nouvelle fonctionnalité "tailles multiples" permet à Piwigo d\'afficher vos photos en 9 tailles, de la XXS à la XXL, s\'adaptant aussi bien aux terminaux mobiles qu\'aux ordinateurs de bureau et téléviseurs haute définition. Le nouveau thème par défaut, baptisé "Elegant", est conçu pour être simple, sobre et moderne.',
+            ),
+            '2012-06-16' => array (
+                'title' => 'Piwigo 2.3.5, conference video et audio sur la 2.4',
+                'image' => 'http://fr.piwigo.org/forum/showimage.php?pid=187298&filename=conf-piwigo-20120611.jpg',
+                'summary' => 'La version 2.3.5 est disponible. La précédente newsletter du 8 juin vous avertissait de la tenue d\'une conférence Piwigo à Paris. Vous avez été plusieurs à nous faire remarquer soit que c\'était "un peu tard" pour prévenir [...] Bonne nouvelle : nous avons enregistré la conférence !',
+            ),
+            '2012-06-08' => array (
+                'title' => 'Conference Piwigo 2.4, Paris, lundi 11 juin 2012',
+                'image' => 'http://fr.piwigo.com/blog/wp-content/uploads/2012/06/piwigo-2.4-filigrane.png',
+                'summary' => 'Cette présentation est organisée par l\'association Parinux, dans le cadre de la promotion des logiciels libres en région parisienne. Cette découverte de Piwigo s\'adresse à ceux qui ne connaissent pas encore Piwigo ou seulement les anciennes versions. Pierrick profitera de l\'occasion pour présenter les nouveautés de Piwigo 2.4',
+            ),
+            '2012-04-11' => array (
+                'title' => 'Piwigo 2.3.4, testez la 2.4',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-photo-properties-on-gallery.jpg',
+                'summary' => 'La version 2.3.4 de Piwigo est disponible. Elle corrige plusieurs failles de sécurité mineures. Piwigo 2.4 est passé en phase de tests et de derniers ajustements. Nous en sommes actuellement à la version 2.4.0RC2.',
+            ),
+            '2012-02-14' => array (
+                'title' => 'Piwigo 2.3.3, 2.4 en version beta, bilan 2011 et perspectives 2012',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=126782&filename=piwigo-2.40beta1-multiple-size.png',
+                'summary' => 'La version 2.3.3 est disponible. Piwigo 2.4 est en phase de préparation active. La première version stable est prévue pour le mois d\'avril et nous distribuons actuellement les versions beta.',
+            ),
+            '2011-12-20' => array (
+                'title' => 'Piwigo 2.3.2, page sur Google+',
+                'image' => 'http://fr.piwigo.org/forum/showimage.php?pid=180911&filename=piwigo-on-google-plus.jpg',
+                'summary' => 'Piwigo version 2.3.2 est maintenant disponible. Cette nouvelle version stable apporte son lot de correction de bugs. Pour les utilisateurs de ce nouveau réseau social, sachez que Piwigo a sa page Google+. C\'est le moment de nous cercler et de cliquer sur +1 !',
+            ),
+            '2011-11-08' => array (
+                'title' => 'Piwigo 2.3.1',
+                'image' => '',
+                'summary' => 'La version 2.3.1 de Piwigo est disponible. Cette nouvelle version stable a pour principale mission de corriger des bugs. 10 langues ont également été mises à jour pour refléter les changements introduits sur Piwigo 2.3.',
+            ),
+            '2011-10-05' => array (
+                'title' => 'Piwigo 2.3.0 et applications pour iPhone/iPad/Android',
+                'image' => 'http://piwigo.org/screenshots/piwigo-2.3-video-screenshot.jpg',
+                'summary' => 'Piwigo 2.3 en quelques chiffres : 50 nouvelles fonctionnalités, 600 changements dans le code sous Subversion, 6 nouvelles langues et un cycle de version raccourci à seulement 6 mois.',
+            ),
+            '2011-09-02' => array (
+                'title' => 'Piwigo 2.2.5, annuaire, 2.3.0RC1 et traductions',
+                'image' => 'http://piwigo.org/screenshots/piwigo-translate-chinese.png',
+                'summary' => 'Voici venue la version 2.2.5 de Piwigo. Cette version stable se concentre sur la correction de bugs. Le projet d\'annuaire de vos galeries Piwigo a fait du chemin depuis le début de l\'été. En effet, il référence actuellement 150 galeries. Conformément à notre ambitieux planning, voici venu le temps de tester les Release Candidates pour Piwigo 2.3.',
+            ),
+            '2011-07-18' => array (
+                'title' => 'Piwigo 2.2.4, 2.3.0beta2 et annuaire Piwigo',
+                'image' => 'http://fr.piwigo.org/forum/showimage.php?pid=173474&filename=piwigo-showcase-20110717.png',
+                'summary' => 'Le projet d\'annuaire de vos galeries Piwigo avance. L\'annuaire est lui même une galerie de captures d\'écran, chaque capture représentant une galerie Piwigo, à laquelle est associée une adresse cliquable, un nom, un auteur, une description, des tags.',
+            ),
+            '2011-06-10' => array (
+                'title' => 'Piwigo 2.2.2, 2.2.3 et 2.3.0beta1',
+                'image' => 'http://piwigo.org/forum/showimage.php?pid=122466&filename=piwigo222_03_synchronize_button.png',
+                'summary' => 'La version 2.2.1 est disponible. La version 2.2.3 a été publiée seulement quelques jours après. Voici la version 2.3.0beta1. Cette version est seulement pour des tests. Même si Piwigo 2.2 a été publié il y a seulement quelques semaines, nous avons déjà de nouvelles fonctionnalités intéressantes à vous montrer',
+            ),
         ),
         'en' => array(
             '2017-12-05' => array(
