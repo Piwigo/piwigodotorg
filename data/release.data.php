@@ -1,6 +1,28 @@
 <?php
 
 $porg_releases = array(
+  '2.9.3' => array(
+    'released_on' => '2018-02-26',
+    'md5sum' => 'fea760ae0c41b25211706f7457dee4ff',
+    'summary' => array('bug fixes (including security)'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 839, 'section' => 'Security'),
+      array('id' => 838, 'section' => 'Photos'),
+      array('id' => 826, 'section' => 'Security'),
+      array('id' => 825, 'section' => 'Security'),
+      array('id' => 824, 'section' => 'Technical'),
+      array('id' => 823, 'section' => 'Security'),
+      array('id' => 822, 'section' => 'Security'),
+      array('id' => 735, 'section' => 'web API'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('da_DK','de_DE','en_UK','fr_FR','it_IT','lt_LT','lv_LV','mn_MN','nb_NO','pl_PL','pt_BR','ro_RO','ru_RU','sv_SE','th_TH','uk_UA','vi_VN','zh_CN'),
+    ),
+  ),
+
   '2.9.2' => array(
     'released_on' => '2017-10-06',
     'md5sum' => '8eb7df8d35b5a73d73223eaa9a8509ca',
