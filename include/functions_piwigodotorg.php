@@ -378,7 +378,7 @@ function porg_get_newsletters($lang_code)
     foreach ($newsletters as $idx => $newsletter)
     {
       $newsletters[$idx]['id'] = $lang_code.'-'.$idx;
-      $newsletters[$idx]['date_label'] = porg_date_format($idx.' 12:00:00');
+      $newsletters[$idx]['date_label'] = porg_date_format($idx);
       $newsletters[$idx]['url'] = 'plugins/piwigo-piwigodotorg/data/newsletters/'.str_replace('-', '', $idx).'_'.$lang_code.'.html';
     }
 
@@ -395,6 +395,12 @@ function porg_date_format($datetime, $is_timestamp=false)
   $timestamp = $datetime;
   if (!$is_timestamp)
   {
+    // in case we have a date without time, we force time to be noon, to avoid
+    // summer/winter time to impact the date when calling format_date
+    if (preg_match('/^\d\d\d\d-\d\d-\d\d$/', $datetime))
+    {
+      $datetime.= ' 12:00:00';
+    }
     $timestamp = strtotime($datetime);
   }
 
