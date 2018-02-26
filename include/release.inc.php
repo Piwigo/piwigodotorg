@@ -34,16 +34,7 @@ if (isset($_GET['version']))
         $summary = implode(', ', $porg_releases[$version]['summary']);
 
         /* Release date */
-        $timestamp = strtotime($porg_releases[$version]['released_on']);
-        if ($lang_info['code'] == 'en')
-        {
-            $date_formated = date("F jS, Y", $timestamp);
-        }
-        if ($lang_info['code'] == 'fr')
-        {
-            $date_formated = format_date($timestamp, array('day', 'month', 'year'));
-        }
-        $released_on = $date_formated;
+        $released_on = porg_date_format($porg_releases[$version]['released_on']);
 
         /* Get bugs issue */
         $bugs = $porg_releases[$version]['bugs'];

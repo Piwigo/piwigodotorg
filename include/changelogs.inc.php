@@ -18,16 +18,7 @@ foreach ($porg_releases as $version => $version_content)
     $porg_releases[$version]['state'] = 'major';    
   }
 
-  $timestamp = strtotime($porg_releases[$version]['released_on']);
-  if ($lang_info['code'] == 'en')
-  { 
-    $date_formated = date("F jS, Y", $timestamp);
-  }
-  if ($lang_info['code'] == 'fr')
-  {
-    $date_formated = format_date($timestamp, array('day', 'month', 'year'));
-  }
-  $porg_releases[$version]['released_on'] = $date_formated;
+  $porg_releases[$version]['released_on'] = porg_date_format($porg_releases[$version]['released_on']);
 
   unset($porg_releases[$version]['md5sum']);
   unset($porg_releases[$version]['languages']);
