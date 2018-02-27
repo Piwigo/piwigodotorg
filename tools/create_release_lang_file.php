@@ -40,7 +40,7 @@
 
     /* Get milestone ID */
     echo "searching milestone on Github....\n";
-    fetchRemote("https://api.github.com/repos/Piwigo/Piwigo/milestones?state=close", $result);
+    fetchRemote("https://api.github.com/repos/Piwigo/Piwigo/milestones", $result);
     $milestones = json_decode($result);
 
     foreach ($milestones as $milestone)
