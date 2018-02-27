@@ -119,6 +119,13 @@ function porg_label_to_page($label)
     $_GET['version'] = $matches[1];
   }
 
+  $newsletters_label = porg_get_page_label('newsletters');
+  if (preg_match('/^'.$newsletters_label.'-(\d{8})$/', $label, $matches))
+  {
+    $label = $newsletters_label;
+    $_GET['newsletter_id'] = $matches[1];
+  }
+
   $porg_page_labels = porg_get_page_labels();
   $flip = array_flip($porg_page_labels);
 
@@ -379,13 +386,38 @@ function porg_get_newsletters($lang_code)
     {
       $newsletters[$idx]['id'] = $lang_code.'-'.$idx;
       $newsletters[$idx]['date_label'] = porg_date_format($idx);
-      $newsletters[$idx]['url'] = 'plugins/piwigo-piwigodotorg/data/newsletters/'.str_replace('-', '', $idx).'_'.$lang_code.'.html';
+      $newsletters[$idx]['url'] = porg_get_page_label('newsletters').'-'.str_replace('-', '', $idx);
     }
 
     return $newsletters;
   }
 
   return null;
+}
+
+function porg_display_newsletter($newsletter_id)
+{
+  global $user;
+
+  $lang_code = explode('_', $user['language'])[0];
+
+  $newsletter_file = PORG_PATH.'data/newsletters/'.$newsletter_id.'_'.$lang_code.'.html';
+  if (file_exists($newsletter_file))
+  {
+    $content_lines = file($newsletter_file);
+
+    $output_started = false;
+    foreach ($content_lines as $line)
+    {
+      if ($output_started or preg_match('/^<!DOCTYPE/', $line))
+      {
+        echo str_replace('%tracker%', 'abcd', $line);
+        $output_started = true;
+      }
+    }
+  }
+
+  exit();
 }
 
 function porg_date_format($datetime, $is_timestamp=false)

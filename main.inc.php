@@ -16,6 +16,7 @@ define('PORG_PATH', PHPWG_PLUGINS_PATH . PORG_ID . '/');
 // whatever the page, we want to execute them
 add_event_handler('ws_add_methods', 'porg_add_methods');
 add_event_handler('user_init', 'porg_user_init');
+add_event_handler('init', 'porg_lang_init');
 
 include(PORG_PATH . 'include/functions_piwigodotorg.php');
 include(PORG_PATH . 'include/functions_ws_porg.php');
@@ -57,7 +58,6 @@ function porg_user_init()
 }
 
 /* Load Piwigo.org language */
-add_event_handler('init', 'porg_lang_init');
 function porg_lang_init() {
     /* Load en_UK translation */
     load_language('plugin.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
@@ -181,6 +181,12 @@ function porg_load_content()
 
         if ($porg_page !== false)
         {
+            // specific for displaying a specific newsletter
+            if (isset($_GET['newsletter_id']))
+            {
+                porg_display_newsletter($_GET['newsletter_id']);
+            }
+
             $porg_file = porg_page_to_file($porg_page);
             $meta_title = porg_get_page_title($porg_page);
 
