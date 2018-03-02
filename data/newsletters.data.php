@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2018-03-02' => array (
+                'title' => 'Piwigo.org fait peau neuve en 2018 + version 2.9.3',
+                'image' => 'http://piwigo.org/screenshots/20180302-fr.piwigo.org-accueil.jpg',
+                'summary' => 'Démarré en 2014 par plusieurs contributeurs, le projet de refonte du site avait besoin de compétences en graphisme pour avancer. Grâce à Lisa, étudiante en école de design, nous avons pu aller au bout du projet.',
+            ),
             '2017-12-05' => array (
                 'title' => '[appel à contribution] envoyez nous votre témoignage sur Piwigo',
                 'image' => 'http://piwigo.org/forum/showimage.php?pid=169256&filename=call-for-testimonial.jpg',
@@ -209,6 +214,11 @@
             ),
         ),
         'en' => array(
+            '2018-03-02' => array(
+                'title' => 'Facelift for 2018 and Piwigo 2.9.3',
+                'image' => 'http://piwigo.org/screenshots/20180302-piwigo.org-homepage.jpg',
+                'summary' => 'Piwigo.org gets a huge facelift for 2018! Started in 2014, the facelift project needed some graphical skills to get completed. Thanks to Lisa, student in a school of design, the project could go forward.',
+            ),
             '2017-12-05' => array(
                 'title' => '[call for help] Send us your testimonial about Piwigo',
                 'image' => 'http://piwigo.org/forum/showimage.php?pid=169256&filename=call-for-testimonial.jpg',
