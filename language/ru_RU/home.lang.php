@@ -1,0 +1,35 @@
+<?php
+// +-----------------------------------------------------------------------+
+// | Piwigo - a PHP based photo gallery                                    |
+// +-----------------------------------------------------------------------+
+// | Copyright(C) 2008-2017 Piwigo Team                  http://piwigo.org |
+// | Copyright(C) 2003-2008 PhpWebGallery Team    http://phpwebgallery.net |
+// | Copyright(C) 2002-2003 Pierrick LE GALL   http://le-gall.net/pierrick |
+// +-----------------------------------------------------------------------+
+// | This program is free software; you can redistribute it and/or modify  |
+// | it under the terms of the GNU General Public License as published by  |
+// | the Free Software Foundation                                          |
+// |                                                                       |
+// | This program is distributed in the hope that it will be useful, but   |
+// | WITHOUT ANY WARRANTY; without even the implied warranty of            |
+// | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
+// | General Public License for more details.                              |
+// |                                                                       |
+// | You should have received a copy of the GNU General Public License     |
+// | along with this program; if not, write to the Free Software           |
+// | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
+// | USA.                                                                  |
+// +-----------------------------------------------------------------------+
+$lang['porg_home_high_volume_desc'] = 'Piwigo шикарно подходит, когда речь заходит о классификации тысячи или даже сотен тысяч изображений.';
+$lang['porg_home_open_source_desc'] = 'Исходный код доступен для всех. Можно проверять и редактировать. Легко изменить результаты, применяя плагины и темы.';
+$lang['Albums Hierarchy'] = 'Иерархия альбомов';
+$lang['Permissions Control'] = 'Управление разрешениями и ограничениями';
+$lang['Piwigo - Manage your photo collection'] = 'Piwigo - Управляй своей коллекцией изображений';
+$lang['Start discovering Piwigo'] = 'Начало изучения Piwigo';
+$lang['View more showcases'] = 'Просмотр разных примеров';
+$lang['Who are Piwigo users?'] = 'Пользователи Piwigo. Кто они?';
+$lang['porg_home_desc1'] = 'Piwigo - галерея для изображений в Интернете. Все программные элементы - с открытым кодом.';
+$lang['porg_home_desc2'] = 'Предназначено и для организаций, и для групп, и для отдельных лиц.';
+$lang['porg_home_organisation_title'] = 'Тысячам организаций все форм и милллионам индивидуальных пользователей нравится Piwigo';
+$lang['porg_home_sustainable_desc'] = 'Созданная в 2002 году, Piwigo поддерживается своими пользователями более 15 лет. Постоянное развитие, только вперед!';
+$lang['porg_home_title'] = 'Управлять своим собраний изображений с помощью Piwigo';
