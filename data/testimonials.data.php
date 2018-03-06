@@ -2,6 +2,46 @@
 
 $testimonials = array(
   array(
+    'language' => 'de',
+    'added_on' => '2018-03-05',
+    'user' => array(
+      'username' => 'Ralf Kerkhoff',
+      'country' => 'Germany',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/ralf-kerkhoff.jpg',
+      'url' => 'https://www.ralf-kerkhoff.de/',
+    ),
+    'content' => '
+In den letzten Jahren habe ich öfter zwischen Zenphoto, Worpdress und Pwigo gewechselt. Nachdem ich die Systeme einige Zeit genutzt habe, bin ich immer wieder zu Piwigo zurück gekehrt.
+
+Hier sind die Gründe warum: wenn es um Geschwindigkeit geht – insbesondere bei grossen Bildmengen – fühlt sich Piwigo am schnellsten an. Piwigo wird aktiv weiter entwickelt und hat eine sehr hilfsbereite Community. Das System aktuell zu halten ist sehr einfach – da tun sich andere deutlich schwerer. Am Ende des Tages spart der minimale Wartungsaufwand deutlich Zeit. Durch das Local Files Editor Plugin lässt sich Piwigo sehr fein justieren.
+
+Letztendlich bietet Piwigo alle Features die ich mir für eine Galerie wünsche – meiner Meinung nach wird hier deutlich mehr geboten als es andere (auch kommerzielle) Systeme tun. Wer einmal die Features von gängigen Wordpress Galerie Plugins mit denen von Piwigo vergleicht, weiss was ich  meine.
+
+Wer ein äusserst schnelles und stabiles System für seine Galerie sucht, dem kann  ich Piwigo wärmstens ans Herz legen.
+',
+  ),
+
+  array(
+    'language' => 'en',
+    'added_on' => '2018-03-05',
+    'user' => array(
+      'username' => 'Ralf Kerkhoff',
+      'country' => 'Germany',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/ralf-kerkhoff.jpg',
+      'url' => 'https://www.ralf-kerkhoff.de/',
+    ),
+    'content' => '
+Over the past years I have switched between Zenphoto, Wordpress and Piwigo. After using these other systems for a while, I always returned to Piwigo.
+
+Here is why: when it comes to speed - especially with a large amount of images - Piwigo feels like the fastest system. Piwigo has an active development and a very active and friendly  community. Updating to the most recent version is very easy through the backend, you save a lot of maintaining time compared to other systems. Piwigo is highly configurable with the local files editor plugin. It is very feature rich and for a gallery systems it has all the features you need - in my opinion more than other commercial addons (gallery systems for wordpress for example).
+
+If you want to run a rock stable gallery system I would highly recommend Piwigo.
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2017-12-13',
     'user' => array(
