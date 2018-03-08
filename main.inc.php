@@ -111,7 +111,7 @@ function porg_add_methods($arr)
 add_event_handler('init', 'porg_load_header');
 function porg_load_header()
 {
-    global $template, $page, $lang;
+    global $template, $page, $lang, $user;
 
     $porg_root_url = get_absolute_root_url();
     $porg_root_url_piwigodotorg = get_absolute_root_url() . PORG_PATH;
@@ -126,6 +126,7 @@ function porg_load_header()
             'PORG_DOMAIN_PREFIX' => $page['porg_domain_prefix'],
             'PCOM_PREFIX' => isset($page['porg_pcom_prefix']) ? $page['porg_pcom_prefix'] : '',
             'PORG_IS_PRODUCTION' => preg_match('/^([a-z]+\.)?piwigo\.org$/', $_SERVER['HTTP_HOST']),
+            'HEADER_SHOW_HOME' => ('de_DE' == $user['language'] ? false : true),
         )
     );
 }
