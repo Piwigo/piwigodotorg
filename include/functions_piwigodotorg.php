@@ -441,9 +441,6 @@ function porg_date_format($datetime, $is_timestamp=false)
     return date("F jS Y", $timestamp);
   }
 
-  if ('fr' == $lang_info['code'])
-  {
-    return format_date($timestamp, array('day', 'month', 'year'));
-  }
+  return format_date($timestamp, array('day', 'month', 'year'));
 }
 ?>
