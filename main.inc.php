@@ -63,6 +63,8 @@ function porg_lang_init() {
     load_language('plugin.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
     /* Load user language translation */
     load_language('plugin.lang', PORG_PATH);
+
+    load_language('urls.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
     load_language('urls.lang', PORG_PATH);
 }
 
