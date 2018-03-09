@@ -131,6 +131,12 @@ function porg_load_header()
             'HEADER_SHOW_HOME' => ('de_DE' == $user['language'] ? false : true),
         )
     );
+
+    $language_css = 'language/'.$user['language'].'/css/piwigodotorg.css';
+    if (file_exists(PORG_PATH.$language_css))
+    {
+        $template->assign('LANGUAGE_CSS', $language_css);
+    }
 }
 
 add_event_handler('init', 'porg_load_content');

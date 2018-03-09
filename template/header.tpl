@@ -21,6 +21,9 @@
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/fontello/css/fontello.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/open-sans/open-sans.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/piwigodotorg.css">
+{if (isset($LANGUAGE_CSS))}
+    <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}{$LANGUAGE_CSS}">
+{/if}
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
