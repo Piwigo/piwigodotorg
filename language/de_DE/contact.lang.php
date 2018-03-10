@@ -21,16 +21,16 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Category'] = 'Kategorie';
-$lang['Contact us'] = 'Schreibe uns';
+$lang['Contact us'] = 'Schreiben Sie uns';
 $lang['Partnership'] = 'Partnerschaft';
 $lang['Press inquiry'] = 'Presseanfragen';
 $lang['Security report'] = 'Sicherheitsbericht';
 $lang['Send message'] = 'Nachricht senden';
 $lang['Testimonial'] = 'Referenzen';
-$lang['Your email address'] = 'Deine E-Mailadresse';
-$lang['Your message'] = 'Deine Nachricht';
-$lang['porg_contact_desc1'] = 'Du kannst uns eine mit dem Kontaktformular eine Nachricht schicken.';
-$lang['porg_contact_desc2'] = 'Bitte benutze dies hauptsächlich für Bemerkungen zur Webseite.';
+$lang['Your email address'] = 'Ihre E-Mailadresse';
+$lang['Your message'] = 'Ihre Nachricht';
+$lang['porg_contact_desc1'] = 'Sie können uns mit dem Kontaktformular eine Nachricht schicken.';
+$lang['porg_contact_desc2'] = 'Bitte benutzen Sie dies hauptsächlich für Bemerkungen zur Webseite.';
 $lang['porg_contact_desc3'] = 'Wir präferieren das Supportforum für Feedback. Das vereinfacht die Nachverfolgung für das Team.';
-$lang['porg_contact_error_email'] = 'Ups, diese E-mailadresse ist ungültig.';
+$lang['porg_contact_error_email'] = 'Ups, diese E-Mailadresse ist ungültig.';
 $lang['porg_contact_error_message'] = 'Ups, deine Nachricht scheint falsch zu sein.';
