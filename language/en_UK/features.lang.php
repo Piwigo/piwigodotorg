@@ -18,13 +18,13 @@ $lang['porg_features_privacy_desc1'] = 'Make your photos private and decide who 
 $lang['porg_features_privacy_desc2'] = 'You can set permissions on albums and photos, for groups or individual users.';
 $lang['Geolocate your photos on a map'] = 'Geolocate your photos on a map';
 $lang['porg_features_geolocate_desc1'] = 'Piwigo can read GPS latitude and longitude from embedded metadata.';
-$lang['porg_features_geolocate_desc2'] = 'Then, with plugin Google Maps or OpenStreetMap, Piwigo can display your photos on an interactive map.';
+$lang['porg_features_geolocate_desc2'] = 'Then, with plugin for Google Maps or OpenStreetMap, Piwigo can display your photos on an interactive map.';
 $lang['porg_features_plugins_desc1'] = 'Change appearance with themes.';
 $lang['porg_features_plugins_desc2'] = 'Add features with plugins.';
 $lang['porg_features_plugins_desc3'] = 'Extensions require just a few clicks to get installed.';
 $lang['porg_features_plugins_desc4'] = '<span class="bold">350 extensions</span> available, and growing!';
 $lang['Full screen slideshow'] = 'Full screen slideshow';
-$lang['porg_features_slideshow_desc'] = 'With plugin Fotorama, or specific themes such as Bootstrap Darkroom, experience the full screen slideshow.';
+$lang['porg_features_slideshow_desc'] = 'With the Fotorama plugin, or specific themes such as Bootstrap Darkroom, you can experience the full screen slideshow.';
 $lang['Easy installation and updates'] = 'Easy installation and updates';
 $lang['A great place for your visitors'] = 'A great place for your visitors';
 $lang['Import automatic your metadata'] = 'Import automatic your metadata';
@@ -37,8 +37,6 @@ $lang['porg_features_user_management_desc1'] = 'Administrators can create users,
 $lang['porg_features_user_management_desc2'] = 'Several administrators can work at the same time in Piwigo.';
 $lang['porg_features_user_management_desc3'] = 'Perfect for your team!';
 $lang['API'] = 'API';
-$lang['porg_features_api_desc1'] = 'Piwigo web API makes it easy for developpers to perform actions from other applications : display thumbnails in a WordPress blog post, publish photo from Lightroom, synchronize a local folder with a Perl script...';
+$lang['porg_features_api_desc1'] = 'Piwigo web API makes it easy for developers to perform actions from other applications: display thumbnails in a WordPress blog post, publish photo from Lightroom, synchronize a local folder with a Perl script...';
 $lang['porg_features_api_desc2'] = 'As simple as HTTP requests and JSON responses.';
 $lang['Many configuration settings to make Piwigo fit your own needs'] = 'Many configuration settings to make Piwigo fit your own needs';
-
-?>
