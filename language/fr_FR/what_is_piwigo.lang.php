@@ -5,7 +5,7 @@ $lang['porg_whatispiwigo_desc2'] = 'Doté de puissantes fonctionnalités, il gè
 $lang['What can I use Piwigo for ?'] = 'Piwigo, pour quelles utilisations ?';
 $lang['porg_whatispiwigo_use_desc1'] = 'Il existe une large variété d\'utilisations parmi les membres de la communauté Piwigo.';
 $lang['porg_whatispiwigo_use_desc2'] = 'De la galerie de taille moyenne à d\'immenses photothèques, Piwigo peut vous simplifier la vie en vous faisant gagner du temps et de l\'énergie.';
-$lang['porg_whatispiwigo_organisation_desc1'] = 'Secteur public, enrteprises, fondations... tous ont besoin de gérer leur propre collection de photos.';
+$lang['porg_whatispiwigo_organisation_desc1'] = 'Secteur public, entreprises, fondations... tous ont besoin de gérer leur propre collection de photos.';
 $lang['porg_whatispiwigo_organisation_desc2'] = 'Dans le domaine du <em>Digital Asset Management</em> (DAM), Piwigo se concentre sur la facilité d\'utilisation, le coût abordable, les performances et la pérennité.';
 $lang['Multiple Administrators'] = 'Administrateurs Multiples';
 $lang['Lightning Fast'] = 'Rapide comme l\'éclair';
@@ -39,5 +39,3 @@ $lang['porg_whatispiwigo_gnu_desc3'] = 'L\'Opensource ou "Logiciel Libre" signif
 $lang['porg_whatispiwigo_gnu_desc4'] = '';
 $lang['porg_whatispiwigo_gnu_desc5'] = '';
 $lang['porg_whatispiwigo_gnu_desc6'] = '';
-
-?>
