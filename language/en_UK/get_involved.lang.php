@@ -33,8 +33,6 @@ $lang['porg_get_involved_donate_desc4'] = 'This money, collected by the Piwigo A
 $lang['porg_get_involved_donate_desc5'] = 'Payment with';
 $lang['Your Gift'] = 'Your Gift';
 $lang['Make this a monthly gift'] = 'Make this a monthly gift';
-$lang['We are grateful !'] = 'We are grateful !';
+$lang['We are grateful !'] = 'We are grateful!';
 $lang['porg_get_involved_grateful_desc1'] = 'Thank you for your contributions and involvement.';
 $lang['porg_get_involved_grateful_desc2'] = 'We will always appreciate efforts from everyone and help to Piwigo development and its community!';
-
-?>
