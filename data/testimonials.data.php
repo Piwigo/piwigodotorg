@@ -2,6 +2,23 @@
 
 $testimonials = array(
   array(
+    'language' => 'en',
+    'added_on' => '2018-03-13',
+    'user' => array(
+      'username' => 'Richard Histon',
+      'country' => 'United Kingdom',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-9-.svg',
+      'url' => 'https://www.richardhiston.com/photographs/',
+    ),
+    'content' => '
+After using many so called photography specific web hosts over the years, I could never find one with software that worked how I wanted it, always how they wanted it. Then I chanced on Piwigo one day, and created our family website of 4,000 photos. Next I created my own Piwigo website, with my 50 years of photographs in mind.
+
+What a joy! Piwigo is the three \'P\'s - Powerful, a Pleasure to use, and Pleasing to the eye. Thank-you Piwigo Team!
+',
+  ),
+
+  array(
     'language' => 'de',
     'added_on' => '2018-03-05',
     'user' => array(
