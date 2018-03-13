@@ -23,7 +23,7 @@
 $lang['porg_issue_735'] = 'Fähigkeit einen Authentifizierungsschlüssel über das API zu bekommen';
 $lang['porg_issue_822'] = 'XXS+CSRF Attacke auf Konfigurationsseiten';
 $lang['porg_issue_823'] = 'SQL-Injection in admin/users';
-$lang['porg_issue_824'] = 'Releasebuilder unter MacOS nicht erfolgreich';
+$lang['porg_issue_824'] = 'Releasebuilder unter MacOS schlägt fehl';
 $lang['porg_issue_825'] = 'SQL-Injection im Batchmanager';
 $lang['porg_issue_826'] = 'SQL-Injection in Konfigurationseinstellungen';
 $lang['porg_issue_838'] = '[Batch Manager] löschen von gesamtem Satz erzeugt inkorrekte Fehlermeldung';
