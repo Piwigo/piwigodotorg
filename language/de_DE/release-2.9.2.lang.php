@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 $lang['porg_issue_678'] = 'PHP 7 RSS Fehler';
 $lang['porg_issue_710'] = 'Eingabeparameter \"redirect_decoded\" ist ungültig';
-$lang['porg_issue_713'] = 'Updatemail in Französisch/Deutsch-Mix';
+$lang['porg_issue_713'] = 'Updatemail in Französisch/Englisch-Mix';
 $lang['porg_issue_721'] = 'Bug Report: Privates Album kann durch CSRF & fehlerhafte Berechtigungen auf öffentlich gesetzt werden';
 $lang['porg_issue_723'] = 'beim Anfordern einer privaten ID wird der Permalink gezeigt';
 $lang['porg_issue_724'] = 'Bug Report: SQL-Injektion auf Seite cat-options';
