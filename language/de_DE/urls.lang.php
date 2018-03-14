@@ -20,9 +20,9 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['porg_urls']['about-us'] = 'über-uns';
+$lang['porg_urls']['about-us'] = 'uber-uns';
 $lang['porg_urls']['changelogs'] = 'changelogs';
-$lang['porg_urls']['coding-activity'] = 'code-aktivität';
+$lang['porg_urls']['coding-activity'] = 'code-aktivitat';
 $lang['porg_urls']['contact'] = 'kontakt';
 $lang['porg_urls']['features'] = 'features';
 $lang['porg_urls']['get-involved'] = 'mitmachen';
@@ -34,3 +34,9 @@ $lang['porg_urls']['press'] = 'presse';
 $lang['porg_urls']['release'] = 'release';
 $lang['porg_urls']['testimonials'] = 'referenzen';
 $lang['porg_urls']['what-is-piwigo'] = 'was-ist-piwigo';
+
+$lang['porg_doc_urls']['requirements'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung:voraussetzungen';
+$lang['porg_doc_urls']['install'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung';
+$lang['porg_doc_urls']['upgrade'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung';
+$lang['porg_doc_urls']['upgrade_auto'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:automatische';
+$lang['porg_doc_urls']['upgrade_manual'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:manuelle';
