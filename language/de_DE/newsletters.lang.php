@@ -24,4 +24,4 @@ $lang['Enter your email here'] = 'Geben Sie Ihre Email-Adresse ein';
 $lang['Sign up'] = 'Abonnieren';
 $lang['porg_newsletters_desc1'] = 'Über Piwigo informiert bleiben.';
 $lang['porg_newsletters_desc2'] = 'Sie erhalten Emails, wenn eine neue Version verfügbar ist und wenn größere Ereignisse im Projekt passieren.';
-$lang['porg_newsletters_subscribe_title'] = 'Abonnieren Sie unseren Newsletter und bleiben ';
+$lang['porg_newsletters_subscribe_title'] = 'Abonnieren Sie unseren Newsletter und bleiben Sie auf dem Laufenden';
