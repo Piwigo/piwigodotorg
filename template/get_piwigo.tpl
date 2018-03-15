@@ -18,7 +18,7 @@
           <h2>{'Self-hosted Piwigo'|translate}</h2>
           <p>{'porg_get_piwigo_self_hosted_desc1'|translate} {'porg_get_piwigo_self_hosted_desc2'|translate}</p>
           <div class="btn-download-piwigo">
-            <a class="btn" href="http://piwigo.org/download/dlcounter.php?code=latest"><span class="bold">{'download_piwigo'|translate} {$LATEST_VERSION_NUMBER}</span></a>
+            <a class="btn" href="http://piwigo.org/download/dlcounter.php?code=latest"><span class="bold">{'Download<br>Piwigo %s'|translate:$LATEST_VERSION_NUMBER}</span></a>
           </div>
           <div class="row">
             <div class="col-md-4 text-right col-xs-4">
