@@ -24,7 +24,7 @@ $lang['porg_whatispiwigo_how_to_desc3'] = 'Piwigo kann auch <em>as a service</em
 $lang['porg_whatispiwigo_how_to_desc1'] = 'Sie können Piwigo von Piwigo<span style="color:#f70;">.org</span> herunterladen und auf ihrem Webhost mit dem passenden technischen Veraussetzungen installieren.';
 $lang['porg_whatispiwigo_organisation_desc2'] = 'Im <em>Digital Asset Management</em> Bereich fokussiert sich Piwigo auf einfache Benutzung, Erschwinglichkeit, Performance und Nachhaltigkeit.';
 $lang['porg_whatispiwigo_individual_desc1'] = 'Das Familienalbum der letzten 20 Jahre verwalten, die Sammlung der europäischen Spinnen organisieren, die besten Landschaftsfotos eines Hobbyfotografen zeigen...';
-$lang['porg_whatispiwigo_use_desc2'] = 'Von mittelgroßen Galerien<br> bis riesigen Bildbanken kann Piwigo Ihr Leben einfacher machen sowie Zeit und Geld sparen.';
+$lang['porg_whatispiwigo_use_desc2'] = 'Von mittelgroßen Galerien<br> bis hin zu riesigen Bildbanken kann Piwigo Ihr Leben einfacher machen sowie Zeit und Geld sparen.';
 $lang['porg_whatispiwigo_gnu_desc3'] = 'Open-Source oder freie Software bedeutet, dass Sie den Quelltext unter bestimmten Bedingungen modifizieren und weiterverteilen können.';
 $lang['porg_whatispiwigo_gnu_desc5'] = 'Der Unterschied zwischen den beiden Bedeutung von frei wird oft als  "frei wie in Redefreiheit, nicht wie in Freibier" beschrieben.';
 $lang['porg_whatispiwigo_individual_desc2'] = 'Dies sind ein paar Beispiele, wie Piwigo benutzt wird.';
