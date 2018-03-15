@@ -111,7 +111,7 @@
           <h3>{'Sustainable'|translate}</h3>
         </div>
         <div class="col-md-4 col-xs-4">
-          <h3>{'Open source'|translate}</h3>
+          <h3>{'Open Source'|translate}</h3>
         </div>
       </div>
     </div>
