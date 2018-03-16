@@ -6150,6 +6150,7 @@ section.release-notes-overview li a {
 .day-headline {
     color: #FF7700;
     font-size: 18px;
+    text-transform: capitalize;
 }
 
 .commit {
