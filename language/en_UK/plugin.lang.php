@@ -110,4 +110,5 @@ $lang['Themes & Plugins'] = 'Themes & Plugins';
 $lang['Get started with Piwigo'] = 'Get started with Piwigo';
 $lang['porg_get_started_desc'] = 'Ready to start managing your photos with Piwigo? Join our community!';
 $lang['[piwigo.org contact form, %s] %s contacted you on %s'] = '[piwigo.org contact form, %s] %s contacted you on %s';
+$lang['yesterday'] = 'yesterady';
 ?>

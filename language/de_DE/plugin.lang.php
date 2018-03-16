@@ -120,3 +120,4 @@ $lang['Get started with Piwigo'] = 'Anfangen, Piwigo zu benutzen';
 $lang['High Volume'] = 'Hohe Volumen';
 $lang['Individuals'] = 'Privatpersonen';
 $lang['Languages'] = 'Sprachen';
+$lang['yesterday'] = 'gestern';
