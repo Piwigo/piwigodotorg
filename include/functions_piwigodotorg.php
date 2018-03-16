@@ -443,7 +443,7 @@ function porg_date_format($datetime, $is_timestamp=false)
 
   if ('de' == $lang_info['code'])
   {
-    setlocale(LC_TIME, "de_DE");
+    setlocale(LC_TIME, "de_DE.UTF-8");
     return strftime('%d. %B %Y', $timestamp);
   }
 
