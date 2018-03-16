@@ -438,7 +438,13 @@ function porg_date_format($datetime, $is_timestamp=false)
 
   if ('en' == $lang_info['code'])
   {
-    return date("F jS Y", $timestamp);
+    return date("F jS, Y", $timestamp);
+  }
+
+  if ('de' == $lang_info['code'])
+  {
+    setlocale(LC_TIME, "de_DE");
+    return strftime('%d. %B %Y', $timestamp);
   }
 
   return format_date($timestamp, array('day', 'month', 'year'));
