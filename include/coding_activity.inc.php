@@ -20,14 +20,18 @@ $current_day = null;
 $commits_activity = array();
 foreach ($commits as $commit)
 {
-  $timestamp = strtotime($commit['occured_on']);
-  if ($lang_info['code'] == 'en')
+  $commit_day = date('Y-m-d', strtotime($commit['occured_on']));
+  if ($commit_day == date('Y-m-d'))
   {
-    $date_formated = date("F jS, Y", $timestamp);
+    $date_formated = l10n('today');
+  }
+  else if ($commit_day == date('Y-m-d', time()-24*60*60))
+  {
+    $date_formated = l10n('yesterday');
   }
   else
   {
-    $date_formated = format_date($timestamp);
+    $date_formated = porg_date_format($commit['occured_on']);
   }
 
   $commit_id = $commit['local_id'];
