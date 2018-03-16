@@ -23,4 +23,4 @@
 $lang['porg_testimonials_desc1'] = 'Entdecken Sie, was Piwigo-Benutzer zu sagen haben!';
 $lang['porg_testimonials_desc2'] = 'Auf dieser Seite können Sie Referenzen von lebensechten Erfahrungen mit Piwigo lesen.';
 $lang['porg_testimonials_share_desc1'] = 'Wenn Sie eine Geschichte zu erzählen haben, <a href="%s">teilen Sie sie.</a';
-$lang['porg_testimonials_share_title'] = 'Wir sind stolz so eine Gemeinschaft zu haben!';
+$lang['porg_testimonials_share_title'] = 'Wir sind stolz, so eine Gemeinschaft zu haben!';
