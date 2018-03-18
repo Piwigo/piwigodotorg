@@ -96,6 +96,18 @@
 * Piwigo header (navbar) CSS *
 ******************************/
 
+.language-available {
+    background-color: #5593F4;
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.language-available a {
+    color:white;
+}
+
 .navbar {
   border:none;
   margin-top:20px;

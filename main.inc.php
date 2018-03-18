@@ -142,7 +142,7 @@ function porg_load_header()
 add_event_handler('init', 'porg_load_content');
 function porg_load_content()
 {
-    global $template, $logger, $lang;
+    global $template, $logger, $lang, $user;
 
     $logger->info(__FUNCTION__.', $_GET[porg] = '.(isset($_GET['porg']) ? $_GET['porg'] : 'null'));
 
@@ -239,6 +239,27 @@ function porg_load_content()
                 'LATEST_VERSION_DATE' => porg_date_format($latest_version['released_on']),
             )
         );
+
+        // display language info, only if we're on the English website
+        if ('en_UK' == $user['language'])
+        {
+            $browser_language = substr(@$_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, 2);
+            if ('en' != $browser_language)
+            {
+                include(PORG_PATH . '/data/languages.data.php');
+                if (isset($porg_languages_switch[$browser_language]) and preg_match('/^(http.*?)([a-z]+\.)?piwigo.org/', get_absolute_root_url(), $matches))
+                {
+                    $base_url = $matches[1];
+                    $template->assign(
+                        'LANGUAGE_INFO',
+                        array(
+                            'url' => $base_url.$browser_language.'.piwigo.org',
+                            'label' => $porg_languages_switch[$browser_language],
+                        )
+                    );
+                }
+            }
+        }
     }
 
     $template->assign(

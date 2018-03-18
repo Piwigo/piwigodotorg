@@ -15,6 +15,11 @@ $porg_subdomains = array(
   'cn' => 'zh_CN',
 );
 
+$porg_languages_switch = array(
+  'de' => 'Piwigo.org ist auch auf Deutsch verfügbar',
+  'fr' => 'Piwigo.org est aussi disponible en Français',
+);
+
 $porg_languages = array(
   'af_ZA' => 'Afrikaans',
   'ar_EG' => 'االعربية (مصر',

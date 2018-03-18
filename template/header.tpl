@@ -56,6 +56,11 @@
 {/if}
   </head>  
   <body>
+{if isset($LANGUAGE_INFO)}
+  <div class="container-fluid language-available">
+    <a href="{$LANGUAGE_INFO.url}"><i class="glyphicon glyphicon-globe"></i> {$LANGUAGE_INFO.label}</a>
+  </div>
+{/if}
   <nav class="navbar navbar-default">
   <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
