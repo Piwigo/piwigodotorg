@@ -47,11 +47,11 @@ function porg_user_init()
             $page['porg_domain_prefix'] = $subdomain.'.';
             $user['language'] = $porg_subdomains[$subdomain];
 
-            if ('fr' == $subdomain)
+            if (in_array($subdomain, array('fr', 'de')))
             {
                 global $page;
 
-                $page['porg_pcom_prefix'] = 'fr.';
+                $page['porg_pcom_prefix'] = $subdomain.'.';
             }
         }
     }
