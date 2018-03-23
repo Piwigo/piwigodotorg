@@ -20,22 +20,24 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['porg_doc_urls']['install'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:install';
-$lang['porg_doc_urls']['requirements'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before';
-$lang['porg_doc_urls']['upgrade'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_automatic';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_manual';
-$lang['porg_urls']['about-us'] = 'Sobre nós';
+
+$lang['porg_urls']['about-us'] = 'sobre-nos';
 $lang['porg_urls']['changelogs'] = 'changelogs';
-$lang['porg_urls']['coding-activity'] = 'atividade de codificação';
+$lang['porg_urls']['coding-activity'] = 'atividade-de-codificacao';
 $lang['porg_urls']['contact'] = 'contato';
-$lang['porg_urls']['features'] = 'características';
+$lang['porg_urls']['features'] = 'caracteristicas';
 $lang['porg_urls']['get-involved'] = 'envolver-se';
-$lang['porg_urls']['get-piwigo'] = 'obter o piwigo';
+$lang['porg_urls']['get-piwigo'] = 'obter-o-piwigo';
 $lang['porg_urls']['get-started'] = 'iniciar';
-$lang['porg_urls']['news'] = 'notícias';
-$lang['porg_urls']['newsletters'] = 'boletim de notícias';
+$lang['porg_urls']['news'] = 'noticias';
+$lang['porg_urls']['newsletters'] = 'boletim-de-noticias';
 $lang['porg_urls']['press'] = 'imprensa';
-$lang['porg_urls']['release'] = 'lançamento';
+$lang['porg_urls']['release'] = 'lancamento';
 $lang['porg_urls']['testimonials'] = 'depoimentos';
-$lang['porg_urls']['what-is-piwigo'] = 'O que é o piwigo';
+$lang['porg_urls']['what-is-piwigo'] = 'o-que-e-o-piwigo';
+
+$lang['porg_doc_urls']['install'] = 'http://br.piwigo.org/doc/doku.php?id=instalacao';
+$lang['porg_doc_urls']['requirements'] = 'http://br.piwigo.org/doc/doku.php?id=instalacao:requerimentos';
+$lang['porg_doc_urls']['upgrade'] = 'http://br.piwigo.org/doc/doku.php?id=atualizacao';
+$lang['porg_doc_urls']['upgrade_auto'] = 'http://br.piwigo.org/doc/doku.php?id=atualizacao:automatica';
+$lang['porg_doc_urls']['upgrade_manual'] = 'http://br.piwigo.org/doc/doku.php?id=atualizacao:manual';
