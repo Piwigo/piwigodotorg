@@ -176,7 +176,7 @@ function get_showcases()
 {
   global $lang_info, $conf;
 
-  $cache_path = $conf['data_location'].'showcases.cache.php';
+  $cache_path = $conf['data_location'].'porg_showcases-'.$lang_info['code'].'.cache.php';
   if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 hour ago'))
   {
     if ($lang_info['code'] != 'en')
