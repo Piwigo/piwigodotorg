@@ -244,6 +244,13 @@ function porg_load_content()
         if ('en_UK' == $user['language'])
         {
             $browser_language = substr(@$_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, 2);
+
+            // specific case for pt_BR, let's say it's "br" to make things simpler
+            if ('pt' == $browser_language)
+            {
+                $browser_language = 'br';
+            }
+
             if ('en' != $browser_language)
             {
                 include(PORG_PATH . '/data/languages.data.php');
