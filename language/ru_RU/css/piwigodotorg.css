@@ -1,0 +1,21 @@
+.pwg-banner .btn {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+
+.get-piwigo {
+    height: 200px;
+}
+.self-hosted-piwigo, .cloud-hosted-piwigo {
+  height: 450px;
+}
+
+.cloud-hosted-piwigo h2 {
+    margin-bottom: 53px;
+}
+
+.contact-logo {
+    height: 220px;
+    background-position: 66% 38px;
+}
