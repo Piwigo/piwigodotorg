@@ -26,19 +26,16 @@ $lang['porg_doc_urls']['upgrade'] = 'http://piwigo.org/doc/doku.php?id=user_docu
 $lang['porg_doc_urls']['upgrade_auto'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_automatic';
 $lang['porg_doc_urls']['upgrade_manual'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_manual';
 $lang['porg_urls']['coding-activity'] = 'Программирование';
-$lang['porg_urls']['about-us'] = 'О нас';
-$lang['porg_urls']['changelogs'] = 'Список изменений';
+$lang['porg_urls']['about-us'] = 'О-нас';
+$lang['porg_urls']['changelogs'] = 'Список-изменений';
 $lang['porg_urls']['contact'] = 'Контакты';
 $lang['porg_urls']['features'] = 'Особенности';
-$lang['porg_urls']['get-involved'] = '
-
-Принять участие
-';
-$lang['porg_urls']['get-piwigo'] = 'Получить Piwigo';
+$lang['porg_urls']['get-involved'] = 'Принять-участие';
+$lang['porg_urls']['get-piwigo'] = 'Получить-Piwigo';
 $lang['porg_urls']['get-started'] = 'Начать';
 $lang['porg_urls']['news'] = 'Новости';
 $lang['porg_urls']['newsletters'] = 'Объявления';
-$lang['porg_urls']['press'] = 'Пресса ';
+$lang['porg_urls']['press'] = 'Пресса';
 $lang['porg_urls']['release'] = 'Релиз';
 $lang['porg_urls']['testimonials'] = 'Отзывы';
-$lang['porg_urls']['what-is-piwigo'] = 'О Piwigo';
+$lang['porg_urls']['what-is-piwigo'] = 'О-Piwigo';
