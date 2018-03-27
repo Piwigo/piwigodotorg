@@ -128,7 +128,7 @@ function porg_load_header()
             'PORG_DOMAIN_PREFIX' => $page['porg_domain_prefix'],
             'PCOM_PREFIX' => isset($page['porg_pcom_prefix']) ? $page['porg_pcom_prefix'] : '',
             'PORG_IS_PRODUCTION' => preg_match('/^([a-z]+\.)?piwigo\.org$/', $_SERVER['HTTP_HOST']),
-            'HEADER_SHOW_HOME' => ('de_DE' == $user['language'] ? false : true),
+            'HEADER_SHOW_HOME' => !in_array($user['language'], array('de_DE', 'ru_RU')),
         )
     );
 
