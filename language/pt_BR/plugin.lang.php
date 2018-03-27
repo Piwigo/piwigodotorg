@@ -120,3 +120,4 @@ $lang['High Volume'] = 'Volume Alto';
 $lang['Home'] = 'Home';
 $lang['Individuals'] = 'Individuais';
 $lang['Languages'] = 'Idiomas';
+$lang['yesterday'] = 'ontem';
