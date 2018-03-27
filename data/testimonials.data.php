@@ -3,6 +3,21 @@
 $testimonials = array(
   array(
     'language' => 'en',
+    'added_on' => '2018-03-27',
+    'user' => array(
+      'username' => 'Stuart J. Whitmore',
+      'country' => 'USA',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/stuart-j-whitmore.jpg',
+    ),
+    'content' => '
+For years, my family used an older gallery product that is no longer supported. As that code base grew older, I was troubled about keeping it in use but I didn\'t like other options -- until I found Piwigo. We currently have over 11,000 photos in our family gallery, and Piwigo is handling that nicely, with easy options for adding a lot more in bulk (and I have a LOT more to add).
+
+I feel more limited by my time and energy than by the software. Keep up the good work!
+',
+  ),
+  array(
+    'language' => 'en',
     'added_on' => '2018-03-13',
     'user' => array(
       'username' => 'Richard Histon',
