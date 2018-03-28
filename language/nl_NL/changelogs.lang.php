@@ -21,5 +21,5 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['porg_changelogs_desc1'] = 'Dit is de lijst met alle stabiele Piwigo releases.';
-$lang['porg_changelogs_desc2'] = 'Gebruik onze recentste release: betere support en alle gekende veiligheidslekken zullen opgelost zijn.';
-$lang['porg_changelogs_technicals_desc1'] = 'Als je technische inzage in releases nodig hebt, ga naar de <a href="%s">Branches and Releases</a> pagina.';
+$lang['porg_changelogs_desc2'] = 'Gebruik onze laatste release: u krijgt betere ondersteuning en alle bekende beveiligingsproblemen worden verholpen.';
+$lang['porg_changelogs_technicals_desc1'] = 'Als je technische weergaven van de releases nodig hebt ga dan naar de <a href="%s">Branches en Releases</a> pagina';
