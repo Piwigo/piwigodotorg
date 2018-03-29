@@ -20,6 +20,7 @@ $porg_languages_switch = array(
   'fr' => 'Piwigo.org est aussi disponible en Français',
   'br' => 'Piwigo.org também está disponível em Português Brasil',
   'ru' => 'Piwigo.org также доступен на русском языке',
+  'da' => 'Piwigo.org er også tilgængelig på dansk',
 );
 
 $porg_languages = array(
