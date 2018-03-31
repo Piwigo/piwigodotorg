@@ -120,3 +120,4 @@ $lang['Get Started'] = 'Начать';
 $lang['Home'] = 'Домой';
 $lang['Individuals'] = 'Частные лица';
 $lang['Languages'] = 'Языки';
+$lang['yesterday'] = 'вчера';
