@@ -39,4 +39,4 @@ $lang['Infrastructure'] = 'Инфраструктура';
 $lang['Install Guide'] = 'Руководство по установке';
 $lang['Self-hosted Piwigo'] = 'Piwigo на собственном хостинге';
 $lang['Upgrade Guide'] = 'Руководство по обновлению';
-$lang['download_piwigo'] = 'Скачать<br>Piwigo';
+$lang['Download<br>Piwigo %s'] = 'Скачать<br>Piwigo %s';
