@@ -39,4 +39,4 @@ $lang['porg_get_piwigo_desc2'] = 'Of u host zelf, bijvoorbeeld met OVH of BlueHo
 $lang['porg_get_piwigo_desc3'] = 'In beide gevallen blijft u eigenaar van uw gegevens.';
 $lang['porg_get_piwigo_mobile_desc1'] = 'Gebruikt u uw iPhone als camera? Publiceer uw foto\'s rechtstreeks van uw smartphone naar uw Piwigo.';
 $lang['Blog'] = 'Blog';
-$lang['download_piwigo'] = 'Download<br>Piwigo';
+$lang['Download<br>Piwigo %s'] = 'Download<br>Piwigo %s';
