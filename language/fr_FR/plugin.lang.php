@@ -77,8 +77,8 @@ $lang['language_nb_NO'] = 'Norvégien';
 $lang['language_nn_NO'] = 'Norvégien';
 $lang['language_nl_NL'] = 'Hollandais';
 $lang['language_pl_PL'] = 'Polonais';
-$lang['language_pt_BR'] = 'Portuguais brésilien';
-$lang['language_pt_PT'] = 'Portuguais';
+$lang['language_pt_BR'] = 'Portugais brésilien';
+$lang['language_pt_PT'] = 'Portugais';
 $lang['language_ro_RO'] = 'Roumain';
 $lang['language_ru_RU'] = 'Russe';
 $lang['language_sh_RS'] = 'Serbe';
@@ -109,4 +109,5 @@ $lang['Get started with Piwigo'] = 'Démarrez avec Piwigo';
 $lang['porg_get_started_desc'] = 'Prêt à gérer vos photos grâce à Piwigo ? Rejoignez notre communauté !';
 $lang['[piwigo.org contact form, %s] %s contacted you on %s'] = '[piwigo.org formulaire de contact, %s] %s a pris contact le %s';
 $lang['yesterday'] = 'hier';
-?>
+$lang['language_id_ID'] = 'Bahasa Indonésie';
+$lang['language_ka_GE'] = 'Géorgien';
