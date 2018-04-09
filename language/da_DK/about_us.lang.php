@@ -23,7 +23,7 @@
 $lang['Arrivals of Plugins'] = 'Plugins ankommer';
 $lang['porg_about_us_join_desc2'] = 'Hvis du tror på vores mission, så bliv en del af den :-)';
 $lang['porg_about_us_launch_desc'] = 'Cloudhosting, straks anvendelig Piwigo for alle.';
-$lang['porg_about_us_mission_desc'] = 'Piwigos mission er et bygge det bedste open source-program til fotohåndtering på nettet, med stærkt fokus på brugeroplevelsen frem for teknologi.';
+$lang['porg_about_us_mission_desc'] = 'Piwigos mission er at bygge det bedste open source-program til fotohåndtering på nettet, med stærkt fokus på brugeroplevelsen frem for teknologi.';
 $lang['porg_about_us_plugins_desc1'] = 'Større teknisk og indstillingsmæssig forandring.';
 $lang['porg_about_us_plugins_desc2'] = 'Nye funktioner og nye bidragydere.';
 $lang['porg_about_us_recruitement_desc'] = 'Holdet bliver større, og kodeaktiviteten vokser stærkt.';
