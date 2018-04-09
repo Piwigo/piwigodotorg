@@ -120,3 +120,4 @@ $lang['Home'] = 'Hjem';
 $lang['Individuals'] = 'Enkeltpersoner';
 $lang['Languages'] = 'Sprog';
 $lang['About'] = 'Om';
+$lang['yesterday'] = 'i går';
