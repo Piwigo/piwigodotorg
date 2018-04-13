@@ -5,10 +5,10 @@ $testimonials = array(
     'language' => 'en',
     'added_on' => '2018-04-13',
     'user' => array(
-      'username' => 'Thomas Sobek',
+      'username' => 'Tomas Sobek',
       'country' => 'New Zealand',
       'type' => 'Individual',
-      'picture' => 'images/testimonies/thomas-sobek.jpg',
+      'picture' => 'images/testimonies/tomas-sobek.jpg',
       'url' => 'https://tomassobekphotography.co.nz'
     ),
     'content' => '
