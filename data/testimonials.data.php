@@ -3,6 +3,24 @@
 $testimonials = array(
   array(
     'language' => 'en',
+    'added_on' => '2018-04-13',
+    'user' => array(
+      'username' => 'Thomas Sobek',
+      'country' => 'New Zealand',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/thomas-sobek.jpg',
+      'url' => 'https://tomassobekphotography.co.nz'
+    ),
+    'content' => '
+I am a photography enthusiast, sharing lots of free stock photos and photos from hiking trips in New Zealand. I have close to 3,500 images in my Piwigo photo gallery, and all is running very smooth.
+
+I discovered Piwigo in 2015. I needed to replace a discontinued photo gallery with something new and Piwigo ticked all the boxes for me. I never looked back - setup was fairly straightforward and maintenance is effortless. No fuss, things just work. And when something breaks (I had a broken version update once) then I received immediate help on community forums and the issue was resolved within a few hours. Frankly, that\'s faster than paid-for commercial support with most vendors I know of.
+
+One important factor why I picked Piwigo over other available options is the community spirit. I prefer supporting software that is available for everyone to use in any way they like. This is profoundly different from vendor lock-in and EULAs full of small print, that you find with proprietary products.
+',
+  ),
+  array(
+    'language' => 'en',
     'added_on' => '2018-03-27',
     'user' => array(
       'username' => 'Stuart J. Whitmore',
