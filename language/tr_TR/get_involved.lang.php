@@ -36,3 +36,4 @@ $lang['Translation tool'] = 'Çeviri aracı';
 $lang['We are grateful !'] = 'Minnettarız!';
 $lang['You know how to code?'] = 'Kodlama biliyor musun?';
 $lang['Your Gift'] = 'Hediyen';
+$lang['porg_get_involved_translate_desc1'] = 'Piwigo\'yu çevirin, eksik olan veya yanlışlıkları düzeltin.';
