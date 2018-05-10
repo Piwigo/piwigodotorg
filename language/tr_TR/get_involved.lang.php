@@ -37,3 +37,5 @@ $lang['We are grateful !'] = 'Minnettarız!';
 $lang['You know how to code?'] = 'Kodlama biliyor musun?';
 $lang['Your Gift'] = 'Hediyen';
 $lang['porg_get_involved_translate_desc1'] = 'Piwigo\'yu çevirin, eksik olan veya yanlışlıkları düzeltin.';
+$lang['porg_get_involved_donate_desc3'] = 'Neden sizde bağış yapmayasınız ki?';
+$lang['porg_get_involved_donate_desc5'] = 'ile ödeme';
