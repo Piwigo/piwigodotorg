@@ -127,7 +127,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <a class="btn" href="http://piwigo.org/download/dlcounter.php?code={$upgrade_code}">{$upgrade_from}_to_{$version}.zip</a>
+            <a class="btn" href="//piwigo.org/download/dlcounter.php?code={$upgrade_code}">{$upgrade_from}_to_{$version}.zip</a>
           </div>
         </div>
         <div class="manual-upgrade">

@@ -179,7 +179,7 @@ function get_showcases()
   $cache_path = $conf['data_location'].'porg_showcases-'.$lang_info['code'].'.cache.php';
   if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 hour ago'))
   {
-    $url = 'http://' . $page['porg_domain_prefix'] . 'piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
+    $url = 'https://' . $page['porg_domain_prefix'] . 'piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
 
     $content = @file_get_contents($url);
     if ($content !== false)
@@ -314,7 +314,7 @@ function porg_get_news($start, $count)
         $imgs = $doc->getElementsByTagName('img');
 
         foreach ($imgs as $img) {
-          $topics[$idx]['img_src'] = $img->getAttribute('src');
+          $topics[$idx]['img_src'] = str_replace('http://', 'https://', $img->getAttribute('src'));
           break;
         }
 
@@ -378,6 +378,7 @@ function porg_get_newsletters($lang_code)
     foreach ($newsletters as $idx => $newsletter)
     {
       $newsletters[$idx]['id'] = $lang_code.'-'.$idx;
+      $newsletters[$idx]['image'] = preg_replace('{http://([a-z]{2,3}\.)?piwigo.org/}', '//${1}piwigo.org/', $newsletters[$idx]['image']);
       $newsletters[$idx]['date_label'] = porg_date_format($idx);
       $newsletters[$idx]['url'] = porg_get_page_label('newsletters').'-'.str_replace('-', '', $idx);
     }

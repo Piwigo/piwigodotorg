@@ -4,8 +4,8 @@
         <div class="row">
           <div class="col-md-2">
             <div class="text-center icon-social-media">
-              <a href="http://www.facebook.com/Piwigo"><img src="{$PORG_ROOT_URL}images/footer/facebook.svg" class="icon-facebook" alt="Facebook icon"></a>
-              <a href="http://twitter.com/piwigo"><img src="{$PORG_ROOT_URL}images/footer/twitter.svg" class="icon-twitter" alt="Twitter icon"></a>
+              <a href="https://www.facebook.com/Piwigo"><img src="{$PORG_ROOT_URL}images/footer/facebook.svg" class="icon-facebook" alt="Facebook icon"></a>
+              <a href="https://twitter.com/piwigo"><img src="{$PORG_ROOT_URL}images/footer/twitter.svg" class="icon-twitter" alt="Twitter icon"></a>
               <a href="https://github.com/Piwigo"><img src="{$PORG_ROOT_URL}images/footer/github.svg" class="icon-github" alt="Github icon"></a>
             </div>
             <div class="row">
@@ -25,10 +25,10 @@
             <div class="col-md-15 col-xs-6">
               <h5>{'Discover'|translate}</h5>
                 <ul>
-                  <li><a href="http://piwigo.org/demo/">{'Demo'|translate}</a></li>
+                  <li><a href="//piwigo.org/demo/">{'Demo'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.what_is_piwigo}">{'What is Piwigo?'|translate}</a> </li>
                   <li><a href="{$PORG_ROOT}{$URL.features}">{'Features'|translate}</a> </li>
-                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'Showcases'|translate}</a></li>
+                  <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'Showcases'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.changelogs}">{'Changelogs'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>
                 </ul>
@@ -36,16 +36,16 @@
             <div class="col-md-15 col-xs-6">
               <h5>{'Extension'|translate}</h5>
                 <ul>
-                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Themes'|translate}</a></li>
-                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Plugins'|translate}</a> </li>
-                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Languages'|translate}</a></li>
+                  <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Themes'|translate}</a></li>
+                  <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Plugins'|translate}</a> </li>
+                  <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Languages'|translate}</a></li>
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
               <h5>{'Support'|translate}</h5>
                 <ul>
-                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a></li>
-                  <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/doc/">{'Documentation'|translate}</a> </li>
+                  <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a></li>
+                  <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/doc/">{'Documentation'|translate}</a> </li>
                   <li><a href="{$PORG_ROOT}{$URL.get_started}">{'Get Started'|translate}</a></li>
                 </ul>
             </div>

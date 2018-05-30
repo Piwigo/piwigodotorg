@@ -107,7 +107,7 @@ $(document).ready(function() {
           <p>{'Batch Management'|translate}</p></a>
         </div>
         <div class="col col-md-3 col-xs-6 feature-content">
-          <a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext/"><img src="{$PORG_ROOT_URL}images/home/paint-brush.svg" alt="A piwigo feature"><br>
+          <a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/"><img src="{$PORG_ROOT_URL}images/home/paint-brush.svg" alt="A piwigo feature"><br>
           <p>{'Themes & Plugins'|translate}</p></a>
         </div>
         <div class="col col-md-3 col-xs-6 feature-content">
@@ -154,7 +154,7 @@ $(document).ready(function() {
   <section class="container container-showcase">
     <div class="row text-center">
       <div class="col-md-2 col-xs-6 showcase-button">
-          <a type="button" class="btn btn-view-more-showcases" href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'View more showcases'|translate}</a>
+          <a type="button" class="btn btn-view-more-showcases" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'View more showcases'|translate}</a>
       </div>
       <div class="col-md-2 col-xs-6 btn-refresh">
           <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>

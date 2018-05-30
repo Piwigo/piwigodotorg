@@ -17,7 +17,7 @@
         <img src="{$PORG_ROOT_URL}images/get_involved/community.svg"/>
         <h2>{'Help the Community'|translate}</h2>
         <p>{'porg_get_involved_community_desc'|translate}</p>
-        <a class="btn" href="http://piwigo.org/forum/">{'Forum'|translate}</a>
+        <a class="btn" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a>
       </div>
       <div class="col-md-6 get-involved-how-to-code">
         <img src="{$PORG_ROOT_URL}images/get_involved/code.svg"/>
@@ -31,7 +31,7 @@
         <img src="{$PORG_ROOT_URL}images/get_involved/idea.svg"/>
         <h2>{'Submit product improvment'|translate}</h2>
         <p>{'porg_get_involved_improvment_desc'|translate}</p>
-        <a class="btn" href="http://piwigo.org/forum/">{'Forum'|translate}</a>
+        <a class="btn" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a>
       </div>
       <div class="col-md-6 get-involved-write-review">
         <img src="{$PORG_ROOT_URL}images/get_involved/review.svg"/>

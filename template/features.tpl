@@ -96,7 +96,7 @@ tags to reduce the selection.</p>
         <h2>{'Themes & Plugins'|translate}</h2>
         <p>{'porg_features_plugins_desc1'|translate} {'porg_features_plugins_desc2'|translate} {'porg_features_plugins_desc3'|translate}
         {'porg_features_plugins_desc4'|translate}<p>
-        <a class="btn bold" href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext">{'See more'|translate}</a>
+        <a class="btn bold" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext">{'See more'|translate}</a>
       </div>
       <div class="col-md-4 features-puzzle-right">
         <img src="{$PORG_ROOT_URL}images/features/puzzle2.svg"/>

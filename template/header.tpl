@@ -88,13 +88,13 @@
             <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>
           </ul>
         </li>
-        <li class=""><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/ext"><i class="icon-puzzle"></i>{'Extensions'|translate}</a></li>
+        <li class=""><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext"><i class="icon-puzzle"></i>{'Extensions'|translate}</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-wrench"></span>{'Support'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
           <ul class="dropdown-menu dropdown-menu-left">
             <li><a href="{$PORG_ROOT}{$URL.get_started}">{'Get Started'|translate}</a></li>
-            <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a></li>
-            <li><a href="http://{$PORG_DOMAIN_PREFIX}piwigo.org/doc/">{'Documentation'|translate}</a></li>
+            <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a></li>
+            <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/doc/">{'Documentation'|translate}</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -115,7 +115,7 @@
           </ul>
         </li>
         <li class="pwg-navbar-button">
-          <a href="http://piwigo.org/demo/" class="pwg-navbar-button-demo"><span>{'Demo'|translate}</span></a>
+          <a href="//piwigo.org/demo/" class="pwg-navbar-button-demo"><span>{'Demo'|translate}</span></a>
           <a href="{$PORG_ROOT}{$URL.get_piwigo}" class="pwg-navbar-button-get-piwigo"><span>{'Get Piwigo'|translate}</span></a>
         </li>
       </ul>
