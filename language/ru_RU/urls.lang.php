@@ -20,11 +20,11 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['porg_doc_urls']['install'] = 'http://ru.piwigo.org/doc/doku.php?id=установка';
-$lang['porg_doc_urls']['requirements'] = 'http://ru.piwigo.org/doc/doku.php?id=установка:требования';
-$lang['porg_doc_urls']['upgrade'] = 'http://ru.piwigo.org/doc/doku.php?id=руководство_по_обновлению';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://ru.piwigo.org/doc/doku.php?id=руководство_по_обновлению:автоматическое_обновление';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://ru.piwigo.org/doc/doku.php?id=руководство_по_обновлению:обновление_в_ручном_режиме';
+$lang['porg_doc_urls']['install'] = 'https://ru.piwigo.org/doc/doku.php?id=установка';
+$lang['porg_doc_urls']['requirements'] = 'https://ru.piwigo.org/doc/doku.php?id=установка:требования';
+$lang['porg_doc_urls']['upgrade'] = 'https://ru.piwigo.org/doc/doku.php?id=руководство_по_обновлению';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://ru.piwigo.org/doc/doku.php?id=руководство_по_обновлению:автоматическое_обновление';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://ru.piwigo.org/doc/doku.php?id=руководство_по_обновлению:обновление_в_ручном_режиме';
 $lang['porg_urls']['coding-activity'] = 'Программирование';
 $lang['porg_urls']['about-us'] = 'О-нас';
 $lang['porg_urls']['changelogs'] = 'Список-изменений';

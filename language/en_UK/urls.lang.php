@@ -14,9 +14,9 @@ $lang['porg_urls']['press'] = 'press';
 $lang['porg_urls']['release'] = 'release';
 $lang['porg_urls']['testimonials'] = 'testimonials';
 
-$lang['porg_doc_urls']['requirements'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before';
-$lang['porg_doc_urls']['install'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:install';
-$lang['porg_doc_urls']['upgrade'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_automatic';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_manual';
+$lang['porg_doc_urls']['requirements'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before';
+$lang['porg_doc_urls']['install'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:install';
+$lang['porg_doc_urls']['upgrade'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_automatic';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_manual';
 ?>

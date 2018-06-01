@@ -35,8 +35,8 @@ $lang['porg_urls']['release'] = 'release';
 $lang['porg_urls']['testimonials'] = 'referenzen';
 $lang['porg_urls']['what-is-piwigo'] = 'was-ist-piwigo';
 
-$lang['porg_doc_urls']['requirements'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung:voraussetzungen';
-$lang['porg_doc_urls']['install'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung';
-$lang['porg_doc_urls']['upgrade'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:automatische';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:manuelle';
+$lang['porg_doc_urls']['requirements'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung:voraussetzungen';
+$lang['porg_doc_urls']['install'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung';
+$lang['porg_doc_urls']['upgrade'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:automatische';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:manuelle';

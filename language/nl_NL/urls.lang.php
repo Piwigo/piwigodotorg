@@ -14,8 +14,8 @@ $lang['porg_urls']['release'] = 'release';
 $lang['porg_urls']['testimonials'] = 'getuigenissen';
 $lang['porg_urls']['what-is-piwigo'] = 'wat-is-piwigo';
 
-$lang['porg_doc_urls']['requirements'] = 'http://nl.piwigo.org/doc/doku.php?id=installatie:vereisten';
-$lang['porg_doc_urls']['install'] = 'http://nl.piwigo.org/doc/doku.php?id=installatie';
-$lang['porg_doc_urls']['upgrade'] = 'http://nl.piwigo.org/doc/doku.php?id=upgrade';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://nl.piwigo.org/doc/doku.php?id=upgrade:automatische';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://nl.piwigo.org/doc/doku.php?id=upgrade:handmatige';
+$lang['porg_doc_urls']['requirements'] = 'https://nl.piwigo.org/doc/doku.php?id=installatie:vereisten';
+$lang['porg_doc_urls']['install'] = 'https://nl.piwigo.org/doc/doku.php?id=installatie';
+$lang['porg_doc_urls']['upgrade'] = 'https://nl.piwigo.org/doc/doku.php?id=upgrade';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://nl.piwigo.org/doc/doku.php?id=upgrade:automatische';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://nl.piwigo.org/doc/doku.php?id=upgrade:handmatige';

@@ -1,9 +1,9 @@
 <?php
-$lang['porg_doc_urls']['install'] = 'http://da.piwigo.org/doc/doku.php?id=Installeringsvejledning';
-$lang['porg_doc_urls']['requirements'] = 'http://da.piwigo.org/doc/doku.php?id=Installeringsvejledning:Forudsætninger';
-$lang['porg_doc_urls']['upgrade'] = 'http://da.piwigo.org/doc/doku.php?id=Opgraderingsvejledning';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://da.piwigo.org/doc/doku.php?id=Opgraderingsvejledning:Automatisk';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://da.piwigo.org/doc/doku.php?id=Opgraderingsvejledning:Manuel';
+$lang['porg_doc_urls']['install'] = 'https://da.piwigo.org/doc/doku.php?id=Installeringsvejledning';
+$lang['porg_doc_urls']['requirements'] = 'https://da.piwigo.org/doc/doku.php?id=Installeringsvejledning:Forudsætninger';
+$lang['porg_doc_urls']['upgrade'] = 'https://da.piwigo.org/doc/doku.php?id=Opgraderingsvejledning';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://da.piwigo.org/doc/doku.php?id=Opgraderingsvejledning:Automatisk';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://da.piwigo.org/doc/doku.php?id=Opgraderingsvejledning:Manuel';
 $lang['porg_urls']['about-us'] = 'om-os';
 $lang['porg_urls']['changelogs'] = 'aendringslogger';
 $lang['porg_urls']['coding-activity'] = 'kodeaktivitet';

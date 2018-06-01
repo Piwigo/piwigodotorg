@@ -20,11 +20,11 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['porg_doc_urls']['install'] = 'http://it.piwigo.org/doc';
-$lang['porg_doc_urls']['requirements'] = 'http://it.piwigo.org/doc';
-$lang['porg_doc_urls']['upgrade'] = 'http://it.piwigo.org/doc';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://it.piwigo.org/doc';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://it.piwigo.org/doc';
+$lang['porg_doc_urls']['install'] = 'https://it.piwigo.org/doc';
+$lang['porg_doc_urls']['requirements'] = 'https://it.piwigo.org/doc';
+$lang['porg_doc_urls']['upgrade'] = 'https://it.piwigo.org/doc';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://it.piwigo.org/doc';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://it.piwigo.org/doc';
 $lang['porg_urls']['about-us'] = 'chi-siamo';
 $lang['porg_urls']['changelogs'] = 'storico-release';
 $lang['porg_urls']['coding-activity'] = 'attività-sviluppo';

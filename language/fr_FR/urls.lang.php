@@ -14,9 +14,9 @@ $lang['porg_urls']['press'] = 'presse';
 $lang['porg_urls']['release'] = 'version';
 $lang['porg_urls']['testimonials'] = 'temoignages';
 
-$lang['porg_doc_urls']['requirements'] = 'http://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:avant';
-$lang['porg_doc_urls']['install'] = 'http://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:installation';
-$lang['porg_doc_urls']['upgrade'] = 'http://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj:maj_auto';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj:maj_manuelle';
+$lang['porg_doc_urls']['requirements'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:avant';
+$lang['porg_doc_urls']['install'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:installation';
+$lang['porg_doc_urls']['upgrade'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj:maj_auto';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj:maj_manuelle';
 ?>
