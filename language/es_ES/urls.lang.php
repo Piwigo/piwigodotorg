@@ -38,6 +38,6 @@ $lang['porg_urls']['get-started'] = 'empieza';
 $lang['porg_urls']['news'] = 'noticias';
 $lang['porg_urls']['newsletters'] = 'boletin-de-noticias';
 $lang['porg_urls']['press'] = 'prensa';
-$lang['porg_urls']['release'] = 'version-publicada';
+$lang['porg_urls']['release'] = 'version';
 $lang['porg_urls']['testimonials'] = 'testimonios';
 $lang['porg_urls']['what-is-piwigo'] = 'que-es-piwigo';
