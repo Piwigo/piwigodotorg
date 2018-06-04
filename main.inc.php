@@ -115,12 +115,34 @@ function porg_load_header()
 {
     global $template, $page, $lang, $user;
 
+    $is_production = preg_match('/^([a-z]+\.)?piwigo\.org$/', $_SERVER['HTTP_HOST']);
+
+    $porg_root = '';
+    if ($is_production)
+    {
+        $is_https = false;
+        if (isset($_SERVER['HTTPS']) and ((strtolower($_SERVER['HTTPS']) == 'on') or ($_SERVER['HTTPS'] == 1)))
+        {
+            $is_https = true;
+        }
+
+        // if we're not in HTTPS, we're going to force it on menu links. We could also automatically
+        // redirect to HTTPS, but we lose the referer, which is a bad thing.
+        if (!$is_https)
+        {
+            $porg_root = 'https://'.$_SERVER['HTTP_HOST'].'/';
+        }
+    }
+
+    porg_init_redirect_https();
+
     $porg_root_url = get_absolute_root_url();
     $porg_root_url_piwigodotorg = get_absolute_root_url() . PORG_PATH;
     $template->set_template_dir(PORG_PATH);
     $template->set_filenames(array('header_porg' => realpath(PORG_PATH .'template/header.tpl')));
     $template->assign(
         array(
+            'PORG_ROOT' => $porg_root,
             'PORG_ROOT_URL' => $porg_root_url,
             'PORG_ROOT_URL_PLUGINS' => $porg_root_url_piwigodotorg,
             'URL' => porg_get_page_urls(),
@@ -286,6 +308,7 @@ function porg_load_footer()
     if (preg_match('/^(http.*?)([a-z]+\.)?piwigo.org/', $porg_root_url, $matches))
     {
         $base_url = $matches[1];
+        $base_url = str_replace('http://', 'https://', $base_url);
 
         include(PORG_PATH . '/data/languages.data.php');
 
@@ -321,4 +344,78 @@ function porg_load_footer()
     exit();
 }
 
+// add_event_handler('init', 'porg_init_redirect_https');
+function porg_init_redirect_https()
+{
+    $is_bot = false;
+
+    $bots = array(
+        'Googlebot',
+        'bingbot',
+        'Baiduspider',
+        'yandex',
+        'AhrefsBot',
+        'msnbot',
+        'Slurp',
+        'BLEXBot',
+        'VoilaBot',
+        'MegaIndex',
+        'MJ12bot',
+        'Mediapartners-Google',
+        'OpenSearchServer',
+        'MSNBot',
+        'ExaBot',
+        'MooveOnBot',
+        'gloObotBot',
+        'VerticrawlBot',
+        'TwengaBot',
+        'YacyBot',
+        'BingBot',
+        'Adidxbot',
+        'BingPreview',
+        'DuckDuckBot',
+        'AynidBot',
+        'Heritrix',
+        'SemrushBot',
+        'DomainCrawler',
+        'DotBot',
+        'exensa',
+        'OpenLinkProfiler',
+        'YisouSpider',
+        'GarlikCrawler',
+        'UptimeRobot',
+        'Exalead',
+        'Riddler',
+        'seoscanners',
+        'vebidoobot',
+        'XoviBot',
+        'BUbiNG',
+        'MauiBot',
+        'The Knowledge AI',
+    );
+
+    if (isset($_SERVER["HTTP_USER_AGENT"]) and preg_match('/('.implode('|', $bots).')/', $_SERVER['HTTP_USER_AGENT']))
+    {
+        $is_bot = true;
+    }
+
+    $is_from_piwigodotorg = false;
+
+    if (isset($_SERVER['HTTP_REFERER']) and preg_match('{^http://([a-z]{2}\.)?piwigo.org/}', $_SERVER['HTTP_REFERER']))
+    {
+        $is_from_piwigodotorg = true;
+    }
+
+    if ($is_bot or $is_from_piwigodotorg)
+    {
+        // time to force redirect on HTTPS
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST' and (!isset($_SERVER['HTTPS']) or $_SERVER['HTTPS'] != 'on'))
+        {
+            global $logger; $logger->info(__FUNCTION__.', redirect ('.($is_bot ? 'bot' : '').' '.($is_from_piwigodotorg ? 'from_piwigo.org' : '').')');
+            header("HTTP/1.1 301 Moved Permanently");
+            header("Location: https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+            exit();
+        }
+    }
+}
 ?>
