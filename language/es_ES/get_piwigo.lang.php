@@ -21,7 +21,7 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Blog'] = 'Blog';
-$lang['Cloud-hosted Piwigo'] = 'Piwigo alojado en la nube';
+$lang['Cloud-hosted Piwigo'] = 'Piwigo.com, todo incluido';
 $lang['Enterprises'] = 'Empresas';
 $lang['Infrastructure'] = 'Infraestructura';
 $lang['Install Guide'] = 'Guía de instalación';

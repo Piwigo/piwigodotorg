@@ -1,0 +1,20 @@
+.pwg-banner .btn {
+  font-size:26px;
+}
+
+.pwg-banner .pwg-tagline p {
+  font-size: 0.95em;
+}
+
+.contact-logo {
+    height: 204px;
+    background-position: 66% 38px;
+}
+
+.self-hosted-piwigo, .cloud-hosted-piwigo {
+  height: 400px;
+}
+
+.self-hosted-piwigo .btn-download-piwigo {
+    padding-top: 51px;
+}
