@@ -35,3 +35,6 @@ $lang['No database upgrade is required.'] = 'Aktualizacja bazy danych nie jest w
 $lang['Release note'] = 'Informacje o wydaniu';
 $lang['Updated languages'] = 'Aktualizuj języki';
 $lang['Upgrade'] = 'Aktualizacja';
+$lang['You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.'] = 'Możesz porównać sumy kontrolne md5 (md5sum) swoich pobranych plików z oficjalnymi sumami dostępnymi na piwigo.org.';
+$lang['If you are running a version older than %s and do not want to use the automatic upgrade, then follow the <b>manual upgrade</b>.'] = 'Jeśli pracujesz na wersji starszej niż %s i nie chcesz użyć automatycznej aktualizacji, postępuj zgodnie z <b>ręczna aktualizacją</b>.';
+$lang['If you\'re running <b>Piwigo %s</b> you can also download the <b>%s_to_%s.zip</b> archive that contains all new and modified files.'] = 'Jeśli pracujesz z <b>Piwigo %s</b>, możesz również pobrać archiwum <b>%s_to_%s.zip</b>, które zawiera wszystkie nowe i zmodyfikowane pliki.';
