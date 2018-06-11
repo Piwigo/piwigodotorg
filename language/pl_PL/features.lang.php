@@ -53,3 +53,10 @@ $lang['porg_features_plugins_desc2'] = 'Rozbudowane właściwości za pomocą ro
 $lang['porg_features_plugins_desc3'] = 'Instalacja rozszerzeń w zaledwie kilka kliknięć.';
 $lang['porg_features_plugins_desc4'] = 'Dostępne jest <span class="bold">350 rozszeżeń</span>, i ciągle dochodzą nowe!';
 $lang['porg_features_privacy_desc1'] = 'Ustaw zdjęcia jako prywatne i zadecyduj kto może je oglądać.';
+$lang['porg_features_upload_desc'] = 'Możesz dodawać zdjęcia za pomocą formularza WWW, klienta FTP,<br>aplikacji digiKam, Shotwell, Lightroom lub<br>z pomocą dedykowanego klienta na smartfona.';
+$lang['porg_features_user_management_desc1'] = 'Administratorzy mogą tworzyć użytkowników, grupy, zarządzań uprawnieniami i wysyłać powiadomienia.';
+$lang['porg_features_user_management_desc2'] = 'Kilku administratorów może pracować w Piwigo jednocześnie.';
+$lang['porg_features_organize_desc1'] = 'Przenoś swoje zdjęcia pomiędzy swoimi albumami.';
+$lang['porg_features_privacy_desc2'] = 'Możesz ustawić uprawnienia na album lub na zdjęcia, dla grup lub indywidualnych użytkowników.';
+$lang['porg_features_slideshow_desc'] = 'Z dodatkiem Fotorama, lub wybranymi tematami jak Bootstrap Darkroom, możesz oglądać pełnoekranowe pokazy zdjęć.';
+$lang['porg_features_user_management_desc3'] = 'Idealny dla Twojego zespołu!';
