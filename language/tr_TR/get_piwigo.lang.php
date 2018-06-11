@@ -22,7 +22,6 @@
 // +-----------------------------------------------------------------------+
 $lang['Blog'] = 'e-Günce (Blog)';
 $lang['Infrastructure'] = 'Altyapı';
-$lang['download_piwigo'] = 'Piwigo’yu<br>İndir';
 $lang['Install Guide'] = 'Yükleme Kılavuzu';
 $lang['NetInstall'] = 'Otomatik yükleme (NetInstall)';
 $lang['Piwigo Mobile App'] = 'Piwigo Mobil Uygulaması';
@@ -40,3 +39,4 @@ $lang['porg_get_piwigo_cloud_hosted_desc2'] = 'Yüklemeler, güncellemeler, yede
 $lang['porg_get_piwigo_cloud_hosted_desc3'] = 'Ayrıca Piwigo\'nun yapımcılarından özel destek alacaksınız.';
 $lang['Enterprises'] = 'Şirketler';
 $lang['porg_get_piwigo_cloud_hosted_desc1'] = 'Piwigo.com ile ilerlemeye karar verdiyseniz teknik görevleri unutun.';
+$lang['Download<br>Piwigo %s'] = 'Piwigo <br> %s İndir';
