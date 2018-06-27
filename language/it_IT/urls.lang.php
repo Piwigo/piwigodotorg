@@ -21,11 +21,11 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 
-$lang['porg_doc_urls']['install'] = 'https://it.piwigo.org/doc';
-$lang['porg_doc_urls']['requirements'] = 'https://it.piwigo.org/doc';
-$lang['porg_doc_urls']['upgrade'] = 'https://it.piwigo.org/doc';
-$lang['porg_doc_urls']['upgrade_auto'] = 'https://it.piwigo.org/doc';
-$lang['porg_doc_urls']['upgrade_manual'] = 'https://it.piwigo.org/doc';
+$lang['porg_doc_urls']['install'] = 'https://it.piwigo.org/doc/doku.php?id=installazione';
+$lang['porg_doc_urls']['requirements'] = 'https://it.piwigo.org/doc/doku.php?id=installazione:requisiti';
+$lang['porg_doc_urls']['upgrade'] = 'https://it.piwigo.org/doc/doku.php?id=aggiornamento';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://it.piwigo.org/doc/doku.php?id=aggiornamento:automatico';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://it.piwigo.org/doc/doku.php?id=aggiornamento:manuale';
 
 $lang['porg_urls']['about-us'] = 'chi-siamo';
 $lang['porg_urls']['changelogs'] = 'storico-release';
