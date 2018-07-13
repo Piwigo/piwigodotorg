@@ -1,6 +1,35 @@
 <?php
 
 $porg_releases = array(
+  '2.9.4' => array(
+    'released_on' => '2018-07-13',
+    'md5sum' => 'TODO',
+    'summary' => array('bug fixes (including security)'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 894, 'section' => 'Technical'),
+      array('id' => 891, 'section' => 'Security'),
+      array('id' => 890, 'section' => 'Security'),
+      array('id' => 889, 'section' => 'Technical'),
+      array('id' => 888, 'section' => 'Technical'),
+      array('id' => 887, 'section' => 'Technical'),
+      array('id' => 877, 'section' => 'Users & Groups'),
+      array('id' => 872, 'section' => 'Security'),
+      array('id' => 853, 'section' => 'Technical'),
+      array('id' => 847, 'section' => 'Security'),
+      array('id' => 844, 'section' => 'Display'),
+      array('id' => 834, 'section' => 'Technical'),
+      array('id' => 748, 'section' => 'Security'),
+      array('id' => 596, 'section' => 'Technical'),
+      array('id' => 258, 'section' => 'Photos'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('da_DK','el_GR','eo_EO','et_EE','fa_IR','fi_FI','fr_CA','he_IL','hu_HU','ja_JP','lt_LT','nl_NL','pl_PL','pt_PT','ro_RO','tr_TR','vi_VN'),
+    ),
+  ),
+
   '2.9.3' => array(
     'released_on' => '2018-02-26',
     'md5sum' => 'fea760ae0c41b25211706f7457dee4ff',
