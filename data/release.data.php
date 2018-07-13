@@ -3,7 +3,7 @@
 $porg_releases = array(
   '2.9.4' => array(
     'released_on' => '2018-07-13',
-    'md5sum' => 'TODO',
+    'md5sum' => 'aaf2202a86caf027ee912e3390e8489a',
     'summary' => array('bug fixes (including security)'),
     'features' => array(),
     'bugs' => array(
