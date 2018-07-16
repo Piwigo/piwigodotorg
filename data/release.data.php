@@ -23,7 +23,9 @@ $porg_releases = array(
       array('id' => 596, 'section' => 'Technical'),
       array('id' => 258, 'section' => 'Photos'),
     ),
-    'known_issues' => array(),
+    'known_issues' => array(
+      array('id' => 897, 'section' => 'Technical'),
+    ),
     'languages' => array(
       'new' => array(),
       'updated' => array('da_DK','el_GR','eo_EO','et_EE','fa_IR','fi_FI','fr_CA','he_IL','hu_HU','ja_JP','lt_LT','nl_NL','pl_PL','pt_PT','ro_RO','tr_TR','vi_VN'),
