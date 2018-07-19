@@ -30,7 +30,7 @@ $lang['porg_features_organize_desc1'] = 'Distribuer dine fotografier blandt dine
 $lang['porg_features_organize_desc2'] = 'Albumstræet har uendelig dybde.';
 $lang['porg_features_organize_desc3'] = 'Hvert fotografi kan tilhøre flere albummer.';
 $lang['porg_features_plugins_desc1'] = 'Udseendet kan ændres med teamer.';
-$lang['porg_features_plugins_desc2'] = 'TIlføj funktioner med plugins.';
+$lang['porg_features_plugins_desc2'] = 'Tilføj funktioner med plugins.';
 $lang['porg_features_plugins_desc3'] = 'Udvidelser installeres med blot nogle få klik.';
 $lang['porg_features_plugins_desc4'] = '<span class="bold">350 udvidelser</span> er tilgængelige, og flere kommer til!';
 $lang['porg_features_privacy_desc1'] = 'Gør dine fotografier private, og beslut hvem der skal kunne se hvert enkelt af dem.';
