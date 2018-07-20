@@ -2,6 +2,16 @@
 
     $newsletters = array(
         'fr' => array(
+            '2018-07-20' => array (
+                'title' => 'Piwigo 2.9.4',
+                'image' => 'https://piwigo.org/screenshots/piwigo-294-announcement.png',
+                'summary' => 'Piwigo devient compatible avec PHP 7.2... et incompatible avec PHP 5.2 ! Plusieurs failles de sécurité corrigées, 17 langues mises à jour. Merci aux nombreux contributeurs.',
+            ),
+            '2018-03-13' => array (
+                'title' => 'Mardi 20 mars 2018, lunch talk Piwigo à Nantes',
+                'image' => 'https://fr.piwigo.org/forum/showimage.php?pid=223561&amp;filename=20180320-piwigo-cantine-nantes.png',
+                'summary' => 'La Cantine, l\'association des entreprises du numérique de Nantes, organise un &quot;Lunch Talk&quot; autour de Piwigo. Du projet personnel opensource à la plateforme d\'hébergement de photothèques pour les organisations, pros et particuliers.',
+            ),
             '2018-03-02' => array (
                 'title' => 'Piwigo.org fait peau neuve en 2018 + version 2.9.3',
                 'image' => 'http://piwigo.org/screenshots/20180302-fr.piwigo.org-accueil.jpg',
@@ -214,6 +224,11 @@
             ),
         ),
         'en' => array(
+            '2018-07-17' => array(
+                'title' => 'Piwigo 2.9.4',
+                'image' => 'https://piwigo.org/screenshots/piwigo-294-announcement.png',
+                'summary' => 'Several security issues were fixed, 17 languages were updated. Piwigo is now compatible with PHP 7.2 but no longer with PHP 5.2.',
+            ),
             '2018-03-02' => array(
                 'title' => 'Facelift for 2018 and Piwigo 2.9.3',
                 'image' => 'http://piwigo.org/screenshots/20180302-piwigo.org-homepage.jpg',
@@ -426,10 +441,40 @@
             ),
         ),
         'de' => array(
+            '2018-03-16' => array (
+                'title' => 'Facelift für 2018',
+                'image' => 'https://piwigo.org/screenshots/20180316-de.piwigo.org-homepage.jpg',
+                'summary' => 'Piwigo.org bekommt ein großes Facelift für 2018! Wir haben schon 2014 mit mehreren Leuten (plg + mistic + flop + ddtddt) begonnen, aber der Facelift brauchte Grafikfähigkeiten um fertiggestellt zu werden. Dank Lisa, Studentin an einer Designschule, konnte das Projekt voranschreiten. Dank geht außerdem an Maxime, der mit Lisa Mockups in richtige Webseiten konvertiert hat. Wir hoffen, ihr mögt das Ergebnis so sehr wie wir!',
+            ),
             '2017-05-10' => array (
                 'title' => 'Piwigo 2.9 und 15. Jahrestag',
                 'image' => 'http://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png',
                 'summary' => 'Heute vor 15 Jahren wurde Piwigo 1.0.0 veröffentlicht. Damals war sein Name noch PhpWebGallery. Ich habe dieses Projekt als privates Projekt gestartet. Ich wohnte neben meiner Ingenieurschule und wollte Fotos mit meinen Eltern in 500km Entfernung teilen. Weil ich andere Open-Source-Software benutzte, wollte ich der Community etwas zurückgeben und veröffentlichte Piwigo unter einer Open-Source-Lizenz.',
+            ),
+            '2016-11-24' => array (
+                'title' => 'Piwigo 2.8.3 und ein Blick auf 2.9',
+                'image' => 'https://piwigo.org/forum/showimage.php?pid=164927&filename=piwigo-2.9-redesign-admin-menu-201610132158.png',
+                'summary' => 'Piwigo Version 2.8.3 ist herausgekommen. Viele von euch haben auf diese Version gewartet, weil sie einen Fehler im Zusammenhang mit den Standardeinstellungen von MySQL 5.7 behebt.',
+            ),
+            '2016-03-09' => array (
+                'title' => 'Piwigo Version 2.8',
+                'image' => 'https://piwigo.org/screenshots/piwigo-2.8-auth-key.png',
+                'summary' => 'Integrierte Authentifizierungsschlüssel in E-Mail-Benachrichtigungen machen das Leben für die Benutzer einfacher, mehrere Dateiformate erweitern die Einsatzmöglichkeiten für Unternehmen und professionelle Fotografen und die Kompatibilität mit PHP 7 markiert unser Engagement für die Zukunft. Wir hoffen, dass Sie diese neue Version begeistern wird!',
+            ),
+            '2014-02-03' => array (
+                'title' => 'Piwigo Version 2.6',
+                'image' => 'https://piwigo.org/screenshots/piwigo-2.6-mobile-new-features.png',
+                'summary' => 'Das Mobil Layout hat wichtige Verbesserungen erfahren. Die Benutzerverwaltung wurde komplett neu entworfen. Das neue Zusatzmodul "Administrator Tools" lässt das bearbeiten von Alben und Fotos aus der Galerie zu...',
+            ),
+            '2013-03-06' => array (
+                'title' => 'Piwigo Version 2.5',
+                'image' => 'https://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png',
+                'summary' => 'Die Piwigo 2.5 Version in Zahlen: Mehr als 30 neue Funktionen, mehr als 900 Code-Änderungen durch 7 Entwickler und mehr als 100 Übersetzern.',
+            ),
+            '2011-06-15' => array (
+                'title' => 'Piwigo Version 2.2.2 und 2.2.3',
+                'image' => 'https://piwigo.org/forum/showimage.php?pid=122466&filename=piwigo222_01_tag_manager.png',
+                'summary' => 'Version 2.2.2 ist verfügbar. Die Sprache Griechisch wurde hinzugefügt und viele andere Sprachen wurden aktualisiert. Version 2.2.3 ist verfügbar, es gibt nur kleinere Veränderungen. Das Wichtigste war die bereinigung einiger Fehler welche sich mit Version 2.2.2 eingeschlichen haben.',
             ),
         ),
     );
