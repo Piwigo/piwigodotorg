@@ -34,7 +34,7 @@
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
-              <h5>{'Extension'|translate}</h5>
+              <h5>{'Extensions'|translate}</h5>
                 <ul>
                   <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Themes'|translate}</a></li>
                   <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/">{'Plugins'|translate}</a> </li>
