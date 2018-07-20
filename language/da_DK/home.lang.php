@@ -23,7 +23,7 @@
 $lang['Albums Hierarchy'] = 'Albumhierarki';
 $lang['Permissions Control'] = 'Rettighedskontrol';
 $lang['Piwigo - Manage your photo collection'] = 'Piwigo - Hold styr på din fotosamling';
-$lang['Start discovering Piwigo'] = 'Begynd at gå på opdagelse i Piwigo';
+$lang['Start discovering Piwigo'] = 'Gå på opdagelse i Piwigo';
 $lang['View more showcases'] = 'Se flere præsentationer';
 $lang['Who are Piwigo users?'] = 'Hvem er Piwigos brugere?';
 $lang['porg_home_desc1'] = 'Piwigo er open source-fotogallerisoftware til nettet.';
