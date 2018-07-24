@@ -25,6 +25,7 @@ $porg_releases = array(
     ),
     'known_issues' => array(
       array('id' => 897, 'section' => 'Technical'),
+      array('id' => 902, 'section' => 'Users & Groups'),
     ),
     'languages' => array(
       'new' => array(),

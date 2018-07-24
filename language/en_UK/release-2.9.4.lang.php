@@ -18,4 +18,5 @@ $lang['porg_issue_596'] = 'PHP 7.1 and template.class.php incompatability';
 $lang['porg_issue_258'] = '[albums] Batch-managing a since-deleted album gives SQL error';
 
 $lang['porg_issue_897'] = '[2.9.4] unexpected T_FUNCTION in functions_mysqli.inc.php on line 403';
+$lang['porg_issue_902'] = '[2.9.4] users list no longer paginated or filtered';
 ?>
