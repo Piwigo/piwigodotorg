@@ -20,7 +20,7 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['About'] = 'О';
+$lang['About'] = 'Команда';
 $lang['Batch Management'] = 'Пакетное управление';
 $lang['Discover'] = 'Откройте для себя';
 $lang['porg_get_started_desc'] = 'Готовы начать управление своими изображениями с помощью Piwigo? Присоединяйтесь к нашему сообществу!';
@@ -116,7 +116,7 @@ $lang['Documentation'] = 'Документация';
 $lang['Features'] = 'Особенности';
 $lang['Forum'] = 'Форум';
 $lang['Get Piwigo'] = 'Получить Piwigo';
-$lang['Get Started'] = 'Начать';
+$lang['Get Started'] = 'Давайте начнем';
 $lang['Home'] = 'Домой';
 $lang['Individuals'] = 'Частные лица';
 $lang['Languages'] = 'Языки';
