@@ -38,3 +38,4 @@ $lang['porg_issue_889'] = 'Fix for Smarty and PHP7.2';
 $lang['porg_issue_872'] = 'CVE-2018-7724';
 $lang['porg_issue_846'] = 'Fix issue #844';
 $lang['porg_issue_847'] = 'CVE-2018-5692';
+$lang['porg_issue_902'] = '[2.9.4] users list no longer paginated or filtered';
