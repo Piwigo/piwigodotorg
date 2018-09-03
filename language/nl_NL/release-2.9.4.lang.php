@@ -38,3 +38,4 @@ $lang['porg_issue_847'] = 'CVE-2018-5692';
 $lang['porg_issue_872'] = 'CVE-2018-7724';
 $lang['porg_issue_891'] = 'link naar piwigo.org zou nu in HTTPS moeten staan';
 $lang['porg_issue_897'] = '[2.9.4] onverwachte T_FUNCTION in functions_mysqli.inc.php in regel 403';
+$lang['porg_issue_902'] = '[2.9.4] gebruikerslijst niet langer gepagineerd of gefilterd';
