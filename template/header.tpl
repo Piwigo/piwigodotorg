@@ -56,6 +56,11 @@
 {/if}
   </head>  
   <body>
+{if isset($ANNOUNCEMENT_INFO)}
+  <div class="container-fluid language-available">
+    <a href="{$ANNOUNCEMENT_INFO.url}"><i class="glyphicon glyphicon-calendar"></i> {$ANNOUNCEMENT_INFO.label}</a>
+  </div>
+{/if}
 {if isset($LANGUAGE_INFO)}
   <div class="container-fluid language-available">
     <a href="{$LANGUAGE_INFO.url}"><i class="glyphicon glyphicon-globe"></i> {$LANGUAGE_INFO.label}</a>
