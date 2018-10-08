@@ -38,3 +38,4 @@ $lang['porg_issue_890'] = 'Blandet http-/https-indhold på [Admin > Fotografier 
 $lang['porg_issue_891'] = 'Link til piwigo.org skulle nu være med HTTPS';
 $lang['porg_issue_894'] = 'Retter syntaksfejl';
 $lang['porg_issue_897'] = '[2.9.4] uventet T_FUNCTION i functions_mysqli.inc.php på linje 403';
+$lang['porg_issue_902'] = '[2.9.4] brugerliste ikke længere sideinddelt eller filtreret';
