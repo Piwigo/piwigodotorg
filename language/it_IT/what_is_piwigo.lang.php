@@ -56,3 +56,5 @@ $lang['porg_whatispiwigo_high_volume_desc1'] = '500.000 foto nella tua collezion
 $lang['porg_whatispiwigo_high_volume_desc2'] = 'Prestazioni di fascia alta incluse, di default';
 $lang['porg_whatispiwigo_how_to_desc1'] = 'Puoi scaricare Piwigo da Piwigo<span style="color:#f70;">.org</span> e installarlo sul tuo web hosting, con i prerequisiti tecnici necessari.';
 $lang['Amateurs'] = 'Dilettanti';
+$lang['porg_whatispiwigo_gnu_desc4'] = 'Gratuito non si riferisce al prezzo, si riferisce alla libertà.';
+$lang['porg_whatispiwigo_gnu_desc6'] = 'La GPL è gratuita come nella parola';
