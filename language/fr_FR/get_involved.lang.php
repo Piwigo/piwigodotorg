@@ -14,7 +14,7 @@ $lang['Develop plugins'] = 'Développe des plugins';
 $lang['porg_get_involved_dev_plugins_desc'] = 'Tu as besoin d\'une fonctionnalité absente de Piwigo ? Créé un plugin, publie le et rend le disponible pour la communauté!';
 $lang['Coding documentation'] = 'Coding documentation';
 $lang['Submit bugs'] = 'Rapporte un bug';
-$lang['porg_get_involved_bugs_desc1'] = 'Tu as identifié un bug dans Piwigo ? Rapporte le sur Github (en anglais)... ou sur le forum si tu n\'es pas sûr&middot;e.';
+$lang['porg_get_involved_bugs_desc1'] = 'Tu as identifié un bug dans Piwigo ? Rapporte le sur Github (en anglais)... ou sur le forum si tu n\'es pas sûr.';
 $lang['porg_get_involved_bugs_desc2'] = 'Décris nous comment le reproduire.';
 $lang['Bugtracker'] = 'Suivi des bugs';
 $lang['Translate'] = 'Participe à la traduction';
@@ -36,5 +36,3 @@ $lang['Make this a monthly gift'] = 'Faire un paiement récurrent mensuel';
 $lang['We are grateful !'] = 'Nous sommes reconnaissants !';
 $lang['porg_get_involved_grateful_desc1'] = 'Merci pour votre contribution et votre implication.';
 $lang['porg_get_involved_grateful_desc2'] = 'Nous apprécions toujours les efforts des contributeurs et l\'aide au développement de Piwigo !';
-
-?>
