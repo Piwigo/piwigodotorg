@@ -22,6 +22,7 @@ function porg_get_pages()
     'release' => null, // will be filled by include/release.inc.php
     'showcases' => null,
     'testimonials' => 'Testimonials',
+    'mobile-apps-privacy-policy' => 'Privacy Policy for Mobile Apps',
     );
 }
 
