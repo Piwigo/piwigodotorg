@@ -38,3 +38,4 @@ $lang['porg_issue_894'] = 'Syntaxfehler behoben';
 $lang['porg_issue_596'] = 'Inkompatibilität zwischen template.class.php und PHP 7.1';
 $lang['porg_issue_847'] = 'CVE-2018-5692';
 $lang['porg_issue_872'] = 'CVE-2018-7724';
+$lang['porg_issue_902'] = '[2.9.4] Benutzerliste wird nicht mehr in Seiten aufgeteilt oder gefiltert';
