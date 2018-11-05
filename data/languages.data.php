@@ -24,6 +24,7 @@ $porg_languages_switch = array(
   'nl' => 'Piwigo.org is beschikbaar in het Nederlands',
   'es' => 'Piwigo.org está disponible en español',
   'it' => 'Piwigo.org è disponibile anche in italiano',
+  'pl' => 'Piwigo.org jest również dostępny w języku polskim',
 );
 
 $porg_languages = array(
