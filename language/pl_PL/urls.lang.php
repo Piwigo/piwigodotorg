@@ -33,3 +33,9 @@ $lang['porg_urls']['newsletters'] = 'newsletter';
 $lang['porg_urls']['press'] = 'prasa';
 $lang['porg_urls']['release'] = 'wydania';
 $lang['porg_urls']['what-is-piwigo'] = 'czym-jest-piwigo';
+
+$lang['porg_doc_urls']['requirements'] = 'https://pl.piwigo.org/doc/doku.php?id=instalacji:wymagania';
+$lang['porg_doc_urls']['install'] = 'https://pl.piwigo.org/doc/doku.php?id=instalacji';
+$lang['porg_doc_urls']['upgrade'] = 'https://pl.piwigo.org/doc/doku.php?id=aktualizacja';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://pl.piwigo.org/doc/doku.php?id=aktualizacja:automatyczna';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://pl.piwigo.org/doc/doku.php?id=aktualizacja:reczna';
