@@ -3,6 +3,25 @@
 $testimonials = array(
   array(
     'language' => 'en',
+    'added_on' => '2018-11-06',
+    'user' => array(
+      'username' => 'Thomas Sweeney',
+      'country' => ' Maryland, USA',
+      'type' => 'Individual',
+      'picture' => 'images/testimonies/Man-16.svg',
+    ),
+    'content' => '
+I\'ve been using Piwigo for almost 4 years.  After gathering our families photos, and figuring out there was not an easy way to sort them on just one computer, I knew there had to be an easier solution.   We could have spent 10$/mo on some online storage to sort them (google photos), but with our videos, I would blow right through that. 
+
+After trying a few other \'self hosted\' options, I found Piwigo.  The best part is that is was open source, and well made.  I tend to want things done a certain way, and of course my way, is the best way.  My setup was to run Piwigo on my FreeNAS box in a jail (FreeBSD).  My wife and my phone upload to my FreeNAS box, and Piwigo see\'s the image when I \'synchronize\'.  The way I import my photos is a backend way, but since Piwigo was made with dynamic changes in mind it still works.   
+
+I send 10$ to Piwigo every half year to year, as if it wasn\'t here, there would not be anything else I would use. 
+
+I hope more people come to Piwigo, as I think I have saved a bunch of money using it, and the family (and extended family) like it to see our pictures.
+',
+  ),
+  array(
+    'language' => 'en',
     'added_on' => '2018-04-13',
     'user' => array(
       'username' => 'Tomas Sobek',
