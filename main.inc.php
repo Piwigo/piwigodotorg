@@ -55,6 +55,13 @@ function porg_user_init()
             }
         }
     }
+
+    // specific case for a page (like mobile-apps-privacy-policy) that would be available
+    // in a language but no matching piwigo.org subdomain. Like sv_SE but we have no se.piwigo.org
+    if (isset($_GET['lang']) and preg_match('/^[a-z]{2,3}_[A-Z]{2,3}$/', $_GET['lang']) and is_dir(PORG_PATH.'language/'.$_GET['lang']))
+    {
+        $user['language'] = $_GET['lang'];
+    }
 }
 
 /* Load Piwigo.org language */
