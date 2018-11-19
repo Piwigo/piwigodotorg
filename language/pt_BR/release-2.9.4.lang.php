@@ -38,3 +38,4 @@ $lang['porg_issue_890'] = 'conteúdo misto http/https em [Admin > Fotos > Adicio
 $lang['porg_issue_891'] = 'linque para piwigo.org agora deve estar em HTTPS';
 $lang['porg_issue_894'] = 'Corrigir erro de sintaxe';
 $lang['porg_issue_897'] = '[2.9.4] T_FUNCTION inesperado em functions_mysqli.inc.php na linha 403';
+$lang['porg_issue_902'] = '[2.9.4] lista de usuários não é mais paginada ou filtrada';
