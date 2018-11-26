@@ -298,18 +298,16 @@ function porg_load_content()
         }
     }
 
-/*
     if ('fr_FR' == $user['language'])
     {
         $template->assign(
             'ANNOUNCEMENT_INFO',
             array(
-                'url' => 'https://fr.piwigo.org/forum/viewtopic.php?id=27920',
-                'label' => 'Mardi 18 septembre 2018, Rencontres Régionales du Logiciel Libre à Nantes',
+                'url' => 'https://fr.piwigo.org/forum/viewtopic.php?id=28012',
+                'label' => 'Paris Open Source Summit, 5 et 6 décembre 2018',
             )
         );
     }
-*/
 
     $template->assign(
         array(
