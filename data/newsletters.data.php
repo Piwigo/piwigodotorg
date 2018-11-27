@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2018-11-27' => array (
+                'title' => 'Piwigo au Paris Open Source Summit, 5 et 6 décembre 2018',
+                'image' => 'https://www.opensourcesummit.paris/upload/bandeau_slide-UK-2018-OK2.png',
+                'summary' => 'Piwigo sera présent au salon Paris Open Source Summit 2018 avec plusieurs membres du Conseil National du Logiciel Libre. Venez nous rencontrer et discuter de votre projet de photothèque.',
+            ),
             '2018-07-20' => array (
                 'title' => 'Piwigo 2.9.4',
                 'image' => 'https://piwigo.org/screenshots/piwigo-294-announcement.png',
