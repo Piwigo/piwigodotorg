@@ -11,7 +11,7 @@
             <div class="row">
               <div class="col-md-12 col-xs-6">
                 <div class="footer-donate-content">
-                  <a type="button" class="btn" href="{$PORG_ROOT}{$URL.get_involved}"><img src="{$PORG_ROOT_URL}images/footer/donate.svg" alt="Donate to Piwigo"/>{'Donate'|translate}</a>
+                  <a type="button" class="btn" href="{$PORG_ROOT}{$URL.get_involved}#donate"><img src="{$PORG_ROOT_URL}images/footer/donate.svg" alt="Donate to Piwigo"/>{'Donate'|translate}</a>
                 </div>
               </div>
               <div class="col-md-12 col-xs-6">
