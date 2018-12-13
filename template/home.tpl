@@ -55,13 +55,13 @@ $(document).ready(function() {
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/arles.png">
         </div>
         <div class="col-md-3 col-xs-6">
-          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/s3v.svg">
+          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/s3v.svg" class="logo-societe-3-vallees">
         </div>
         <div class="col-md-3 col-xs-6">
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/fondation_arc.svg">
         </div>
         <div class="col-md-3 col-xs-6">
-          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/icam.png">
+          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/logo-federation-francaise-natation.png" class="logo-federation-francaise-natation">
         </div>
       </div>
     </div>

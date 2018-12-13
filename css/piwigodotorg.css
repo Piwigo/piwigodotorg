@@ -634,6 +634,13 @@
     vertical-align: text-bottom;
 }
 
+.organization-content img.logo-societe-3-vallees {
+    max-width: 150px;
+}
+.organization-content img.logo-federation-francaise-natation {
+    max-width: 150px;
+}
+
 .helper {
     display: inline-block;
     height: 100%;
