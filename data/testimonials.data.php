@@ -2,6 +2,22 @@
 
 $testimonials = array(
   array(
+    'language' => 'fr',
+    'added_on' => '2018-12-13',
+    'user' => array(
+      'username' => 'Jacques Amaury',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'organisation' => 'Fédération Française de Natation',
+      'picture' => 'images/testimonies/swimming.svg',
+      'url' => 'https://www.ffnatation.fr',
+    ),
+    'content' => '
+J\'ai découvert Piwigo il y a déjà pas mal d\'années pour une utilisation personnelle en local. Je l\'ai ensuite installé chez un hébergeur où j\'ai mis à disposition de ma commune les clichés que je prenais  lors des évènements locaux. La Fédération Française de Natation possède un fond de photos et vidéos énormes. En discutant avec notre photographe qui ne trouvait pas de solution satisfaisante et trouvait dommage que cette mémoire n\'était pas utilisée pour nos publications, je lui ai proposé de tester Piwigo. Après quelques réglages et installation de plugins, il s\'avère que cette solution est stable, personnalisable et ne plante pas. Nos collaborateurs ont maintenant une photothèque digne de ce nom. Je remercie la Team Piwigo pour la qualité de son travail.
+',
+  ),
+
+  array(
     'language' => 'en',
     'added_on' => '2018-11-06',
     'user' => array(

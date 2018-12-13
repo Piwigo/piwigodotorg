@@ -23,7 +23,7 @@
               <a{if $testimonials_content.user.url != null} href="{$testimonials_content.user.url}" {/if}><img src="{$PORG_ROOT_URL}{$testimonials_content.user.picture}"/></a>
             </div>
             <div class="col-md-5 col-xs-5 pwg-testimonies-name">
-              <p><span class="bold">{$testimonials_content.user.username}</span><br>{$testimonials_content.user.type}</p>
+              <p><span class="bold">{$testimonials_content.user.username}</span><br>{if isset($testimonials_content.user.organisation)}{$testimonials_content.user.organisation}{else}{$testimonials_content.user.type}{/if}</p>
             </div>
             <div class="col-md-5 col-xs-5 pwg-testimonies-date">
               <p>{$testimonials_content.user.country}, {$testimonials_content.added_on}</p>
