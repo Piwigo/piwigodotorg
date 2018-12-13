@@ -34,8 +34,9 @@ $lang['porg_urls']['newsletters'] = 'bülten';
 $lang['porg_urls']['press'] = 'basın';
 $lang['porg_urls']['testimonials'] = 'değerlendirmeler';
 $lang['porg_urls']['what-is-piwigo'] = 'piwigo-nedir';
-$lang['porg_doc_urls']['install'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:install';
-$lang['porg_doc_urls']['requirements'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before';
-$lang['porg_doc_urls']['upgrade'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade';
-$lang['porg_doc_urls']['upgrade_auto'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_automatic';
-$lang['porg_doc_urls']['upgrade_manual'] = 'http://piwigo.org/doc/doku.php?id=user_documentation:learn:upgrade:upgrade_manua';
+
+$lang['porg_doc_urls']['install'] = 'https://tr.piwigo.org/doc/doku.php?id=kurulum';
+$lang['porg_doc_urls']['requirements'] = 'https://tr.piwigo.org/doc/doku.php?id=kurulum:gereklilikler';
+$lang['porg_doc_urls']['upgrade'] = 'https://tr.piwigo.org/doc/doku.php?id=yuekseltme';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://tr.piwigo.org/doc/doku.php?id=yuekseltme:otomatik';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://tr.piwigo.org/doc/doku.php?id=yuekseltme:elle';
