@@ -10,8 +10,8 @@ $testimonials = array(
       'country' => 'France',
       'type' => 'Organisation',
       'organisation' => 'Tourisme Béarn Pays basque',
-      'picture' => 'images/testimonies/basque-country.svg',
-      'url' => 'http://phototheque.pro.tourisme64.com',
+      'picture' => 'images/testimonies/logo-AaDT64.png',
+      'url' => 'http://www.tourisme64.com',
     ),
     'content' => '
 Agence d\'attractivité et de développement touristiques du Béarn Pays basque", plus simplement AaDT64 utilise Piwigo depuis 6 ans. Notre service "communication" est sollicité quotidiennement pour fournir des photos de notre territoire à divers prestataires : presse, offices de tourisme, prestataires touristiques, étudiants.... Piwigo est la solution qui nous permet de mettre à disposition plus de 6000 photos, avec une gestion de droit d\'accès aux photos selon le profil de l\'utilisateur et selon les restrictions de droits sur chacune des photos.
