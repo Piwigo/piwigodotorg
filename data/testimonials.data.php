@@ -25,12 +25,13 @@ Merci à toute l\'équipe de contributeurs pour la qualité de cet outil !
   array(
     'language' => 'fr',
     'added_on' => '2018-12-13',
+    'css_class' => 'pwg-testimonies-ffn',
     'user' => array(
       'username' => 'Jacques Amaury',
       'country' => 'France',
       'type' => 'Organisation',
       'organisation' => 'Fédération Française de Natation',
-      'picture' => 'images/testimonies/swimming.svg',
+      'picture' => 'images/testimonies/picto-federation-francaise-natation.png',
       'url' => 'https://www.ffnatation.fr',
     ),
     'content' => '

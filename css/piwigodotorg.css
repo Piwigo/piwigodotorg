@@ -2270,6 +2270,9 @@ and (max-device-width : 480px) {
 .pwg-testimonies-AaDT64 .pwg-testimonies-picture img {
     padding:10px 20px;
 }
+.pwg-testimonies-ffn .pwg-testimonies-picture img {
+    padding:10px 20px;
+}
 
 .pwg-testimonies-user {
     margin-left: 0px;
