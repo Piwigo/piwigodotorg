@@ -14,7 +14,7 @@
  <section class="container">
     <div class="row pwg-testimonies-row">
       {foreach from=$testimonials key=testimonials_date item=testimonials_content}
-      <div class="col-md-6 col-xs-12 pwg-testimonies-content">
+      <div class="col-md-6 col-xs-12 pwg-testimonies-content{if isset($testimonials_content.css_class)} {$testimonials_content.css_class}{/if}">
           <div class="pwg-testimonies-advice {$testimonials_content.user.type}">
             <p>{$testimonials_content.content}</p>
           </div>
