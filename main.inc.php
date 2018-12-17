@@ -298,6 +298,7 @@ function porg_load_content()
         }
     }
 
+/*
     if ('fr_FR' == $user['language'])
     {
         $template->assign(
@@ -308,6 +309,7 @@ function porg_load_content()
             )
         );
     }
+*/
 
     $template->assign(
         array(
