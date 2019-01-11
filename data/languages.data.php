@@ -6,7 +6,6 @@ $porg_subdomains = array(
   'es' => 'es_ES',
   'fr' => 'fr_FR',
   'it' => 'it_IT',
-  'hu' => 'hu_HU',
   'nl' => 'nl_NL',
   'pl' => 'pl_PL',
   'br' => 'pt_BR',
