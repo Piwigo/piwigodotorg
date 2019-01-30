@@ -37,5 +37,5 @@ $lang['porg_whatispiwigo_gnu_desc1'] = 'La GNU General Public License, ou GPL, e
 $lang['porg_whatispiwigo_gnu_desc2'] = 'Opensource ne signifie pas simplement que vous pouver voir le code source — il y a également des implications politiques et philosophiques.';
 $lang['porg_whatispiwigo_gnu_desc3'] = 'L\'Opensource ou "Logiciel Libre" signifie que vous êtes libre de modifier et redistribuer le code source sous certaines conditions.';
 $lang['porg_whatispiwigo_gnu_desc4'] = 'Free ne fait pas référence au prix, mais à la liberté.';
-$lang['porg_whatispiwigo_gnu_desc5'] = '';
-$lang['porg_whatispiwigo_gnu_desc6'] = '';
+$lang['porg_whatispiwigo_gnu_desc5'] = 'Pour illustrer la différence entre les deux sens de «gratuit», il est souvent pris pour exemple la différence entre «liberté de parole» et «bière gratuite».';
+$lang['porg_whatispiwigo_gnu_desc6'] = 'La GPL est libre comme dans un discours';
