@@ -57,4 +57,5 @@ $lang['porg_whatispiwigo_high_volume_desc2'] = 'Prestazioni di fascia alta inclu
 $lang['porg_whatispiwigo_how_to_desc1'] = 'Puoi scaricare Piwigo da Piwigo<span style="color:#f70;">.org</span> e installarlo sul tuo web hosting, con i prerequisiti tecnici necessari.';
 $lang['Amateurs'] = 'Dilettanti';
 $lang['porg_whatispiwigo_gnu_desc4'] = 'Gratuito non si riferisce al prezzo, si riferisce alla libertà.';
-$lang['porg_whatispiwigo_gnu_desc6'] = 'La GPL è gratuita come nella parola';
+$lang['porg_whatispiwigo_gnu_desc6'] = 'La GPL è gratuita come la parola';
+$lang['porg_whatispiwigo_gnu_desc5'] = 'Per illustrare la differenza tra i due significati di "free" si usa spesso l\'esempio della differenza tra “libertà di parola” e “birra gratis”';
