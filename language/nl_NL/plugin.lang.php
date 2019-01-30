@@ -122,3 +122,4 @@ $lang['Get started with Piwigo'] = 'Start met Piwigo';
 $lang['Home'] = 'Home';
 $lang['Individuals'] = 'Individuen';
 $lang['Languages'] = 'Talen';
+$lang['yesterday'] = 'gisteren';
