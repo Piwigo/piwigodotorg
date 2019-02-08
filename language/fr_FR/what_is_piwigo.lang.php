@@ -38,4 +38,4 @@ $lang['porg_whatispiwigo_gnu_desc2'] = 'Opensource ne signifie pas simplement qu
 $lang['porg_whatispiwigo_gnu_desc3'] = '<br><br>L\'Opensource ou "Logiciel Libre" signifie que vous êtes libre de modifier et redistribuer le code source sous certaines conditions.';
 $lang['porg_whatispiwigo_gnu_desc4'] = '<!-- cela n\'a pas de sens en français -->';
 $lang['porg_whatispiwigo_gnu_desc5'] = '<!-- cela n\'a pas de sens en français -->';
-$lang['porg_whatispiwigo_gnu_desc6'] = 'La GPL est libre comme dans un discours';
+$lang['porg_whatispiwigo_gnu_desc6'] = '<!-- cela n\'a pas de sens en français -->';
