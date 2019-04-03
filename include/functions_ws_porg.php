@@ -74,7 +74,7 @@ function ws_porg_contact_send($params, &$service)
 
   $subject = l10n('[piwigo.org contact form, %s] %s contacted you on %s', $category, $email, date('Y-m-d H:i:s'));
 
-  $message = $params["message"];
+  $message = quoted_printable_encode(stripslashes($params["message"]));
 
   if (empty($error))
   {
