@@ -6,7 +6,7 @@
           <p>{'porg_whatispiwigo_desc1'|translate} {'porg_whatispiwigo_desc2'|translate}</p>
         </div>
         <div class="col-md-6 col-title-whatispiwigo-logo">
-          <img src="{$PORG_ROOT_URL}images/whatispiwigo/logo_white.svg"/>
+          <img src="{$PORG_ROOT_URL}images/whatispiwigo/piwigo_grey.svg"/>
         </div>
       </div>
     </div>
