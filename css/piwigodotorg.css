@@ -5913,7 +5913,7 @@ section.release-notes-overview li a {
 .container-fluide-known-issues {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #54616F;
+    background-color: #f0f0f0;
 }
 
 
@@ -5922,13 +5922,13 @@ section.release-notes-overview li a {
 }
 
 .container-fluide-known-issues .container .row > h1 {
-    color: white;
+    color: #54616F;
     font-size: 32px;
     margin-bottom: 30px;
 }
 
 .container-fluide-known-issues .container .row .col-md-12 > h2 > i.icon-check-empty {
-    color: white;
+    color: #54616F;
     margin-right: 10px;
 }
 
@@ -5938,7 +5938,7 @@ section.release-notes-overview li a {
 }
 
 .container-fluide-known-issues .container .row .col-md-12 > p {
-    color: white;
+    color: #54616F;
 }
 
 /* New or updated language */
