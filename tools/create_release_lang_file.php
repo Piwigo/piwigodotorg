@@ -54,7 +54,7 @@
     }
 
     /* Issues from milestone 2.9.2 */
-    fetchRemote("https://api.github.com/repos/Piwigo/Piwigo/issues?milestone=".$milestone_id."&state=close", $result);
+    fetchRemote("https://api.github.com/repos/Piwigo/Piwigo/issues?milestone=".$milestone_id."&state=closed", $result);
     $issues = json_decode($result);
     echo count($issues) . " issues found\n";
 
