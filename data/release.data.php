@@ -1,6 +1,26 @@
 <?php
 
 $porg_releases = array(
+  '2.9.5' => array(
+    'released_on' => '2019-04-09',
+    'md5sum' => 'fa27ad2a1d7121633a02c55134e7e1d3',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 998, 'section' => 'Tools'),
+      array('id' => 988, 'section' => 'Technical'),
+      array('id' => 972, 'section' => 'Photos'),
+      array('id' => 946, 'section' => 'Technical'),
+      array('id' => 945, 'section' => 'Technical'),
+      array('id' => 902, 'section' => 'Users & Groups'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('da_DK','de_DE','en_GB','eo_EO','et_EE','fi_FI','fr_CA','fr_FR','he_IL','it_IT','nl_NL','ro_RO','sl_SI','sr_RS','th_TH','uk_UA','zh_HK'),
+    ),
+  ),
+
   '2.9.4' => array(
     'released_on' => '2018-07-13',
     'md5sum' => 'aaf2202a86caf027ee912e3390e8489a',
