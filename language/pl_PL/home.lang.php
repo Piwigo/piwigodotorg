@@ -32,4 +32,4 @@ $lang['Who are Piwigo users?'] = 'Kim są użytkownicy Piwigo?';
 $lang['porg_home_desc1'] = 'Piwigo jest aplikacją "open source" służąca do przechowywania zdjęć w sieci.';
 $lang['porg_home_high_volume_desc'] = 'Piwigo wyróżnia się, zwłaszcza jeśli chodzi o klasyfikowanie tysięcy lub nawet setek tysięcy zdjęć!';
 $lang['porg_home_organisation_title'] = 'Tysiące organizacji i miliony użytkowników kocha używać Piwigo';
-$lang['porg_home_sustainable_desc'] = 'Powstałe w 2002 roku, Piwigo wspiera swoich użytkowników przez ponad 15 lat. Zawsze ewoluując!';
+$lang['porg_home_sustainable_desc'] = 'Powstałe w 2002 roku, Piwigo wspiera swoich użytkowników przez ponad %d lat. Zawsze ewoluując!';

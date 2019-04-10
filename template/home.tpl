@@ -77,7 +77,7 @@ $(document).ready(function() {
         <div class="col-md-4">
           <img src="{$PORG_ROOT_URL}images/home/diploma.svg"/>
           <h2>{'Sustainable'|translate}</h2>
-          <p>{'porg_home_sustainable_desc'|translate}</p>
+          <p>{'porg_home_sustainable_desc'|translate:$NB_YEARS}</p>
         </div>
         <div class="col-md-4">
           <img src="{$PORG_ROOT_URL}images/home/code.svg"/>

@@ -31,5 +31,5 @@ $lang['porg_home_desc2'] = '专为组织、团队与个人设计。';
 $lang['porg_home_high_volume_desc'] = '当需要分类上万乃至数十万的照片时，Piwigo 的表现出类拔萃。';
 $lang['porg_home_open_source_desc'] = '由于插件和主题的存在，源代码是可取得、可编辑、可审计、且可扩展的。';
 $lang['porg_home_organisation_title'] = 'Piwigo 受到了数万组织和数百万个人的喜爱';
-$lang['porg_home_sustainable_desc'] = '始于2002，Piwigo 对用户的支持已超过了15年。我们永远在进步！';
+$lang['porg_home_sustainable_desc'] = '始于2002，Piwigo 对用户的支持已超过了%d年。我们永远在进步！';
 $lang['porg_home_title'] = '用 Piwigo 管理您的图像收藏';

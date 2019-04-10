@@ -31,5 +31,5 @@ $lang['porg_home_desc2'] = 'Entwickelt für Organisationen, Teams und Privatpers
 $lang['porg_home_high_volume_desc'] = 'Piwigo glänzt, wenn es darum geht tausende oder sogar hunderttausende Fotos zu klassifizieren.';
 $lang['porg_home_open_source_desc'] = 'Der Quellcode ist verfügbar, auditierbar und dank Plugins und Themen erweiterbar.';
 $lang['porg_home_organisation_title'] = 'Tausende von Organisationen und Millionen von Privatpersonen lieben es Piwigo zu benutzen';
-$lang['porg_home_sustainable_desc'] = 'Geboren im Jahr 2002 hat Piwigo seine Nutzer seit mehr als 15 Jahren unterstützt. Und sich verbessert!';
+$lang['porg_home_sustainable_desc'] = 'Geboren im Jahr 2002 hat Piwigo seine Nutzer seit mehr als %d Jahren unterstützt. Und sich verbessert!';
 $lang['porg_home_title'] = 'Organisieren Sie Ihre Fotosammlung';

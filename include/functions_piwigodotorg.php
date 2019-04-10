@@ -444,4 +444,12 @@ function porg_date_format($datetime, $is_timestamp=false)
 
   return format_date($timestamp, array('day', 'month', 'year'));
 }
+
+function porg_get_nb_years()
+{
+  $d1 = new DateTime('2002-04-15');
+  $d2 = new DateTime();
+  $diff = $d2->diff($d1);
+  return $diff->y;
+}
 ?>

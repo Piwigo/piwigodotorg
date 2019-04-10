@@ -32,4 +32,4 @@ $lang['porg_home_desc2'] = 'Progettato per organizzazioni, professionisti e priv
 $lang['porg_home_high_volume_desc'] = 'Piwigo brilla quando si tratta di organizzare migliaia o addirittura centinaia di migliaia di foto.';
 $lang['porg_home_open_source_desc'] = 'Il codice sorgente è disponibile, modificabile, controllabile ed estensibile grazie ai plugin ed i temi.';
 $lang['porg_home_organisation_title'] = 'Migliaia di organizzazioni e molte altre persone amano usare il loro Piwigo';
-$lang['porg_home_sustainable_desc'] = 'Nato nel 2002, Piwigo è presente per i suoi utenti da oltre 15 anni. E sempre in evoluzione!';
+$lang['porg_home_sustainable_desc'] = 'Nato nel 2002, Piwigo è presente per i suoi utenti da oltre %d anni. E sempre in evoluzione!';

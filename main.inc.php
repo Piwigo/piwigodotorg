@@ -266,6 +266,7 @@ function porg_load_content()
                 'TESTIMONIALS' => porg_get_testimonials_sample(),
                 'LATEST_VERSION_NUMBER' => $latest_version['version'],
                 'LATEST_VERSION_DATE' => porg_date_format($latest_version['released_on']),
+                'NB_YEARS' => porg_get_nb_years(),
             )
         );
 

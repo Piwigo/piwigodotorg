@@ -24,17 +24,12 @@ $lang['Albums Hierarchy'] = 'Hierarchie Albums';
 $lang['Permissions Control'] = 'Controle toestemming';
 $lang['Piwigo - Manage your photo collection'] = 'Piwigo-beheer van jouw foto-collectie';
 $lang['Start discovering Piwigo'] = 'Start het verkennen van Piwigo';
-$lang['View more showcases'] = '
-Bekijk meer vitrines';
+$lang['View more showcases'] = 'Bekijk meer vitrines';
 $lang['Who are Piwigo users?'] = 'Wie zijn Piwigo-gebruikers?';
 $lang['porg_home_desc1'] = 'Piwigo is open source foto-galerij-software voor het internet.';
 $lang['porg_home_desc2'] = 'Ontworpen voor organisaties, teams en individuelen';
-$lang['porg_home_high_volume_desc'] = '
-Piwigo schittert als het gaat om het classificeren van duizenden of zelfs honderdduizenden foto\'s.';
-$lang['porg_home_open_source_desc'] = '
-Broncode is beschikbaar, bewerkbaar, controleerbaar en uitbreidbaar dankzij plug-ins en thema\'s.';
-$lang['porg_home_organisation_title'] = '
-Duizenden organisaties en miljoenen mensen gebruiken Piwigo graag.';
-$lang['porg_home_sustainable_desc'] = '
-Piwigo werd in 2002 geboren en ondersteunt al meer dan 15 jaar haar gebruikers. Altijd evoluerend!';
+$lang['porg_home_high_volume_desc'] = 'Piwigo schittert als het gaat om het classificeren van duizenden of zelfs honderdduizenden foto\'s.';
+$lang['porg_home_open_source_desc'] = 'Broncode is beschikbaar, bewerkbaar, controleerbaar en uitbreidbaar dankzij plug-ins en thema\'s.';
+$lang['porg_home_organisation_title'] = 'Duizenden organisaties en miljoenen mensen gebruiken Piwigo graag.';
+$lang['porg_home_sustainable_desc'] = 'Piwigo werd in 2002 geboren en ondersteunt al meer dan %d jaar haar gebruikers. Altijd evoluerend!';
 $lang['porg_home_title'] = 'Beheer je fotocollectie met Piwigo';
