@@ -27,3 +27,4 @@ $lang['porg_issue_897'] = '[2.9.4] Niespodziewana T_FUNCTION w functions_mysqli.
 $lang['porg_issue_596'] = 'Niekompatybilności z PHP 7.1 i template.class.php';
 $lang['porg_issue_748'] = 'Nie można pokazać użytkowników - błąd 403 w user_list_backend.php';
 $lang['porg_issue_834'] = 'Wstępne prace do wsparcia PHP 7.1';
+$lang['porg_issue_846'] = 'Naprawiono błąd #844';
