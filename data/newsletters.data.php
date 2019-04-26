@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2019-04-18' => array (
+                'title' => 'Piwigo a 17 ans, sortie de la version 2.9.5',
+                'image' => 'https://piwigo.org/screenshots/piwigo-17ans-small.jpg',
+                'summary' => 'Le projet fête ses 17 ans ! Petit retour sur son histoire et défis à venir. La version 2.9.5 est disponible.',
+            ),
             '2018-11-27' => array (
                 'title' => 'Piwigo au Paris Open Source Summit, 5 et 6 décembre 2018',
                 'image' => 'https://www.opensourcesummit.paris/upload/bandeau_slide-UK-2018-OK2.png',
@@ -229,6 +234,11 @@
             ),
         ),
         'en' => array(
+            '2019-04-17' => array(
+                'title' => 'Piwigo turns 17 and the new version 2.9.5 is out',
+                'image' => 'https://piwigo.org/screenshots/piwigo-17years-small.jpg',
+                'summary' => 'Piwigo version 1.0.0 was released 17 years ago! Let\'s talk about what comes next... and by the way, Piwigo 2.9.5 is available.',
+            ),
             '2018-07-17' => array(
                 'title' => 'Piwigo 2.9.4',
                 'image' => 'https://piwigo.org/screenshots/piwigo-294-announcement.png',
