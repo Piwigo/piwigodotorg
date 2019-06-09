@@ -21,3 +21,5 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['porg_issue_678'] = 'Errore RSS con PHP7';
+$lang['porg_issue_713'] = 'l\'email di notifica di aggiornamento è disponibile un mix in inglese e francese';
+$lang['porg_issue_710'] = 'il parametro di input \"redirect_decoded\" non è valido';
