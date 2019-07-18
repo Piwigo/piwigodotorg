@@ -234,6 +234,11 @@
             ),
         ),
         'en' => array(
+            '2019-07-04' => array(
+                'title' => 'Beta-testers wanted for Piwigo 2.10',
+                'image' => 'https://piwigo.org/screenshots/piwigo-2.10-dashboard-light.png',
+                'summary' => 'We need your help to test this beta version and give us some feedback. New admin design, new gallery theme. Happy beta-tests!',
+            ),
             '2019-04-17' => array(
                 'title' => 'Piwigo turns 17 and the new version 2.9.5 is out',
                 'image' => 'https://piwigo.org/screenshots/piwigo-17years-small.jpg',
