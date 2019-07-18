@@ -59,4 +59,4 @@ $lang['porg_features_batch_manager_desc'] = 'Filtrer fotografier fra din samling
 $lang['porg_features_browse_date_desc'] = 'Digitalkameraer gemmer datoen i fotografiet, og Piwigo bruger denne dato til at vise din fotosamling i en kalender, og lader dig gennemse fra dag til dag.';
 $lang['porg_features_desc1'] = 'Piwigo tilbyder et bredt udvalg af funktioner, anvendelige i et ethvert fotogalleri.';
 $lang['porg_features_desc2'] = 'Mange af de tilgængelige funktioner er opremset herunder.';
-$lang['porg_features_desc3'] = 'Nye funktioner føjes løbende til Piwigo, på grund af kodeholdets ideer og diskussioner med brugerfællesskabet.';
+$lang['porg_features_desc3'] = 'Nye funktioner føjes løbende til Piwigo, på baggrund af kodeholdets ideer og diskussioner med brugerfællesskabet.';
