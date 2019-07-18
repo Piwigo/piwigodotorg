@@ -22,6 +22,6 @@
 // +-----------------------------------------------------------------------+
 $lang['Enter your email here'] = 'Skriv din mailadresse her';
 $lang['Sign up'] = 'Tilmeld';
-$lang['porg_newsletters_desc1'] = 'Hold dig ajour med Piwigo-nyt.';
-$lang['porg_newsletters_desc2'] = 'Du modtager mail når en ny udgave blive tilgængelig, og når der sker større begivenheder i projektet.';
-$lang['porg_newsletters_subscribe_title'] = 'Tilmeld dig til vores nyhedsbrev og hold dig ajour!';
+$lang['porg_newsletters_desc1'] = 'Hold dig ajour med nyt fra Piwigo.';
+$lang['porg_newsletters_desc2'] = 'Du modtager mail når en ny udgave bliver tilgængelig, og når der sker større begivenheder i projektet.';
+$lang['porg_newsletters_subscribe_title'] = 'Tilmeld dig til vores nyhedsbrev, og hold dig ajour!';
