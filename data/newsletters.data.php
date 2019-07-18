@@ -456,6 +456,11 @@
             ),
         ),
         'de' => array(
+            '2019-05-06' => array (
+                'title' => 'Piwigo wird 17 und Piwigo 2.9.5',
+                'image' => 'https://piwigo.org/screenshots/piwigo-17years-small.jpg',
+                'summary' => 'Alles begann als Porjekt eines Collegestudenten und hat sich zu einem Softwareentwickler im Herzen eines Open-Source-Ökosystems entwickelt. Danke an alle, die Teil dieses großen Abenteuers sind!',
+            ),
             '2018-03-16' => array (
                 'title' => 'Facelift für 2018',
                 'image' => 'https://piwigo.org/screenshots/20180316-de.piwigo.org-homepage.jpg',
