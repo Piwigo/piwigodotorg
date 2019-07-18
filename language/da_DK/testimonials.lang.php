@@ -21,6 +21,6 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['porg_testimonials_desc1'] = 'Lad os finde ud af, hvad Piwigos brugere har at sige!';
-$lang['porg_testimonials_desc2'] = 'På denne side kan du læse ægte anmeldelser baseret på folks egne oplevelser med Piwigo.';
+$lang['porg_testimonials_desc2'] = 'På denne side kan du læse ægte anbefalinger baseret på folks egne oplevelser med Piwigo.';
 $lang['porg_testimonials_share_desc1'] = 'Hvis du har en historie at fortælle, så <a href="%s">del den</a>';
 $lang['porg_testimonials_share_title'] = 'Vi er stole over at have et sådant fællesskab!';
