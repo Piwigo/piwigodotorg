@@ -31,5 +31,5 @@ $lang['porg_home_desc2'] = 'Designet til organisatorer, grupper og enkeltpersone
 $lang['porg_home_high_volume_desc'] = 'Piwigo brillierer når det gælder om at klassificere tusinder eller endda hundredtusinder af fotografier.';
 $lang['porg_home_open_source_desc'] = 'Kildekoden er tilgængelig, redigerbar, auditerbar og udvidbar takket være plugins og temaer.';
 $lang['porg_home_organisation_title'] = 'Tusinder af organisationer og millioner af enkeltpersoner elsker at benytte Piwigo';
-$lang['porg_home_sustainable_desc'] = 'Siden sin fødsel i 2002 har Piwigo hjulpet sine brugere i flere end %d år. Altid under udvikling!';
+$lang['porg_home_sustainable_desc'] = 'Siden sin fødsel i 2002, har Piwigo hjulpet sine brugere i flere end %d år. Altid under udvikling!';
 $lang['porg_home_title'] = 'Hold styr på din fotosamling med Piwigo';
