@@ -24,7 +24,7 @@ $lang['Installation guide'] = 'Installeringsvejledning';
 $lang['Requirements'] = 'Krav';
 $lang['Still got some unanswered questions ?'] = 'Har du stadig ubesvarede spørgsmål?';
 $lang['porg_get_started_desc1'] = 'Hvordan man selv hoster Piwigo.';
-$lang['porg_get_started_desc2'] = 'Hvad du skal gøre klar, hvad der skal hentes, hvordan man installerer';
+$lang['porg_get_started_desc2'] = 'Hvad du skal gøre klar, hvad der skal hentes, hvordan man installerer.';
 $lang['porg_get_started_download_desc'] = 'Hent Piwigo-pakke indeholdende alle filer, eller kun Netinstall-scriptet, der vil hente pakken direkte hos din hosting.';
 $lang['porg_get_started_guide_desc'] = 'Lær hvordan Piwigo installeres hos din hosting, fra hentning og databaseoplysninger til første forbindelse til dit fotobibliotek.';
 $lang['porg_get_started_question_desc1'] = 'Du kan få en del hjælp i <a href="%s">forummet</a> eller selv finde svarene i <a href="%s">dokumentationen</a>';
