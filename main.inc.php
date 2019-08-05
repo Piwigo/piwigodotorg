@@ -208,6 +208,12 @@ function porg_load_content()
             $redirects[ $_GET['porg'] ] = $lang['porg_urls']['release'].'-'.$matches[1];
         }
 
+        // specific case for mobile-apps-privacy-policy, ability to go headless
+        if ('mobile-apps-privacy-policy' == $_GET['porg'] and isset($_GET['webview']))
+        {
+            $template->assign('WEBVIEW', true);
+        }
+
         if (isset($redirects[ $_GET['porg'] ]))
         {
             set_status_header(301);

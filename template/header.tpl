@@ -26,6 +26,10 @@
 {if (isset($LANGUAGE_CSS))}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}{$LANGUAGE_CSS}">
 {/if}
+
+{if (isset($WEBVIEW) && $WEBVIEW)}
+    <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/webview.css">
+{/if}
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

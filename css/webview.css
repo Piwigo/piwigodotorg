@@ -1,0 +1,15 @@
+/* designed for displaying the privacy policy embedded in Piwigo mobile app  */
+
+footer {
+    display: none;
+}
+body {
+    padding-bottom: 50px;
+}
+
+nav .navbar-nav {
+    display:none;
+}
+nav .navbar-toggle {
+    display:none;
+}
