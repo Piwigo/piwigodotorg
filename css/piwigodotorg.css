@@ -5681,6 +5681,45 @@ label {
     max-width: 100%;
 }
 
+#releaseNotesMain p.screenshot-caption {
+    text-align:center;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: #666;
+}
+
+.interview {
+    background-color:#dfeff5;
+    padding: 50px; 
+    margin-bottom: 50px;
+}
+
+.interview p {
+   color: #145f79;
+   font-weight: 600;
+}
+
+.interview img.quotes {
+    width: 75px;
+    margin-top: -122px;
+}
+
+#releaseNotesMain .interview p.first {
+    margin-top: -17px;
+}
+
+.interview-signature {
+    text-align: right;
+}
+
+.interview .photo {
+    float: right;
+    margin: 0 0 50px 50px; 
+    width: 150px;
+}
+
 #releaseNotesMain section h3 {
     border-bottom: 1px solid #cdcdcd;
 }
@@ -5748,6 +5787,25 @@ section.release-notes-overview li a {
 #releaseNotesMain ul {
     margin-top:20px;
     margin-bottom: 20px;
+}
+
+#releaseNotesMain ul.api-methods {
+    padding-left: 0;
+    list-style: none;
+}
+
+#releaseNotesMain .badge {
+    margin-right: 10px;
+}
+
+#releaseNotesMain .badge.new {
+    background-color: #ddd8eb;
+    color: #754eda;
+}
+
+#releaseNotesMain .badge.updated {
+    background-color: #cee2e4;
+    color: #2e9999;
 }
 
  /* Download release */
