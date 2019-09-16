@@ -110,6 +110,14 @@
 
   <p class="screenshot-caption">Here you can see how the refreshed upload form behaves when no album is available yet.</p>
 
+  <div class="interview">
+    <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
+    <img class="photo" src="https://piwigo.org/screenshots/piwigo-2.10-samuel-lefebvre.jpg">
+    <p class="first">My name is Samuel Lefebvre and I am a UX UI designer. As a trainee for Piwigo, my main role was to improve the aesthetics of the administration interfaces, ie User Interface (UI). I also worked to improve  user workflow, ie User eXperience (UX).</p>
+    <p>Before starting the redesign of the administration, I spent a lot of time using it in order to better understand the difficulties that users could encounter. On the other hand, I also studied competition. I hope you'll like this new vision of the Piwigo administration!</p>
+    <div class="interview-signature"><a href="https://samuel-lefebvre.com/">Samuel</a></div>
+  </div>
+
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
   <h3 id="dashboard">Dashboard gets a refresh</h3>
