@@ -30,7 +30,7 @@
 {if (isset($WEBVIEW) && $WEBVIEW)}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/webview.css">
 {/if}
-    
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Caveat+Brush|Coming+Soon|Gloria+Hallelujah|Sue+Ellen+Francisco&display=swap" rel="stylesheet">
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{$PORG_ROOT_URL_PLUGINS}js/jquery-3.2.1.min.js"></script>
@@ -60,7 +60,7 @@
 <noscript><p><img src="//piwigo.us/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 {/if}
-  </head>  
+  </head>
   <body>
 {if isset($ANNOUNCEMENT_INFO)}
   <div class="container-fluid language-available">

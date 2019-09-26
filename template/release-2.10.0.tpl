@@ -1,13 +1,23 @@
 {include file="template/release_top_sections.tpl"}
 
-<div id="releaseNotesMain">
+<div id="releaseNotesMain" class="tmp-2_10">
 
 <section class="container release-notes-intro">
   <div class="row">
-    <p>Design really matters. More than ever, you'll see this release 2.10 focuses on design and user experience. [... bla bla bla ...] Happy update!</p>
-  </div>
+    <div class="col-sm-12 col-md-6 text-center">
+      <p class="intro-text" id="intro-title">We are thrilled to present Piwigo latest update!</p>
+      <img class="img-fluid underline-img" src="{$PORG_ROOT_URL}/images/changelogs/title-underline.svg">
+      <p class="intro-text" id="intro-main-text"> This 2.10 version marks a turning point in Piwigo’s history, as it is the first step for a new Piwigo, redesigned according to current standards. The journey is not over yet, still we are proud of the work that has been made by our talented designers. But design is nothing without user oriented features brought to you by our dedicated developement team and great contributors.</p>
+      <p class="intro-text"> Let us lead you through this Piwigo 2.10 release note!</p>
+    </div>
+
+      <div class="col-sm-12 col-md-6 text-center">
+        <img class="img-fluid" src="https://piwigo.org/screenshots/github-screenshot-2.10.jpg">
+      </div>
+   </div>
 </section>
 
+{*
 <section id="overview" class="container-fluid release-notes-overview">
   <div class="container">
     <div class="row equal user-features">
@@ -76,21 +86,40 @@
       </div>
     </div>
   </div>
-</section>
+</section>*}
 
 <section class="container">
 
   <h3 id="modus">Modus new default theme, with 8 new skins</h3>
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <p class="col-sm-6 descriptive-text">Modus, a theme created a few years ago, becomes the default theme for Piwigo 2.10. Modus was selected because it is stable, compatible with high definition screens and compatible with many extensions. Last but not least, Modus is responsive. Meaning it automatically adapts to small screens such as a phone and to wide screens such as a television.</p>
+    <div class="col-sm-3"></div>
+  </div>
 
-  <p>Modus, a theme created a few years ago, becomes the default theme for Piwigo 2.10. Modus was selected because it is stable, compatible with high definition screens and compatible with many extensions. Last but not least, Modus is responsive. Meaning it automatically adapts to small screens such as a phone and to wide screens such as a television.</p>
+  <div class="row first-image-and-caption">
 
-  <img src="https://piwigo.org/screenshots/piwigo-2.10-modus-newspaper-thumbnails.png" class="screenshot">
-  <p class="screenshot-caption">Here you can see the default skin "Newspaper" with a black and white colorscheme.</p>
-  
+    <div class="col-sm-12 col-md-8 ">
+      <img class="img-fluid corner1" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
+      <img src="https://piwigo.org/screenshots/piwigo-2.10-modus-newspaper-thumbnails.png" class="screenshot">
+      <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
+    </div>
 
-  <img src="https://piwigo.org/screenshots/piwigo-2.10-skins-modus.jpg" class="screenshot">
+    <div class="col-sm-12 col-md-4">
+      <p class="screenshot-caption">Here you can see the default skin "Newspaper" with a black and white colorscheme.</p>
+    </div>
+  </div>
 
-  <p class="screenshot-caption">We didn't simply made it the default theme, we also refreshed Modus with 8 new skins.</p>
+  <div class="row second-image-and-caption">
+    <div class="col-sm-12 col-md-4">
+      <p class="screenshot-caption">We didn't simply make it the default theme, we also refreshed Modus with 8 new skins.</p>
+    </div>
+    <div class="col-sm-12 col-md-8  right-image-screenshot">
+      <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
+      <img src="https://piwigo.org/screenshots/piwigo-2.10-skins-modus.jpg" class="screenshot">
+      <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
+    </div>
+  </div>
 
   <div class="interview">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
@@ -104,12 +133,21 @@
 
   <h3 id="admin-redesign">Administration overall redesign</h3>
 
-  <p>New overall design, with new header/menubar/tabs. Less borders, more empty spaces</p>
-
-  <img src="https://piwigo.org/screenshots/piwigo-2.10-upload-welcome.png" class="screenshot">
-
-  <p class="screenshot-caption">Here you can see how the refreshed upload form behaves when no album is available yet.</p>
-
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <p class="col-sm-6 descriptive-text">New overall design, with new header/menubar/tabs. Less borders, more empty spaces</p>
+    <div class="col-sm-3"></div>
+  </div>
+  <div class="row first-image-and-caption">
+    <div class="col-sm-12 col-md-8 ">
+      <img class="img-fluid corner1" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
+      <img src="https://piwigo.org/screenshots/piwigo-2.10-upload-welcome.png" class="screenshot">
+      <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <p class="screenshot-caption">Here you can see how the refreshed upload form behaves when no album is available yet.</p>
+    </div>
+  </div>
   <div class="interview">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
     <img class="photo" src="https://piwigo.org/screenshots/piwigo-2.10-samuel-lefebvre.jpg">

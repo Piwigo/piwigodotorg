@@ -2277,7 +2277,7 @@ and (max-device-width : 480px) {
 .pwg-testimonies-user {
     margin-left: 0px;
     margin-right: 0px;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);    
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
 .pwg-testimonies-date, .pwg-testimonies-name {
@@ -5246,7 +5246,7 @@ label {
 .version-major p {
     font-size: 20px;
 }
- 
+
 .version-major a {
     text-decoration: none;
 }
@@ -5664,9 +5664,19 @@ label {
  }
 
 .release-notes-intro {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 40px;
     text-align: justify;
+    line-height:2em;
+}
+
+#releaseNotesMain #intro-title{
+  font-size:22px;
+  font-weight:bold;
+}
+
+#releaseNotesMain #intro-main-text{
+  font-size:18px;
 }
 
 #releaseNotesMain .back_overview {
@@ -5675,30 +5685,99 @@ label {
     text-align:right;
 }
 
+.tmp-2_10 .back_overview{
+  display:none;
+}
+
 #releaseNotesMain img.screenshot {
-    margin:20px auto;
+    margin:0 auto;
     display: block;
     max-width: 100%;
 }
 
 #releaseNotesMain p.screenshot-caption {
+    font-family: 'Coming Soon', cursive;
     text-align:center;
     font-style: italic;
-    margin-top: -10px;
-    margin-bottom: 50px;
     font-weight: 600;
     color: #666;
+
+}
+
+.first-image-and-caption, .second-image-and-caption{
+   position: relative;
+   margin:80px 0;
+}
+
+.first-image-and-caption div:last-child{
+  margin: 0;
+ position: absolute;
+ top: 50%;
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+ right:0;
+}
+
+.second-image-and-caption div:first-child{
+  margin: 0;
+ position: absolute;
+ top: 50%;
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+left:0;
+}
+
+.right-image-screenshot{
+  float:right;
+}
+
+.underline-img{
+  position:absolute;
+  top:60px;
+  left:100px;
+  height:50px;
+}
+
+.corner1{
+  width:50px;
+  position:absolute;
+  top: -26px;
+  left: -13px;
+}
+
+.corner2{
+  width:65px;
+  position:absolute;
+  bottom: -38px;
+  right:-30px;
+}
+
+.corner3{
+  transform: rotate(90deg);
+  width:50px;
+  position:absolute;
+  top: -26px;
+  right: -13px;
+}
+
+.corner4{
+  transform: rotate(90deg);
+  width:50px;
+  position:absolute;
+  bottom: -20px;
+  left:0;
 }
 
 .interview {
     background-color:#dfeff5;
-    padding: 50px; 
+    padding: 50px;
     margin-bottom: 50px;
 }
 
 .interview p {
    color: #145f79;
-   font-weight: 600;
+   line-height:2em;
+   font-size:16px;
 }
 
 .interview img.quotes {
@@ -5712,16 +5791,20 @@ label {
 
 .interview-signature {
     text-align: right;
+    font-weight:600;
 }
 
 .interview .photo {
     float: right;
-    margin: 0 0 50px 50px; 
-    width: 150px;
+    margin: 0 0 50px 50px;
+    width: 175px;
 }
 
 #releaseNotesMain section h3 {
-    border-bottom: 1px solid #cdcdcd;
+    border-bottom: none;
+    font-size: 40px;
+    font-weight:900;
+    text-align:center;
 }
 
 section.release-notes-overview {
@@ -5748,7 +5831,7 @@ section.release-notes-overview .technical-features {
 
 section.release-notes-overview h3 i {
     margin-right: 10px;
-    font-size: 20px;
+
 }
 
 #releaseNotesMain section.release-notes-overview ul {
@@ -5780,8 +5863,13 @@ section.release-notes-overview li a {
 }
 
 #releaseNotesMain p {
-    margin: 20px 0;
-    text-align: justify;
+    margin: 30px 0;
+    text-align: center;
+}
+
+#releaseNotesMain p.descriptive-text{
+  line-height:2em;
+  font-size:18px;
 }
 
 #releaseNotesMain ul {
@@ -5806,6 +5894,39 @@ section.release-notes-overview li a {
 #releaseNotesMain .badge.updated {
     background-color: #cee2e4;
     color: #2e9999;
+}
+
+@media (max-width:991px) {
+  .first-image-and-caption, .second-image-and-caption{
+    margin:50px 0;
+  }
+  .first-image-and-caption div:last-child{
+   position: relative;
+   margin:30px 0;
+   padding-top:50px;
+  }
+  .second-image-and-caption div:first-child{
+    position:relative;
+  }
+  #releaseNotesMain p.screenshot-caption{
+    margin:8px;
+  }
+  .underline-img{
+    position:relative;
+    top:0;
+    left:0;
+  }
+  .corner2{
+    bottom:-30px;
+    right:-20px;
+  }
+  .corner4{
+    left:0;
+  }
+
+  #releaseNotesMain p{
+    margin:15px 0;
+  }
 }
 
  /* Download release */
@@ -6408,7 +6529,7 @@ section.release-notes-overview li a {
 .footer-piwigo-logo img {
     width: 100%;
     height: auto;
-}   
+}
 
 @media (max-width: 991px) {
     .footer-piwigo-logo {
