@@ -1,4 +1,7 @@
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /**********************
  * Piwgo website font *
  **********************/
@@ -5704,9 +5707,13 @@ label {
 
 }
 
-.first-image-and-caption, .second-image-and-caption{
+.first-image-and-caption, .second-image-and-caption, .center-image-without-caption{
    position: relative;
    margin:80px 0;
+}
+
+#releaseNotesMain .center-image-without-caption img{
+  max-width:60%;
 }
 
 .first-image-and-caption div:last-child{
@@ -5764,9 +5771,27 @@ left:0;
   transform: rotate(90deg);
   width:50px;
   position:absolute;
-  bottom: -20px;
-  left:0;
+  bottom: -23px;
+  left:-10px;
 }
+
+.corner5 {
+    transform: rotate(90deg);
+    width: 50px;
+    position: absolute;
+    top: -30px;
+    right: 200px;
+}
+
+.corner6 {
+    transform: rotate(90deg);
+    width: 50px;
+    position: absolute;
+    bottom: -35px;
+    left: 202px;
+  }
+
+
 
 .interview {
     background-color:#dfeff5;
@@ -5856,10 +5881,10 @@ section.release-notes-overview li a {
 #releaseNotesMain H4 {
     font-style: normal;
     font-weight: bold;
-    border-bottom: 2px solid #cdcdcd;
     font-size: 110%;
-    display: inline;
-    color: #666;
+    color: black;
+    font-size:25px;
+    text-align:center;
 }
 
 #releaseNotesMain p {
@@ -5896,6 +5921,16 @@ section.release-notes-overview li a {
     color: #2e9999;
 }
 
+@media (max-width:1200px){
+  .corner5{
+    right:160px;
+  }
+  .corner6{
+    left:160px;
+  }
+}
+
+
 @media (max-width:991px) {
   .first-image-and-caption, .second-image-and-caption{
     margin:50px 0;
@@ -5922,6 +5957,12 @@ section.release-notes-overview li a {
   }
   .corner4{
     left:0;
+  }
+  .corner5{
+    right:120px;
+  }
+  .corner6{
+    left:120px;
   }
 
   #releaseNotesMain p{
