@@ -238,6 +238,7 @@ function porg_load_content()
             if (isset($_GET['version'])) // might have been set by porg_label_to_page called earlier
             {
                 $tpl_file = porg_get_release_tpl($_GET['version']);
+                $template->assign('RELEASE_VERSION', str_replace('.', '_', $_GET['version']));
             }
 
             $template->set_filenames(array('porg_page' => realpath($tpl_file)));

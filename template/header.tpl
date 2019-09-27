@@ -61,7 +61,7 @@
 <!-- End Piwik Code -->
 {/if}
   </head>
-  <body>
+  <body{if isset($RELEASE_VERSION)} class="release-{$RELEASE_VERSION}"{/if}>
 {if isset($ANNOUNCEMENT_INFO)}
   <div class="container-fluid language-available">
     <a href="{$ANNOUNCEMENT_INFO.url}"><i class="glyphicon glyphicon-calendar"></i> {$ANNOUNCEMENT_INFO.label}</a>
