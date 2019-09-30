@@ -1,6 +1,6 @@
 {include file="template/release_top_sections.tpl"}
 
-<div id="releaseNotesMain" class="tmp-2_10">
+<div id="releaseNotesMain">
 
 <section class="container release-notes-intro">
   <div class="row">
@@ -90,6 +90,7 @@
 
 <section class="container">
 
+<div class="section-part">
   <h3 id="modus">Modus is the new default theme, with 8 new skins</h3>
   <div class="row">
     <div class="col-sm-3"></div>
@@ -129,6 +130,8 @@
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
+</div>
+<div class="section-part">
   <h3 id="admin-redesign">An overall redesign for the administration</h3>
 
   <div class="row">
@@ -158,6 +161,9 @@
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
+</div>
+<div class="section-part">
+
   <h3 id="dashboard">Dashboard gets a refresh</h3>
 
   <div class="row second-image-and-caption">
@@ -170,6 +176,9 @@
     <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
   </div>
   </div>
+
+</div>
+<div class="section-part">
 
   <h3 id="dark-mode">New dark mode</h3>
 
@@ -189,7 +198,10 @@
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
-  <h3 id="upload-form">The uUpload form gets a new design</h3>
+</div>
+<div class="section-part">
+
+  <h3 id="upload-form">The upload form gets a new design</h3>
 
   <div class="row">
     <div class="col-sm-3"></div>
@@ -232,6 +244,9 @@
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
+</div>
+<div class="section-part">
+
   <h3 id="album-manager">Album Manager, bigger and simpler</h3>
 
   <div class="row second-image-and-caption">
@@ -246,6 +261,9 @@
   </div>
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
+
+</div>
+<div class="section-part">
 
   <h3 id="batch-metadata-sync">Progression for metadata sync</h3>
 
@@ -269,6 +287,9 @@
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
+</div>
+<div class="section-part">
+
   <h3 id="check-for-upgrade">Check for upgrade action was moved</h3>
 
   <div class="row second-image-and-caption">
@@ -283,6 +304,9 @@
   </div>
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
+
+</div>
+<div class="section-part">
 
   <h3 id="help-popin">Admin help opens as a popin</h3>
 
@@ -299,16 +323,22 @@
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
+</div>
+<div class="section-part">
+
   <h3 id="user-comments">We have deactivated user comments by default</h3>
 
   <div class="row">
     <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class="descriptive-text">Don't panic, we're not removing the feature, we just decided to turn it off by default. You might ask "Why turning off existing feature?". Because too many features visible might scare people that are testing Piwigo. We need to smartly select what is most important for the majority.</p>
-      <p class="descriptive-text">On Piwigo.com, where we host thousands of Piwigos, we have some interesting statistics on used features. Concerning user comments, only 16% of Piwigo installations have more than 10 user comments. Moreover many of them are users using comments instead of photo descriptions.</p>
+    <div class="col-sm-8 center-image-without-caption">
+      <p class="descriptive-text-user-comments">Don't panic, we're not removing the feature, we just decided to turn it off by default. You might ask "Why turning off existing feature?". Because too many features visible might scare people that are testing Piwigo. We need to smartly select what is most important for the majority.</p>
+      <p class="descriptive-text-user-comments">On Piwigo.com, where we host thousands of Piwigos, we have some interesting statistics on used features. Concerning user comments, only 16% of Piwigo installations have more than 10 user comments. Moreover many of them are users using comments instead of photo descriptions.</p>
     </div>
     <div class="col-sm-2"></div>
   </div>
+
+</div>
+<div class="section-part">
 
   <h3 id="duplicates-sorting">Duplicates get a smarter sorting</h3>
 
@@ -342,6 +372,9 @@
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
+</div>
+<div class="section-part">
+
   <h3 id="android-9">Smartpocket theme now compatible with Android 9</h3>
 
   <div class="row">
@@ -352,6 +385,9 @@
       </div>
     <div class="col-sm-2"></div>
   </div>
+
+</div>
+<div class="section-part">
 
   <h3 id="public-sub-albums">1 click to set sub-albums public</h3>
 
@@ -372,6 +408,9 @@
   </div>
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
+
+</div>
+<div class="section-part">
 
   <h3 id="album-dates">Show album dates</h3>
 
@@ -407,6 +446,9 @@
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
+</div>
+<div class="section-part">
+
   <h3 id="hide-newsletter-subscribe-link">Hide the newsletter subscribe link</h3>
 
   <div class="row">
@@ -429,6 +471,9 @@
   </div>
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
+
+</div>
+<div class="section-part technical-features">
 
 <h3>Technical features</h3>
 
@@ -460,14 +505,14 @@
   <div class="col-sm-2"></div>
 </div>
 <div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
       <ul>
         <li><code>trigger_notify("delete_tags", $tag_ids);</code></li>
         <li><code>trigger_notify('delete_group', $groupids);</code></li>
       </ul>
     </div>
-    <div class="col-sm-2"></div>
+    <div class="col-sm-1"></div>
 </div>
 
 <h4 id="mysql8">Compatibility with MySQL 8</h4>
@@ -501,8 +546,8 @@
   <div class="col-sm-2"></div>
 </div>
 <div class="row">
-  <div class="col-sm-2"></div>
-<div class="col-sm-8">
+  <div class="col-sm-1"></div>
+<div class="col-sm-10">
 <pre><code>&lt;?php
 // +-----------------------------------------------------------------------+
 // | Piwigo - a PHP based photo gallery                                    |
@@ -526,7 +571,7 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+</code></pre>
 </div>
-<div class="col-sm-2"></div>
+<div class="col-sm-1"></div>
 </div>
 
 <div class="row">
@@ -537,8 +582,8 @@
   <div class="col-sm-2"></div>
 </div>
 <div class="row">
-  <div class="col-sm-2"></div>
-  <div class="col-sm-8">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10">
   <pre><code>&lt;?php
   // +-----------------------------------------------------------------------+
   // | This file is part of Piwigo.                                          |
@@ -548,13 +593,13 @@
   // +-----------------------------------------------------------------------+
   </code></pre>
   </div>
-  <div class="col-sm-2"></div>
+  <div class="col-sm-1"></div>
 </div>
 
 <div class="row">
   <div class="col-sm-2"></div>
     <div class="col-sm-8">
-      <p class="descriptive-text">The main goal was to remove years in these headers, because it required to update all Piwigo PHP files each year, for no specific coding change. The good side effect is that we now have a clean COPYING file with details on copyright with dates and trademark + a LICENSE file with the whole GPLv2 license.</p>
+      <p class="descriptive-text">The main goal was to remove years in these headers, because it required updating all Piwigo PHP files each year, for no specific coding change. The good side effect is that we now have a clean COPYING file with details on copyright with dates and trademark + a LICENSE file with the whole GPLv2 license.</p>
     </div>
   <div class="col-sm-2"></div>
 </div>
@@ -570,8 +615,8 @@
 </div>
 
 <h4 id="api">API improvements</h4>
-<div class="col-sm-2"></div>
-<div class="col-sm-8">
+<div class="col-sm-1"></div>
+<div class="col-sm-10">
   <ul class="api-methods">
     <li><span class="badge new">new</span><code>pwg.images.setMd5sum</code> sets the checksum of photos where it's missing.</li>
     <li><span class="badge new">new</span><code>pwg.categories.setRank</code> changes the sort order of an album among his siblings. You can also reorder the whole set of albums at once.</li>
@@ -581,7 +626,7 @@
     <li><span class="badge updated">updated</span><code>pwg.session.login</code> now accepts empty password (just like web login form).</li>
   </ul>
 </div>
-<div class="col-sm-2"></div>
+<div class="col-sm-1"></div>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 </section>

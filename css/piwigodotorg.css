@@ -1,4 +1,4 @@
-html, body {
+.release-2_10_0 {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -5688,7 +5688,7 @@ label {
     text-align:right;
 }
 
-.tmp-2_10 .back_overview{
+.release-2_10_0 .back_overview{
   display:none;
 }
 
@@ -5709,7 +5709,7 @@ label {
 
 .first-image-and-caption, .second-image-and-caption, .center-image-without-caption{
    position: relative;
-   margin:80px 0;
+   margin:50px 0;
 }
 
 #releaseNotesMain .center-image-without-caption img{
@@ -5830,6 +5830,7 @@ left:0;
     font-size: 40px;
     font-weight:900;
     text-align:center;
+    margin-bottom:-10px;
 }
 
 section.release-notes-overview {
@@ -5885,6 +5886,8 @@ section.release-notes-overview li a {
     color: black;
     font-size:25px;
     text-align:center;
+    margin-top:40px;
+    margin-bottom:-20px;
 }
 
 #releaseNotesMain p {
@@ -5897,6 +5900,27 @@ section.release-notes-overview li a {
   font-size:18px;
 }
 
+#releaseNotesMain .interview p{
+  text-align:left;
+}
+
+#releaseNotesMain p.descriptive-text-user-comments{
+  line-height:1.5em;
+  text-align:left;
+  font-size:16px;
+  padding:30px;
+  border-left:solid 3px #FF7700;
+  background-color: #ffc99a;
+  color:#823b00;
+}
+
+#releaseNotesMain .technical-features p.descriptive-text{
+  font-size:16px;
+  line-height:1.75em;
+  text-align:left;
+}
+
+
 #releaseNotesMain ul {
     margin-top:20px;
     margin-bottom: 20px;
@@ -5905,6 +5929,7 @@ section.release-notes-overview li a {
 #releaseNotesMain ul.api-methods {
     padding-left: 0;
     list-style: none;
+    padding-top:15px;
 }
 
 #releaseNotesMain .badge {
@@ -5919,6 +5944,10 @@ section.release-notes-overview li a {
 #releaseNotesMain .badge.updated {
     background-color: #cee2e4;
     color: #2e9999;
+}
+
+.section-part{
+  padding:40px 0;
 }
 
 @media (max-width:1200px){
@@ -5967,6 +5996,10 @@ section.release-notes-overview li a {
 
   #releaseNotesMain p{
     margin:15px 0;
+  }
+
+  .section-part{
+    padding:30px 0;
   }
 }
 
