@@ -475,158 +475,85 @@
 </div>
 <div class="section-part technical-features">
 
-<h3>Technical features</h3>
-
 <div class="row">
   <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class=" descriptive-text">Please note that more detailed documentation is available about <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.10">Technical changes in Piwigo 2.10</a>. Please read it to make your extensions compatible with Piwigo 2.10.</p>
-    </div>
-  <div class="col-sm-2"></div>
-</div>
+  <div class="col-sm-8">
+    <h3>Technical features</h3>
+    <p class=" descriptive-text col-sm-12">Please note that more detailed documentation is available about <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.10">Technical changes in Piwigo 2.10</a>. Please read it to make your extensions compatible with Piwigo 2.10.</p>
 
-<h4 id="activity">Admin actions gets logged</h4>
+    <h4 class="col-sm-12" id="activity">Admin actions gets logged</h4>
+    <p class=" descriptive-text col-sm-12">Many actions you perform in the administration are now stored in an <code>activity</code> table in the database. For example if you add/edit/delete a photo/album/tag/user/group or if you login/logout, Piwigo will register who did the action and when. For now, Piwigo just logs this activity. Later we will be able to show it.</p>
 
-<div class="row">
-  <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class=" descriptive-text">Many actions you perform in the administration are now stored in an <code>activity</code> table in the database. For example if you add/edit/delete a photo/album/tag/user/group or if you login/logout, Piwigo will register who did the action and when. For now, Piwigo just logs this activity. Later we will be able to show it.</p>
-    </div>
-  <div class="col-sm-2"></div>
-</div>
+    <h4 class="col-sm-12" id="triggers">New triggers</h4>
+    <p class=" descriptive-text col-sm-12">We have added 2 new triggers when tags and groups are deleted:</p>
+    <ul class="col-sm-12">
+      <li><code>trigger_notify("delete_tags", $tag_ids);</code></li>
+      <li><code>trigger_notify('delete_group', $groupids);</code></li>
+    </ul>
 
-<h4 id="triggers">New triggers</h4>
+    <h4 class="col-sm-12" id="mysql8">Compatibility with MySQL 8</h4>
+    <p class=" descriptive-text col-sm-12">MySQL 8 is starting to run on production environments and many users have reported some issues with Piwigo. Indeed, MySQL has added some "reserved keywords", such as <code>groups</code> or <code>rank</code> that are used in Piwigo database column or table names.</p>
 
-<div class="row">
-  <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class=" descriptive-text">We have added 2 new triggers when tags and groups are deleted:</p>
-    </div>
-  <div class="col-sm-2"></div>
-</div>
-<div class="row">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-10">
-      <ul>
-        <li><code>trigger_notify("delete_tags", $tag_ids);</code></li>
-        <li><code>trigger_notify('delete_group', $groupids);</code></li>
-      </ul>
-    </div>
-    <div class="col-sm-1"></div>
-</div>
+    <h4 class="col-sm-12" id="phpmailer">Updated library PhpMailer</h4>
+    <p class=" descriptive-text col-sm-12">The PHP library Piwigo uses to send emails, PhpMailer, was updated to be compatible with PHP 7.2 and later.</p>
 
-<h4 id="mysql8">Compatibility with MySQL 8</h4>
-
-<div class="row">
-  <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class=" descriptive-text">MySQL 8 is starting to run on production environments and many users have reported some issues with Piwigo. Indeed, MySQL has added some "reserved keywords", such as <code>groups</code> or <code>rank</code> that are used in Piwigo database column or table names.</p>
-    </div>
-  <div class="col-sm-2"></div>
-</div>
-
-<h4 id="phpmailer">Updated library PhpMailer</h4>
-
-<div class="row">
-  <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class=" descriptive-text">The PHP library Piwigo uses to send emails, PhpMailer, was updated to be compatible with PHP 7.2 and later.</p>
-    </div>
-  <div class="col-sm-2"></div>
-</div>
-
-
-<h4 id="code-headers">Source code headers have been simplified</h4>
-
-<div class="row">
-  <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class=" descriptive-text">We have simplified source code headers in all PHP files: instead of writing a full copyright with years + a summary of GPLv2 license, we just tell readers to open the COPYNG file included in Piwigo 2.10. Instead of this:</p>
-    </div>
-  <div class="col-sm-2"></div>
-</div>
-<div class="row">
-  <div class="col-sm-1"></div>
-<div class="col-sm-10">
-<pre><code>&lt;?php
-// +-----------------------------------------------------------------------+
-// | Piwigo - a PHP based photo gallery                                    |
-// +-----------------------------------------------------------------------+
-// | Copyright(C) 2008-2016 Piwigo Team                  http://piwigo.org |
-// | Copyright(C) 2003-2008 PhpWebGallery Team    http://phpwebgallery.net |
-// | Copyright(C) 2002-2003 Pierrick LE GALL   http://le-gall.net/pierrick |
-// +-----------------------------------------------------------------------+
-// | This program is free software; you can redistribute it and/or modify  |
-// | it under the terms of the GNU General Public License as published by  |
-// | the Free Software Foundation                                          |
-// |                                                                       |
-// | This program is distributed in the hope that it will be useful, but   |
-// | WITHOUT ANY WARRANTY; without even the implied warranty of            |
-// | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
-// | General Public License for more details.                              |
-// |                                                                       |
-// | You should have received a copy of the GNU General Public License     |
-// | along with this program; if not, write to the Free Software           |
-// | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
-// | USA.                                                                  |
-// +-----------------------------------------------------------------------+</code></pre>
-</div>
-<div class="col-sm-1"></div>
-</div>
-
-<div class="row">
-  <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class=" descriptive-text">we now have this simplified header:</p>
-    </div>
-  <div class="col-sm-2"></div>
-</div>
-<div class="row">
-  <div class="col-sm-1"></div>
-  <div class="col-sm-10">
-  <pre><code>&lt;?php
+    <h4 class="col-sm-12" id="code-headers">Source code headers have been simplified</h4>
+    <p class=" descriptive-text col-sm-12">We have simplified source code headers in all PHP files: instead of writing a full copyright with years + a summary of GPLv2 license, we just tell readers to open the COPYNG file included in Piwigo 2.10. Instead of this:</p>
+  <pre class="col-sm-12" ><code>&lt;?php
   // +-----------------------------------------------------------------------+
-  // | This file is part of Piwigo.                                          |
+  // | Piwigo - a PHP based photo gallery                                    |
+  // +-----------------------------------------------------------------------+
+  // | Copyright(C) 2008-2016 Piwigo Team                  http://piwigo.org |
+  // | Copyright(C) 2003-2008 PhpWebGallery Team    http://phpwebgallery.net |
+  // | Copyright(C) 2002-2003 Pierrick LE GALL   http://le-gall.net/pierrick |
+  // +-----------------------------------------------------------------------+
+  // | This program is free software; you can redistribute it and/or modify  |
+  // | it under the terms of the GNU General Public License as published by  |
+  // | the Free Software Foundation                                          |
   // |                                                                       |
-  // | For copyright and license information, please view the COPYING.txt    |
-  // | file that was distributed with this source code.                      |
-  // +-----------------------------------------------------------------------+
-  </code></pre>
+  // | This program is distributed in the hope that it will be useful, but   |
+  // | WITHOUT ANY WARRANTY; without even the implied warranty of            |
+  // | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
+  // | General Public License for more details.                              |
+  // |                                                                       |
+  // | You should have received a copy of the GNU General Public License     |
+  // | along with this program; if not, write to the Free Software           |
+  // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
+  // | USA.                                                                  |
+  // +-----------------------------------------------------------------------+</code></pre>
+
+
+    <p class=" descriptive-text col-sm-12">we now have this simplified header:</p>
+    <pre class="col-sm-12" ><code>&lt;?php
+    // +-----------------------------------------------------------------------+
+    // | This file is part of Piwigo.                                          |
+    // |                                                                       |
+    // | For copyright and license information, please view the COPYING.txt    |
+    // | file that was distributed with this source code.                      |
+    // +-----------------------------------------------------------------------+
+    </code></pre>
+    <p class="descriptive-text col-sm-12">The main goal was to remove years in these headers, because it required updating all Piwigo PHP files each year, for no specific coding change. The good side effect is that we now have a clean COPYING file with details on copyright with dates and trademark + a LICENSE file with the whole GPLv2 license.</p>
+
+    <h4 class="col-sm-12" id="themes-github">Each theme has it own repository</h4>
+    <p class=" descriptive-text col-sm-12">All themes were removed from Piwigo core repository, even those included in the Piwigo installation zip archive. Each theme has now its own repository on Github. This way we have a specific bugtracker for each theme. Actually, this is exactly what we've done for years with plugins!</p>
+
+    <h4 class="col-sm-12" id="api">API improvements</h4>
+    <ul class="api-methods col-sm-12">
+      <li><span class="badge new">new</span><code>pwg.images.setMd5sum</code> sets the checksum of photos where it's missing.</li>
+      <li><span class="badge new">new</span><code>pwg.categories.setRank</code> changes the sort order of an album among his siblings. You can also reorder the whole set of albums at once.</li>
+      <li><span class="badge new">new</span><code>pwg.users.favorites.add</code> adds a photo to user favorites.</li>
+      <li><span class="badge new">new</span><code>pwg.users.favorites.remove</code> removes a photo from user favorites.</li>
+      <li><span class="badge new">new</span><code>pwg.users.favorites.getList</code> returns the list of user favorite photos.</li>
+      <li><span class="badge updated">updated</span><code>pwg.session.login</code> now accepts empty password (just like web login form).</li>
+    </ul>
   </div>
-  <div class="col-sm-1"></div>
-</div>
-
-<div class="row">
-  <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class="descriptive-text">The main goal was to remove years in these headers, because it required updating all Piwigo PHP files each year, for no specific coding change. The good side effect is that we now have a clean COPYING file with details on copyright with dates and trademark + a LICENSE file with the whole GPLv2 license.</p>
-    </div>
   <div class="col-sm-2"></div>
 </div>
 
-<h4 id="themes-github">Each theme has it own repository</h4>
 
-<div class="row">
-  <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <p class=" descriptive-text">All themes were removed from Piwigo core repository, even those included in the Piwigo installation zip archive. Each theme has now its own repository on Github. This way we have a specific bugtracker for each theme. Actually, this is exactly what we've done for years with plugins!</p>
-    </div>
-  <div class="col-sm-2"></div>
-</div>
 
-<h4 id="api">API improvements</h4>
-<div class="col-sm-1"></div>
-<div class="col-sm-10">
-  <ul class="api-methods">
-    <li><span class="badge new">new</span><code>pwg.images.setMd5sum</code> sets the checksum of photos where it's missing.</li>
-    <li><span class="badge new">new</span><code>pwg.categories.setRank</code> changes the sort order of an album among his siblings. You can also reorder the whole set of albums at once.</li>
-    <li><span class="badge new">new</span><code>pwg.users.favorites.add</code> adds a photo to user favorites.</li>
-    <li><span class="badge new">new</span><code>pwg.users.favorites.remove</code> removes a photo from user favorites.</li>
-    <li><span class="badge new">new</span><code>pwg.users.favorites.getList</code> returns the list of user favorite photos.</li>
-    <li><span class="badge updated">updated</span><code>pwg.session.login</code> now accepts empty password (just like web login form).</li>
-  </ul>
-</div>
-<div class="col-sm-1"></div>
+
+
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 </section>

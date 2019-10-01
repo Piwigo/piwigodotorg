@@ -5914,6 +5914,11 @@ section.release-notes-overview li a {
   color:#823b00;
 }
 
+#releaseNotesMain .technical-features h4{
+  text-align:left;
+}
+
+
 #releaseNotesMain .technical-features p.descriptive-text{
   font-size:16px;
   line-height:1.75em;
@@ -5929,7 +5934,7 @@ section.release-notes-overview li a {
 #releaseNotesMain ul.api-methods {
     padding-left: 0;
     list-style: none;
-    padding-top:15px;
+    padding:15px;
 }
 
 #releaseNotesMain .badge {
