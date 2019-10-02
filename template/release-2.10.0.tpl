@@ -324,20 +324,26 @@
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 </div>
-<div class="section-part">
 
-  <h3 id="user-comments">We have deactivated user comments by default</h3>
+<div class="section-part section-framed">
+    <img src="{$PORG_ROOT_URL}images/changelogs/information.svg" class="information">
+    <h3 id="user-comments">We have deactivated user comments by default</h3>
 
-  <div class="row">
+    <p>Don't panic, we're not removing the feature, we just decided to turn it off by default. You might ask "Why turning off existing feature?". Because too many features visible might scare people that are testing Piwigo. We need to smartly select what is most important for the majority.</p>
+    <p>On Piwigo.com, where we host thousands of Piwigos, we have some interesting statistics on used features. Concerning user comments, only 16% of Piwigo installations have more than 10 user comments. Moreover many of them are users using comments instead of photo descriptions.</p>
+
+
+<!--  <div class="row">
     <div class="col-sm-2"></div>
     <div class="col-sm-8 center-image-without-caption">
       <p class="descriptive-text-user-comments">Don't panic, we're not removing the feature, we just decided to turn it off by default. You might ask "Why turning off existing feature?". Because too many features visible might scare people that are testing Piwigo. We need to smartly select what is most important for the majority.</p>
       <p class="descriptive-text-user-comments">On Piwigo.com, where we host thousands of Piwigos, we have some interesting statistics on used features. Concerning user comments, only 16% of Piwigo installations have more than 10 user comments. Moreover many of them are users using comments instead of photo descriptions.</p>
     </div>
     <div class="col-sm-2"></div>
-  </div>
+  </div>-->
 
 </div>
+
 <div class="section-part">
 
   <h3 id="duplicates-sorting">Duplicates get a smarter sorting</h3>
@@ -373,20 +379,13 @@
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 </div>
-<div class="section-part">
+<div class="section-part section-framed">
+    <img src="{$PORG_ROOT_URL}images/changelogs/information.svg" class="information">
+    <h3 id="android-9">Smartpocket theme is now compatible with Android 9</h3>
+    <p class="">We know Android 10 was announced a few days ago, but only a few devices are running Android 9 these days. The mobile theme, SmartPocket, was not correctly loaded with Android 9. This is fixed in Piwigo 2.10.</p>
+    <p class="">Talking about SmartPocket... even if Modus, Piwigo 2.10 new default theme, is responsive, we are keeping SmartPocket activated by default. It means it will be used automatically if Piwigo detects the visitor is using a mobile device. You can deactivate SmartPocket if you prefer to always use Modus.</p>
 
-  <h3 id="android-9">Smartpocket theme now compatible with Android 9</h3>
-
-  <div class="row">
-    <div class="col-sm-2"></div>
-      <div class="col-sm-8">
-        <p class=" descriptive-text">We know Android 10 was announced a few days ago, but only a few devices are running Android 9 these days. The mobile theme, SmartPocket, was not correctly loaded with Android 9. This is fixed in Piwigo 2.10.</p>
-        <p class="descriptive-text">Talking about SmartPocket... even if Modus, Piwigo 2.10 new default theme, is responsive, we are keeping SmartPocket activated by default. It means it will be used automatically if Piwigo detects the visitor is using a mobile device. You can deactivate SmartPocket if you prefer to always use Modus.</p>
-      </div>
-    <div class="col-sm-2"></div>
-  </div>
-
-</div>
+ </div>
 <div class="section-part">
 
   <h3 id="public-sub-albums">1 click to set sub-albums public</h3>
@@ -423,10 +422,10 @@
   </div>
 
   <div class="row second-image-and-caption">
-    <div class="col-sm-12 col-md-4">
+    <div class="col-sm-12 col-md-6">
       <p class="screenshot-caption">No need to use the local configuration to activate it, a simple click is enough.</p>
     </div>
-    <div class="col-sm-12 col-md-8  right-image-screenshot">
+    <div class="col-sm-12 col-md-6  right-image-screenshot">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
       <img src="https://piwigo.org/screenshots/piwigo-2.10-album-dates-config.png" class="screenshot" style="width:100%;">
       <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">

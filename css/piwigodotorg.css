@@ -5929,10 +5929,10 @@ section.release-notes-overview li a {
 #releaseNotesMain ul {
     margin-top:20px;
     margin-bottom: 20px;
+    padding-left:30px;
 }
 
 #releaseNotesMain ul.api-methods {
-    padding-left: 0;
     list-style: none;
     padding:15px;
 }
@@ -5954,6 +5954,35 @@ section.release-notes-overview li a {
 .section-part{
   padding:40px 0;
 }
+
+#releaseNotesMain .section-framed {
+    background-color:#e7a7d6;
+    color:#52003B;
+    padding: 50px;
+}
+#releaseNotesMain .section-framed img.information {
+    width: 75px;
+    margin-top: -122px;
+}
+#releaseNotesMain .section-framed h3 {
+    margin: -10px 0 20px 0;
+    font-size: 30px;
+    text-align: right;
+}
+#releaseNotesMain .section-framed p {
+    text-align: left;
+    line-height:1.5em;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 30px 0 0 0;
+}
+
+.technical-features pre{
+  margin:15px;
+  padding:15px;
+  width:94%;
+}
+
 
 @media (max-width:1200px){
   .corner5{
