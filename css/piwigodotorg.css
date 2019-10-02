@@ -5825,13 +5825,26 @@ left:0;
     width: 175px;
 }
 
-#releaseNotesMain section h3 {
+body.release-2_10_0 #releaseNotesMain section h3 {
     border-bottom: none;
     font-size: 40px;
     font-weight:900;
     text-align:center;
     margin-bottom:-10px;
 }
+
+#releaseNotesMain section h3 {
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+#releaseNotesMain H4 {
+    font-style: normal;
+    font-weight: bold;
+    border-bottom: 2px solid #cdcdcd;
+    font-size: 110%;
+    display: inline;
+    color: #666;
+  }
 
 section.release-notes-overview {
     background-color: #54616F;
@@ -5879,7 +5892,7 @@ section.release-notes-overview li a {
     margin-bottom: 30px;
 }
 
-#releaseNotesMain H4 {
+body.release-2_10_0 #releaseNotesMain H4 {
     font-style: normal;
     font-weight: bold;
     font-size: 110%;
@@ -5888,6 +5901,7 @@ section.release-notes-overview li a {
     text-align:center;
     margin-top:40px;
     margin-bottom:-20px;
+    border-bottom:none;
 }
 
 #releaseNotesMain p {
