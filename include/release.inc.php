@@ -32,6 +32,10 @@ if (isset($_GET['version']))
 
         /* Release summary */
         $summary = implode(', ', $porg_releases[$version]['summary']);
+        if (isset($porg_releases[$version]['subtitle']))
+        {
+            $summary = l10n($porg_releases[$version]['subtitle']);
+        }
 
         /* Release date */
         $released_on = porg_date_format($porg_releases[$version]['released_on']);

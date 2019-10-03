@@ -23,14 +23,14 @@
             <div class="version-major-border-top"></div>
             <ul class="bold">
             {foreach from=$releases[$version].summary key=key item=summary}
-              <li>{$summary}</li>
+              <li>{$summary|translate}</li>
             {/foreach}
             </ul>
             <div class="version-major-border-bottom"></div>
           </div>
           {/if}
           <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}-{$version}">Read more</a>
+            <a href="{$PORG_ROOT}{$URL.release}-{$version}">{'Read more'|translate}</a>
           </div>
         </div>
       </div>

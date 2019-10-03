@@ -5,6 +5,7 @@ $porg_releases = array(
     'released_on' => '2019-10-04',
     'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
     'summary' => array('Default theme Modus', 'Admin redesign', 'Dark mode'),
+    'subtitle' => 'a major update, focused on design and user experience',
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),

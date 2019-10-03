@@ -1,4 +1,6 @@
 <?php
+$lang['a major update, focused on design and user experience'] = 'mise à jour majeure, centrée sur le design et l’expérience utilisateur';
+
 $lang['porg_v2100_intro1'] = 'Nous sommes ravis de vous présenter la dernière version de Piwigo !';
 $lang['porg_v2100_intro2'] = 'Cette version 2.10 marque un tournant dans l’évolution de Piwigo, première étape d’une redéfinition graphique propre aux codes esthétiques actuels.';
 $lang['porg_v2100_intro3'] = 'Si ce renouveau n’est pas encore complet, nous sommes néanmoins fiers de vous montrer ce que nos talentueux designers ont déjà réalisé.';
@@ -7,7 +9,7 @@ $lang['porg_v2100_intro5'] = 'Laissez vous guider à travers les notes de la ver
 
 $lang['porg_v2100_modus_title'] = 'Modus est le nouveau thème par défaut,<br> avec ses 8 nouveaux styles';
 $lang['porg_v2100_modus_s1'] = 'Modus, un thème créé il y a quelques années, devient le thème par défaut sur Piwigo 2.10.';
-$lang['porg_v2100_modus_s2'] = 'Modus a été séléctionné car il est stable, compatible avec les écrans à haute définition et compabitle avec de nombreuses extensions.';
+$lang['porg_v2100_modus_s2'] = 'Modus a été séléctionné car il est stable, compatible avec les écrans à haute définition et compatible avec de nombreuses extensions.';
 $lang['porg_v2100_modus_s3'] = 'Last but not least, Modus is responsive.';
 $lang['porg_v2100_modus_s3'] = 'Pour finir en beauté, Modus est <em>responsive</em>.';
 $lang['porg_v2100_modus_s4'] = 'Cela signifie qu’il s’adapte automatiquement aux petits écrans comme celui d’un téléphone ou aux grands écrans comme un téléviseur.';

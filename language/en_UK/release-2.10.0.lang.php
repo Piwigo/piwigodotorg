@@ -1,4 +1,6 @@
 <?php
+$lang['a major update, focused on design and user experience'] = 'a major update, focused on design and user experience';
+
 $lang['porg_v2100_intro1'] = 'We are thrilled to present Piwigo’s latest update!';
 $lang['porg_v2100_intro2'] = 'This 2.10 version marks a turning point in Piwigo’s history, as it is the first step for a new Piwigo, redesigned according to current standards.';
 $lang['porg_v2100_intro3'] = 'The journey is not over yet, still we are proud of the work that has been made by our talented designers.';
