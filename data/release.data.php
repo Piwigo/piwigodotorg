@@ -1,6 +1,19 @@
 <?php
 
 $porg_releases = array(
+  '2.10.0' => array(
+    'released_on' => '2019-10-04',
+    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
+    'summary' => array('Default theme Modus', 'Admin redesign', 'Dark mode'),
+    'features' => array(),
+    'bugs' => array(),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+  ),
+
   '2.9.5' => array(
     'released_on' => '2019-04-09',
     'md5sum' => 'fa27ad2a1d7121633a02c55134e7e1d3',
