@@ -463,78 +463,99 @@
 <div class="section-part technical-features">
 
 <div class="row">
-  <div class="col-sm-2"></div>
-  <div class="col-sm-8">
-    <h3>{'Technical features'|translate}</h3>
-    <p class=" descriptive-text col-sm-12">{'porg_v2100_tech_intro1'|translate:'https://piwigo.org/doc/doku.php?id=dev:changes_in_2.10'} {'porg_v2100_tech_intro2'|translate}</p>
 
-    <h4 class="col-sm-12" id="activity">{'porg_v2100_activity_title'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v2100_activity_s1'|translate} {'porg_v2100_activity_s2'|translate} {'porg_v2100_activity_s3'|translate} {'porg_v2100_activity_s4'|translate}</p>
-
-    <h4 class="col-sm-12" id="triggers">{'porg_v2100_triggers_title'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v2100_triggers_s1'|translate}</p>
-    <ul class="col-sm-12">
-      <li><code>trigger_notify("delete_tags", $tag_ids);</code></li>
-      <li><code>trigger_notify('delete_group', $groupids);</code></li>
-    </ul>
-
-    <h4 class="col-sm-12" id="mysql8">{'porg_v2100_mysql8_title'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v2100_mysql8_s1'|translate} {'porg_v2100_mysql8_s2'|translate}</p>
-
-    <h4 class="col-sm-12" id="phpmailer">{'porg_v2100_phpmailer_title'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v2100_phpmailer_s1'|translate}</p>
-
-    <h4 class="col-sm-12" id="code-headers">{'porg_v2100_headers_title'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s1'|translate} {'porg_v2100_headers_s2'|translate} {'porg_v2100_headers_s3'|translate}</p>
-  <pre class="col-sm-12" ><code>&lt;?php
-// +-----------------------------------------------------------------------+
-// | Piwigo - a PHP based photo gallery                                    |
-// +-----------------------------------------------------------------------+
-// | Copyright(C) 2008-2016 Piwigo Team                  http://piwigo.org |
-// | Copyright(C) 2003-2008 PhpWebGallery Team    http://phpwebgallery.net |
-// | Copyright(C) 2002-2003 Pierrick LE GALL   http://le-gall.net/pierrick |
-// +-----------------------------------------------------------------------+
-// | This program is free software; you can redistribute it and/or modify  |
-// | it under the terms of the GNU General Public License as published by  |
-// | the Free Software Foundation                                          |
-// |                                                                       |
-// | This program is distributed in the hope that it will be useful, but   |
-// | WITHOUT ANY WARRANTY; without even the implied warranty of            |
-// | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
-// | General Public License for more details.                              |
-// |                                                                       |
-// | You should have received a copy of the GNU General Public License     |
-// | along with this program; if not, write to the Free Software           |
-// | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
-// | USA.                                                                  |
-// +-----------------------------------------------------------------------+</code></pre>
+      <h3>{'Technical features'|translate}</h3>
+      <p class=" descriptive-text col-sm-12">{'porg_v2100_tech_intro1'|translate:'https://piwigo.org/doc/doku.php?id=dev:changes_in_2.10'} {'porg_v2100_tech_intro2'|translate}</p>
 
 
+      <div class="col-sm-6">
+        <h4 class="col-sm-12" id="mysql8">{'porg_v2100_mysql8_title'|translate}</h4>
+        <p class=" descriptive-text col-sm-12">{'porg_v2100_mysql8_s1'|translate} {'porg_v2100_mysql8_s2'|translate}</p>
+      </div>
+      
+    <div class="col-sm-6">
+      <h4 class="col-sm-12" id="activity">{'porg_v2100_activity_title'|translate}</h4>
+      <p class=" descriptive-text col-sm-12">{'porg_v2100_activity_s1'|translate} {'porg_v2100_activity_s2'|translate} {'porg_v2100_activity_s3'|translate} {'porg_v2100_activity_s4'|translate}</p>
+    </div>
+
+
+
+    <div class="col-sm-6">
+      <h4 class="col-sm-12" id="phpmailer">{'porg_v2100_phpmailer_title'|translate}</h4>
+      <p class=" descriptive-text col-sm-12">{'porg_v2100_phpmailer_s1'|translate}</p>
+    </div>
+
+    <div class="col-sm-6">
+      <h4 class="col-sm-12" id="triggers">{'porg_v2100_triggers_title'|translate}</h4>
+      <p class=" descriptive-text col-sm-12">{'porg_v2100_triggers_s1'|translate}</p>
+      <ul class="col-sm-12">
+        <li><code>trigger_notify("delete_tags", $tag_ids);</code></li>
+        <li><code>trigger_notify('delete_group', $groupids);</code></li>
+      </ul>
+    </div>
+
+
+
+    <div class="col-sm-6">
+      <h4 class="col-sm-12" id="themes-github">{'porg_v2100_themesgithub_title'|translate}</h4>
+      <p class=" descriptive-text col-sm-12">{'porg_v2100_themesgithub_s1'|translate} {'porg_v2100_themesgithub_s2'|translate} {'porg_v2100_themesgithub_s3'|translate} {'porg_v2100_themesgithub_s4'|translate}</p>
+    </div>
+
+
+    <div class="col-sm-6">
+      <h4 class="col-sm-12" id="api">{'porg_v2100_api_title'|translate}</h4>
+      <ul class="api-methods col-sm-12">
+        <li><span class="badge new">{'new'|translate}</span><code>pwg.images.setMd5sum</code> {'porg_v2100_api_s1'|translate}</li>
+        <li><span class="badge new">{'new'|translate}</span><code>pwg.categories.setRank</code> {'porg_v2100_api_s2'|translate}</li>
+        <li><span class="badge new">{'new'|translate}</span><code>pwg.users.favorites.add</code> {'porg_v2100_api_s3'|translate}</li>
+        <li><span class="badge new">{'new'|translate}</span><code>pwg.users.favorites.remove</code> {'porg_v2100_api_s4'|translate}</li>
+        <li><span class="badge new">{'new'|translate}</span><code>pwg.users.favorites.getList</code> {'porg_v2100_api_s5'|translate}</li>
+        <li><span class="badge updated">{'updated'|translate}</span><code>pwg.session.login</code> {'porg_v2100_api_s6'|translate}</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-12">
+      <h4 class="col-sm-12" id="code-headers">{'porg_v2100_headers_title'|translate}</h4>
+      <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s1'|translate} {'porg_v2100_headers_s2'|translate} {'porg_v2100_headers_s3'|translate}</p>
+        <div class="col-sm-6">
+    <pre class="col-sm-12" ><code>&lt;?php
+    // +-----------------------------------------------------------------------+
+    // | Piwigo - a PHP based photo gallery                                    |
+    // +-----------------------------------------------------------------------+
+    // | Copyright(C) 2008-2016 Piwigo Team                  http://piwigo.org |
+    // | Copyright(C) 2003-2008 PhpWebGallery Team    http://phpwebgallery.net |
+    // | Copyright(C) 2002-2003 Pierrick LE GALL   http://le-gall.net/pierrick |
+    // +-----------------------------------------------------------------------+
+    // | This program is free software; you can redistribute it and/or modify  |
+    // | it under the terms of the GNU General Public License as published by  |
+    // | the Free Software Foundation                                          |
+    // |                                                                       |
+    // | This program is distributed in the hope that it will be useful, but   |
+    // | WITHOUT ANY WARRANTY; without even the implied warranty of            |
+    // | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
+    // | General Public License for more details.                              |
+    // |                                                                       |
+    // | You should have received a copy of the GNU General Public License     |
+    // | along with this program; if not, write to the Free Software           |
+    // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
+    // | USA.                                                                  |
+    // +-----------------------------------------------------------------------+</code></pre>
+
+  </div>
+  <div class="col-sm-6">
     <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s4'|translate}</p>
     <pre class="col-sm-12" ><code>&lt;?php
-// +-----------------------------------------------------------------------+
-// | This file is part of Piwigo.                                          |
-// |                                                                       |
-// | For copyright and license information, please view the COPYING.txt    |
-// | file that was distributed with this source code.                      |
-// +-----------------------------------------------------------------------+
+    // +-----------------------------------------------------------------------+
+    // | This file is part of Piwigo.                                          |
+    // |                                                                       |
+    // | For copyright and license information, please view the COPYING.txt    |
+    // | file that was distributed with this source code.                      |
+    // +-----------------------------------------------------------------------+
     </code></pre>
     <p class="descriptive-text col-sm-12">{'porg_v2100_headers_s5'|translate} {'porg_v2100_headers_s6'|translate}</p>
 
-    <h4 class="col-sm-12" id="themes-github">{'porg_v2100_themesgithub_title'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v2100_themesgithub_s1'|translate} {'porg_v2100_themesgithub_s2'|translate} {'porg_v2100_themesgithub_s3'|translate} {'porg_v2100_themesgithub_s4'|translate}</p>
 
-    <h4 class="col-sm-12" id="api">{'porg_v2100_api_title'|translate}</h4>
-    <ul class="api-methods col-sm-12">
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.images.setMd5sum</code> {'porg_v2100_api_s1'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.categories.setRank</code> {'porg_v2100_api_s2'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.users.favorites.add</code> {'porg_v2100_api_s3'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.users.favorites.remove</code> {'porg_v2100_api_s4'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.users.favorites.getList</code> {'porg_v2100_api_s5'|translate}</li>
-      <li><span class="badge updated">{'updated'|translate}</span><code>pwg.session.login</code> {'porg_v2100_api_s6'|translate}</li>
-    </ul>
-  </div>
-  <div class="col-sm-2"></div>
+
 </div>
 
 
