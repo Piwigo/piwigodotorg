@@ -93,9 +93,9 @@
 <div class="section-part">
   <h3 id="modus">{'porg_v2100_modus_title'|translate}</h3>
   <div class="row">
-    <div class="col-sm-3"></div>
-    <p class="col-sm-6 descriptive-text">{'porg_v2100_modus_s1'|translate} {'porg_v2100_modus_s2'|translate} {'porg_v2100_modus_s3'|translate} {'porg_v2100_modus_s4'|translate}</p>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-2 col-md-3"></div>
+    <p class="col-sm-8 col-md-6 descriptive-text">{'porg_v2100_modus_s1'|translate} {'porg_v2100_modus_s2'|translate} {'porg_v2100_modus_s3'|translate} {'porg_v2100_modus_s4'|translate}</p>
+    <div class="col-sm-2 col-md-3"></div>
   </div>
 
   <div class="row first-image-and-caption">
@@ -135,9 +135,9 @@
   <h3 id="admin-redesign">{'porg_v2100_redesign_title'|translate}</h3>
 
   <div class="row">
-    <div class="col-sm-3"></div>
-    <p class="col-sm-6 descriptive-text">{'porg_v2100_redesign_c1'|translate}</p>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-2 col-md-3"></div>
+    <p class="col-sm-8 col-md-6 descriptive-text">{'porg_v2100_redesign_c1'|translate}</p>
+    <div class="col-sm-2 col-md-3"></div>
   </div>
 
   <div class="row first-image-and-caption">
@@ -183,9 +183,9 @@
   <h3 id="dark-mode">{'porg_v2100_darkmode_title'|translate}</h3>
 
   <div class="row">
-    <div class="col-sm-3"></div>
-    <p class="col-sm-6 descriptive-text">{'porg_v2100_darkmode_s1'|translate} {'porg_v2100_darkmode_s2'|translate} {'porg_v2100_darkmode_s3'|translate} {'porg_v2100_darkmode_s4'|translate}</p>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-2 col-md-3"></div>
+    <p class="col-sm-8 col-md-6 descriptive-text">{'porg_v2100_darkmode_s1'|translate} {'porg_v2100_darkmode_s2'|translate} {'porg_v2100_darkmode_s3'|translate} {'porg_v2100_darkmode_s4'|translate}</p>
+    <div class="col-sm-2 col-md-3"></div>
   </div>
 
   <div class="row">
@@ -204,9 +204,9 @@
   <h3 id="upload-form">{'porg_v2100_upload_title'|translate}</h3>
 
   <div class="row">
-    <div class="col-sm-3"></div>
-    <p class="col-sm-6 descriptive-text">{'porg_v2100_upload_s1'|translate}</p>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-2 col-md-3"></div>
+    <p class="col-sm-8 col-md-6 descriptive-text">{'porg_v2100_upload_s1'|translate}</p>
+    <div class="col-sm-2 col-md-3"></div>
   </div>
 
   <div class="row first-image-and-caption">
@@ -268,9 +268,9 @@
   <h3 id="batch-metadata-sync">{'porg_v2100_metasync_title'|translate}</h3>
 
   <div class="row">
-    <div class="col-sm-3"></div>
-    <p class="col-sm-6 descriptive-text">{'porg_v2100_metasync_s1'|translate}</p>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-2 col-md-3"></div>
+    <p class="col-sm-8 col-md-6 descriptive-text">{'porg_v2100_metasync_s1'|translate}</p>
+    <div class="col-sm-2 col-md-3"></div>
   </div>
 
 
@@ -338,9 +338,9 @@
   <h3 id="duplicates-sorting">{'porg_v2100_dup_title'|translate}</h3>
 
   <div class="row">
-    <div class="col-sm-3"></div>
-    <p class="col-sm-6 descriptive-text">{'porg_v2100_dup_s1'|translate} {'porg_v2100_dup_s2'|translate} {'porg_v2100_dup_s3'|translate}</p>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-2 col-md-3"></div>
+    <p class="col-sm-8 col-md-6 descriptive-text">{'porg_v2100_dup_s1'|translate} {'porg_v2100_dup_s2'|translate} {'porg_v2100_dup_s3'|translate}</p>
+    <div class="col-sm-2 col-md-3"></div>
   </div>
 
   <div class="row second-image-and-caption">
@@ -468,24 +468,24 @@
       <p class=" descriptive-text col-sm-12">{'porg_v2100_tech_intro1'|translate:'https://piwigo.org/doc/doku.php?id=dev:changes_in_2.10'} {'porg_v2100_tech_intro2'|translate}</p>
 
 
-      <div class="col-sm-6">
+      <div class="col-sm-12 col-md-6">
         <h4 class="col-sm-12" id="mysql8">{'porg_v2100_mysql8_title'|translate}</h4>
         <p class=" descriptive-text col-sm-12">{'porg_v2100_mysql8_s1'|translate} {'porg_v2100_mysql8_s2'|translate}</p>
       </div>
-      
-    <div class="col-sm-6">
+
+    <div class="col-sm-12 col-md-6">
       <h4 class="col-sm-12" id="activity">{'porg_v2100_activity_title'|translate}</h4>
       <p class=" descriptive-text col-sm-12">{'porg_v2100_activity_s1'|translate} {'porg_v2100_activity_s2'|translate} {'porg_v2100_activity_s3'|translate} {'porg_v2100_activity_s4'|translate}</p>
     </div>
 
 
 
-    <div class="col-sm-6">
+    <div class="col-sm-12 col-md-6">
       <h4 class="col-sm-12" id="phpmailer">{'porg_v2100_phpmailer_title'|translate}</h4>
       <p class=" descriptive-text col-sm-12">{'porg_v2100_phpmailer_s1'|translate}</p>
     </div>
 
-    <div class="col-sm-6">
+    <div class="col-sm-12 col-md-6">
       <h4 class="col-sm-12" id="triggers">{'porg_v2100_triggers_title'|translate}</h4>
       <p class=" descriptive-text col-sm-12">{'porg_v2100_triggers_s1'|translate}</p>
       <ul class="col-sm-12">
@@ -496,13 +496,13 @@
 
 
 
-    <div class="col-sm-6">
+    <div class="col-sm-12 col-md-6">
       <h4 class="col-sm-12" id="themes-github">{'porg_v2100_themesgithub_title'|translate}</h4>
       <p class=" descriptive-text col-sm-12">{'porg_v2100_themesgithub_s1'|translate} {'porg_v2100_themesgithub_s2'|translate} {'porg_v2100_themesgithub_s3'|translate} {'porg_v2100_themesgithub_s4'|translate}</p>
     </div>
 
 
-    <div class="col-sm-6">
+    <div class="col-sm-12 col-md-6">
       <h4 class="col-sm-12" id="api">{'porg_v2100_api_title'|translate}</h4>
       <ul class="api-methods col-sm-12">
         <li><span class="badge new">{'new'|translate}</span><code>pwg.images.setMd5sum</code> {'porg_v2100_api_s1'|translate}</li>
@@ -517,7 +517,7 @@
     <div class="col-sm-12">
       <h4 class="col-sm-12" id="code-headers">{'porg_v2100_headers_title'|translate}</h4>
       <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s1'|translate} {'porg_v2100_headers_s2'|translate} {'porg_v2100_headers_s3'|translate}</p>
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-md-6">
     <pre class="col-sm-12" ><code>&lt;?php
     // +-----------------------------------------------------------------------+
     // | Piwigo - a PHP based photo gallery                                    |
@@ -542,7 +542,7 @@
     // +-----------------------------------------------------------------------+</code></pre>
 
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-12 col-md-6">
     <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s4'|translate}</p>
     <pre class="col-sm-12" ><code>&lt;?php
     // +-----------------------------------------------------------------------+
