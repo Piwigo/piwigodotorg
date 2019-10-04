@@ -17,7 +17,7 @@ $lang['porg_v2100_modus_c1'] = 'Ici on peut voir le nouveau style "Newspaper" av
 $lang['porg_v2100_modus_c2'] = 'Modus est non seulement le thème par défaut, mais aussi complété par 8 nouveaux styles.';
 
 $lang['porg_v2100_hannah_s1'] = 'Je m’appelle Hannah, actuellement étudiante en User eXperience (UX) design à ActivDesign à Rennes.';
-$lang['porg_v2100_hannah_s2'] = 'J’ai commenté à travailler pour Piwigo en tant que stagiaire en janvier 2019. Ma mission principale est de moderniser l’apparence de Piwigo.';
+$lang['porg_v2100_hannah_s2'] = 'J’ai commencé à travailler pour Piwigo en tant que stagiaire en janvier 2019. Ma mission principale est de moderniser l’apparence de Piwigo.';
 $lang['porg_v2100_hannah_s3'] = 'En réfléchissant avec Pierrick, nous avons décidé de commencer par rafraîchir le thème par défaut de la galerie.';
 $lang['porg_v2100_hannah_s4'] = 'On est passé sur Modus pour son côté responsive et sa capacitié à afficher sur écran à haute définition mais il avait quand même besoin d’un renouveau visuel pour satisfaire les attentes des utilisateurs en 2019.';
 $lang['porg_v2100_hannah_s5'] = 'J’ai donc créé 8 nouveaux style, en changeant les couleurs, exploitant les espaces, cachant certains boutons peu utiles, arrondissant les coins... mon préféré est Blueberry.';
