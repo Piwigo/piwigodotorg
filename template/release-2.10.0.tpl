@@ -7,7 +7,7 @@
     <div class="col-sm-12 col-md-6 text-center">
       <p class="intro-text" id="intro-title">{'porg_v2100_intro1'|translate}</p>
       <img class="img-fluid underline-img" src="{$PORG_ROOT_URL}/images/changelogs/title-underline.svg">
-      <p class="intro-text" id="intro-main-text">{'porg_v2100_intro2'|translate} {'porg_v2100_intro3'|translate} {'porg_v2100_intro4'|translate}</p>
+      <p class="intro-text intro-text2_10" id="intro-main-text">{'porg_v2100_intro2'|translate} {'porg_v2100_intro3'|translate} {'porg_v2100_intro4'|translate}</p>
       <p class="intro-text">{'porg_v2100_intro5'|translate}</p>
     </div>
 
@@ -519,38 +519,38 @@
       <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s1'|translate} {'porg_v2100_headers_s2'|translate} {'porg_v2100_headers_s3'|translate}</p>
         <div class="col-sm-12 col-md-6">
     <pre class="col-sm-12" ><code>&lt;?php
-    // +-----------------------------------------------------------------------+
-    // | Piwigo - a PHP based photo gallery                                    |
-    // +-----------------------------------------------------------------------+
-    // | Copyright(C) 2008-2016 Piwigo Team                  http://piwigo.org |
-    // | Copyright(C) 2003-2008 PhpWebGallery Team    http://phpwebgallery.net |
-    // | Copyright(C) 2002-2003 Pierrick LE GALL   http://le-gall.net/pierrick |
-    // +-----------------------------------------------------------------------+
-    // | This program is free software; you can redistribute it and/or modify  |
-    // | it under the terms of the GNU General Public License as published by  |
-    // | the Free Software Foundation                                          |
-    // |                                                                       |
-    // | This program is distributed in the hope that it will be useful, but   |
-    // | WITHOUT ANY WARRANTY; without even the implied warranty of            |
-    // | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
-    // | General Public License for more details.                              |
-    // |                                                                       |
-    // | You should have received a copy of the GNU General Public License     |
-    // | along with this program; if not, write to the Free Software           |
-    // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
-    // | USA.                                                                  |
-    // +-----------------------------------------------------------------------+</code></pre>
+// +-----------------------------------------------------------------------+
+// | Piwigo - a PHP based photo gallery                                    |
+// +-----------------------------------------------------------------------+
+// | Copyright(C) 2008-2016 Piwigo Team http://piwigo.org |
+// | Copyright(C) 2003-2008 PhpWebGallery Team http://phpwebgallery.net |
+// | Copyright(C) 2002-2003 Pierrick LE GALL http://le-gall.net/pierrick |
+// +-----------------------------------------------------------------------+
+// | This program is free software; you can redistribute it and/or modify  |
+// | it under the terms of the GNU General Public License as published by  |
+// | the Free Software Foundation                                          |
+// |                                                                       |
+// | This program is distributed in the hope that it will be useful, but   |
+// | WITHOUT ANY WARRANTY; without even the implied warranty of            |
+// | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
+// | General Public License for more details.                              |
+// |                                                                       |
+// | You should have received a copy of the GNU General Public License     |
+// | along with this program; if not, write to the Free Software           |
+// | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
+// | USA.                                                                  |
+// +-----------------------------------------------------------------------+</code></pre>
 
   </div>
   <div class="col-sm-12 col-md-6">
     <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s4'|translate}</p>
     <pre class="col-sm-12" ><code>&lt;?php
-    // +-----------------------------------------------------------------------+
-    // | This file is part of Piwigo.                                          |
-    // |                                                                       |
-    // | For copyright and license information, please view the COPYING.txt    |
-    // | file that was distributed with this source code.                      |
-    // +-----------------------------------------------------------------------+
+// +-----------------------------------------------------------------------+
+// | This file is part of Piwigo.                                          |
+// |                                                                       |
+// | For copyright and license information, please view the COPYING.txt    |
+// | file that was distributed with this source code.                      |
+// +-----------------------------------------------------------------------+
     </code></pre>
     <p class="descriptive-text col-sm-12">{'porg_v2100_headers_s5'|translate} {'porg_v2100_headers_s6'|translate}</p>
 

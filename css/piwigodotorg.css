@@ -5667,10 +5667,15 @@ label {
  }
 
 .release-notes-intro {
+    font-size: 15px;
+    text-align: justify;
+}
+
+body .release-2_10_0 .release-notes-intro .intro-text {
     font-size: 20px;
     margin-bottom: 40px;
     text-align: justify;
-    line-height:2em;
+
 }
 
 #releaseNotesMain #intro-title{
@@ -5678,9 +5683,24 @@ label {
   font-weight:bold;
 }
 
-#releaseNotesMain #intro-main-text{
-  font-size:18px;
+body .release-2_10_0 #releaseNotesMain #intro-title{
+ margin:30px 0 0 0
 }
+
+#releaseNotesMain #intro-main-text, .intro-text2_10{
+  font-size:18px;
+  margin-top:0;
+}
+
+.intro-text2_10{
+  margin-top:-10px;
+  line-height:2em!important;
+}
+
+body.release-2_10_0 #releaseNotesMain p {
+  text-align:center
+}
+
 
 #releaseNotesMain .back_overview {
     margin-bottom:30px;
@@ -5739,10 +5759,11 @@ left:0;
 }
 
 .underline-img{
-  position:absolute;
-  top:60px;
+  height: 50px;
+  margin-top: -22px;
+/*  top:60px;
   left:100px;
-  height:50px;
+  height:50px;*/
 }
 
 .corner1{
@@ -5825,6 +5846,10 @@ left:0;
     width: 175px;
 }
 
+#releaseNotesMain section h3 {
+    border-bottom: 1px solid #cdcdcd;
+}
+
 body.release-2_10_0 #releaseNotesMain section h3 {
     border-bottom: none;
     font-size: 40px;
@@ -5833,9 +5858,11 @@ body.release-2_10_0 #releaseNotesMain section h3 {
     margin-bottom:-10px;
 }
 
-#releaseNotesMain section h3 {
-    border-bottom: 1px solid #cdcdcd;
-  }
+body.release-2_10_0 #releaseNotesMain .section-framed h3 {
+  font-size: 30px;
+  text-align: right;
+  margin-bottom: 10px;
+}
 
 #releaseNotesMain H4 {
     font-style: normal;
@@ -5906,8 +5933,9 @@ body.release-2_10_0 #releaseNotesMain H4 {
 
 #releaseNotesMain p {
     margin: 30px 0;
-    text-align: center;
+    text-align: justify;
 }
+
 
 #releaseNotesMain p.descriptive-text{
   line-height:2em;
@@ -5978,11 +6006,8 @@ body.release-2_10_0 #releaseNotesMain H4 {
     width: 75px;
     margin-top: -122px;
 }
-#releaseNotesMain .section-framed h3 {
-    margin: -10px 0 20px 0;
-    font-size: 30px;
-    text-align: right;
-}
+
+
 #releaseNotesMain .section-framed p {
     text-align: left;
     line-height:1.5em;
@@ -6006,9 +6031,9 @@ body.release-2_10_0 #releaseNotesMain H4 {
   .corner6{
     left:160px;
   }
-  .underline-img{
+/*  .underline-img{
     top:100px;
-  }
+  }*/
 }
 
 
@@ -6027,11 +6052,11 @@ body.release-2_10_0 #releaseNotesMain H4 {
   #releaseNotesMain p.screenshot-caption{
     margin:8px;
   }
-  .underline-img{
+/*  .underline-img{
     position:relative;
     top:0;
     left:0;
-  }
+  }*/
   .corner2{
     bottom:-30px;
     right:-20px;
