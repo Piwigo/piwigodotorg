@@ -5943,7 +5943,7 @@ body.release-2_10_0 #releaseNotesMain H4 {
   font-size:18px;
 }
 
-#releaseNotesMain .interview p{
+body.release-2_10_0 #releaseNotesMain .interview p{
   text-align:left;
 }
 
@@ -6010,7 +6010,7 @@ body.release-2_10_0 #releaseNotesMain H4 {
 }
 
 
-#releaseNotesMain .section-framed p {
+body.release-2_10_0 #releaseNotesMain .section-framed p {
     text-align: left;
     line-height:1.5em;
     font-size: 15px;
