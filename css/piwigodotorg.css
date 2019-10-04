@@ -5671,7 +5671,7 @@ label {
     text-align: justify;
 }
 
-body .release-2_10_0 .release-notes-intro .intro-text {
+body.release-2_10_0 .release-notes-intro .intro-text {
     font-size: 20px;
     margin-bottom: 40px;
     text-align: justify;
@@ -5862,6 +5862,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed h3 {
   font-size: 30px;
   text-align: right;
   margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 #releaseNotesMain H4 {
@@ -6004,7 +6005,8 @@ body.release-2_10_0 #releaseNotesMain H4 {
 }
 #releaseNotesMain .section-framed img.information {
     width: 75px;
-    margin-top: -122px;
+    margin-top: -88px;
+    float: left;
 }
 
 
@@ -6020,7 +6022,19 @@ body.release-2_10_0 #releaseNotesMain H4 {
 
   padding:15px;
   width:94%;
-  font-size:9px;
+  font-size:10px;
+}
+
+@media (max-width:1200px) {
+  .technical-features pre {
+    font-size:8px;
+  }
+}
+
+@media (max-width:991px) {
+  .technical-features pre {
+    font-size:13px;
+  }
 }
 
 

@@ -516,8 +516,9 @@
 
     <div class="col-sm-12">
       <h4 class="col-sm-12" id="code-headers">{'porg_v2100_headers_title'|translate}</h4>
-      <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s1'|translate} {'porg_v2100_headers_s2'|translate} {'porg_v2100_headers_s3'|translate}</p>
+      <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s1'|translate} {'porg_v2100_headers_s2'|translate}</p>
         <div class="col-sm-12 col-md-6">
+    <p class=" descriptive-text col-sm-12">{'porg_v2100_headers_s3'|translate}</p>
     <pre class="col-sm-12" ><code>&lt;?php
 // +-----------------------------------------------------------------------+
 // | Piwigo - a PHP based photo gallery                                    |
