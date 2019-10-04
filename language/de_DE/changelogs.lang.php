@@ -23,3 +23,7 @@
 $lang['porg_changelogs_desc1'] = 'Hier ist die Liste aller stabilen Piwigo-Releases.';
 $lang['porg_changelogs_desc2'] = 'Benutzen Sie unser neustes Release: Sie bekommen besseren Support und alle bekannten Sicherheitslücken sind geschlossen.';
 $lang['porg_changelogs_technicals_desc1'] = 'Wenn Sie eine technische Sicht auf die Releases brauchen, gehen Sie zur Seite <a href="%s">Branches und Releases</a>.';
+$lang['Admin redesign'] = 'Redesign der Adminoberfläche';
+$lang['Dark mode'] = 'Dark Modus';
+$lang['Default theme Modus'] = 'Standard-Thema Modus';
+$lang['Read more'] = 'Mehr lesen';
