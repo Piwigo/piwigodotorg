@@ -18,7 +18,7 @@ $lang['porg_v2100_modus_c2'] = 'We didn’t simply make it the default theme, we
 $lang['porg_v2100_hannah_s1'] = 'My name is Hannah, currently studying User eXperience (UX) design at ActivDesign in Rennes (France).';
 $lang['porg_v2100_hannah_s2'] = 'I started working for Piwigo as an intern in January 2019, my main mission is to modernise the look of Piwigo.';
 $lang['porg_v2100_hannah_s3'] = 'Brainstorming with Pierrick, we decided to start with refreshing the default gallery theme.';
-$lang['porg_v2100_hannah_s4'] = 'Firstly we switched to modus for its responsivness, its capability to adapt to high definition display but nonetheless needed a visual update to comply with 2019 standards.';
+$lang['porg_v2100_hannah_s4'] = 'Firstly we switched to Modus for its responsivness, its capability to adapt to high definition display but nonetheless needed a visual update to comply with 2019 standards.';
 $lang['porg_v2100_hannah_s5'] = 'Therefore I created 8 new skins, changing colors, spacing, hiding some buttons that weren’t needed, rounding corners... my favourite is Blueberry.';
 
 $lang['porg_v2100_redesign_title'] = 'An overall redesign for the administration';
@@ -26,8 +26,8 @@ $lang['porg_v2100_redesign_c1'] = 'New overall design, with new header, menubar 
 $lang['porg_v2100_redesign_c2'] = 'Here you can see how the refreshed upload form behaves when no album is available yet.';
 
 $lang['porg_v2100_samuel_s1'] = 'My name is Samuel Lefebvre and I am a UX UI designer.';
-$lang['porg_v2100_samuel_s2'] = 'As a trainee for Piwigo, my main role was to improve the aesthetics of the administration interfaces, ie User Interface (UI).';
-$lang['porg_v2100_samuel_s3'] = 'I also worked to improve  user workflow, ie User eXperience (UX).';
+$lang['porg_v2100_samuel_s2'] = 'As a trainee for Piwigo, my main role was to improve the aesthetics of the administration interfaces, i.e. User Interface (UI).';
+$lang['porg_v2100_samuel_s3'] = 'I also worked to improve  user workflow, i.e. User eXperience (UX).';
 $lang['porg_v2100_samuel_s4'] = 'Before starting the redesign of the administration, I spent a lot of time using it in order to better understand the difficulties that users could encounter.';
 $lang['porg_v2100_samuel_s5'] = 'On the other hand, I also studied competition.';
 $lang['porg_v2100_samuel_s6'] = 'I hope you’ll like this new vision of the Piwigo administration!';
@@ -62,7 +62,7 @@ $lang['porg_v2100_help_c1'] = 'The help on the administration page now opens as 
 
 $lang['porg_v2100_comments_title'] = 'We have deactivated user comments by default';
 $lang['porg_v2100_comments_s1'] = 'Don’t panic, we’re not removing the feature, we just decided to turn it off by default.';
-$lang['porg_v2100_comments_s2'] = 'You might ask "Why turning off existing feature?".';
+$lang['porg_v2100_comments_s2'] = 'You might ask "Why turn off an existing feature?".';
 $lang['porg_v2100_comments_s3'] = 'Because too many features visible might scare people that are testing Piwigo.';
 $lang['porg_v2100_comments_s4'] = 'We need to smartly select what is most important for the majority.';
 $lang['porg_v2100_comments_s5'] = 'On Piwigo.com, where we host thousands of Piwigos, we have some interesting statistics on used features.';
@@ -76,11 +76,11 @@ $lang['porg_v2100_dup_s3'] = 'Now if you search duplicates based on date, photos
 $lang['porg_v2100_dup_c1'] = 'Here in Piwigo 2.9 when searching duplicates, the duplicates are not displayed next to each other. Imagine you have a set of 500 duplicates, it may become time consuming to select the ones to delete.';
 $lang['porg_v2100_dup_c2'] = 'Now in Piwigo 2.10, the batch manager shows the duplicates next to each other, based on duplicates criteria. Easy to compare, select and remove.';
 
-$lang['porg_v2100_android9_title'] = 'Smartpocket theme is now compatible with Android 9';
+$lang['porg_v2100_android9_title'] = 'SmartPocket theme is now compatible with Android 9';
 $lang['porg_v2100_android9_s1'] = 'We know Android 10 was announced a few days ago, but only a few devices are running Android 9 these days.';
 $lang['porg_v2100_android9_s2'] = 'The mobile theme, SmartPocket, was not correctly loaded with Android 9.';
 $lang['porg_v2100_android9_s3'] = 'This is fixed in Piwigo 2.10.';
-$lang['porg_v2100_android9_s4'] = 'Talking about SmartPocket... even if Modus, Piwigo 2.10 new default theme, is responsive, we are keeping SmartPocket activated by default.';
+$lang['porg_v2100_android9_s4'] = 'Talking about SmartPocket... even if Modus, Piwigo 2.10\'s new default theme, is responsive, we are keeping SmartPocket activated by default.';
 $lang['porg_v2100_android9_s5'] = 'It means it will be used automatically if Piwigo detects the visitor is using a mobile device.';
 $lang['porg_v2100_android9_s6'] = 'You can deactivate SmartPocket if you prefer to always use Modus.';
 
@@ -125,14 +125,14 @@ $lang['porg_v2100_phpmailer_s1'] = 'The PHP library Piwigo uses to send emails, 
 
 $lang['porg_v2100_headers_title'] = 'Source code headers have been simplified';
 $lang['porg_v2100_headers_s1'] = 'We have simplified source code headers in all PHP files.';
-$lang['porg_v2100_headers_s2'] = 'Instead of writing a full copyright with years + a summary of GPLv2 license, we just tell readers to open the COPYNG file.';
+$lang['porg_v2100_headers_s2'] = 'Instead of writing a full copyright with years + a summary of GPLv2 license, we just tell readers to open the COPYING file.';
 $lang['porg_v2100_headers_s3'] = 'Instead of this:';
 $lang['porg_v2100_headers_s4'] = 'we now have this simplified header:';
 $lang['porg_v2100_headers_s5'] = 'The main goal was to remove years in these headers, because it required updating all Piwigo PHP files each year, for no specific coding change.';
 $lang['porg_v2100_headers_s6'] = 'The good side effect is that we now have a clean COPYING file with details on copyright with dates and trademark + a LICENSE file with the whole GPLv2 license.';
 
 $lang['porg_v2100_themesgithub_title'] = 'Each theme has it own repository';
-$lang['porg_v2100_themesgithub_s1'] = 'All themes were removed from Piwigo core repository, even those included in the Piwigo installation zip archive.';
+$lang['porg_v2100_themesgithub_s1'] = 'All themes were removed from the Piwigo core repository, even those included in the Piwigo installation zip archive.';
 $lang['porg_v2100_themesgithub_s2'] = 'Each theme has now its own repository on Github.';
 $lang['porg_v2100_themesgithub_s3'] = 'This way we have a specific bugtracker for each theme.';
 $lang['porg_v2100_themesgithub_s4'] = 'Actually, this is exactly what we’ve done for years with plugins!';
@@ -141,9 +141,8 @@ $lang['porg_v2100_api_title'] = 'API improvements';
 $lang['new'] = 'new';
 $lang['updated'] = 'updated';
 $lang['porg_v2100_api_s1'] = 'sets the checksum of photos where it’s missing.';
-$lang['porg_v2100_api_s2'] = 'changes the sort order of an album among his siblings. You can also reorder the whole set of albums at once.';
+$lang['porg_v2100_api_s2'] = 'changes the sort order of an album among its siblings. You can also reorder the whole set of albums at once.';
 $lang['porg_v2100_api_s3'] = 'adds a photo to user favorites.';
 $lang['porg_v2100_api_s4'] = 'removes a photo from user favorites.';
 $lang['porg_v2100_api_s5'] = 'returns the list of user favorite photos.';
 $lang['porg_v2100_api_s6'] = 'now accepts empty password (just like web login form).';
-?>
