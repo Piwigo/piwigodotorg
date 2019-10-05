@@ -77,7 +77,7 @@ $lang['porg_v2100_dup_c1'] = 'Here in Piwigo 2.9 when searching duplicates, the 
 $lang['porg_v2100_dup_c2'] = 'Now in Piwigo 2.10, the batch manager shows the duplicates next to each other, based on duplicates criteria. Easy to compare, select and remove.';
 
 $lang['porg_v2100_android9_title'] = 'SmartPocket theme is now compatible with Android 9';
-$lang['porg_v2100_android9_s1'] = 'We know Android 10 was announced a few days ago, but only a few devices are running Android 9 these days.';
+$lang['porg_v2100_android9_s1'] = 'We know Android 10 was announced a few days ago, but only a few devices are running Android 10 these days.';
 $lang['porg_v2100_android9_s2'] = 'The mobile theme, SmartPocket, was not correctly loaded with Android 9.';
 $lang['porg_v2100_android9_s3'] = 'This is fixed in Piwigo 2.10.';
 $lang['porg_v2100_android9_s4'] = 'Talking about SmartPocket... even if Modus, Piwigo 2.10\'s new default theme, is responsive, we are keeping SmartPocket activated by default.';
