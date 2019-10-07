@@ -5860,7 +5860,7 @@ body.release-2_10_0 #releaseNotesMain section h3 {
 
 body.release-2_10_0 #releaseNotesMain .section-framed h3 {
   font-size: 30px;
-  text-align:center;
+  text-align:right;
   margin-bottom: 10px;
   margin-top: -10px;
 }
