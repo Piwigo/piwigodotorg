@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/fontello/css/fontello.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/open-sans/open-sans.css">
+    <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/Coming_Soon/Coming_Soon.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/piwigodotorg.css?201904041641">
 {if (isset($LANGUAGE_CSS))}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}{$LANGUAGE_CSS}">
@@ -30,7 +31,6 @@
 {if (isset($WEBVIEW) && $WEBVIEW)}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/webview.css">
 {/if}
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Caveat+Brush|Coming+Soon|Gloria+Hallelujah|Sue+Ellen+Francisco&display=swap" rel="stylesheet">
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{$PORG_ROOT_URL_PLUGINS}js/jquery-3.2.1.min.js"></script>
