@@ -22,7 +22,9 @@
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/fontello/css/fontello.css">
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/open-sans/open-sans.css">
+{if isset($RELEASE_VERSION)} {* only useful on the release note *}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/Coming_Soon/Coming_Soon.css">
+{/if}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/piwigodotorg.css?201904041641">
 {if (isset($LANGUAGE_CSS))}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}{$LANGUAGE_CSS}">
