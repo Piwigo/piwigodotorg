@@ -2,8 +2,8 @@
 
 $porg_releases = array(
   '2.10.0' => array(
-    'released_on' => '2019-10-04',
-    'md5sum' => '4ac32ff84ca8ae7d37aee19694b31ea9',
+    'released_on' => '2019-10-08',
+    'md5sum' => '6006e9133780c91a716c03b244c8d8ea',
     'summary' => array('Default theme Modus', 'Admin redesign', 'Dark mode'),
     'subtitle' => 'a major update, focused on design and user experience',
     'features' => array(),
