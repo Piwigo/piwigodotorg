@@ -7,12 +7,12 @@
     <div class="col-sm-12 col-md-6 text-center">
       <p class="intro-text" id="intro-title">{'porg_v2100_intro1'|translate}</p>
       <img class="img-fluid underline-img" src="{$PORG_ROOT_URL}/images/changelogs/title-underline.svg">
-      <p class="intro-text intro-text2_10" id="intro-main-text">{'porg_v2100_intro2'|translate} {'porg_v2100_intro3'|translate} {'porg_v2100_intro4'|translate}</p>
+      <p class="intro-text intro-text2_10 " id="intro-main-text">{'porg_v2100_intro2'|translate} {'porg_v2100_intro3'|translate} {'porg_v2100_intro4'|translate}</p>
       <p class="intro-text">{'porg_v2100_intro5'|translate}</p>
     </div>
 
       <div class="col-sm-12 col-md-6 text-center">
-        <img class="img-fluid" src="https://piwigo.org/screenshots/github-screenshot-2.10.jpg">
+        <img class="" id="responsive-screens" src="https://piwigo.org/screenshots/github-screenshot-2.10.jpg">
       </div>
    </div>
 </section>
@@ -120,13 +120,15 @@
     </div>
   </div>
 
-  <div class="interview">
+<div class="interview-container">
+  <div class="interview interview1">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
     <img class="photo" src="https://piwigo.org/screenshots/piwigo-2.10-hannah.jpg">
     <p class="first">{'porg_v2100_hannah_s1'|translate} {'porg_v2100_hannah_s2'|translate}</p>
     <p>{'porg_v2100_hannah_s3'|translate} {'porg_v2100_hannah_s4'|translate} {'porg_v2100_hannah_s5'|translate}</p>
     <div class="interview-signature"><a href="https://hannahwford.wordpress.com">Hannah</a></div>
   </div>
+</div>
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
@@ -151,6 +153,7 @@
     </div>
   </div>
 
+<div class="interview-container">
   <div class="interview">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
     <img class="photo" src="https://piwigo.org/screenshots/piwigo-2.10-samuel-lefebvre.jpg">
@@ -158,6 +161,7 @@
     <p>{'porg_v2100_samuel_s4'|translate} {'porg_v2100_samuel_s5'|translate} {'porg_v2100_samuel_s6'|translate}</p>
     <div class="interview-signature"><a href="https://samuel-lefebvre.com/">Samuel</a></div>
   </div>
+</div>
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
@@ -220,7 +224,7 @@
     </div>
   </div>
 
-  <div class="row second-image-and-caption">
+  <div class="row second-image-and-caption ">
     <div class="col-sm-12 col-md-4">
     <p class="screenshot-caption">{'porg_v2100_upload_c2'|translate}</p>
     </div>
@@ -232,12 +236,12 @@
   </div>
 
   <div class="row first-image-and-caption">
-    <div class="col-sm-12 col-md-8 ">
+    <div class="col-sm-12 col-md-8 extra-margin ">
       <img class="img-fluid corner1" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
       <img src="https://piwigo.org/screenshots/piwigo-2.10-upload-form-step-summary.png" class="screenshot">
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
-    <div class="col-sm-12 col-md-4">
+    <div class="col-sm-12 col-md-4 ">
       <p class="screenshot-caption">{'porg_v2100_upload_c3'|translate}</p>
     </div>
   </div>
@@ -317,7 +321,7 @@
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
     <div class="col-sm-12 col-md-4">
-        <p class="screenshot-caption">{'porg_v2100_help_c1'|translate}</p>
+        <p class="screenshot-caption" id="extra-margin">{'porg_v2100_help_c1'|translate}</p>
     </div>
   </div>
 
@@ -325,12 +329,14 @@
 
 </div>
 
-<div class="section-part section-framed">
-    <img src="{$PORG_ROOT_URL}images/changelogs/information.svg" class="information">
-    <h3 id="user-comments">{'porg_v2100_comments_title'|translate}</h3>
+<div class="section-framed-container">
+  <div class="section-part section-framed">
+      <img src="{$PORG_ROOT_URL}images/changelogs/information.svg" class="information">
+      <h3 id="user-comments">{'porg_v2100_comments_title'|translate}</h3>
 
-    <p>{'porg_v2100_comments_s1'|translate} {'porg_v2100_comments_s2'|translate} {'porg_v2100_comments_s3'|translate} {'porg_v2100_comments_s4'|translate}</p>
-    <p>{'porg_v2100_comments_s5'|translate} {'porg_v2100_comments_s6'|translate} {'porg_v2100_comments_s7'|translate}</p>
+      <p>{'porg_v2100_comments_s1'|translate} {'porg_v2100_comments_s2'|translate} {'porg_v2100_comments_s3'|translate} {'porg_v2100_comments_s4'|translate}</p>
+      <p>{'porg_v2100_comments_s5'|translate} {'porg_v2100_comments_s6'|translate} {'porg_v2100_comments_s7'|translate}</p>
+  </div>
 </div>
 
 <div class="section-part">
@@ -343,8 +349,8 @@
     <div class="col-sm-2 col-md-3"></div>
   </div>
 
-  <div class="row second-image-and-caption">
-    <div class="col-sm-12 col-md-4">
+  <div class="row second-image-and-caption ">
+    <div class="col-sm-12 col-md-4 extra-margin">
         <p class="screenshot-caption">{'porg_v2100_dup_c1'|translate}</p>
     </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
@@ -355,25 +361,29 @@
   </div>
 
   <div class="row first-image-and-caption">
-    <div class="col-sm-12 col-md-8 ">
+    <div class="col-sm-12 col-md-8 extra-margin">
       <img class="img-fluid corner1" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
       <img src="https://piwigo.org/screenshots/piwigo-2.10-batch-manager-duplicates-sort-order.png" class="screenshot">
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
     <div class="col-sm-12 col-md-4">
-        <p class="screenshot-caption">{'porg_v2100_dup_c2'|translate}</p>
+        <p class="screenshot-caption" id="extra-margin">{'porg_v2100_dup_c2'|translate}</p>
     </div>
   </div>
 
   <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 </div>
-<div class="section-part section-framed">
-    <img src="{$PORG_ROOT_URL}images/changelogs/information.svg" class="information">
-    <h3 id="android-9">{'porg_v2100_android9_title'|translate}</h3>
-    <p>{'porg_v2100_android9_s1'|translate} {'porg_v2100_android9_s2'|translate} {'porg_v2100_android9_s3'|translate}</p>
-    <p>{'porg_v2100_android9_s4'|translate} {'porg_v2100_android9_s5'|translate} {'porg_v2100_android9_s6'|translate}</p>
- </div>
+
+<div class="section-framed-container">
+  <div class="section-part section-framed">
+      <img src="{$PORG_ROOT_URL}images/changelogs/information.svg" class="information">
+      <h3 id="android-9">{'porg_v2100_android9_title'|translate}</h3>
+      <p>{'porg_v2100_android9_s1'|translate} {'porg_v2100_android9_s2'|translate} {'porg_v2100_android9_s3'|translate}</p>
+      <p>{'porg_v2100_android9_s4'|translate} {'porg_v2100_android9_s5'|translate} {'porg_v2100_android9_s6'|translate}</p>
+   </div>
+</div>
+
 <div class="section-part">
 
   <h3 id="public-sub-albums">{'porg_v2100_subalbum_title'|translate}</h3>
@@ -409,7 +419,7 @@
     <div class="col-sm-2"></div>
   </div>
 
-  <div class="row second-image-and-caption">
+  <div class="row second-image-and-caption ">
     <div class="col-sm-12 col-md-6">
       <p class="screenshot-caption">{'porg_v2100_dates_c1'|translate}</p>
     </div>
@@ -420,7 +430,7 @@
     </div>
   </div>
 
-  <div class="row first-image-and-caption">
+  <div class="row first-image-and-caption extra-large-margin">
     <div class="col-sm-12 col-md-8 ">
       <img class="img-fluid corner1" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
       <img src="https://piwigo.org/screenshots/piwigo-2.10-album-dates-gallery.png" class="screenshot">
@@ -451,9 +461,9 @@
       <p class="screenshot-caption">{'porg_v2100_newsletter_c1'|translate}</p>
       </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
-      <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg" style="right:63px;">
+      <img class="img-fluid corner3 corner3-edit" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg" style="right:63px;">
         <img src="https://piwigo.org/screenshots/piwigo-2.10-hide-newsletter-subscribe-link.png" class="screenshot">
-      <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg" style="left:70px;">
+      <img class="img-fluid corner4 corner4-edit" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg" style="left:70px;">
     </div>
   </div>
 
@@ -465,7 +475,7 @@
 <div class="row">
 
       <h3>{'Technical features'|translate}</h3>
-      <p class=" descriptive-text col-sm-12">{'porg_v2100_tech_intro1'|translate:'https://piwigo.org/doc/doku.php?id=dev:changes_in_2.10'} {'porg_v2100_tech_intro2'|translate}</p>
+      <p class=" descriptive-text col-sm-12 extra-side-padding" id="technical-first-paragraph">{'porg_v2100_tech_intro1'|translate:'https://piwigo.org/doc/doku.php?id=dev:changes_in_2.10'} {'porg_v2100_tech_intro2'|translate}</p>
 
 
       <div class="col-sm-12 col-md-6">
@@ -553,7 +563,7 @@
 // | file that was distributed with this source code.                      |
 // +-----------------------------------------------------------------------+
     </code></pre>
-    <p class="descriptive-text col-sm-12">{'porg_v2100_headers_s5'|translate} {'porg_v2100_headers_s6'|translate}</p>
+    <p class="descriptive-text col-sm-12 less-side-padding">{'porg_v2100_headers_s5'|translate} {'porg_v2100_headers_s6'|translate}</p>
 
 
 

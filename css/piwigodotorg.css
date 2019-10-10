@@ -5671,6 +5671,8 @@ label {
     text-align: justify;
 }
 
+
+
 body.release-2_10_0 .release-notes-intro .intro-text {
     font-size: 20px;
     margin-bottom: 40px;
@@ -5761,9 +5763,6 @@ left:0;
 .underline-img{
   height: 50px;
   margin-top: -22px;
-/*  top:60px;
-  left:100px;
-  height:50px;*/
 }
 
 .corner1{
@@ -5811,8 +5810,6 @@ left:0;
     bottom: -35px;
     left: 202px;
   }
-
-
 
 .interview {
     background-color:#dfeff5;
@@ -5883,6 +5880,7 @@ section.release-notes-overview {
 section.release-notes-overview .user-features {
     padding: 30px 0;
 }
+
 section.release-notes-overview .technical-features {
     border-top: none;
     padding: 30px 0;
@@ -5961,13 +5959,11 @@ body.release-2_10_0 #releaseNotesMain .interview p{
   text-align:left;
 }
 
-
 #releaseNotesMain .technical-features p.descriptive-text{
   font-size:16px;
   line-height:1.75em;
   text-align:left;
 }
-
 
 #releaseNotesMain ul {
     margin-top:20px;
@@ -6009,7 +6005,6 @@ body.release-2_10_0 #releaseNotesMain .interview p{
     float: left;
 }
 
-
 body.release-2_10_0 #releaseNotesMain .section-framed p {
     text-align: left;
     line-height:1.5em;
@@ -6025,40 +6020,30 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   font-size:10px;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1200px){
   .technical-features pre {
     font-size:8px;
   }
-}
-
-@media (max-width:991px) {
-  .technical-features pre {
-    font-size:13px;
-  }
-}
-
-
-@media (max-width:1200px){
   .corner5{
     right:160px;
   }
   .corner6{
     left:160px;
   }
-/*  .underline-img{
-    top:100px;
-  }*/
+
 }
 
-
 @media (max-width:991px) {
+  .technical-features pre {
+    font-size:13px;
+  }
   .first-image-and-caption, .second-image-and-caption{
-    margin:50px 0;
+    margin:40px 0 10px 0;
   }
   .first-image-and-caption div:last-child{
    position: relative;
    margin:30px 0;
-   padding-top:50px;
+   padding-top:80px;
   }
   .second-image-and-caption div:first-child{
     position:relative;
@@ -6066,23 +6051,30 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   #releaseNotesMain p.screenshot-caption{
     margin:8px;
   }
-/*  .underline-img{
-    position:relative;
-    top:0;
-    left:0;
-  }*/
+  #releaseNotesMain p.screenshot-caption#extra-margin{
+    margin-top:50px;
+  }
   .corner2{
     bottom:-30px;
     right:-20px;
   }
+  .corner3-edit{
+    right:0!important;
+    top:-10px!important;
+  }
   .corner4{
-    left:0;
+    left:-10;
+    bottom:auto;
+  }
+  .corner4-edit{
+    left: 0!important;
+    bottom: -15px!important;
   }
   .corner5{
-    right:120px;
+    right:40px;
   }
   .corner6{
-    left:120px;
+    left:45px;
   }
 
   #releaseNotesMain p{
@@ -6090,7 +6082,77 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   }
 
   .section-part{
-    padding:30px 0;
+    padding:15px 0;
+  }
+  .release-notes-intro #responsive-screens{
+    width:100%;
+  }
+  .interview-container, .section-framed-container{
+    margin:-20px;
+  }
+  .interview1{
+    margin-top:115px;
+  }
+  .interview .photo{
+    margin:80px auto;
+    float:none;
+    display: block;
+    margin-top:0;
+    width:75%;
+  }
+  .extra-margin{
+    margin-top:40px!important;
+  }
+  .extra-large-margin{
+    margin-top:80px;
+  }
+
+  body.release-2_10_0 #releaseNotesMain H4{
+    font-size:22px;
+    display:block;
+    padding-bottom:10px;
+  }
+  .extra-side-padding{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .less-side-padding{
+    padding-left:0;
+    padding-right:0;
+  }
+  #releaseNotesMain .section-framed{
+    padding:35px;
+  }
+  #releaseNotesMain .section-framed img.information{
+    width:50px;
+    margin-top:-60px;
+  }
+  #releaseNotesMain #intro-main-text, .intro-text{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  body.release-2_10_0 #releaseNotesMain p, #releaseNotesMain .technical-features p#technical-first-paragraph{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  #releaseNotesMain .technical-features p.descriptive-text{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  body.release-2_10_0 #releaseNotesMain section h3{
+    font-size:30px;
+    margin-top:30px;
+  }
+
+}
+@media (max-width:680px) {
+  .technical-features pre {
+    font-size:6px;
+  }
+}
+@media (max-width:320px) {
+  .technical-features pre {
+    font-size:5px;
   }
 }
 
