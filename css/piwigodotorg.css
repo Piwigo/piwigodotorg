@@ -474,16 +474,139 @@
 /* -------------- */
 /* section banner */
 /* -------------- */
+
 .pwg-banner {
-    /*position: relative;
-    background-image: url(../images/home/homepage_banner_resized_top.jpg);
+    position: relative;
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     padding-top: 5%;
-    padding-bottom: 52%;*/
+    padding-bottom: 52%;
+}
+
+.pwg-banner .pwg-tagline {
+    padding:0;
+}
+
+.pwg-banner .pwg-tagline h1 {
+    margin-top: 0;
+    font-size: 3em;
+    font-weight: 300;
+    text-align: left;
+    color:#666;
+    transition: all 1s;
+}
+
+.pwg-banner .pwg-tagline p {
+    color:#666;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+.pwg-banner .btn {
+    width:100%;
+    max-width:300px;
+    background-color: #ff7700;
+    border: none;
+    border-radius: 0;
+    color:#ffffff;
+    font-size:30px;
+    letter-spacing: 2px;
+    padding: 12px;
+    transition: all 0.2s;
+}
+
+.pwg-banner .btn:hover, .pwg-banner .btn:focus, .pwg-banner .btn:active {
+    color:#ffffff;
+    background-color: #ff7700;
+    box-shadow: 3px 3px 6px #bbb;
+}
+
+.pwg-banner .pwg-release-date {
+    text-align: center;
+    font-size:90%;
+    color:#aaa;
+    margin-top: 10px;
+}
+
+.pwg-banner .pwg-news {
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #3EA9F5;
+    border-radius: 75px 0px 0px 75px;
+    background-color: #3EA9F5;
+}
+
+.pwg-banner .pwg-version {
+    color: #3EA9F5;
+    text-align: center;
+    border: 1px solid #3EA9F5;
+    border-radius: 0px 75px 75px 0px;
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pwg-version span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .pwg-banner .pwg-tagline h1 {
+        font-size: 2.5em;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .pwg-version span {
+        font-size: 10px;
+    }
+    .pwg-banner {
+        text-align: center;
+        position: relative;
+        background-image: url(../images/home/homepage_banner_resized_top.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 80%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .pwg-banner .pwg-tagline h1 {
+        font-size: 2em;
+        font-weight: 300;
+        text-align: center;
+    }
+    .pwg-banner .btn {
+        font-size: 16px;
+        padding: 11px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pwg-banner .pwg-tagline p {
+        font-size: 0.85em;
+        font-weight: 100;
+    }
+    .pwg-banner .pwg-tagline h1 {
+        font-size: 1.7em;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+/* -------------- */
+/* section banner */
+/* -------------- */
+.pwg-banner {
+
     padding:30px 0;
 }
 
@@ -580,19 +703,6 @@
     .pwg-version span {
         font-size: 10px;
     }
-    /*.pwg-banner {
-        text-align: center;
-        position: relative;
-        background-image: url(../images/home/homepage_banner_resized_top.jpg);
-        background-size: cover;
-        background-position: bottom center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100%;
-        padding-bottom: 80%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }*/
     .pwg-banner .pwg-tagline h1 {
         font-size: 2em;
         font-weight: 300;
@@ -638,7 +748,6 @@ h2{
     font-size:19px;
     color: black;
     margin-top: 27px;
-    /*text-transform: uppercase;*/
     letter-spacing: 1px;
     text-align: center;
     font-weight:900;
@@ -718,22 +827,6 @@ h2{
 }
 
 /* Who are our users - different type of users */
-/*
-.container-home-users h2 {
-    color: #FF7700;
-    font-size: 30px;
-    padding-top: 100px;
-    text-transform: uppercase;
-    margin:0 0 10px 0;
-}
-
-@media (max-width: 991px) {
-    .container-home-users h2 {
-        font-size: 18px;
-        padding: 40px;
-        text-align: center;
-    }
-}*/
 
 .piwigo-individual img {
     height: 150px;
@@ -962,7 +1055,7 @@ h2{
 }
 
 .feature-content img {
-    height: 110px;
+    height: 50px;
 }
 
 @media (max-width: 320px) {
@@ -970,7 +1063,6 @@ h2{
         font-size: 14px;
     }
 }
-
 
 /* Get started */
 
@@ -5723,10 +5815,17 @@ label {
  }
 
 .release-notes-intro {
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+body.release-2_10_0 .release-notes-intro .intro-text {
     font-size: 20px;
     margin-bottom: 40px;
     text-align: justify;
-    line-height:2em;
+
 }
 
 #releaseNotesMain #intro-title{
@@ -5734,9 +5833,24 @@ label {
   font-weight:bold;
 }
 
-#releaseNotesMain #intro-main-text{
-  font-size:18px;
+body .release-2_10_0 #releaseNotesMain #intro-title{
+ margin:30px 0 0 0
 }
+
+#releaseNotesMain #intro-main-text, .intro-text2_10{
+  font-size:18px;
+  margin-top:0;
+}
+
+.intro-text2_10{
+  margin-top:-10px;
+  line-height:2em!important;
+}
+
+body.release-2_10_0 #releaseNotesMain p {
+  text-align:center
+}
+
 
 #releaseNotesMain .back_overview {
     margin-bottom:30px;
@@ -5795,10 +5909,8 @@ left:0;
 }
 
 .underline-img{
-  position:absolute;
-  top:60px;
-  left:100px;
-  height:50px;
+  height: 50px;
+  margin-top: -22px;
 }
 
 .corner1{
@@ -5847,8 +5959,6 @@ left:0;
     left: 202px;
   }
 
-
-
 .interview {
     background-color:#dfeff5;
     padding: 50px;
@@ -5881,6 +5991,10 @@ left:0;
     width: 175px;
 }
 
+#releaseNotesMain section h3 {
+    border-bottom: 1px solid #cdcdcd;
+}
+
 body.release-2_10_0 #releaseNotesMain section h3 {
     border-bottom: none;
     font-size: 40px;
@@ -5889,9 +6003,12 @@ body.release-2_10_0 #releaseNotesMain section h3 {
     margin-bottom:-10px;
 }
 
-#releaseNotesMain section h3 {
-    border-bottom: 1px solid #cdcdcd;
-  }
+body.release-2_10_0 #releaseNotesMain .section-framed h3 {
+  font-size: 30px;
+  text-align:right;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
 
 #releaseNotesMain H4 {
     font-style: normal;
@@ -5911,6 +6028,7 @@ section.release-notes-overview {
 section.release-notes-overview .user-features {
     padding: 30px 0;
 }
+
 section.release-notes-overview .technical-features {
     border-top: none;
     padding: 30px 0;
@@ -5956,23 +6074,22 @@ body.release-2_10_0 #releaseNotesMain H4 {
     font-size:25px;
     text-align:left;
     margin-top:40px;
-    /*margin-bottom:-20px;*/
+    margin-bottom:-20px;
     border-bottom:none;
-    padding-left:0;
 }
-
 
 #releaseNotesMain p {
     margin: 30px 0;
-    text-align: center;
+    text-align: justify;
 }
+
 
 #releaseNotesMain p.descriptive-text{
   line-height:2em;
   font-size:18px;
 }
 
-#releaseNotesMain .interview p{
+body.release-2_10_0 #releaseNotesMain .interview p{
   text-align:left;
 }
 
@@ -5990,13 +6107,11 @@ body.release-2_10_0 #releaseNotesMain H4 {
   text-align:left;
 }
 
-
 #releaseNotesMain .technical-features p.descriptive-text{
   font-size:16px;
   line-height:1.75em;
   text-align:left;
 }
-
 
 #releaseNotesMain ul {
     margin-top:20px;
@@ -6034,14 +6149,11 @@ body.release-2_10_0 #releaseNotesMain H4 {
 }
 #releaseNotesMain .section-framed img.information {
     width: 75px;
-    margin-top: -122px;
+    margin-top: -88px;
+    float: left;
 }
-#releaseNotesMain .section-framed h3 {
-    margin: -10px 0 20px 0;
-    font-size: 30px;
-    text-align: right;
-}
-#releaseNotesMain .section-framed p {
+
+body.release-2_10_0 #releaseNotesMain .section-framed p {
     text-align: left;
     line-height:1.5em;
     font-size: 15px;
@@ -6050,34 +6162,36 @@ body.release-2_10_0 #releaseNotesMain H4 {
 }
 
 .technical-features pre{
-  margin:15px;
-  padding:10px;
-  width:94%;
-}
 
-.technical-features code{
+  padding:15px;
+  width:94%;
   font-size:10px;
 }
 
-
 @media (max-width:1200px){
+  .technical-features pre {
+    font-size:8px;
+  }
   .corner5{
     right:160px;
   }
   .corner6{
     left:160px;
   }
+
 }
 
-
 @media (max-width:991px) {
+  .technical-features pre {
+    font-size:13px;
+  }
   .first-image-and-caption, .second-image-and-caption{
-    margin:50px 0;
+    margin:40px 0 10px 0;
   }
   .first-image-and-caption div:last-child{
    position: relative;
    margin:30px 0;
-   padding-top:50px;
+   padding-top:80px;
   }
   .second-image-and-caption div:first-child{
     position:relative;
@@ -6085,23 +6199,30 @@ body.release-2_10_0 #releaseNotesMain H4 {
   #releaseNotesMain p.screenshot-caption{
     margin:8px;
   }
-  .underline-img{
-    position:relative;
-    top:0;
-    left:0;
+  #releaseNotesMain p.screenshot-caption#extra-margin{
+    margin-top:50px;
   }
   .corner2{
     bottom:-30px;
     right:-20px;
   }
+  .corner3-edit{
+    right:0!important;
+    top:-10px!important;
+  }
   .corner4{
-    left:0;
+    left:-10;
+    bottom:auto;
+  }
+  .corner4-edit{
+    left: 0!important;
+    bottom: -15px!important;
   }
   .corner5{
-    right:120px;
+    right:40px;
   }
   .corner6{
-    left:120px;
+    left:45px;
   }
 
   #releaseNotesMain p{
@@ -6109,7 +6230,77 @@ body.release-2_10_0 #releaseNotesMain H4 {
   }
 
   .section-part{
-    padding:30px 0;
+    padding:15px 0;
+  }
+  .release-notes-intro #responsive-screens{
+    width:100%;
+  }
+  .interview-container, .section-framed-container{
+    margin:-20px;
+  }
+  .interview1{
+    margin-top:115px;
+  }
+  .interview .photo{
+    margin:80px auto;
+    float:none;
+    display: block;
+    margin-top:0;
+    width:75%;
+  }
+  .extra-margin{
+    margin-top:40px!important;
+  }
+  .extra-large-margin{
+    margin-top:80px;
+  }
+
+  body.release-2_10_0 #releaseNotesMain H4{
+    font-size:22px;
+    display:block;
+    padding-bottom:10px;
+  }
+  .extra-side-padding{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .less-side-padding{
+    padding-left:0;
+    padding-right:0;
+  }
+  #releaseNotesMain .section-framed{
+    padding:35px;
+  }
+  #releaseNotesMain .section-framed img.information{
+    width:50px;
+    margin-top:-60px;
+  }
+  #releaseNotesMain #intro-main-text, .intro-text{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  body.release-2_10_0 #releaseNotesMain p, #releaseNotesMain .technical-features p#technical-first-paragraph{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  #releaseNotesMain .technical-features p.descriptive-text{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  body.release-2_10_0 #releaseNotesMain section h3{
+    font-size:30px;
+    margin-top:30px;
+  }
+
+}
+@media (max-width:680px) {
+  .technical-features pre {
+    font-size:6px;
+  }
+}
+@media (max-width:320px) {
+  .technical-features pre {
+    font-size:5px;
   }
 }
 
@@ -6847,7 +7038,6 @@ body.release-2_10_0 #releaseNotesMain H4 {
     text-decoration: none;
     color: #FF7700;
     line-height: 30px;
-    font-size:12px;
 }
 
 .footer-donate-content {
@@ -6862,7 +7052,7 @@ body.release-2_10_0 #releaseNotesMain H4 {
 
 .footer-newspaper-content img {
     height: 30px;
-    margin-right: 8px;
+    margin-right: 20px;
     float: left;
 }
 
