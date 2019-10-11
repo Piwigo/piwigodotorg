@@ -474,9 +474,8 @@
 /* -------------- */
 /* section banner */
 /* -------------- */
-
 .pwg-banner {
-    position: relative;
+    /*position: relative;
     background-image: url(../images/home/homepage_banner_resized_top.jpg);
     background-size: cover;
     background-position: bottom center;
@@ -484,27 +483,36 @@
     width: 100%;
     height: 100%;
     padding-top: 5%;
-    padding-bottom: 52%;
+    padding-bottom: 52%;*/
+    padding:30px 0;
 }
 
 .pwg-banner .pwg-tagline {
     padding:0;
+    padding-left:15px;
 }
 
 .pwg-banner .pwg-tagline h1 {
     margin-top: 0;
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 4em;
+    font-weight: 700;
     text-align: left;
     color:#666;
     transition: all 1s;
+    line-height:1.25em;
+    color:black;
 }
 
 .pwg-banner .pwg-tagline p {
     color:#666;
-    font-size: 1.1em;
+    font-size: 1.5em;
     margin-top: 20px;
+    text-align:left;
     transition: all 1s;
+}
+
+.pwg-banner .pwg-tagline p:last-child{
+  font-size:1em;
 }
 
 .pwg-banner .btn {
@@ -518,6 +526,7 @@
     letter-spacing: 2px;
     padding: 12px;
     transition: all 0.2s;
+    margin-top:15
 }
 
 .pwg-banner .btn:hover, .pwg-banner .btn:focus, .pwg-banner .btn:active {
@@ -549,6 +558,10 @@
     background-color: #FFFFFF;
 }
 
+.pwg-banner .responsive-image img{
+  max-width:100%;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .pwg-version span {
         font-size: 12px;
@@ -558,8 +571,8 @@
 @media (max-width: 1199px) {
     .pwg-banner .pwg-tagline h1 {
         font-size: 2.5em;
-        font-weight: 300;
-        text-align: center;
+        font-weight: 600;
+        text-align: left;
     }
 }
 
@@ -567,7 +580,7 @@
     .pwg-version span {
         font-size: 10px;
     }
-    .pwg-banner {
+    /*.pwg-banner {
         text-align: center;
         position: relative;
         background-image: url(../images/home/homepage_banner_resized_top.jpg);
@@ -579,11 +592,11 @@
         padding-bottom: 80%;
         padding-left: 10px;
         padding-right: 10px;
-    }
+    }*/
     .pwg-banner .pwg-tagline h1 {
         font-size: 2em;
         font-weight: 300;
-        text-align: center;
+        text-align: left;
     }
     .pwg-banner .btn {
         font-size: 16px;
@@ -599,7 +612,7 @@
     .pwg-banner .pwg-tagline h1 {
         font-size: 1.7em;
         font-weight: 300;
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -610,17 +623,25 @@
 
 /* Organization subscribed to piwigo */
 
-.container-organization {
-    background-color: #f1f3f5;
+h2{
+  font-weight:700;
+  text-align:center;
+  margin:30px 0px;
 }
 
-.container-organization h2 {
-    font-size:14px;
-    color: #888;
+.container-organization {
+    border-top: 1px solid #ffae67;
+    border-bottom: 1px solid #ffae67
+}
+
+.container-organization h3 {
+    font-size:19px;
+    color: black;
     margin-top: 27px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 1px;
     text-align: center;
+    font-weight:900;
 }
 
 .organization-content {
@@ -652,23 +673,25 @@
 
 /* piwigo fact - know more about piwigo */
 
-.fact-content {
+.fact-content, .take-control {
     padding: 50px;
 }
 
 .fact-content img {
-    height: 50px;
+    height: 90px;
 }
 
-.fact-content h2 {
+.fact-content h3 {
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .fact-content p {
     padding: 20px;
     color: #666;
+    font-size:16px;
+    line-height:1.75em;
 }
 
 .homepage-batch-manager-image {
@@ -695,7 +718,7 @@
 }
 
 /* Who are our users - different type of users */
-
+/*
 .container-home-users h2 {
     color: #FF7700;
     font-size: 30px;
@@ -710,11 +733,11 @@
         padding: 40px;
         text-align: center;
     }
-}
+}*/
 
 .piwigo-individual img {
-    height: 100px;
-    margin-top: 100px;
+    height: 150px;
+    margin-top: 50px;
 }
 
 .piwigo-individual, .piwigo-professional, .piwigo-organization, .piwigo-arrow {
@@ -786,10 +809,32 @@
 }
 
 .content-advice-box {
-    height: 135px;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
-    padding: 10px;
+    padding: 20px;
     font-size:16px;
+    border-radius:10px;
+    background-color:white;
+    margin:10px;
+}
+.jelly-fish{
+    text-align: center;
+    position: relative;
+    background-image: url(../images/home/jelly-fish.jpg);
+    background-size: cover;
+    background-position: bottom center;
+
+}
+
+.row-advice{
+  padding:40px 0;
+}
+
+.row-advice h2{
+  color:white;
+  padding:0;
+  font-weight:600;
+  margin-bottom:20px!important;
+  text-shadow: 1px 1px 2px black;
 }
 
 @media (max-width: 991px) {
@@ -800,6 +845,7 @@
 
 .user-advice {
     color: #666;
+    text-align:left;
 }
 
 .user-advice-name {
@@ -811,7 +857,7 @@
 
 .container-showcase {
     padding-top: 125px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 @media (max-width: 991px) {
@@ -855,6 +901,10 @@
     letter-spacing: 1px;
 }
 
+.showcase-button{
+  text-align:right;
+}
+
 .showcase-button .btn-view-more-showcases:hover,
 .showcase-button .btn-view-more-showcases:focus,
 .btn-know-more:hover, .btn-know-more:focus {
@@ -870,18 +920,23 @@
 }
 
 .btn-refresh {
-    text-align: right;
+    text-align: left;
     padding-right: 34px;
+
 }
 
 .btn-refresh img {
-    height: 45px;
+    height: 55px;
     cursor: pointer;
 }
 
 @media (max-width: 991px) {
     .btn-refresh img {
     }
+}
+
+.showcase-refresh{
+  padding-top:40px;
 }
 
 /* Feature section */
@@ -907,7 +962,7 @@
 }
 
 .feature-content img {
-    height: 50px;
+    height: 110px;
 }
 
 @media (max-width: 320px) {
@@ -915,6 +970,7 @@
         font-size: 14px;
     }
 }
+
 
 /* Get started */
 
@@ -5667,17 +5723,10 @@ label {
  }
 
 .release-notes-intro {
-    font-size: 15px;
-    text-align: justify;
-}
-
-
-
-body.release-2_10_0 .release-notes-intro .intro-text {
     font-size: 20px;
     margin-bottom: 40px;
     text-align: justify;
-
+    line-height:2em;
 }
 
 #releaseNotesMain #intro-title{
@@ -5685,24 +5734,9 @@ body.release-2_10_0 .release-notes-intro .intro-text {
   font-weight:bold;
 }
 
-body .release-2_10_0 #releaseNotesMain #intro-title{
- margin:30px 0 0 0
-}
-
-#releaseNotesMain #intro-main-text, .intro-text2_10{
+#releaseNotesMain #intro-main-text{
   font-size:18px;
-  margin-top:0;
 }
-
-.intro-text2_10{
-  margin-top:-10px;
-  line-height:2em!important;
-}
-
-body.release-2_10_0 #releaseNotesMain p {
-  text-align:center
-}
-
 
 #releaseNotesMain .back_overview {
     margin-bottom:30px;
@@ -5761,8 +5795,10 @@ left:0;
 }
 
 .underline-img{
-  height: 50px;
-  margin-top: -22px;
+  position:absolute;
+  top:60px;
+  left:100px;
+  height:50px;
 }
 
 .corner1{
@@ -5811,6 +5847,8 @@ left:0;
     left: 202px;
   }
 
+
+
 .interview {
     background-color:#dfeff5;
     padding: 50px;
@@ -5843,10 +5881,6 @@ left:0;
     width: 175px;
 }
 
-#releaseNotesMain section h3 {
-    border-bottom: 1px solid #cdcdcd;
-}
-
 body.release-2_10_0 #releaseNotesMain section h3 {
     border-bottom: none;
     font-size: 40px;
@@ -5855,12 +5889,9 @@ body.release-2_10_0 #releaseNotesMain section h3 {
     margin-bottom:-10px;
 }
 
-body.release-2_10_0 #releaseNotesMain .section-framed h3 {
-  font-size: 30px;
-  text-align:right;
-  margin-bottom: 10px;
-  margin-top: -10px;
-}
+#releaseNotesMain section h3 {
+    border-bottom: 1px solid #cdcdcd;
+  }
 
 #releaseNotesMain H4 {
     font-style: normal;
@@ -5880,7 +5911,6 @@ section.release-notes-overview {
 section.release-notes-overview .user-features {
     padding: 30px 0;
 }
-
 section.release-notes-overview .technical-features {
     border-top: none;
     padding: 30px 0;
@@ -5926,22 +5956,23 @@ body.release-2_10_0 #releaseNotesMain H4 {
     font-size:25px;
     text-align:left;
     margin-top:40px;
-    margin-bottom:-20px;
+    /*margin-bottom:-20px;*/
     border-bottom:none;
+    padding-left:0;
 }
+
 
 #releaseNotesMain p {
     margin: 30px 0;
-    text-align: justify;
+    text-align: center;
 }
-
 
 #releaseNotesMain p.descriptive-text{
   line-height:2em;
   font-size:18px;
 }
 
-body.release-2_10_0 #releaseNotesMain .interview p{
+#releaseNotesMain .interview p{
   text-align:left;
 }
 
@@ -5959,11 +5990,13 @@ body.release-2_10_0 #releaseNotesMain .interview p{
   text-align:left;
 }
 
+
 #releaseNotesMain .technical-features p.descriptive-text{
   font-size:16px;
   line-height:1.75em;
   text-align:left;
 }
+
 
 #releaseNotesMain ul {
     margin-top:20px;
@@ -6001,11 +6034,14 @@ body.release-2_10_0 #releaseNotesMain .interview p{
 }
 #releaseNotesMain .section-framed img.information {
     width: 75px;
-    margin-top: -88px;
-    float: left;
+    margin-top: -122px;
 }
-
-body.release-2_10_0 #releaseNotesMain .section-framed p {
+#releaseNotesMain .section-framed h3 {
+    margin: -10px 0 20px 0;
+    font-size: 30px;
+    text-align: right;
+}
+#releaseNotesMain .section-framed p {
     text-align: left;
     line-height:1.5em;
     font-size: 15px;
@@ -6014,36 +6050,34 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 }
 
 .technical-features pre{
-
-  padding:15px;
+  margin:15px;
+  padding:10px;
   width:94%;
+}
+
+.technical-features code{
   font-size:10px;
 }
 
+
 @media (max-width:1200px){
-  .technical-features pre {
-    font-size:8px;
-  }
   .corner5{
     right:160px;
   }
   .corner6{
     left:160px;
   }
-
 }
 
+
 @media (max-width:991px) {
-  .technical-features pre {
-    font-size:13px;
-  }
   .first-image-and-caption, .second-image-and-caption{
-    margin:40px 0 10px 0;
+    margin:50px 0;
   }
   .first-image-and-caption div:last-child{
    position: relative;
    margin:30px 0;
-   padding-top:80px;
+   padding-top:50px;
   }
   .second-image-and-caption div:first-child{
     position:relative;
@@ -6051,30 +6085,23 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   #releaseNotesMain p.screenshot-caption{
     margin:8px;
   }
-  #releaseNotesMain p.screenshot-caption#extra-margin{
-    margin-top:50px;
+  .underline-img{
+    position:relative;
+    top:0;
+    left:0;
   }
   .corner2{
     bottom:-30px;
     right:-20px;
   }
-  .corner3-edit{
-    right:0!important;
-    top:-10px!important;
-  }
   .corner4{
-    left:-10;
-    bottom:auto;
-  }
-  .corner4-edit{
-    left: 0!important;
-    bottom: -15px!important;
+    left:0;
   }
   .corner5{
-    right:40px;
+    right:120px;
   }
   .corner6{
-    left:45px;
+    left:120px;
   }
 
   #releaseNotesMain p{
@@ -6082,77 +6109,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   }
 
   .section-part{
-    padding:15px 0;
-  }
-  .release-notes-intro #responsive-screens{
-    width:100%;
-  }
-  .interview-container, .section-framed-container{
-    margin:-20px;
-  }
-  .interview1{
-    margin-top:115px;
-  }
-  .interview .photo{
-    margin:80px auto;
-    float:none;
-    display: block;
-    margin-top:0;
-    width:75%;
-  }
-  .extra-margin{
-    margin-top:40px!important;
-  }
-  .extra-large-margin{
-    margin-top:80px;
-  }
-
-  body.release-2_10_0 #releaseNotesMain H4{
-    font-size:22px;
-    display:block;
-    padding-bottom:10px;
-  }
-  .extra-side-padding{
-    padding-left:30px;
-    padding-right:30px;
-  }
-  .less-side-padding{
-    padding-left:0;
-    padding-right:0;
-  }
-  #releaseNotesMain .section-framed{
-    padding:35px;
-  }
-  #releaseNotesMain .section-framed img.information{
-    width:50px;
-    margin-top:-60px;
-  }
-  #releaseNotesMain #intro-main-text, .intro-text{
-    padding-left:15px;
-    padding-right:15px;
-  }
-  body.release-2_10_0 #releaseNotesMain p, #releaseNotesMain .technical-features p#technical-first-paragraph{
-    padding-left:30px;
-    padding-right:30px;
-  }
-  #releaseNotesMain .technical-features p.descriptive-text{
-    padding-left:15px;
-    padding-right:15px;
-  }
-  body.release-2_10_0 #releaseNotesMain section h3{
-    font-size:30px;
-    margin-top:30px;
-  }
-
-}
-@media (max-width:680px) {
-  .technical-features pre {
-    font-size:6px;
-  }
-}
-@media (max-width:320px) {
-  .technical-features pre {
-    font-size:5px;
+    padding:30px 0;
   }
 }
 
@@ -6890,6 +6847,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     text-decoration: none;
     color: #FF7700;
     line-height: 30px;
+    font-size:12px;
 }
 
 .footer-donate-content {
@@ -6904,7 +6862,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 
 .footer-newspaper-content img {
     height: 30px;
-    margin-right: 20px;
+    margin-right: 8px;
     float: left;
 }
 
