@@ -59,3 +59,7 @@ $lang['porg_v2100_dup_s1'] = 'Il Batch Manager ti aiuta a trovare le foto duplic
 $lang['porg_v2100_headers_s1'] = 'Abbiamo semplificato le intestazioni dei file di codice PHP.';
 $lang['porg_v2100_comments_s1'] = 'Nessun panico, non abbiamo rimosso la funzionalità dei commenti degli utenti. Abbiamo semplicemente deciso di disabilitarlo di default.';
 $lang['porg_v2100_api_s6'] = 'ora accetta password vuota (proprio come il modulo di accesso web).';
+$lang['porg_v2100_dup_c2'] = 'Nella versione 2.10, la gestione per lotti mostra i doppioni uno accanto all\'altro, in base ai criteri di duplicazione. Facile da confrontare, selezionare ed eliminare.';
+$lang['porg_v2100_hannah_s1'] = 'Mi chiamo Hannah, attualmente studentessa in User eXperience (UX) design presso ActivDesign di Rennes.';
+$lang['porg_v2100_headers_s4'] = '... abbiamo questa intestazione semplificata:';
+$lang['porg_v2100_headers_s3'] = 'Invece di quello:';
