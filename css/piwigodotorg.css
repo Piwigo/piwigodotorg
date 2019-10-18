@@ -142,7 +142,12 @@
     transition: background-color 0.2s ease-out;
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
-    padding:3px 7px;
+    padding:15px 25px;
+        text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a{
+  font-weight:600;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -172,8 +177,9 @@
 
 .pwg-navbar-button-get-piwigo span {
     background-color: #ff7700;
-    padding:3px 7px;
+    padding:15px 25px;
     border:1px solid #ff7700;
+    text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav > li > a.pwg-navbar-button-get-piwigo {
@@ -193,6 +199,10 @@
     font-size:12px;
 }
 
+.glyphicon-fire:before{
+  padding:5px;
+}
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #ff7700;
     background-color: transparent;
@@ -205,6 +215,7 @@
 
 .navbar-default .navbar-nav > li > a > span.glyphicon {
     display: none;
+
 }
 
 .navbar-default .navbar-nav > li > a > i.icon-puzzle {
@@ -491,18 +502,21 @@
 }
 
 .pwg-banner .pwg-tagline h1 {
-    margin-top: 0;
-    font-size: 3em;
-    font-weight: 300;
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 900;
     text-align: left;
-    color:#666;
+    color: #3c3c3c;
+    line-height: 76px;
     transition: all 1s;
 }
 
 .pwg-banner .pwg-tagline p {
-    color:#666;
-    font-size: 1.1em;
-    margin-top: 20px;
+    color: #7e7e7e;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
     transition: all 1s;
 }
 
@@ -523,6 +537,10 @@
     color:#ffffff;
     background-color: #ff7700;
     box-shadow: 3px 3px 6px #bbb;
+}
+
+.get-piwigo-button{
+  padding:0;
 }
 
 .pwg-banner .pwg-release-date {
@@ -554,24 +572,17 @@
     }
 }
 
-@media (max-width: 1199px) {
-    .pwg-banner .pwg-tagline h1 {
-        font-size: 2.5em;
-        font-weight: 300;
-        text-align: center;
-    }
-}
 
 @media (max-width: 991px) {
+  .pwg-banner .responsive-image img{
+    width:125%!important;
+  }
     .pwg-version span {
         font-size: 10px;
     }
     .pwg-banner {
         text-align: center;
         position: relative;
-        background-image: url(../images/home/homepage_banner_resized_top.jpg);
-        background-size: cover;
-        background-position: bottom center;
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
@@ -580,9 +591,11 @@
         padding-right: 10px;
     }
     .pwg-banner .pwg-tagline h1 {
-        font-size: 2em;
-        font-weight: 300;
-        text-align: center;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 40px;
     }
     .pwg-banner .btn {
         font-size: 16px;
@@ -592,12 +605,11 @@
 
 @media (max-width: 767px) {
     .pwg-banner .pwg-tagline p {
-        font-size: 0.85em;
-        font-weight: 100;
+        font-size:16px;
     }
     .pwg-banner .pwg-tagline h1 {
-        font-size: 1.7em;
-        font-weight: 300;
+      font-weight: 900;
+      line-height: 40px;
         text-align: center;
     }
 }
@@ -636,6 +648,10 @@
 
 .pwg-banner .pwg-tagline p:last-child{
   font-size:1em;
+  text-align:center;
+  margin-top:0;
+  padding-right:15px;
+  font-weight:400;
 }
 
 .pwg-banner .btn {
@@ -649,7 +665,7 @@
     letter-spacing: 2px;
     padding: 12px;
     transition: all 0.2s;
-    margin-top:15
+    margin-top:15px;
 }
 
 .pwg-banner .btn:hover, .pwg-banner .btn:focus, .pwg-banner .btn:active {
@@ -682,7 +698,7 @@
 }
 
 .pwg-banner .responsive-image img{
-  max-width:100%;
+  width:150%;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -713,7 +729,7 @@
         padding: 11px 15px;
     }
 }
-
+/*
 @media (max-width: 767px) {
     .pwg-banner .pwg-tagline p {
         font-size: 0.85em;
@@ -724,7 +740,7 @@
         font-weight: 300;
         text-align: left;
     }
-}
+}*/
 
 /*******************
 * Piwigo index CSS *
@@ -734,18 +750,19 @@
 /* Organization subscribed to piwigo */
 
 h2{
-  font-weight:700;
   text-align:center;
   margin:30px 0px;
+  color: #3c3c3c;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .container-organization {
-    border-top: 1px solid #ffae67;
-    border-bottom: 1px solid #ffae67
+  box-shadow: 0px 0px 10px 1px rgba(255, 174, 103, 0.3);
 }
 
 .container-organization h3 {
-    font-size:19px;
+    font-size:20px;
     color: black;
     margin-top: 27px;
     letter-spacing: 1px;
@@ -787,20 +804,28 @@ h2{
 }
 
 .fact-content img {
-    height: 90px;
+    max-width:80%;
+}
+
+.fact-content h2, .take-control h2  {
+  margin-top:0;
+  margin-bottom:50px;
 }
 
 .fact-content h3 {
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .fact-content p {
     padding: 20px;
-    color: #666;
     font-size:16px;
     line-height:1.75em;
+    margin-top: 20px;
+    color: #3c3c3c;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .homepage-batch-manager-image {
@@ -828,9 +853,17 @@ h2{
 
 /* Who are our users - different type of users */
 
-.piwigo-individual img {
-    height: 150px;
-    margin-top: 50px;
+.container-home-users{
+  padding:50px;
+}
+
+.container-home-users h2{
+  margin-top:0;
+  margin-bottom:50px;
+}
+
+.container-home-users img{
+  max-width:100%;
 }
 
 .piwigo-individual, .piwigo-professional, .piwigo-organization, .piwigo-arrow {
@@ -839,19 +872,11 @@ h2{
 
 .piwigo-individual h3, .piwigo-professional h3, .piwigo-organization h3 {
     margin-top: 0;
-    font-size: 28px;
+    font-size: 16px;
+    font-weight:700!important;
     font-weight: normal;
     color: #666;
     line-height: 40px;
-}
-
-.piwigo-professional img {
-    height: 150px;
-    margin-top: 50px;
-}
-
-.piwigo-organization img {
-    height: 200px;
 }
 
 .piwigo-arrow img {
@@ -875,17 +900,6 @@ h2{
         margin-top: 0px;
     }
 
-    .piwigo-individual img {
-        max-height: 60px;
-    }
-
-    .piwigo-professional img {
-        max-height: 90px;
-    }
-
-    .piwigo-organization img {
-        max-height: 110px;
-    }
 
     .piwigo-individual p, .piwigo-professional p, .piwigo-organization p {
         font-size: 16px;
@@ -923,9 +937,10 @@ h2{
 }
 
 .row-advice h2{
+  font-size:40px;
   color:white;
   padding:0;
-  font-weight:600;
+  font-weight:900;
   margin-bottom:20px!important;
   text-shadow: 1px 1px 2px black;
 }
@@ -1035,7 +1050,7 @@ h2{
 /* Feature section */
 
 .feature-content {
-    padding: 40px;
+    padding: 0 40px;
 }
 
 .feature-content a {
@@ -1047,7 +1062,9 @@ h2{
 }
 
 .feature-content p {
-    margin-top: 20px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .feature-content a:hover {
@@ -1055,7 +1072,7 @@ h2{
 }
 
 .feature-content img {
-    height: 50px;
+    max-width:100%;
 }
 
 @media (max-width: 320px) {
@@ -1077,13 +1094,16 @@ h2{
 }
 
 .get-started h2 {
-    color: #FF7700;
-    font-size:36px;
+  color: #3c3c3c;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .get-started p {
-    font-size: 20px;
-    color: #4E4E4E;
+  font-size: 16px;
+  font-weight: 700;
+  color: #7e7e7e;
+  margin-bottom: 20px;
 }
 
 .get-started a {
@@ -1763,6 +1783,7 @@ and (max-device-width : 480px) {
 }
 
 /* Features Users Management */
+
 
 .row-features-users-management h2 {
     font-size: 28px;

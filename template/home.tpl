@@ -32,13 +32,13 @@ $(document).ready(function() {
           <div class="pwg-tagline col-sm-12 col-md-5">
             <h1>{'porg_home_title'|translate}</h1>
             <p>{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
-            <div class="">
+            <div class="col-md-8 get-piwigo-button">
               <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
               <p class="pwg-release-date"><i class="glyphicon glyphicon-fire"></i>v{$LATEST_VERSION_NUMBER}, {$LATEST_VERSION_DATE}</p>
             </div>
           </div>
           <div class="col-sm-12 col-md-7 responsive-image">
-            <img class="img-fluid" src="{$PORG_ROOT_URL}/images/home/responsive-screens.png">
+            <img class="img-fluid" src="{$PORG_ROOT_URL}/images/home/responsive-screens.jpg">
           </div>
 
         </div>
@@ -106,23 +106,23 @@ $(document).ready(function() {
     <div class="container">
       <div class="row text-center take-control">
         <h2>{'Take control of your digital content'|translate}</h2>
-        <div class="col col-sm-6 col-md-6">
-          <div class="feature-content">
-            <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/album-hierarchy.svg" alt="A piwigo feature"><br>
+        <div>
+          <div class="col col-xs-6 col-md-3 feature-content">
+            <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/content-01.svg" alt="A piwigo feature"><br>
             <p>{'Albums Hierarchy'|translate}</p></a>
           </div>
-          <div class="col  feature-content">
-            <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/batch-manager.svg" alt="A piwigo feature"><br>
+          <div class="col col-xs-6 col-md-3 feature-content">
+            <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/content-02.svg" alt="A piwigo feature"><br>
             <p>{'Batch Management'|translate}</p></a>
           </div>
         </div>
-        <div class="col col-sm-6 col-md-6">
-          <div class="feature-content">
-            <a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/"><img src="{$PORG_ROOT_URL}images/home/themes-plugins.svg" alt="A piwigo feature"><br>
+        <div>
+          <div class="col col-xs-6 col-md-3 feature-content">
+            <a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/"><img src="{$PORG_ROOT_URL}images/home/content-03.svg" alt="A piwigo feature"><br>
             <p>{'Themes & Plugins'|translate}</p></a>
           </div>
-          <div class="feature-content">
-            <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/permissions.svg" alt="A piwigo feature"><br>
+          <div class="col col-xs-6 col-md-3 feature-content">
+            <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/content-04.svg" alt="A piwigo feature"><br>
             <p>{'Permissions Control'|translate}</p></a>
           </div>
         </div>
@@ -133,18 +133,18 @@ $(document).ready(function() {
   <div class="container container-home-users">
     <h2>{'Who are Piwigo users?'|translate}</h2>
     <div class="row text-center">
-      <div class="col col-md-4 piwigo-individual">
-        <img src="{$PORG_ROOT_URL}images/home/individuals.svg" alt="Piwigo individuals">
+      <div class="col col-xs-12 col-md-4 piwigo-individual">
+        <img src="{$PORG_ROOT_URL}images/home/users-03.jpg" alt="Piwigo individuals">
         <h3>{'Individuals'|translate}</h3>
       </div>
 
-      <div class="col col-md-4 piwigo-professional">
-        <img src="{$PORG_ROOT_URL}images/home/professionals.svg" alt="Piwigo professional">
+      <div class="col col-xs-12 col-md-4 piwigo-professional">
+        <img src="{$PORG_ROOT_URL}images/home/users-02.jpg" alt="Piwigo professional">
         <h3>{'Professionals'|translate}</h3>
       </div>
 
-      <div class="col col-md-4 piwigo-organization">
-        <img src="{$PORG_ROOT_URL}images/home/enterprise.svg" alt="Piwigo Organization">
+      <div class="col col-xs-12 col-md-4 piwigo-organization">
+        <img src="{$PORG_ROOT_URL}images/home/users-01.jpg" alt="Piwigo Organization">
         <h3>{'Organisations'|translate}</h3>
       </div>
     </div>
