@@ -53,7 +53,8 @@ $(document).ready(function() {
       </div>
   </section>
 
-  <div class="container-fluide container-organization">
+<img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-top1.svg">
+  <div class="container-fluide container-piwigo-users">
     <div class="container">
       <h3>{'porg_home_organisation_title'|translate}</h3>
       <div class="equal text-center organization-content">
@@ -72,6 +73,9 @@ $(document).ready(function() {
       </div>
     </div>
   </div>
+  <img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-bottom1.svg">
+
+
   <div class="container-fluide">
     <div class="container">
       <div class="row text-center fact-content">
@@ -102,6 +106,8 @@ $(document).ready(function() {
       </div>
     </div>
   </div>
+
+<img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-top2.svg">
   <div class="container-fluide container-organization">
     <div class="container">
       <div class="row text-center take-control">
@@ -126,10 +132,11 @@ $(document).ready(function() {
             <p>{'Permissions Control'|translate}</p></a>
           </div>
         </div>
-
-      </div>
+        </div>
     </div>
   </div>
+<img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-bottom2.svg">
+
   <div class="container container-home-users">
     <h2>{'Who are Piwigo users?'|translate}</h2>
     <div class="row text-center">

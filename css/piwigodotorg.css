@@ -618,8 +618,8 @@
 /* section banner */
 /* -------------- */
 .pwg-banner {
-
     padding:30px 0;
+    overflow-x:hidden;
 }
 
 .pwg-banner .pwg-tagline {
@@ -757,17 +757,29 @@ h2{
   font-weight: 900;
 }
 
-.container-organization {
-  box-shadow: 0px 0px 10px 1px rgba(255, 174, 103, 0.3);
-}
-
-.container-organization h3 {
+.container-organization h3, .container-piwigo-users h3{
     font-size:20px;
-    color: black;
     margin-top: 27px;
     letter-spacing: 1px;
     text-align: center;
     font-weight:900;
+}
+
+.container-organization{
+  background-color:#E0DAF4;
+}
+
+.container-piwigo-users{
+  background-color:#CFEBFF;
+}
+
+.container-piwigo-users h3{
+  color:#388CC6;
+}
+
+.border-colors{
+  width:100%;
+  height:auto;
 }
 
 .organization-content {
@@ -782,11 +794,11 @@ h2{
     margin-bottom: 10px;
     margin-top: 10px;
     vertical-align: text-bottom;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.organization-content img.logo-societe-3-vallees {
-    max-width: 150px;
-}
 .organization-content img.logo-federation-francaise-natation {
     max-width: 150px;
 }
@@ -810,6 +822,11 @@ h2{
 .fact-content h2, .take-control h2  {
   margin-top:0;
   margin-bottom:50px;
+}
+
+.take-control h2{
+  color:#8869F2;
+
 }
 
 .fact-content h3 {
@@ -928,7 +945,7 @@ h2{
     position: relative;
     background-image: url(../images/home/jelly-fish.jpg);
     background-size: cover;
-    background-position: bottom center;
+    background-position: center;
 
 }
 
@@ -1109,13 +1126,15 @@ h2{
 .get-started a {
     margin-top: 30px;
     border-radius: 0px;
-    font-size: 24px;
-    border: 1px solid #FF7700;
+    font-size: 18px;
+    border: 2px solid #FF7700;
     color: #FF7700;
     background-color: #FFFFFF;
     transition: background-color 0.2s ease-out;
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
+    padding:10px;
+    font-weight:bold;
 }
 
 .get-started a:hover, .get-started a:active, .get-started a:focus {
