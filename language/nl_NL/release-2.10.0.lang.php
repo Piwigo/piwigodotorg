@@ -29,3 +29,6 @@ $lang['porg_v2100_android9_s4'] = 'Van SmartPocket gesproken... zelfs wanneer Mo
 $lang['porg_v2100_android9_s2'] = 'Het mobiele thema, SmartPocket, werd niet correct geladen in Android 9.';
 $lang['porg_v2100_android9_s1'] = 'We weten dat Android 10 enkele dagen geleden aangekondigd werd. Maar zelfs de vorige versie, Android 9, draait nog niet op zoveel toestellen.';
 $lang['porg_v2100_albums_title'] = 'Album beheer, groter en eenvoudiger';
+$lang['porg_v2100_darkmode_title'] = 'Nieuwe donkere modus';
+$lang['porg_v2100_darkmode_s1'] = 'Het beheerstdashboard in onze nieuwe donkere modus.';
+$lang['porg_v2100_darkmode_s2'] = 'Dit kleurschema werd ontworpen voor gebruikers in donkere omgevingen.';
