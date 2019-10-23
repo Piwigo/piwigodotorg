@@ -770,11 +770,12 @@ h2{
 }
 
 .container-piwigo-users{
-  background-color:#CFEBFF;
+  background-color:#FFEACF;
 }
 
 .container-piwigo-users h3{
-  color:#388CC6;
+  color:#eb8400;
+  padding: 30px 0;
 }
 
 .border-colors{
@@ -794,9 +795,6 @@ h2{
     margin-bottom: 10px;
     margin-top: 10px;
     vertical-align: text-bottom;
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
 }
 
 .organization-content img.logo-federation-francaise-natation {
@@ -825,7 +823,7 @@ h2{
 }
 
 .take-control h2{
-  color:#8869F2;
+  color:#5a2b90;
 
 }
 
@@ -872,11 +870,13 @@ h2{
 
 .container-home-users{
   padding:50px;
+  padding-bottom:20px;
 }
 
 .container-home-users h2{
   margin-top:0;
   margin-bottom:50px;
+  padding:40px 0;
 }
 
 .container-home-users img{
@@ -1124,17 +1124,18 @@ h2{
 }
 
 .get-started a {
-    margin-top: 30px;
-    border-radius: 0px;
-    font-size: 18px;
-    border: 2px solid #FF7700;
-    color: #FF7700;
-    background-color: #FFFFFF;
-    transition: background-color 0.2s ease-out;
-    -webkit-transition: background-color 0.2s ease-out;
-    -moz-transition: background-color 0.2s ease-out;
-    padding:10px;
-    font-weight:bold;
+  background-color: #ff7700;
+  padding: 15px 25px;
+  border: 1px solid #ff7700;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-radius: 0px;
+  font-size: 18px;
+  color: white;
+  transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+
 }
 
 .get-started a:hover, .get-started a:active, .get-started a:focus {
