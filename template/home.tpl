@@ -167,7 +167,7 @@ $(document).ready(function() {
         <div class="col col-md-6 advice-box">
           <div class="content-advice-box">
             <p class="user-advice">{$testimonial.content}{if $testimonial.is_cut}... <a href="{$URL.testimonials}">→</a>{/if}</p>
-            <p class="user-advice-name">{$testimonial.user.username}, {$testimonial.user.country}</p>
+            <p class="user-advice-name">{$testimonial.user.username}, {$testimonial.user.type}, {$testimonial.user.country}</p>
           </div>
         </div>
   {/foreach}

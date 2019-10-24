@@ -217,62 +217,43 @@ function porg_get_testimonials_sample()
 {
   global $lang_info, $conf;
 
-  // in this function we use a cache just to avoid changing the sample on every
-  // refresh, not because of performances. This whole function, without cache,
-  // takes less than 1ms.
-  $cache_path = $conf['data_location'].'testimonials-'.$lang_info['code'].'.cache.php';
-  if (!is_file($cache_path) or filemtime($cache_path) < strtotime('15 minutes ago'))
+  include(PORG_PATH . '/data/testimonials.data.php');
+
+  shuffle($testimonials);
+  $testimonials_sample = array();
+  foreach (array($lang_info['code'], 'en') as $lang_code)
   {
-    include(PORG_PATH . '/data/testimonials.data.php');
-
-    // we need one testimonial from an individual, then pro, then organisation
-    shuffle($testimonials);
-    $testimonials_sample = array();
-    $types = array('Individual', 'Professional', 'Organisation');
-    foreach (array($lang_info['code'], 'en') as $lang_code)
+    foreach ($testimonials as $testimonial)
     {
-      foreach ($types as $idx => $type)
+      if ($testimonial['language'] == $lang_code)
       {
-        foreach ($testimonials as $testimonial)
+        $testimonial['is_cut'] = false;
+        $max_length = 500;
+        if (strlen($testimonial['content']) > $max_length)
         {
-          if ($testimonial['language'] == $lang_code)
-          {
-            if ($type == $testimonial['user']['type'])
-            {
-              if (isset($testimonials_sample[$type]))
-              {
-                continue;
-              }
+          $delimiter = '~#~';
+          $lines = explode($delimiter, wordwrap(trim($testimonial['content']), $max_length, $delimiter));
+          $testimonial['content'] = array_shift($lines);
 
-              $testimonial['is_cut'] = false;
-              $max_length = 110;
-              if (strlen($testimonial['content']) > $max_length)
-              {
-                // $testimonial['content'] = substr(trim($testimonial['content']), 0, $max_length);
-                $delimiter = '~#~';
-                $lines = explode($delimiter, wordwrap(trim($testimonial['content']), $max_length, $delimiter));
-                $testimonial['content'] = array_shift($lines);
-
-                $testimonial['is_cut'] = true;
-              }
-
-              $testimonials_sample[$type] = $testimonial;
-            }
-          }
+          $testimonial['is_cut'] = true;
         }
-      }
 
-      // in case we have found the 3 testimonials we need in the user language, we stop here. Else we search in English.
-      if (count($testimonials_sample) == 3)
-      {
-        break;
+        $testimonials_sample[] = $testimonial;
+
+        if (count($testimonials_sample) == 4)
+        {
+           break;
+        }
       }
     }
 
-    file_put_contents($cache_path, serialize($testimonials_sample));
+    if (count($testimonials_sample) == 4)
+    {
+      break;
+    }
   }
 
-  return unserialize(file_get_contents($cache_path));
+  return $testimonials_sample;
 }
 
 function porg_get_latest_version()
