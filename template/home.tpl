@@ -2,23 +2,26 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $('.btn-refresh .refresh-showcases').click(function() {
-      var $start = $(".newsletter-content").length;
+      /* get the list of showcase to exclude */
+      var excludes = [];
+      jQuery(".showcase").each(function() {
+        excludes.push(jQuery(this).data('showcaseid'));
+      });
+
       $.ajax({
-        type: "GET",
-        url: "ws.php",
+        type: "POST",
+        url: "ws.php?method=porg.home.refresh_showcases&format=json",
         dataType: "json",
         data: {
-          method: "porg.home.refresh_showcases",
-          format: "json",
+          exclude: excludes,
         },
         success: function(response) {
           var showcases = jQuery.parseJSON(response['result']);
-          $('.showcase1 a').attr("href", showcases[0].tags[0].page_url);
-          $('.showcase1 a').attr("title", showcases[0].name);
-          $('.showcase1 a img').attr("src", showcases[0].derivatives.large.url);
-          $('.showcase2 a').attr("href", showcases[1].tags[0].page_url);
-          $('.showcase2 a').attr("title", showcases[1].name);
-          $('.showcase2 a img').attr("src", showcases[1].derivatives.large.url);
+          showcases.forEach(function (item, index) {
+            $('.showcase'+(index+1)).data('showcaseid', item.id);
+            $('.showcase'+(index+1)+' a').attr("href", item.tags[0].page_url).attr("title", item.name);
+            $('.showcase'+(index+1)+' a img').attr("src", item.derivatives.large.url);
+          });
         },
       });
     });
@@ -176,26 +179,13 @@ $(document).ready(function() {
 
     <div class="row text-center">
       <div class="showcases-home">
+{foreach from=$SHOWCASES item=showcase name=showcases}
         <div class="col-md-3 col-xs-12 showcases-content">
-          <div class="showcase showcase1">
-            <a href="{$SHOWCASES[0].tags[0].page_url}" title="{$SHOWCASES[0].name}"><img src="{$SHOWCASES[0].derivatives.large.url}" alt="{$SHOWCASES[0].name}"></a>
+          <div class="showcase showcase{$smarty.foreach.showcases.iteration}" data-showcaseid="{$showcase.id}">
+            <a href="{$showcase.tags[0].page_url}" title="{$showcase.name}"><img src="{$showcase.derivatives.large.url}" alt="{$showcase.name}"></a>
           </div>
         </div>
-        <div class="col-md-3 col-xs-12 showcases-content">
-          <div class="showcase showcase2">
-            <a href="{$SHOWCASES[1].tags[0].page_url}" title="{$SHOWCASES[1].name}"><img src="{$SHOWCASES[1].derivatives.large.url}" alt="{$SHOWCASES[1].name}"></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-12 showcases-content">
-          <div class="showcase showcase1">
-            <a href="{$SHOWCASES[0].tags[0].page_url}" title="{$SHOWCASES[0].name}"><img src="{$SHOWCASES[0].derivatives.large.url}" alt="{$SHOWCASES[0].name}"></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-12 showcases-content">
-          <div class="showcase showcase2">
-            <a href="{$SHOWCASES[1].tags[0].page_url}" title="{$SHOWCASES[1].name}"><img src="{$SHOWCASES[1].derivatives.large.url}" alt="{$SHOWCASES[1].name}"></a>
-          </div>
-        </div>
+{/foreach}
       </div>
     </div>
 

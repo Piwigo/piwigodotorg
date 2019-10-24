@@ -173,7 +173,7 @@ function porg_get_release_tpl($version)
   return PORG_PATH . 'template/release.tpl';
 }
 
-function get_showcases()
+function get_showcases($exclude_ids=array())
 {
   global $lang_info, $conf, $page;
 
@@ -189,12 +189,28 @@ function get_showcases()
       file_put_contents($cache_path, serialize($result['result']['images']));
     }
   }
-  $image = unserialize(file_get_contents($cache_path));
-  $rand_key = array_rand($image, 2);
+  $raw_images = unserialize(file_get_contents($cache_path));
 
-  $final_image[0] = $image[$rand_key[0]];
-  $final_image[1] = $image[$rand_key[1]];
-  return $final_image;
+  if (count($exclude_ids) > 0)
+  {
+    foreach ($raw_images as $idx => $showcase)
+    {
+      if (in_array($showcase['id'], $exclude_ids))
+      {
+        unset($raw_images[$idx]);
+      }
+    }
+  }
+
+  $max = 4;
+  $rand_keys = array_rand($raw_images, $max);
+  $final_images = array();
+  foreach ($rand_keys as $showcase_id)
+  {
+     $final_images[] = $raw_images[$showcase_id];
+  }
+
+  return $final_images;
 }
 
 function porg_get_testimonials_sample()

@@ -101,7 +101,9 @@ function porg_add_methods($arr)
     $service->addMethod(
         'porg.home.refresh_showcases',
         'ws_porg_home_refresh_showcases',
-        null,
+        array(
+            'exclude' => array('default'=>null, 'flags'=>WS_PARAM_FORCE_ARRAY, 'type'=>WS_TYPE_ID),
+        ),
         'Refresh showcases thumbnail'
     );
     $service->addMethod(
