@@ -239,6 +239,11 @@
             ),
         ),
         'en' => array(
+            '2019-10-29' => array (
+                'title' => 'Piwigo 2.10 is officially available, so is the new Android application',
+                'image' => 'https://piwigo.org/screenshots/piwigo-2.10-upload-welcome.png',
+                'summary' => 'Piwigo reaches a new stage with the release of the 2.10 version. It is the first step for a new Piwigo, redesigned according to current standards. The new official Piwigo application for Android is available.',
+            ),
             '2019-07-04' => array(
                 'title' => 'Beta-testers wanted for Piwigo 2.10',
                 'image' => 'https://piwigo.org/screenshots/piwigo-2.10-dashboard-light.png',
