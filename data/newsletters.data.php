@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2019-10-29' => array (
+                'title' => 'Sortie officielle de Piwigo 2.10 et nouvelle application Android',
+                'image' => 'https://piwigo.org/screenshots/piwigo-2.10-upload-welcome.png',
+                'summary' => 'Piwigo franchit un tournant avec la sortie de la version 2.10. Il s’agit de la première étape d’une redéfinition graphique propre aux codes esthétiques actuels. La nouvelle application officielle Piwigo pour Android est disponible.',
+            ),
             '2019-04-18' => array (
                 'title' => 'Piwigo a 17 ans, sortie de la version 2.9.5',
                 'image' => 'https://piwigo.org/screenshots/piwigo-17ans-small.jpg',
