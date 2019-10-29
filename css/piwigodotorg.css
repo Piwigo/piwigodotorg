@@ -501,15 +501,7 @@
     padding:0;
 }
 
-.pwg-banner .pwg-tagline h1 {
-    margin-top: 20px;
-    font-size: 56px;
-    font-weight: 900;
-    text-align: left;
-    color: #3c3c3c;
-    line-height: 76px;
-    transition: all 1s;
-}
+
 
 .pwg-banner .pwg-tagline p {
     color: #7e7e7e;
@@ -628,14 +620,13 @@
 }
 
 .pwg-banner .pwg-tagline h1 {
-    margin-top: 0;
-    font-size: 4em;
-    font-weight: 700;
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 900;
     text-align: left;
-    color:#666;
+    color: #3c3c3c;
+    line-height: 76px;
     transition: all 1s;
-    line-height:1.25em;
-    color:black;
 }
 
 .pwg-banner .pwg-tagline p {
