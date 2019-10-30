@@ -495,13 +495,24 @@
     height: 100%;
     padding-top: 5%;
     padding-bottom: 52%;
+    padding:30px 0;
+    overflow-x:hidden;
 }
 
 .pwg-banner .pwg-tagline {
     padding:0;
+    padding-left:15px;
 }
 
-
+.pwg-banner .pwg-tagline h1 {
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 76px;
+    transition: all 1s;
+}
 
 .pwg-banner .pwg-tagline p {
     color: #7e7e7e;
@@ -510,6 +521,15 @@
     font-weight: 700;
     line-height: 28px;
     transition: all 1s;
+    text-align:left;
+}
+
+.pwg-banner .pwg-tagline p:last-child{
+  font-size:1em;
+  text-align:center;
+  margin-top:0;
+  padding-right:15px;
+  font-weight:400;
 }
 
 .pwg-banner .btn {
@@ -558,6 +578,12 @@
     background-color: #FFFFFF;
 }
 
+.pwg-banner .responsive-image img{
+  width:150%;
+}
+
+
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .pwg-version span {
         font-size: 12px;
@@ -578,7 +604,7 @@
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
-        padding-bottom: 80%;
+        padding-bottom: 80px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -590,8 +616,16 @@
       margin-bottom: 40px;
     }
     .pwg-banner .btn {
-        font-size: 16px;
-        padding: 11px 15px;
+      width:30%;
+      margin-top: 40px;
+      font-size: 14px;
+      padding: 15px 25px;
+      transition: all 0.2s;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .pwg-banner .pwg-tagline p{
+      text-align:center;
     }
 }
 
@@ -606,132 +640,6 @@
     }
 }
 
-/* -------------- */
-/* section banner */
-/* -------------- */
-.pwg-banner {
-    padding:30px 0;
-    overflow-x:hidden;
-}
-
-.pwg-banner .pwg-tagline {
-    padding:0;
-    padding-left:15px;
-}
-
-.pwg-banner .pwg-tagline h1 {
-    margin-top: 20px;
-    font-size: 56px;
-    font-weight: 900;
-    text-align: left;
-    color: #3c3c3c;
-    line-height: 76px;
-    transition: all 1s;
-}
-
-.pwg-banner .pwg-tagline p {
-    color:#666;
-    font-size: 1.5em;
-    margin-top: 20px;
-    text-align:left;
-    transition: all 1s;
-}
-
-.pwg-banner .pwg-tagline p:last-child{
-  font-size:1em;
-  text-align:center;
-  margin-top:0;
-  padding-right:15px;
-  font-weight:400;
-}
-
-.pwg-banner .btn {
-    width:100%;
-    max-width:300px;
-    background-color: #ff7700;
-    border: none;
-    border-radius: 0;
-    color:#ffffff;
-    font-size:30px;
-    letter-spacing: 2px;
-    padding: 12px;
-    transition: all 0.2s;
-    margin-top:15px;
-}
-
-.pwg-banner .btn:hover, .pwg-banner .btn:focus, .pwg-banner .btn:active {
-    color:#ffffff;
-    background-color: #ff7700;
-    box-shadow: 3px 3px 6px #bbb;
-}
-
-.pwg-banner .pwg-release-date {
-    text-align: center;
-    font-size:90%;
-    color:#aaa;
-    margin-top: 10px;
-}
-
-.pwg-banner .pwg-news {
-    color: #FFFFFF;
-    text-align: center;
-    border: 1px solid #3EA9F5;
-    border-radius: 75px 0px 0px 75px;
-    background-color: #3EA9F5;
-}
-
-.pwg-banner .pwg-version {
-    color: #3EA9F5;
-    text-align: center;
-    border: 1px solid #3EA9F5;
-    border-radius: 0px 75px 75px 0px;
-    background-color: #FFFFFF;
-}
-
-.pwg-banner .responsive-image img{
-  width:150%;
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .pwg-version span {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 1199px) {
-    .pwg-banner .pwg-tagline h1 {
-        font-size: 2.5em;
-        font-weight: 600;
-        text-align: left;
-    }
-}
-
-@media (max-width: 991px) {
-    .pwg-version span {
-        font-size: 10px;
-    }
-    .pwg-banner .pwg-tagline h1 {
-        font-size: 2em;
-        font-weight: 300;
-        text-align: left;
-    }
-    .pwg-banner .btn {
-        font-size: 16px;
-        padding: 11px 15px;
-    }
-}
-/*
-@media (max-width: 767px) {
-    .pwg-banner .pwg-tagline p {
-        font-size: 0.85em;
-        font-weight: 100;
-    }
-    .pwg-banner .pwg-tagline h1 {
-        font-size: 1.7em;
-        font-weight: 300;
-        text-align: left;
-    }
-}*/
 
 /*******************
 * Piwigo index CSS *
@@ -1332,7 +1240,7 @@ h2{
     font-weight: bold;
 }
 
-.btn-applestore {
+.btn-applestore, .btn-googleplay {
     text-align: center;
 }
 
@@ -1349,9 +1257,6 @@ h2{
         height: 50px;
     }
 
-    .btn-googleplay {
-        margin-top: 40px;
-    }
 
     .btn-googleplay img {
         width: 100%;
@@ -1359,8 +1264,10 @@ h2{
     }
 }
 
-.btn-googleplay {
-    display: none;
+@media (max-width:767px){
+  .btn-googleplay {
+      margin-top: 40px;
+  }
 }
 
 .btn-googleplay a:hover, .btn-googleplay a:active, .btn-googleplay a:focus,

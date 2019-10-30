@@ -64,11 +64,11 @@
         <div class="col-md-6 col-xs-12 piwigo-mobile-apps">
           <h2>{'Piwigo Mobile App'|translate}</h2>
             <p>{'porg_get_piwigo_mobile_desc1'|translate} {'porg_get_piwigo_mobile_desc2'|translate}</p>
-          <div class="col-md-12 col-xs-12 btn-applestore">
+          <div class="col-md-6 col-sm-6 col-xs-12 btn-applestore">
             <a class="btn" href="https://itunes.apple.com/fr/app/piwigo/id472225196/"><img src="{$PORG_ROOT_URL}images/get_piwigo/applestore.svg"/></a>
           </div>
-          <div class="col-md-6 col-xs-12 btn-googleplay">
-            <a class="btn"><img src="{$PORG_ROOT_URL}images/get_piwigo/googleplay.svg"/></a>
+          <div class="col-md-6 col-sm-6 col-xs-12 btn-googleplay">
+            <a class="btn" href="https://play.google.com/store/apps/details?id=org.piwigo.android"><img src="{$PORG_ROOT_URL}images/get_piwigo/googleplay.svg"/></a>
           </div>
         </div>
         <div class="col-md-6 col-xs-12 piwigo-phone">
