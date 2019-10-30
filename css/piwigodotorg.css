@@ -226,6 +226,9 @@
     .navbar-brand img {
         height: 40px;
     }
+    .nav>li>a{
+      padding:15px 10px;
+    }
 }
 
 
