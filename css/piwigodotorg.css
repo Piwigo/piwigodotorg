@@ -6576,9 +6576,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     margin-bottom: 100px;
 }
 
-.day {
-    margin-bottom:30px;
-}
 
 .day-headline {
   color: black;
@@ -6662,7 +6659,49 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     border-collapse: collapse;
 }
 
-.link-to-github
+@media (max-width:991px) {
+  .commit{
+    height:8em;
+  }
+}
+
+@media (max-width:768px) {
+  .commit p, .type-of-commit p, .link-to-github{
+    font-size:12px;
+  }
+  .commit{
+    height:9em;
+  }
+  .type-of-commit{
+    border:none;
+    height:auto;
+  }
+  .dot{
+    display:none;
+  }
+}
+
+@media (max-width:576px) {
+   .time-published{
+    font-size:10px;
+  }
+  .commit{
+    height:10em;
+  }
+  .type-of-commit p{
+    padding:0 20px;
+  }
+
+}
+
+@media (max-width:376px) {
+  .commit{
+    height:13em;
+}
+
+
+
+
 
 /******************
  * Privacy Policy *
