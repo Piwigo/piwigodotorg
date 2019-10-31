@@ -6582,12 +6582,13 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   font-size: 18px;
   font-weight:700;
   text-align:center;
+  padding-top:15px;
 }
 .type-of-commit{
   display:block;
   height:auto;
   border-right: 2px solid #ddd;
-  height:85px;
+  height:105px;
 }
 
 .type-of-commit p{
@@ -6662,6 +6663,9 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 @media (max-width:991px) {
   .commit{
     height:8em;
+  }
+  .type-of-commit{
+    height:9.5em;
   }
 }
 
