@@ -112,7 +112,7 @@ tags to reduce the selection.</p>
           <p>{'porg_features_slideshow_desc'|translate}</p>
         </div>
         <div class="col-md-6 pwg-great-place-img">
-          <img src="{$PORG_ROOT_URL}images/features/slideshow.png"/>
+          <img src="{$PORG_ROOT_URL}images/features/slideshow.jpg"/>
         </div>
       </div>
     </div>

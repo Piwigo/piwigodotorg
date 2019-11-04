@@ -1818,7 +1818,7 @@ and (max-device-width : 480px) {
 }
 
 .pwg-great-place-img img {
-    margin-left: 200px;
+    margin-left: 50px;
     width: 150%;
     height: auto;
 }
