@@ -523,23 +523,24 @@
 
 .pwg-banner .pwg-tagline p:last-child{
   font-size:1em;
-  text-align:center;
   margin-top:0;
   padding-right:15px;
   font-weight:400;
 }
 
-.pwg-banner .btn {
-    width:100%;
+.pwg-banner .btn, .get-started .btn {
+    width:auto;
     max-width:300px;
     background-color: #ff7700;
     border: none;
     border-radius: 0;
     color:#ffffff;
-    font-size:30px;
-    letter-spacing: 2px;
-    padding: 12px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing: 1px;;
+    padding: 15px 25px;
     transition: all 0.2s;
+    text-transform:uppercase;
 }
 
 .pwg-banner .btn:hover, .pwg-banner .btn:focus, .pwg-banner .btn:active {
@@ -550,6 +551,8 @@
 
 .get-piwigo-button{
   padding:0;
+  text-align:left;
+  margin-top:40px;
 }
 
 .pwg-banner .pwg-release-date {
@@ -1019,7 +1022,7 @@ h2{
   margin-bottom: 20px;
 }
 
-.get-started a {
+/*.get-started a {
   background-color: #ff7700;
   padding: 15px 25px;
   border: 1px solid #ff7700;
@@ -1032,7 +1035,7 @@ h2{
   -webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
 
-}
+}*/
 
 .get-started a:hover, .get-started a:active, .get-started a:focus {
     color: #FFFFFF;
