@@ -6662,16 +6662,21 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 
 @media (max-width:991px) {
   .commit{
+    padding:15px;
     height:8em;
   }
   .type-of-commit{
     height:9.5em;
   }
+  .commit p, .type-of-commit p, .link-to-github{
+    font-size:12px;
+  }
+
 }
 
 @media (max-width:768px) {
-  .commit p, .type-of-commit p, .link-to-github{
-    font-size:12px;
+  .commit-container {
+    padding-left:0;
   }
   .commit{
     height:9em;
@@ -6679,9 +6684,12 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   .type-of-commit{
     border:none;
     height:auto;
-  }
+}
   .dot{
     display:none;
+  }
+  .time-published{
+    padding: 0px 20px;
   }
 }
 
@@ -6692,6 +6700,10 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   .commit{
     height:10em;
   }
+  .type-of-commit{
+    padding:0;
+  }
+
   .type-of-commit p{
     padding:0 20px;
   }

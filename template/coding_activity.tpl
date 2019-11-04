@@ -29,7 +29,7 @@
             <p>Type placeholder</p>
             <span class="dot"></span>
           </div>
-          <div class="col-xs-10 col-sm-8 col-md-9">
+          <div class="col-xs-12 col-sm-8 col-md-9 commit-container">
               <div class="commit">
                 <div class="col-sm-9 col-md-10">
                   <p class="commit-message col-xs-12 col-sm-12">{$commit.message}</p>
@@ -44,7 +44,7 @@
             </div>
 
 
-          <div class="col-xs-2 col-sm-2 col-md-1 time-published">
+          <div class="col-xs-12 col-sm-2 col-md-1 time-published">
             <p>Time placeholder</p>
           </div>
           </div>
