@@ -31,7 +31,7 @@
           <p>{'porg_features_batch_manager_desc'|translate}</p>
         </div>
         <div class="col-md-6 pwg-features-batch-manager-screen">
-          <img src="{$PORG_ROOT_URL}images/features/piwigo-features-batch-manager.png"/>
+          <img src="{$PORG_ROOT_URL}images/features/piwigo-features-batch-manager.jpg"/>
         </div>
       </div>
     </div>

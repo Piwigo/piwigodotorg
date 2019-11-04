@@ -1517,7 +1517,7 @@ and (max-device-width : 480px) {
 .pwg-features-batch-manager-screen img {
     width: 155%;
     height: auto;
-    margin-left: 225px;
+    margin-left: 50px;
     margin-top: -96px;
 }
 
