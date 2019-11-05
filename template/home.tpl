@@ -35,9 +35,9 @@ $(document).ready(function() {
           <div class="pwg-tagline col-sm-12 col-md-5">
             <h1>{'porg_home_title'|translate}</h1>
             <p>{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
-            <div class="col-md-8 get-piwigo-button">
+            <div class="col-md- get-piwigo-button">
               <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
-              <p class="pwg-release-date"><i class="glyphicon glyphicon-fire"></i>v{$LATEST_VERSION_NUMBER}, {$LATEST_VERSION_DATE}</p>
+              <p class="pwg-release-date">version {$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
             </div>
           </div>
           <div class="col-sm-12 col-md-7 responsive-image">

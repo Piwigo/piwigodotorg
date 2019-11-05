@@ -526,6 +526,7 @@
   margin-top:0;
   padding-right:15px;
   font-weight:400;
+  display:inline;
 }
 
 .pwg-banner .btn, .get-started .btn {
@@ -560,6 +561,15 @@
     font-size:90%;
     color:#aaa;
     margin-top: 10px;
+    padding:0 15px;
+}
+
+.pwg-banner .release-date{
+  background-color: #ebf5ff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: #6CADD9;
+    margin-left: 10px;
 }
 
 .pwg-banner .pwg-news {
