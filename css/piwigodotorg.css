@@ -1505,6 +1505,16 @@ and (max-device-width : 480px) {
 .row-features-batch-manager {
     margin-top: 100px;
     margin-bottom: 100px;
+    position:relative;
+}
+
+.features-batch-manager-text{
+  position:absolute;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
 }
 
 .row-features-batch-manager h2 {
@@ -1520,15 +1530,19 @@ and (max-device-width : 480px) {
 }
 
 .pwg-features-batch-manager-screen {
-    height: 260px;
-    overflow: visible;
+    /*height: 260px;
+    overflow: visible;*/
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    float:right;
 }
 
 .pwg-features-batch-manager-screen img {
     width: 155%;
     height: auto;
     margin-left: 50px;
-    margin-top: -96px;
+
 }
 
 @media (max-width: 991px) {

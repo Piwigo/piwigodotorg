@@ -26,7 +26,7 @@
   <section class="container-fluide container-fluide-features-batch-manager" id="features-batch-manager">
     <div class="container">
       <div class="row row-features-batch-manager text-center">
-        <div class="col-md-6">
+        <div class="col-md-6 features-batch-manager-text">
           <h2>{'Batch Manager'|translate}</h2>
           <p>{'porg_features_batch_manager_desc'|translate}</p>
         </div>
