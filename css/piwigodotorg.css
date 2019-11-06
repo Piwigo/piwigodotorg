@@ -215,7 +215,6 @@
 
 .navbar-default .navbar-nav > li > a > span.glyphicon {
     display: none;
-
 }
 
 .navbar-default .navbar-nav > li > a > i.icon-puzzle {
@@ -230,7 +229,6 @@
       padding:15px 10px;
     }
 }
-
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FF7700;
@@ -592,8 +590,6 @@
   width:150%;
 }
 
-
-
 @media (min-width: 992px) and (max-width: 1199px) {
     .pwg-version span {
         font-size: 12px;
@@ -650,11 +646,9 @@
     }
 }
 
-
 /*******************
 * Piwigo index CSS *
 ********************/
-
 
 /* Organization subscribed to piwigo */
 
@@ -733,7 +727,6 @@ h2{
 
 .take-control h2{
   color:#5a2b90;
-
 }
 
 .fact-content h3 {
@@ -782,13 +775,13 @@ h2{
   padding-bottom:20px;
 }
 
-.container-home-users h2{
+.container-home-users h2 {
   margin-top:0;
   margin-bottom:50px;
   padding:40px 0;
 }
 
-.container-home-users img{
+.container-home-users img {
   max-width:100%;
 }
 
@@ -826,7 +819,6 @@ h2{
         margin-top: 0px;
     }
 
-
     .piwigo-individual p, .piwigo-professional p, .piwigo-organization p {
         font-size: 16px;
         font-weight: bold;
@@ -849,13 +841,13 @@ h2{
     background-color:white;
     margin:10px;
 }
-.jelly-fish{
+
+.jelly-fish {
     text-align: center;
     position: relative;
     background-image: url(../images/home/jelly-fish.jpg);
     background-size: cover;
     background-position: center;
-
 }
 
 .row-advice{
@@ -1468,8 +1460,7 @@ and (max-device-width : 480px) {
 /* Features elements (file, calendar, lock) */
 
 .pwg-features-batch-manager-screen img,
-.pwg-features-geolocalisation-screen img
-{
+.pwg-features-geolocalisation-screen img{
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -1542,7 +1533,6 @@ and (max-device-width : 480px) {
     width: 155%;
     height: auto;
     margin-left: 50px;
-
 }
 
 @media (max-width: 991px) {
@@ -1679,7 +1669,6 @@ and (max-device-width : 480px) {
     margin-left: 100px;
 }
 
-
 .features-puzzle-right img {
     width: 200px;
     height: auto;
@@ -1725,7 +1714,6 @@ and (max-device-width : 480px) {
 }
 
 /* Features Users Management */
-
 
 .row-features-users-management h2 {
     font-size: 28px;
@@ -2773,7 +2761,7 @@ and (max-device-width : 480px) {
 }
 
 .rating2 a {
-    float:none
+    float:none;
 }
 
 /********************
@@ -3412,21 +3400,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background: url(../images/about_us/pig_cut.svg);
     background-position: left 100%;
     background-repeat: no-repeat;
-    background-size: 225px
+    background-size: 225px;
 }
 
 .col-about-piwigodotcom {
     background: url(../images/about_us/camera_cut.svg);
     background-position: center 100%;
     background-repeat: no-repeat;
-    background-size: 225px
+    background-size: 225px;
 }
 
 .col-about-prestations {
     background: url(../images/about_us/buoy.svg);
     background-position: right 100%;
     background-repeat: no-repeat;
-    background-size: 225px
+    background-size: 225px;
 }
 
 .col-about-donations h3, .col-about-piwigodotcom h3, .col-about-prestations h3 {
@@ -4292,8 +4280,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-weight: bold;
 }*/
 
-
-
 .whatispiwigo-gnu-collapse .card.card-body {
     margin-top: 20px;
 }
@@ -4968,7 +4954,6 @@ label {
  * Piwigo Press CSS *
  ********************/
 
-
 /* Header piwigo press */
 
  .container-fluide-piwigo-press {
@@ -4987,9 +4972,6 @@ label {
 
  .container-fluide-piwigo-press p {
     font-size: 20px;
- }
-
- .row-piwigo-press {
  }
 
  .piwigo-press-logo {
@@ -5274,8 +5256,6 @@ label {
         margin-bottom: 60px;
     }
 }
-
-/* */
 
 .container-fluide-unanswered-questions {
     padding-top: 20px;
@@ -5745,14 +5725,13 @@ label {
  * Piwigo release CSS *
  **********************/
 
-
 /* Release note */
+
 .container-release-note {
     background-color: #54616F;
 }
 
-.container-release-note h1,
-.container-release-note p {
+.container-release-note h1, .container-release-note p {
     color: white;
  }
 
@@ -5782,13 +5761,10 @@ label {
     text-align: justify;
 }
 
-
-
 body.release-2_10_0 .release-notes-intro .intro-text {
     font-size: 20px;
     margin-bottom: 40px;
     text-align: justify;
-
 }
 
 #releaseNotesMain #intro-title{
@@ -5797,7 +5773,7 @@ body.release-2_10_0 .release-notes-intro .intro-text {
 }
 
 body .release-2_10_0 #releaseNotesMain #intro-title{
- margin:30px 0 0 0
+ margin:30px 0 0 0;
 }
 
 #releaseNotesMain #intro-main-text, .intro-text2_10{
@@ -5811,7 +5787,7 @@ body .release-2_10_0 #releaseNotesMain #intro-title{
 }
 
 body.release-2_10_0 #releaseNotesMain p {
-  text-align:center
+  text-align:center;
 }
 
 
@@ -5851,11 +5827,11 @@ body.release-2_10_0 #releaseNotesMain p {
 
 .first-image-and-caption div:last-child{
   margin: 0;
- position: absolute;
- top: 50%;
- -ms-transform: translateY(-50%);
- transform: translateY(-50%);
- right:0;
+   position: absolute;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   right:0;
 }
 
 .second-image-and-caption div:first-child{
@@ -5864,7 +5840,7 @@ body.release-2_10_0 #releaseNotesMain p {
  top: 50%;
  -ms-transform: translateY(-50%);
  transform: translateY(-50%);
-left:0;
+ left:0;
 }
 
 .right-image-screenshot{
@@ -6007,7 +5983,6 @@ section.release-notes-overview .technical-features {
 
 section.release-notes-overview h3 i {
     margin-right: 10px;
-
 }
 
 #releaseNotesMain section.release-notes-overview ul {
@@ -6110,6 +6085,7 @@ body.release-2_10_0 #releaseNotesMain .interview p{
     color:#52003B;
     padding: 50px;
 }
+
 #releaseNotesMain .section-framed img.information {
     width: 75px;
     margin-top: -88px;
@@ -6125,7 +6101,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 }
 
 .technical-features pre{
-
   padding:15px;
   width:94%;
   font-size:10px;
@@ -6141,7 +6116,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   .corner6{
     left:160px;
   }
-
 }
 
 @media (max-width:991px) {
@@ -6323,32 +6297,32 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     }
  }
 
- .container-download-release .row > p > i.icon-info-circled {
+.container-download-release .row > p > i.icon-info-circled {
     color: #FF7700;
     margin-right: 10px;
  }
 
- .container-download-release .row > p > i.icon-dropbox {
+.container-download-release .row > p > i.icon-dropbox {
     margin-right: 10px;
  }
 
- .container-download-release .row > p > span {
+.container-download-release .row > p > span {
     color: #FF7700;
  }
 
- .container-download-release .row > p {
+.container-download-release .row > p {
     margin-top: 60px;
     margin-bottom: 0px;
     font-size: 18px;
  }
 
-  .container-download-release .row > a {
+.container-download-release .row > a {
     color: #FF7700;
     text-decoration: none;
     cursor: pointer;
   }
 
- .container-download-release .row > p.release-date {
+.container-download-release .row > p.release-date {
     margin-top: 0px;
     margin-bottom: 15px;
     font-size: 14px;
@@ -6394,6 +6368,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 }
 
 /* Bugs fixed */
+
 .container-bugs-fixed {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -6427,6 +6402,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 }
 
 /* Known issues */
+
 .container-fluide-known-issues {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -6500,6 +6476,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 }
 
 /* Features added */
+
 .container-fluide-features-added {
     background-color: #F7F7F7;
     padding-top: 50px;
@@ -6531,6 +6508,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 }
 
 /* Upgrade from new release */
+
 .container-fluide-release-upgrade {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -6687,7 +6665,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     margin-bottom: 100px;
 }
 
-
 .day-headline {
   color: black;
   font-size: 18px;
@@ -6695,20 +6672,21 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   text-align:center;
   padding-top:15px;
 }
-.type-of-commit{
+
+.type-of-commit {
   display:block;
   height:auto;
   border-right: 2px solid #ddd;
   height:105px;
 }
 
-.type-of-commit p{
+.type-of-commit p {
   padding:20px 0;
   font-weight:600;
   color:#ff7700;
 }
 
-.time-published{
+.time-published {
   color:#ccc;
   font-size:12px;
   padding: 20px 0;
@@ -6765,8 +6743,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   color:black;
 }
 
-.commit:hover .commit-message, .commit:hover .link-to-github
-{
+.commit:hover .commit-message, .commit:hover .link-to-github{
     color:#ff7700;
     border-collapse: collapse;
 }
@@ -6782,7 +6759,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   .commit p, .type-of-commit p, .link-to-github{
     font-size:12px;
   }
-
 }
 
 @media (max-width:768px) {
@@ -6814,7 +6790,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   .type-of-commit{
     padding:0;
   }
-
   .type-of-commit p{
     padding:0 20px;
   }
@@ -6825,10 +6800,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
   .commit{
     height:13em;
 }
-
-
-
-
 
 /******************
  * Privacy Policy *
@@ -7010,7 +6981,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     line-height: 35px;
 }
 .footer-language li a {
-/*    font-size:16px;*/
     color:#666;
     text-transform: uppercase;
 }
