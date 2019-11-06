@@ -6687,22 +6687,52 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     margin-bottom: 100px;
 }
 
-.day {
-    margin-bottom:30px;
-}
 
 .day-headline {
-    color: #FF7700;
-    font-size: 18px;
-    text-transform: capitalize;
+  color: black;
+  font-size: 18px;
+  font-weight:700;
+  text-align:center;
+  padding-top:15px;
+}
+.type-of-commit{
+  display:block;
+  height:auto;
+  border-right: 2px solid #ddd;
+  height:105px;
+}
+
+.type-of-commit p{
+  padding:20px 0;
+  font-weight:600;
+  color:#ff7700;
+}
+
+.time-published{
+  color:#ccc;
+  font-size:12px;
+  padding: 20px 0;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  background-color: #ddd;
+  border:2px solid #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position:absolute;
+  right:-7px;
+  top:24px;
 }
 
 .commit {
-    margin-left: 20px;
-    margin-bottom: 0px;
-    border: 1px solid #eee;
-    padding: 10px;
-    margin-top: -1px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);
+  height:90px;
 }
 
 .commit + .commit {
@@ -6711,10 +6741,12 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 
 .commit p {
     margin: 0;
+    padding:2px 0;
 }
 
 .commit-headline {
     font-size: 90%;
+    color:grey;
 }
 
 .commit-headline a {
@@ -6725,10 +6757,78 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     font-weight:bold;
 }
 
-.commit:hover {
-    border: 1px solid #FF7700;
+.commit:hover{
+  cursor:pointer;
+}
+
+.link-to-github{
+  color:black;
+}
+
+.commit:hover .commit-message, .commit:hover .link-to-github
+{
+    color:#ff7700;
     border-collapse: collapse;
 }
+
+@media (max-width:991px) {
+  .commit{
+    padding:15px;
+    height:8em;
+  }
+  .type-of-commit{
+    height:9.5em;
+  }
+  .commit p, .type-of-commit p, .link-to-github{
+    font-size:12px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .commit-container {
+    padding-left:0;
+  }
+  .commit{
+    height:9em;
+  }
+  .type-of-commit{
+    border:none;
+    height:auto;
+}
+  .dot{
+    display:none;
+  }
+  .time-published{
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width:576px) {
+   .time-published{
+    font-size:10px;
+  }
+  .commit{
+    height:10em;
+  }
+  .type-of-commit{
+    padding:0;
+  }
+
+  .type-of-commit p{
+    padding:0 20px;
+  }
+
+}
+
+@media (max-width:376px) {
+  .commit{
+    height:13em;
+}
+
+
+
+
 
 /******************
  * Privacy Policy *

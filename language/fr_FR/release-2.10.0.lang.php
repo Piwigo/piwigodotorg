@@ -67,7 +67,7 @@ $lang['porg_v2100_comments_s2'] = 'Vous vous demandez peut-être "pourquoi désa
 $lang['porg_v2100_comments_s3'] = 'Parce que trop de fonctionnalités visibles peuvent effrayer les nouveaux venus qui testent Piwigo.';
 $lang['porg_v2100_comments_s4'] = 'Nous devons sélectionner attentivement ce qui est le plus important pour la majorité.';
 $lang['porg_v2100_comments_s5'] = 'Sur Piwigo.com, où des milliers de Piwigo sont hébergés, nous avons quelques statistiques intéressantes sur les fonctionnalités utilisées.';
-$lang['porg_v2100_comments_s6'] = 'Concernant les commnentaires, seuls 16% des installations ont plus de 10 commentaires.';
+$lang['porg_v2100_comments_s6'] = 'Concernant les commentaires, seuls 16% des installations ont plus de 10 commentaires.';
 $lang['porg_v2100_comments_s7'] = 'Et parmi eux, nombreux sont ceux qui utilisent les commentaires à la place de la description des photos.';
 
 $lang['porg_v2100_dup_title'] = 'Meilleur tri des doublons';
@@ -146,4 +146,3 @@ $lang['porg_v2100_api_s3'] = 'ajoute une photo aux favorites de l’utilisateur.
 $lang['porg_v2100_api_s4'] = 'retire une photo des favorites de l’utilisateur.';
 $lang['porg_v2100_api_s5'] = 'renvoie la liste des favorites de l’utilisateur.';
 $lang['porg_v2100_api_s6'] = 'accepte maintenant les mots de passe vide (comme le formulaire web de connexion).';
-?>
