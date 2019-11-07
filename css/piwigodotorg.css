@@ -829,17 +829,13 @@ h2{
     }
 }
 
-.advice-box {
-    padding: 10px;
-}
-
 .content-advice-box {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
     padding: 20px;
     font-size:16px;
     border-radius:10px;
     background-color:white;
-    margin:10px;
+    margin:30px 0;
 }
 
 .jelly-fish {

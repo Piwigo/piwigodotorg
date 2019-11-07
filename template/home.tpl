@@ -163,14 +163,18 @@ $(document).ready(function() {
     <div class="container">
       <div class="row row-advice">
         <h2>{'Discover what other Piwigo users have to say'|translate}</h2>
-  {foreach from=$TESTIMONIALS item=testimonial}
-        <div class="col col-md-6 advice-box">
+        <div class="col col-md-6">
+{foreach from=$TESTIMONIALS item=testimonial name=testimonials_loop}
           <div class="content-advice-box">
             <p class="user-advice">{$testimonial.content}{if $testimonial.is_cut}... <a href="{$URL.testimonials}">→</a>{/if}</p>
             <p class="user-advice-name">{$testimonial.user.username}, {$testimonial.user.type}, {$testimonial.user.country}</p>
           </div>
+  {if $smarty.foreach.testimonials_loop.index == ceil(count($TESTIMONIALS) / 2) - 1}
         </div>
-  {/foreach}
+        <div class="col col-md-6">
+  {/if}
+{/foreach}
+        </div>
       </div>
     </div>
   </div>
