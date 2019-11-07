@@ -7080,6 +7080,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     text-decoration: none;
     color: #FF7700;
     line-height: 30px;
+
 }
 
 .footer-donate-content {
@@ -7104,13 +7105,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     float: left;
 }
 
-@media (max-width: 991px) {
-    .footer-donate-content, .footer-newspaper-content {
-        padding-bottom: 40px;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .footer-donate-content a, .footer-newspaper-content a {
         font-size: 12px;
     }
@@ -7118,5 +7113,11 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     .footer-donate-content img, .footer-newspaper-content img {
         height: 20px;
         margin-right: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-donate-content, .footer-newspaper-content {
+        padding-bottom: 40px;
     }
 }
