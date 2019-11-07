@@ -827,7 +827,7 @@ Pas de fioriture dans Piwigo, on va à l\'essentiel, simplement et rapidement, e
     'added_on' => '2017-12-05',
     'user' => array(
       'username' => 'Kade',
-      'country' => '???',
+      'country' => 'USA',
       'type' => 'Individual',
       'picture' => 'images/testimonies/Woman-9.svg',
     ),
