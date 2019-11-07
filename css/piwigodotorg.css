@@ -568,6 +568,8 @@
     border-radius: 25px;
     color: #6CADD9;
     margin-left: 10px;
+    font-size:13px;
+    font-weight:700;
 }
 
 .pwg-banner .pwg-news {
@@ -831,12 +833,20 @@ h2{
 
 .content-advice-box {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
-    padding: 20px;
+    padding: 40px;
     font-size:16px;
     border-radius:10px;
     background-color:white;
-    margin:30px 0;
+    margin: 30px 15px 60px;
+    padding-top:60px;
 }
+
+.home-quotes{
+  position: absolute;
+    width: 70px;
+    left: 56px;
+    top: -3px;
+  }
 
 .jelly-fish {
     text-align: center;
@@ -855,7 +865,7 @@ h2{
   color:white;
   padding:0;
   font-weight:900;
-  margin-bottom:20px!important;
+  margin: 50px 0 80px 0;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -866,8 +876,10 @@ h2{
 }
 
 .user-advice {
-    color: #666;
+    color: #333;
     text-align:left;
+    font-size:18px;
+    font-weight:600;
 }
 
 .user-advice-name {

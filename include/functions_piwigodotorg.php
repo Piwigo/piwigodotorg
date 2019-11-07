@@ -228,7 +228,7 @@ function porg_get_testimonials_sample()
       if ($testimonial['language'] == $lang_code)
       {
         $testimonial['is_cut'] = false;
-        $max_length = 500;
+        $max_length = 400;
         if (strlen($testimonial['content']) > $max_length)
         {
           $delimiter = '~#~';
