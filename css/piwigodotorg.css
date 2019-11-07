@@ -6799,6 +6799,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 @media (max-width:376px) {
   .commit{
     height:13em;
+  }
 }
 
 /******************
