@@ -20,13 +20,13 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['porg_get_piwigo_mobile_desc2'] = '您还可以全屏浏览整个图库，创建、编辑、移动相册或编辑照片属性... 只需要用指尖触动！';
-$lang['porg_get_piwigo_self_hosted_desc1'] = '在支持 PHP 和 MySQL 数据库的您自己的网络服务器上运行 Piwigo。';
+$lang['porg_get_piwigo_mobile_desc2'] = '您还可以全屏浏览整个图库，创建、编辑、移动相册或编辑照片属性… 只需点击即可！';
+$lang['porg_get_piwigo_self_hosted_desc1'] = '在您自己的服务器上运行 Piwigo，需要 PHP 和 MySQL 数据库支持。';
 $lang['porg_get_piwigo_self_hosted_desc2'] = 'Piwigo 本身是免费的，但您需要在有新版本发布时进行更新，以保持程序的安全性和运行的流畅度。';
 $lang['porg_get_piwigo_cloud_hosted_desc3'] = '您还能得到 Piwigo 设计者的专门支持。';
 $lang['porg_get_piwigo_desc1'] = '您可以通过两种方式使用 Piwigo。';
-$lang['porg_get_piwigo_desc2'] = '您可以将 Piwigo 托管于诸如 OVH、BlueHost 等服务器上，也可以使用 Piwigo.com 的云服务。';
-$lang['porg_get_piwigo_desc3'] = '两种途径您对您的数据都拥有完全的所有权。';
+$lang['porg_get_piwigo_desc2'] = '您可以将 Piwigo 托管于您自己的服务器上，也可以使用 Piwigo.com 的云服务。';
+$lang['porg_get_piwigo_desc3'] = '无论选择哪种途径，您对您的数据都拥有完全的所有权。';
 $lang['porg_get_piwigo_mobile_desc1'] = '经常使用您的 iPhone 拍照吗？您可以直接将照片从智能手机发布到您的 Piwigo。';
 $lang['Blog'] = 'Blog';
 $lang['Cloud-hosted Piwigo'] = '云托管的 Piwigo';
