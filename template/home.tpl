@@ -114,7 +114,7 @@ $(document).ready(function() {
   <div class="container-fluide container-organization">
     <div class="container">
       <div class="row text-center take-control">
-        <h2>{'Take control of your digital content'|translate}</h2>
+        <h2>{'Powerful features for your photo gallery'|translate}</h2>
         <div>
           <div class="col col-xs-6 col-md-3 feature-content">
             <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/content-01.svg" alt="A piwigo feature"><br>
@@ -135,6 +135,12 @@ $(document).ready(function() {
             <p>{'Permissions Control'|translate}</p></a>
           </div>
         </div>
+
+        </div>
+        <div class="row text-center btn-know-content">
+          <div class="col-md-12">
+            <a class="btn btn-discover-features" href="{$PORG_ROOT}{$URL.features}">{'Explore more features'|translate}</a>
+          </div>
         </div>
     </div>
   </div>
