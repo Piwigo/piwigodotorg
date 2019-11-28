@@ -37,7 +37,7 @@ $(document).ready(function() {
             <p>{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
             <div class="col-md- get-piwigo-button">
               <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
-              <p class="pwg-release-date">version {$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
+              <p class="pwg-release-date">{'version'|translate} {$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
             </div>
           </div>
           <div class="col-sm-12 col-md-7 responsive-image">
@@ -149,7 +149,7 @@ $(document).ready(function() {
   <section class="container container-showcase">
 
     <div class="row text-center">
-      <h2>Beautiful photo galleries created with Piwigo</h2>
+      <h2>{'porg_showcase_title'|translate}</h2>
       <div class="showcases-home">
   {foreach from=$SHOWCASES item=showcase name=showcases}
         <div class="col-md-3 col-xs-12 showcases-content">
@@ -163,7 +163,7 @@ $(document).ready(function() {
 
       <div class="row text-center showcase-refresh">
         <div class="col-md-7 col-xs-6 showcase-button">
-            <a type="button" class="btn btn-view-more-showcases" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'See more showcases'|translate}</a>
+            <a type="button" class="btn btn-view-more-showcases" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'View more showcases'|translate}</a>
         </div>
         <div class="col-md-5 col-xs-6 btn-refresh">
             <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
@@ -174,7 +174,7 @@ $(document).ready(function() {
   <div class="jelly-fish">
     <div class="container">
       <div class="row row-advice">
-        <h2>They love Piwigo</h2>
+        <h2>{'porg_love_title'|translate}</h2>
         <div class="col col-md-6">
 {foreach from=$TESTIMONIALS item=testimonial name=testimonials_loop}
           <div class="content-advice-box">
