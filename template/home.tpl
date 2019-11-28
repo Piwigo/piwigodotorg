@@ -104,7 +104,7 @@ $(document).ready(function() {
       </div>*}
       <div class="row text-center btn-know-content">
         <div class="col-md-12">
-          <a class="btn btn-know-more" href="{$PORG_ROOT}{$URL.features}">{'Discover Piwigo'|translate}</a>
+          <a class="btn btn-know-more" href="{$PORG_ROOT}{$URL.what_is_piwigo}">{'Discover Piwigo'|translate}</a>
         </div>
       </div>
     </div>
@@ -146,29 +146,35 @@ $(document).ready(function() {
   </div>
 <img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-bottom2.svg">
 
-  <div class="container container-home-users">
-    <h2>{'Who are Piwigo users?'|translate}</h2>
+  <section class="container container-showcase">
+
     <div class="row text-center">
-      <div class="col col-xs-12 col-md-4 piwigo-individual">
-        <img src="{$PORG_ROOT_URL}images/home/users-03.jpg" alt="Piwigo individuals">
-        <h3>{'Individuals'|translate}</h3>
-      </div>
-
-      <div class="col col-xs-12 col-md-4 piwigo-professional">
-        <img src="{$PORG_ROOT_URL}images/home/users-02.jpg" alt="Piwigo professional">
-        <h3>{'Professionals'|translate}</h3>
-      </div>
-
-      <div class="col col-xs-12 col-md-4 piwigo-organization">
-        <img src="{$PORG_ROOT_URL}images/home/users-01.jpg" alt="Piwigo Organization">
-        <h3>{'Organisations'|translate}</h3>
+      <h2>Beautiful photo galleries created with Piwigo</h2>
+      <div class="showcases-home">
+  {foreach from=$SHOWCASES item=showcase name=showcases}
+        <div class="col-md-3 col-xs-12 showcases-content">
+          <div class="showcase showcase{$smarty.foreach.showcases.iteration}" data-showcaseid="{$showcase.id}">
+            <a href="{$showcase.tags[0].page_url}" title="{$showcase.name}"><img src="{$showcase.derivatives.large.url}" alt="{$showcase.name}"></a>
+          </div>
+        </div>
+  {/foreach}
       </div>
     </div>
-  </div>
+
+      <div class="row text-center showcase-refresh">
+        <div class="col-md-7 col-xs-6 showcase-button">
+            <a type="button" class="btn btn-view-more-showcases" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'See more showcases'|translate}</a>
+        </div>
+        <div class="col-md-5 col-xs-6 btn-refresh">
+            <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
+        </div>
+      </div>
+  </section>
+
   <div class="jelly-fish">
     <div class="container">
       <div class="row row-advice">
-        <h2>{'Discover what other Piwigo users have to say'|translate}</h2>
+        <h2>They love Piwigo</h2>
         <div class="col col-md-6">
 {foreach from=$TESTIMONIALS item=testimonial name=testimonials_loop}
           <div class="content-advice-box">
@@ -186,29 +192,7 @@ $(document).ready(function() {
     </div>
   </div>
 
-  <section class="container container-showcase">
 
-    <div class="row text-center">
-      <div class="showcases-home">
-{foreach from=$SHOWCASES item=showcase name=showcases}
-        <div class="col-md-3 col-xs-12 showcases-content">
-          <div class="showcase showcase{$smarty.foreach.showcases.iteration}" data-showcaseid="{$showcase.id}">
-            <a href="{$showcase.tags[0].page_url}" title="{$showcase.name}"><img src="{$showcase.derivatives.large.url}" alt="{$showcase.name}"></a>
-          </div>
-        </div>
-{/foreach}
-      </div>
-    </div>
-
-      <div class="row text-center showcase-refresh">
-        <div class="col-md-7 col-xs-6 showcase-button">
-            <a type="button" class="btn btn-view-more-showcases" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'See more showcases'|translate}</a>
-        </div>
-        <div class="col-md-5 col-xs-6 btn-refresh">
-            <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
-        </div>
-      </div>
-  </section>
 
   <section class="container-fluide get-started">
     <div class="container">

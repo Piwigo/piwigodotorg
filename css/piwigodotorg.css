@@ -903,8 +903,12 @@ h2{
 /* Piwigo gallery showcases */
 
 .container-showcase {
-    padding-top: 125px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 80px!important;
+}
+
+.container-showcase h2{
+    margin-bottom:80px!important;
 }
 
 @media (max-width: 991px) {
