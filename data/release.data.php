@@ -1,26 +1,6 @@
 <?php
 
 $porg_releases = array(
-  '2.10.1' => array(
-    'released_on' => '2019-10-14',
-    'md5sum' => 'f4d494462ba44813edc40157adc438b7',
-    'summary' => array('bug fixes'),
-    'features' => array(),
-    'bugs' => array(
-      array('id' => 1099, 'section' => 'Photos'),
-      array('id' => 1098, 'section' => 'Technical'),
-      array('id' => 1097, 'section' => 'Technical'),
-      array('id' => 1092, 'section' => 'Technical'),
-      array('id' => 1090, 'section' => 'Display'),
-      array('id' => 1089, 'section' => 'Technical'),
-    ),
-    'known_issues' => array(),
-    'languages' => array(
-      'new' => array(),
-      'updated' => array('br_FR','ca_ES','da_DK','it_IT'),
-    ),
-  ),
-
   '2.10.0' => array(
     'released_on' => '2019-10-08',
     'md5sum' => '6006e9133780c91a716c03b244c8d8ea',
