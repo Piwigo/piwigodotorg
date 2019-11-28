@@ -18,6 +18,6 @@ $lang['porg_showcase_title'] = 'Beautiful photo galleries created with Piwigo';
 $lang['porg_love_title'] = 'They love Piwigo';
 $lang['Discover Piwigo'] = 'Discover Piwigo';
 $lang['Explore more features'] = 'Explore more features';
-$lang['porg_version'] = 'version';
+$lang['version %s'] = 'version %s';
 
 ?>

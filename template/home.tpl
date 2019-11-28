@@ -37,7 +37,7 @@ $(document).ready(function() {
             <p>{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
             <div class="col-md- get-piwigo-button">
               <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
-              <p class="pwg-release-date">{'version'|translate} {$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
+              <p class="pwg-release-date">{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
             </div>
           </div>
           <div class="col-sm-12 col-md-7 responsive-image">
