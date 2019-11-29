@@ -246,7 +246,10 @@ function porg_load_content()
             $template->set_filenames(array('porg_page' => realpath($tpl_file)));
 
             /* Load en_UK translation */
-            load_language($porg_file . '.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+            if ('en_UK' != $user['language'])
+            {
+                load_language($porg_file . '.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+            }
             /* Load user language translation */
             load_language($porg_file . '.lang', PORG_PATH);
 
@@ -262,6 +265,10 @@ function porg_load_content()
     }
     else
     {
+        if ('en_UK' != $user['language'])
+        {
+          load_language('home.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+        }
         load_language('home.lang', PORG_PATH);
         $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . 'home.tpl')));
         $meta_title = porg_get_page_title('home');
