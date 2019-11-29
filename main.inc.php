@@ -101,7 +101,9 @@ function porg_add_methods($arr)
     $service->addMethod(
         'porg.home.refresh_showcases',
         'ws_porg_home_refresh_showcases',
-        null,
+        array(
+            'exclude' => array('default'=>null, 'flags'=>WS_PARAM_FORCE_ARRAY, 'type'=>WS_TYPE_ID),
+        ),
         'Refresh showcases thumbnail'
     );
     $service->addMethod(
@@ -157,7 +159,7 @@ function porg_load_header()
             'PORG_DOMAIN_PREFIX' => $page['porg_domain_prefix'],
             'PCOM_PREFIX' => isset($page['porg_pcom_prefix']) ? $page['porg_pcom_prefix'] : '',
             'PORG_IS_PRODUCTION' => preg_match('/^([a-z]+\.)?piwigo\.org$/', $_SERVER['HTTP_HOST']),
-            'HEADER_SHOW_HOME' => !in_array($user['language'], array('de_DE', 'ru_RU')),
+            'HEADER_SHOW_HOME' => in_array($user['language'], array('en_UK', 'zh_CN', 'it_IT', 'pt_BR')),
         )
     );
 

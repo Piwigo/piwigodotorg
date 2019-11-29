@@ -26,12 +26,12 @@
   <section class="container-fluide container-fluide-features-batch-manager" id="features-batch-manager">
     <div class="container">
       <div class="row row-features-batch-manager text-center">
-        <div class="col-md-6">
+        <div class="col-md-6 features-batch-manager-text">
           <h2>{'Batch Manager'|translate}</h2>
           <p>{'porg_features_batch_manager_desc'|translate}</p>
         </div>
         <div class="col-md-6 pwg-features-batch-manager-screen">
-          <img src="{$PORG_ROOT_URL}images/features/piwigo-features-batch-manager.png"/>
+          <img src="{$PORG_ROOT_URL}images/features/piwigo-features-batch-manager.jpg"/>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ tags to reduce the selection.</p>
           <p>{'porg_features_slideshow_desc'|translate}</p>
         </div>
         <div class="col-md-6 pwg-great-place-img">
-          <img src="{$PORG_ROOT_URL}images/features/slideshow.png"/>
+          <img src="{$PORG_ROOT_URL}images/features/slideshow.jpg"/>
         </div>
       </div>
     </div>

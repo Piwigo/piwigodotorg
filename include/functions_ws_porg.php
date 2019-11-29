@@ -38,7 +38,7 @@ function ws_porg_news_seemore($params, &$service)
 
 function ws_porg_home_refresh_showcases($params, &$service)
 {
-    $final_image = get_showcases();
+    $final_image = get_showcases($params['exclude']);
     return json_encode($final_image);
 }
 
