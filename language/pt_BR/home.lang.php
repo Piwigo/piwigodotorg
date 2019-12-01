@@ -12,3 +12,13 @@ $lang['porg_home_open_source_desc'] = 'O código-fonte está disponível, editá
 $lang['porg_home_organisation_title'] = 'Milhares de organizações e milhões de pessoas adoram usar o Piwigo';
 $lang['porg_home_sustainable_desc'] = 'Nascido em 2002, o Piwigo tem apoiado seus usuários há mais de %d anos. Sempre evoluindo!';
 $lang['porg_home_title'] = 'Gerencie sua coleção de fotos com o Piwigo';
+$lang['Discover Piwigo'] = '
+Descubra Piwigo';
+$lang['Explore more features'] = 'Explore mais recursos';
+$lang['Powerful features for your photo gallery'] = 'Recursos poderosos para sua galeria de fotos';
+$lang['Why choose Piwigo?'] = '
+Por que escolher o Piwigo?';
+$lang['porg_love_title'] = 'Eles amam Piwigo';
+$lang['porg_showcase_title'] = 'Belas galerias de fotos criadas com Piwigo';
+$lang['version %s'] = '
+versão %s';
