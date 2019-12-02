@@ -65,3 +65,40 @@ $lang['porg_v2100_dates_s1'] = 'Nogmaals, geen nieuwe functie, maar we hebben he
 $lang['porg_v2100_dates_s2'] = 'Piwigo kan de datums weergeven van de foto\'s die aan het album zijn gekoppeld.';
 $lang['porg_v2100_dates_s3'] = 'Houd er rekening mee dat alle thema\'s dit ondersteunen.';
 $lang['porg_v2100_dates_title'] = 'Albumdatums weergeven';
+$lang['porg_v2100_tech_intro2'] = 'Lees dit om uw extensies compatibel te maken met Piwigo 2.10.';
+$lang['porg_v2100_themesgithub_s4'] = 'Eigenlijk is dit precies wat we al jaren doen met plug-ins!';
+$lang['porg_v2100_upgrade_title'] = 'Controle op upgrade-actie is verplaatst';
+$lang['porg_v2100_metasync_title'] = 'Vooruitgang voor synchronisatie van metagegevens';
+$lang['porg_v2100_modus_s1'] = 'Modus, een thema dat enkele jaren geleden is gemaakt, wordt het standaardthema voor Piwigo 2.10.';
+$lang['porg_v2100_modus_title'] = 'Modus is het nieuwe standaardthema, met 8 nieuwe skins
+
+';
+$lang['porg_v2100_mysql8_title'] = 'Compatibiliteit met MySQL 8';
+$lang['porg_v2100_newsletter_c1'] = 'Op het Piwigo-beheerdersdashboard onderaan de pagina kunt u zich abonneren op onze nieuwsbrief of deze link verbergen.';
+$lang['porg_v2100_newsletter_s2'] = 'Met Piwigo 2.10 verdwijnt deze link automatisch zodra je bent geabonneerd.';
+$lang['porg_v2100_newsletter_title'] = 'Verberg de nieuwsbrief inschrijflink';
+$lang['porg_v2100_phpmailer_title'] = 'Bijgewerkte bibliotheek PhpMailer';
+$lang['porg_v2100_comments_s5'] = 'Op Piwigo.com, waar we duizenden Piwigo\'s hosten, hebben we enkele interessante statistieken over gebruikte functies.';
+$lang['porg_v2100_dup_c1'] = 'Hier in Piwigo 2.9 worden bij het zoeken naar duplicaten de duplicaten niet naast elkaar weergegeven. Stel je voor dat je een set van 500 duplicaten hebt, het kan tijdrovend zijn om de te verwijderen exemplaren te selecteren.';
+$lang['porg_v2100_dup_title'] = 'Duplicaten worden slimmer gesorteerd';
+$lang['porg_v2100_hannah_s1'] = 'Mijn naam is Hannah, momenteel studeer ik  User eXperience (UX) -ontwerp aan ActivDesign in Rennes (Frankrijk).';
+$lang['porg_v2100_hannah_s2'] = 'Ik begon te werken voor Piwigo als stagiair in januari 2019, mijn belangrijkste missie is om het uiterlijk van Piwigo te moderniseren.';
+$lang['porg_v2100_hannah_s4'] = 'Ten eerste zijn we overgestapt op Modus vanwege zijn reactievermogen, zijn vermogen om zich aan te passen aan high-definition display, maar desalniettemin een visuele update nodig om te voldoen aan de 2019-normen.';
+$lang['porg_v2100_hannah_s5'] = 'Daarom heb ik 8 nieuwe skins gemaakt, kleuren gewijzigd, afstand aangepast, enkele knoppen verborgen die niet nodig waren, hoeken afgerond ... mijn favoriet is Blueberry.';
+$lang['porg_v2100_headers_s2'] = 'In plaats van het schrijven van een volledig auteursrecht met jaartal + een samenvatting van de GPLv2-licentie, vertellen we de lezer gewoon het COPYING-bestand te openen.';
+$lang['porg_v2100_headers_s3'] = 'In plaats van dit:';
+$lang['porg_v2100_headers_s4'] = 'we hebben nu deze vereenvoudigde koptekst:';
+$lang['porg_v2100_headers_s5'] = 'Het belangrijkste doel was om jaartallen in deze kopteksten te verwijderen, omdat alle Piwigo PHP-bestanden elk jaar moesten worden bijgewerkt, zonder specifieke codewijziging.';
+$lang['porg_v2100_headers_s6'] = 'Het goede neveneffect is dat we nu een proper COPYING-bestand hebben met details over auteursrecht met data en handelsmerk + een LICENTIE-bestand met de hele GPLv2-licentie.';
+$lang['porg_v2100_headers_title'] = 'Broncodekoppen zijn vereenvoudigd';
+$lang['porg_v2100_help_c1'] = 'De help op de beheerpagina wordt nu geopend als een pop-in (interne widget) in plaats van een pop-up in oude stijl.';
+$lang['porg_v2100_help_title'] = 'Help voor beheerders wordt geopend als een pop-in';
+$lang['porg_v2100_intro1'] = 'We zijn verheugd om de nieuwste update van Piwigo te presenteren!';
+$lang['porg_v2100_intro2'] = 'Deze 2.10-versie markeert een keerpunt in de geschiedenis van Piwigo, want het is de eerste stap voor een nieuwe Piwigo, opnieuw ontworpen volgens de huidige normen.';
+$lang['porg_v2100_intro3'] = 'De reis is nog niet voorbij, toch zijn we trots op het werk dat is gedaan door onze getalenteerde ontwerpers.
+
+';
+$lang['porg_v2100_intro4'] = 'Maar design is niets zonder gebruikersgerichte functies die u worden aangeboden door ons toegewijde ontwikkelteam en geweldige bijdragers.';
+$lang['porg_v2100_metasync_c1'] = 'Nooit meer "uitvoeringstijd overschreden" met de nieuwe voortgangsbalk. Natuurlijk hebben we het voor deze demo langzamer gemaakt, in werkelijkheid is het veel sneller';
+$lang['porg_v2100_comments_s3'] = 'Omdat teveel zichtbare features mensen die Piwigo testen kunnen afschrikken.';
+$lang['porg_v2100_comments_s2'] = 'U kunt zich afvragen "Waarom een bestaande feature uitzetten?".';
