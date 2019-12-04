@@ -125,3 +125,4 @@ $lang['porg_v2100_modus_s3'] = 'Laatst maar niet minder belangrijk, Modus is res
 $lang['porg_v2100_modus_s2'] = 'Modus is gekozen omdat het stabiel is, compatibel met hoge-resolutie schermen en compatibel met veel uitbreidingen.';
 $lang['porg_v2100_modus_c2'] = 'We hebben dit niet enkel het standaard thema gemaakt, Modus is ook opgefrist met 8 nieuwe skins.';
 $lang['porg_v2100_modus_c1'] = 'Hier kun je de standaard skin "Newspaper" zien met een zwart-wit schema.';
+$lang['porg_v2100_tech_intro1'] = 'Meer gedetailleerde documentatie is beschikbaar over <a href="%s">Technische wijzigingen in Piwigo 2.10</a>.';
