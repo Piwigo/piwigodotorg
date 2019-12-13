@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2019-12-11' => array (
+                'title' => 'Appel aux dons - 1€ pour Piwigo',
+                'image' => 'https://piwigo.org/screenshots/newsletter/no-money.gif',
+                'summary' => 'Avant-hier, le site piwigo.org a été inaccessible pendant 36 minutes. Le problème, c’est que le compte Paypal de l’association Piwigo était à sec.',
+            ),
             '2019-10-29' => array (
                 'title' => 'Sortie officielle de Piwigo 2.10 et nouvelle application Android',
                 'image' => 'https://piwigo.org/screenshots/piwigo-2.10-upload-welcome.png',
@@ -239,6 +244,11 @@
             ),
         ),
         'en' => array(
+            '2019-12-11' => array (
+                'title' => 'Call for donations - €1 for Piwigo',
+                'image' => 'https://piwigo.org/screenshots/newsletter/no-money.gif',
+                'summary' => 'The day before yesterday, the piwigo.org website was unreachable for 36 minutes. The problem is that the Paypal account of the Piwigo association was dry.',
+            ),
             '2019-10-29' => array (
                 'title' => 'Piwigo 2.10 is officially available, so is the new Android application',
                 'image' => 'https://piwigo.org/screenshots/piwigo-2.10-upload-welcome.png',
