@@ -126,3 +126,6 @@ $lang['porg_v2100_modus_s2'] = 'Modus is gekozen omdat het stabiel is, compatibe
 $lang['porg_v2100_modus_c2'] = 'We hebben dit niet enkel het standaard thema gemaakt, Modus is ook opgefrist met 8 nieuwe skins.';
 $lang['porg_v2100_modus_c1'] = 'Hier kun je de standaard skin "Newspaper" zien met een zwart-wit schema.';
 $lang['porg_v2100_tech_intro1'] = 'Meer gedetailleerde documentatie is beschikbaar over <a href="%s">Technische wijzigingen in Piwigo 2.10</a>.';
+$lang['porg_v2100_subalbum_s1'] = 'In de "permissies" tab van pagina om een album te bewerken kon je sub-albums al privé zetten.';
+$lang['porg_v2100_samuel_s4'] = 'Vooraleer de administratie interface te redesignen, heb ik veel tijd gespendeerd om beter te begrijpen welke moeilijkheden gebruikers zouden kunnen ervaren.';
+$lang['porg_v2100_samuel_s2'] = 'Als trainee bij Piwigo was mijn voornaamste rol het verbeteren van de estethiek van de admininstratie interface of User Interface (UI).';
