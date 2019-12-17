@@ -1134,7 +1134,8 @@ h2{
 
  .get-piwigo {
     background-color: #f2f2f2;
-    height: auto;
+    height: 365px;
+    width:100%;
  }
 
  .get-piwigo .get-piwigo-text-intro{
@@ -1203,7 +1204,7 @@ h2{
  }
 
  .download-piwigo {
-    margin-top: -100px;
+    margin-top: -335px;
     margin-bottom: 50px;
  }
 
@@ -1244,7 +1245,7 @@ h2{
  }
 
  .self-hosted-piwigo div.row {
-    margin-top: 30px;
+    margin-top: 40px;
  }
 
 .self-hosted-piwigo div.row a {
@@ -1253,8 +1254,8 @@ h2{
 }
 
 #self-hosted-illustration{
-  width:150px;
-  margin-top:30px;
+  width:250px;
+  margin-top:40px;
 }
 
 /* Cloud hosted piwigo section */
@@ -1283,7 +1284,7 @@ h2{
 }
 
 .cloud-hosted-piwigo div.row {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .cloud-hosted-piwigo div.row a {
@@ -1320,8 +1321,8 @@ h2{
 }
 
 #cloud-hosted-illustration{
-  width:200px;
-  margin-top:30px;
+  width:262px;
+  margin-top:40px;
 }
 
 /* Piwigo Mobile Apps */
@@ -1332,11 +1333,17 @@ h2{
 }
 
 .piwigo-mobile-apps {
-    margin-bottom: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
 }
 
 .piwigo-mobile-apps-container{
   position:relative;
+  margin-bottom:30px;
 }
 
 .piwigo-mobile-apps h2 {
@@ -1381,6 +1388,8 @@ h2{
 
 .piwigo-phone {
     overflow: hidden;
+    float:right;
+        padding-left: 108px;
 }
 
 .piwigo-phone img {
