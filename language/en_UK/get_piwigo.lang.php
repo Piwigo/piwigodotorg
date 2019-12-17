@@ -1,7 +1,8 @@
 <?php
 
 $lang['porg_get_piwigo_desc1'] = 'There are two ways you can get Piwigo.';
-$lang['porg_get_piwigo_desc2'] = 'Either you host it yourself, for example with OVH or BlueHost, or you can use Piwigo.com cloud service.';
+$lang['porg_get_piwigo_desc2'] = 'Either you host it yourself, for example with OVH or BlueHost,';
+$lang['porg_get_piwigo_desc2-2'] = 'or you can use Piwigo.com cloud service.';
 $lang['porg_get_piwigo_desc3'] = 'In both cases you keep your full data ownership.';
 $lang['Self-hosted Piwigo'] = 'Self-hosted Piwigo';
 $lang['porg_get_piwigo_self_hosted_desc1'] = 'Run Piwigo on your own web hosting, providing PHP and a MySQL database.';

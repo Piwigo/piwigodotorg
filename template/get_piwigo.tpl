@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-12 get-piwigo-text-intro">
           <h1>{'Get Piwigo'|translate}</h1>
-          <p>{'porg_get_piwigo_desc1'|translate} {'porg_get_piwigo_desc2'|translate} {'porg_get_piwigo_desc3'|translate}</p>
+          <p>{'porg_get_piwigo_desc1'|translate}</br> {'porg_get_piwigo_desc2'|translate}</br> {'porg_get_piwigo_desc2-2'|translate}</br>  {'porg_get_piwigo_desc3'|translate}</p>
         </div>
       </div>
     </div>

@@ -1134,13 +1134,27 @@ h2{
 
  .get-piwigo {
     background-color: #f2f2f2;
-    height: 365px;
+    height: 300px;
     width:100%;
+ }
+
+ .get-piwigo h1{
+   text-align: center;
+    margin: 30px 0px;
+    color: #3c3c3c;
+    font-size: 40px;
+    font-weight: 900;
  }
 
  .get-piwigo .get-piwigo-text-intro{
    text-align:center;
    color:black;
+   color: #7e7e7e;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
  }
 
  .get-piwigo .cloud {
@@ -1158,14 +1172,6 @@ h2{
     .get-piwigo .cloud {
         display: none;
     }
-}
-
-.get-piwigo h1 {
-   font-size: 28px;
-}
-
-.get-piwigo p {
-    font-size: 18px;
 }
 
 .get-piwigo-intro-wave{
@@ -1204,7 +1210,7 @@ h2{
  }
 
  .download-piwigo {
-    margin-top: -335px;
+    margin-top: -200px;
     margin-bottom: 50px;
  }
 
