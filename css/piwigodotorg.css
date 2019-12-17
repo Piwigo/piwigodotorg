@@ -1146,7 +1146,7 @@ h2{
     font-weight: 900;
  }
 
- .get-piwigo .get-piwigo-text-intro{
+ .get-piwigo .get-piwigo-text-intro, .piwigo-mobile-apps p{
    text-align:center;
    color:black;
    color: #7e7e7e;
