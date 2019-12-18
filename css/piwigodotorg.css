@@ -519,8 +519,8 @@
     text-align:left;
 }
 
-.pwg-banner .pwg-tagline p:last-child{
-  font-size:10px;
+.get-piwigo-button p{
+  font-size:12px;
   margin-top:0;
   padding-right:15px;
   font-weight:400;
@@ -556,7 +556,7 @@
 
 .pwg-banner .pwg-release-date {
     text-align: center;
-    font-size:90%;
+    font-size:1em;
     color:#aaa;
     margin-top: 10px;
     padding:0 15px;
@@ -568,7 +568,7 @@
     border-radius: 25px;
     color: #6CADD9;
     margin-left: 10px;
-    font-size:12px;
+    font-size:13px;
     font-weight:700;
 }
 
@@ -592,6 +592,13 @@
   width:150%;
 }
 
+.not-visible{
+  display:none;
+}
+.visible{
+  display:block;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .pwg-version span {
         font-size: 12px;
@@ -602,6 +609,9 @@
 @media (max-width: 991px) {
   .pwg-banner .responsive-image img{
     width:125%!important;
+  }
+  .get-piwigo-button{
+    text-align:center;
   }
     .pwg-version span {
         font-size: 10px;
@@ -624,7 +634,7 @@
       margin-bottom: 40px;
     }
     .pwg-banner .btn {
-      width:30%;
+      /*width:30%;*/
       font-size: 14px;
       padding: 15px 25px;
       transition: all 0.2s;
@@ -637,6 +647,13 @@
     .pwg-tagline .get-piwigo-button{
       text-align:center;
     }
+    .not-visible{
+      display:block;
+    }
+    .visible{
+      display:none;
+    }
+
 }
 
 @media (max-width: 767px) {
