@@ -11,3 +11,9 @@
     height: 204px;
     background-position: 66% 38px;
 }
+
+@media (max-width: 991px) {
+.pwg-banner .pwg-tagline h1{
+font-size:45px;
+}
+}

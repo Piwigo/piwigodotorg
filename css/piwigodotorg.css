@@ -551,7 +551,7 @@
 .get-piwigo-button{
   padding:0;
   text-align:left;
-  margin-top:40px;
+  margin-left:15px;
 }
 
 .pwg-banner .pwg-release-date {
@@ -599,6 +599,12 @@
   display:block;
 }
 
+@media (max-width: 1200px) {
+    .get-piwigo-button{
+      margin-top:40px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .pwg-version span {
         font-size: 12px;
@@ -612,6 +618,7 @@
   }
   .get-piwigo-button{
     text-align:center;
+    margin-left:0;
   }
     .pwg-version span {
         font-size: 10px;
