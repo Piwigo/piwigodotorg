@@ -39,7 +39,7 @@ $(document).ready(function() {
 
           <div class="col-sm-12 get-piwigo-button not-visible">
             <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
-            <p class="pwg-release-date">{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
+            <p class="col-xs-12 pwg-release-date">{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
           </div>
 
           <div class="col-sm-12 col-md-7 responsive-image">
@@ -172,10 +172,10 @@ $(document).ready(function() {
     </div>
 
       <div class="row text-center showcase-refresh">
-        <div class="col-md-7 col-xs-6 showcase-button">
+        <div class="col-md-7 col-xs-12 showcase-button">
             <a type="button" class="btn btn-view-more-showcases" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'View more showcases'|translate}</a>
         </div>
-        <div class="col-md-5 col-xs-6 btn-refresh">
+        <div class="col-md-5 col-xs-12 btn-refresh">
             <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
         </div>
       </div>

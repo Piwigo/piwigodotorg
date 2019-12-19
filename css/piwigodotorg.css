@@ -558,7 +558,7 @@
     text-align: center;
     font-size:1em;
     color:#aaa;
-    margin-top: 10px;
+    margin-top: 20px;
     padding:0 15px;
 }
 
@@ -590,6 +590,7 @@
 
 .pwg-banner .responsive-image img{
   width:150%;
+  /*max-height:500px;*/
 }
 
 .not-visible{
@@ -602,6 +603,7 @@
 @media (max-width: 1200px) {
     .get-piwigo-button{
       margin-top:40px;
+      margin-bottom:30px;
     }
 }
 
@@ -614,7 +616,8 @@
 
 @media (max-width: 991px) {
   .pwg-banner .responsive-image img{
-    width:125%!important;
+    width:100%!important;
+    padding-top:30px;
   }
   .get-piwigo-button{
     text-align:center;
@@ -629,7 +632,7 @@
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -658,6 +661,9 @@
       display:block;
     }
     .visible{
+      display:none;
+    }
+    .btn-refresh{
       display:none;
     }
 
@@ -877,15 +883,15 @@ h2{
     border-radius:10px;
     background-color:white;
     margin: 30px 15px 60px;
-    padding-top:0;
+    padding-top:20px;
+    text-align:left;
 }
 
 .home-quotes{
-  left: -192px;
-  position: relative;
   width: 70px;
-  top: -28px;
+  margin-top: -66px;
   }
+
 
 .jelly-fish {
     text-align: center;
@@ -910,8 +916,9 @@ h2{
 
 @media (max-width: 991px) {
     .content-advice-box {
-        margin: 20px;
+        margin: 40px 20px;
     }
+
 }
 
 .user-advice {
@@ -934,7 +941,7 @@ h2{
 }
 
 .container-showcase h2{
-    margin-bottom:80px!important;
+    margin-bottom:80px;
 }
 
 @media (max-width: 991px) {
@@ -958,11 +965,7 @@ h2{
     width: 100%;
     height: auto;
 }
-@media (max-width: 991px) {
-    .showcase-button {
-        padding: 40px;
-    }
-}
+
 
 .showcase-button .btn-view-more-showcases, .btn-know-more {
     border-radius: 0px;
@@ -1007,13 +1010,17 @@ h2{
     cursor: pointer;
 }
 
-@media (max-width: 991px) {
-    .btn-refresh img {
-    }
-}
-
 .showcase-refresh{
   padding-top:40px;
+}
+
+@media (max-width: 991px) {
+  .showcase-button, .btn-refresh{
+    text-align:center;
+  }
+  .btn-refresh{
+    padding-top:40px;
+  }
 }
 
 /* Feature section */
@@ -1043,6 +1050,18 @@ h2{
 
 .feature-content img {
     max-width:100%;
+}
+
+@media (max-width: 991px){
+  .feature-content{
+    padding:0 15px;
+  }
+}
+
+@media (max-width: 550px){
+  .feature-content p{
+    font-size:12px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1076,20 +1095,6 @@ h2{
   margin-bottom: 20px;
 }
 
-/*.get-started a {
-  background-color: #ff7700;
-  padding: 15px 25px;
-  border: 1px solid #ff7700;
-  text-transform: uppercase;
-  margin-top: 30px;
-  border-radius: 0px;
-  font-size: 18px;
-  color: white;
-  transition: background-color 0.2s ease-out;
-  -webkit-transition: background-color 0.2s ease-out;
-  -moz-transition: background-color 0.2s ease-out;
-
-}*/
 
 .get-started a:hover, .get-started a:active, .get-started a:focus {
     color: #FFFFFF;
@@ -1100,6 +1105,28 @@ h2{
 .row-getting-started-content .btn {
     text-transform: uppercase;
 }
+
+@media (max-width: 991px){
+  .fact-content h2, .container-showcase h2, .jelly-fish h2, .take-control h2, .container-piwigo-users h3, .get-started h2{
+    font-size:25px;
+    line-height:2;
+  }
+  .container-showcase h2{
+    margin-bottom:40px!important;
+    margin-top:40px;
+    padding:0 15px;
+  }
+}
+
+@media (max-width: 400px){
+    .fact-content h2, .container-showcase h2, .jelly-fish h2, .take-control h2, .container-piwigo-users h3, .get-started h2{
+      font-size:20px;
+      line-height:2;
+    }
+    .fact-content h2, .take-control h2{
+      margin-bottom:40px;
+    }
+  }
 
 /***********************
  * Piwigo download CSS *
