@@ -481,6 +481,11 @@
             ),
         ),
         'de' => array(
+            '2019-12-23' => array (
+                'title' => 'Spendenaufruf - €1 für Piwigo',
+                'image' => 'https://piwigo.org/screenshots/newsletter/no-money.gif',
+                'summary' => 'Vorgestern war die piwigo.org Webseite für 36 Minuten nicht erreichbar. Der Paypal-Account der Piwigo-Organisation war leer. Wir zählen auf Sie!',
+            ),
             '2019-05-06' => array (
                 'title' => 'Piwigo wird 17 und Piwigo 2.9.5',
                 'image' => 'https://piwigo.org/screenshots/piwigo-17years-small.jpg',
