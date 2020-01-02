@@ -62,7 +62,7 @@ $lang['porg_v2100_help_title'] = 'Ouverture de l’aide dans la page';
 $lang['porg_v2100_help_c1'] = 'L’aide des pages d’administration s’ouvre dorénavant dans une <em>popin</em> (fenêtre interne) au lieu du <em>popup</em> à l’ancienne.';
 
 $lang['porg_v2100_comments_title'] = 'Désactivation des commentaires par défaut';
-$lang['porg_v2100_comments_s1'] = 'Pas de panique, nous n’avons par retiré la fonctionnalité des commentaires utilisateurs. Nous avons simplement décidé de la désactiver par défaut.';
+$lang['porg_v2100_comments_s1'] = 'Pas de panique, nous n’avons pas retiré la fonctionnalité des commentaires utilisateurs. Nous avons simplement décidé de la désactiver par défaut.';
 $lang['porg_v2100_comments_s2'] = 'Vous vous demandez peut-être "pourquoi désactiver une fonctionnalité ?".';
 $lang['porg_v2100_comments_s3'] = 'Parce que trop de fonctionnalités visibles peuvent effrayer les nouveaux venus qui testent Piwigo.';
 $lang['porg_v2100_comments_s4'] = 'Nous devons sélectionner attentivement ce qui est le plus important pour la majorité.';
