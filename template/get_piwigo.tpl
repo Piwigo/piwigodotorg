@@ -14,9 +14,10 @@
       </div>
     </div>
   </section>
-<img class="get-piwigo-intro-wave" src="{$PORG_ROOT_URL}images/get_piwigo/intro-bottom-wave.svg">
 
-  <section class="download-piwigo container">
+
+  <section class="download-piwigo container-fluide">
+    <div class="container">
     <div class="row row-download-piwigo">
       <div class="col-md-6 col-xs-12 text-center">
         <div class="self-hosted-piwigo">
@@ -61,6 +62,7 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
   <section class="container-fluide">
     <div class="container">

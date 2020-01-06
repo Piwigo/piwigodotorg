@@ -643,13 +643,19 @@
       line-height: 50px;
       margin-bottom: 40px;
     }
+    .get-piwigo-button{
+      text-align:center;
+      margin-top:0;
+    }
     .pwg-banner .btn {
       /*width:30%;*/
+      margin-top: 40px;
       font-size: 14px;
       padding: 15px 25px;
       transition: all 0.2s;
       font-weight: 700;
       text-transform: uppercase;
+      float:inherit;
     }
     .pwg-banner .pwg-tagline p{
       text-align:center;
@@ -667,6 +673,10 @@
       display:none;
     }
 
+    .pwg-banner .pwg-tagline p:last-child{
+      padding:15px;
+      display:block;
+    }
 }
 
 @media (max-width: 767px) {
@@ -815,6 +825,13 @@ h2{
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
+@media (max-width:991px){
+  .btn-discover-features{
+    width:90%;
+    text-align:center;
+  }
+}
+
 /* Who are our users - different type of users */
 
 .container-home-users{
@@ -946,7 +963,7 @@ h2{
 
 @media (max-width: 991px) {
     .container-showcase {
-        padding-top: 0px;
+        padding:0 30px;
     }
 }
 
@@ -1134,8 +1151,8 @@ h2{
 
  .get-piwigo {
     background-color: #f2f2f2;
-    height: 300px;
     width:100%;
+  padding-bottom:30px;
  }
 
  .get-piwigo h1{
@@ -1175,13 +1192,10 @@ h2{
 }
 
 .get-piwigo-intro-wave{
-  width: 103%;
+  width: 100%;
+  overflow-x:hidden;
   display: block;
   height: auto;
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-top: -2px;
-
 }
 
 .row-download-piwigo p {
@@ -1210,8 +1224,11 @@ h2{
  }
 
  .download-piwigo {
-    margin-top: -200px;
     margin-bottom: 50px;
+    background-image:url(../images/get_piwigo/intro-bottom-wave.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+
  }
 
 /* Self hosted piwigo section */
@@ -1402,6 +1419,18 @@ h2{
     width: 100%;
     height: auto;
 
+}
+
+@media (max-width:991px){
+  .piwigo-mobile-apps{
+    position: relative;
+    top:0;
+    transform: inherit;
+  }
+  .piwigo-phone{
+    padding:40px;
+    float:inherit;
+  }
 }
 
 /***********************

@@ -126,21 +126,21 @@ $(document).ready(function() {
       <div class="row text-center take-control">
         <h2>{'Powerful features for your photo gallery'|translate}</h2>
         <div>
-          <div class="col col-xs-6 col-md-3 feature-content">
+          <div class="col col-sm-6 col-md-3 feature-content">
             <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/content-01.svg" alt="A piwigo feature"><br>
             <p>{'Albums Hierarchy'|translate}</p></a>
           </div>
-          <div class="col col-xs-6 col-md-3 feature-content">
+          <div class="col col-sm-6 col-md-3 feature-content">
             <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/content-02.svg" alt="A piwigo feature"><br>
             <p>{'Batch Management'|translate}</p></a>
           </div>
         </div>
         <div>
-          <div class="col col-xs-6 col-md-3 feature-content">
+          <div class="col col-sm-6 col-md-3 feature-content">
             <a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext/"><img src="{$PORG_ROOT_URL}images/home/content-03.svg" alt="A piwigo feature"><br>
             <p>{'Themes & Plugins'|translate}</p></a>
           </div>
-          <div class="col col-xs-6 col-md-3 feature-content">
+          <div class="col col-sm-6 col-md-3 feature-content">
             <a href="{$PORG_ROOT}{$URL.features}"><img src="{$PORG_ROOT_URL}images/home/content-04.svg" alt="A piwigo feature"><br>
             <p>{'Permissions Control'|translate}</p></a>
           </div>
@@ -148,7 +148,7 @@ $(document).ready(function() {
 
         </div>
         <div class="row text-center btn-know-content">
-          <div class="col-md-12">
+          <div class="col-sm-12">
             <a class="btn btn-discover-features" href="{$PORG_ROOT}{$URL.features}">{'Explore more features'|translate}</a>
           </div>
         </div>
