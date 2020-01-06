@@ -25,7 +25,7 @@ $lang['View more showcases'] = 'Voir d\'autres exemples';
 $lang['porg_showcase_title'] = 'Quelques galeries créées avec Piwigo';
 $lang['porg_love_title'] = 'Ils aiment Piwigo... et ils le disent !';
 $lang['Discover Piwigo'] = 'Découvrir Piwigo';
-$lang['Explore more features'] = 'Découvrez davantage de fonctionnalités';
+$lang['Explore more features'] = 'Découvrez les fonctionnalités';
 $lang['version %s'] = 'version %s';
 
 ?>

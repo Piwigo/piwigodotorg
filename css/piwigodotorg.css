@@ -827,8 +827,11 @@ h2{
 
 @media (max-width:991px){
   .btn-discover-features{
-    width:90%;
     text-align:center;
+  }
+  .btn-know-content a{
+    font-size:14px;
+
   }
 }
 

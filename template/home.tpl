@@ -71,16 +71,16 @@ $(document).ready(function() {
     <div class="container">
       <h3>{'porg_home_organisation_title'|translate}</h3>
       <div class="equal text-center organization-content">
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/arles_logo.svg">
         </div>
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/s3v.png" class="logo-societe-3-vallees">
         </div>
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/fondation_arc.svg">
         </div>
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/logo-federation-francaise-natation.png" class="logo-federation-francaise-natation">
         </div>
       </div>
