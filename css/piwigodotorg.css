@@ -1219,9 +1219,22 @@ h2{
  }
 
  .download-piwigo {
-    margin-top: -100px;
+    margin-top: -200px;
     margin-bottom: 50px;
  }
+
+ @media (max-width:991px){
+   .download-piwigo {
+      margin-top: -100px;
+   }
+ }
+
+ @media (max-width:600px){
+   .download-piwigo {
+      margin-top: -20px;
+   }
+ }
+
 
 /* Self hosted piwigo section */
 
