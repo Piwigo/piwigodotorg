@@ -29,7 +29,7 @@ $(document).ready(function() {
 </script>
 {/literal}
 
-  <section class="pwg-banner container-fluide">
+<section class="pwg-banner container-fluide">
       <div class="container">
         <div class="row">
           <div class="pwg-tagline col-sm-12 col-md-5">
