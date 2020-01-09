@@ -14,6 +14,7 @@
       </div>
     </div>
   </section>
+<img class="get-piwigo-intro-wave" src="{$PORG_ROOT_URL}images/get_piwigo/intro-bottom-wave.svg">
 
 
   <section class="download-piwigo container-fluide">
