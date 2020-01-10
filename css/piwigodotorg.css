@@ -3652,7 +3652,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 .UsePiwigoFor{
   background-color:rgba(255, 237, 207,0.5);
-  padding:20px 0;
+  padding-bottom:40px;
 }
 
 .row-use-piwigo-for {
@@ -3710,14 +3710,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 .WhatIsPiwigo-argument-badge{
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 25px;
     font-size: 13px;
     font-weight: 700;
     color:white;
     white-space: nowrap;
     display:inline-block;
-    margin:15px;
+    margin:5px;
 }
 
 .argument-badge1{
@@ -3900,7 +3900,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 .porg_whatispiwigo_self_hosted_arguments{
-  text-align:center;
+  text-align:left;
   color:#ff7700;
   font-size: 20px;
   font-weight:700;
@@ -3908,7 +3908,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 .porg_whatispiwigo_cloud_hosted_arguments{
-  text-align:center;
+  text-align:right;
   color:#ff3363;
   font-size: 20px;
   font-weight:700;
@@ -4039,7 +4039,12 @@ position: absolute;
     left: 0;
     display: inline-block;
     transform: none;
+    text-align:center;
   }
+  .porg_whatispiwigo_self_hosted_arguments, .porg_whatispiwigo_cloud_hosted_arguments{
+    text-align:center;
+  }
+
   .fact-content img{
     width:60%;
   }

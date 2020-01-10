@@ -130,13 +130,6 @@
             <p>{'porg_whatispiwigo_open_source_desc1'|translate} {'porg_whatispiwigo_open_source_desc2'|translate}</p>
           </div>
         </div>
-        <div class="row text-center btn-know-content">
-          <div class="col-md-12">
-            <a class="btn btn-know-more" href="{$PORG_ROOT}{$URL.what_is_piwigo}">{'Discover Piwigo'|translate}</a>
-          </div>
-        </div>
-
-
     </div>
   </section>
 
