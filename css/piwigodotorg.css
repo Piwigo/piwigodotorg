@@ -3597,762 +3597,270 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 /* Piwigo whats is piwigo */
 
-.container-fluide-whatispiwigo {
-    height: 185px;
-    overflow: hidden;
-    background-color: #54616F;
+.container-fluide-whatispiwigo{
+  padding:40px 0;
 }
 
-@media (max-width: 991px) {
-    .container-fluide-whatispiwigo {
-        height: auto;
-    }
+.row-whatsispiwigo{
+  position: relative;
 }
 
-.col-title-whatispiwigo-content h1, .col-title-whatispiwigo-content p {
-    color: #FFFFFF;
+.col-title-whatispiwigo-content{
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.whatIsPiwigo-mockup{
+  float:right;
 }
 
 .col-title-whatispiwigo-content h1 {
-    font-size: 28px;
-    padding-bottom: 20px;
+  margin-top: 20px;
+  font-size: 56px;
+  font-weight: 900;
+  text-align: left;
+  color: #3c3c3c;
+  line-height: 76px;
+  transition: all 1s;
 }
 
 .col-title-whatispiwigo-content p {
+    color: #7e7e7e;
     font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
 }
 
-.col-title-whatispiwigo-logo {
-}
-
-.col-title-whatispiwigo-logo img {
-    /*margin-right: -200px;*/
-    margin-left: 40px;
-    margin-top: 78px;
-    width: 120%;
-}
-
-@media (max-width: 991px) {
-    .col-title-whatispiwigo-logo img {
-        display: none;
-    }
+@media (max-width:991px){
+  .col-title-whatispiwigo-content {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: none;
+    transform: none;
+  }
 }
 
 /* What can i use piwigo for ? */
 
+.UsePiwigoFor{
+  background-color:rgba(255, 237, 207,0.5);
+  padding:20px 0;
+}
+
 .row-use-piwigo-for {
-    height: 545px;
-    margin-top: 100px;
+    margin: 40px 0;
     overflow: hidden;
 }
 
 .row-use-piwigo-for h2 {
     color: #FF7700;
-    padding-bottom: 40px;
-    font-weight: bold;
-    font-size: 36px;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
-@media (max-width: 991px) {
-    .row-use-piwigo-for {
-        margin-top: 30px;
-    }
-
-    .row-use-piwigo-for h2 {
-        font-size: 28px;
-        padding-bottom: 30px;
-    }
-
-    .row-use-piwigo-for br {
-        display: none;
-    }
-}
-
-.row-use-piwigo-for p {
-    color: #54616f;
-    font-size: 20px;
-}
-
-.row-use-piwigo-for img {
-    height: 400px;
-}
 
 /* Organization - Professional - Individual */
 
-
-/* -- Organization -- */
-
-.container-fluide-whatispiwigo-organization {
-    background-color: #54616F;
-}
-
-.row-whatsispiwigo-organization {
-    height: 450px;
-    overflow: hidden;
-}
-
-.col-whatispiwigo-organization-content h2, .col-whatispiwigo-organization-content p {
-    color: #FFFFFF
-}
-
-.col-whatispiwigo-organization-content h2 {
+.col-whatispiwigo-organization-content h2, .col-whatispiwigo-professional-content h2, .col-whatispiwigo-individual-content h2{
+    color: #FF7700;
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 30px;
-    margin-top: 200px;
+    text-align:left;
 }
 
-@media (max-width: 991px) {
-    .col-whatispiwigo-organization-content h2 {
-        margin-top: 30px;
-        text-align: center;
-    }
-
-    .col-whatispiwigo-organization-content p {
-        margin-bottom: 30px;
-        text-align: center;
-    }
-}
-
-.col-whatispiwigo-organization-content p {
+.row-use-piwigo-for p, .col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p,  .col-whatispiwigo-individual-content p {
+  color: #7e7e7e;
     font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+}
+.col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p{
+  text-align: left;
 }
 
-.col-whatispiwigo-organization-logo {
-    height: 650px;
-    background: url(../images/whatispiwigo/organisations.svg);
-    background-size: 400px;
-    background-position: right 100%;
-    background-repeat: no-repeat;
-}
-
-.whatispiwigo-organization p, .whatispiwigo-editable p, .whatispiwigo-dam p {
-    font-size: 18px;
-    color: #FFFFFF;
-}
-
-.whatispiwigo-organization p {
-    margin-left: 60px;
-}
-
-.whatispiwigo-editable p {
-    margin-left: -100px;
-}
-
-.whatispiwigo-dam p {
-    text-align: right;
-}
-
-.whatispiwigo-organization {
-    margin-top: 295px;
-}
-
-.whatispiwigo-organization-line {
-    height: 1px;
-    width: 50px;
-    margin-left: 130px;
-    margin-top: 20px;
-    border-top: 1px solid #B1B1B1;
-    transform:rotate(40deg);
-    -ms-transform:rotate(40deg); /* Internet Explorer */
-    -moz-transform:rotate(40deg); /* Firefox */
-    -webkit-transform:rotate(40deg); /* Safari et Chrome */
-    -o-transform:rotate(40deg); /* Opera */
-}
-
-.whatispiwigo-editable {
-    margin-top: 210px;
-}
-
-.whatispiwigo-editable-line {
-    height: 1px;
-    width: 50px;
-    margin-left: 35px;
-    margin-top: 25px;
-    border-top: 1px solid #B1B1B1;
-    transform:rotate(60deg);
-    -ms-transform:rotate(60deg); /* Internet Explorer */
-    -moz-transform:rotate(60deg); /* Firefox */
-    -webkit-transform:rotate(60deg); /* Safari et Chrome */
-    -o-transform:rotate(60deg); /* Opera */
-}
-
-.whatispiwigo-dam {
-    margin-top: 75px;
-}
-
-.whatispiwigo-dam-line {
-    height: 1px;
-    width: 100px;
-    margin-left: 30px;
-    margin-top: 50px;
-    border-top: 1px solid #B1B1B1;
-    transform:rotate(-70deg);
-    -ms-transform:rotate(-70deg); /* Internet Explorer */
-    -moz-transform:rotate(-70deg); /* Firefox */
-    -webkit-transform:rotate(-70deg); /* Safari et Chrome */
-    -o-transform:rotate(-70deg); /* Opera */
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .whatispiwigo-organization-line {
-        margin-left: 35px;
-        margin-top: 15px;
-    }
-    .whatispiwigo-organization p {
-        margin-left: -20px;
-        margin-top: 10px;
-    }
-    .whatispiwigo-editable-line {
-        margin-top: 20px;
-        margin-left: 25px;
-    }
-    .whatispiwigo-editable p {
-        margin-left: -80px;
-        margin-top: -60px;
-    }
+.whatsispiwigo-organization, .whatsispiwigo-professional, .whatsispiwigo-individual{
+  position:relative;
+  margin:150px auto;
 }
 
 @media (max-width: 991px) {
-    .row-whatsispiwigo-organization {
-        height: 600px;
-    }
-
-    .whatispiwigo-organization-line {
-        display: none;
-    }
-
-    .whatispiwigo-editable-line {
-        display: none;
-    }
-
-    .whatispiwigo-dam-line {
-        display: none;
-    }
-
-    .whatispiwigo-organization {
-       margin-top: 40px;
-    }
-
-    .whatispiwigo-organization p {
-        margin-left: 0px;
-    }
-
-    .whatispiwigo-editable {
-        margin-top: 40px;
-    }
-
-    .whatispiwigo-editable p {
-        margin-left: 0px;
-    }
-
-    .whatispiwigo-dam {
-        margin-top: 40px;
-    }
-
-    .whatispiwigo-dam p {
-        text-align: left;
-    }
-
-    .whatispiwigo-organization p, .whatispiwigo-editable p, .whatispiwigo-dam p {
-        font-size: 14px;
-        color: #FFFFFF;
-    }
-
-    .col-whatispiwigo-organization-logo {
-        height: 450px;
-        background: url(../images/whatispiwigo/organisations.svg);
-        background-size: 200px;
-        background-position: center 75%;
-        background-repeat: no-repeat;
-    }
-}
-
-@media (max-width: 308px) {
-    .col-whatispiwigo-organization-logo {
-        background-position: center 63%;
-    }
-}
-
-@media (min-width: 377px) and (max-width: 492px) {
-    .col-whatispiwigo-organization-logo {
-        background-position: center 87%;
-    }
-}
-
-@media (min-width: 493px) and (max-width: 710px) {
-     .col-whatispiwigo-organization-logo {
-        background-position: center 100%;
-    }
-}
-
-@media (min-width: 711px) and (max-width: 991px) {
-  .col-whatispiwigo-organization-logo {
-        background-position: center 112%;
-    }
-}
-
-/* -- Professional -- */
-
-.row-whatsispiwigo-professional {
-    height: 450px;
-    overflow: hidden;
-}
-
-.col-whatispiwigo-professional-content h2, .col-whatispiwigo-professional-content p {
-    text-align: right;
-    color: #54616F;
-}
-
-.col-whatispiwigo-professional-content h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 150px;
-}
-
-.col-whatispiwigo-professional-content p {
-    font-size: 20px;
-}
-
-.col-whatispiwigo-professional-logo {
-    height: 610px;
-    background: url(../images/whatispiwigo/professional.svg);
-    background-size: 400px;
-    background-position: 40% 100%;
-    background-repeat: no-repeat;
-}
-
-.whatispiwigo-showcases p, .whatispiwigo-communication p {
-    font-size: 18px;
-    color: #54616F;
-}
-
-.whatispiwigo-showcases, .whatispiwigo-communication {
-    margin-top: 150px;
-}
-
-.whatispiwigo-showcases-line {
-    height: 1px;
-    width: 100px;
-    margin-left: 100px;
-    margin-top: 45px;
-    border-top: 1px solid #54616F;
-    transform:rotate(60deg);
-    -ms-transform:rotate(60deg); /* Internet Explorer */
-    -moz-transform:rotate(60deg); /* Firefox */
-    -webkit-transform:rotate(60deg); /* Safari et Chrome */
-    -o-transform:rotate(60deg); /* Opera */
-}
-
-.whatispiwigo-communication-line {
-    height: 1px;
-    width: 100px;
-    margin-top: 45px;
-    border-top: 1px solid #54616F;
-    transform:rotate(-60deg);
-    -ms-transform:rotate(-60deg); /* Internet Explorer */
-    -moz-transform:rotate(-60deg); /* Firefox */
-    -webkit-transform:rotate(-60deg); /* Safari et Chrome */
-    -o-transform:rotate(-60deg); /* Opera */
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .whatispiwigo-showcases-line {
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 991px) {
-    .row-whatsispiwigo-professional {
-        height: 600px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .whatispiwigo-communication-line {
-        display: none;
-    }
-
-    .whatispiwigo-showcases-line {
-        display: none;
-    }
-
-    .whatispiwigo-showcases {
-       margin-top: 0px;
-    }
-
-    .whatispiwigo-communication {
-        margin-top: 0px;
-    }
-
-    .whatispiwigo-showcases p {
-        text-align: left;
-    }
-
-    .whatispiwigo-showcases p, .whatispiwigo-communication p {
-        text-align: center;
-        margin-top: 60px;
-        font-size: 14px;
-    }
-
-    .col-whatispiwigo-professional-content h1, .col-whatispiwigo-professional-content p {
+    .col-whatispiwigo-organization-content h2, .col-whatispiwigo-professional-content h2, .col-whatispiwigo-individual-content h2, .col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p,  .col-whatispiwigo-individual-content p  {
         text-align: center;
     }
-
-    .col-whatispiwigo-professional-content h1 {
-        margin-top: 30px;
-        margin-bottom: 45px;
-    }
-
-    .col-whatispiwigo-professional-logo {
-        height: 300px;
-        background: url(../images/whatispiwigo/professional.svg);
-        background-size: 200px;
-        background-position: center 140%;
-        background-repeat: no-repeat;
+    .whatsispiwigo-organization, .whatsispiwigo-professional, .whatsispiwigo-individual{
+      margin:30px auto;
     }
 }
 
-@media (max-width: 308px) {
-    .col-whatispiwigo-professional-logo {
-        background-position: center 140%;
-    }
+.what-is-piwigo-examples img{
+    max-height:250px;
 }
 
-@media (min-width: 377px) and (max-width: 492px) {
-    .col-whatispiwigo-professional-logo {
-        background-position: center 140%;
-    }
+.WhatIsPiwigo-argument-badge{
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    color:white;
+    white-space: nowrap;
+    display:inline-block;
+    margin:15px;
 }
 
-@media (min-width: 493px) and (max-width: 710px) {
-    .col-whatispiwigo-professional-logo {
-        background-position: center 140%;
-    }
+.argument-badge1{
+  background-color:#7e72c0;
+}
+.argument-badge2{
+  background-color:#338ac5;
+}
+.argument-badge3{
+  background-color:#ff7700;
+}
+.argument-badge4{
+  background-color:#57b894;
 }
 
-@media (min-width: 711px) and (max-width: 991px) {
-    .col-whatispiwigo-professional-logo {
-        background-position: center 140%;
-    }
+/* Organizations*/
+
+.col-whatispiwigo-organization-content{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  text-align:center;
 }
 
-
-/* -- Individual -- */
-
-.container-fluide-whatispiwigo-individual {
-    background-color: #54616F;
+.what-is-piwigo-organization-illustration{
+  float:right;
 }
 
-.row-whatsispiwigo-individual {
-    height: 450px;
-    overflow: hidden;
+/*Professionals*/
+
+.row-whatsispiwigo-professional .circle-container {
+  float:right;
 }
 
-.col-whatispiwigo-individual-content h2, .col-whatispiwigo-individual-content p {
-    color: #FFFFFF
+.col-whatispiwigo-professional-content{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  text-align:center;
 }
 
-.col-whatispiwigo-individual-content h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 200px;
+.professional-illustration-desktop{
+  display:block;
+}
+.professional-illustration-mobile{
+  display:none;
 }
 
-.col-whatispiwigo-individual-content p {
-    font-size: 20px;
+@media (max-width: 991px){
+  .professional-illustration-desktop{
+    display:none;
+  }
+  .professional-illustration-mobile{
+    display:block;
+  }
 }
 
-.col-whatispiwigo-individual-logo {
-    height: 635px;
-    background: url(../images/whatispiwigo/individual.svg);
-    background-size: 400px;
-    background-position: right 100%;
-    background-repeat: no-repeat;
+/*Individuals*/
+
+.what-is-piwigo-individual-illustrations{
+  float:right;
 }
 
-.whatispiwigo-amateur p, .whatispiwigo-family p, .whatispiwigo-collector p,.whatispiwigo-fansite p {
-    font-size: 18px;
-    color: #FFFFFF;
+.col-whatispiwigo-individual-content{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  text-align:center;
 }
 
-.whatispiwigo-amateur {
-    margin-top: 285px;
-    padding-left: 50px;
-}
-
-.whatispiwigo-amateur-line {
-    height: 1px;
-    width: 100px;
-    margin-left: 40px;
-    margin-top: 45px;
-    border-top: 1px solid #B1B1B1;
-    transform:rotate(60deg);
-    -ms-transform:rotate(60deg); /* Internet Explorer */
-    -moz-transform:rotate(60deg); /* Firefox */
-    -webkit-transform:rotate(60deg); /* Safari et Chrome */
-    -o-transform:rotate(60deg); /* Opera */
-}
-
-.whatispiwigo-family {
-    margin-top: 150px;
-    padding-left: 0px;
-}
-
-.whatispiwigo-family-line {
-    height: 1px;
-    width: 150px;
-    margin-left: 28px;
-    margin-top: 70px;
-    border-top: 1px solid #B1B1B1;
-    transform:rotate(60deg);
-    -ms-transform:rotate(60deg); /* Internet Explorer */
-    -moz-transform:rotate(60deg); /* Firefox */
-    -webkit-transform:rotate(60deg); /* Safari et Chrome */
-    -o-transform:rotate(60deg); /* Opera */
-}
-
-.whatispiwigo-collector {
-    margin-top: 85px;
-    padding-left: 120px;
-}
-
-.whatispiwigo-collector-line {
-    height: 1px;
-    width: 150px;
-    margin-left: -32px;
-    margin-top: 80px;
-    border-top: 1px solid #B1B1B1;
-    transform:rotate(-90deg);
-    -ms-transform:rotate(-90deg); /* Internet Explorer */
-    -moz-transform:rotate(-90deg); /* Firefox */
-    -webkit-transform:rotate(-90deg); /* Safari et Chrome */
-    -o-transform:rotate(-90deg); /* Opera */
-}
-
-.whatispiwigo-fansite {
-    margin-top: 210px;
-    padding-left: 80px;
-}
-
-.whatispiwigo-fansite-line {
-    height: 1px;
-    width: 100px;
-    margin-left: -30px;
-    margin-top: 50px;
-    border-top: 1px solid #B1B1B1;
-    transform:rotate(-75deg);
-    -ms-transform:rotate(-75deg); /* Internet Explorer */
-    -moz-transform:rotate(-75deg); /* Firefox */
-    -webkit-transform:rotate(-75deg); /* Safari et Chrome */
-    -o-transform:rotate(-75deg); /* Opera */
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .whatispiwigo-amateur-line {
-        margin-top: 50px;
-        margin-left: -50px;
-    }
-    .whatispiwigo-amateur p {
-        margin-top: 0px;
-        margin-left: -80px;
-    }
-    .whatispiwigo-family-line {
-        margin-left: -45px;
-        margin-top: 75px;
-    }
-    .whatispiwigo-family p {
-        margin-left: -120px;
-    }
-    .whatispiwigo-collector-line {
-        margin-left: -80px;
-    }
-    .whatispiwigo-collector p {
-        margin-left: -40px;
-    }
-    .whatispiwigo-fansite-line {
-        margin-top: 50px;
-        margin-left: 62px;
-    }
-    .whatispiwigo-fansite p {
-        margin-top: -190px;
-        margin-left: 100px;
-    }
-}
-
-@media (max-width: 991px) {
-    .row-whatsispiwigo-individual {
-        height: 600px;
-    }
-
-    .col-whatispiwigo-individual-content h1, .col-whatispiwigo-individual-content p {
-        color: #FFFFFF
-        margin-bottom: 30px;
-        text-align: center;
-    }
-
-    .col-whatispiwigo-individual-content h1 {
-        font-size: 32px;
-        margin-top: 30px;
-    }
-
-    .whatispiwigo-amateur-line {
-        display: none;
-    }
-
-    .whatispiwigo-family-line {
-        display: none;
-    }
-
-    .whatispiwigo-collector-line {
-        display: none;
-    }
-
-    .whatispiwigo-fansite-line {
-        display: none;
-    }
-
-    .whatispiwigo-amateur, .whatispiwigo-family, .whatispiwigo-collector, .whatispiwigo-fansite {
-        margin-top: 10px;
-        padding-left: 0px;
-    }
-
-    .whatispiwigo-amateur p, .whatispiwigo-family p, .whatispiwigo-collector p, .whatispiwigo-fansite p {
-        font-size: 14px;
-    }
-
-    .col-whatispiwigo-individual-logo {
-        height: 475px;
-        margin-top: 100px;
-        background: url(../images/whatispiwigo/individual.svg);
-        background-size: 200px;
-        background-position: center 60%;
-        background-repeat: no-repeat;
-    }
-}
-
-@media (max-width: 308px) {
-    .col-whatispiwigo-individual-logo {
-        background-position: center 50%;
-    }
-}
-
-@media (min-width: 377px) and (max-width: 492px) {
-    .col-whatispiwigo-individual-logo {
-        background-position: center 70%;
-    }
-}
-
-@media (min-width: 493px) and (max-width: 710px) {
-    .col-whatispiwigo-individual-logo {
-        background-position: center 79%;
-    }
-}
-
-@media (min-width: 711px) and (max-width: 991px) {
-    .col-whatispiwigo-individual-logo {
-        background-position: center 88%;
-    }
+.whatsispiwigo-individual{
+  margin-bottom:0;
 }
 
 /* Choosing Piwigo */
 
-.row-whatispiwigo-choosing-piwigo {
-    height: 500px;
-    overflow: hidden;
-    background: url(../images/whatispiwigo/pyramid.svg);
-    background-size: 800px;
-    background-position: center 120%;
-    background-repeat: no-repeat;
-}
-
 .row-whatispiwigo-choosing-piwigo h2 {
-    padding-top: 200px;
-    padding-left: 80px;
-    font-size: 32px;
-    font-weight: bold;
-    color: #FF7700;
+  text-align: center;
+  margin: 30px 0px;
+  font-size: 40px;
+  font-weight: 900;
+  color: #FF7700;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .row-whatispiwigo-choosing-piwigo h2 {
-        padding-top: 0px;
-        margin-top: 100px;
-    }
-}
 
 @media (max-width: 991px) {
-    .row-whatispiwigo-choosing-piwigo h2 {
-        padding-top: 10px;
-        padding-left: 0px;
-        font-size: 28px;
-        text-align: center;
-    }
-}
-
-.container-fluide-piwigo-fundamental {
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
-}
-
-.container-fluide-piwigo-fundamental h3 {
-    font-size: 28px;
-    color: #54616F;
-    font-weight: bold;
-}
-
-@media (max-width: 991px) {
-    .container-fluide-piwigo-fundamental h3 {
-        font-size: 16px;
-        color: #54616F;
-    }
-}
-
-.container-piwigo-fundamental-content {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.container-piwigo-fundamental-content p {
-    font-size: 18px;
-    color: #54616F;
-}
-
-@media (max-width: 991px) {
-    .container-piwigo-fundamental-content {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    .container-piwigo-fundamental-content p {
-        font-size: 13px;
-    }
+  .row-whatispiwigo-choosing-piwigo h2 {
+    text-align: center;
+  }
+  .row-whatispiwigo-choosing-piwigo{
+    margin-top:40px;
+  }
+  .what-is-piwigo-examples img{
+    padding-top:30px;
+  }
+  .col-whatispiwigo-organization-content, .col-whatispiwigo-professional-content, .col-whatispiwigo-individual-content{
+    margin:0;
+    position:inherit;
+    top:inherit;
+    -ms-transform:inherit;
+    transform:inherit;
+    right:inherit;
+    left:inherit;
+  }
+  .row-whatsispiwigo-individual{
+    padding:0;
+  }
+  .what-is-piwigo-individual-illustrations{
+    float:inherit;
+  }
+  .what-is-piwigo-examples{
+    text-align:center;
+  }
 }
 
 /* How to use Piwigo */
 
 .container-whatispiwigo-how-to-use-piwigo {
     margin-top: 60px;
-    margin-bottom: 60px;
+    height:1000px;
 }
 
 .container-whatispiwigo-how-to-use-piwigo h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #FF7700;
-    padding-bottom: 30px;
+  text-align: center;
+  margin: 30px 0px;
+  color: #3c3c3c;
+  font-size: 40px;
+  font-weight: 900;
 }
 
-.container-whatispiwigo-how-to-use-piwigo p {
-    font-size: 20px;
-    color: #54616F;
-    padding-right: 75px;
-}
 
 @media (max-width: 991px) {
     .container-whatispiwigo-how-to-use-piwigo {
-        margin-top: 30px;
+        margin: 0px auto ;
     }
 
     .container-whatispiwigo-how-to-use-piwigo br {
@@ -4367,18 +3875,211 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-bottom: 40px;
     }
 }
+.topGreyWave{
+  margin-bottom:-60px;
+}
+
+.WhatIsPiwigo_HowToUsePiwigo{
+  height:1000px;
+}
+
+.container-fluide-how-to-use-piwigo{
+  background-color:#f2f2f2;
+}
+
+.HowToUse_arguments{
+  padding:20px 0;
+  height:100px;
+  position: relative;
+}
+
+.HowToUse_icon{
+  width:60px;
+  padding:0
+
+}
+
+.porg_whatispiwigo_self_hosted_arguments{
+  text-align:center;
+  color:#ff7700;
+  font-size: 20px;
+  font-weight:700;
+  padding-top:40px;
+}
+
+.porg_whatispiwigo_cloud_hosted_arguments{
+  text-align:center;
+  color:#ff3363;
+  font-size: 20px;
+  font-weight:700;
+  padding-top:40px;
+}
+
+.porg_whatispiwigo_cloud_hosted_arguments p{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.porg_whatispiwigo_self_hosted_arguments p{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.porg_whatispiwigo_cloud_hosted_arguments .HowToUse_icon{
+  float:right;
+}
+
+.HowToUse-illustration-container{
+  text-align:center;
+}
+
+.HowToUse-illustration-desktop{
+  top: -180px;
+  position: relative;
+  max-width: 80%;
+  display:block;
+  margin:0 auto;
+}
+
+.HowToUse-illustration-mobile{
+  display:none;
+}
+
+.HowToUse-text{
+  height:0;
+}
+
+.HowToUse-selfHosted-text, .HowToUse-cloudHosted-text{
+  padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+    color: #7e7e7e;
+    font-weight: 700;
+    margin-bottom: 0;
+    position:relative;
+    top: -150px;
+    text-align:center;
+}
+
+
+.HowToUse-text .button{
+  width: auto;
+  max-width: 300px;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  position: relative;
+  top: 40px;
+}
+
+.HowToUse-text .button1{
+    background-color: #ff7700;
+}
+
+.HowToUse-text .button2{
+  background-color:#ff3363;
+}
+
+.HowToUse-text .button1:hover, .HowToUse-text .button2:hover{
+  text-decoration:none;
+}
+
+.howToUse-Desktop-version{
+  display:block;
+}
+.whatispiwigo_self_hosted_arguments-mobile, .whatispiwigo_cloud_hosted_arguments-mobile{
+  display:none;
+}
+
+@media (max-width:991px){
+  .topGreyWave{
+    margin-bottom:0;
+  }
+  .HowToUse-illustration-desktop{
+    display:none;
+  }
+  .HowToUse-illustration-mobile{
+    display:block;
+    position:relative;
+    height:600px;
+    margin:0 auto;
+    margin-top:40px
+  }
+  .howToUse-Desktop-version, .HowToUse-text-desktop{
+    display:none;
+  }
+  .whatispiwigo_self_hosted_arguments-mobile , .whatispiwigo_cloud_hosted_arguments-mobile{
+    display:block;
+  }
+  .HowToUse-selfHosted-text, .HowToUse-cloudHosted-text{
+    top:0;
+  }
+  .HowToUse-text-mobile{
+    height:auto;
+    margin:0 auto;
+    max-width:90%;
+  }
+  .HowToUse-text .button{
+    position:initial;
+  }
+  .porg_whatispiwigo_self_hosted_arguments p, .porg_whatispiwigo_cloud_hosted_arguments p {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    transform: none;
+  }
+  .fact-content img{
+    width:60%;
+  }
+  .WhatIsPiwigo_HowToUsePiwigo, .container-fluide-how-to-use-piwigo, .container-whatispiwigo-how-to-use-piwigo{
+    height:100%;
+  }
+  .porg_whatispiwigo_cloud_hosted_arguments .HowToUse_icon{
+    float:none;
+  }
+}
+
 
 /* GNU license */
 
 .container-fluide-whatispiwigo-gnu-license {
-    background-color: #54616F;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
-.whatispiwigo-gnu-collapse p {
-    color: #FFFFFF;
-    margin-bottom: 20px;
+.gnu-title-block{
+  display:block;
+  text-align:center;
+}
+
+#gnuLicense h3{
+  text-align: center;
+  margin: 30px 0px;
+  color: #3c3c3c;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+
+.whatispiwigo-gnu p {
+  margin:40px 0;
+  color: #7e7e7e;
+  font-weight: 700;
+  font-size: 15px;
+  text-align:center;
+  line-height:28px;
 }
 
 .gnu-license {
@@ -4390,41 +4091,24 @@ and (-webkit-min-device-pixel-ratio: 2) {
     text-decoration: none;
 }
 
-/*.gnu-license a:active,
-.gnu-license a:focus,
-.gnu-license a:hover {
-    font-weight: bold;
-}*/
-
-.whatispiwigo-gnu-collapse .card.card-body {
-    margin-top: 20px;
+.gnu-title, .pwg-gnu-logo{
+  display:inline-block;
 }
 
 .pwg-gnu-logo img {
-    height: 130px;
+    height: 100px;
+    margin:10px;
 }
 
 @media (max-width: 640px) {
     .gnu-license a {
         margin-left: 15px;
     }
-    .pwg-gnu-logo {
-        display: none;
+    .pwg-gnu-logo img{
+        height: 60px;
     }
 }
 
-/*.gnu-license a:hover > span,
-.gnu-license a:focus > span,
-.gnu-license a:active > span {
-    transform:rotate(90deg);
-    -ms-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg);
-    -o-transform:rotate(90deg);
-    transition: transform 0.2s ease-out;
-    -webkit-transition: transform 0.2s ease-out;
-    -moz-transition: transform 0.2s ease-out;
-}*/
 
 .gnu-logo img {
     height: 50px;
