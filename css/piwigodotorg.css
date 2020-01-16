@@ -3637,17 +3637,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     transition: all 1s;
     text-align: left;
 }
-
-@media (max-width:991px){
-  .col-title-whatispiwigo-content {
-    margin: 0;
-    position: relative;
-    top: 50%;
-    -ms-transform: none;
-    transform: none;
-  }
-}
-
 /* What can i use piwigo for ? */
 
 .UsePiwigoFor{
@@ -3668,6 +3657,32 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-weight: 900;
 }
 
+/*Responsive*/
+
+@media (max-width:991px){
+  .col-title-whatispiwigo-content {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: none;
+    transform: none;
+  }
+  .col-title-whatispiwigo-content h1{
+    font-size:30px;
+    font-weight:900;
+    line-height:40px;
+  }
+  .col-title-whatispiwigo-content p{
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0;
+    line-height: normal;
+  }
+  .row-use-piwigo-for h2,.row-whatispiwigo-choosing-piwigo h2, .container-whatispiwigo-how-to-use-piwigo h2, #gnuLicense h3, .get-started h2{
+    font-size: 25px!important;
+  }
+}
 
 /* Organization - Professional - Individual */
 
@@ -3702,6 +3717,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .whatsispiwigo-organization, .whatsispiwigo-professional, .whatsispiwigo-individual{
       margin:30px auto;
+    }
+    .row-use-piwigo-for p, .col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p, .col-whatispiwigo-individual-content p{
+      font-weight: 700;
+      font-size: 16px;
     }
 }
 
@@ -4040,6 +4059,7 @@ position: absolute;
     display: inline-block;
     transform: none;
     text-align:center;
+    font-size:16px;
   }
   .porg_whatispiwigo_self_hosted_arguments, .porg_whatispiwigo_cloud_hosted_arguments{
     text-align:center;
