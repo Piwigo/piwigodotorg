@@ -23,3 +23,7 @@
 $lang['porg_changelogs_technicals_desc1'] = 'Si necesita información técnica sobre las versiones, visite la página <a href="%s">Control de versiones</a>.';
 $lang['porg_changelogs_desc2'] = 'Utilice nuestra versión más reciente: tendrá mejor soporte, y todos los problemas de seguridad conocidos estarán resueltos.';
 $lang['porg_changelogs_desc1'] = 'Esta es la lista de versiones estables de Piwigo.';
+$lang['Admin redesign'] = 'Rediseño del admin';
+$lang['Dark mode'] = 'Modo oscuro';
+$lang['Default theme Modus'] = 'Tema por defecto Modus';
+$lang['Read more'] = 'Leer más';
