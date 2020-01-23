@@ -1575,6 +1575,10 @@ h2{
 
 /* Features elements (file, calendar, lock) */
 
+.features-third-section{
+  background-color:#FFEACF;
+}
+
 .pwg-features-batch-manager-screen img,
 .pwg-features-geolocalisation-screen img{
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
@@ -1597,8 +1601,12 @@ h2{
     }
 }
 
+.features-file, .features-calendar, .features-lock {
+  text-align:center;
+}
+
 .features-file img, .features-calendar img, .features-lock img {
-    height: 50px;
+    width:50%;
 }
 
 /* Features Batch Manager */
@@ -3640,7 +3648,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /* What can i use piwigo for ? */
 
 .UsePiwigoFor{
-  background-color:rgba(255, 237, 207,0.5);
+  background-color:#FFEACF;
   padding-bottom:40px;
 }
 
@@ -3650,7 +3658,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 .row-use-piwigo-for h2 {
-    color: #FF7700;
+    color: #eb8400;
     text-align: center;
     margin: 30px 0px;
     font-size: 40px;
@@ -3687,20 +3695,23 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /* Organization - Professional - Individual */
 
 .col-whatispiwigo-organization-content h2, .col-whatispiwigo-professional-content h2, .col-whatispiwigo-individual-content h2{
-    color: #FF7700;
+    color: #eb8400;
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 30px;
     text-align:left;
+    font-weight:900;
+    text-align:left;
 }
 
 .row-use-piwigo-for p, .col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p,  .col-whatispiwigo-individual-content p {
-  color: #7e7e7e;
-    font-size: 20px;
+  color: #eb8400;
+    font-size: 16px;
     margin-top: 40px;
     font-weight: 700;
     line-height: 28px;
     transition: all 1s;
+    text-align:left;
 }
 .col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p{
   text-align: left;
@@ -3728,10 +3739,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     max-height:250px;
 }
 
+.badges-what-is{
+  margin-top:40px;
+}
+
 .WhatIsPiwigo-argument-badge{
     padding: 5px 20px;
     border-radius: 25px;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     color:white;
     white-space: nowrap;
@@ -3903,7 +3918,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 .container-fluide-how-to-use-piwigo{
-  background-color:#f2f2f2;
+  background-color:#f8f9fa;
 }
 
 .HowToUse_arguments{

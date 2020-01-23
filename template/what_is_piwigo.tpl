@@ -27,17 +27,20 @@
             <div class="col-xs-12 col-md-6 col-whatispiwigo-organization-content">
               <h2>{'Organisations'|translate}</h2>
               <p>{'porg_whatispiwigo_organisation_desc1'|translate} {'porg_whatispiwigo_organisation_desc2'|translate}</p>
-              <div class="WhatIsPiwigo-argument-badge argument-badge1">
-                <span class="bold">{'Lightning Fast'|translate}</span>
+              <div class="badges-what-is">
+                <div class="WhatIsPiwigo-argument-badge argument-badge1">
+                  <span class="bold">{'Lightning Fast'|translate}</span>
+                </div>
+
+                <div class="WhatIsPiwigo-argument-badge argument-badge2">
+                    <span class="bold">{'Share with Clients'|translate}</span>
+                </div>
+
+                <div class="WhatIsPiwigo-argument-badge argument-badge3">
+                    <span class="bold">{'Batch Downloader'|translate}</span>
+                </div>
               </div>
 
-              <div class="WhatIsPiwigo-argument-badge argument-badge2">
-                  <span class="bold">{'Share with Clients'|translate}</span>
-              </div>
-
-              <div class="WhatIsPiwigo-argument-badge argument-badge3">
-                  <span class="bold">{'Batch Downloader'|translate}</span>
-              </div>
             </div>
 
             <div class="col-xs-12 col-md-6 what-is-piwigo-examples what-is-piwigo-organization-illustration">
@@ -56,13 +59,14 @@
               <div class="col-md-6 col-whatispiwigo-professional-content">
                 <h2>{'Professionals'|translate}</h2>
                 <p>{'porg_whatispiwigo_professional_desc1'|translate} {'porg_whatispiwigo_professional_desc2'|translate} {'porg_whatispiwigo_professional_desc3'|translate}</p>
+                <div class="badges-what-is">
+                  <div class="WhatIsPiwigo-argument-badge argument-badge1">
+                      <span class="bold">{'Batch Downloader'|translate}</span>
+                  </div>
 
-                <div class="WhatIsPiwigo-argument-badge argument-badge1">
-                    <span class="bold">{'Batch Downloader'|translate}</span>
-                </div>
-
-                <div class="WhatIsPiwigo-argument-badge argument-badge2">
-                  <span class="bold">{'Share with Clients'|translate}</span>
+                  <div class="WhatIsPiwigo-argument-badge argument-badge2">
+                    <span class="bold">{'Share with Clients'|translate}</span>
+                  </div>
                 </div>
 
               </div>
@@ -79,20 +83,22 @@
             <div class="col-md-6 col-whatispiwigo-individual-content">
               <h2>{'Individuals'|translate}</h2>
               <p>{'porg_whatispiwigo_individual_desc1'|translate} {'porg_whatispiwigo_individual_desc2'|translate}</p>
-              <div class="WhatIsPiwigo-argument-badge argument-badge1">
-                <span class="bold">{'Amateurs'|translate}</span>
-              </div>
+              <div class="badges-what-is">
+                <div class="WhatIsPiwigo-argument-badge argument-badge1">
+                  <span class="bold">{'Amateurs'|translate}</span>
+                </div>
 
-              <div class="WhatIsPiwigo-argument-badge argument-badge2" >
-                <span class="bold">{'Families'|translate}</span>
-              </div>
+                <div class="WhatIsPiwigo-argument-badge argument-badge2" >
+                  <span class="bold">{'Families'|translate}</span>
+                </div>
 
-              <div class="WhatIsPiwigo-argument-badge argument-badge3">
-                <span class="bold">{'Collections'|translate}</span>
-              </div>
+                <div class="WhatIsPiwigo-argument-badge argument-badge3">
+                  <span class="bold">{'Collections'|translate}</span>
+                </div>
 
-              <div class="WhatIsPiwigo-argument-badge argument-badge4">
-                <span class="bold">{'Fansites'|translate}</span>
+                <div class="WhatIsPiwigo-argument-badge argument-badge4">
+                  <span class="bold">{'Fansites'|translate}</span>
+                </div>
               </div>
             </div>
 
