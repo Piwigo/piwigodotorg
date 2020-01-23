@@ -3722,6 +3722,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
   margin:150px auto;
 }
 
+.whatsispiwigo-organization{
+  margin-top:50px;
+}
+
+.row-use-piwigo-for p{
+  font-size:20px;
+}
+
 @media (max-width: 991px) {
     .col-whatispiwigo-organization-content h2, .col-whatispiwigo-professional-content h2, .col-whatispiwigo-individual-content h2, .col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p,  .col-whatispiwigo-individual-content p  {
         text-align: center;
@@ -4114,12 +4122,13 @@ position: absolute;
 
 
 .whatispiwigo-gnu p {
-  margin:40px 0;
+  margin:40px auto;
   color: #7e7e7e;
   font-weight: 700;
   font-size: 15px;
-  text-align:center;
+  text-align:justify;
   line-height:28px;
+  max-width:500px;
 }
 
 .gnu-license {
