@@ -1346,12 +1346,18 @@ h2{
    -moz-transition: background-color 0.2s ease-out;
    padding: 13px 50px;
    height:52px;
- }
+}
 
- #cloud-hosted-illustration{
+.btn-cloud-hosted-piwigo a:hover{
+   color:  #FFFFFF;
+   background-color:#ff3362 ;
+
+}
+
+#cloud-hosted-illustration{
    width:262px;
    margin-top:40px;
- }
+}
 
 /* Piwigo Mobile Apps */
 
