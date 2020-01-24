@@ -8,6 +8,7 @@ $lang['Self-hosted Piwigo'] = 'Self-hosted Piwigo';
 $lang['porg_get_piwigo_self_hosted_desc1'] = 'Run Piwigo on your own web hosting, providing PHP and a MySQL database.';
 $lang['porg_get_piwigo_self_hosted_desc2'] = 'There is no cost for Piwigo itself but you\'ll need to update Piwigo when new releases are available to keep it secure and fast.';
 $lang['Download<br>Piwigo %s'] = 'Download<br>Piwigo %s';
+$lang['Start free trial'] = 'Start free trial';
 $lang['Install Guide'] = 'Install Guide';
 $lang['NetInstall'] = 'NetInstall';
 $lang['Upgrade Guide'] = 'Upgrade Guide';

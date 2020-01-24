@@ -8,6 +8,7 @@ $lang['Self-hosted Piwigo'] = 'Héberger son Piwigo';
 $lang['porg_get_piwigo_self_hosted_desc1'] = 'Faites tourner Piwigo sur votre propre hébergement, disposant de PHP et MySQL.';
 $lang['porg_get_piwigo_self_hosted_desc2'] = 'Utilisez Piwigo gratuitement mais prévoyez de gérer consciencieusement les mises à jour pour garder votre application sécurisée et rapide.';
 $lang['Download<br>Piwigo %s'] = 'Télécharger<br>Piwigo %s';
+$lang['Start free trial'] = 'Démarrez l\'essai gratuit';
 $lang['Install Guide'] = 'Guide d\'installation';
 $lang['NetInstall'] = 'NetInstall';
 $lang['Upgrade Guide'] = 'Guide de mise à jour';
