@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2020-01-27' => array (
+                'title' => 'Merci à tous - Grande enquête Piwigo 2020',
+                'image' => 'https://piwigo.org/screenshots/newsletter/paypal-account-blurred.jpg',
+                'summary' => 'L’année 2019 s’est terminée sur un très bel élan de la communauté, et cela annonce de belles choses pour 2020 ! Répondre à cette enquête ne vous prendra que quelques minutes, mais cela nous sera vraiment très utile !',
+            ),
             '2019-12-11' => array (
                 'title' => 'Appel aux dons - 1€ pour Piwigo',
                 'image' => 'https://piwigo.org/screenshots/newsletter/no-money.gif',
@@ -244,6 +249,11 @@
             ),
         ),
         'en' => array(
+            '2020-01-27' => array (
+                'title' => 'Thank you all - Piwigo 2020 Survey',
+                'image' => 'https://piwigo.org/screenshots/newsletter/paypal-account-blurred.jpg',
+                'summary' => 'The year 2019 ended with a very good momentum from the community, and this announces great things for 2020! It will only take a few minutes to complete this survey, but it will really help us!',
+            ),
             '2019-12-11' => array (
                 'title' => 'Call for donations - €1 for Piwigo',
                 'image' => 'https://piwigo.org/screenshots/newsletter/no-money.gif',
