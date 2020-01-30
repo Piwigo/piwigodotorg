@@ -1194,8 +1194,11 @@ h2{
 }
 
 .row-download-piwigo p {
-    font-size: 18px;
-    padding:15px;
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
 }
 
  /* Content box */
@@ -1260,13 +1263,15 @@ h2{
  }
 
  .self-hosted-piwigo h2 {
-    color: #FF7700;
-    font-size: 36px;
-    font-weight: bold;
+    color: #eb8400;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 32px;
+    font-weight: 900;
  }
 
  .self-hosted-piwigo p{
-   color:#ff7700;
+   color:#eb8400;
  }
 
  .self-hosted-piwigo h2, .self-hosted-piwigo p, .btn-download-piwigo {
@@ -1278,7 +1283,7 @@ h2{
  }
 
 .self-hosted-piwigo div.row a {
-    color: #FF7700;
+    color: #eb8400;
     text-decoration: none;
 }
 
@@ -1298,9 +1303,11 @@ h2{
 }
 
 .cloud-hosted-piwigo h2 {
-    font-size: 36px;
     color: #ff3362;
-    font-weight: bold;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 32px;
+    font-weight: 900;
 }
 
 .cloud-hosted-piwigo p{
@@ -1359,6 +1366,22 @@ h2{
    width:262px;
    margin-top:40px;
 }
+
+
+@media(max-width: 991px){
+    .self-hosted-piwigo h2, .cloud-hosted-piwigo h2{
+        font-size:22px;
+        margin-bottom:0;
+    }
+    .cloud-hosted-piwigo p, .self-hosted-piwigo p{
+        font-size: 16px;  
+        margin-top:0; 
+    }
+    .btn-cloud-hosted-piwigo, .self-hosted-piwigo h2, .cloud-hosted-piwigo h2, .cloud-hosted-piwigo p, .self-hosted-piwigo p {
+        padding-top:60px;
+    }
+}
+
 
 /* Piwigo Mobile Apps */
 
@@ -3733,6 +3756,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media (max-width: 991px) {
     .col-whatispiwigo-organization-content h2, .col-whatispiwigo-professional-content h2, .col-whatispiwigo-individual-content h2, .col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p,  .col-whatispiwigo-individual-content p  {
         text-align: center;
+        font-size:22px;
     }
     .whatsispiwigo-organization, .whatsispiwigo-professional, .whatsispiwigo-individual{
       margin:30px auto;
@@ -3740,6 +3764,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .row-use-piwigo-for p, .col-whatispiwigo-organization-content p, .col-whatispiwigo-professional-content p, .col-whatispiwigo-individual-content p{
       font-weight: 700;
       font-size: 16px;
+      text-align:left;
     }
 }
 
