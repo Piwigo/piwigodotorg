@@ -3,10 +3,6 @@
     background-position: 66% 38px;
 }
 
-.self-hosted-piwigo, .cloud-hosted-piwigo {
-  height: 400px;
-}
-
 .self-hosted-piwigo .btn-download-piwigo {
     padding-top: 51px;
 }
