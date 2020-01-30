@@ -1270,13 +1270,14 @@ h2{
     margin: 30px 0px;
     font-size: 32px;
     font-weight: 900;
+    padding:35px 0 5px 0;
  }
 
  .self-hosted-piwigo p{
    color:#eb8400;
  }
 
- .self-hosted-piwigo h2, .btn-download-piwigo {
+.btn-download-piwigo {
     padding-top: 30px;
  }
 
@@ -1311,6 +1312,7 @@ h2{
     margin: 30px 0px;
     font-size: 32px;
     font-weight: 900;
+    padding:35px 0 5px 0;
 }
 
 .cloud-hosted-piwigo p{
