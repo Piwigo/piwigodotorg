@@ -1195,10 +1195,12 @@ h2{
 
 .row-download-piwigo p {
     font-size: 16px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-weight: 700;
     line-height: 28px;
     transition: all 1s;
+    padding:0 30px;
+    margin-bottom:0;
 }
 
  /* Content box */
@@ -1274,22 +1276,23 @@ h2{
    color:#eb8400;
  }
 
- .self-hosted-piwigo h2, .self-hosted-piwigo p, .btn-download-piwigo {
+ .self-hosted-piwigo h2, .btn-download-piwigo {
     padding-top: 30px;
  }
 
  .self-hosted-piwigo div.row {
-    margin-top: 40px;
+    margin-top: 30px;
  }
 
 .self-hosted-piwigo div.row a {
     color: #eb8400;
     text-decoration: none;
+    font-weight:700;
 }
 
 #self-hosted-illustration{
   width:250px;
-  margin-top:40px;
+  margin-top:30px;
 }
 
 /* Cloud hosted piwigo section */
@@ -1298,7 +1301,7 @@ h2{
     background-color: #ffd6e0;
 }
 
-.cloud-hosted-piwigo h2, .cloud-hosted-piwigo p {
+.cloud-hosted-piwigo h2 {
     padding-top: 30px;
 }
 
@@ -1320,12 +1323,13 @@ h2{
 }
 
 .cloud-hosted-piwigo div.row {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .cloud-hosted-piwigo div.row a {
     color: #ff3362;
     text-decoration: none;
+    font-weight:700;
 }
 
 .btn-cloud-individual img, .btn-cloud-entreprise img {
@@ -1364,7 +1368,7 @@ h2{
 
 #cloud-hosted-illustration{
    width:262px;
-   margin-top:40px;
+   margin-top:30px;
 }
 
 
