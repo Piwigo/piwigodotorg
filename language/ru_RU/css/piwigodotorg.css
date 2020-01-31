@@ -6,6 +6,13 @@
   font-size: 14px;
 }
 
+.cloud-hosted-piwigo {
+    padding-bottom: 50px;
+}
+
+.cloud-hosted-piwigo h2 {
+    margin-bottom: 65px;
+}
 
 .contact-logo {
     height: 220px;

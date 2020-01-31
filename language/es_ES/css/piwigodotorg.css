@@ -2,3 +2,7 @@
     height: 204px;
     background-position: 66% 38px;
 }
+
+.self-hosted-piwigo .btn-download-piwigo {
+    padding-top: 58px;
+}

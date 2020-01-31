@@ -3,6 +3,10 @@
   padding: 15px 18px;
 }
 
+.self-hosted-piwigo .btn-download-piwigo {
+    padding-top: 58px;
+}
+
 .contact-logo {
     height: 204px;
     background-position: 66% 38px;
