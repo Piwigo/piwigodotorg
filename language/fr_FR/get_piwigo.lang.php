@@ -22,6 +22,8 @@ $lang['Blog'] = 'Blog';
 $lang['Piwigo Mobile App'] = 'Application Mobile Piwigo';
 $lang['porg_get_piwigo_mobile_desc1'] = 'Vous utilisez votre téléphone portable comme appareil photo ? Publiez vos photos directement sur Piwigo.';
 $lang['porg_get_piwigo_mobile_desc2'] = 'Vous pouvez aussi naviguer dans votre galerie en plein écran, créer/éditer/déplacer vos albums ou éditer les propriétés de vos photos... du bout des doigts !';
+$lang['Advantages'] = 'Avantages';
+$lang['Clients'] = 'Clients';
 //$lang[''] = '';
 //$lang[''] = '';
 

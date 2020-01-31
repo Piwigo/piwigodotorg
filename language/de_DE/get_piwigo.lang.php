@@ -40,3 +40,6 @@ $lang['porg_get_piwigo_mobile_desc1'] = 'Benutzen Sie Ihr IPhone als Kamera? Ver
 $lang['porg_get_piwigo_mobile_desc2'] = 'Sie können die komplette Gallerie im Vollbildmodus ansehen, Alben erzeugen/bearbeiten/verschieben oder Fotoeigenschaften bearbeiten... nur mit Ihren Fingerspitzen! ';
 $lang['porg_get_piwigo_self_hosted_desc1'] = 'Lassen Sie Piwigo auf Ihrem eigenen Webhost mit PHP und MySQL laufen.';
 $lang['porg_get_piwigo_self_hosted_desc2'] = 'Es entstehen keine Kosten für Piwigo selbst, aber Sie müssen sich selbst um die Aktualisierung von Piwigo kümmern wenn neue Versionen erscheinen, um es sicher und schnell zu halten.';
+$lang['Start free trial'] = 'Starten Sie Ihre kostenlose Testversion';
+$lang['Advantages'] = 'Vorteile';
+$lang['Clients'] = 'Kunden';

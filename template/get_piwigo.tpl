@@ -46,18 +46,18 @@
           <h2>{'Cloud-hosted Piwigo'|translate}</h2>
           <p class="">{'porg_get_piwigo_cloud_hosted_desc1'|translate} {'porg_get_piwigo_cloud_hosted_desc2'|translate} {'porg_get_piwigo_cloud_hosted_desc3'|translate}</p>
           <div class="btn-cloud-hosted-piwigo">
-            <a class="btn" href="https://piwigo.com/pricing"><span class="bold">{'Start free trial'|translate}</span></a>
+            <a class="btn" href="{$PCOM_URL.pricing}"><span class="bold">{'Start free trial'|translate}</span></a>
           </div>
             <img id="cloud-hosted-illustration" src="{$PORG_ROOT_URL}images/get_piwigo/cloud-hosted-illlustration.svg">
           <div class="row">
             <div class="col-md-4 text-right col-xs-4">
-              <a href="https://{$PCOM_PREFIX}piwigo.com/infrastructure">{'Infrastructure'|translate}</a>
+              <a href="{$PCOM_URL.why}">{'Advantages'|translate}</a>
             </div>
             <div class="col-md-4 col-xs-4">
-              <a href="https://{$PCOM_PREFIX}piwigo.com/blog/">{'Blog'|translate}</a>
+              <a href="{$PCOM_URL.blog}">{'Blog'|translate}</a>
             </div>
             <div class="col-md-4 text-left col-xs-4">
-              <a href="https://{$PCOM_PREFIX}piwigo.com/testimonials">{'Testimonials'|translate}</a>
+              <a href="{$PCOM_URL.clients}">{'Clients'|translate}</a>
             </div>
           </div>
         </div>
