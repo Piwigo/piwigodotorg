@@ -257,7 +257,7 @@
           </div>
           <div class="col-xs-6 HowToUse-cloudHosted-text">
             <p>{'porg_whatispiwigo_how_to_desc3'|translate} {'porg_whatispiwigo_how_to_desc4'|translate}</p>
-            <a class="button button2" href="https://piwigo.com/pricing">{'porg_whatispiwigo_test_free'|translate}</a>
+            <a class="button button2" href="{$PCOM_URL.pricing}">{'porg_whatispiwigo_test_free'|translate}</a>
           </div>
         </div>
     </div>
