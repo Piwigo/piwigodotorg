@@ -40,3 +40,7 @@ $lang['porg_get_piwigo_mobile_desc2'] = 'Du kan også gennemse hele dit galleri 
 $lang['porg_get_piwigo_self_hosted_desc1'] = 'Kør Piwigo på din egen webhosting, det kræver PHP og en MySQL-database.';
 $lang['porg_get_piwigo_self_hosted_desc2'] = 'Piwigo koster i sig selv ikke noget, men du er nødt til at opdatere Piwigo når der kommer nye versioner, for at holde det sikkert og hurtigt.';
 $lang['Download<br>Piwigo %s'] = 'Hent<br>Piwigo %s';
+$lang['Advantages'] = 'Fordele';
+$lang['Clients'] = 'Klienter';
+$lang['Start free trial'] = 'Påbegynd gratis prøve';
+$lang['porg_get_piwigo_desc2-2'] = 'eller du kan anvende Piwigo.com\'s cloudservice';
