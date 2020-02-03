@@ -16,6 +16,7 @@ $lang['porg_features_organize_desc3'] = 'Chaque photo peut être associée à pl
 $lang['porg_features_browse_date_desc'] = 'Les appareils photos numériques enregistrent la date dans chaque photo et Piwigo utilise cette date pour afficher votre collection sous forme de calendrier, navigable jour par jour.';
 $lang['porg_features_privacy_desc1'] = 'Rendez vos photos privées puis décidez qui peut les voir.';
 $lang['porg_features_privacy_desc2'] = 'Vous pouvez définir les permissions sur les albums ou les photoso, par utilisateur ou par groupe.';
+$lang['porg_features_see_all_extensions'] = 'Voir toutes les extensions';
 $lang['Geolocate your photos on a map'] = 'Géolocalisez vos photos sur une carte';
 $lang['porg_features_geolocate_desc1'] = 'Piwigo peut lire les coordonnées GPS latitude et longitude à partir des métadonnées.';
 $lang['porg_features_geolocate_desc2'] = 'Puis, grâce au plugin Google Maps ou OpenStreetMap, Piwigo peut afficher vos photos sur une carte interactive.';

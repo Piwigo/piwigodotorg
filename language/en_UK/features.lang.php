@@ -16,6 +16,7 @@ $lang['porg_features_organize_desc3'] = 'Each photo can belong to several albums
 $lang['porg_features_browse_date_desc'] = 'Digital cameras store the date in the photo and Piwigo uses this date to display your photo collection in a calendar and let you browse from day to day.';
 $lang['porg_features_privacy_desc1'] = 'Make your photos private and decide who can see each of them.';
 $lang['porg_features_privacy_desc2'] = 'You can set permissions on albums and photos, for groups or individual users.';
+$lang['porg_features_see_all_extensions'] = 'See all extensions';
 $lang['Geolocate your photos on a map'] = 'Geolocate your photos on a map';
 $lang['porg_features_geolocate_desc1'] = 'Piwigo can read GPS latitude and longitude from embedded metadata.';
 $lang['porg_features_geolocate_desc2'] = 'Then, with plugin for Google Maps or OpenStreetMap, Piwigo can display your photos on an interactive map.';
