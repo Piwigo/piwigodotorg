@@ -4211,6 +4211,55 @@ position: absolute;
 
 .howToUse-Desktop-version{
   display:block;
+@media (max-width: 991px) {
+    .row-whatsispiwigo-individual {
+        height: 600px;
+    }
+
+    .col-whatispiwigo-individual-content h1, .col-whatispiwigo-individual-content p {
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .col-whatispiwigo-individual-content h1 {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+
+    .whatispiwigo-amateur-line {
+        display: none;
+    }
+
+    .whatispiwigo-family-line {
+        display: none;
+    }
+
+    .whatispiwigo-collector-line {
+        display: none;
+    }
+
+    .whatispiwigo-fansite-line {
+        display: none;
+    }
+
+    .whatispiwigo-amateur, .whatispiwigo-family, .whatispiwigo-collector, .whatispiwigo-fansite {
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+
+    .whatispiwigo-amateur p, .whatispiwigo-family p, .whatispiwigo-collector p, .whatispiwigo-fansite p {
+        font-size: 14px;
+    }
+
+    .col-whatispiwigo-individual-logo {
+        height: 475px;
+        margin-top: 100px;
+        background: url(../images/whatispiwigo/individual.svg);
+        background-size: 200px;
+        background-position: center 60%;
+        background-repeat: no-repeat;
+    }
 }
 .whatispiwigo_self_hosted_arguments-mobile, .whatispiwigo_cloud_hosted_arguments-mobile{
   display:none;
