@@ -1535,6 +1535,9 @@ h2{
         padding: 0;
         line-height: normal;
     }
+    #features-main-image{
+        margin-top:50px;
+    }
  }
 
 
@@ -1589,6 +1592,17 @@ h2{
     }
     .features-upload br {
         display: none;
+    }
+    .desktop-display-upload-features{
+        display:none;
+    }
+    .mobile-display-upload-features{
+        display:block;
+        margin-bottom:30px;
+    }
+    .mobile-display-upload-features img{
+        width:50px;
+
     }
  }
 
@@ -1736,7 +1750,7 @@ h2{
 @media (max-width: 991px) {
     .container-fluide-features-batch-manager {
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 90px;
         overflow: hidden;
     }
     .row-features-batch-manager {
@@ -1754,6 +1768,11 @@ h2{
         height: auto;
         margin-left: 0px;
         margin-top: 20px;
+    }
+    .features-batch-manager-text{
+        position:relative;
+        top:inherit;
+        transform:inherit;
     }
 }
 
@@ -1794,8 +1813,8 @@ h2{
 
 @media (max-width: 991px) {
     .container-fluide-features-geolocalisation {
-        margin-top: 0px;
-        margin-bottom: 60px;
+        margin-top: 60px;
+        margin-bottom: 90px;
     }
     .row-features-geolocalisation h1 {
         padding-top: 0px;
@@ -1848,6 +1867,7 @@ h2{
     transition: background-color 0.2s ease-out;
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
+    margin-bottom:30px;
 }
 
 .themes-plugins-content a:hover,
@@ -1877,11 +1897,16 @@ h2{
 }
 
 @media (max-width: 991px) {
-    .features-puzzle-right, .features-puzzle-left {
+    .features-paintbrush, .features-puzzle{
         display: none;
     }
-    .features-paintbrush img{
-        margin-top:0;
+    #features-bottom-purple-wave{
+        height:60px;
+        object-fit:cover;
+        overflow:hidden;
+    }
+    #features-bottom-purple-wave img{
+        height:100%;
     }
 }
 
@@ -1974,8 +1999,8 @@ h2{
         padding-bottom: 15px;
     }
     .container-fluide-users-management {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 60px;
+        margin-bottom: 90px;
         box-shadow: 0 0 0;
     }
     .pwg-features-users-management-screen img {
@@ -2019,6 +2044,7 @@ h2{
 .row-api {
     padding-top: 0;
     padding-bottom: 0;
+    margin:0;
 }
 
 .row-api img {
@@ -2043,6 +2069,9 @@ h2{
     }
     .row-api img {
         margin-top: 30px;
+    }
+    .container-fluide-api h2{
+        margin-top:30px;
     }
 }
 
@@ -2106,6 +2135,15 @@ h2{
         width: 100%;
         height: auto;
     }
+    .pwg-great-place{
+        position:relative;
+        top:inherit;
+        transform:inherit;
+    }
+    .pwg-great-place-img{
+        float:none;
+        margin-bottom:90px;
+    }
 }
 
  /* Piwigo configuration */
@@ -2160,7 +2198,9 @@ h2{
     }
 
     .pwg-configuration-logo img {
-        margin-top: 0px;
+        margin-top:30px;
+        margin-bottom:60px;
+        width:80%;
     }
 
 }

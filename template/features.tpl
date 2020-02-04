@@ -5,7 +5,7 @@
         <p>{'porg_features_desc1'|translate} {'porg_features_desc2'|translate} {'porg_features_desc3'|translate}</p>
       </div>
       <div class="col-md-6 text-center ">
-        <img src="{$PORG_ROOT_URL}images/features/features-first-image.svg"/>
+        <img id="features-main-image" src="{$PORG_ROOT_URL}images/features/features-first-image.svg"/>
       </div>
     </div>
   </section>
@@ -137,7 +137,9 @@ tags to reduce the selection.</p>
       </div>
     </div>
   </section>
- <img src="{$PORG_ROOT_URL}images/features/themes-and-plugins-bottom-wave.svg">
+  <div id="features-bottom-purple-wave">
+    <img  src="{$PORG_ROOT_URL}images/features/themes-and-plugins-bottom-wave.svg">
+  </div>
 
   <section class="container-fluide container-fluide-features-great-place">
     <div class="container">
