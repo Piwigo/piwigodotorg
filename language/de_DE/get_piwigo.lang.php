@@ -43,3 +43,4 @@ $lang['porg_get_piwigo_self_hosted_desc2'] = 'Es entstehen keine Kosten für Piw
 $lang['Start free trial'] = 'Starten Sie Ihre kostenlose Testversion';
 $lang['Advantages'] = 'Vorteile';
 $lang['Clients'] = 'Kunden';
+$lang['porg_get_piwigo_desc2-2'] = 'oder Sie können den Piwigo.com Cloudservice benutzen.';
