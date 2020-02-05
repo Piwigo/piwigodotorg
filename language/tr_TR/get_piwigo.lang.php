@@ -40,3 +40,8 @@ $lang['porg_get_piwigo_cloud_hosted_desc3'] = 'Ayrıca Piwigo\'nun yapımcılar�
 $lang['Enterprises'] = 'Şirketler';
 $lang['porg_get_piwigo_cloud_hosted_desc1'] = 'Piwigo.com ile ilerlemeye karar verdiyseniz teknik görevleri unutun.';
 $lang['Download<br>Piwigo %s'] = 'Piwigo <br> %s İndir';
+$lang['Advantages'] = 'Avantajlar';
+$lang['Clients'] = 'Müşteriler';
+$lang['Start free trial'] = 'Ücretsiz deneme sürümü başlat';
+$lang['porg_get_piwigo_desc2-2'] = 'veya Piwigo.com bulut sistemini kullanabilirsiniz.
+';
