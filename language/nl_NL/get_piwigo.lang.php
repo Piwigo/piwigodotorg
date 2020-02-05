@@ -40,3 +40,7 @@ $lang['porg_get_piwigo_desc3'] = 'In beide gevallen blijft u eigenaar van uw geg
 $lang['porg_get_piwigo_mobile_desc1'] = 'Gebruikt u uw iPhone als camera? Publiceer uw foto\'s rechtstreeks van uw smartphone naar uw Piwigo.';
 $lang['Blog'] = 'Blog';
 $lang['Download<br>Piwigo %s'] = 'Download<br>Piwigo %s';
+$lang['Advantages'] = 'Voordelen';
+$lang['Clients'] = 'Klanten';
+$lang['Start free trial'] = 'Start gratis proefperiode';
+$lang['porg_get_piwigo_desc2-2'] = 'of je kunt de Piwigo cloud-service gebruiken';
