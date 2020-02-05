@@ -43,3 +43,4 @@ $lang['Download<br>Piwigo %s'] = 'Descarga<br>Piwigo %s';
 $lang['Start free trial'] = 'Empiece su prueba gratuita';
 $lang['Advantages'] = 'Ventajas';
 $lang['Clients'] = 'Clientes';
+$lang['porg_get_piwigo_desc2-2'] = 'o puede usar el servicio en la nube Piwigo.com.';
