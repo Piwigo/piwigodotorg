@@ -1694,6 +1694,14 @@ h2{
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .features-file h2, .features-calendar h2, .features-lock h2 {
+        margin:15px 0;
+    }
+    .features-file p, .features-calendar p, .features-lock p{
+        margin:0;
+        padding:0 20px;
+        padding-bottom:80px;
+    }
 }
 
 .features-file, .features-calendar, .features-lock{
@@ -1704,6 +1712,12 @@ h2{
     max-width:80%;
     height:300px;
     object-fit:contain;
+}
+
+@media(max-width:991px){
+    .features-file img, .features-calendar img, .features-lock img{
+        max-width:60%;
+    }
 }
 
 /* Features Batch Manager */
@@ -1781,6 +1795,10 @@ h2{
 .container-fluide-features-geolocalisation {
     margin-top: 50px;
     margin-bottom: 50px;
+    position:relative;
+}
+
+.container-fluide-features-geolocalisation .container{
     position:relative;
 }
 
@@ -1867,7 +1885,7 @@ h2{
     transition: background-color 0.2s ease-out;
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
-    margin-bottom:30px;
+    margin:30px 0;
 }
 
 .themes-plugins-content a:hover,
@@ -1952,11 +1970,22 @@ h2{
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .features-easy-install h2, .features-great-place h2, .features-metadata h2{
+        margin:15px 0;
+    }
+    .features-easy-install p, .features-great-place p, .features-metadata p{
+        margin:0;
+        padding:0 20px;
+        padding-bottom:80px;
+    }
+    .features-easy-install img, .features-great-place img, .features-metadata img{
+        max-width:60%;
+    }
 }
 
 /* Features Users Management */
 
-.container-fluide-users-management{
+.container-fluide-users-management .container{
     position:relative;
 }
 
@@ -2023,14 +2052,10 @@ h2{
     background-color: #272822;
 }
 
-.container-fluide-api .container{
-    padding:50px 0;
-}
-
 .container-fluide-api h2 {
     font-weight: bold;
     font-size: 28px;
-    color: #ffffff;
+    color: #E61C57;
     margin-top: 65px;
 }
 
@@ -2045,6 +2070,10 @@ h2{
     padding-top: 0;
     padding-bottom: 0;
     margin:0;
+}
+
+.row-api .col-md-6:first-child{
+    padding-right:80px;
 }
 
 .row-api img {
@@ -2072,6 +2101,9 @@ h2{
     }
     .container-fluide-api h2{
         margin-top:30px;
+    }
+    .row-api .col-md-6:first-child{
+        padding:20px;;
     }
 }
 
