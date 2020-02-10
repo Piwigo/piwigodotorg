@@ -73,19 +73,22 @@ tags to reduce the selection.</p>
 <div class="features-third-section">
   <section class="container">
     <div class="row features-elements">
+      <div class="featuresPageOrganizeShareTitle">
+        <h2>{'Porg-Features-OrganizeSharePhotos'|translate}</h2>
+      </div>
       <div class="col-md-4 features-file">
         <img src="{$PORG_ROOT_URL}images/features/organize-album.svg"/>
-        <h2>{'Organize with Album'|translate}</h2>
+        <h3>{'Organize with Album'|translate}</h3>
         <p>{'porg_features_organize_desc1'|translate} {'porg_features_organize_desc2'|translate} {'porg_features_organize_desc3'|translate}</p>
       </div>
       <div class="col-md-4 features-calendar">
         <img src="{$PORG_ROOT_URL}images/features/browse-date.svg"/>
-        <h2>{'Browse by Dates'|translate}</h2>
+        <h3>{'Browse by Dates'|translate}</h3>
         <p>{'porg_features_browse_date_desc'|translate}</p>
       </div>
       <div class="col-md-4 features-lock">
         <img src="{$PORG_ROOT_URL}images/features/privacy.svg"/>
-        <h2>{'Privacy on your Photos'|translate}</h2>
+        <h3>{'Privacy on your Photos'|translate}</h3>
         <p>{'porg_features_privacy_desc1'|translate} {'porg_features_privacy_desc2'|translate}</p>
       </div>
     </div>
@@ -159,19 +162,22 @@ tags to reduce the selection.</p>
   <div class ="features-elements-container">
     <section class="container">
       <div class="row features-elements feature-elements-part-two">
+        <div class="featuresAdvantagesTitle">
+          <h2>{'Porg-Features-Advantages'|translate}</h2>
+        </div>
         <div class="col-md-4 features-easy-install">
           <img src="{$PORG_ROOT_URL}images/features/installation.svg"/>
-          <h2>{'Easy installation and updates'|translate}</h2>
+          <h3>{'Easy installation and updates'|translate}</h3>
           <p>{'porg_features_easy_install_desc1'|translate} {'porg_features_easy_install_desc2'|translate}</p>
         </div>
         <div class="col-md-4 features-great-place">
           <img src="{$PORG_ROOT_URL}images/features/visitors.svg"/>
-          <h2>{'A great place for your visitors'|translate}</h2>
+          <h3>{'A great place for your visitors'|translate}</h3>
           <p>{'porg_features_great_place_desc'|translate}</p>
         </div>
         <div class="col-md-4 features-metadata">
           <img src="{$PORG_ROOT_URL}images/features/metadata.svg"/>
-          <h2>{'Import automatic your metadata'|translate}</h2>
+          <h3>{'Import automatic your metadata'|translate}</h3>
           <p>{'porg_features_metadata_desc'|translate}</p>
         </div>
       </div>

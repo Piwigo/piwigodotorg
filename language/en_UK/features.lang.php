@@ -7,6 +7,7 @@ $lang['Upload your photos'] = 'Upload your photos';
 $lang['porg_features_upload_desc'] = 'You can add photos with the web form, any FTP client or<br>a desktop application like digiKam, Shotwell, Lightroom or<br>mobile applications.';
 $lang['Batch Manager'] = 'Batch Manager';
 $lang['porg_features_batch_manager_desc'] = 'Filter photos from your collection, make a selection and apply actions in batch: change the author, add some tags, associate to a new album, set geolocation...';
+$lang['Porg-Features-OrganizeSharePhotos'] = 'Organize and share your photos';
 $lang['Organize with Album'] = 'Organize with Album';
 $lang['Browse by Dates'] = 'Browse by Dates';
 $lang['Privacy on your Photos'] = 'Privacy on your Photos';
@@ -26,6 +27,7 @@ $lang['porg_features_plugins_desc3'] = 'Extensions require just a few clicks to 
 $lang['porg_features_plugins_desc4'] = '<span class="bold">350 extensions</span> available, and growing!';
 $lang['Full screen slideshow'] = 'Full screen slideshow';
 $lang['porg_features_slideshow_desc'] = 'With the Fotorama plugin, or specific themes such as Bootstrap Darkroom, you can experience the full screen slideshow.';
+$lang['Porg-Features-Advantages'] = 'The advantages of Piwigo';
 $lang['Easy installation and updates'] = 'Easy installation and updates';
 $lang['A great place for your visitors'] = 'A great place for your visitors';
 $lang['Import automatic your metadata'] = 'Import automatic your metadata';
