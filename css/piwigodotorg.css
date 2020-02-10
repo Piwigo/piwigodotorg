@@ -1554,7 +1554,6 @@ h2{
     margin-top: 100px;
  }
 
-
  .features-upload h2, .row-features-geolocalisation h2{
     font-weight: bold;
     font-size: 28px;
@@ -1562,10 +1561,13 @@ h2{
  }
 
  .features-upload p, .row-features-batch-manager p{
-    font-weight: 600;
-    font-size: 15px;
-    margin-bottom: 20px;
-    color:#333;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+    color: #3c3c3c;
+    font-weight: 700;
+    margin-bottom: 0;
  }
 
  .features-upload .upload-screenshot,  .features-type{
@@ -1666,7 +1668,15 @@ h2{
     background-color:#FFEACF;
 }
 
-.features-file h2, .features-calendar h2, .features-lock h2{
+.featuresPageOrganizeShareTitle h2{
+    color: #eb8400;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.features-file h3, .features-calendar h3, .features-lock h3{
     color: #eb8400;
     text-align: center;
     margin: 30px 0px;
@@ -1700,7 +1710,10 @@ h2{
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    .features-file h2, .features-calendar h2, .features-lock h2 {
+    .featuresPageOrganizeShareTitle h2{
+        font-size:25px;
+    }
+    .features-file h3, .features-calendar h3, .features-lock h3 {
         margin:15px 0;
     }
     .features-file p, .features-calendar p, .features-lock p{
@@ -1809,10 +1822,13 @@ h2{
 }
 
 .row-features-geolocalisation p {
-    font-weight: 600;
-    font-size: 15px;
-    margin-bottom: 20px;
-    color:#333;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+    color: #3c3c3c;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .pwg-features-geolocalisation-screen {
@@ -1875,12 +1891,19 @@ h2{
 }
 
 .themes-plugins-content h2 {
-    font-size: 36px;
-    font-weight: bold;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .themes-plugins-content p {
-    font-size: 20px;
+    font-size: 16px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+    font-weight: 700;
 }
 
 .themes-plugins-content a {
@@ -1932,11 +1955,22 @@ h2{
     #features-bottom-purple-wave img{
         height:100%;
     }
+    .themes-plugins-content h2{
+        font-size:25px;
+    }
 }
 
 /* Features Language - Slide show - Management Tools */
 
-.features-easy-install h2, .features-great-place h2, .features-metadata h2 {
+.featuresAdvantagesTitle h2{
+    color: #286aac;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.features-easy-install h3, .features-great-place h3, .features-metadata h3 {
     color: #286aac;
     text-align: center;
     margin: 30px 0px;
@@ -1976,7 +2010,10 @@ h2{
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    .features-easy-install h2, .features-great-place h2, .features-metadata h2{
+    .featuresAdvantagesTitle h2{
+        font-size: 25px;
+    }
+    .features-easy-install h3, .features-great-place h3, .features-metadata h3{
         margin:15px 0;
     }
     .features-easy-install p, .features-great-place p, .features-metadata p{
@@ -1993,6 +2030,7 @@ h2{
 
 .container-fluide-users-management .container{
     position:relative;
+    margin-top:40px;
 }
 
 .pwg-features-users-management-screen-text-desktop{
@@ -2009,10 +2047,14 @@ h2{
 }
 
 .row-features-users-management p {
-    font-weight: 600;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+    color: #3c3c3c;
+    font-weight: 700;
     margin-bottom: 20px;
-    color: #333;
+}
 }
 
 .pwg-features-users-management-screen {
@@ -2142,10 +2184,13 @@ h2{
 }
 
  .pwg-great-place p {
-    font-weight: 600;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+    color: #3c3c3c;
+    font-weight: 700;
     margin-bottom: 20px;
-    color: #333;
 }
 
 .pwg-great-place-img {
