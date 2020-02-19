@@ -786,16 +786,17 @@ h2{
     color: #000000;
     font-size: 20px;
     font-weight: bold;
+    margin:15px 0;
 }
 
 .fact-content p {
-    padding: 20px;
+    padding:0 20px;
     font-size:16px;
     line-height:1.75em;
     margin-top: 20px;
     color: #3c3c3c;
     font-weight: 700;
-    margin-bottom: 0;
+    margin-bottom: 80px;
 }
 
 .homepage-batch-manager-image {
