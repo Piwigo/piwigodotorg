@@ -1,0 +1,18 @@
+In the mixitup.js file all functions that deal with [data-toggle] attributes have been commented to stop the showcase gallery images from having a display none forced on them when a dropdown from the main menu (ex:the discvover dropdown) is toggled.
+
+Here are the lines that have been commented:
+
+Line 4098: 
+mixitup.controlDefinitions.push(new mixitup.ControlDefinition('toggle', '[data-toggle]'));
+
+Line 4164+4165:
+case 'toggle':
+self.filter = self.el.getAttribute('data-toggle');
+
+Line 4342+4343:
+case 'toggle':
+command.filter  = self.filter || button.getAttribute('data-toggle');
+
+Line 4480+4481:
+case 'toggle':
+actions.filter  = button.getAttribute('data-toggle');

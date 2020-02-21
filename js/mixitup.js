@@ -4095,7 +4095,7 @@
     mixitup.controlDefinitions.push(new mixitup.ControlDefinition('multimix', '[data-filter][data-sort]'));
     mixitup.controlDefinitions.push(new mixitup.ControlDefinition('filter', '[data-filter]'));
     mixitup.controlDefinitions.push(new mixitup.ControlDefinition('sort', '[data-sort]'));
-    mixitup.controlDefinitions.push(new mixitup.ControlDefinition('toggle', '[data-toggle]'));
+   // mixitup.controlDefinitions.push(new mixitup.ControlDefinition('toggle', '[data-toggle]'));
 
     /**
      * @constructor
@@ -4161,8 +4161,8 @@
                         self.filter = self.el.getAttribute('data-filter');
 
                         break;
-                    case 'toggle':
-                        self.filter = self.el.getAttribute('data-toggle');
+                   /* case 'toggle':
+                        self.filter = self.el.getAttribute('data-toggle');*/
 
                         break;
                     case 'sort':
@@ -4339,8 +4339,8 @@
                     command.sort    = self.sort || button.getAttribute('data-sort');
 
                     break;
-                case 'toggle':
-                    command.filter  = self.filter || button.getAttribute('data-toggle');
+                /*case 'toggle':
+                    command.filter  = self.filter || button.getAttribute('data-toggle');*/
 
                     if (self.status === 'live') {
                         isActive = h.hasClass(button, self.classNames.active);
@@ -4477,8 +4477,8 @@
                         actions.sort    = button.getAttribute('data-sort');
 
                         break;
-                    case 'toggle':
-                        actions.filter  = button.getAttribute('data-toggle');
+                    /*case 'toggle':
+                        actions.filter  = button.getAttribute('data-toggle');*/
 
                         break;
                 }
