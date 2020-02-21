@@ -99,6 +99,7 @@
             <li><a href="{$PORG_ROOT}{$URL.features}">{'Features'|translate}</a></li>
             <li><a href="{$PORG_ROOT}{$URL.changelogs}">{'Changelogs'|translate}</a></li>
             <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.showcases}">{'Showcases'|translate}</a></li>
           </ul>
         </li>
         <li class=""><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext"><i class="icon-puzzle"></i>{'Extensions'|translate}</a></li>
