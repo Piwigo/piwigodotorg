@@ -6,8 +6,8 @@
       <div class="row equal">
         <div class="col-xs-12 col-sm-12 col-md-6 showcase-text-intro-container">
           <div class="showcase-text-intro">
-            <h1>Piwigo showcases</h1>
-            <p>Discover unique personnalised piwigo galleries of our users</p>
+            <h1>Piwigo users have talent!</h1>
+            <p>Discover on this page some photo libraries and public galleries created with Piwigo.</p>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
@@ -22,13 +22,14 @@
   <button class="filter-btn" data-filter=".travel-and-tourism">Travel & Tourism</button>
   <button class="filter-btn" data-filter=".public-sector">Public Sector</button>
   <button class="filter-btn" data-filter=".companies">Companies</button>
+  <button class="filter-btn" data-filter=".sports-and-leisure">Sports and leisure</button>
   <button class="filter-btn" data-filter=".photographers-and-private-users">Photographers & Private Users</button>
 </div>    
   
 
 <div class="showcases row" id="mix-wrapper">
 
-  <div class="mix-target travel-and-tourism col-md-4">
+  <div class="mix-target sports-and-leisure col-md-4">
    <a href="#3vallees-img">
       <img src="{$PORG_ROOT_URL}images/showcases/societe3vallees.jpg">
     </a>
@@ -36,11 +37,11 @@
       <div href="#_" class="close"></div>
       <img src="{$PORG_ROOT_URL}images/showcases/societe3vallees.jpg">
     </a>
-    <p class="showcase-caption"> société des 3 vallées</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
+    <p class="showcase-caption">Société des 3 vallées</p>
+
   </div>
   
-  <div class="mix-target travel-and-tourism col-md-4">
+  <div class="mix-target sports-and-leisure col-md-4">
    <a href="#oceanopolis-img">
       <img src="{$PORG_ROOT_URL}images/showcases/oceanopolis.jpg">
     </a>
@@ -49,7 +50,6 @@
       <img src="{$PORG_ROOT_URL}images/showcases/oceanopolis.jpg">
     </a>
     <p class="showcase-caption">Océanopolis Brest</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target public-sector col-md-4">
@@ -59,11 +59,10 @@
        <p>Visit Gallery</p>
        </a>
     </div>
-    <p class="showcase-caption">Departmental Council of the haute Garonne</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
+    <p class="showcase-caption">Conseil départemantale de la Haute Garonne</p>
   </div>
 
-  <div class="mix-target public-sector col-md-4">
+  <div class="mix-target sports-and-leisure col-md-4">
    <a href="#ffn-img">
       <img src="{$PORG_ROOT_URL}images/showcases/ffn.jpg">
     </a>
@@ -72,10 +71,9 @@
       <img src="{$PORG_ROOT_URL}images/showcases/ffn.jpg">
     </a>
     <p class="showcase-caption">Fédération française de natation</p>
-     <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
-  </div>
+  </div> 
 
-  <div class="mix-target public-sector col-md-4">
+  <div class="mix-target companies col-md-4">
     <div class="showcase-image-link-container">
       <a class="showcase-gallery-link" href="https://photos.icam.fr/" target="blank">
         <img src="{$PORG_ROOT_URL}images/showcases/icam.jpg">
@@ -83,7 +81,6 @@
       </a>
     </div>
     <p class="showcase-caption">Institut catholique d'arts et métiers</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target public-sector col-md-4">
@@ -93,8 +90,7 @@
         <p>Visit Gallery</p>
       </a>
     </div>
-    <p class="showcase-caption">Town of Arles</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
+    <p class="showcase-caption">Ville d'Arles</p>
   </div>
 
   <div class="mix-target companies col-md-4">
@@ -106,7 +102,6 @@
       <img src="{$PORG_ROOT_URL}images/showcases/ect.jpg">
     </a>
     <p class="showcase-caption">Groupe ECT</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target travel-and-tourism col-md-4">
@@ -118,7 +113,6 @@
       <img src="{$PORG_ROOT_URL}images/showcases/parcdeslandesdegascogne.jpg">
     </a>
     <p class="showcase-caption">Parc naturel régional des Landes de Gascogne</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target public-sector col-md-4">
@@ -129,8 +123,7 @@
       <div href="#_" class="close"></div>
       <img src="{$PORG_ROOT_URL}images/showcases/indre.jpg">
     </a>
-    <p class="showcase-caption">Indre County Council</p>
-    <p class="showcase-resume">A cheaper and easier to use photo library for the Indre County Council</p>
+    <p class="showcase-caption">Conseil départemental d'indre</p>
   </div>
 
   <div class="mix-target photographers-and-private-users col-md-4">
@@ -141,7 +134,6 @@
       </a>
     </div>
     <p class="showcase-caption">Guillaume Cyriaque, Photograph</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target travel-and-tourisme col-md-4">
@@ -152,7 +144,6 @@
       </a>
     </div>
     <p class="showcase-caption">Eh Canada</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target photographers-and-private-users col-md-4">
@@ -163,10 +154,9 @@
       </a>
     </div>
     <p class="showcase-caption">Neial Fitzgerald, Photograph</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
-  <div class="mix-target companies col-md-4">
+  <div class="mix-target sports-and-leisure col-md-4">
     <div class="showcase-image-link-container">
       <a class="showcase-gallery-link" href="http://www.dongshawhwei.com/" target="blank">
         <img src="{$PORG_ROOT_URL}images/showcases/dongshaw.jpg">
@@ -174,7 +164,6 @@
       </a>
     </div>
     <p class="showcase-caption">The art of Dong Shaw</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target photographers-and-private-users col-md-4">
@@ -185,7 +174,6 @@
       </a>
     </div>
     <p class="showcase-caption">Macro Gallery</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target photographers-and-private-users col-md-4">
@@ -196,7 +184,6 @@
       </a>
     </div>
     <p class="showcase-caption">Instant Photos</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target photographers-and-private-users col-md-4">
@@ -207,7 +194,6 @@
       </a>
     </div>
     <p class="showcase-caption">Milo Photographie</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target photographers-and-private-users col-md-4">
@@ -218,7 +204,6 @@
       </a>
     </div>
     <p class="showcase-caption">Photolib</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
   <div class="mix-target photographers-and-private-users col-md-4">
@@ -229,7 +214,6 @@
       </a>
     </div>
     <p class="showcase-caption">Steve Raia</p>
-    <p class="showcase-resume">Discover unique personnalised piwigo galleries of our users</p>
   </div>
 
 </div>
