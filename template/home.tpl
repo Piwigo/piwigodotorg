@@ -173,7 +173,7 @@ $(document).ready(function() {
 
       <div class="row text-center showcase-refresh">
         <div class="col-md-7 col-xs-12 showcase-button">
-            <a type="button" class="btn btn-view-more-showcases" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/showcase/">{'View more showcases'|translate}</a>
+            <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.showcases}">{'View more showcases'|translate}</a>
         </div>
         <div class="col-md-5 col-xs-12 btn-refresh">
             <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
