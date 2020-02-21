@@ -2056,7 +2056,7 @@ h2{
     font-weight: 700;
     margin-bottom: 20px;
 }
-}
+
 
 .pwg-features-users-management-screen {
     overflow: visible;
@@ -4424,111 +4424,224 @@ position: absolute;
  * Piwigo Showcases CSS *
  ************************/
 
-.pwg-showcases {
-    background-color: #54616f;
-    overflow: hidden;
+.pwg-showcases-content{
+    text-align:center;
+    margin:30px 0;
 }
 
-.pwg-showcases-content {
-    background: url(../images/showcases/banner_showcases.svg);
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: right;
+.showcase-text-intro-container{
+    text-align:left;
+    position:relative;
 }
 
-@media (max-width: 991px) {
-    .pwg-showcases-content  {
-        background: unset;
-    }
+.showcase-text-intro{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
 }
 
-.pwg-showcases-content h1, .pwg-showcases-content p {
-    color: #FFFFFF;
-}
-
-.pwg-showcases-content h1 {
-    padding-bottom: 10px;
-}
-
-.pwg-showcases-content p {
-    font-size: 18px;
-}
-
-.navbar-navigation-showcases {
-    background-color: #54616f;
-}
-
-.navbar-navigation-showcases .page-link,
-.navbar-navigation-showcases .page-link:active,
-.navbar-navigation-showcases .page-link:hover,
-.navbar-navigation-showcases .page-link:focus {
-    color: #54616F;
-}
-
-.navbar-type-showcases {
-    padding-top: 6px;
-}
-
-.row-navbar-showcases {
+.showcase-text-intro h1{
     margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 76px;
+    transition: all 1s;
 }
 
-.row-navbar-showcases .stylish-input-group input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #54616f;
+.showcase-text-intro p{
+    color: #7e7e7e;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
 }
 
-.row-navbar-showcases .stylish-input-group input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #54616f;
+.filter-container{
+    margin:50px 0;
+    text-align:center;
 }
 
-.row-navbar-showcases .stylish-input-group input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #54616f;
+.showcase-illustration{
+    width:50%;
 }
 
-.row-navbar-showcases .stylish-input-group input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #54616f;
+.filter-container button{
+    border:1px solid #6CADD9;
+    background-color:transparent;
+    color:#6CADD9;
+    padding:10px 15px;
+    border-radius:20px;
+    font-weight:700;
+    margin:15px 5px;
+    transition: background-color 0.2s ease-out;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+}
+.filter-container button:hover{
+    background-color:#ebf5ff;
+    color:#6CADD9;
+    border:1px solid #ebf5ff;
 }
 
-.row-navbar-showcases .stylish-input-group input::-ms-input-placeholder { /* Microsoft Edge */
-    color: #54616f;
+.showcase-gallery-link{
+    text-align:center;
 }
 
-.navbar-type-showcases .nav-link {
-    margin-right: 10px;
-    margin-left: 10px;
-    color: #54616f;
+.showcase-caption{
+    font-weight:700;
+    color:#7e7e7e;
+    margin-bottom:20px;
 }
 
-.navbar-type-showcases .nav-link:hover, .navbar-type-showcases .nav-link:focus {
-    color: #54616f;
+.showcase-resume{
+    margin-bottom:40px;
+    color:#7e7e7e;
 }
 
-.navbar-type-showcases a {
-    margin-right: 10px;
-    margin-left: 10px;
+#mix-wrapper{
+    position:relative;
+    display:block;
+    padding:0 15px;
 }
 
-@media (max-width: 991px) {
-    .navbar-type-showcases {
-        margin-bottom: 20px;
+.mix-target{
+    transition: background-color 0.2s ease-out;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    position:relative;
+    display:block;
+}
+
+.mix-target img{
+    width:100%;
+    margin:15px 0;
+}
+
+.mix-target .showcase-gallery-link p{
+    position:absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color:white;
+    padding:10px 15px;
+    background-color:#ff7700;
+    text-align:center;
+    display:none;    
+}
+
+.mix-target a:hover img{
+    box-shadow:0 0 10px #8f8f8f;
+}
+
+.mix-target a:hover p{
+    display:block;
+}
+
+.lightbox{
+    display:none;
+    position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+    width:50%;
+    height:auto;
+    position: absolute;
+    left: 25%;
+    box-shadow:none!important;
+    margin:65px 0;
+}
+
+.lightbox:target{
+	outline: none;
+	display: block;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    color:white;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: white;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+
+  .showcase-directory-link{
+      text-align:center;
+      background-color: #F8F8F8;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .showcase-directory-link p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #7e7e7e;
+    margin: 30px 0;
+  }
+
+  .showcase-image-link-container{
+      position:relative;
+  }
+
+  @media (max-width:991px){
+    .showcase-text-intro{
+        position:relative;
+        top:inherit;
+        transform:inherit;
     }
-}
-
-.pwg-showcases-row {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.pwg-showcases-row > div.col-md-4 {
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-
-.pwg-showcases-block {
-    height: 250px;
-    background-color: #F4F4F4;
-}
+    .showcase-text-intro-container{
+        text-align:center;
+    }
+    .showcase-illustration{
+        width:90%;
+    }
+    .showcase-text-intro h1{
+        text-align: left;
+        font-weight: 900;
+        line-height: 40px;
+        padding: 0;
+        font-size: 30px;
+    }
+    .showcase-text-intro p{
+        font-size: 16px;
+        margin-top: 40px;
+        margin-bottom:40px;
+        text-align: left;
+        padding: 0;
+        line-height: normal;
+    }
+  }
 
 /***************************
  * Piwigo Get Involved CSS *
