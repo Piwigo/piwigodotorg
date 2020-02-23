@@ -60,3 +60,6 @@ $lang['Easy installation and updates'] = 'Installazione e aggiornamenti semplifi
 $lang['Batch Manager'] = 'Gestione batch';
 $lang['API'] = 'API';
 $lang['A great place for your visitors'] = 'Strumenti per sedurre i tuoi utenti';
+$lang['Porg-Features-Advantages'] = 'I vantaggi di Piwigo';
+$lang['Porg-Features-OrganizeSharePhotos'] = 'Organizza e condividi le tue foto';
+$lang['porg_features_see_all_extensions'] = 'Vedi tutte le estensioni';
