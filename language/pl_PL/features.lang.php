@@ -60,3 +60,6 @@ $lang['porg_features_organize_desc1'] = 'Przenoś swoje zdjęcia pomiędzy swoim
 $lang['porg_features_privacy_desc2'] = 'Możesz ustawić uprawnienia na album lub na zdjęcia, dla grup lub indywidualnych użytkowników.';
 $lang['porg_features_slideshow_desc'] = 'Z dodatkiem Fotorama, lub wybranymi tematami jak Bootstrap Darkroom, możesz oglądać pełnoekranowe pokazy zdjęć.';
 $lang['porg_features_user_management_desc3'] = 'Idealny dla Twojego zespołu!';
+$lang['Porg-Features-Advantages'] = 'Zalety Piwigo';
+$lang['Porg-Features-OrganizeSharePhotos'] = 'Organizuj i udostępniaj zdjęcia';
+$lang['porg_features_see_all_extensions'] = 'Zobacz wszystkie rozszerzenia';
