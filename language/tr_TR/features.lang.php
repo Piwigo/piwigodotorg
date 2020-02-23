@@ -60,3 +60,6 @@ $lang['porg_features_browse_date_desc'] = 'Dijital fotoğraf makineleri fotoğra
 $lang['porg_features_batch_manager_desc'] = 'Koleksiyonunuzdaki fotoğrafları filtreleyin, bir seçim yapın ve toplu olarak eylemleri uygulayın: yazarı değiştirin, bazı etiketleri ekleyin, yeni bir albüme ilişkilendirin, coğrafi konumu ayarlayın ...';
 $lang['porg_features_api_desc2'] = 'Olabildiğince basit HTTP istekleri ve JSON yanıtları.';
 $lang['porg_features_desc3'] = 'Kodlama takımı fikirleri ve kullanıcı topluluğuyla yapılan görüşmeler sayesinde Piwigo\'ya sürekli olarak yeni özellikler ekleniyor';
+$lang['Porg-Features-Advantages'] = 'Piwigo\'nun avantajları';
+$lang['Porg-Features-OrganizeSharePhotos'] = 'Fotoğraflarınızı organize edin ve paylaşın';
+$lang['porg_features_see_all_extensions'] = 'Tüm eklentilere bakın';
