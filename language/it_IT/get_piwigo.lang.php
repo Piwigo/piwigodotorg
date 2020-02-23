@@ -40,3 +40,7 @@ $lang['porg_get_piwigo_mobile_desc2'] = 'Puoi anche navigare nella tua galleria 
 $lang['porg_get_piwigo_self_hosted_desc1'] = 'Esegui Piwigo sul tuo hosting con PHP e MySQL.';
 $lang['porg_get_piwigo_self_hosted_desc2'] = 'Usa Piwigo gratuitamente ma pianifica di gestire attentamente gli aggiornamenti per mantenere la tua applicazione sicura e veloce.';
 $lang['Download<br>Piwigo %s'] = 'Scarica<br>Piwigo %s';
+$lang['Advantages'] = 'Vantaggi';
+$lang['Clients'] = 'Clienti';
+$lang['Start free trial'] = 'Inizia la prova gratuita';
+$lang['porg_get_piwigo_desc2-2'] = 'oppure puoi usare il servizio cloud Piwigo.com.';
