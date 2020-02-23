@@ -59,3 +59,10 @@ $lang['porg_whatispiwigo_gnu_desc5'] = 'Różnica pomiędzy dwoma znaczeniami an
 $lang['porg_whatispiwigo_gnu_desc6'] = 'Licencja GPL jest otwarta.';
 $lang['porg_whatispiwigo_how_to_desc1'] = 'Możesz pobrać Piwigo z Piwigo<span style="color:#f70;">.org</span> i posiadając wymagane umiejętności, zainstalować na swoim prywatnym serwerze WWW.';
 $lang['porg_whatispiwigo_how_to_desc3'] = 'Piwigo jest również dostępne <em>w postaci usługi</em> na <span style="color:#ff3363">.com</span>: poświęć kilka sekund na otarcie testowego konta i zapomnij o sprawach technicznych przy użytkowaniu Piwigo.';
+$lang['porg_whatispiwigo_download'] = 'Pobierz Piwigo';
+$lang['porg_whatispiwigo_full_autonomy'] = 'Pełna autonomia';
+$lang['porg_whatispiwigo_infinitely_customizable'] = 'Nieskończone możliwości konfiguracji';
+$lang['porg_whatispiwigo_noSkills'] = 'Nie wymaga umiejętności technicznych';
+$lang['porg_whatispiwigo_oneClick'] = 'Instalacja po jednym kliknięciu';
+$lang['porg_whatispiwigo_support'] = 'Zawiera wsparcie, aktualizacje i konserwację';
+$lang['porg_whatispiwigo_test_free'] = 'Przetestuj za darmo';
