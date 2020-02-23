@@ -87,3 +87,6 @@ Piwigo biedt een breed scala aan functies voor elke fotogalerij.';
 $lang['porg_features_desc2'] = 'Veel van de beschikbare functies staan ​​hieronder vermeld.';
 $lang['porg_features_desc3'] = '
 Nieuwe functies worden doorlopend toegevoegd aan Piwigo, vanwege het programmeren van teamideeën en discussies met de gebruikersgemeenschap.';
+$lang['Porg-Features-Advantages'] = 'De voordelen van Piwigo';
+$lang['Porg-Features-OrganizeSharePhotos'] = 'Organiseer en deel foto\'s';
+$lang['porg_features_see_all_extensions'] = 'Bekijk alle extensies';
