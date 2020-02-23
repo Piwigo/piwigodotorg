@@ -60,3 +60,6 @@ $lang['porg_features_api_desc2'] = 'So einfach wie HTTP-Anfragen und JSON-Antwor
 $lang['porg_features_desc2'] = 'Viele verfügbare Features sind unten aufgelistet.';
 $lang['porg_features_easy_install_desc1'] = 'Wir haben Piwigo so entwickelt, dass es sehr einfach zu installieren ist.';
 $lang['porg_features_easy_install_desc2'] = 'Updates erfordern nur einen Klick!';
+$lang['Porg-Features-Advantages'] = 'Die Vorteile von Piwigo';
+$lang['Porg-Features-OrganizeSharePhotos'] = 'Organisieren und teilen Sie Ihre Fotos';
+$lang['porg_features_see_all_extensions'] = 'Alle Erweiterungen anzeigen';
