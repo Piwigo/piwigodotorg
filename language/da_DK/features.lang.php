@@ -60,3 +60,6 @@ $lang['porg_features_browse_date_desc'] = 'Digitalkameraer gemmer datoen i fotog
 $lang['porg_features_desc1'] = 'Piwigo tilbyder et bredt udvalg af funktioner, anvendelige i et ethvert fotogalleri.';
 $lang['porg_features_desc2'] = 'Mange af de tilgængelige funktioner er opremset herunder.';
 $lang['porg_features_desc3'] = 'Nye funktioner føjes løbende til Piwigo, på baggrund af kodeholdets ideer og diskussioner med brugerfællesskabet.';
+$lang['Porg-Features-Advantages'] = 'Fordelene ved Piwigo';
+$lang['Porg-Features-OrganizeSharePhotos'] = 'Organiser og del dine fotografier';
+$lang['porg_features_see_all_extensions'] = 'Se alle udvidelser';
