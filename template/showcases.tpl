@@ -60,7 +60,7 @@
        <p>Visit Gallery</p>
        </a>
     </div>
-    <p class="showcase-caption">Conseil départemantal de la Haute Garonne</p>
+    <p class="showcase-caption">Conseil départemental de la Haute Garonne</p>
     <p class="showcase-resume">Le département de Haute-Garonne a créé sa photothèque avec Piwigo.</p>
   </div>
 

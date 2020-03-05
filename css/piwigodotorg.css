@@ -4471,7 +4471,7 @@ position: absolute;
     right: 0;
 }
 
-.filter-container button{
+.filter-btn{
     border:1px solid #6CADD9;
     background-color:transparent;
     color:#6CADD9;
@@ -4483,10 +4483,16 @@ position: absolute;
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
 }
-.filter-container button:hover{
+.filter-btn:hover, .programs-filter-btn-active{
     background-color:#ebf5ff;
     color:#6CADD9;
     border:1px solid #ebf5ff;
+}
+
+.programs-filter-btn-active{
+    background-color:#ebf5ff!important;
+    color:#6CADD9!important;
+    border:1px solid #ebf5ff!important;
 }
 
 .showcase-gallery-link{
