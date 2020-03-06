@@ -4542,11 +4542,16 @@ position: absolute;
     padding:10px 15px;
     background-color:#ff7700;
     text-align:center;
-    display:none;    
+    display:none; 
+    font-weight:bold;   
 }
 
 .mix-target a img, .mix-target img{
-    box-shadow:0 0 10px #8f8f8f;
+    box-shadow:0 0 10px #ccc;
+}
+
+.mix-target a:hover img {
+    box-shadow:0 0 20px #8f8f8f;
 }
 
 .mix-target a:hover p{
