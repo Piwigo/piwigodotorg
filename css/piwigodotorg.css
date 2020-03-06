@@ -4482,6 +4482,7 @@ position: absolute;
     transition: background-color 0.2s ease-out;
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
+    outline:none;
 }
 .filter-btn:hover, .programs-filter-btn-active{
     background-color:#ebf5ff;
@@ -4524,6 +4525,7 @@ position: absolute;
     position:relative;
     display:block;
     height:440px;
+    margin-bottom:30px;
 }
 
 .mix-target img{
@@ -4557,6 +4559,7 @@ position: absolute;
 .mix-target a:hover p{
     display:block;
 }
+
 
 .lightbox{
     display:none;

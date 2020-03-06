@@ -237,5 +237,17 @@
 
 </section>
 
+  <section class="container-fluide get-started">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>{'Get started with Piwigo'|translate}</h2>
+          <p>{'porg_get_started_desc'|translate}</p>
+          <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">{'Get Piwigo'|translate}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 <script src="{$PORG_ROOT_URL_PLUGINS}js/mixitup.js"></script>
 <script src="{$PORG_ROOT_URL_PLUGINS}js/showcase-javascript-test.js"></script>
