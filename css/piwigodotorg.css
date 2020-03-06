@@ -4545,7 +4545,7 @@ position: absolute;
     display:none;    
 }
 
-.mix-target a:hover img{
+.mix-target a img, .mix-target img{
     box-shadow:0 0 10px #8f8f8f;
 }
 
