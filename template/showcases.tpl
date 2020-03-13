@@ -6,8 +6,8 @@
       <div class="row equal">
         <div class="col-xs-12 col-sm-12 col-md-6 showcase-text-intro-container">
           <div class="showcase-text-intro">
-            <h1>Les utilisateurs de Piwigo ont du talent!</h1>
-            <p>Découvrez sur cette page quelques photothèques et galeries publiques créées avec Piwigo.</p>
+            <h1>{'porg_get_showcase_intro_title'|translate}</h1>
+            <p>{'porg_get_showcase_intro_paragraph'|translate}</p>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
@@ -18,12 +18,12 @@
   </div>
 
 <div class="filter-container">
-  <button class="filter-btn" data-filter="all">Tout</button>
-  <button class="filter-btn" data-filter=".travel-and-tourism">Professionnels du tourisme</button>
-  <button class="filter-btn" data-filter=".public-sector">Institutionnels et collectivités</button>
-  <button class="filter-btn" data-filter=".companies">Entreprises</button>
-  <button class="filter-btn" data-filter=".sports-and-leisure">Sports et loisirs</button>
-  <button class="filter-btn" data-filter=".photographers-and-private-users">Photographes et utilisateurs privés</button>
+  <button class="filter-btn" data-filter="all">{'porg_get_showcase_filter_all'|translate}</button>
+  <button class="filter-btn" data-filter=".travel-and-tourism">{'porg_get_showcase_filter_travel_and_tourism'|translate}</button>
+  <button class="filter-btn" data-filter=".public-sector">{'porg_get_showcase_filter_public_sector'|translate}</button>
+  <button class="filter-btn" data-filter=".companies">{'porg_get_showcase_filter_companies'|translate}</button>
+  <button class="filter-btn" data-filter=".sports-and-leisure">{'porg_get_showcase_filter_sports_and_leisure'|translate}</button>
+  <button class="filter-btn" data-filter=".photographers-and-private-users">{'porg_get_showcase_filter_photographers_and_private_users'|translate}</button>
 </div>    
   
 

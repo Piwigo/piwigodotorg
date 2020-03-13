@@ -1,9 +1,17 @@
 <?php
+$lang['porg_get_showcase_intro_title'] = 'Les utilisateurs de Piwigo ont du talent!';
+$lang['porg_get_showcase_intro_paragraph'] = 'Découvrez sur cette page quelques photothèques et galeries publiques créées avec Piwigo.';
+$lang['porg_get_showcase_filter_all'] = 'Tout';
+$lang['porg_get_showcase_filter_travel_and_tourism'] = 'Professionnels du tourisme';
+$lang['porg_get_showcase_filter_public_sector'] = 'Institutionnels et collectivités';
+$lang['porg_get_showcase_filter_companies'] = 'Entreprises';
+$lang['porg_get_showcase_filter_sports_and_leisure'] = 'Sports et loisirs';
+$lang['porg_get_showcase_filter_photographers_and_private_users'] = 'Photographes et utilisateurs privés';
 
 $lang['porg_showcases_societe3vallees_title'] = 'Société des 3 vallées';
 $lang['porg_showcases_societe3vallees_desc'] = 'La société des 3 vallées, Meribel, Courchevel et la Tania, a choisi Piwigo pour organiser ses médias.';
 $lang['porg_showcases_oceanopolis_title'] = 'Océanopolis Brest';
-$lang['porg_showcases_oceanopolis_desc'] = 'Océanpolis, le célèbre parc aquatique breton, utilise Piwigo pour gérer sa photothèque et sa vidéothèque.';
+$lang['porg_showcases_oceanopolis_desc'] = 'Océanpolis, le célèbre parc de découverte des océans breton, utilise Piwigo pour gérer sa photothèque et sa vidéothèque.';
 $lang['porg_showcases_hautegaronne_title'] = 'Conseil départemental de la Haute Garonne';
 $lang['porg_showcases_hautegaronne_desc'] = 'Le département de Haute-Garonne a créé sa photothèque avec Piwigo.';
 $lang['porg_showcases_ffn_title'] = 'Fédération française de natation';
