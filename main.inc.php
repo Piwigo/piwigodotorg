@@ -102,7 +102,7 @@ function porg_add_methods($arr)
         'porg.home.refresh_showcases',
         'ws_porg_home_refresh_showcases',
         array(
-            'exclude' => array('default'=>null, 'flags'=>WS_PARAM_FORCE_ARRAY, 'type'=>WS_TYPE_ID),
+            'exclude' => array('default'=>null, 'flags'=>WS_PARAM_FORCE_ARRAY),
         ),
         'Refresh showcases thumbnail'
     );

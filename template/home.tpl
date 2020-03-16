@@ -8,6 +8,8 @@ $(document).ready(function() {
         excludes.push(jQuery(this).data('showcaseid'));
       });
 
+      var basesrc = jQuery(".showcases-home").data('basesrc');
+
       $.ajax({
         type: "POST",
         url: "ws.php?method=porg.home.refresh_showcases&format=json",
@@ -19,8 +21,7 @@ $(document).ready(function() {
           var showcases = jQuery.parseJSON(response['result']);
           showcases.forEach(function (item, index) {
             $('.showcase'+(index+1)).data('showcaseid', item.id);
-            $('.showcase'+(index+1)+' a').attr("href", item.tags[0].page_url).attr("title", item.name);
-            $('.showcase'+(index+1)+' a img').attr("src", item.derivatives.large.url);
+            $('.showcase'+(index+1)+' img').attr("src", basesrc+item.id+".jpg").attr("title", item.name);
           });
         },
       });
@@ -160,11 +161,11 @@ $(document).ready(function() {
 
     <div class="row text-center">
       <h2>{'porg_showcase_title'|translate}</h2>
-      <div class="showcases-home">
+      <div class="showcases-home" data-basesrc="{$PORG_ROOT_URL}images/showcases/">
   {foreach from=$SHOWCASES item=showcase name=showcases}
         <div class="col-md-3 col-xs-12 showcases-content">
           <div class="showcase showcase{$smarty.foreach.showcases.iteration}" data-showcaseid="{$showcase.id}">
-            <a href="{$showcase.tags[0].page_url}" title="{$showcase.name}"><img src="{$showcase.derivatives.large.url}" alt="{$showcase.name}"></a>
+            <img src="{$PORG_ROOT_URL}images/showcases/{$showcase.id}.jpg" alt="{$showcase.name}" title="{$showcase.name}">
           </div>
         </div>
   {/foreach}

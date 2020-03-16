@@ -175,42 +175,31 @@ function porg_get_release_tpl($version)
 
 function get_showcases($exclude_ids=array())
 {
-  global $lang_info, $conf, $page;
+  global $user;
 
-  $cache_path = $conf['data_location'].'porg_showcases-'.$lang_info['code'].'.cache.php';
-  if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 hour ago'))
+  include(PORG_PATH . '/data/showcases.data.php');
+
+  $showcases_ids = array_diff(array_keys($showcases), $exclude_ids);
+  shuffle($showcases_ids);
+  $showcases_ids = array_slice($showcases_ids, 0 ,4);
+  $showcases_sample = array();
+
+  if ('en_UK' != $user['language'])
   {
-    $url = 'https://' . $page['porg_domain_prefix'] . 'piwigo.org/showcase/ws.php?format=php&method=pwg.tags.getImages&tag_name=Featured';
-
-    $content = @file_get_contents($url);
-    if ($content !== false)
-    {
-      $result = unserialize($content);
-      file_put_contents($cache_path, serialize($result['result']['images']));
-    }
+    load_language('showcases.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
   }
-  $raw_images = unserialize(file_get_contents($cache_path));
+  /* Load user language translation */
+  load_language('showcases.lang', PORG_PATH);
 
-  if (count($exclude_ids) > 0)
+  foreach ($showcases_ids as $showcase_id)
   {
-    foreach ($raw_images as $idx => $showcase)
-    {
-      if (in_array($showcase['id'], $exclude_ids))
-      {
-        unset($raw_images[$idx]);
-      }
-    }
+    $showcases_sample[] = array(
+      'id' => $showcase_id,
+      'name' => l10n('porg_showcases_'.$showcase_id.'_title'),
+    );
   }
 
-  $max = 4;
-  $rand_keys = array_rand($raw_images, $max);
-  $final_images = array();
-  foreach ($rand_keys as $showcase_id)
-  {
-     $final_images[] = $raw_images[$showcase_id];
-  }
-
-  return $final_images;
+  return $showcases_sample;
 }
 
 function porg_get_testimonials_sample()
