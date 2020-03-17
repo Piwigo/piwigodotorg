@@ -140,6 +140,13 @@ function porg_label_to_page($label)
 
 function porg_get_page_title($page)
 {
+  global $lang;
+
+  if (isset($lang['page_meta_title']))
+  {
+    return $lang['page_meta_title'];
+  }
+
   $porg_pages = porg_get_pages();
 
   $title = l10n($porg_pages[$page]);

@@ -178,6 +178,7 @@ function porg_load_content()
     $logger->info(__FUNCTION__.', $_GET[porg] = '.(isset($_GET['porg']) ? $_GET['porg'] : 'null'));
 
     $meta_title = null;
+    $meta_description = null;
 
     $porg_root_url = get_absolute_root_url();
     if (isset($_GET['porg']))
@@ -234,9 +235,8 @@ function porg_load_content()
             }
 
             $porg_file = porg_page_to_file($porg_page);
-            $meta_title = porg_get_page_title($porg_page);
-
             $tpl_file = PORG_PATH . 'template/' . $porg_file . '.tpl';
+
             if (isset($_GET['version'])) // might have been set by porg_label_to_page called earlier
             {
                 $tpl_file = porg_get_release_tpl($_GET['version']);
@@ -252,6 +252,9 @@ function porg_load_content()
             }
             /* Load user language translation */
             load_language($porg_file . '.lang', PORG_PATH);
+
+            $meta_title = porg_get_page_title($porg_page);
+            $meta_description = isset($lang['page_meta_description']) ? $lang['page_meta_description'] : null;
 
             if (file_exists(PORG_PATH . '/include/' . $porg_file . '.inc.php'))
             {
@@ -331,6 +334,7 @@ function porg_load_content()
     $template->assign(
         array(
             'meta_title' => $meta_title,
+            'meta_description' => $meta_description,
             'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
         )
     );
