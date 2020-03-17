@@ -35,7 +35,7 @@
     <div class="showcase-image-link-container">
       <a class="showcase-gallery-link" href="{$showcase.url}" target="blank">
         <img src="{$PORG_ROOT_URL}images/showcases/{$showcase_id}.jpg">
-       <p>Visit Gallery</p>
+       <p>{'Visit Gallery'|translate}</p>
        </a>
     </div>
   {else}

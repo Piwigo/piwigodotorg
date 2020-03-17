@@ -31,7 +31,7 @@ $lang['Languages'] = 'Languages';
 $lang['What\'s new?'] = 'What\'s new?';
 $lang['Themes'] = 'Themes';
 $lang['Plugins'] = 'Plugins';
-$lang['Showcases'] = 'Showcases';
+$lang['Showcases'] = 'Examples';
 $lang['Donate'] = 'Donate';
 
 /* languages */

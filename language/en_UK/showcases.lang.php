@@ -1,4 +1,7 @@
 <?php
+$lang['page_meta_title'] = 'Piwigo examples - Some photo galleries created with Piwigo';
+$lang['page_meta_description'] = 'Companies, photographers, public sector: our users have talent! Discover examples of online photo libraries created with Piwigo software.';
+
 $lang['porg_get_showcase_intro_title'] = 'Piwigo users have talent!';
 $lang['porg_get_showcase_intro_paragraph'] = 'Discover on this page some photo libraries and public galleries created with Piwigo.';
 $lang['porg_get_showcase_filter_all'] = 'All';
@@ -7,6 +10,7 @@ $lang['porg_get_showcase_filter_public_sector'] = 'Public sector';
 $lang['porg_get_showcase_filter_companies'] = 'Companies';
 $lang['porg_get_showcase_filter_sports_and_leisure'] = 'Sports et loisirs';
 $lang['porg_get_showcase_filter_photographers_and_private_users'] = 'Photographers ans private users';
+$lang['Visit Gallery'] = 'Visit Gallery';
 
 $lang['porg_showcases_societe3vallees_title'] = 'Société des 3 vallées';
 $lang['porg_showcases_societe3vallees_desc'] = 'The société des 3 vallées, Meribel, Courchevel and Tania, chose Piwigo to organize its media.';

@@ -13,7 +13,7 @@ $lang['porg_urls']['newsletters'] = 'newsletter';
 $lang['porg_urls']['press'] = 'press';
 $lang['porg_urls']['release'] = 'release';
 $lang['porg_urls']['testimonials'] = 'testimonials';
-$lang['porg_urls']['showcases'] = 'showcases';
+$lang['porg_urls']['showcases'] = 'examples';
 
 $lang['porg_doc_urls']['requirements'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before';
 $lang['porg_doc_urls']['install'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:install';
