@@ -132,7 +132,7 @@
           </ul>
         </li>
         <li class="pwg-navbar-button">
-          <a href="//piwigo.org/demo/" class="pwg-navbar-button-demo"><span>{'Demo'|translate}</span></a>
+          <a href="{$PORG_ROOT}{$URL.demo}" class="pwg-navbar-button-demo"><span>{'Demo'|translate}</span></a>
           <a href="{$PORG_ROOT}{$URL.get_piwigo}" class="pwg-navbar-button-get-piwigo"><span>{'Get Piwigo'|translate}</span></a>
         </li>
       </ul>
