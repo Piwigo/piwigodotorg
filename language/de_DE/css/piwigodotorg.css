@@ -17,7 +17,16 @@
 }
 
 @media (max-width: 991px) {
-.pwg-banner .pwg-tagline h1{
-font-size:45px;
+  .pwg-banner .pwg-tagline h1{
+  font-size:45px;
+  }
 }
+
+@media (max-width: 500px) {
+  .pwg-banner .pwg-tagline h1{
+  font-size:35px;
+  }
+  .btn-know-content a{
+    font-size:15px;
+  }
 }

@@ -33,9 +33,13 @@ $(document).ready(function() {
 <section class="pwg-banner container-fluide">
       <div class="container">
         <div class="row">
-          <div class="pwg-tagline col-sm-12 col-md-5">
+          <div class="pwg-tagline col-sm-12 col-md-6">
             <h1>{'porg_home_title'|translate}</h1>
-            <p>{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
+            <p id="homepage-intro-para">{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
+            <div class="col-sm-12 get-piwigo-button visible">
+              <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
+              <p class="pwg-release-date">{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
+            </div>
           </div>
 
           <div class="col-sm-12 get-piwigo-button not-visible">
@@ -43,16 +47,9 @@ $(document).ready(function() {
             <p class="col-xs-12 pwg-release-date">{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
           </div>
 
-          <div class="col-sm-12 col-md-7 responsive-image">
+          <div class="col-sm-12 col-md-6 responsive-image">
             <img class="img-fluid" src="{$PORG_ROOT_URL}/images/home/responsive-screens.jpg">
           </div>
-
-
-
-        <div class="col-sm-12 get-piwigo-button visible">
-          <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
-          <p class="pwg-release-date">{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
-        </div>
 
         </div>
 

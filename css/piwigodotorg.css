@@ -511,7 +511,6 @@
 
 .pwg-banner .pwg-tagline p {
     color: #7e7e7e;
-    font-size: 20px;
     margin-top: 40px;
     font-weight: 700;
     line-height: 28px;
@@ -519,9 +518,12 @@
     text-align:left;
 }
 
+#homepage-intro-para{
+    font-size:20px;
+}
+
 .get-piwigo-button p{
   font-size:12px;
-  margin-top:0;
   padding-right:15px;
   font-weight:400;
   display:inline;
@@ -542,10 +544,6 @@
     text-transform:uppercase;
 }
 
-.pwg-banner .btn{
-    margin-bottom:0;
-}
-
 .pwg-banner .btn:hover, .pwg-banner .btn:focus, .pwg-banner .btn:active {
     color:#ffffff;
     background-color: #ff7700;
@@ -555,7 +553,6 @@
 .get-piwigo-button{
   padding:0;
   text-align:left;
-  margin-left:15px;
 }
 
 .pwg-banner .pwg-release-date {
@@ -593,7 +590,7 @@
 }
 
 .pwg-banner .responsive-image img{
-  width:150%;
+  width:160%;
 }
 
 .not-visible{
@@ -609,8 +606,8 @@
 
 @media (min-width: 1200px) {
     .get-piwigo-button{
-        position: absolute;
-        bottom: 0;
+        margin-top:40px;
+        margin-left:0;
     }
     
 }
@@ -621,7 +618,6 @@
     }
     .get-piwigo-button{
         margin: 30px 0;
-        padding-left:15px;
     }
 }
 
