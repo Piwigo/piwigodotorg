@@ -1120,9 +1120,6 @@ h2{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
-.row-getting-started-content .btn {
-    text-transform: uppercase;
-}
 
 @media (max-width: 991px){
   .fact-content h2, .container-showcase h2, .jelly-fish h2, .take-control h2, .container-piwigo-users h3, .get-started h2{
@@ -5416,8 +5413,9 @@ label {
   * Piwigo Getting Started CSS *
   ******************************/
 
-.container-fluide-getting-started {
-    background-color: #FF7700;
+.row-getting-started{
+    position:relative;
+    display:block;
 }
 
 .container-fluide-getting-started h1,
@@ -5426,69 +5424,130 @@ label {
 }
 
 .container-fluide-getting-started h1 {
-    font-size: 28px;
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 76px;
+    transition: all 1s;
 }
 
 .container-fluide-getting-started p {
+    color: #7e7e7e;
     font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
 }
 
-.getting-started-banner-logo {
-    height: 157px;
-    background-image: url(../images/get_started/banner_start.svg);
-    background-position: 75% -160%;
-    background-repeat: no-repeat;
-    background-size: 40%;
+.intro-text-container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .getting-started-banner-logo {
-        background-image: url(../images/get_started/banner_start.svg);
-        background-position: 75% 470%;
-        background-repeat: no-repeat;
-        background-size: 40%;
+.getting-started-banner-logo{
+    text-align:center;
+    float:right;
+}
+
+.getting-started-banner-logo img{
+    width:100%;
+    margin-top:50px;
+}
+
+@media (max-width: 991px){
+    .intro-text-container{
+        position: inherit;
+        top: inherit;
+        -ms-transform: inherit;
+        transform: inherit;
+        padding:0 15px;
     }
-}
-
-@media (max-width: 991px) {
-    .getting-started-banner-logo {
-        display: none;
+    .getting-started-banner-logo img{
+        width:60%;
+    }
+    .container-fluide-getting-started h1 {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 40px;
+    }
+    .container-fluide-getting-started p{
+        font-size: 16px;
+        margin-top: 40px;
+        text-align: left;
+        padding: 0;
+        line-height: normal;
     }
 }
 
 /* Download - Requierement - Installation guide */
+.getting-started-content-container{
+    background-color:#f7fbff;
+}
 
-.row-getting-started-content {
-    margin-top: 100px;
-    margin-bottom: 100px;
+.get-started-wave-top{
+    margin-top:50px;
+}
+
+.get-started-wave-bottom{
+    margin-bottom:100px;
+}
+
+.row-getting-started-content h3, .row-getting-started-content p{
+    color: #286aac;
+}
+
+.row-getting-started-content h3{
+    color: #286aac;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.row-getting-started-content p{
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+    color: #286aac;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .row-getting-started-content .btn {
-    font-size: 20px;
-    color: #FF7700;
-    border-radius: 0px;
-    background-color: #FFFFFF;
-    margin-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-weight:bold;
+    color: #286aac;
+    border:2px solid #286aac;
+    margin: 20px 0;
+    padding:15px;
+    border-radius:0;
     transition: background-color 0.2s ease-out;
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    
 }
 
 .row-getting-started-content .btn:hover,
 .row-getting-started-content .btn:focus,
 .row-getting-started-content .btn:active {
     color: #FFFFFF;
-    background-color: #FF7700;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    background-color: #286aac;
+    
 }
 
-.row-getting-started-content p {
-    color: #4E4E4E;
-    font-size: 20px;
+.row-getting-started-content img{
+    max-width: 80%;
+    height: 300px;
+    object-fit: contain;
 }
+
 
 @media (max-width: 991px) {
     .row-getting-started-content {
@@ -5499,8 +5558,8 @@ label {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .row-getting-started-content p {
-        margin-bottom: 60px;
+    .row-getting-started-content .btn {
+        margin-bottom: 80px;
     }
 }
 
