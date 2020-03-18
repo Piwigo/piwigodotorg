@@ -5564,8 +5564,7 @@ label {
 }
 
 .container-fluide-unanswered-questions {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding:20px;
     background-color: #F8F8F8;
 }
 
