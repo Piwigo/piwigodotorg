@@ -5457,8 +5457,8 @@ label {
 }
 
 .getting-started-banner-logo img{
-    width:100%;
-    margin-top:50px;
+    width:300px;
+    margin-top:30px;
 }
 
 @media (max-width: 991px){
@@ -5496,7 +5496,7 @@ label {
 }
 
 .get-started-wave-bottom{
-    margin-bottom:100px;
+    margin-bottom:50px;
 }
 
 .row-getting-started-content h3, .row-getting-started-content p{
@@ -5564,23 +5564,27 @@ label {
 }
 
 .container-fluide-unanswered-questions {
-    padding:20px;
-    background-color: #F8F8F8;
+    padding:30px;
+    border-bottom:2px solid #ddd;
+    padding-bottom:80px;
 }
 
 .container-fluide-unanswered-questions h1 {
-    font-size: 28px;
-    color: #FF7700;
-    margin-bottom: 30px;
+    color: #3c3c3c;
+    font-size: 40px;
+    font-weight: 900;
+    margin:30px;
 }
 
 .container-fluide-unanswered-questions p {
-    font-size: 20px;
-    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: 700;
+    color: #7e7e7e;
+    margin-bottom: 30px;
 }
 
 .container-fluide-unanswered-questions a {
-    font-size: 22px;
+    font-size: 16px;
     color: #FF7700;
     text-decoration: none;
 }
