@@ -5548,21 +5548,6 @@ label {
     object-fit: contain;
 }
 
-
-@media (max-width: 991px) {
-    .row-getting-started-content {
-        margin-top: 60px;
-        margin-bottom: 0px;
-    }
-    .row-getting-started-content button {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .row-getting-started-content .btn {
-        margin-bottom: 80px;
-    }
-}
-
 .container-fluide-unanswered-questions {
     padding:30px;
     border-bottom:2px solid #ddd;
@@ -5587,6 +5572,23 @@ label {
     font-size: 16px;
     color: #FF7700;
     text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .row-getting-started-content {
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+    .row-getting-started-content button {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .row-getting-started-content .btn {
+        margin-bottom: 80px;
+    }
+    .container-fluide-unanswered-questions h1{
+        font-size:25px;
+    }
 }
 
 /************************
