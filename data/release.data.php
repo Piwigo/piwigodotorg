@@ -1,6 +1,35 @@
 <?php
 
 $porg_releases = array(
+  '2.10.2' => array(
+    'released_on' => '2020-03-27',
+    'md5sum' => '488174630af5fd3589301cb1d2ab3c66',
+    'summary' => array('minor new features, bug fixes'),
+    'features' => array(
+      array('id' => 1162, 'section' => 'Users & Groups'),
+    ),
+    'bugs' => array(
+      array('id' => 1168, 'section' => 'Security'),
+      array('id' => 1150, 'section' => 'Security'),
+      array('id' => 1133, 'section' => 'Display'),
+      array('id' => 1119, 'section' => 'Users & Groups'),
+      array('id' => 1114, 'section' => 'UX'),
+      array('id' => 1112, 'section' => 'Display'),
+      array('id' => 1102, 'section' => 'Display'),
+      array('id' => 1095, 'section' => 'Technical'),
+      array('id' => 1155, 'section' => 'Technical'),
+      array('id' => 1151, 'section' => 'Technical'),
+      array('id' => 1139, 'section' => 'Technical'),
+      array('id' => 1134, 'section' => 'Technical'),
+      array('id' => 1130, 'section' => 'Technical'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('br_FR','ca_ES','de_DE','el_GR','eo_EO','es_ES','eu_ES','fr_FR','hu_HU','it_IT','ja_JP','ko_KR','lv_LV','nl_NL','pl_PL','ro_RO','ru_RU','sk_SK','sl_SI','sr_RS','tr_TR','zh_CN'),
+    ),
+  ),
+
   '2.10.1' => array(
     'released_on' => '2019-10-14',
     'md5sum' => 'f4d494462ba44813edc40157adc438b7',
