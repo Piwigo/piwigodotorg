@@ -55,12 +55,13 @@ if (isset($_GET['version']))
 
         /* Get feature issue */
         $features = $porg_releases[$version]['features'];
-        foreach ($features as $issue_id)
+        foreach ($features as $issue)
         {
             $feature[] = array(
-                'id' => $issue_id,
-                'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue_id,
-                'label' => stripslashes($lang['porg_issue_' . $issue_id]),
+                'id' => $issue['id'],
+                'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $issue['id'],
+                'label' => stripslashes($lang['porg_issue_' . $issue['id'] ]),
+                'section' => isset($issue['section']) ? '/ ' . l10n(trim($issue['section'])) : null,
             );
         }
 

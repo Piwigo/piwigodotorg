@@ -94,7 +94,7 @@
         <h1><i class="icon-plus-circled"></i>{'Features added'|translate}</h1>
   {foreach from=$features key=key item=feature}
         <div class="col-md-4">
-          <h2><i class="icon-circle-thin"></i><a href="{$feature.url}">{$feature.id}</a></h2>
+          <h2><i class="icon-circle-thin"></i><a href="{$feature.url}">{$feature.id} {$feature.section}</a></h2>
           <p>{$feature.label}</p>
         </div>
   {/foreach}
