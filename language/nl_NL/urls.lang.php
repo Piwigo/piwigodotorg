@@ -19,3 +19,4 @@ $lang['porg_doc_urls']['install'] = 'https://nl.piwigo.org/doc/doku.php?id=insta
 $lang['porg_doc_urls']['upgrade'] = 'https://nl.piwigo.org/doc/doku.php?id=upgrade';
 $lang['porg_doc_urls']['upgrade_auto'] = 'https://nl.piwigo.org/doc/doku.php?id=upgrade:automatische';
 $lang['porg_doc_urls']['upgrade_manual'] = 'https://nl.piwigo.org/doc/doku.php?id=upgrade:handmatige';
+$lang['porg_urls']['showcases'] = 'voorbeelden';
