@@ -41,3 +41,4 @@ $lang['porg_urls']['press'] = 'prensa';
 $lang['porg_urls']['release'] = 'version';
 $lang['porg_urls']['testimonials'] = 'testimonios';
 $lang['porg_urls']['what-is-piwigo'] = 'que-es-piwigo';
+$lang['porg_urls']['showcases'] = 'ejemplos';
