@@ -20,7 +20,6 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Installation guide'] = 'Installeringsvejledning';
 $lang['Requirements'] = 'Krav';
 $lang['Still got some unanswered questions ?'] = 'Har du stadig ubesvarede spørgsmål?';
 $lang['porg_get_started_desc1'] = 'Hvordan man selv hoster Piwigo.';
@@ -30,3 +29,7 @@ $lang['porg_get_started_guide_desc'] = 'Lær hvordan Piwigo installeres hos din 
 $lang['porg_get_started_question_desc1'] = 'Du kan få en del hjælp i <a href="%s">forummet</a> eller selv finde svarene i <a href="%s">dokumentationen</a>';
 $lang['porg_get_started_requirement_desc1'] = 'Hvad er de tekniske forudsætninger for at køre Piwigo på ens egen hosting?';
 $lang['porg_get_started_requirement_desc2'] = 'PHP, database, webserver, billedbehandling... Find alle oplysningerne.';
+$lang['Discover Requirements'] = 'Se forudsætningerne';
+$lang['Get-now'] = 'Få fat i Piwigo nu';
+$lang['Installation'] = 'Installering';
+$lang['get-started-download'] = 'Hent';
