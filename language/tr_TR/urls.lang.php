@@ -37,6 +37,7 @@ $lang['porg_urls']['what-is-piwigo'] = 'piwigo-nedir';
 
 $lang['porg_doc_urls']['install'] = 'https://tr.piwigo.org/doc/doku.php?id=kurulum';
 $lang['porg_doc_urls']['requirements'] = 'https://tr.piwigo.org/doc/doku.php?id=kurulum:gereklilikler';
-$lang['porg_doc_urls']['upgrade'] = 'https://tr.piwigo.org/doc/doku.php?id=yuekseltme';
-$lang['porg_doc_urls']['upgrade_auto'] = 'https://tr.piwigo.org/doc/doku.php?id=yuekseltme:otomatik';
-$lang['porg_doc_urls']['upgrade_manual'] = 'https://tr.piwigo.org/doc/doku.php?id=yuekseltme:elle';
+$lang['porg_doc_urls']['upgrade'] = 'https://tr.piwigo.org/doc/doku.php?id=yukseltme';
+$lang['porg_doc_urls']['upgrade_auto'] = 'https://tr.piwigo.org/doc/doku.php?id=yukseltme:otomatik';
+$lang['porg_doc_urls']['upgrade_manual'] = 'https://tr.piwigo.org/doc/doku.php?id=yukseltme:elle';
+$lang['porg_urls']['showcases'] = 'örnekler';
