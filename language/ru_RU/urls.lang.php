@@ -39,3 +39,4 @@ $lang['porg_urls']['press'] = 'Пресса';
 $lang['porg_urls']['release'] = 'Релиз';
 $lang['porg_urls']['testimonials'] = 'Отзывы';
 $lang['porg_urls']['what-is-piwigo'] = 'О-Piwigo';
+$lang['porg_urls']['showcases'] = 'примеры';
