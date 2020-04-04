@@ -25,8 +25,11 @@ $lang['porg_get_started_guide_desc'] = 'Leer hoe u Piwigo op uw hosting kunt ins
 $lang['porg_get_started_question_desc1'] = 'U kunt hulp krijgen op het <a href="%s">forum</a> of uw eigen antwoorden vinden in de <a href="%s">documentatie</a>';
 $lang['porg_get_started_requirement_desc1'] = 'Wat zijn de technische vereisten om Piwigo op uw eigen hosting te laten draaien?';
 $lang['porg_get_started_requirement_desc2'] = 'PHP, database, webserver, beeldverwerking ... Vind alle details.';
-$lang['Installation guide'] = 'Installatiegids';
 $lang['Requirements'] = 'Vereisten';
 $lang['Still got some unanswered questions ?'] = 'Heeft u nog steeds onbeantwoorde vragen?';
 $lang['porg_get_started_desc1'] = 'Hoe u uw self-hosting Piwigo kunt runnen, dat wil zeggen op uw eigen hosting.';
 $lang['porg_get_started_desc2'] = 'Wat u moet voorbereiden, wat u moet downloaden, hoe u het moet installeren.';
+$lang['Discover Requirements'] = 'Ontdek de vereisten';
+$lang['Get-now'] = 'Krijg Piwigo nu';
+$lang['Installation'] = 'Installatie';
+$lang['get-started-download'] = 'Doownload';
