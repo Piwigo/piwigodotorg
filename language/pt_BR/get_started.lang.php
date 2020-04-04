@@ -20,7 +20,6 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Installation guide'] = 'guia de instalação';
 $lang['Requirements'] = 'Requisitos';
 $lang['Still got some unanswered questions ?'] = 'Ainda tem algumas perguntas sem resposta?';
 $lang['porg_get_started_desc1'] = 'Como executar sua auto-hospedagem Piwigo, ou seja, em sua próprio servidor.';
@@ -30,3 +29,9 @@ $lang['porg_get_started_guide_desc'] = 'Saiba como instalar o Piwigo em seu serv
 $lang['porg_get_started_question_desc1'] = 'Você pode obter alguma ajuda no <a href="%s">fórum</a> ou encontrar suas próprias respostas na <a href="%s">documentação</a>';
 $lang['porg_get_started_requirement_desc1'] = 'Quais são os pré-requisitos técnicos para executar Piwigo em seu próprio servidor?';
 $lang['porg_get_started_requirement_desc2'] = 'PHP, banco de dados, servidor web, processamento de imagem ... Encontre todos os detalhes.';
+$lang['Discover Requirements'] = '
+Descubra os requisitos';
+$lang['Get-now'] = '
+Obtenha o Piwigo agora';
+$lang['Installation'] = 'Instalação';
+$lang['get-started-download'] = 'Baixar';
