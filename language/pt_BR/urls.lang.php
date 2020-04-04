@@ -41,3 +41,4 @@ $lang['porg_doc_urls']['requirements'] = 'https://br.piwigo.org/doc/doku.php?id=
 $lang['porg_doc_urls']['upgrade'] = 'https://br.piwigo.org/doc/doku.php?id=atualizacao';
 $lang['porg_doc_urls']['upgrade_auto'] = 'https://br.piwigo.org/doc/doku.php?id=atualizacao:automatica';
 $lang['porg_doc_urls']['upgrade_manual'] = 'https://br.piwigo.org/doc/doku.php?id=atualizacao:manual';
+$lang['porg_urls']['showcases'] = 'exemplos';
