@@ -60,3 +60,7 @@ $lang['porg_features_browse_date_desc'] = 's câmeras digitais armazenam a data 
 $lang['porg_features_desc1'] = 'Piwigo oferece um amplo conjunto de recursos para qualquer galeria de fotos.';
 $lang['porg_features_desc2'] = 'Muitos dos recursos disponíveis estão listados abaixo.';
 $lang['porg_features_desc3'] = 'Novos recursos são adicionados ao Piwigo de forma contínua, por causa da codificação de idéias e discussões da equipe com a comunidade de usuários.';
+$lang['Porg-Features-Advantages'] = '
+As vantagens do Piwigo';
+$lang['Porg-Features-OrganizeSharePhotos'] = 'Organize e compartilhe suas fotos';
+$lang['porg_features_see_all_extensions'] = 'Ver todas as extensões';
