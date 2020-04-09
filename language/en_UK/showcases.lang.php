@@ -9,7 +9,7 @@ $lang['porg_get_showcase_filter_travel_and_tourism'] = 'Travel and tourism';
 $lang['porg_get_showcase_filter_public_sector'] = 'Public sector';
 $lang['porg_get_showcase_filter_companies'] = 'Companies';
 $lang['porg_get_showcase_filter_sports_and_leisure'] = 'Sports et loisirs';
-$lang['porg_get_showcase_filter_photographers_and_private_users'] = 'Photographers ans private users';
+$lang['porg_get_showcase_filter_photographers_and_private_users'] = 'Photographers and private users';
 $lang['Visit Gallery'] = 'Visit Gallery';
 
 $lang['porg_showcases_societe3vallees_title'] = 'Société des 3 vallées';
