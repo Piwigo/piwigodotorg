@@ -111,3 +111,5 @@ $lang['Themes'] = 'Tematy';
 $lang['Themes & Plugins'] = 'Tematy i Wtyczki';
 $lang['language_ar_EG'] = 'Arabski/Egipt';
 $lang['language_ar_SA'] = 'Arabski/Saudyjski';
+$lang['Newsletters'] = 'Biuletyn';
+$lang['Testimonials'] = 'Referencje';
