@@ -5731,12 +5731,26 @@ label {
     transition: border .2s ease-in-out;
 }
 
-.read-more {
-    display: none;
+@media (hover: none){
+
+    .read-more {
+        display: block;
+    }
+    
+    .version-box .read-more {
+        display: block;
+    }
+    
 }
 
-.version-box:hover .read-more {
-    display: block;
+@media (hover: hover){
+    .read-more {
+        display: none;
+    }
+    
+    .version-box:hover .read-more {
+        display: block;
+    }
 }
 
 .primary-version {
