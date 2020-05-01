@@ -491,6 +491,11 @@
             ),
         ),
         'de' => array(
+            '2020-05-01' => array (
+                'title' => 'Umfrage 2020, Piwigo wird 18, Piwigo in der c’t',
+                'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2020/04/29/20200429123104-eea44280-me.jpg',
+                'summary' => 'Umfrage 2020 : Wir sollten Sie besser kennenlernen und verstehen warum Sie loyal zu Piwigo sind und wie wir es noch besser machen können. In diesen außergewöhnlichen Zeiten erreicht Piwigo das stattliche Alter von 18 Jahren. Tim Schürmann, ein Journalist bei der c’t, hat eine vollständige Einführung in Piwigo geschrieben.',
+            ),
             '2019-12-23' => array (
                 'title' => 'Spendenaufruf - €1 für Piwigo',
                 'image' => 'https://piwigo.org/screenshots/newsletter/no-money.gif',
