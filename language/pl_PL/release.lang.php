@@ -20,7 +20,7 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Released on %s'] = 'Wydane na %s';
+$lang['Released on %s'] = 'Opublikowane dnia %s';
 $lang['The MD5 sum is a convenient tool to make sure that your file is not corrupted.'] = 'Funkcja skrótu MD5 jest wygodnym narzędzie do zabezpieczenia Twoich plików przed uszkodzeniem.';
 $lang['We recommend the <b>automatic upgrade</b>.'] = 'Rekomendujemy <b>automatyczne aktualizacje</b>.';
 $lang['Automatic upgrade'] = 'Automatyczna aktualizacja';
