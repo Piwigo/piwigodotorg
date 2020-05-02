@@ -23,3 +23,7 @@
 $lang['porg_changelogs_desc1'] = 'Oto lista stabilnych wydań Piwigo.';
 $lang['porg_changelogs_desc2'] = 'Użyj naszego ostatniego wydania: otrzymasz lepsze wsparcie i wszystkie znane błędy bezpieczeństwa zostały naprawione.';
 $lang['porg_changelogs_technicals_desc1'] = 'Jeśli potrzebujesz wglądu w techniczne aspekty wydań, udaj się do strony <a href="%s">Gałęzie i Wydania</a>.';
+$lang['Dark mode'] = 'Nowy, ciemny tryb';
+$lang['Admin redesign'] = 'Odświeżony panel kontrolny';
+$lang['Default theme Modus'] = 'Domyślny motyw Modus';
+$lang['Read more'] = 'Więcej';
