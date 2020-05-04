@@ -45,6 +45,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="themes/default/icon/favicon.ico">
 
 {if $PORG_IS_PRODUCTION}
+{* temporary remove analytics
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -61,6 +62,7 @@
 </script>
 <noscript><p><img src="//piwigo.us/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
+*}
 {/if}
   </head>
   <body{if isset($RELEASE_VERSION)} class="release-{$RELEASE_VERSION}"{/if}>
