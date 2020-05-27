@@ -23,6 +23,12 @@ function porg_get_pages()
     'showcases' => 'Showcases',
     'testimonials' => 'Testimonials',
     'mobile-apps-privacy-policy' => 'Privacy Policy for Mobile Apps',
+    'guides' => 'guides',
+    'requirements' => 'Requirements',
+    'netinstall' => 'Netinstall',
+    'manual_installation' => 'Manual installation',
+    'automatic_update' => 'Automatic Update',
+    'manual_update' => 'Manual Update',
     );
 }
 
