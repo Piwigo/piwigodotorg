@@ -7147,6 +7147,89 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
  }
 
 /*********************
+ * Piwigo Guides page CSS *
+ *********************/
+
+.intro-text-container-guides h1{
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 76px;
+    transition: all 1s;
+}
+
+.intro-text-container-guides p{
+    color: #7e7e7e;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
+}
+
+.row-guides{
+    position:relative;
+}
+
+.col-guides-text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.installation-section{
+    background-color:#efecfa;
+    text-align:center;
+    padding:40px 0;
+}
+
+.installation-section h2{
+    color:#463283;
+}
+
+.installation-section a{
+    color:white;
+    padding: 15px 25px;
+    margin: 0 10px;
+    text-decoration:none;
+    background-color:#7e64d0;
+}
+
+.installation-links, 
+.update-links{
+    padding-top:40px;
+}
+
+.update-section{
+    padding:40px 0;
+    text-align:center;
+}
+
+.update-section h2{
+    color:#286aac;
+    text-align:center;
+}
+
+.update-section a{
+    color:white;
+    padding: 15px 25px;
+    margin: 0 10px;
+    text-decoration:none;
+    background-color:#53a6f9;
+}
+
+.update-section img{
+    width:40%;
+    margin-top:80px;
+}
+
+/*********************
  * Piwigo footer CSS *
  *********************/
 
