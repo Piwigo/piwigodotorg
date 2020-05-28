@@ -32,19 +32,19 @@
       </div>
       <div class="row">
         <div class="col-md-6 col-xs-12">
-        <h2>Minimal</h2>
+        <h2>{'porg_guides_requirements_minimal'|translate}</h2>
           <ul>
-            <li>A web server like Nginx or Apache</li>
-            <li>MySQL 5 or a corresponding MariaDB</li>
-            <li>PHP 5.3 (recommended 7.0+)</li>
-            <li>ImageMagick (recommended) or GD</li>
-            <li>an FTP client (e.g. FileZilla for Windows or Linux)</li>
+            <li>{'porg_guides_requirements_minimal_first'|translate}</li>
+            <li>{'porg_guides_requirements_minimal_second'|translate}</li>
+            <li>{'porg_guides_requirements_minimal_third'|translate}</li>
+            <li>{'porg_guides_requirements_minimal_fourth'|translate}</li>
+            <li>{'porg_guides_requirements_minimal_fifth'|translate}</li>
           </ul>
-        <h2>Optional</h2>
+        <h2>{'porg_guides_requirements_optional'|translate}</h2>
           <ul>
-            <li>exiftool for plugin Write Metadata</li>
-            <li>ffmpeg for plugin VideoJS</li>
-            <li>jpegtran for plugin RotateImage</li>
+            <li>{'porg_guides_requirements_optional_first'|translate}</li>
+            <li>{'porg_guides_requirements_optional_second'|translate}</li>
+            <li>{'porg_guides_requirements_optional_third'|translate}</li>
           </ul>
         </div>
         <div class="col-md-6 col-xs-12 requirements-logos">
