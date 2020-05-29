@@ -7308,21 +7308,47 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 @media (max-width:991px){
     .row-guides img,
     .intro-text-container-requirements .col-guides-text,
-    .requirements-logos{
+    .requirements-logos,
+    .col-guides-text{
         position:relative;
         top:unset;
         transform:unset;
     }
-    .intro-text-container-requirements .col-guides-text h1{
+    .intro-text-container-requirements .col-guides-text h1,
+    .intro-text-container-guides h1{
         text-align:center;
         position:relative;
         font-size: 30px;
         font-weight: 900;
         line-height: 40px;
     }
+    .installation-section h2,
+    .update-section h2{
+        font-size:25px;
+    }
     .container-breadcrumb{
         padding:0;
         margin:15px;
+    }
+    .installation-section a,
+    .update-section a{
+        display:block;
+        margin:15px auto;
+        width:50%;
+    }
+    .update-section img{
+        margin-top:40px;
+        width:50%;
+    }
+    .row-guides img{
+        width:50%;
+    }
+}
+
+@media (max-width:500px){
+    .installation-section a,
+    .update-section a{
+        width:70%;
     }
 }
 
