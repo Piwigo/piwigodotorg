@@ -3,10 +3,10 @@
 $lang['porg_guides'] = 'Guides';
 $lang['porg_guides_installation_instruction_title'] = 'Piwigo installation instructions';
 $lang['porg_guides_netinstall'] = 'Netinstall';
+$lang['porg_guides_netinstall_guide_steps'] = 'Guide steps';
 $lang['porg_guides_netinstall_step1'] = 'Step 1 - Download the NetInstall script';
 $lang['porg_guides_netinstall_step2'] = 'Step 2 - Upload the NetInstall script to your web server';
 $lang['porg_guides_netinstall_step3'] = 'Step 3 - Configuration';
-$lang['porg_guides_netinstall_step4'] = 'Step 4 - First connection';
 $lang['porg_guides_netinstall_step4'] = 'Step 4 - First connection';
 $lang['porg_guides_netinstall_paragraph1'] = 'With NetInstall you only have to upload a single file to your web server. This script then loads the Piwigo archive from piwigo.org onto your web server, unpacks it and starts the installation process.';
 $lang['porg_guides_netinstall_info1'] = 'The NetInstall process does not work on every server, depending on which features your hoster provides. If it doesn\'t work for you, just switch to manual installation.';

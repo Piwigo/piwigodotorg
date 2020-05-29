@@ -28,7 +28,7 @@
   <section>
     <div class="container">
       <div class="row netinstall-guide-steps">
-        <h3>Guide steps</h3>
+        <h3>{'porg_guides_netinstall_guide_steps'|translate}</h3>
         <div class="col-md-6 col-xs-12">
           <a href="#step1-netinstall">{'porg_guides_netinstall_step1'|translate}</a>
           <a href="#step2-netinstall">{'porg_guides_netinstall_step2'|translate}</a>
