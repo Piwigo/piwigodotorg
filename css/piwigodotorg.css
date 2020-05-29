@@ -7309,13 +7309,15 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     .row-guides img,
     .intro-text-container-requirements .col-guides-text,
     .requirements-logos,
+    .col-guides-text,
     .col-guides-text{
         position:relative;
         top:unset;
         transform:unset;
     }
     .intro-text-container-requirements .col-guides-text h1,
-    .intro-text-container-guides h1{
+    .intro-text-container-guides h1,
+    .intro-text-container-netinstall h1{
         text-align:center;
         position:relative;
         font-size: 30px;
@@ -7427,6 +7429,11 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     margin:0;
 }
 
+.guide-longer-text{
+    margin-top:240px;
+    margin-bottom:300px;
+}
+
 /*Framed info*/
 
 .framed-info{
@@ -7449,6 +7456,39 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     line-height:unset;
     font-size:14px;
     padding:0;
+}
+
+@media (max-width:991px){
+    .netinstall-guide-steps{
+        margin-bottom:40px;
+    }
+    .netinstall-content p{
+        margin-bottom:60px;
+    }
+    .framed-info p{
+        margin-bottom:0;
+    }
+    .guide-centered-text{
+        position:relative;
+        top:unset;
+        transform:unset;
+    }
+    .guide-image-and-caption{
+        width:80%;
+        padding:0;
+        margin:0 auto;
+        float:none;
+    }
+    .step1-content-netinstall,
+    .step2-content-netinstall,
+    .step3-content-netinstall,
+    .step4-content-netinstall{
+        margin-top:40px;
+    }
+    .guide-longer-text{
+        margin:0;
+        margin-top:40px;
+    }
 }
 
 /*********************

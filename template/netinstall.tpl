@@ -112,7 +112,7 @@
           <p>{'porg_guides_netinstall_image_caption4'|translate}</p>
         </div>
       </div>
-      <div class="row step3-content-netinstall" style="margin-top:240px;margin-bottom:300px;">
+      <div class="row step3-content-netinstall guide-longer-text" >
         <div class="col-md-4 col-xs-12 guide-centered-text">
           <p>{'porg_guides_netinstall_step3_paragraph5'|translate}:</p>
           <ul>
