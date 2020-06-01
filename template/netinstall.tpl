@@ -27,7 +27,7 @@
 
   <section>
     <div class="container">
-      <div class="row netinstall-guide-steps">
+      <div class="row guide-steps">
         <h3>{'porg_guides_netinstall_guide_steps'|translate}</h3>
         <div class="col-md-6 col-xs-12">
           <a href="#step1-netinstall">{'porg_guides_netinstall_step1'|translate}</a>
@@ -43,11 +43,11 @@
 
   <section>
     <div class="container netinstall-content">
-      <div class="row">
-        <div class="col-md-6 col-xs-12">
+      <div class="row content-netinstall">
+        <div class="col-md-6 col-xs-12 col-guides-text">
           <p>{'porg_guides_netinstall_paragraph1'|translate}</p>
         </div>
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-6 col-xs-12 framed-info-content">
           <div class="framed-info">
             <img src="{$PORG_ROOT_URL}images/changelogs/information.svg">
             <p>{'porg_guides_netinstall_info1'|translate}</p>
@@ -55,11 +55,11 @@
         </div>
       </div>
       <div class="row step1-content-netinstall">
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-6 col-xs-12 col-guides-text">
           <h3 id="step1-netinstall">{'porg_guides_netinstall_step1'|translate}</h3>
           <p>{'porg_guides_netinstall_step1_paragraph1'|translate}</p>
         </div>
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-6 col-xs-12 framed-info-content">
           <div class="framed-info">
             <img src="{$PORG_ROOT_URL}images/changelogs/information.svg">
             <p>{'porg_guides_netinstall_info2'|translate}</p>
@@ -67,9 +67,9 @@
         </div>
       </div>
       <div class="row step2-content-netinstall">
-        <div class="col-md-4 col-xs-12 guide-centered-text">
+        <div class="col-md-4 col-xs-12 col-guides-text">
           <h3 id="step2-netinstall">{'porg_guides_netinstall_step2'|translate}</h3>
-          <p>{'porg_guides_netinstall_step1_paragraph1'|translate}</p>
+          <p>{'porg_guides_netinstall_step2_paragraph1'|translate}</p>
             <ul>
               <li>{'porg_guides_netinstall_step2_list1'|translate}</li>
               <li>{'porg_guides_netinstall_step2_list2'|translate}</li>
@@ -84,7 +84,7 @@
         </div>
       </div>
       <div class="row step3-content-netinstall">
-        <div class="col-md-4 col-xs-12 guide-centered-text">
+        <div class="col-md-4 col-xs-12 col-guides-text">
           <h3 id="step3-netinstall">{'porg_guides_netinstall_step3'|translate}</h3>
           <p>{'porg_guides_netinstall_step3_paragraph1'|translate}: http://example.com/piwigo-netinstall.php</p>
           <p>{'porg_guides_netinstall_step3_paragraph2'|translate}</p>
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class="row step3-content-netinstall">
-        <div class="col-md-4 col-xs-12 guide-centered-text">
+        <div class="col-md-4 col-xs-12 col-guides-text">
           <p>{'porg_guides_netinstall_step3_paragraph3'|translate}</p>
         </div>
         <div class="col-md-8 col-xs-12 guide-image-and-caption">
@@ -104,7 +104,7 @@
         </div>
       </div>
       <div class="row step3-content-netinstall">
-        <div class="col-md-4 col-xs-12 guide-centered-text">
+        <div class="col-md-4 col-xs-12 col-guides-text">
           <p>{'porg_guides_netinstall_step3_paragraph4'|translate}</p>
         </div>
         <div class="col-md-8 col-xs-12 guide-image-and-caption">
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div class="row step3-content-netinstall guide-longer-text" >
-        <div class="col-md-4 col-xs-12 guide-centered-text">
+        <div class="col-md-4 col-xs-12 col-guides-text">
           <p>{'porg_guides_netinstall_step3_paragraph5'|translate}:</p>
           <ul>
             <li>{'porg_guides_netinstall_step3_list1'|translate}</li>
@@ -137,7 +137,7 @@
         </div>
       </div>
       <div class="row step4-content-netinstall">
-        <div class="col-md-4 col-xs-12 guide-centered-text">
+        <div class="col-md-4 col-xs-12 col-guides-text">
         <h3 id="step4-netinstall">{'porg_guides_netinstall_step4'|translate}</h3>
           <p>{'porg_guides_netinstall_step3_paragraph9'|translate}</p>
         </div>
