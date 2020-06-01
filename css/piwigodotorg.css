@@ -7152,7 +7152,8 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 
 .intro-text-container-guides h1,
 .intro-text-container-requirements h1,
-.intro-text-container-netinstall h1{
+.intro-text-container-netinstall h1,
+.intro-text-container-manual-installation h1{
     margin-top: 20px;
     font-size: 56px;
     font-weight: 900;
@@ -7239,15 +7240,10 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     padding-left:80px;
 }
 
-.guide-centered-text{
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    left:0;
+.guide-image-and-caption p{
+    font-style:italic;
+    font-weight:400!important;
 }
-    
-
-/* Piwigo Guides requirements page CSS */
 
 .guides-breadcrumb a,
 .guides-breadcrumb p,
@@ -7268,7 +7264,8 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 
 .requirements-content p,
 .requirements-content li,
-.netinstall-content p{
+.netinstall-content p,
+.manual-installation-content p{
     padding:0 15px;
     font-size: 16px;
     line-height: 1.75em;
@@ -7305,6 +7302,131 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     margin-right:110px;
 }
 
+.guide-steps{
+    background-color:#efecfa;
+    padding:40px 25px;
+    margin:40px 0;
+}
+
+.guide-steps h3{
+    padding:0px 15px;
+    color:#463283;
+    font-weight:700;
+    margin:0;
+    padding-bottom:40px;
+}
+
+.guide-steps a{
+    display:block;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
+    padding:0;
+    color:#463283;
+}
+
+.netinstall-content p,
+.manual-installation-content p{
+    padding:0;
+}
+
+.netinstall-content img,
+.manual-installation-content img{
+    width:100%;
+    box-shadow:0 0 10px #777;
+}
+
+.content-netinstall,
+.step1-content-netinstall,
+.step2-content-netinstall,
+.step3-content-netinstall,
+.step4-content-netinstall,
+.step1-content-manual-installation,
+.step2-content-manual-installation,
+.step3-content-manual-installation,
+.step4-content-manual-installation{
+    margin-top:80px;
+    position:relative;
+    display:block;
+}
+
+.step1-content-netinstall h3,
+.step2-content-netinstall h3,
+.step3-content-netinstall h3,
+.step4-content-netinstall h3,
+.step1-content-manual-installation h3,
+.step2-content-manual-installation h3,
+.step3-content-manual-installation h3,
+.step4-content-manual-installation h3{
+    color:#463283;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.step2-content-netinstall li,
+.step3-content-netinstall li,
+.step2-content-manual-installation li,
+.step3-content-manual-installation li{
+    list-style:none;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #3c3c3c;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.step2-content-netinstall li span,
+.step3-content-netinstall li span,
+.step3-content-manual-installation li span{
+    font-style:italic;
+    font-weight:400;
+}
+
+#step2-netinstall{
+    margin:0;
+}
+
+.guide-longer-text{
+    margin-top:200px;
+    margin-bottom:220px;
+}
+
+/*Framed info*/
+
+.framed-info{
+    background-color: #e7a7d6;
+    color: #52003B;
+    padding: 50px;
+}
+
+.framed-info-content{
+    float:right;
+}
+
+.large-info-content{
+    padding:0;
+    margin-top:80px;
+}
+
+.framed-info img{
+    width: 75px;
+    margin-top: -88px;
+    float: left;
+    box-shadow:none;
+}
+
+.framed-info p{
+    margin:0;
+    color:#521642;
+    font-weight:500;
+    line-height:unset;
+    font-size:14px;
+    padding:0;
+}
+
+/*Guides pages media queries*/
+
 @media (max-width:991px){
     .row-guides img,
     .intro-text-container-requirements .col-guides-text,
@@ -7317,7 +7439,8 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     }
     .intro-text-container-requirements .col-guides-text h1,
     .intro-text-container-guides h1,
-    .intro-text-container-netinstall h1{
+    .intro-text-container-netinstall h1,
+    .intro-text-container-manual-installation h1{
         text-align:center;
         position:relative;
         font-size: 30px;
@@ -7345,125 +7468,16 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     .row-guides img{
         width:50%;
     }
-}
-
-@media (max-width:500px){
-    .installation-section a,
-    .update-section a{
-        width:70%;
-    }
-}
-
-/* Piwigo Guides netinstall page CSS */
-
-.netinstall-guide-steps{
-    background-color:#efecfa;
-    padding:40px 25px;
-    margin:40px 0;
-    margin-bottom:80px;
-}
-
-.netinstall-guide-steps h3{
-    padding:0px 15px;
-    color:#463283;
-    font-weight:700;
-    margin:0;
-    padding-bottom:40px;
-}
-
-.netinstall-guide-steps a{
-    display:block;
-    font-weight: 700;
-    line-height: 28px;
-    transition: all 1s;
-    text-align: left;
-    padding:0;
-    color:#463283;
-}
-
-.netinstall-content p{
-    padding:0;
-    padding-top:20px;
-}
-
-.netinstall-content img{
-    width:100%;
-    box-shadow:0 0 10px #777;
-}
-
-.step1-content-netinstall,
-.step2-content-netinstall,
-.step3-content-netinstall,
-.step4-content-netinstall{
-    margin-top:80px;
-    position:relative;
-    display:block;
-}
-
-.step1-content-netinstall h3,
-.step2-content-netinstall h3,
-.step3-content-netinstall h3,
-.step4-content-netinstall h3{
-    color:#463283;
-    font-size: 20px;
-    font-weight: 900;
-}
-
-.step2-content-netinstall li,
-.step3-content-netinstall li{
-    list-style:none;
-    font-size: 16px;
-    margin-top: 10px;
-    color: #3c3c3c;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-.step2-content-netinstall li span,
-.step3-content-netinstall li span{
-    font-style:italic;
-    font-weight:400;
-}
-
-#step2-netinstall{
-    margin:0;
-}
-
-.guide-longer-text{
-    margin-top:240px;
-    margin-bottom:300px;
-}
-
-/*Framed info*/
-
-.framed-info{
-    background-color: #e7a7d6;
-    color: #52003B;
-    padding: 50px;
-}
-
-.framed-info img{
-    width: 75px;
-    margin-top: -88px;
-    float: left;
-    box-shadow:none;
-}
-
-.framed-info p{
-    margin:0;
-    color:#521642;
-    font-weight:500;
-    line-height:unset;
-    font-size:14px;
-    padding:0;
-}
-
-@media (max-width:991px){
-    .netinstall-guide-steps{
+    .guide-steps{
         margin-bottom:40px;
     }
-    .netinstall-content p{
+    .netinstall-content p,
+    .manual-installation-content p{
         margin-bottom:60px;
+        position:relative;
+        top:unset;
+        transform:unset;
+
     }
     .framed-info p{
         margin-bottom:0;
@@ -7482,12 +7496,22 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     .step1-content-netinstall,
     .step2-content-netinstall,
     .step3-content-netinstall,
-    .step4-content-netinstall{
+    .step4-content-netinstall,
+    .step1-content-manual-installation,
+    .step2-content-manual-installation,
+    .step3-content-manual-installation{
         margin-top:40px;
     }
     .guide-longer-text{
         margin:0;
         margin-top:40px;
+    }
+}
+
+@media (max-width:500px){
+    .installation-section a,
+    .update-section a{
+        width:70%;
     }
 }
 
