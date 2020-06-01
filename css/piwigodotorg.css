@@ -7153,7 +7153,8 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 .intro-text-container-guides h1,
 .intro-text-container-requirements h1,
 .intro-text-container-netinstall h1,
-.intro-text-container-manual-installation h1{
+.intro-text-container-manual-installation h1,
+.intro-text-container-automatic-update h1{
     margin-top: 20px;
     font-size: 56px;
     font-weight: 900;
@@ -7257,7 +7258,8 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     margin:20px 0;
 }
 
-.requirements-content{
+.requirements-content,
+.automatic-update-content{
     margin:40px 0;
     position:relative;
 }
@@ -7265,7 +7267,8 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 .requirements-content p,
 .requirements-content li,
 .netinstall-content p,
-.manual-installation-content p{
+.manual-installation-content p,
+.automatic-update-content .automatic-update-text p{
     padding:0 15px;
     font-size: 16px;
     line-height: 1.75em;
@@ -7425,6 +7428,78 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     padding:0;
 }
 
+.automatic-updates-accordion-container{
+    position:relative;
+    padding:15px;
+}
+
+.automatic-update-accordion-container {
+    background-color: #ebf4fe;
+    border-radius:25px;
+    margin:40px auto;
+    box-shadow:0 0 10px #bbb;
+    max-width:800px;
+
+   }
+   
+  .automatic-update-accordion {
+    font-size: 20px;
+    line-height: 1.75em;
+    font-weight: 700;
+    color: #286aac;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color:transparent;
+  }
+  
+  .automatic-update-accordion:after {
+    border-style: solid;
+	border-width: 2px 2px 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(135deg);
+	vertical-align: super;
+	width: 0.45em;
+    color: #286aac;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .active:after {
+    transform: rotate(-45deg);
+  }
+  
+  .automatic-update-panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 15px;
+    line-height: 1.75em;
+    font-weight: 500;
+    
+  }
+
+  .automatic-update-panel p{
+      padding:10px 0;
+      color: #286aac;
+  }
+  
+  .automatic-update-border-bottom{
+  border-bottom:2px solid #badbfd;
+  }
+  
+
+
 /*Guides pages media queries*/
 
 @media (max-width:991px){
@@ -7440,7 +7515,8 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     .intro-text-container-requirements .col-guides-text h1,
     .intro-text-container-guides h1,
     .intro-text-container-netinstall h1,
-    .intro-text-container-manual-installation h1{
+    .intro-text-container-manual-installation h1,
+    .intro-text-container-automatic-update h1{
         text-align:center;
         position:relative;
         font-size: 30px;
@@ -7471,8 +7547,11 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     .guide-steps{
         margin-bottom:40px;
     }
+    .requirements-content p,
+    .requirements-content li,
     .netinstall-content p,
-    .manual-installation-content p{
+    .manual-installation-content p,
+    .automatic-update-content .automatic-update-text p{
         margin-bottom:60px;
         position:relative;
         top:unset;
