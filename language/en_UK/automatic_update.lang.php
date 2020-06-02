@@ -1,8 +1,5 @@
 <?php
 
-$lang['porg_guides'] = 'Guides';
-$lang['porg_guides_update_instruction_title'] = 'Piwigo installation instructions';
-$lang['porg_guides_automatic_update'] = 'Automatic update';
 $lang['porg_guides_automatic_update_paragraph1'] = 'This is the recommended way to update Piwigo to the latest version. You need Piwigo version 1.7.0 or higher. If you have an older version, please carry out a manual update .';
 $lang['porg_guides_automatic_update_paragraph2'] = 'With automatic updates, there\'s no reason to postpone updates. It takes less than a minute to update your Piwigo to the latest and most secure version.';
 $lang['porg_guides_automatic_update_button1'] = 'You are using Piwigo 2.3.x or higher';
