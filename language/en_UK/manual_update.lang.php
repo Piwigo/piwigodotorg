@@ -1,0 +1,65 @@
+<?php
+
+$lang['porg_guides_manual_update_step1'] = 'Step 1 - Package preparation';
+$lang['porg_guides_manual_update_step2'] = 'Step 2 - Database preparation (Recommended)';
+$lang['porg_guides_manual_update_step3'] = 'Step 3 - File server preparation';
+$lang['porg_guides_manual_update_step4'] = 'Step 4 - Gallery preparation';
+$lang['porg_guides_manual_update_step5'] = 'Step 5 - Cleaning';
+$lang['porg_guides_manual_update_step6'] = 'Step 6 - FTP upload';
+$lang['porg_guides_manual_update_step7'] = 'Step 7 - Database upgrade';
+$lang['porg_guides_manual_update_step8'] = 'Step 8 - Check the upgrade result';
+$lang['porg_guides_manual_update_step9'] = 'Step 9 - Unlock your gallery';
+$lang['porg_guides_manual_update_step10'] = 'Step 10 - Post upgrade cleaning';
+$lang['porg_guides_manual_update_paragraph1'] = 'This procedure is compatible with any version greater or equal to 1.4. For an older version, ask for help on the forum.';
+$lang['porg_guides_manual_update_info1'] = 'Please do check Piwigo current Requirements. Especially if your Php / MySQL configuration is NOT sufficient, do not go further as the upgrade process will fail.';
+$lang['porg_guides_manual_update_step1_list1'] = 'Download the latest Piwigo release archive';
+$lang['porg_guides_manual_update_step1_list2'] = 'On your computer, extract the “piwigo” directory.';
+$lang['porg_guides_manual_update_step1_list3'] = 'Remove the default “piwigo/local” directory.';
+$lang['porg_guides_manual_update_step2_caption1'] = 'PhpMyAdmin recommended options.';
+$lang['porg_guides_manual_update_step1_paragraph1'] = 'Backup your current tables';
+$lang['porg_guides_manual_update_time_1'] = '3-5min';
+$lang['porg_guides_manual_update_step1_paragraph2'] = 'If you are using a version from the PhpWebGallery 1.7 family or later, you can use the DB Backup plugin. Previous releases users should have to backup their tables by other means, for example with phpMyAdmin.';
+$lang['porg_guides_manual_update_step1_paragraph3'] = 'In any case, be sure to check the backup is exhaustive and has successfully completed (the result is sometimes truncated due to server limits).';
+$lang['porg_guides_manual_update_info2'] = 'Our advice: unselect “Extended inserts” or reduce “Maximal length of created queries”.';
+$lang['porg_guides_manual_update_step3_paragraph1'] = 'If you\'re running Piwigo 2.1 or higher, skip this step.';
+$lang['porg_guides_manual_update_step3_paragraph2'] = 'Backup your customized files only or all files';
+$lang['porg_guides_manual_update_time_2'] = '5 min';
+$lang['porg_guides_manual_update_step3_list1'] = 'Download the Prepare 2.1 Upgrade extension tool';
+$lang['porg_guides_manual_update_step3_list2'] = 'extract the prep21up.php script and transfer it at the root of your Piwigo installation';
+$lang['porg_guides_manual_update_step3_list3'] = 'open prep21up.php from your web browser http://example.com/photos/prep21up.php and you will receive an “upgrade21.zip” archive';
+$lang['porg_guides_manual_update_step3_list4'] = 'On your computer, extract the “local” directory from “upgrade21.zip” into the “piwigo” directory (extracted during step 1).';
+$lang['porg_guides_manual_update_step4_paragraph1'] = 'Lock the gallery';
+$lang['porg_guides_manual_update_time_3'] = '1 min';
+$lang['porg_guides_manual_update_step4_paragraph2'] = 'With Piwigo 2.3 or earlier version: Configuration > General > Lock gallery. For Piwigo 2.4+: Tools > Maintenance.';
+$lang['porg_guides_manual_update_step4_paragraph3'] = 'From now on, non-administrator users of any gallery version should see something like: “The gallery is locked for maintenance. Please, come back later.”.';
+$lang['porg_guides_manual_update_step4_caption1'] = 'Lock gallery';
+$lang['porg_guides_manual_update_step5_paragraph1'] = 'Remove all files of your current Piwigo installation, with the following exceptions, do NOT delete these directories:';
+$lang['porg_guides_manual_update_step5_list1'] = 'Galleries';
+$lang['porg_guides_manual_update_step5_list2'] = 'Upload';
+$lang['porg_guides_manual_update_step5_list3'] = 'Plugins';
+$lang['porg_guides_manual_update_step5_list4'] = 'Themes';
+$lang['porg_guides_manual_update_step5_list5'] = 'Template-extension';
+$lang['porg_guides_manual_update_step5_list6'] = 'Local';
+$lang['porg_guides_manual_update_step5_list7'] = '_data';
+$lang['porg_guides_manual_update_step6_paragraph1'] = 'Use your standard FTP client to upload the new release, ie the content of the “piwigo” directory (extracted during step 1 and updated during step 3), into the previous Piwigo installation directory.';
+$lang['porg_guides_manual_update_step6_paragraph2'] = 'Check that your FTP client did not encounter any error.';
+$lang['porg_guides_manual_update_step7_paragraph1'] = 'Launching upgrade';
+$lang['porg_guides_manual_update_time_4'] = '2 min';
+$lang['porg_guides_manual_update_step7_paragraph2'] = 'In your web browser, open the “upgrade.php” script and follow the guide, http://example.com/photos/upgrade.php';
+$lang['porg_guides_manual_update_step7_paragraph3'] = 'To avoid any upgrade by another visitor you are invited to sign on';
+$lang['porg_guides_manual_update_step7_caption1'] = 'Starting upgrade page.';
+$lang['porg_guides_manual_update_step7_paragraph4'] = 'Your previous release is identified and you will get a summary of the upgrade operations; ';
+$lang['porg_guides_manual_update_step7_paragraph5'] = 'Plugins active before the upgrade will be switched off to inactive status, as they could fail to work with the new release and need their own specific upgrade.';
+$lang['porg_guides_manual_update_step7_caption2'] = 'Upgrade memo page.';
+$lang['porg_guides_manual_update_time_5'] = '15-120 min';
+$lang['porg_guides_manual_update_step8_paragraph1'] = 'Your first controls could take time because you are not aware of all the changes';
+$lang['porg_guides_manual_update_step8_paragraph2'] = 'You will see a list of all your previous plugins; some of them have been fully integrated in the core (like Plugins Manager), others are now distributed (like LocalFiles Editor), but any desactivated plugin has been so for a good reason.';
+$lang['porg_guides_manual_update_step8_paragraph3'] = 'Try to find an upgrade first; the plugins tabsheets can help you.';
+$lang['porg_guides_manual_update_step8_paragraph4'] = 'For themes, keep an admin page opened in your browser in case you need to reverse any of your tests.';
+$lang['porg_guides_manual_update_step8_paragraph5'] = 'Don\'t forget that your members or visitors can have a specific selected theme which is not compatible with your new release. You\'d probably better have to reset their theme in the Admin users page.';
+$lang['porg_guides_manual_update_step9_paragraph1'] = 'You begin to be confortable with our last release, do not forget to unlock your gallery to give access to visitors';
+$lang['porg_guides_manual_update_step10_paragraph1'] = 'Nothing ';
+$lang['porg_guides_manual_update_step10_paragraph2'] = 'Nothing has to be removed after any upgrade. The “upgrade.php” itself is not to be removed. Remember that the “No upgrade required” message and the sign-on process are protecting your gallery.';
+
+
+?>
