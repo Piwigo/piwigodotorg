@@ -7277,7 +7277,6 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 
 .requirements-content,
 .automatic-update-content{
-    margin:40px 0;
     position:relative;
 }
 
@@ -7306,9 +7305,9 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 }
 
 .requirements-content img{
-    width:75%;
+    width: 50%;
     vertical-align:middle;
-    margin:10px;
+    margin:30px;
 }
 
 .requirements-logos{
@@ -7396,26 +7395,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     box-shadow:0 0 10px #777;
 }
 
-.content-netinstall,
-.step1-content-netinstall,
-.step2-content-netinstall,
-.step3-content-netinstall,
-.step4-content-netinstall,
-.step1-content-manual-installation,
-.step2-content-manual-installation,
-.step3-content-manual-installation,
-.step4-content-manual-installation,
-.content-manual-update,
-.step1-content-manual-update,
-.step2-content-manual-update,
-.step3-content-manual-update,
-.step4-content-manual-update,
-.step5-content-manual-update,
-.step6-content-manual-update,
-.step7-content-manual-update,
-.step8-content-manual-update,
-.step9-content-manual-update,
-.step10-content-manual-update{
+.pwg-guides-block-content{
     margin-top:80px;
     position:relative;
     display:block;
@@ -7430,6 +7410,10 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 .automatic-update-content h3,
 .manual-update-content h3{
     color:#286aac;
+}
+
+.step1-content-manual-update ul {
+    margin-top:20px;
 }
 
 .step2-content-netinstall li,
@@ -7676,6 +7660,13 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
         margin:0;
         margin-top:40px;
     }
+    .automatic-update-accordion-container{
+        margin:20px;
+    }
+    .requirements-content img{
+        width:50%;
+    }
+    
 }
 
 @media (max-width:500px){

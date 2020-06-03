@@ -43,7 +43,7 @@
 
   <section>
     <div class="container manual-installation-content">
-      <div class="row step1-content-manual-installation">
+      <div class="row step1-content-manual-installation pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step1-manual-installation">{'porg_guides_manual_installation_step1'|translate}</h3>
           <p>{'porg_guides_manual_installation_step1_paragraph1'|translate}</p>
@@ -55,7 +55,7 @@
           </div>
         </div>
       </div>
-      <div class="row step1-content-manual-installation">
+      <div class="row step1-content-manual-installation pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <p>{'porg_guides_manual_installation_step1_paragraph2'|translate}</p>
           <p>{'porg_guides_manual_installation_step1_paragraph3'|translate}</p>
@@ -67,7 +67,7 @@
           </div>
         </div>
       </div>
-      <div class="row step2-content-manual-installation">
+      <div class="row step2-content-manual-installation pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step2-manual-installation">{'porg_guides_manual_installation_step2'|translate}</h3>
           <p>{'porg_guides_install_step2_paragraph1'|translate}</p>
@@ -86,13 +86,15 @@
           <p>{'porg_guides_manual_installation_image_caption1'|translate}</p>
         </div>
       </div>
-       <div class=" row large-info-content">
+       <div class=" row large-info-content pwg-guides-block-content">
+         <div class="col-xs-12">
           <div class="framed-info">
             <img src="{$PORG_ROOT_URL}images/changelogs/information.svg">
             <p>{'porg_guides_manual_installation_info3'|translate}</p>
           </div>
+          </div>
         </div>
-      <div class="row step3-content-manual-installation guide-longer-text">
+      <div class="row step3-content-manual-installation pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text ">
           <h3 class="pwg-guides-h3" id="step3-manual-installation">{'porg_guides_installation_step3'|translate}</h3>
           <p>{'porg_guides_install_step3_paragraph1'|translate}</p>
@@ -117,7 +119,7 @@
           <p>{'porg_guides_install_image_caption2'|translate}</p>
         </div>
       </div>
-      <div class="row step3-content-manual-installation " >
+      <div class="row step3-content-manual-installation pwg-guides-block-content" >
         <div class="col-md-4 col-xs-12 col-guides-text">
           
           <p>{'porg_guides_install_step3_paragraph5'|translate}</p>
@@ -127,7 +129,7 @@
           <p>{'porg_guides_install_image_caption3'|translate}</p>
         </div>
       </div>
-      <div class="row step4-content-manual-installation">
+      <div class="row step4-content-manual-installation pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text">
         <h3 class="pwg-guides-h3" id="step4-manual-installation">{'porg_guides_installation_step4'|translate}</h3>
           <p>{'porg_guides_install_step3_paragraph6'|translate}</p>

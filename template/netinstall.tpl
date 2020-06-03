@@ -43,7 +43,7 @@
 
   <section>
     <div class="container netinstall-content">
-      <div class="row content-netinstall">
+      <div class="row content-netinstall pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <p>{'porg_guides_netinstall_paragraph1'|translate}</p>
         </div>
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-      <div class="row step1-content-netinstall">
+      <div class="row step1-content-netinstall pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step1-netinstall">{'porg_guides_netinstall_step1'|translate}</h3>
           <p>{'porg_guides_netinstall_step1_paragraph1'|translate}</p>
@@ -66,7 +66,7 @@
           </div>
         </div>
       </div>
-      <div class="row step2-content-netinstall">
+      <div class="row step2-content-netinstall pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step2-netinstall">{'porg_guides_netinstall_step2'|translate}</h3>
           <p>{'porg_guides_install_step2_paragraph1'|translate}</p>
@@ -83,7 +83,7 @@
           <p>{'porg_guides_netinstall_image_caption1'|translate}</p>
         </div>
       </div>
-      <div class="row step3-content-netinstall">
+      <div class="row step3-content-netinstall pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step3-netinstall">{'porg_guides_installation_step3'|translate}</h3>
           <p>{'porg_guides_netinstall_step3_paragraph1'|translate}: http://example.com/piwigo-netinstall.php</p>
@@ -94,7 +94,7 @@
           <p>{'porg_guides_netinstall_image_caption2'|translate}</p>
         </div>
       </div>
-      <div class="row step3-content-netinstall">
+      <div class="row step3-content-netinstall pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text">
           <p>{'porg_guides_netinstall_step3_paragraph3'|translate}</p>
         </div>
@@ -103,7 +103,7 @@
           <p>{'porg_guides_netinstall_image_caption3'|translate}</p>
         </div>
       </div>
-      <div class="row step3-content-netinstall">
+      <div class="row step3-content-netinstall pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text">
           <p>{'porg_guides_install_step3_paragraph1'|translate}</p>
           <p>{'porg_guides_install_step3_paragraph2'|translate}:</p>
@@ -127,7 +127,7 @@
           <p>{'porg_guides_install_image_caption2'|translate}</p>
         </div>
       </div>
-      <div class="row step3-content-netinstall" >
+      <div class="row step3-content-netinstall pwg-guides-block-content" >
         <div class="col-md-4 col-xs-12 col-guides-text">
           <p>{'porg_guides_install_step3_paragraph5'|translate}</p>
         </div>
@@ -136,7 +136,7 @@
           <p>{'porg_guides_install_image_caption3'|translate}</p>
         </div>
       </div>
-      <div class="row step4-content-netinstall">
+      <div class="row step4-content-netinstall pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text">
         <h3 class="pwg-guides-h3" id="step4-netinstall">{'porg_guides_installation_step4'|translate}</h3>
           <p>{'porg_guides_install_step3_paragraph6'|translate}</p>

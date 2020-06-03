@@ -49,7 +49,7 @@
 
   <section class="manual-update-content">
     <div class="container">
-      <div class="row content-manual-update">
+      <div class="row content-manual-update pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <p>{'porg_guides_manual_update_paragraph1'|translate}</p>
         </div>
@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="row step1-content-manual-update">
+      <div class="row step1-content-manual-update pwg-guides-block-content">
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step1-manual-update">{'porg_guides_manual_update_step1'|translate}</h3>
           <ul>
@@ -70,7 +70,7 @@
           </ul>
         </div>
       </div>
-      <div class="row step2-content-manual-update">
+      <div class="row step2-content-manual-update pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step2-manual-update">{'porg_guides_manual_update_step2'|translate}</h3>
           <p class="guide-text-with-clock-badge">{'porg_guides_manual_update_step1_paragraph1'|translate}</p>
@@ -85,7 +85,7 @@
           <p>{'porg_guides_manual_update_step2_caption1'|translate}</p>
         </div>
       </div>
-      <div class="row step2-content-manual-update">
+      <div class="row step2-content-manual-update pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <p>{'porg_guides_manual_update_step1_paragraph3'|translate}</p>
         </div>
@@ -96,7 +96,7 @@
           </div>
         </div>
       </div>
-      <div class="row step3-content-manual-update">
+      <div class="row step3-content-manual-update pwg-guides-block-content">
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step3-manual-update">{'porg_guides_manual_update_step3'|translate}</h3>
           <p>{'porg_guides_manual_update_step3_paragraph1'|translate}</p>
@@ -113,7 +113,7 @@
           </ul>
         </div>
       </div>
-      <div class="row step4-content-manual-update">
+      <div class="row step4-content-manual-update pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step4-manual-update">{'porg_guides_manual_update_step4'|translate}</h3>
           <p class="guide-text-with-clock-badge">{'porg_guides_manual_update_step4_paragraph1'|translate}</p>
@@ -129,7 +129,7 @@
           <p>{'porg_guides_manual_update_step4_caption1'|translate}</p>
         </div>
       </div>
-      <div class="row step5-content-manual-update">
+      <div class="row step5-content-manual-update pwg-guides-block-content">
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step5-manual-update">{'porg_guides_manual_update_step5'|translate}</h3>
           <p>{'porg_guides_manual_update_step5_paragraph1'|translate}</p>
@@ -144,14 +144,14 @@
           </ul>
         </div>
       </div>
-      <div class="row step6-content-manual-update">
+      <div class="row step6-content-manual-update pwg-guides-block-content">
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step6-manual-update">{'porg_guides_manual_update_step6'|translate}</h3>
           <p>{'porg_guides_manual_update_step6_paragraph1'|translate}</p>
           <p>{'porg_guides_manual_update_step6_paragraph2'|translate}</p>
         </div>
       </div>
-      <div class="row step7-content-manual-update">
+      <div class="row step7-content-manual-update pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step7-manual-update">{'porg_guides_manual_update_step7'|translate}</h3>
           <p class="guide-text-with-clock-badge">{'porg_guides_manual_update_step7_paragraph1'|translate}</p>
@@ -167,7 +167,7 @@
           <p>{'porg_guides_manual_update_step7_caption1'|translate}</p>
         </div>
       </div>
-      <div class="row step7-content-manual-update">
+      <div class="row step7-content-manual-update pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <p>{'porg_guides_manual_update_step7_paragraph4'|translate}</p>
           <p>{'porg_guides_manual_update_step7_paragraph5'|translate}</p>
@@ -177,7 +177,7 @@
           <p>{'porg_guides_manual_update_step7_caption2'|translate}</p>
         </div>
       </div>
-      <div class="row step8-content-manual-update">
+      <div class="row step8-content-manual-update pwg-guides-block-content">
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step6-manual-update">{'porg_guides_manual_update_step8'|translate}</h3>
           <p class="guide-text-with-clock-badge">{'porg_guides_manual_update_step8_paragraph1'|translate}</p>
@@ -191,7 +191,7 @@
           <p>{'porg_guides_manual_update_step8_paragraph5'|translate}</p>
         </div>
       </div>
-      <div class="row step9-content-manual-update">
+      <div class="row step9-content-manual-update pwg-guides-block-content">
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step6-manual-update">{'porg_guides_manual_update_step9'|translate}</h3>
           <p class="guide-text-with-clock-badge">{'porg_guides_manual_update_step9_paragraph1'|translate}</p>
@@ -201,7 +201,7 @@
           </span>
         </div>
       </div>
-      <div class="row step10-content-manual-update">
+      <div class="row step10-content-manual-update pwg-guides-block-content">
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step6-manual-update">{'porg_guides_manual_update_step10'|translate}</h3>
           <p class="guide-text-with-clock-badge">{'porg_guides_manual_update_step10_paragraph1'|translate}</p>

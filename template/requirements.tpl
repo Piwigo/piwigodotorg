@@ -30,6 +30,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 col-xs-12">
+        <div class=" pwg-guides-block-content">
         <h3 class="pwg-guides-h3">{'porg_guides_requirements_minimal'|translate}</h3>
           <ul class="minimal-requirements">
             <li>{'porg_guides_requirements_minimal_first'|translate}</li>
@@ -39,6 +40,8 @@
             <li>{'porg_guides_requirements_minimal_fifth'|translate}</li>
             <li>{'porg_guides_requirements_minimal_sixth'|translate}</li>
           </ul>
+        </div>
+        <div class=" pwg-guides-block-content">
         <h3 class="pwg-guides-h3">{'porg_guides_requirements_optional'|translate}</h3>
           <ul class="optional-requirements">
             <li>{'porg_guides_requirements_optional_first'|translate}</li>
@@ -46,8 +49,9 @@
             <li>{'porg_guides_requirements_optional_third'|translate}</li>
           </ul>
         </div>
+        </div>
         <div class="col-md-3 col-xs-12 requirements-logos">
-              <img src="{$PORG_ROOT_URL}images/guides/logo-nginix.png">
+              <img src="{$PORG_ROOT_URL}images/guides/logo-nginx.png">
               <img src="{$PORG_ROOT_URL}images/guides/logo-apache.png">
               <img src="{$PORG_ROOT_URL}images/guides/logo-mysql.png">
               <img src="{$PORG_ROOT_URL}images/guides/logo-php.png">
