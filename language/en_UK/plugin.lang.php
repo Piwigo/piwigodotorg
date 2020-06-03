@@ -149,3 +149,4 @@ $lang['porg_guides_install_image_caption3'] = 'Successful installation';
 $lang['porg_guides_install_step3_paragraph6'] = 'Once the installation is finished, you can go into your gallery. Login with your webmaster account, and you can reach the administration panel.';
 $lang['porg_guides_install_image_caption4'] = 'Piwigo is installed';
 $lang['porg_guides_install_info2'] = 'The Piwigo team recommends FileZilla as an FTP client because, just like Piwigo, it is free and compatible with Windows and Linux.';
+$lang['porg_get_started_question_desc1'] = 'You can get some help on the <a href="%s">forum</a> or find your own answers in the <a href="%s">documentation</a>';
