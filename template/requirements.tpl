@@ -33,15 +33,16 @@
       <div class="row">
         <div class="col-md-6 col-xs-12">
         <h2>{'porg_guides_requirements_minimal'|translate}</h2>
-          <ul>
+          <ul class="minimal-requirements">
             <li>{'porg_guides_requirements_minimal_first'|translate}</li>
             <li>{'porg_guides_requirements_minimal_second'|translate}</li>
             <li>{'porg_guides_requirements_minimal_third'|translate}</li>
             <li>{'porg_guides_requirements_minimal_fourth'|translate}</li>
             <li>{'porg_guides_requirements_minimal_fifth'|translate}</li>
+            <li>{'porg_guides_requirements_minimal_sixth'|translate}</li>
           </ul>
         <h2>{'porg_guides_requirements_optional'|translate}</h2>
-          <ul>
+          <ul class="optional-requirements">
             <li>{'porg_guides_requirements_optional_first'|translate}</li>
             <li>{'porg_guides_requirements_optional_second'|translate}</li>
             <li>{'porg_guides_requirements_optional_third'|translate}</li>
