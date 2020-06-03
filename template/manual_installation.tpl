@@ -28,7 +28,7 @@
     <section>
     <div class="container">
       <div class="row guide-steps">
-        <h3>{'porg_guides_guide_steps'|translate}</h3>
+        <h3 class="pwg-guides-h3">{'porg_guides_guide_steps'|translate}</h3>
         <div class="col-md-6 col-xs-12">
           <a href="#step1-manual-installation">{'porg_guides_manual_installation_step1'|translate}</a>
           <a href="#step2-manual-installation">{'porg_guides_manual_installation_step2'|translate}</a>
@@ -45,7 +45,7 @@
     <div class="container manual-installation-content">
       <div class="row step1-content-manual-installation">
         <div class="col-md-6 col-xs-12 col-guides-text">
-          <h3 id="step1-manual-installation">{'porg_guides_manual_installation_step1'|translate}</h3>
+          <h3 class="pwg-guides-h3" id="step1-manual-installation">{'porg_guides_manual_installation_step1'|translate}</h3>
           <p>{'porg_guides_manual_installation_step1_paragraph1'|translate}</p>
         </div>
         <div class="col-md-6 col-xs-12 framed-info-content">
@@ -69,7 +69,7 @@
       </div>
       <div class="row step2-content-manual-installation">
         <div class="col-md-4 col-xs-12 col-guides-text">
-          <h3 id="step2-manual-installation">{'porg_guides_manual_installation_step2'|translate}</h3>
+          <h3 class="pwg-guides-h3" id="step2-manual-installation">{'porg_guides_manual_installation_step2'|translate}</h3>
           <p>{'porg_guides_install_step2_paragraph1'|translate}</p>
             <ul>
               <li>{'porg_guides_install_step2_list1'|translate}</li>
@@ -94,7 +94,7 @@
         </div>
       <div class="row step3-content-manual-installation guide-longer-text">
         <div class="col-md-4 col-xs-12 col-guides-text ">
-          <h3 id="step3-manual-installation">{'porg_guides_installation_step3'|translate}</h3>
+          <h3 class="pwg-guides-h3" id="step3-manual-installation">{'porg_guides_installation_step3'|translate}</h3>
           <p>{'porg_guides_install_step3_paragraph1'|translate}</p>
           <p>{'porg_guides_install_step3_paragraph2'|translate}:</p>
           <ul>
@@ -129,7 +129,7 @@
       </div>
       <div class="row step4-content-manual-installation">
         <div class="col-md-4 col-xs-12 col-guides-text">
-        <h3 id="step4-manual-installation">{'porg_guides_installation_step4'|translate}</h3>
+        <h3 class="pwg-guides-h3" id="step4-manual-installation">{'porg_guides_installation_step4'|translate}</h3>
           <p>{'porg_guides_install_step3_paragraph6'|translate}</p>
         </div>
         <div class="col-md-8 col-xs-12 guide-image-and-caption">

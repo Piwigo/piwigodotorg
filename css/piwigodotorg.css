@@ -7429,26 +7429,7 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     display:block;
 }
 
-.step1-content-netinstall h3,
-.step2-content-netinstall h3,
-.step3-content-netinstall h3,
-.step4-content-netinstall h3,
-.step1-content-manual-installation h3,
-.step2-content-manual-installation h3,
-.step3-content-manual-installation h3,
-.step4-content-manual-installation h3,
-.automatic-update-content h3,
-.automatic-update-accordion,
-.step1-content-manual-update h3,
-.step2-content-manual-update h3,
-.step3-content-manual-update h3,
-.step4-content-manual-update h3,
-.step5-content-manual-update h3,
-.step6-content-manual-update h3,
-.step7-content-manual-update h3,
-.step8-content-manual-update h3,
-.step9-content-manual-update h3,
-.step10-content-manual-update h3{
+.pwg-guides-h3{
     color:#463283;
     font-size: 20px;
     font-weight: 900;

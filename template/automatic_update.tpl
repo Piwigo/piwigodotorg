@@ -33,7 +33,7 @@
     <div class="container">
       <div class="row ">
         <div class="col-xs-12 using-2-3-higher">
-          <h3>{'porg_guides_automatic_update_button1'|translate}</h3>
+          <h3 class="pwg-guides-h3">{'porg_guides_automatic_update_button1'|translate}</h3>
           <p>1.{'porg_guides_automatic_update_paragraph3'|translate}</p> 
         </div>
       </div>

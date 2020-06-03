@@ -28,7 +28,7 @@
   <section>
     <div class="container">
       <div class="row guide-steps">
-        <h3>{'porg_guides_guide_steps'|translate}</h3>
+        <h3 class="pwg-guides-h3" >{'porg_guides_guide_steps'|translate}</h3>
         <div class="col-md-6 col-xs-12">
           <a href="#step1-netinstall">{'porg_guides_netinstall_step1'|translate}</a>
           <a href="#step2-netinstall">{'porg_guides_netinstall_step2'|translate}</a>
@@ -56,7 +56,7 @@
       </div>
       <div class="row step1-content-netinstall">
         <div class="col-md-6 col-xs-12 col-guides-text">
-          <h3 id="step1-netinstall">{'porg_guides_netinstall_step1'|translate}</h3>
+          <h3 class="pwg-guides-h3" id="step1-netinstall">{'porg_guides_netinstall_step1'|translate}</h3>
           <p>{'porg_guides_netinstall_step1_paragraph1'|translate}</p>
         </div>
         <div class="col-md-6 col-xs-12 framed-info-content">
@@ -68,7 +68,7 @@
       </div>
       <div class="row step2-content-netinstall">
         <div class="col-md-4 col-xs-12 col-guides-text">
-          <h3 id="step2-netinstall">{'porg_guides_netinstall_step2'|translate}</h3>
+          <h3 class="pwg-guides-h3" id="step2-netinstall">{'porg_guides_netinstall_step2'|translate}</h3>
           <p>{'porg_guides_install_step2_paragraph1'|translate}</p>
             <ul>
               <li>{'porg_guides_install_step2_list1'|translate}</li>
@@ -85,7 +85,7 @@
       </div>
       <div class="row step3-content-netinstall">
         <div class="col-md-4 col-xs-12 col-guides-text">
-          <h3 id="step3-netinstall">{'porg_guides_installation_step3'|translate}</h3>
+          <h3 class="pwg-guides-h3" id="step3-netinstall">{'porg_guides_installation_step3'|translate}</h3>
           <p>{'porg_guides_netinstall_step3_paragraph1'|translate}: http://example.com/piwigo-netinstall.php</p>
           <p>{'porg_guides_netinstall_step3_paragraph2'|translate}</p>
         </div>
@@ -138,7 +138,7 @@
       </div>
       <div class="row step4-content-netinstall">
         <div class="col-md-4 col-xs-12 col-guides-text">
-        <h3 id="step4-netinstall">{'porg_guides_installation_step4'|translate}</h3>
+        <h3 class="pwg-guides-h3" id="step4-netinstall">{'porg_guides_installation_step4'|translate}</h3>
           <p>{'porg_guides_install_step3_paragraph6'|translate}</p>
         </div>
         <div class="col-md-8 col-xs-12 guide-image-and-caption">
