@@ -1,6 +1,7 @@
 <?php
 
-$lang['porg_guides_automatic_update_paragraph1'] = 'This is the recommended method to upgrade your Piwigo to the latest release.With the automatic upgrade method, you just have no excuse to forget or postpone your upgrades. It truly takes less than 1 minute to run the latest and most secure Piwigo release. The procedure provides - upon a simple-clic validation - an automatic backup of the existing database and sensitive files, prior to any update operation.';
+$lang['porg_guides_automatic_update_paragraph1'] = 'This is the recommended method to upgrade your Piwigo to the latest release. So simple you have no more excuse to forget or postpone your upgrades. It truly takes less than 1 minute to run the latest and most secure Piwigo release.';
+$lang['porg_guides_automatic_update_info1'] = 'Always have a backup of your database and files. The best is to have them made automatically on a regular basis. If anything bad happens during the update, you would be able to retore a backup.';
 $lang['porg_guides_automatic_update_step1'] = 'One single step';
 $lang['porg_guides_automatic_update_paragraph3'] = 'Go to Administration > Tools > Updates and follow the guide';
 $lang['porg_guides_automatic_update_caption1'] = 'Yes, only 2 clicks';

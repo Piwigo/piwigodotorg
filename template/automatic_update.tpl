@@ -30,6 +30,15 @@
 
   <section class="automatic-update-content">
     <div class="container netinstall-content">
+      <div class=" row large-info-content pwg-guides-block-content">
+        <div class="col-xs-12">
+          <div class="framed-info">
+            <img src="{$PORG_ROOT_URL}images/changelogs/information.svg">
+            <p>{'porg_guides_automatic_update_info1'|translate}</p>
+          </div>
+        </div>
+      </div>
+
       <div class="row pwg-guides-block-content">
         <div class="col-md-4 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step2-netinstall">{'porg_guides_automatic_update_step1'|translate}</h3>
