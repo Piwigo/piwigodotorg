@@ -14,6 +14,12 @@ $lang['porg_urls']['press'] = 'press';
 $lang['porg_urls']['release'] = 'release';
 $lang['porg_urls']['testimonials'] = 'testimonials';
 $lang['porg_urls']['showcases'] = 'examples';
+$lang['porg_urls']['guides'] = 'guides';
+$lang['porg_urls']['requirements'] = 'guides/install/requirements';
+$lang['porg_urls']['netinstall'] = 'guides/install/netinstall';
+$lang['porg_urls']['manual_installation'] = 'guides/install/manual';
+$lang['porg_urls']['automatic_update'] = 'guides/update/automatic';
+$lang['porg_urls']['manual_update'] = 'guides/update/manual';
 
 $lang['porg_doc_urls']['requirements'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before';
 $lang['porg_doc_urls']['install'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:install';

@@ -63,7 +63,18 @@ function porg_get_page_url($page)
 
   if (isset($conf['porg_url_rewrite']) and $conf['porg_url_rewrite'])
   {
-    return $label;
+    $url_prefix = '';
+
+    // when we are on a page such as piwigo.org/guides/install/requirements, the relative URL must be prefixed with ../../
+    if (isset($_GET['porg']))
+    {
+      if (preg_match('/\/+/', $_GET['porg']))
+      {
+        $url_prefix = str_repeat('../', substr_count(preg_replace('/\/+/', '/', $_GET['porg']), '/'));
+      }
+    }
+
+    return $url_prefix.$label;
   }
 
   return 'index.php?porg='.$label;
