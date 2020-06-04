@@ -1,8 +1,10 @@
 <?php
 
 $lang['porg_guides_automatic_update_paragraph1'] = 'This is the recommended method to upgrade your Piwigo to the latest release.With the automatic upgrade method, you just have no excuse to forget or postpone your upgrades. It truly takes less than 1 minute to run the latest and most secure Piwigo release. The procedure provides - upon a simple-clic validation - an automatic backup of the existing database and sensitive files, prior to any update operation.';
-$lang['porg_guides_automatic_update_button1'] = 'If you\'re running Piwigo 2.3.x or higher';
+$lang['porg_guides_automatic_update_step1'] = 'One single step';
 $lang['porg_guides_automatic_update_paragraph3'] = 'Go to Administration > Tools > Updates and follow the guide';
+$lang['porg_guides_automatic_update_caption1'] = 'Yes, only 2 clicks';
+$lang['porg_guides_automatic_update_time_1'] = '30 seconds';
 
 $lang['porg_guides_automatic_update_button2'] = 'If you\'re running Piwigo 2.1.x or 2.2.x';
 $lang['porg_guides_automatic_update_paragraph4'] = 'Go to Administration > Plugins > Manage > Other plugins available and install Piwigo Auto Upgrade. If the plugin is already installed, check you\'re running the latest revision on the Administration > Plugins > Manage > Check for updates screen.';

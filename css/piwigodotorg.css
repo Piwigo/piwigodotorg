@@ -7539,9 +7539,26 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     
   }
 
-.automatic-update-panel p{
-    padding:10px 0;
+.automatic-update-panel p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #286aac;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.automatic-update-panel li {
     color: #286aac;
+    margin-bottom: 20px;
+    padding-right: 25px;
+}
+
+.automatic-update-panel a {
+  background-color: #286aac;
+  color: #ebf4fe;
+  padding: 3px 7px;
+  border-radius: 3px;
 }
   
 .automatic-update-border-bottom{

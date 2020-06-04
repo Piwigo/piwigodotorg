@@ -3,7 +3,7 @@
     <div class="guides-breadcrumb">
       <a href="{$PORG_ROOT}{$URL.guides}">{'porg_guides'|translate}</a>
       <span>/</span>
-      <p>{'porg_guides_installation_instruction_title'|translate}</p>
+      <p>{'Installation'|translate}</p>
       <span>/</span>
       <p>{'porg_guides_netinstall'|translate}</p>
     </div>

@@ -3,8 +3,7 @@
       <div class="guides-breadcrumb">
         <a href="{$PORG_ROOT}{$URL.guides}">{'porg_guides'|translate}</a>
         <span>/</span>
-        <p>{'porg_guides_update_instruction_title'|translate}</p>
-        
+        <p>{'Update'|translate}</p>
         <span>/</span>
         <p>{'porg_guides_automatic_update'|translate}</p>
       </div>
@@ -30,42 +29,58 @@
   </section>
 
   <section class="automatic-update-content">
-    <div class="container">
-      <div class="row ">
-        <div class="col-xs-12 using-2-3-higher">
-          <h3 class="pwg-guides-h3">{'porg_guides_automatic_update_button1'|translate}</h3>
-          <p>1.{'porg_guides_automatic_update_paragraph3'|translate}</p> 
+    <div class="container netinstall-content">
+      <div class="row pwg-guides-block-content">
+        <div class="col-md-4 col-xs-12 col-guides-text">
+          <h3 class="pwg-guides-h3" id="step2-netinstall">{'porg_guides_automatic_update_step1'|translate}</h3>
+          <p>{'porg_guides_automatic_update_paragraph3'|translate}
+          <span class="time-badge-guides"> 
+            <img src="{$PORG_ROOT_URL}images/guides/clock.svg">
+            {'porg_guides_automatic_update_time_1'|translate}
+          </span>
+          </p>
+        </div>
+        <div class="col-md-8 col-xs-12 guide-image-and-caption">
+          <img src="{$PORG_ROOT_URL}images/guides/automatic-update.gif">
+          <p>{'porg_guides_automatic_update_caption1'|translate}</p>
         </div>
       </div>
+
         <div class="row">
           <div class="automatic-update-accordion-container">
             <div class="automatic-update-border-bottom">
               <button class="automatic-update-accordion">{'porg_guides_automatic_update_button2'|translate}</button>
               <div class="automatic-update-panel">
-                <p>1.{'porg_guides_automatic_update_paragraph4'|translate}</p>
-                <p>2.{'porg_guides_automatic_update_paragraph5'|translate}</p>
-                <p>3.{'porg_guides_automatic_update_paragraph6'|translate}</p>
+                <ol>
+                  <li>{'porg_guides_automatic_update_paragraph4'|translate}</li>
+                  <li>{'porg_guides_automatic_update_paragraph5'|translate}</li>
+                  <li>{'porg_guides_automatic_update_paragraph6'|translate}</li>
+                </ol>
               </div>
             </div>
             <div class="automatic-update-border-bottom">
               <button class="automatic-update-accordion">{'porg_guides_automatic_update_button3'|translate}</button>
               <div class="automatic-update-panel">
-                <p>1.{'porg_guides_automatic_update_paragraph7'|translate}</p>
-                <p>2.{'porg_guides_automatic_update_paragraph8'|translate}</p>
-                <p>3.{'porg_guides_automatic_update_paragraph9'|translate}</p>
+                <ol>
+                  <li>{'porg_guides_automatic_update_paragraph7'|translate}</li>
+                  <li>{'porg_guides_automatic_update_paragraph8'|translate}</li>
+                  <li>{'porg_guides_automatic_update_paragraph9'|translate}</li>
+                </ol>
               </div>
             </div>
             <div class="automatic-update-border-bottom">
               <button class="automatic-update-accordion">{'porg_guides_automatic_update_button4'|translate}</button>
                 <div class="automatic-update-panel">
-                  <p>1.{'porg_guides_automatic_update_paragraph10'|translate}</p>
-                  <p>2.{'porg_guides_automatic_update_paragraph11'|translate}</p>
-                  <p>3.{'porg_guides_automatic_update_paragraph12'|translate}</p>
+                  <ol>
+                    <li>{'porg_guides_automatic_update_paragraph10'|translate}</li>
+                    <li>{'porg_guides_automatic_update_paragraph11'|translate}</li>
+                    <li>{'porg_guides_automatic_update_paragraph12'|translate}</li>
+                  </ol>
                 </div>
               </div>
               <button class="automatic-update-accordion">{'porg_guides_automatic_update_button5'|translate}</button>
                 <div class="automatic-update-panel">
-                  <p>{'If you have an earlier release, please follow the <a href="%s">Manual Upgrade</a> instead.'|translate:$urls.manual_update}</p>
+                  <p>{'If you have an earlier release, please follow the <a href="%s">Manual Upgrade</a> instead.'|translate:$URL.manual_update}</p>
                 </div>
             </div>
           </div>

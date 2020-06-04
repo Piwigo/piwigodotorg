@@ -3,7 +3,7 @@
     <div class="guides-breadcrumb">
       <a href="{$PORG_ROOT}{$URL.guides}">{'porg_guides'|translate}</a>
       <span>/</span>
-      <p>{'porg_guides_installation_instruction_title'|translate}</p>
+      <p>{'Installation'|translate}</p>
       <span>/</span>
       <p>{'porg_guides_requirements'|translate}</p>
     </div>
@@ -16,11 +16,11 @@
         <div class="intro-text-container-requirements intro-text-container-guides">
           <div class="col-xs-12 col-md-6 col-guides-text">
             <h1>{'porg_guides_requirements'|translate}</h1>
-            <p>{'porg_guides_requirements_paragraph'|translate}</p>
+            <p>{'porg_guides_requirements_paragraph'|translate:$PCOM_URL.signup}</p>
           </div>
         </div>
         <div class="col-xs-12 col-md-6 getting-started-banner-logo">
-        <img src="{$PORG_ROOT_URL}images/guides/installation-illustration.svg">
+        <img src="{$PORG_ROOT_URL}images/get_started/requirements.svg">
         </div>
       </div>
     </div>

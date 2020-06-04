@@ -23,7 +23,7 @@
         <img src="{$PORG_ROOT_URL}images/get_started/requirements.svg">
         <h3>{'Requirements'|translate}</h3>
         <p>{'porg_get_started_requirement_desc1'|translate} {'porg_get_started_requirement_desc2'|translate}</p>
-        <a class="btn" href="{$DOC_URL.requirements}">{'Discover Requirements'|translate}</a>
+        <a class="btn" href="{$URL.requirements}">{'Discover Requirements'|translate}</a>
 
       </div>
       <div class="col-md-4 col-xs-12">
@@ -39,7 +39,7 @@
         <img src="{$PORG_ROOT_URL}images/get_started/installation.svg">
         <h3>{'Installation'|translate}</h3>
         <p>{'porg_get_started_guide_desc'|translate}</p>
-        <a class="btn" href="{$DOC_URL.install}">{'Installation guide'|translate}</a>
+        <a class="btn" href="{$URL.guides}#install">{'Installation guide'|translate}</a>
         
       </div>
     </div>

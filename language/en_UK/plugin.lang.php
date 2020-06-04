@@ -115,6 +115,8 @@ $lang['yesterday'] = 'yesterday';
 /*Used in guide pages*/
 
 $lang['porg_guides'] = 'Guides';
+$lang['Installation'] = 'Installation';
+$lang['Update'] = 'Update';
 $lang['porg_guides_installation_instruction_title'] = 'Installation guides';
 $lang['porg_guides_update_instruction_title'] = 'Update guides';
 $lang['porg_guides_requirements'] = 'Requirements';

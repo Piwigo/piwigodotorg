@@ -14,7 +14,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="install">
     <img class="guides-wave-top" src="{$PORG_ROOT_URL}images/guides/guides-purple-wave-top.svg">
     <div class="installation-section">
       <div class="container">
