@@ -10,8 +10,8 @@ $lang['porg_guides_netinstall_image_caption1'] = 'Connect upload';
 $lang['porg_guides_netinstall_step3_paragraph1'] = 'Once the NetInstall script has transferred, go to its web address with a web browser, for example ';
 $lang['porg_guides_netinstall_step3_paragraph2'] = 'Choose a directory name for your photo gallery on your website. By default, Piwigo will be installed in the directory piwigo. If you leave the Destination field empty, Piwigo will be installed at the same place you transferred the NetInstall script.';
 $lang['porg_guides_netinstall_image_caption2'] = 'Choose a folder name for your photo gallery';
-$lang['porg_guides_netinstall_step3_paragraph3'] = 'Run the “Retrieve and unzip Piwigo” action, and then “Install Piwigo now” see';
-$lang['porg_guides_netinstall_image_caption3'] = 'Piwigo was downloaded successfully';
+$lang['porg_guides_netinstall_step3_paragraph3'] = 'Run the “Retrieve and unzip Piwigo” action, and then “Install Piwigo now”';
+$lang['porg_guides_netinstall_image_caption3'] = 'Piwigo ist installiert';
 
 
 ?>
