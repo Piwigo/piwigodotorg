@@ -121,3 +121,38 @@ $lang['High Volume'] = 'Hohe Volumen';
 $lang['Individuals'] = 'Privatpersonen';
 $lang['Languages'] = 'Sprachen';
 $lang['yesterday'] = 'gestern';
+
+/*Used in guide pages*/
+
+$lang['Installation'] = 'Installationsanleitung';
+$lang['Update'] = 'Aktualisierungsanleitung';
+$lang['porg_guides_requirements'] = 'Voraussetzungen';
+$lang['porg_guides_netinstall'] = 'Netinstall';
+$lang['porg_guides_manual_installation'] = 'Manuelle Installation';
+$lang['porg_guides_manual_update'] = 'Manuelle Aktualisierung';
+$lang['porg_guides_automatic_update'] = 'Automatische Aktualisierung';
+$lang['porg_guides_installation_step3'] = 'Schritt 3 - Konfiguration';
+$lang['porg_guides_installation_step4'] = 'Schritt 4 - Erste Verbindung';
+$lang['porg_guides_install_step2_paragraph1'] = 'Starten sie FileZilla füllen sie die Zugangsdaten aus die ihnen ihr Hoster gegeben hat:';
+$lang['porg_guides_install_step2_paragraph2'] = 'Klicken sie den Quickconnect Button. Sie sind nun mit ihrem Webserver verbunden.';
+$lang['porg_guides_install_step3_paragraph1'] = 'Nun kommen wir zu den MySQL Datenbankeinstellungen und den Webmaster-Zugangsdaten um die Galerie zu administrieren';
+$lang['porg_guides_install_image_caption2'] = 'Installationsseite';
+$lang['porg_guides_install_step3_paragraph2'] = 'Tragen sie die MySQL Datenbank Zugangsdaten ein, die sie von ihrem Hoster erhalten haben:';
+$lang['porg_guides_install_step3_list2'] = 'Benutzer';
+$lang['porg_guides_install_step3_list2_span'] = ' Achtung, jeder Hoster hat verschiedene FTP-Einstellungen und verschiedene Arten um sich mit der MySQL Datenbank zu verbinden.';
+$lang['porg_guides_install_step3_list3'] = 'Passwort';
+$lang['porg_guides_install_step3_list4'] = 'Name der Datenbank';
+$lang['porg_guides_install_step3_list5'] = 'A prefix Vorwahl Tabellen';
+$lang['porg_guides_install_step3_list5_span'] = 'Die meisten Hoster stellen nur eine einzige Datenbank pro Kunden zur Verfügung, aber Sie können so viel Tables in einer Datenbank erstellen wie sie möchten. Um Konflikte mit anderen Anwendungen zu vermeiden, die die gleiche Datenbank benutzen oder wenn sie mit mehreren Piwigo-Installationen arbeiten, wird für die Tables ein Präfix verwendet. Standardmäßig heißt dieses „piwigo_“. Sie können dieses Präfix ändern, aber nur Alphanumerische Zeichen dürfen verwendet werden.';
+$lang['porg_guides_install_step3_paragraph3'] = 'Für die Erstellung des Webmaster-Zuganges wird folgendes benötigt:';
+$lang['porg_guides_install_step3_list6'] = 'ein selbstgewählter Benutzername';
+$lang['porg_guides_install_step3_list7'] = 'ein Passwort, welches zweimal zur verifizierung eingegeben werden muss';
+$lang['porg_guides_install_step3_list8'] = 'Ihre Email-Adresse, damit Benutzer sie kontaktieren können';
+$lang['porg_guides_install_step3_paragraph4'] = 'Klicken sie nun „Start der Installation“ um zu beginnen.';
+$lang['porg_guides_install_step3_paragraph5'] = 'Sie werden informiert ob die Installation korrekt durchgeführt wurde oder ob Fehler aufgetreten sind.';
+$lang['porg_guides_install_image_caption3'] = 'Korrekte Installation';
+$lang['porg_guides_install_step3_paragraph6'] = 'Wenn die Installation abgeschlossen ist, können sie ihre Galerie aufrufen. Wenn sie sich mit ihrem Webmaster-Account anmelden, können sie auf die Administrationsseiten zugreifen.';
+$lang['porg_guides_install_image_caption4'] = 'Piwigo ist installiert';
+$lang['porg_guides_install_info2'] = 'Das Piwigo Team empfiehlt FileZilla als FTP Client Software weil es genau so frei wie Piwigo ist und es ist kompatibel mit Windows und Linux.';
+$lang['Still got some unanswered questions ?'] = 'Sind noch Fragen offen?';
+$lang['porg_get_started_question_desc1'] = 'Sie können Hilfe im <a href="%s">Forum</a> erhalten oder die Antworten in der <a href="%s">Dokumentation</a> finden.';
