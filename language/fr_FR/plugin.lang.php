@@ -117,7 +117,7 @@ $lang['language_ka_GE'] = 'Géorgien';
 $lang['porg_guides'] = 'Guides';
 $lang['Installation'] = 'Installation';
 $lang['Update'] = 'Mise à jour';
-$lang['porg_guides_installation_instruction_title'] = 'Guides d\'installtion';
+$lang['porg_guides_installation_instruction_title'] = 'Guides d\'installation';
 $lang['porg_guides_update_instruction_title'] = 'Guides de mise à jour';
 $lang['porg_guides_requirements'] = 'Prérequis ';
 $lang['porg_guides_netinstall'] = 'Netinstall';
@@ -151,6 +151,6 @@ $lang['porg_guides_install_step3_paragraph5'] = 'Si tout se déroule correctemen
 $lang['porg_guides_install_image_caption3'] = 'L\'installation s\'est correctement déroulée';
 $lang['porg_guides_install_step3_paragraph6'] = 'Une fois l\'installation terminée, vous pouvez vous rendre sur la galerie. Identifiez-vous pour accéder à la partie administration.';
 $lang['porg_guides_install_image_caption4'] = 'La gallerie est installée';
-$lang['porg_guides_install_info2'] = 'L\'équipe de Piwigo recommande FileZilla comme client FTP car, tout comme Piwigo, il est gratuit et compatible avec Windows et Linux.';
+$lang['porg_guides_install_info2'] = 'L\'équipe Piwigo recommande FileZilla comme client FTP car, tout comme Piwigo, il est gratuit et compatible avec Windows et Linux.';
 $lang['Still got some unanswered questions ?'] = 'Encore des questions en suspens ?';
 $lang['porg_get_started_question_desc1'] = 'Vous pouvez obtenir de l\'aide sur le <a href="%s">forum</a> ou trouver vos propres réponses dans la <a href="%s">documentation</a>';
