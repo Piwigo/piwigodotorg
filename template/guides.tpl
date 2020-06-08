@@ -2,12 +2,12 @@
     <div class="container">
       <div class="row row-guides">
         <div class="intro-text-container-guides">
-          <div class="col-xs-12 col-md-6 col-guides-text">
+          <div class="col-xs-12 col-md-6 ">
             <h1>{'porg_guides'|translate}</h1>
             <p>{'porg_guides_intro'|translate}</p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 getting-started-banner-logo">
+        <div class="col-xs-12 col-md-6 getting-started-banner-logo col-guides-img">
         <img src="{$PORG_ROOT_URL}images/guides/guides-intro-illustration.svg">
         </div>
       </div>

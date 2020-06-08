@@ -7199,6 +7199,9 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     text-align:center;
 }
 
+.container-fluide-guides{
+    margin:40px 0;
+}
 .col-guides-img img{
     margin: 0 auto;
     width:300px;
@@ -7485,8 +7488,10 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 }
 
 .framed-info-content a{
-    font-weight:700;
+    color:#521642;
+    text-decoration:underline;
 }
+
 
 .automatic-updates-accordion-container{
     position:relative;
