@@ -3,7 +3,7 @@
 $lang['porg_guides_manual_installation_step1'] = 'Étape 1 - Téléchargement de l\'archive';
 $lang['porg_guides_manual_installation_step2'] = 'Étape 2 - Dépôt des fichiers sur l\'espace web';
 $lang['porg_guides_manual_installation_step1_paragraph1'] = 'Le processus d\'installation manuelle consiste à télécharger et à déposer manuellement, sur votre espace web, tous les fichiers nécessaires pour faire fonctionner Piwigo.';
-$lang['porg_guides_manual_installation_step1_paragraph2'] = 'Commencez par télécharger le logiciel, qui se présente sous la forme d\'une archive au format Zip, et décompressez le.';
+$lang['porg_guides_manual_installation_step1_paragraph2'] = 'Commencez par <a href="%s">télécharger le logiciel</a>, qui se présente sous la forme d\'une archive au format Zip, et décompressez le.';
 $lang['porg_guides_manual_installation_step1_paragraph3'] = 'Transfer the archive content to your web server with any FTP client.';
 $lang['porg_guides_manual_installation_step2_paragraph3'] = '1.Créez un répertoire “photos” sur votre espace web.';
 $lang['porg_guides_manual_installation_step2_paragraph4'] = '2.Rendez-vous dans le répertoire ou vous avez désarchivé les fichiers de “piwigo-2.0.x”.';

@@ -50,14 +50,14 @@
         <div class="col-md-6 col-xs-12 framed-info-content">
           <div class="framed-info">
             <img src="{$PORG_ROOT_URL}images/changelogs/information.svg">
-            <p>{'porg_guides_netinstall_info1'|translate}</p>
+            <p>{'porg_guides_netinstall_info1'|translate:$URL.manual_installation}</p>
           </div>
         </div>
       </div>
       <div class="row step1-content-netinstall pwg-guides-block-content">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <h3 class="pwg-guides-h3" id="step1-netinstall">{'porg_guides_netinstall_step1'|translate}</h3>
-          <p>{'porg_guides_netinstall_step1_paragraph1'|translate}</p>
+          <p>{'porg_guides_netinstall_step1_paragraph1'|translate:$URL.get_piwigo}</p>
         </div>
         <div class="col-md-6 col-xs-12 framed-info-content">
           <div class="framed-info">

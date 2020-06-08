@@ -11,8 +11,8 @@ $lang['porg_guides_manual_update_step8'] = 'Étape 8 - Vérifiez le résultat de
 $lang['porg_guides_manual_update_step9'] = 'Étape 9 - Déverrouillez votre galerie';
 $lang['porg_guides_manual_update_step10'] = 'Étape 10 - Nettoyage après mise à jour';
 $lang['porg_guides_manual_update_paragraph1'] = 'Cette procédure de mise à jour est valable pour toutes les versions supérieures ou égales à 1.4. Pour une version plus ancienne, demandez de l\'aide sur le forum.';
-$lang['porg_guides_manual_update_info1'] = 'Avant toutes choses, lisez s\'il vous plait la page des Prérequis. Attention particulièrement à votre version de Php / MySQL. Si la configuration n\'est pas suffisante, n\'allez pas plus loin dans le processus de mise à jour, il échouerait.';
-$lang['porg_guides_manual_update_step1_list1'] = 'Téléchargez la dernière version de l\'archive Piwigo';
+$lang['porg_guides_manual_update_info1'] = 'Avant toutes choses, lisez s\'il vous plait la page des <a href="%s">Prérequis</a>. Attention particulièrement à votre version de Php / MySQL. Si la configuration n\'est pas suffisante, n\'allez pas plus loin dans le processus de mise à jour, il échouerait.';
+$lang['porg_guides_manual_update_step1_list1'] = '<a href="%s">Téléchargez la dernière version de l\'archive Piwigo</a>';
 $lang['porg_guides_manual_update_step1_list2'] = 'Sur votre ordinateur, extrayez le répertoire “piwigo”';
 $lang['porg_guides_manual_update_step1_list3'] = 'Supprimez le répertoire par défaut “piwigo/local”';
 $lang['porg_guides_manual_update_step2_caption1'] = 'Options recommandées pour PhpMyAdmin.';

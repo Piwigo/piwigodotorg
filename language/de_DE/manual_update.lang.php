@@ -11,8 +11,7 @@ $lang['porg_guides_manual_update_step8'] = 'Schritt 8 - Prüfen Sie das Resultat
 $lang['porg_guides_manual_update_step9'] = 'Schritt 9 - Freigeben der Galerie';
 $lang['porg_guides_manual_update_step10'] = 'Schritt  10 - Entfernen der Upgrade-Mitteilungen';
 $lang['porg_guides_manual_update_paragraph1'] = 'Sie können Piwigo in der Version 1.4 oder höher mit den folgenden Schritten aktualisieren. Sollten Sie eine ältere Version einsetzen, bitten wir Sie, im Forum um Hilfe zu bitten.';
-$lang['porg_guides_manual_update_info1'] = 'Zu allererst sollten Sie die Voraussetzungen für die aktuelle Piwigo Version überprüfen. Achten Sie im speziellen auf Ihre PHP- und MySQL-Konfiguration. Fahren Sie nicht fort, wenn PHP und MySQL nicht entsprechend vorhanden und konfiguriert sind, sonst wird der Aktualisierungsprozess fehlschlagen.';
-$lang['porg_guides_manual_update_step1_list1'] = 'Laden Sie das aktuellste Piwigo Archiv herunter';
+$lang['porg_guides_manual_update_step1_list1'] = '<a href="%s">Laden Sie das aktuellste Piwigo Archiv herunter</a>';
 $lang['porg_guides_manual_update_step1_list2'] = 'Entpacken Sie das „piwigo“ Verzeichnis auf Ihrem Computer.';
 $lang['porg_guides_manual_update_step1_list3'] = 'Remove the default “piwigo/local” directory.';
 $lang['porg_guides_manual_update_step2_caption1'] = 'PhpMyAdmin empfohlene Einstellungen.';

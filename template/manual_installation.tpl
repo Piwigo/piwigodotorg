@@ -13,7 +13,7 @@
 <section class="container-fluide container-fluide-manual-installation">
     <div class="container">
       <div class="row row-guides">
-        <div class="intro-text-container-manual-installation">
+        <div class="intro-text-container-manual-installation intro-text-container-guides">
           <div class="col-xs-12 col-md-6 col-guides-text">
             <h1>{'porg_guides_manual_installation'|translate}</h1>
             <p>{'porg_guides_manual_installation_step1_paragraph1'|translate}</p>
@@ -47,7 +47,7 @@
       <div class="row step1-content-manual-installation pwg-guides-block-content">
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step1-manual-installation">{'porg_guides_manual_installation_step1'|translate}</h3>
-          <p>{'porg_guides_manual_installation_step1_paragraph2'|translate}</p>
+          <p>{'porg_guides_manual_installation_step1_paragraph2'|translate:$URL.get_piwigo}</p>
         </div>
       </div>
       <div class="row step2-content-manual-installation pwg-guides-block-content">

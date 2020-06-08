@@ -3,8 +3,8 @@
 $lang['porg_guides_netinstall_step1'] = 'Schritt 1 - Laden Sie das NetInstall-Script herunter';
 $lang['porg_guides_netinstall_step2'] = 'Schritt 2 - Laden Sie das NetInstall-Script auf ihren Webserver hoch';
 $lang['porg_guides_netinstall_paragraph1'] = 'Beim NetInstall muss Sie nur eine einzige Datei auf Ihren Webserver hochladen. Dieses Script lädt dann das Piwigo-Archiv von piwigo.org auf ihren Webserver, entpackt es und startet den Installationsprozess.';
-$lang['porg_guides_netinstall_info1'] = 'Der NetInstall-Prozess arbeitet nicht auf jedem Server, abhängig davon, welche Features Ihnen Ihr Hoster zur Verfügung stellt. Falls es bei Ihnen nicht funktioniert, wechseln Sie einfach zur Manuelle Installation.';
-$lang['porg_guides_netinstall_step1_paragraph1'] = 'Download des NetInstall-Scripts.';
+$lang['porg_guides_netinstall_info1'] = 'Der NetInstall-Prozess arbeitet nicht auf jedem Server, abhängig davon, welche Features Ihnen Ihr Hoster zur Verfügung stellt. Falls es bei Ihnen nicht funktioniert, wechseln Sie einfach zur<a href="%s"> Manuelle Installation</a>.';
+$lang['porg_guides_netinstall_step1_paragraph1'] = '<a href="%s">Download des NetInstall-Scripts.</a>';
 $lang['porg_guides_netinstall_step2_paragraph3'] = 'Laden Sie das NetInstall-Script mit einem FTP-Client auf Ihren Webserver hoch.';
 $lang['porg_guides_netinstall_image_caption1'] = 'Verbinden und Hochladen';
 $lang['porg_guides_netinstall_step3_paragraph1'] = 'Wenn Sie die Datei hochgeladen haben, rufen Sie diese in ihrem Browser auf. Die Adresse sollte z.B. so heißen: ';

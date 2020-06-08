@@ -7484,6 +7484,10 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     padding:0;
 }
 
+.framed-info-content a{
+    font-weight:700;
+}
+
 .automatic-updates-accordion-container{
     position:relative;
     padding:15px;

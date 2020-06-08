@@ -56,7 +56,7 @@
         <div class="col-md-6 col-xs-12 framed-info-content">
           <div class="framed-info">
             <img src="{$PORG_ROOT_URL}images/changelogs/information.svg">
-            <p>{'porg_guides_manual_update_info1'|translate}</p>
+            <p>{'porg_guides_manual_update_info1'|translate:$URL.requirements}</p>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
         <div class="col-xs-12 ">
           <h3 class="pwg-guides-h3" id="step1-manual-update">{'porg_guides_manual_update_step1'|translate}</h3>
           <ul>
-            <li>{'porg_guides_manual_update_step1_list1'|translate}</li>
+            <li>{'porg_guides_manual_update_step1_list1'|translate:$URL.get_piwigo}</li>
             <li>{'porg_guides_manual_update_step1_list2'|translate}</li>
             <li>{'porg_guides_manual_update_step1_list3'|translate}</li>
           </ul>
