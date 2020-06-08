@@ -7446,6 +7446,11 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     margin-bottom:100px;
 }
 
+.step3-content-manual-installation #guides-right {
+    right:0!important;
+    left:unset;
+}
+
 /*Framed info*/
 
 .framed-info{
@@ -7588,12 +7593,19 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
 
 /*Guides pages media queries*/
 
+@media (max-width:1199px){
+    .col-guides-text,
+    .col-guides-img{
+        position:relative;
+        top:unset;
+        transform:unset;
+    }
+}
+
 @media (max-width:991px){
     .row-guides img,
     .intro-text-container-requirements .col-guides-text,
-    .requirements-logos,
-    .col-guides-text,
-    .col-guides-img{
+    .requirements-logos{
         position:relative;
         top:unset;
         transform:unset;
