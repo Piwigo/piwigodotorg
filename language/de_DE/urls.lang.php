@@ -34,6 +34,12 @@ $lang['porg_urls']['press'] = 'presse';
 $lang['porg_urls']['release'] = 'release';
 $lang['porg_urls']['testimonials'] = 'referenzen';
 $lang['porg_urls']['what-is-piwigo'] = 'was-ist-piwigo';
+$lang['porg_urls']['guides'] = 'anleitung';
+$lang['porg_urls']['requirements'] = 'anleitung/installation/voraussetzungen';
+$lang['porg_urls']['netinstall'] = 'anleitung/installation/netinstall';
+$lang['porg_urls']['manual_installation'] = 'anleitung/installation/manuellle';
+$lang['porg_urls']['automatic_update'] = 'anleitung/aktualisierung/automatische';
+$lang['porg_urls']['manual_update'] = 'anleitung/aktualisierung/manuelle';
 
 $lang['porg_doc_urls']['requirements'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung:voraussetzungen';
 $lang['porg_doc_urls']['install'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung';
