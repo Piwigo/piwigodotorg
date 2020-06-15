@@ -7665,7 +7665,8 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     .requirements-content li,
     .netinstall-content p,
     .manual-installation-content p,
-    .automatic-update-content .automatic-update-text p{
+    .automatic-update-content .automatic-update-text p,
+    .manual-update-content p{
         margin-bottom:60px;
         position:relative;
         top:unset;

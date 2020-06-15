@@ -49,7 +49,7 @@
 
   <section class="manual-update-content">
     <div class="container">
-      <div class="row content-manual-update pwg-guides-block-content">
+      <div class="row content-manual-update ">
         <div class="col-md-6 col-xs-12 col-guides-text">
           <p>{'porg_guides_manual_update_paragraph1'|translate}</p>
         </div>
