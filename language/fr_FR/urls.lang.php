@@ -17,7 +17,7 @@ $lang['porg_urls']['showcases'] = 'exemples';
 $lang['porg_urls']['guides'] = 'guides';
 $lang['porg_urls']['requirements'] = 'guides/installation/prérequis';
 $lang['porg_urls']['netinstall'] = 'guides/installation/netinstall';
-$lang['porg_urls']['manual_installation'] = 'guides/installation/manuellle';
+$lang['porg_urls']['manual_installation'] = 'guides/installation/manuelle';
 $lang['porg_urls']['automatic_update'] = 'guides/mise-a-jour/automatique';
 $lang['porg_urls']['manual_update'] = 'guides/mise-a-jour/manuelle';
 
@@ -26,4 +26,3 @@ $lang['porg_doc_urls']['install'] = 'https://fr.piwigo.org/doc/doku.php?id=utili
 $lang['porg_doc_urls']['upgrade'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj';
 $lang['porg_doc_urls']['upgrade_auto'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj:maj_auto';
 $lang['porg_doc_urls']['upgrade_manual'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:maj:maj_manuelle';
-?>
