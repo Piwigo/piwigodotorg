@@ -7274,12 +7274,14 @@ body.release-2_10_0 #releaseNotesMain .section-framed p {
     font-weight:600;
 }
 
-.guides-breadcrumb{
+.guides-breadcrumb,
+.content-manual-update{
     margin:20px 0;
 }
 
 .requirements-content,
-.automatic-update-content{
+.automatic-update-content,
+.content-manual-update{
     position:relative;
 }
 
