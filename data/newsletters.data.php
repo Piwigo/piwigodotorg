@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2020-07-24' => array (
+                'title' => 'Piwigo 2.11 en beta, résultats enquête 2020',
+                'image' => 'https://piwigo.org/screenshots/piwigo-2.11-dashboard-activity.gif',
+                'summary' => 'La version 2.11 de Piwigo arrive ! Découvrez l’infographie des résultats de l’enquête 2020.',
+            ),
             '2020-01-27' => array (
                 'title' => 'Merci à tous - Grande enquête Piwigo 2020',
                 'image' => 'https://piwigo.org/screenshots/newsletter/paypal-account-blurred.jpg',
