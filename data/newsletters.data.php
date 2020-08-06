@@ -254,6 +254,11 @@
             ),
         ),
         'en' => array(
+            '2020-08-05' => array (
+                'title' => 'Piwigo 2.11 beta and results for 2020 survey',
+                'image' => 'https://piwigo.org/screenshots/piwigo-2.11-dashboard-activity.gif',
+                'summary' => 'Piwigo version 2.11 is coming ! Discover infographics for the Piwigo 2020 survey results.',
+            ),
             '2020-01-27' => array (
                 'title' => 'Thank you all - Piwigo 2020 Survey',
                 'image' => 'https://piwigo.org/screenshots/newsletter/paypal-account-blurred.jpg',
