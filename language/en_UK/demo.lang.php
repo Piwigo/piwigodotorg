@@ -10,7 +10,7 @@ $lang['porg_demo_2_text'] = 'Our second Piwigo demo gallery uses our bootstrap d
 $lang['porg_demo_3_title'] = 'Demo n°3';
 $lang['porg_demo_3_text'] = 'For the third Piwigo demo gallery, we are using Modus with a personnalised skin. in the banner we have simply added our logo with the title of the gallery and used the colors of this specific logo in the gallery.';
 $lang['porg_demo_4_title'] = 'Demo n°4';
-$lang['porg_demo_4_text'] = 'The fourth demo gallery uses Bootstrap darkroom with a hero image. The skin used is Cyborg but the blue from this theme we have changed to the colors of our hero image.';
+$lang['porg_demo_4_text'] = 'The fourth demo gallery uses Bootstrap darkroom with a hero image. The skin used is Cyborg and we have adapted the colors of this theme to match our hero image.';
 
 
 ?>
