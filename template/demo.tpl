@@ -34,13 +34,13 @@
 
     <div class="col-md-12 demo-gallery-screenshots">
       <div class="col-md-6">
-        <a href="https://demo2hannah.piwigo.com" target="_blank">
+        <a href="https://demohannah2.piwigo.com" target="_blank">
         <img src="{$PORG_ROOT_URL}images/demo/2.jpg">
         </a>
       </div>
       <div class="col-md-6">
         <div class="demo-gallery-description">
-          <a href="https://demo2hannah.piwigo.com" target="_blank">
+          <a href="https://demohannah2.piwigo.com" target="_blank">
             <h3>{'porg_demo_2_title'|translate}</h3>
           </a>
           <p>{'porg_demo_2_text'|translate}</p>
@@ -50,13 +50,13 @@
 
     <div class="col-md-12 demo-gallery-screenshots">
       <div class="col-md-6">
-        <a href="https://demo3hannah.piwigo.com" target="_blank">
+        <a href="https://demohannah3.piwigo.com" target="_blank">
         <img src="{$PORG_ROOT_URL}images/demo/3.jpg">
         </a>
       </div>
       <div class="col-md-6">
         <div class="demo-gallery-description">
-          <a href="https://demo3hannah.piwigo.com" target="_blank">
+          <a href="https://demohannah3.piwigo.com" target="_blank">
             <h3>{'porg_demo_3_title'|translate}</h3>
           </a>
           <p>{'porg_demo_3_text'|translate}</p>
@@ -66,13 +66,13 @@
 
     <div class="col-md-12 demo-gallery-screenshots">
       <div class="col-md-6">
-        <a href="https://demo4hannah.piwigo.com" target="_blank">
+        <a href="https://demohannah4.piwigo.com" target="_blank">
         <img src="{$PORG_ROOT_URL}images/demo/4.jpg">
         </a>
       </div>
       <div class="col-md-6">
         <div class="demo-gallery-description">
-          <a href="https://demo4hannah.piwigo.com" target="_blank">
+          <a href="https://demohannah4.piwigo.com" target="_blank">
             <h3>{'porg_demo_4_title'|translate}</h3>
           </a>
           <p>{'porg_demo_4_text'|translate}</p>
