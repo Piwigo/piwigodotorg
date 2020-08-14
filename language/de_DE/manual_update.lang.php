@@ -52,4 +52,14 @@ $lang['porg_guides_manual_update_step10_paragraph1'] = 'Nichts';
 $lang['porg_guides_manual_update_step10_paragraph2'] = 'Nach einem Upgrade ist nichts zu löschen. Die Datei upgrade.php selbst wird auch nicht entfernt. Sie ergibt die Meldung „No upgrade required“ und die erforderliche Benutzeranmeldung schützt die Galerie.';
 
 
-?>
+$lang['porg_guides_manual_update_info1'] = 'Bitte überprüf die aktuellen <a href="%s">Voraussetzungen</a> für den Betrieb von Piwigo. Fahre nicht fort, wenn deine PHP / MySQL Konfiguration nicht den Vorgaben entspricht, da das Upgrade in diesem Fall fehlschlagen wird.';
+$lang['porg_guides_manual_update_step4_caption1'] = 'Gallerie sperren';
+$lang['porg_guides_manual_update_step4_paragraph2'] = 'Bei Piwigo 2.3 oder aelter: Konfiguration > Allgemein > Gallerie sperren.
+Bei Piwigo 2.4+: Tools > Wartung';
+$lang['porg_guides_manual_update_step5_list1'] = 'Gallerien';
+$lang['porg_guides_manual_update_step5_list2'] = 'Upload';
+$lang['porg_guides_manual_update_step5_list3'] = 'Erweiterungen';
+$lang['porg_guides_manual_update_step5_list4'] = 'Themen';
+$lang['porg_guides_manual_update_step5_list5'] = 'Templateerweiterung';
+$lang['porg_guides_manual_update_step5_list6'] = 'Lokal';
+$lang['porg_guides_manual_update_step5_list7'] = '_data';
