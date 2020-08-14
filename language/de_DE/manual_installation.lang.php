@@ -10,4 +10,4 @@ $lang['porg_guides_manual_installation_step2_paragraph4'] = '2.Auf ihrer Festpla
 $lang['porg_guides_manual_installation_step2_paragraph5'] = '3.Markieren sie alle Ordner und Dateien und laden sie diese in den Ordner „photos“.';
 $lang['porg_guides_manual_installation_info3'] = 'Sie können die Piwigo auch in das Root-Directory ihres Webservers installieren, der Ordner „photos“ ist nicht verpflichtend. Egal welchen Ordnername sie wählen, es wird nicht empfohlen die Versionsnummer der Piwigo zu verwenden.';
 
-?>
+$lang['porg_guides_manual_installation_image_caption1'] = 'Verbinden und übertragen';
