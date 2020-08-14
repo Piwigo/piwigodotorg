@@ -19,4 +19,5 @@ $lang['porg_guides_automatic_update_paragraph11'] = 'Gehen Sie zu Administration
 $lang['porg_guides_automatic_update_paragraph12'] = 'Gehen Sie zu Administration > Plugins > Piwigo AutoUpgrade und folgen Sie den Anweisungen. Sie können entscheiden zwischen einer Aktualisierung auf die neueste Version ihres „Zweigs“ oder auf die allerletzte Piwigo Version.';
 $lang['porg_guides_automatic_update_paragraph13'] ='Sollten Sie eine ältere Version haben, dann führen Sie bitte eine manuelle Aktualisierung durch.';
 
-?>
+$lang['porg_guides_automatic_update_button5'] = 'Wenn du eine Version älter als 1.7.x nutzt';
+$lang['porg_guides_automatic_update_info1'] = 'Stell sicher, dass du immer ein Backup deiner Datenbank und Dateien hast. Am besten wird ein Backup automatisch und regelmäßig erstellt. Sollte ein Update schief laufen, kannst du deine Umgebung jederzeit aus einem Backup wiederherstellen.';
