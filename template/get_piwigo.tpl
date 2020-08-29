@@ -30,13 +30,13 @@
           <img id="self-hosted-illustration" src="{$PORG_ROOT_URL}images/get_piwigo/self-hosted-illlustration.svg">
           <div class="row">
             <div class="col-md-4 text-right col-xs-4">
-              <a href="{$DOC_URL.install}">{'Install Guide'|translate}</a>
+              <a href="{$URL.manual_installation}">{'Install Guide'|translate}</a>
             </div>
             <div class="col-md-4 col-xs-4">
-              <a href="//piwigo.org/download/dlcounter.php?code=netinstall">{'NetInstall'|translate}</a>
+              <a href="{$URL.netinstall}">{'NetInstall'|translate}</a>
             </div>
             <div class="col-md-4 text-left col-xs-4">
-              <a href="{$DOC_URL.upgrade}">{'Upgrade Guide'|translate}</a>
+              <a href="{$URL.automatic_update}">{'Upgrade Guide'|translate}</a>
             </div>
           </div>
         </div>

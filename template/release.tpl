@@ -115,7 +115,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <a class="btn" href="{$DOC_URL.upgrade_auto}" target="_blank">{'Automatic upgrade'|translate}</a>
+            <a class="btn" href="{$URL.automatic_update}">{'Automatic upgrade'|translate}</a>
           </div>
         </div>
         <div class="transfer-upgrade">
@@ -135,7 +135,7 @@
             <p>{'If you are running a version older than %s and do not want to use the automatic upgrade, then follow the <b>manual upgrade</b>.'|translate:$branch}</p>
           </div>
           <div class="col-md-4">
-            <a class="btn" href="{$DOC_URL.upgrade_manual}" target="_blank">{'Manual Upgrade'|translate}</a>
+            <a class="btn" href="{$URL.manual_update}">{'Manual Upgrade'|translate}</a>
           </div>
         </div>
       </div>
