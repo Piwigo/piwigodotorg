@@ -16,3 +16,4 @@ $lang['porg_guides_requirements_optional_third'] = 'pdftoppm рекоменду�
 $lang['porg_guides_requirements_minimal'] = 'Минимальные требования';
 $lang['porg_guides_requirements_minimal_third'] = 'PHP 5.3 (рекомендуем 7.0 или 7.1)';
 $lang['porg_guides_requirements_optional'] = 'Дополнительные (необязательные) требования';
+$lang['porg_guides_requirements_minimal_fifth'] = 'понадобится программное обеспечение для клиента FTP - для загрузки файлов (NetInstall или полный пакет. Команда Piwigo рекомендует FTP-клиент FileZilla, потому что это бесплатно, как и Piwigo, и отлично совместимо с Windows, Mac и Linux.';
