@@ -154,5 +154,5 @@ $lang['porg_guides_install_step2_list3'] = 'Пароль';
 $lang['porg_guides_install_step3_list2'] = 'Пользователь';
 $lang['porg_guides_install_step3_list3'] = 'Пароль';
 $lang['porg_guides_install_step3_list4'] = 'Имя базы данных';
-$lang['porg_guides_install_info2'] = 'Команда Piwigo рекомендует FTP-клиент FileZilla, потому что он бесплатный, как и Piwigo, и совместим с Windows и Linux.';
-$lang['porg_guides_install_step3_list2_span'] = 'Учтите, что Ваш провайдер может предоставлять и отдельные настройки подключения для FTP и MySQL.';
+$lang['porg_guides_install_info2'] = 'Команда Piwigo рекомендует FTP-клиент FileZilla, т.к. это бесплатно, как и Piwigo, и совместимо с Windows и Linux.';
+$lang['porg_guides_install_step3_list2_span'] = 'Предупреждение. Ваш провайдер веб-хостинга может предоставлять и отдельные настройки подключения для FTP и MySQL.';
