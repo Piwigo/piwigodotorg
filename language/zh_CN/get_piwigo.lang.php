@@ -40,3 +40,7 @@ $lang['Self-hosted Piwigo'] = '自托管 Piwigo';
 $lang['Upgrade Guide'] = '升级指南';
 $lang['porg_get_piwigo_cloud_hosted_desc1'] = '使用 Piwigo.com，你无需为技术问题费心。';
 $lang['porg_get_piwigo_cloud_hosted_desc2'] = '安装、升级、备份完全在专为 Piwigo 定制的基础架构上进行。';
+$lang['Advantages'] = '优势';
+$lang['Clients'] = '客户';
+$lang['Start free trial'] = '开始免费试用';
+$lang['porg_get_piwigo_desc2-2'] = '您也可以使用 Piwigo.com 的云服务。';
