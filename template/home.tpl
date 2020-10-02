@@ -76,7 +76,7 @@ $(document).ready(function() {
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/s3v.png" class="logo-societe-3-vallees">
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/fondation_arc.svg">
+          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/logo-paris1-pantheon-sorbonne.png">
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/logo-federation-francaise-natation.png" class="logo-federation-francaise-natation">
