@@ -3,6 +3,26 @@
 $testimonials = array(
   array(
     'language' => 'fr',
+    'added_on' => '2020-10-05',
+    'css_class' => 'pwg-testimonies-paris1sorbonne',
+    'user' => array(
+      'username' => 'Pascal Levy',
+      'country' => 'France',
+      'type' => 'Organisation',
+      'organisation' => 'Université Paris 1 Panthéon-Sorbonne',
+      'picture' => 'images/testimonies/logo-paris1sorbonne.png',
+      'url' => 'https://phototheque.univ-paris1.fr/',
+    ),
+    'content' => '
+Quand nous avons du changer dans l\'urgence la solution de photothèque existante à l\'université, Piwigo nous est apparu un bon compromis au milieu d\'un ensemble de contraintes difficilement conciliables. Il nous fallait une solution rapide et facile à mettre en place, permettant à la fois la gestion technique d\'une base d\'images importante avec des possibilités d\'indexation et de gestion des métadonnées et des recherches approchant d\'une GED ou d\'une solution DAM, une vraie interface de publication et de partage avec gestion des droits d\'accès, un interfaçage opérationnel avec le système d\'information de l\'établissement et une intégration fluide dans mon flux de travail depuis Lightroom. Évidemment le fait que je connaissais déjà Piwigo que j\'utilise aussi à titre privé a guidé le choix et nous a facilité la mise en œuvre.
+
+Après deux ans de recul, Piwigo nous donne largement satisfaction, très au-delà de la solution transitoire que nous en attentions. Si les fonctions de DAM restent encore à enrichir, la souplesse permises par le système de personnalisation et de plugin ainsi que le mode de développement open source en font une solution évolutive et adaptable, robuste, capable de parer élégamment à l\'essentiel.
+',
+  ),
+
+
+  array(
+    'language' => 'fr',
     'added_on' => '2018-12-14',
     'css_class' => 'pwg-testimonies-AaDT64',
     'user' => array(
