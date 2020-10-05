@@ -1,5 +1,6 @@
 <?php
 $showcases = array(
+  'paris1sorbonne' => array('category'=>'public-sector', 'url'=>'https://phototheque.univ-paris1.fr/'),
   'societe3vallees' => array('category' => 'sports-and-leisure'),
   'oceanopolis' => array('category' => 'sports-and-leisure'),
   'hautegaronne' => array('category' => 'public-sector', 'url' => 'https://media.haute-garonne.fr/'),

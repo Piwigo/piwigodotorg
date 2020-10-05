@@ -48,3 +48,5 @@ $lang['porg_showcases_photolib_title'] = 'Photolib';
 $lang['porg_showcases_photolib_desc'] = 'photolib.fr est une galerie photo créée avec Piwigo qui présente des photos sous licence Creative Commons.';
 $lang['porg_showcases_pinnacle_title'] = 'The Pinnaccle Galleries';
 $lang['porg_showcases_pinnacle_desc'] = 'Sur cette galerie photo, Steve Raia présente son travail photographique et commercialise ses photos.';
+$lang['porg_showcases_paris1sorbonne_title'] = 'Université Paris 1 Panthéon Sorbonne';
+$lang['porg_showcases_paris1sorbonne_desc'] = 'L\'Université Paris 1 Panthéon-Sorbonne a choisi Piwigo pour gérer et organiser son importante base d’images.';
