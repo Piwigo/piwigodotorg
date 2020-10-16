@@ -51,7 +51,7 @@
     <div class="col-md-12 demo-gallery-screenshots">
       <div class="col-md-6">
         <a href="https://demohannah3.piwigo.com" target="_blank">
-        <img src="{$PORG_ROOT_URL}images/demo/3.jpg">
+        <img src="{$PORG_ROOT_URL}images/demo/3.png">
         </a>
       </div>
       <div class="col-md-6">
@@ -67,7 +67,7 @@
     <div class="col-md-12 demo-gallery-screenshots">
       <div class="col-md-6">
         <a href="https://demohannah4.piwigo.com" target="_blank">
-        <img src="{$PORG_ROOT_URL}images/demo/4.jpg">
+         <img src="{$PORG_ROOT_URL}images/demo/4.jpg">
         </a>
       </div>
       <div class="col-md-6">
