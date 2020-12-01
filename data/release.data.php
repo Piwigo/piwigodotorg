@@ -1,6 +1,20 @@
 <?php
 
 $porg_releases = array(
+  '11.0.0' => array(
+    'released_on' => '2020-12-08',
+    'md5sum' => '6006zzza3780c91a716c03b244c8d8ea',
+    'summary' => array('Admin redesign', 'Album search tool', 'Activity chart'),
+    'subtitle' => 'A major update, focused on design and user experience, once more.',
+    'features' => array(),
+    'bugs' => array(),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+  ),
+
   '2.10.2' => array(
     'released_on' => '2020-03-27',
     'md5sum' => '488174630af5fd3589301cb1d2ab3c66',
@@ -13,6 +27,7 @@ $porg_releases = array(
       array('id' => 1150, 'section' => 'Security'),
       array('id' => 1133, 'section' => 'Display'),
       array('id' => 1119, 'section' => 'Users & Groups'),
+
       array('id' => 1114, 'section' => 'UX'),
       array('id' => 1112, 'section' => 'Display'),
       array('id' => 1102, 'section' => 'Display'),
