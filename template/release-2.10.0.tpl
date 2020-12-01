@@ -1,6 +1,6 @@
 {include file="template/release_top_sections.tpl"}
 
-<div id="releaseNotesMain">
+<div id="releaseNotesMain" class="major-release">
 
 <section class="container release-notes-intro">
   <div class="row">
