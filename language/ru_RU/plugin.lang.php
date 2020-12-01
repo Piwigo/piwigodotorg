@@ -156,3 +156,8 @@ $lang['porg_guides_install_step3_list3'] = 'Пароль';
 $lang['porg_guides_install_step3_list4'] = 'Имя базы данных';
 $lang['porg_guides_install_info2'] = 'Команда Piwigo рекомендует FTP-клиент FileZilla, т.к. это бесплатно, как и Piwigo, и совместимо с Windows и Linux.';
 $lang['porg_guides_install_step3_list2_span'] = 'Предупреждение. Ваш провайдер веб-хостинга может предоставлять и отдельные настройки подключения для FTP и MySQL.';
+$lang['porg_get_started_question_desc1'] = 'You can get some help on the <a href="%s">forum</a> or find your own answers in the <a href="%s">documentation</a>';
+$lang['porg_guides_install_step2_paragraph1'] = 'Start FileZilla and fill the following connection settings with the information given by your web hosting provider:';
+$lang['porg_guides_install_step3_list5_span'] = 'Most often, web hosting providers allow a single database per customer, but you can create as many tables as you want in the same database. To avoid conflicts with other web applications, or allow several Piwigo installations on the same website, the table names have a prefix. By default, this prefix is ”piwigo_”, but you can change it (only alphanumeric characters are allowed).';
+$lang['porg_guides_install_step3_paragraph0'] = 'Once all files are transfered, go to the web address with a web browser, for example http://example.com/photos Piwigo will detect nothing is installed yet, and redirect you to the installation page.';
+$lang['porg_guides_install_step3_paragraph1'] = 'Now comes the MySQL database settings and the webmaster account to administer your gallery';
