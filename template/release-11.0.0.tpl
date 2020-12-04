@@ -416,7 +416,7 @@
 
   <div class="col-sm-12 col-md-6">
     <h4 class="col-sm-12" id="mysql8">{'porg_v11_technical_features4'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v11_technical_features5'|translate}</code></p>
+    <p class=" descriptive-text col-sm-12">{'porg_v11_technical_features5'|translate} <code>$conf[\'quick_search_include_sub_albums\'] = true;</code></p>
   </div>
 
   <div class="col-sm-12 col-md-6">
