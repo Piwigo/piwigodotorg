@@ -2,20 +2,38 @@
 
 <div id="releaseNotesMain" class="major-release">
 
+<section class="container-fluid release11-header">
+  <div class="row text-center">
+    <img class="piwigo11-img " src="{$PORG_ROOT_URL}/images/changelogs/11/piwigo11.svg">
+  </div>
+</section>
+
 <section class="container release-notes-intro">
   <div class="row">
     <div class="col-sm-12 col-md-6 text-center">
       <p class="intro-text" id="intro-title">{'porg_v11_intro1'|translate}</p>
-      <img class="img-fluid underline-img" src="{$PORG_ROOT_URL}/images/changelogs/title-underline.svg">
+      <img alt="piwigo 11 banner" class="img-fluid underline-img" src="{$PORG_ROOT_URL}/images/changelogs/title-underline.svg">
+      <div class=" container-download-release text-center download11">
+          <div class="row">
+            <a class="btn" href="//piwigo.org/download/dlcounter.php?code={$version}">{'Download Piwigo %s'|translate:$version}</a>
+            <p class="release-date"><i class="icon-dropbox"></i>{'Released on %s'|translate:$released_on}</p>
+            <a class="copy-md5sum" title="Copy md5sum" data-clipboard-text="{$md5sum}"><i class="icon-clipboard"></i></a>
+            <a id="popover" title="{$md5sum} <a class='btn-close-popover' onclick='$(&quot;#popover&quot;).popover(&quot;hide&quot;);'><i class='icon-cancel-circled'></i></a>" data-html="true" data-toggle="popover" data-placement="bottom" data-content="{'The MD5 sum is a convenient tool to make sure that your file is not corrupted.'|translate|escape:html} {'You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.'|translate|escape:html}">md5sum</a>
+            {if $version_major != $version}
+              <p><i class="icon-info-circled"></i>{'The list of major changes is described on <a href="%s">Piwigo %s</a> release note'|translate:"{$URL.release}-{$version_major}":$version_major}</p>
+            {/if}
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 text-center">
       <p class="intro-text intro-text2_10 " id="intro-main-text">{'porg_v11_intro2'|translate}</p>
       <p class="intro-text">{'porg_v11_intro3'|translate}</p>
-    </div>
-
-    <div class="col-sm-12 col-md-6 text-center">
-      <img class="" id="responsive-screens" src="https://piwigo.org/screenshots/github-screenshot-2.10.jpg">
+      
     </div>
   </div>
 </section>
+
+
 
 <section class="container">
 
@@ -65,7 +83,7 @@
   <div class="row first-image-and-caption">
     <div class="col-sm-12 col-md-8 ">
       <img class="img-fluid corner1" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
-      <img src="https://piwigo.org/screenshots/piwigo-2.11-plugin-manager.png" class="screenshot">
+      <img src="{$PORG_ROOT_URL}/images/changelogs/11/plugin-manager.png" class="screenshot">
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
     <div class="col-sm-12 col-md-4">
@@ -75,11 +93,11 @@
 </div>
 
 <div class="section-part">
-  <h3 id="dashboard">{'porg_v11_photo_editor_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v11_badge_redesign'|translate}</span></h3>
+  <h3 id="dashboard">{'porg_v11_photo_edition_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v11_badge_redesign'|translate}</span></h3>
 
   <div class="row second-image-and-caption">
     <div class="col-sm-12 col-md-4">
-      <p class="screenshot-caption">{'porg_v11_photo_editor_image1_label'|translate}</p>
+      <p class="screenshot-caption">{'porg_v11_photo_edition_image1_label'|translate}</p>
     </div>
     <div class="col-sm-12 col-md-8 right-image-screenshot ">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
@@ -162,7 +180,7 @@
   <div class="row first-image-and-caption">
     <div class="col-sm-12 col-md-8 ">
       <img class="img-fluid corner1" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
-      <img src="https://piwigo.org/screenshots/piwigo-2.11-batch-manager.png" class="screenshot">
+      <img src="{$PORG_ROOT_URL}/images/changelogs/11/batch-manager.png" class="screenshot">
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
     <div class="col-sm-12 col-md-4">
@@ -262,11 +280,11 @@
 </div>
 
 <div class="section-part">
-  <h3 id="admin-redesign">{'porg_v11_album_editor_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v11_badge_redesign'|translate}</span></h3>
+  <h3 id="admin-redesign">{'porg_v11_album_edition_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v11_badge_redesign'|translate}</span></h3>
 
   <div class="row second-image-and-caption ">
     <div class="col-sm-12 col-md-4">
-    <p class="screenshot-caption">{'porg_v11_album_editor_image1_label'|translate}</p>
+    <p class="screenshot-caption">{'porg_v11_album_edition_image1_label'|translate}</p>
     </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
