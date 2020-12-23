@@ -1,0 +1,86 @@
+<?php
+// +-----------------------------------------------------------------------+
+// | This file is part of Piwigo.                                          |
+// |                                                                       |
+// | For copyright and license information, please view the COPYING.txt    |
+// | file that was distributed with this source code.                      |
+// +-----------------------------------------------------------------------+
+$lang['porg_v11_technical_features15'] = 'Oproepen naar piwigo.org alleen in HTTPS';
+$lang['porg_v11_technical_features16'] = 'Uw Piwigo maakt oproepen (HTTP-verzoeken) naar piwigo.org om de lijst met extensies te krijgen of om te controleren of er een nieuwe beschikbare versie is. Vanaf nu worden al deze oproepen uitgevoerd in HTTPS.';
+$lang['porg_v11_technical_features17'] = 'Nieuwe trigger';
+$lang['porg_v11_technical_features18'] = 'We hebben 1 trigger toegevoegd aan het einde van de centrale functie bij het uploaden van een bestand';
+$lang['porg_v11_technical_features19'] = 'API-wijzigingen';
+$lang['porg_v11_technical_features2'] = 'Technische wijzigingen in Piwigo 11';
+$lang['porg_v11_technical_features20'] = 'Oproepen naar piwigo.org alleen in HTTPS';
+$lang['porg_v11_technical_features3'] = 'Lees het a.u.b. om uw extensies compatibel te maken met Piwigo 11.';
+$lang['porg_v11_technical_features4'] = 'Snel zoeken en sub-albums';
+$lang['porg_v11_technical_features5'] = 'Snel zoeken (zoeken vanuit menu) kan foto\'s uit sub-albums in de zoekresultaten opnemen. Een zoekopdracht naar "beer" toont foto\'s in albums "wilde beren / grizzly" en "wilde beren / reuzenpanda". Deze functie moet expliciet worden geactiveerd met lokale configuratie';
+$lang['porg_v11_technical_features6'] = 'Plug-in "Heeft instellingen"';
+$lang['porg_v11_technical_features7'] = 'In Piwigo 11 worden plug-ins niet langer vermeld in het beheermenu. In plaats daarvan hebben we een knop "Instellingen" in het vak van de plug-in. De knop wordt geactiveerd door de oude';
+$lang['porg_v11_technical_features9'] = 'trigger maar kan worden vervangen door de';
+$lang['porg_v11_theme_manager_image1_label'] = 'Dezelfde ontwerpregels als de nieuwe plug-inbeheerder worden toegepast.';
+$lang['porg_v11_theme_manager_title'] = 'Thema manager';
+$lang['porg_v11_user_manager_image1_label'] = 'De gebruikersmanager krijgt een kleine verbetering in Piwigo 11: je kon alleen de huidige pagina of de hele set gebruikers selecteren. Nu houdt de "selecteer hele set" rekening met het filter. Op deze manier kunt u eenvoudig dezelfde actie toepassen op alle gebruikers van een bepaalde groep.';
+$lang['porg_v11_user_manager_title'] = 'Gebruikersbeheerder, slimmere selectie';
+$lang['porg_v11_zacharie_text1'] = 'Mijn naam is Zacharie en ik nam deel aan het Piwigo-avontuur in april 2020 als onderdeel van mijn studie computerwetenschappen in Nantes (Frankrijk). Ik heb met het team gewerkt om versie 2.11 van Piwigo uit te brengen, inclusief het verjongen van de visuele interfaces van het beheergebied.';
+$lang['porg_v11_zacharie_text2'] = 'Met behulp van Pierrick\'s advies en Hannah\'s mockups, heb ik de nieuwe Group Manager, de nieuwe Tag Manager, geïmplementeerd en vele andere pagina\'s vernieuwd. Om dit te doen heb ik mijn vaardigheden in JavaScript en CSS gebruikt, ik heb ook AJAX aan veel pagina\'s toegevoegd voor een betere gebruikerservaring (UX). Met een creatieve bui zie je misschien de paar animaties die ik op de nieuwe pagina\'s heb achtergelaten.';
+$lang['porg_v11_photo_edition_image1_label'] = 'In Piwigo 11 heeft de foto-editie een vernieuwd ontwerp om meer belang te hechten aan elke foto en de bijbehorende gegevens.';
+$lang['porg_v11_photo_edition_title'] = 'Foto-editie';
+$lang['porg_v11_plugin_manager_image1_label'] = 'Plugin-manager in Piwigo 11: een vernieuwd ontwerp, de menukoppeling verplaatst naar de plug-in-box zelf en een nieuwe filterfunctie.';
+$lang['porg_v11_plugin_manager_title'] = 'Plugin manager';
+$lang['porg_v11_related_albums_image1_label'] = 'Piwigo 11 kan "gerelateerde albums" weergeven en albums combineren. Ja, het lijkt veel op "gerelateerde tags". Het grote verschil is dat albums hiërarchisch kunnen worden ingedeeld, terwijl tags plat zijn.';
+$lang['porg_v11_related_albums_image2_label'] = 'Met Piwigo kun je albums combineren om de exacte set foto\'s te vinden waarnaar je op zoek bent.';
+$lang['porg_v11_related_albums_title'] = 'Gerelateerde albums';
+$lang['porg_v11_requirements_image1_label'] = 'Voor toekomstige updates controleert Piwigo 11+ de vereiste PHP-versie. We willen voorkomen dat u begonnen bent met het updaten van Piwigo en beseffen dat u vastloopt omdat uw PHP te oud is. We willen de PHP-versie in de nabije toekomst ook serieus kunnen uitbreiden.';
+$lang['porg_v11_requirements_title'] = 'Vereisten gecontroleerd voor update';
+$lang['porg_v11_tag_manager_image1_label'] = 'Hier hebben we de standaardmodus waarin u een nieuwe tag kunt toevoegen en een actie kunt toepassen op elke bestaande tag ...';
+$lang['porg_v11_tag_manager_image2_label'] = '... dan kunt u de selectiemodus activeren om meerdere tags tegelijk te selecteren en een samenvoeging of verwijdering uit te voeren.';
+$lang['porg_v11_tag_manager_image3_label'] = 'Er is een filter voorzien om uw tags te helpen vinden. Wat handig is als je er veel hebt.';
+$lang['porg_v11_tag_manager_text'] = 'De tag-manager krijgt een volledige herschrijving met deze versie 11. Het heeft dezelfde functies, maar een nieuwe gebruikerservaring en snelheid.';
+$lang['porg_v11_tag_manager_title'] = 'Tag manager';
+$lang['porg_v11_technical_features1'] = 'Houd er rekening mee dat er meer gedetailleerde documentatie beschikbaar is over';
+$lang['porg_v11_technical_features10'] = 'Heeft instellingen';
+$lang['porg_v11_technical_features11'] = 'in de header.inc.php bestand';
+$lang['porg_v11_technical_features12'] = 'leer meer';
+$lang['porg_v11_technical_features13'] = 'Minder talen geactiveerd';
+$lang['porg_v11_technical_features14'] = 'Alleen de installatietaal is standaard geactiveerd, in plaats van de 70+ beschikbare talen.';
+$lang['porg_v11_group_manager_text'] = 'Volledige herschrijving van de groepsbeheerder: schoner, betere gebruikerservaring en mogelijkheid om gebruikers te associëren.';
+$lang['porg_v11_group_manager_title'] = 'Groepsmanager';
+$lang['porg_v11_history_stats_image1_label'] = 'Geschiedenisstatistieken in Piwigo 11 hebben nu geanimeerde curven voor een mooiere look.';
+$lang['porg_v11_history_stats_image2_label'] = 'De pagina met geschiedenisstatistieken krijgt ook een vergelijkingsmodus om jaren of maanden te vergelijken.';
+$lang['porg_v11_history_stats_title'] = 'Geschiedenis statistieken';
+$lang['porg_v11_info1_text'] = 'Vaarwel versie 2.11, welkom versie 11! In 2008 hebben we besloten om PhpWebGallery te hernoemen naar Piwigo en we zijn overgestapt van versie 1.7 naar 2.0. Het betekent dat we al 12 jaar op versie 2 zitten. Veel langer dan de levensduur van veel andere projecten. Een versie 2.10 of 2.11 weerspiegelt niet het enorme werk dat we hebben gestoken in het herontwerp van de Piwigo-gebruikersinterface, zelfs als de technische backend niet veel veranderde. We willen duidelijk maken dat we met deze versies veel verbeteringen aanbrengen. Misschien had versie 2.10 versie 3 moeten zijn, zoals sommige leden van de gemeenschap suggereerden. Het is dus tijd om ons versiesysteem te herzien. Laten we van versie 2.10 naar 11.0 springen!';
+$lang['porg_v11_info1_title'] = 'Versie springt van 2.10 naar 11';
+$lang['porg_v11_info2_text'] = 'De databasedumpfunctie die op de updatepagina wordt voorgesteld, is verwijderd. Het werkte niet meer met recente versies van PHP. Het wordt vervangen door een eenvoudiger bericht om altijd een back-up van bestanden en database te hebben.';
+$lang['porg_v11_info2_title'] = 'Database dump verwijderd';
+$lang['porg_v11_info3_text'] = 'U kunt nu ook inloggen met uw e-mailadres in plaats van uw gebruikersnaam. Eerst controleert Piwigo of de verstrekte inloggegevens overeenkomen met een gebruikersnaam, zo niet, dan controleren we tussen e-mailadressen.';
+$lang['porg_v11_info3_title'] = 'Log in met uw e-mailadres';
+$lang['porg_v11_intro1'] = 'Klaar voor een heleboel verbeteringen?';
+$lang['porg_v11_intro2'] = 'Aangezien onze verbeteringen en herontwerpen zo talrijk zijn, hebben we besloten om ons versiebeheersysteem te veranderen! Nadat versie 2.10 een nieuw ontwerp introduceerde voor enkele van de beheerpagina\'s, implementeert deze versie 11 een nieuw ontwerp op veel andere pagina\'s. Piwigo 11 biedt ook nieuwe functies, zowel voor de beheerder als voor de galerij, zoals een hulpmiddel voor het zoeken naar albums, een activiteitenoverzicht of gerelateerde albums.';
+$lang['porg_v11_intro3'] = 'Bereid u voor op aangename verrassingen!';
+$lang['porg_v11_mobile_image1_label'] = 'Voorlopig werkt deze functie alleen op iOS-apparaten, dwz iPhone of iPad.';
+$lang['porg_v11_mobile_text'] = 'Als u vanaf een mobiel apparaat opent, promoot Piwigo de Piwigo-app te openen / installeren. Kan worden geactiveerd in het beheer of de galerij of volledig gedeactiveerd.';
+$lang['porg_v11_mobile_title'] = 'Mobile app aanbeveling';
+$lang['porg_v11_move_albums_image1_label'] = 'U kunt de volgorde van sub-albums binnen hetzelfde album wijzigen of een album naar een ander album verplaatsen.';
+$lang['porg_v11_move_albums_text'] = 'Met piwigo 11 krijgen we een volledig nieuwe gebruikersinterface om albums te verplaatsen. Dit is de enige pagina waarop u uw hele albumopbouw kunt zien.';
+$lang['porg_v11_move_albums_title'] = 'Verplaats albums';
+$lang['porg_v11_activity_chart_image1_label'] = 'Het activiteitenoverzicht wordt weergegeven op het dashboard, naast algemene statistieken en snelkoppelingen';
+$lang['porg_v11_activity_chart_image2_label'] = 'Hoe meer activiteiten je hebt, hoe groter de cirkel. Piwigo geeft uw gegevens voor elke dag dat u actief bent.';
+$lang['porg_v11_activity_chart_text'] = 'Piwigo 2.10 is begonnen met het registreren van veel administratieve activiteiten, zoals het uitgeven van albums of het maken van groepen ... Piwigo 11 kan nu een overzicht van al deze activiteiten weergeven';
+$lang['porg_v11_activity_chart_title'] = 'Activiteitenoverzicht';
+$lang['porg_v11_album_edition_image1_label'] = 'Piwigo 11 heeft nu een modernere en kleurrijkere pagina om albums te bewerken.';
+$lang['porg_v11_album_edition_title'] = 'Album editie';
+$lang['porg_v11_album_manager_image1_label'] = 'De albummanager volgt hetzelfde ontwerp als de groepsmanager die eerder werd geïntroduceerd.';
+$lang['porg_v11_album_manager_title'] = 'Albummanager';
+$lang['porg_v11_album_search_image1_label'] = 'Met deze versie krijgt Piwigo 11 een nieuwe tool om in al uw albums te zoeken. Ik vermoed dat het <b> zeer </b> nuttig zal zijn voor veel beheerders';
+$lang['porg_v11_album_search_title'] = 'Hulpprogramma voor het zoeken naar albums';
+$lang['porg_v11_badge_new'] = 'Nieuw';
+$lang['porg_v11_badge_redesign'] = 'herontwerp';
+$lang['porg_v11_badge_refresh'] = 'vernieuwen';
+$lang['porg_v11_batch_manager_image1_label'] = 'De batchmanager van Piwigo 11 krijgt een vernieuwd ontwerp, volgens de richtlijnen van de andere nieuwe generatie pagina\'s.';
+$lang['porg_v11_batch_manager_image2_label'] = 'De "filter" -sectie van de Batch Manager krijgt een nieuw ontwerp voor het toevoegen van filters';
+$lang['porg_v11_batch_manager_title'] = 'Batchmanager';
+$lang['porg_v11_custom_alerts_image1_label'] = 'Browserwaarschuwingen worden vervangen door aangepaste waarschuwingen. Meer expliciete labels, om beter te begrijpen wat u doet.';
+$lang['porg_v11_custom_alerts_title'] = 'Aangepaste waarschuwingen';
+$lang['porg_v11_group_manager_image1_label'] = 'De algehele look van de nieuwe groepsbeheerder. We hebben alle voorgaande functies behouden, maar we hebben de gebruikerservaring veel leuker gemaakt.';
+$lang['porg_v11_group_manager_image2_label'] = 'Nieuwe functie: u kunt nu gebruikers rechtstreeks koppelen, zonder de gebruikersbeheerder te gebruiken.';
