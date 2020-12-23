@@ -434,7 +434,7 @@
 
   <div class="col-sm-12 col-md-6">
     <h4 class="col-sm-12" id="mysql8">{'porg_v11_technical_features4'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v11_technical_features5'|translate} <code>$conf[\'quick_search_include_sub_albums\'] = true;</code></p>
+    <p class=" descriptive-text col-sm-12">{'porg_v11_technical_features5'|translate} <code>$conf['quick_search_include_sub_albums'] = true;</code></p>
   </div>
 
   <div class="col-sm-12 col-md-6">
@@ -465,12 +465,12 @@
     <h4 class="col-sm-12" id="api">{'porg_v11_technical_features19'|translate}</h4>
     <ul class="api-methods col-sm-12">
       <li><span class="badge new">{'new'|translate}</span><code>pwg.images.uploadAsync</code> upload photo in random order chunks</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.delete</code> {'porg_v2100_api_s2'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.rename</code> {'porg_v2100_api_s3'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.duplicate</code> {'porg_v2100_api_s4'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.merge</code> {'porg_v2100_api_s5'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.groups.merge</code> {'porg_v2100_api_s5'|translate}</li>
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.groups.duplicate</code> {'porg_v2100_api_s5'|translate}</li>
+      <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.delete</code></li>
+      <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.rename</code></li>
+      <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.duplicate</code></li>
+      <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.merge</code></li>
+      <li><span class="badge new">{'new'|translate}</span><code>pwg.groups.merge</code></li>
+      <li><span class="badge new">{'new'|translate}</span><code>pwg.groups.duplicate</code></li>
     </ul>
   </div>
 </div> {* .row *}
