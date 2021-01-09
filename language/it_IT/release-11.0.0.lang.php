@@ -1,0 +1,86 @@
+<?php
+// +-----------------------------------------------------------------------+
+// | This file is part of Piwigo.                                          |
+// |                                                                       |
+// | For copyright and license information, please view the COPYING.txt    |
+// | file that was distributed with this source code.                      |
+// +-----------------------------------------------------------------------+
+$lang['porg_v11_technical_features4'] = 'Ricerca rapida e sottoalbum';
+$lang['porg_v11_zacharie_text1'] = 'Mi chiamo Zacharie e sono entrato nell\'avventura di Piwigo nell\'aprile 2020 come parte dei miei studi in informatica a Nantes (Francia). Ho lavorato con il team per rilasciare la versione 2.11 di Piwigo, incluso il ringiovanimento delle interfacce visive dell\'area di amministrazione.';
+$lang['porg_v11_user_manager_title'] = 'User manager, selezione più intelligente';
+$lang['porg_v11_zacharie_text2'] = 'Utilizzando i consigli di Pierrick e i mockup di Hannah, ho implementato il nuovo Group Manager, il nuovo Tag manager e ho aggiornato molte altre pagine. Per fare questo, ho usato le mie abilità in JavaScript e CSS, ho anche portato AJAX in molte pagine per una migliore esperienza utente (UX). Con un temperamento creativo, potresti notare le poche animazioni che ho lasciato nelle nuove pagine.';
+$lang['porg_v11_theme_manager_title'] = 'Gestore Tema';
+$lang['porg_v11_user_manager_image1_label'] = 'Il gestore utenti ottiene un leggero miglioramento in Piwigo 11: puoi selezionare solo la pagina corrente. D\'ora in poi, "seleziona tutto il batch" tiene conto del filtraggio. Ciò semplifica l\'applicazione della stessa azione a tutti i membri di un gruppo.';
+$lang['porg_v11_theme_manager_image1_label'] = 'Vengono applicate le stesse regole di progettazione del nuovo gestore plugin.';
+$lang['porg_v11_technical_features9'] = 'trigger ma può essere sostituito dal';
+$lang['porg_v11_technical_features6'] = 'Il plugin "ha parametri"';
+$lang['porg_v11_technical_features7'] = 'In Piwigo 11, i plugin non sono più elencati nel menu di amministrazione. Invece, abbiamo un pulsante "Impostazioni" nella casella del plugin. Il pulsante è attivato dal vecchio';
+$lang['porg_v11_technical_features5'] = 'La ricerca rapida (ricerca nel menu) può includere le foto dai sottoalbum nei risultati della ricerca. Una ricerca per "orso" mostrerà le foto degli album "orso selvatico / grizzly" e "orso selvatico / panda gigante". Questa funzionalità richiede l\'attivazione esplicita con la configurazione locale e il parametro';
+$lang['porg_v11_technical_features3'] = 'Leggi per rendere le tue estensioni compatibili con Piwigo 11.';
+$lang['porg_v11_technical_features2'] = 'Modifiche tecniche di Piwigo 11';
+$lang['porg_v11_technical_features20'] = 'Chiamate a piwigo.org solo in HTTPS';
+$lang['porg_v11_technical_features19'] = 'Modifiche API';
+$lang['porg_v11_technical_features16'] = 'Il tuo Piwigo effettua chiamate (richieste HTTP) a piwigo.org per ottenere l\'elenco delle estensioni o per verificare la disponibilità di una nuova versione. D\'ora in poi, tutte queste chiamate verranno effettuate in HTTPS.';
+$lang['porg_v11_technical_features17'] = 'Nuovo trigger';
+$lang['porg_v11_technical_features18'] = 'nuovo trigger alla fine dell\'aggiunta di una foto, che apre interessanti possibilità per i plugin';
+$lang['porg_v11_technical_features15'] = 'Richieste a piwigo.org solo in HTTPS';
+$lang['porg_v11_technical_features14'] = 'Solo la lingua di installazione è abilitata di default, invece di oltre 70 lingue disponibili.';
+$lang['porg_v11_technical_features13'] = 'Meno lingue attivate';
+$lang['porg_v11_technical_features12'] = 'Saperne di più';
+$lang['porg_v11_technical_features10'] = 'Ha parametri';
+$lang['porg_v11_technical_features11'] = 'nell\'intestazione del file main.inc.php';
+$lang['porg_v11_tag_manager_title'] = 'Gestione tag';
+$lang['porg_v11_technical_features1'] = 'Si noti che una documentazione più dettagliata è disponibile all\'indirizzo';
+$lang['porg_v11_tag_manager_text'] = 'Il tag manager ottiene una riscrittura completa con questa versione 11. Ha le stesse funzionalità ma una nuova esperienza utente e una nuova velocità.';
+$lang['porg_v11_tag_manager_image3_label'] = 'Viene fornito un filtro per trovare rapidamente i tag. Comodo se ne hai centinaia o migliaia.';
+$lang['porg_v11_tag_manager_image2_label'] = '... quindi puoi passare alla modalità di selezione e scegliere più tag contemporaneamente per unirli o eliminarli.';
+$lang['porg_v11_tag_manager_image1_label'] = 'Qui vediamo la modalità predefinita in cui possiamo aggiungere un tag e applicare un\'azione su un tag esistente. ...';
+$lang['porg_v11_requirements_title'] = 'Requisiti verificati prima dell\'aggiornamento';
+$lang['porg_v11_requirements_image1_label'] = 'Prima di procedere con i futuri aggiornamenti, Piwigo 11+ verificherà che l\'hosting abbia la versione PHP richiesta. Vogliamo evitare la situazione in cui inizi ad aggiornare Piwigo e ti ritrovi bloccato perché il tuo PHP è troppo vecchio. Nel prossimo futuro, vogliamo anche essere in grado di aumentare seriamente la versione PHP richiesta per utilizzare Piwigo.';
+$lang['porg_v11_related_albums_title'] = 'Album collegati';
+$lang['porg_v11_related_albums_image2_label'] = 'Piwigo ti permetterà di combinare gli album per trovare il set esatto di foto che stai cercando.';
+$lang['porg_v11_related_albums_image1_label'] = 'Piwigo 11 è in grado di mostrare "album collegati" e di combinare diversi album. Sì, assomiglia molto a "tag collegati". La grande differenza è che gli album possono essere organizzati in gerarchia, mentre c\'è un solo livello per i tag.';
+$lang['porg_v11_plugin_manager_title'] = 'Gestore di plugin';
+$lang['porg_v11_plugin_manager_image1_label'] = 'Plugin manager in Piwigo 11: un design aggiornato, il collegamento del menu spostato nella casella del plugin stesso e una nuova funzione di filtro.';
+$lang['porg_v11_photo_edition_title'] = 'Editor di foto';
+$lang['porg_v11_photo_edition_image1_label'] = 'In Piwigo 11, l\'editor di foto ha un design aggiornato per dare più importanza a ciascuna foto e ai suoi dati.';
+$lang['porg_v11_move_albums_title'] = 'Sposta gli album';
+$lang['porg_v11_move_albums_text'] = 'Con piwigo 11 abbiamo un\'interfaccia utente completamente nuova e uno strumento per spostare gli album. Questa è l\'unica pagina di amministrazione che ti permette di vedere l\'intera gerarchia degli album con un sistema di apertura / chiusura.';
+$lang['porg_v11_move_albums_image1_label'] = 'Puoi modificare l\'ordine dei sottoalbum nello stesso album, nonché spostare un album in un altro album.';
+$lang['porg_v11_mobile_title'] = 'Promozione di applicazioni mobili';
+$lang['porg_v11_mobile_text'] = 'Se apri una pagina del tuo Piwigo da un dispositivo mobile (per il momento solo iphone / ipad), l\'amministrazione Piwigo promuoverà l\'applicazione mobile. Può essere applicato anche alla parte galleria. Oppure disattivato completamente.';
+$lang['porg_v11_mobile_image1_label'] = 'Per ora, questa funzione funziona solo su dispositivi iOS, ad esempio iPhone o iPad.';
+$lang['porg_v11_intro3'] = 'Preparati a piacevoli sorprese!';
+$lang['porg_v11_intro2'] = 'Poiché i nostri miglioramenti e riprogettazioni sono così numerosi, abbiamo deciso di cambiare il nostro sistema di controllo delle versioni! Dopo che la versione 2.10 ha introdotto un nuovo design per alcune delle pagine di amministrazione, questa versione 11 implementa un nuovo design su molte altre pagine. Piwigo 11 offre anche nuove funzionalità, sia dal lato amministrazione che dal lato galleria, come uno strumento di ricerca degli album, un grafico delle attività o album associati.';
+$lang['porg_v11_intro1'] = 'Pronto per i cambiamenti nell\'amministrazione del tuo Piwigo?';
+$lang['porg_v11_info3_title'] = 'Identificati con il tuo indirizzo email';
+$lang['porg_v11_info3_text'] = 'Ora puoi identificarti utilizzando il tuo indirizzo email invece del tuo nome utente. Piwigo controlla prima tra i nomi utente e alla fine ricorre agli indirizzi email.';
+$lang['porg_v11_info2_title'] = 'Backup del database eliminato';
+$lang['porg_v11_info2_text'] = 'La funzionalità di backup del database, offerta nella pagina di aggiornamento di Piwigo, è stata rimossa. Non funzionava più con le versioni recenti di PHP. È stato sostituito da un messaggio che chiede di avere sempre i backup del database e dei file.';
+$lang['porg_v11_history_stats_title'] = 'Cronologia delle statistiche';
+$lang['porg_v11_info1_text'] = 'Addio piccola versione 2.11 partita troppo presto ... ciao versione 11! Nel 2008 abbiamo deciso di rinominare PhpWebGallery in Piwigo e cogliere l\'occasione per passare dalla versione 1.7 alla 2.0. Ciò significa che siamo nella versione 2 da 12 anni. Questo è più tempo della vita di alcuni progetti dal loro inizio ... alla fine. Una versione 2.10 o 2.11 non riflette l\'enorme lavoro che abbiamo fatto per migliorare l\'interfaccia utente, sebbene l\'architettura tecnica non sia cambiata radicalmente. Vogliamo sottolineare che queste nuove versioni apportano cambiamenti fondamentali. Forse la versione 2.10 avrebbe dovuto essere la versione 3 come suggerito da diversi membri della comunità. È ora di rispolverare la nostra politica di controllo delle versioni. Passiamo dalla versione 2.10 alla versione 11!';
+$lang['porg_v11_info1_title'] = 'La versione passa dalla 2.10 alla 11';
+$lang['porg_v11_history_stats_image2_label'] = 'La pagina della cronologia delle statistiche ha anche una modalità di confronto, per confrontare anni o mesi.';
+$lang['porg_v11_history_stats_image1_label'] = 'La cronologia delle statistiche in Piwigo 11 ora ha curve animate per un aspetto più gradevole.';
+$lang['porg_v11_group_manager_title'] = 'Gestore del gruppo';
+$lang['porg_v11_group_manager_text'] = 'Riscrittura completa: ergonomia migliorata e aspetto modernizzato.';
+$lang['porg_v11_group_manager_image2_label'] = 'Nuova funzionalità: ora puoi associare gli utenti a un gruppo senza passare dalla gestione utenti.';
+$lang['porg_v11_group_manager_image1_label'] = 'L\'aspetto generale del manager del gruppo. Abbiamo mantenuto tutte le funzionalità precedenti, ma abbiamo reso l\'esperienza dell\'utente molto più piacevole.';
+$lang['porg_v11_custom_alerts_title'] = 'Avvisi personalizzati';
+$lang['porg_v11_batch_manager_title'] = 'Gestore batch';
+$lang['porg_v11_custom_alerts_image1_label'] = 'Gli avvisi del browser vengono sostituiti con avvisi personalizzati. Etichette più esplicite, per capire meglio cosa stai facendo.';
+$lang['porg_v11_batch_manager_image2_label'] = 'La sezione "filtri" del gestore di foto batch è stata rifatta per aggiungere filtri. Solo da un punto di vista estetico, nessun cambiamento funzionale.';
+$lang['porg_v11_batch_manager_image1_label'] = 'Il batch manager Piwigo 11 beneficia di un design aggiornato, seguendo le stesse linee guida delle altre pagine di nuova generazione.';
+$lang['porg_v11_badge_refresh'] = 'ristoro';
+$lang['porg_v11_badge_redesign'] = 'revisione';
+$lang['porg_v11_badge_new'] = 'novità';
+$lang['porg_v11_album_search_title'] = 'Trova album';
+$lang['porg_v11_album_search_image1_label'] = 'Con questa versione, Piwigo 11 integra un nuovo strumento per la ricerca di un album. Scommetto che sarà <b> molto </b> utile per molti amministratori';
+$lang['porg_v11_album_manager_title'] = 'Gestore di album';
+$lang['porg_v11_album_manager_image1_label'] = 'Il gestore di album segue lo stesso design del nuovo gestore di gruppo introdotto in precedenza.';
+$lang['porg_v11_album_edition_title'] = 'Editor di album';
+$lang['porg_v11_album_edition_image1_label'] = 'Piwigo 11 ora ha una pagina più moderna e colorata per la modifica degli album.';
+$lang['porg_v11_activity_chart_text'] = 'Piwigo 2.10 ha iniziato a registrare le attività di amministrazione come la modifica di un album o l\'eliminazione di un gruppo ... Piwigo 11 ora può visualizzare una tabella con le attività recenti.';
+$lang['porg_v11_activity_chart_title'] = 'Tabella delle attività';
+$lang['porg_v11_activity_chart_image2_label'] = 'Più attività hai, più grande è il cerchio. Piwigo fornisce dettagli per ogni giorno di attività.';
+$lang['porg_v11_activity_chart_image1_label'] = 'Il grafico dell\'attività viene visualizzato nella dashboard, accanto alle statistiche generali e ai quicklinks';
