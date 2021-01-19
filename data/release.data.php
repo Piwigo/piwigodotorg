@@ -3,7 +3,7 @@
 $porg_releases = array(
   '11.0.0' => array(
     'released_on' => '2021-01-19',
-    'md5sum' => 'd0fb3b8a0cd0e8a5a0b12c4433d8044a',
+    'md5sum' => '56bc8e3f7e136554f6532edd6a01731d',
     'summary' => array('Admin redesign', 'Album search tool', 'Activity chart'),
     'subtitle' => 'A major update, focused on design and user experience, once more.',
     'features' => array(),
