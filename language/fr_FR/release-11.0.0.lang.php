@@ -1,6 +1,6 @@
 <?php
 $lang['porg_v11_intro1'] = 'Prêts pour des changements dans l\'administration de votre Piwigo ? ';
-$lang['porg_v11_intro2'] = 'Vu que nos améliorations et refontes sont si nombreuses, nous avons décidé de changer notre système de versionning! Après que la version 2.10 a introduit un nouveau design pour quelques-unes des pages d\'administration, cette version 11 implémente un nouveau design sur de nombreuses autres pages. Piwigo 11 apporte également de nouvelles fonctionnalités, à la fois côté administration et côté galerie, comme un outil de recherche d\'albums, un graphique d\'activité ou des albums associés.';
+$lang['porg_v11_intro2'] = 'Vu que nos améliorations et refontes sont si nombreuses, nous avons décidé de changer notre système de versionning! Après que la version 2.10 a introduit un nouveau design pour quelques-unes des pages d\'administration, cette version 11 implémente un nouveau design sur de nombreuses autres pages. Piwigo 11 apporte également de nouvelles fonctionnalités, à la fois côté administration et côté galerie, comme un outil de recherche d\'albums, un graphique d\'activité ou des albums liés.';
 $lang['porg_v11_intro3'] = 'Préparez-vous pour d\'agréables surprises!';
 $lang['porg_v11_info1_title'] = 'La version passe de 2.10 à 11';
 $lang['porg_v11_info1_text'] = 'Adieu petite version 2.11 partie trop tôt... bonjour version 11 ! En 2008 nous avions décidé de renommer PhpWebGallery en Piwigo et d\'en profiter pour sauter de la version 1.7 à la 2.0. Cela signifie que nous sommes en version 2 depuis 12 ans. Soit davantage de temps que la vie complète de certains projets de leur démarrage... à leur fin. Une version 2.10 ou 2.11 ne reflète pas l\'énorme travail que nous avons réalisé sur l\'amélioration de l\'interface utilisateur, quand bien même l\'architecture technique n\'a pas fondamentalement changé. Nous voulons mettre en évidence que ces nouvelles versions apportent des changements fondamentaux. Peut-être que la version 2.10 aurait dû être une version 3 comme plusieurs membres de la communauté l\'ont suggéré. Il est temps de dépoussiérer notre politique de versionnement. Passons de la version 2.10 à la 11!';
@@ -78,4 +78,3 @@ $lang['porg_v11_technical_features20'] = 'Appels à piwigo.org en HTTPS uniqueme
 $lang['porg_v11_badge_redesign'] = 'refonte';
 $lang['porg_v11_badge_new'] = 'nouveautés';
 $lang['porg_v11_badge_refresh'] = 'rafraîchissement';
-?>
