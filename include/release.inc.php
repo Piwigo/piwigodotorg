@@ -17,15 +17,20 @@ if (isset($_GET['version']))
         load_language('release-'.$version.'.lang', PORG_PATH);
 
         /* Major or minor release */
-        $branch = get_branch_from_version($version);
+        $nb_digits = 1;
+        if (version_compare($version, '11') < 0)
+        {
+          $nb_digits = 2;
+        }
+        $branch = implode('.', array_slice(explode('.', $version), 0, $nb_digits));
+
         $major = $branch.'.0';
+        if (version_compare($version, '11') >= 0)
+        {
+            $major.= '.0';
+        }
 
         $upgrade_from = $branch.'.x';
-        $tokens = explode('.', $version);
-        if (array_pop($tokens) == '1')
-        {
-            $upgrade_from = $branch.'.0';
-        }
 
         /* Release md5sum */
         $md5sum = $porg_releases[$version]['md5sum'];
