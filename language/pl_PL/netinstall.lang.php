@@ -16,3 +16,4 @@ $lang['porg_guides_netinstall_step2_paragraph3'] = 'Wybierz plik piwigo-netinsta
 $lang['porg_guides_netinstall_step3_paragraph1'] = 'Gdy skrypt został przesłany, otwórz go w przeglądarce, na przykład';
 $lang['porg_guides_netinstall_step3_paragraph2'] = 'Wybierz nazwę katalogu na serwerze dla Twojej galerii. Domyślnie Piwigo zostanie zainstalowany w katalogi piwigo. Dla pustego pola "Katalog docelowy" Piwigo zostanie zainstalowany w tym samym miejscu gdzie przesłano skrypt Netinstalatora.';
 $lang['porg_guides_netinstall_step3_paragraph3'] = 'Wykonaj "Pobierz i rozpakuj Piwigo", a następnie "Zainstaluj Piwigo teraz"';
+$lang['porg_guides_netinstall_image_caption1'] = 'Połącz się';
