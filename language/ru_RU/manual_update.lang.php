@@ -45,3 +45,6 @@ $lang['porg_guides_manual_update_time_4'] = '2 минуты';
 $lang['porg_guides_manual_update_time_5'] = '15-120 минут';
 $lang['porg_guides_manual_update_step8'] = 'Шаг 8 - Проверка результатов обновления';
 $lang['porg_guides_manual_update_step8_paragraph1'] = 'Ваш первый элемент управления может занять некоторое время, потому что Вы не знаете всех изменений';
+$lang['porg_guides_manual_update_step7_paragraph3'] = 'Чтобы избежать обновления другим посетителем, Вам предлагается войти в систему';
+$lang['porg_guides_manual_update_step3_list1'] = 'Скачайте инструмент Подготовка апгрейда 2.1';
+$lang['porg_guides_manual_update_step1_list2'] = 'На своем компьютере извлеките директорию "Piwigo".';
