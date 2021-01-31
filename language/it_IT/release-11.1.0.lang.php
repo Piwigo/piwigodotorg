@@ -11,3 +11,4 @@ $lang['porg_issue_1291'] = '[11.x] Parse error: errore di sintassi, "[" imprevis
 $lang['porg_issue_1287'] = 'Errore di sintassi nel file in lingua norvegese dopo l\'aggiornamento verso Piwigo 11';
 $lang['porg_issue_1284'] = '\"Infinite loop?\" Errore quando si va alla pagina 2 degli album';
 $lang['porg_issue_1257'] = 'admin/batch_manager.php alcuni errori/avvisi su php7.4';
+$lang['porg_issue_1293'] = '11.x Dashboard, Fatal error: dimensione memoria consentita';
