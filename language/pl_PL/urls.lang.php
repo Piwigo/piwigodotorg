@@ -39,3 +39,10 @@ $lang['porg_doc_urls']['install'] = 'https://pl.piwigo.org/doc/doku.php?id=insta
 $lang['porg_doc_urls']['upgrade'] = 'https://pl.piwigo.org/doc/doku.php?id=aktualizacja';
 $lang['porg_doc_urls']['upgrade_auto'] = 'https://pl.piwigo.org/doc/doku.php?id=aktualizacja:automatyczna';
 $lang['porg_doc_urls']['upgrade_manual'] = 'https://pl.piwigo.org/doc/doku.php?id=aktualizacja:reczna';
+$lang['porg_urls']['showcases'] = 'przykłady';
+$lang['porg_urls']['requirements'] = 'przewodniki/instalacja/wymagania';
+$lang['porg_urls']['netinstall'] = 'przewodniki/instalacja/sieciowa';
+$lang['porg_urls']['manual_update'] = 'przewodniki/uaktualnienie/ręczne';
+$lang['porg_urls']['manual_installation'] = 'przewodniki/instalacja/ręczna';
+$lang['porg_urls']['automatic_update'] = 'przewodniki/uaktualnienie/automatyczne';
+$lang['porg_urls']['guides'] = 'przewodniki';
