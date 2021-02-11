@@ -78,3 +78,7 @@ $lang['porg_v11_activity_chart_image1_label'] = 'Wykres aktywności jest wyświe
 $lang['porg_v11_technical_features5'] = 'Szybkie wyszukiwanie (w menu) może zawierać w wynikach zdjęcia z pod-albumów. Wyszukiwanie "miś" pokaże zdjęcia z albumu "dzikie misie / grizzly" i "dzikie misie / panda wielka". Ta funkcja musi być wyraźnie aktywowana w lokalnej konfiguracji.';
 $lang['porg_v11_theme_manager_image1_label'] = 'Przy projektowaniu zastosowano takie same zasady jak dla menedżera wtyczek.';
 $lang['porg_v11_technical_features18'] = 'Dodaliśmy 1 wyzwalacz na końcu centralnej funkcji przesyłania pliku';
+$lang['porg_v11_user_manager_image1_label'] = 'Zarządzanie użytkownikami zostało nieznacznie poprawione w Piwigo 11: do tej pory mogłeś wybrać jedynie całą stronę lub wszystkich istniejących użytkowników. Teraz opcja "wybierz cały zestaw" uwzględnia również wartość filtru. Dzięki temu możesz teraz w łatwy sposób wykonać tą samą akcje na wszystkich użytkownikach, lub tylko na wybranej podgrupie.';
+$lang['porg_v11_technical_features3'] = 'Proszę, przeczytaj to, aby dostosować swoje rozszerzenia do Piwigo 11.';
+$lang['porg_v11_technical_features7'] = 'W Piwigo 11, wtyczki nie są już wyświetlane w menu administracyjnym. Zamiast tego, istnieje przycisk "Ustawienia" w ramce wtyczki. Przycisk jest aktywowany przez stary';
+$lang['porg_v11_technical_features9'] = 'wyzwalacz, ale może zostać zastąpiony przez';
