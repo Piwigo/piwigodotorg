@@ -150,6 +150,12 @@
   font-weight:600;
 }
 
+@media (min-width: 991px) and (max-width:1199px) {
+    .navbar-default .navbar-nav > li > a{
+        font-size:13px!important;
+    }   
+}
+
 .navbar-default .navbar-nav > li > a:hover {
     color: #FF7700;
 }
@@ -895,14 +901,18 @@ h2{
 }
 
 .content-advice-box {
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.7);
     padding: 40px;
     font-size:16px;
     border-radius:10px;
-    background-color:white;
+    background: linear-gradient(135deg, rgba(25,19,72,0.5) 0%, rgba(11,8,31,1) 100%);
     margin: 30px 15px 60px;
     padding-top:20px;
     text-align:left;
+}
+
+.content-advice-box  a{
+    color:#0DB4BC;
 }
 
 .home-quotes{
@@ -936,11 +946,10 @@ h2{
     .content-advice-box {
         margin: 40px 20px;
     }
-
 }
 
 .user-advice {
-    color: #333;
+    color: white;
     text-align:left;
     font-size:18px;
     font-weight:600;
@@ -949,6 +958,7 @@ h2{
 .user-advice-name {
     text-align: right;
     margin:26px 5px 0 0;
+    color:white;
 }
 
 /* Piwigo gallery showcases */

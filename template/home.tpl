@@ -186,7 +186,7 @@ $(document).ready(function() {
         <div class="col col-md-6">
 {foreach from=$TESTIMONIALS item=testimonial name=testimonials_loop}
           <div class="content-advice-box">
-            <img class="home-quotes" alt"quotes" src="{$PORG_ROOT_URL}images/home/quotes.svg">
+            <img class="home-quotes" alt="quotes" src="{$PORG_ROOT_URL}images/home/quotes.svg">
             <p class="user-advice">{$testimonial.content}{if $testimonial.is_cut}... <a href="{$URL.testimonials}">see more</a>{/if}</p>
             <p class="user-advice-name">{$testimonial.user.username}, {$testimonial.user.type}, {$testimonial.user.country}</p>
           </div>
