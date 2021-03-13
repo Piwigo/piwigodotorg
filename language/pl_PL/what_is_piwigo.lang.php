@@ -66,3 +66,4 @@ $lang['porg_whatispiwigo_noSkills'] = 'Nie wymaga umiejętności technicznych';
 $lang['porg_whatispiwigo_oneClick'] = 'Instalacja po jednym kliknięciu';
 $lang['porg_whatispiwigo_support'] = 'Zawiera wsparcie, aktualizacje i konserwację';
 $lang['porg_whatispiwigo_test_free'] = 'Przetestuj za darmo';
+$lang['porg_whatispiwigo_self_hosting'] = 'Własny serwer';
