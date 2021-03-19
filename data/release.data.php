@@ -1,6 +1,31 @@
 <?php
 
 $porg_releases = array(
+  '11.4.0' => array(
+    'released_on' => '2021-03-19',
+    'md5sum' => '93dcdb04fa929b02e13cdb2eb6de3caa',
+    'summary' => array('bug fixes, enhancements'),
+    'features' => array(
+      array('id' => 1336, 'section' => 'Albums'),
+      array('id' => 1355, 'section' => 'UX'),
+      array('id' => 1358, 'section' => 'Technical'),
+    ),
+    'bugs' => array(
+      array('id' => 1361, 'section' => 'Security'),
+      array('id' => 1354, 'section' => 'UX'),
+      array('id' => 1352, 'section' => 'Security'),
+      array('id' => 1344, 'section' => 'web API'),
+      array('id' => 1342, 'section' => 'Technical'),
+      array('id' => 1334, 'section' => 'Technical'),
+      array('id' => 1118, 'section' => 'Technical'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('ca_ES','cs_CZ','da_DK','de_DE','el_GR','en_UK','et_EE','eu_ES','fr_FR','it_IT','ja_JP','lv_LV','pl_PL','sl_SI','sr_RS','zh_CN','zh_TW'),
+    ),
+  ),
+
   '11.3.0' => array(
     'released_on' => '2021-02-06',
     'md5sum' => '4f7f35619ad5ae628dfdd92a3502a8fc',
