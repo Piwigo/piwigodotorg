@@ -39,7 +39,7 @@ $lang['language_vi_VN'] = 'Vietnamees';
 $lang['language_zh_CN'] = 'Chinees';
 $lang['language_zh_HK'] = 'Hong-Kongs';
 $lang['language_zh_TW'] = 'Traditioneel Chinees';
-$lang['porg_get_started_desc'] = 'Klaar om je foto\'s-beheer te starten met Piwigo? Treed toe tot onze gemeenschap!';
+$lang['porg_get_started_desc'] = 'Klaar om je foto-beheer te starten met Piwigo? Treed toe tot onze gemeenschap!';
 $lang['language_fr_CA'] = 'Frans Canadees';
 $lang['language_fr_FR'] = 'Frans';
 $lang['language_gl_ES'] = '
@@ -143,7 +143,7 @@ $lang['porg_guides_manual_update'] = 'Handmatige update';
 $lang['porg_guides_netinstall'] = 'Netinstallatie';
 $lang['porg_guides_requirements'] = 'Vereisten';
 $lang['porg_guides_update_instruction_title'] = 'Update gidsen';
-$lang['Installation'] = 'Insatllatie';
+$lang['Installation'] = 'Installatie';
 $lang['Still got some unanswered questions ?'] = 'Nog sommige onbeantwoorde vragen?';
 $lang['Update'] = 'Update';
 $lang['porg_get_started_question_desc1'] = 'Je kunt hulp krijgen op <a href="%s">forum</a> of vind je eigen antwoorden in de <a href="%s">documentatie</a>';
