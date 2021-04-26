@@ -4,7 +4,7 @@ global $template, $lang_info, $conf;
 $cache_path = $conf['data_location'].'porg_coding_activity.cache.php';
 if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 minutes ago'))
 {
-  $url = 'http://piwigo.org/activity/api/commits.get.php';
+  $url = 'https://piwigo.org/activity/api/commits.get.php';
 
   $content = @file_get_contents($url);
   if ($content !== false)

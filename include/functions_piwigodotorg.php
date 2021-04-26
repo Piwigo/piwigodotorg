@@ -307,7 +307,7 @@ function porg_get_news($start, $count)
   $cache_path = $conf['data_location'].'porg_news-'.$lang_info['code'].'.cache.php';
   if (!is_file($cache_path) or filemtime($cache_path) < strtotime('15 minutes ago'))
   {
-    $forum_url = 'http://'.$page['porg_domain_prefix'].'piwigo.org/forum';
+    $forum_url = 'https://'.$page['porg_domain_prefix'].'piwigo.org/forum';
     $url = $forum_url.'/news.php?format=json';
 
     $content = @file_get_contents($url);
