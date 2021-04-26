@@ -124,6 +124,17 @@ function porg_load_header()
 {
     global $template, $page, $lang, $user;
 
+    if (isset($_GET['urlcheck']) or (isset($_SERVER['HTTP_USER_AGENT']) and preg_match('/^(updown.io|Typhoeus)/', $_SERVER['HTTP_USER_AGENT']) ))
+    {
+      $query = '
+SELECT state
+  FROM '.PLUGINS_TABLE.'
+  WHERE id = \'piwigo-piwigodotorg\'
+;';
+      list($state) = pwg_db_fetch_row(pwg_query($query));
+      echo $state; exit();
+    }
+
     $is_production = preg_match('/^([a-z]+\.)?piwigo\.org$/', $_SERVER['HTTP_HOST']);
 
     $porg_root = '';
