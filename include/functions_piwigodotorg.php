@@ -23,7 +23,7 @@ function porg_get_pages()
     'showcases' => 'Showcases',
     'testimonials' => 'Testimonials',
     'mobile-apps-privacy-policy' => 'Privacy Policy for Mobile Apps',
-    'demo' => 'Demo'
+    'demo' => 'Demo',
     'guides' => 'guides',
     'requirements' => 'Requirements',
     'netinstall' => 'Netinstall',
