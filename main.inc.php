@@ -263,6 +263,7 @@ function porg_load_content()
         }
         else
         {
+            http_response_code(404);
             $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/404.tpl')));
         }
     }
