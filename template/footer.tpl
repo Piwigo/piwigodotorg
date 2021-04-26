@@ -87,7 +87,7 @@
                 <a href="{$PORG_ROOT}{$URL.contact}"><span class="glyphicon glyphicon-envelope"></span>{'Contact'|translate}</a>
               </div>
               <div class="footer-copyright col-md-12 col-xs-6">
-                <p>Piwigo.org <span title="{$time}">©</span><br>2002-{$CURRENT_YEAR}</p>
+                <p>Piwigo.org <span title="{$time}">©</span><br>2002 - {$CURRENT_YEAR}</p>
               </div>
             </div>
           </div>
