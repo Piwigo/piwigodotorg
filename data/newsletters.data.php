@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2021-05-04' => array (
+                'title' => 'Piwigo NG pour Android, 19 ans et Piwigo 11',
+                'image' => 'https://piwigo.org/screenshots/newsletter/20210430-piwigo-ng-android.png',
+                'summary' => 'Piwigo 11 a été publiée, une nouvelle application Android est disponible et Piwigo atteint l\'âge vénérable de 19 ans 🎂',
+            ),
             '2020-07-24' => array (
                 'title' => 'Piwigo 2.11 en beta, résultats enquête 2020',
                 'image' => 'https://piwigo.org/screenshots/piwigo-2.11-dashboard-activity.gif',
