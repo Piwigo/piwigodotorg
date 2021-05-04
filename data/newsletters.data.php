@@ -254,6 +254,11 @@
             ),
         ),
         'en' => array(
+            '2021-05-03' => array (
+                'title' => 'Piwigo NG for Android, 19 years old and Piwigo 11',
+                'image' => 'https://piwigo.org/screenshots/newsletter/20210430-piwigo-ng-android.png',
+                'summary' => 'Piwigo 11 was released, a new Android app is available and Piwigo is 19 years old 🎂',
+            ),
             '2020-08-05' => array (
                 'title' => 'Piwigo 2.11 beta and results for 2020 survey',
                 'image' => 'https://piwigo.org/screenshots/piwigo-2.11-dashboard-activity.gif',
