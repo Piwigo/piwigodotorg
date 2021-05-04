@@ -20,7 +20,7 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Albums Hierarchy'] = 'Hierarchie Albums';
+$lang['Albums Hierarchy'] = 'Hiërarchie albums';
 $lang['Permissions Control'] = 'Controle toestemming';
 $lang['Piwigo - Manage your photo collection'] = 'Piwigo-beheer van jouw foto-collectie';
 $lang['Start discovering Piwigo'] = 'Start het verkennen van Piwigo';
@@ -35,7 +35,7 @@ $lang['porg_home_sustainable_desc'] = 'Piwigo werd in 2002 geboren en ondersteun
 $lang['porg_home_title'] = 'Beheer je fotocollectie met Piwigo';
 $lang['Discover Piwigo'] = 'Ontdek Piwigo';
 $lang['Explore more features'] = 'Ontdek meer functies';
-$lang['Powerful features for your photo gallery'] = 'Krachtige functies voor uw fotogalerij';
+$lang['Powerful features for your photo gallery'] = 'Krachtige functies voor jouw fotogalerij';
 $lang['Why choose Piwigo?'] = 'Waarom Piwigo kiezen?';
 $lang['porg_love_title'] = 'Zij houden van Piwigo';
 $lang['porg_showcase_title'] = 'Mooie fotogalerijen gemaakt met Piwigo';
