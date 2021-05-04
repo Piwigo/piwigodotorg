@@ -3,7 +3,7 @@
 $lang['porg_about_us_desc1'] = 'Nous sommes une communauté de contributeurs venant du monde entier.';
 $lang['porg_about_us_desc2'] = 'Si vous adhérez à notre mission nous espérons que vous nous rejoindrez !';
 $lang['Our Mission'] = 'Notre mission';
-$lang['porg_about_us_mission_desc'] = 'La mission de Piwigo est de construire la meilleure application web de gestion de photo en logiciel libre en privilégiant l\'usage sur la technique.';
+$lang['porg_about_us_mission_desc'] = 'La mission de Piwigo est de construire la meilleure application web de gestion de photo en logiciel libre en mettant la technologie au service de l\'utilisateur.';
 $lang['Years old'] = 'Années d\'existence';
 $lang['Releases'] = 'Versions sorties';
 $lang['Downloads'] = 'Téléchargements';
