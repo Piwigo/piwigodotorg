@@ -1,6 +1,46 @@
 <?php
 
 $porg_releases = array(
+  '11.5.0' => array(
+    'released_on' => '2021-05-14',
+    'md5sum' => 'f40e3d4d0e6ceca510cb5004b643cce7',
+    'summary' => array('bug fixes, enhancements'),
+    'features' => array(
+      array('id' => 1399, 'section' => 'UX'),
+      array('id' => 1397, 'section' => 'Users & Groups'),
+      array('id' => 1394, 'section' => 'Users & Groups'),
+      array('id' => 1387, 'section' => 'Albums'),
+    ),
+    'bugs' => array(
+      array('id' => 1412, 'section' => 'UX'),
+      array('id' => 1410, 'section' => 'Security'),
+      array('id' => 1400, 'section' => 'UX'),
+      array('id' => 1398, 'section' => 'UX'),
+      array('id' => 1396, 'section' => 'Albums'),
+      array('id' => 1395, 'section' => 'Users & Groups'),
+      array('id' => 1393, 'section' => 'Display'),
+      array('id' => 1392, 'section' => 'Albums'),
+      array('id' => 1388, 'section' => 'Display'),
+      array('id' => 1382, 'section' => 'Albums'),
+      array('id' => 1380, 'section' => 'Albums'),
+      array('id' => 1377, 'section' => 'UX'),
+      array('id' => 1372, 'section' => 'Users & Groups'),
+      array('id' => 1369, 'section' => 'Photos'),
+      array('id' => 1368, 'section' => 'Users & Groups'),
+      array('id' => 1364, 'section' => 'UX'),
+      array('id' => 1362, 'section' => 'Display'),
+      array('id' => 1323, 'section' => 'Albums'),
+      array('id' => 1306, 'section' => 'Photos'),
+      array('id' => 1241, 'section' => 'Users & Groups'),
+      array('id' => 1080, 'section' => 'UX'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('ca_ES','da_DK','de_DE','el_GR','en_UK','es_AR','es_ES','eu_ES','fr_FR','hu_HU','it_IT','ja_JP','lv_LV','nb_NO','nl_NL','pl_PL','pt_BR','ru_RU','tr_TR','zh_TW'),
+    ),
+  ),
+
   '11.4.0' => array(
     'released_on' => '2021-03-19',
     'md5sum' => '93dcdb04fa929b02e13cdb2eb6de3caa',
