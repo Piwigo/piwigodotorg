@@ -7,7 +7,7 @@
 // +-----------------------------------------------------------------------+
 $lang['porg_issue_1314'] = '[11.x, tag manager] succesbericht ontbreekt na verwijdering van wezen';
 $lang['porg_issue_1322'] = '[11.x tag manager] Fout zinsbouw: onverwacht token =';
-$lang['porg_issue_1319'] = '[11.x] Verplaatsev van subalbum aan het begin/einde van de lijst';
+$lang['porg_issue_1319'] = '[11.x] Verplaatsen van sub-album aan het begin/einde van de lijst';
 $lang['porg_issue_1317'] = '[11.x] verwijder berekening van de grootte van de cachemap vanaf het dashboard';
 $lang['porg_issue_1315'] = '[11.x admin / tags] filter werkt niet met hoofdletters';
 $lang['porg_issue_1313'] = 'accolades zijn verouderd in profile.php';
