@@ -16,6 +16,9 @@
 .icon-star:before { content: '\e80e'; } /* '' */
 .icon-tag:before { content: '\e80f'; } /* '' */
 .icon-arrows-cw:before { content: '\e810'; } /* '' */
+.icon-megaphone:before { content: '\e811'; } /* '' */
+.icon-code-branch:before { content: '\e812'; } /* '' */
+.icon-link-ext:before { content: '\f08e'; } /* '' */
 .icon-check-empty:before { content: '\f096'; } /* '' */
 .icon-dropbox:before { content: '\f16b'; } /* '' */
 .icon-circle-thin:before { content: '\f1db'; } /* '' */
