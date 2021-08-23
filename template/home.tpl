@@ -36,19 +36,19 @@ $(document).ready(function() {
           <div class="pwg-tagline col-sm-12 col-md-6">
             <h1>{'porg_home_title'|translate}</h1>
             <p id="homepage-intro-para">{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
-            <div class="col-sm-12 get-piwigo-button visible">
+            <div class="col-sm-12 get-piwigo-button">
               <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
-              <p class="pwg-release-date">{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
             </div>
-          </div>
-
-          <div class="col-sm-12 get-piwigo-button not-visible">
-            <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
-            <p class="col-xs-12 pwg-release-date">{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
           </div>
 
           <div class="col-sm-12 col-md-6 responsive-image">
             <img class="img-fluid" src="{$PORG_ROOT_URL}/images/home/responsive-screens.jpg">
+          </div>
+
+          <div class="col-md-12 latest-activites">
+            <p class="pwg-release-date"><i class="icon-tag"></i>{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
+            <p class="pwg-release-date"><i class="icon-megaphone"></i>{$LATEST_NEWS_TITLE} <span class="latest-news">{$LATEST_NEWS_DATE}</span></p>
+            <p class="pwg-release-date"><i class="icon-code-branch"></i>Latest activity<span class="latest-code-change">{$LATEST_CODE_ACTIVTY}</span></p>
           </div>
 
         </div>

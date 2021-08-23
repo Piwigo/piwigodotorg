@@ -561,20 +561,48 @@
 .pwg-banner .pwg-release-date {
     text-align: center;
     font-size:1em;
-    color:#aaa;
+    color:#7e7e7e;
     margin-top: 20px;
     padding:0 15px;
+    font-weight:700;
+}
+
+.latest-activites .icon-tag,
+.pwg-banner .release-date{
+    color: #6CADD9;
+}
+
+.latest-activites .icon-megaphone,
+.pwg-banner .latest-news{
+    color: #7E64D0;
+}
+
+.latest-activites .icon-code-branch,
+.pwg-banner .latest-code-change{
+    color: #6ECE5E;
 }
 
 .pwg-banner .release-date{
-  background-color: #ebf5ff;
-    padding: 5px 10px;
-    border-radius: 25px;
-    color: #6CADD9;
-    margin-left: 10px;
-    font-size:13px;
-    font-weight:700;
+    background-color: #ebf5ff;
 }
+
+.pwg-banner .latest-news{
+    background-color: #E0DAF4;
+}
+
+.pwg-banner .latest-code-change{
+    background-color: #d6ffcf;
+}
+
+.pwg-banner .release-date,
+.pwg-banner .latest-news,
+.pwg-banner .latest-code-change{
+      padding: 5px 10px;
+      border-radius: 25px;
+      margin-left: 10px;
+      font-size:13px;
+      font-weight:700;
+  }
 
 .pwg-banner .pwg-news {
     color: #FFFFFF;
@@ -606,6 +634,15 @@
 .pwg-banner .container{
     position:relative;
 }
+
+.latest-activites{
+    text-align:center;
+}
+
+.latest-activites p{
+    display:inline-block;
+}
+
 
 @media (min-width: 1200px) {
     .get-piwigo-button{

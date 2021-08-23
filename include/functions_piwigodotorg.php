@@ -522,4 +522,12 @@ function porg_set_pcom_urls()
 
   $template->assign('PCOM_URL', $pcom_url);
 }
+
+function porg_get_coding_activty(){
+  $coding_activity_url = "https://piwigo.org/activity/api/commits.get.php";
+  $coding_activity_json = @file_get_contents($coding_activity_url);
+  $coding_activity_json_data = json_decode($coding_activity_json, true);
+
+  return $coding_activity_json_data;
+}
 ?>
