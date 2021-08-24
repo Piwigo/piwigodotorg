@@ -78,7 +78,7 @@
 
 <p>Глобальное изменение: пользовательская загрузка удалена из ядра.</p>
 
-<p>Теперь это доступно при установке плагина <a target="_blank" href="http://piwigo.org/ext/extension_view.php?eid=303">Сообщество</a> с расширенной формой загрузки, также с возможностями автоматического изменения размера, создания миниатюры, автоматического вращения, возможностью загрузить несколько фотографий сразу, индикатора выполнения... Вы можете определить разрешения загрузки для группы или пользователя, разрешить создавать подальбомы или нет, с премодерацией администраторов или нет.</p>
+<p>Теперь это доступно при установке плагина <a target="_blank" href="https://piwigo.org/ext/extension_view.php?eid=303">Сообщество</a> с расширенной формой загрузки, также с возможностями автоматического изменения размера, создания миниатюры, автоматического вращения, возможностью загрузить несколько фотографий сразу, индикатора выполнения... Вы можете определить разрешения загрузки для группы или пользователя, разрешить создавать подальбомы или нет, с премодерацией администраторов или нет.</p>
 
 <p>1. создать разрешения для загрузки администратор может, ответив на вопросы:</p>
 <ul>
@@ -87,19 +87,19 @@
   <li>уровень доверия? высокий (тут же видна в галерее) или низкий (фото проходят премодерацию)</li>
 </ul>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-01.png" class="screenshot">
 
 <p>2. если по крайней мере одно разрешение соответствует текущему пользователю, ссылка "Загрузить фотографии" добавлена в меню. Это - форма закачки, столь же полнофункциональная, как и в панели администрирования: автоматическое изменение размеров, создание миниатюры, автоматическое вращение, несколько фотографий сразу, индикатор выполнения...</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-02.png" class="screenshot">
 
 <p>Если у пользователя низкий уровень доверия для добавления фото в альбом, фотографии теперь находятся на премодерации. Администраторы при этом получают уведомления по электронной почте.
 </p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-03.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-03.png" class="screenshot">
 
 <p>3. администраторы открывают ожидающие модерации фотографии, чтобы добавить в альбом или отклонить. Администратор может также отредактировать фотографии и альбомы перед опубликовыванием.</p>
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-04.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-04.png" class="screenshot">
 
 <h4 id="new_words">Забыты "категории", "элементы", "изображения" и "картины"</h4>
 
@@ -115,14 +115,14 @@
 
 <p>Есть некоторые предварительные фильтры как "фотографии без тега" или "копии". Вы можете также фильтровать на определенном альбоме, включая под-альбомы или нет. Вы можете объединить несколько фильтров, чтобы уменьшить фильтруемый набор фотографий.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step1.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step1.png" class="screenshot">
 
 <p><em>2) Выбор</em></p>
 
 <p>Фильтруемый набор появляется как список миниатюр, с флажком для каждой фотографии, ее "уровень конфиденциальности" и подсказка с заголовком фотографии. Вы можете выбрать фотографии один за другим, щелкая по миниатюре или использовать ярлыки "все", "ни один", "инвертировать". Piwigo сообщит Вам, сколько фотографий в настоящий момент выбрано среди всех фотографий фильтруемого набора, и все выбранные фотографии появляются со светло-зеленым фоном.
 </p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png" class="screenshot">
 
 <p><em>3) Применить действие</em></p>
 
@@ -143,7 +143,7 @@
 
 <p>У каждого действия есть свои собственные определенные параметры, и Piwigo только выводит на экран параметры выбранного действия, чтобы пользовательский интерфейс оставался легким и прозрачным.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step3.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step3.png" class="screenshot">
 
 <h4 id="language_switch">37 языков и новый переключатель языков</h4>
 
@@ -151,29 +151,29 @@
 
 <p>Плагин переключения языка работает в <em> расширенном режиме </em>: в дополнение к флагам, мы показываем название языка.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-language_switch.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-language_switch.png" class="screenshot">
 
 <h4 id="sort_albums">Новые опции сортировки для альбомов</h4>
 
 <p>Администратор может автоматически сортировать альбомы и под-альбомы в несколько кликов.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_manual.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_manual.png" class="screenshot">
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_automatic.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_automatic.png" class="screenshot">
 
 
 <h4 id="resize_hd">Удаление или изменение больших разрешений</h4>
 
 <p>... в форме загрузки (требует ImageMagick на сервере),</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-manage_high_definition.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-manage_high_definition.png" class="screenshot">
 
 
 <h4 id="photo_deletion">Удалить фотографию теперь совсем просто</h4>
 
 <p>Возможность удалить одну фотографию из панели администрирования.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-delete_single_photo.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-delete_single_photo.png" class="screenshot">
 
 <p>Точно так же теперь Вы можете удалить фотографии, добавленные с синхронизацией в несколько кликов, нет необходимости удалять с сервера посредством  FTP менеджеров и синхронизироваться.</p>
 
@@ -181,9 +181,9 @@
 
 <p>Вам решать с какого дня начинается неделя в Вашем календаре!</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_monday.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_monday.png" class="screenshot">
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_sunday.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_sunday.png" class="screenshot">
 
 <h4 id="automatic_rotation">Автоматическое вращение</h4>
 
@@ -201,22 +201,22 @@ $conf['local_dir_site'] = 'local_site2/';
 <h4 id="orphan_tags">Одиночные метки</h4>
 <p>Piwigo автоматически обнаруживает одиночные метки (т.е. теги, несвязанные с фото) и предлагает удалить их одним кликом.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-orphan_tags.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-orphan_tags.png" class="screenshot">
 
 <h4 id="extension_updates">Автоматическое обновление тем и языков</h4>
 
 <p>Piwigo подключает к piwigo.org каталог расширения и ищет новую версию установленной темы и языков. Так же, как Piwigo делает для плагинов. Тогда у вас есть список доступных обновлений и возможность решить, что именно обновить в один клик.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-themes_update.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-themes_update.png" class="screenshot">
 
-<p>Между прочим, плагин <a target="_blank" href="http://piwigo.org/ext/extension_view.php?eid=302">Piwigo Авто Обновление</a> (который скоро войдет в базовую поставку  Piwigo), имеет приятный новый пользовательский интерфейс и возможность обновления несколько плагинов сразу!</p>
+<p>Между прочим, плагин <a target="_blank" href="https://piwigo.org/ext/extension_view.php?eid=302">Piwigo Авто Обновление</a> (который скоро войдет в базовую поставку  Piwigo), имеет приятный новый пользовательский интерфейс и возможность обновления несколько плагинов сразу!</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-autoupdate_extensions.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-autoupdate_extensions.png" class="screenshot">
 
 
 <h3>Технические функции</h3>
 
-<p>Пожалуйста, обратите внимание, что есть более подробная документация <a href="http://piwigo.org/doc/doku.php?id=en:dev:changes_in_2.2">Технические изменения в Piwigo 2.2</a>. Здесь - только главное.</p>
+<p>Пожалуйста, обратите внимание, что есть более подробная документация <a href="https://piwigo.org/doc/doku.php?id=en:dev:changes_in_2.2">Технические изменения в Piwigo 2.2</a>. Здесь - только главное.</p>
 
 <h4 id="imagemagick">ImageMagick</h4>
 

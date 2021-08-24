@@ -89,7 +89,7 @@
   <li>información de segundo nivel (autor, versión, descripción) está oculto por defecto, lo que produce una pantalla mucho más compacta</li>
 </ol>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo230beta1_01_plugin_manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_01_plugin_manager.png" class="screenshot">
 
 <p>Otro de los cambios de menor importancia: sólo <em> webmasters </em> puede activar / desactivar plugins. El estatuto del<em> Administrador</em> no es suficiente.</p>
 
@@ -99,7 +99,7 @@
 
 <p>El formulario de subida se ha mejorado. Encontraran un selector de albumes simplificado, tamaño máximo de archivo y dimensiones que se muestran antes de seleccionar algunas fotos, el botón de selección se traduce ahora en todos los idiomas, una barra de progreso de la carga total y, por último pero no menos importante, las fotos se muestran en cuanto se han subido, de forma progresiva.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-upload-form.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-upload-form.png" class="screenshot">
 
 <p>El motor del sistema de carga ha cambiado ligeramente: en lugar de establecer el nivel de privacidad y el álbum en todas las fotos se suben, Piwigo 2.3 establece el nivel de privacidad y un álbum para cada foto, tan pronto como se carga. El resultado: no hay más fotos huérfanas en caso de accidente un lote de 40 fotos.</p>
 
@@ -117,7 +117,7 @@
 
 <p>Hemos integrado el plugin <em>Piwigo AutoUpdate</em>dentro de Piwigo . Se puede encontrar en la pantalla [Administración> Herramientas> Actualizaciones]. Puede actualizar Piwigo núcleo y las extensiones de Piwigo (plugins, temas y lenguajes).</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo230beta1_02_updates.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_02_updates.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
 
@@ -125,7 +125,7 @@
 
 <p>La información sobre herramientas para miniaturas han sido totalmente rediseñado, al igual que el texto alternativo ("alt" html attribute),con el fin de mejorar la optimización para buscadores y para proporcionar información más útil para sus visitantes.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-tooltip-on-thumbnail.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-tooltip-on-thumbnail.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
 
@@ -133,7 +133,7 @@
 
 <p>El título de la galería se puede utilizar de forma automática en el titular de página. Fácil y conveniente.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-gallery_title-in-page-banner.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-gallery_title-in-page-banner.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑  Volver al resumen</a></div>
@@ -142,7 +142,7 @@
 
 <p>La "contraseña perdida" ha sido reescrito desde cero.La nueva característica permite a los administradores restablecer su contraseña sin acceder directamente a la base de datos.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-lost-password-redesigned.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-lost-password-redesigned.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑Volver al resumen</a></div>
@@ -151,7 +151,7 @@
 
 <p>La barra de menú es visible en todas las páginas con las etiquetas, el perfil, comentarios y páginas de registro.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo230beta1_04_menubar_on_all_pages.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_04_menubar_on_all_pages.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
@@ -160,7 +160,7 @@
 
 <p>Puede combinar las etiquetas, sin perder las asociaciones con fotos.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-merge-tags.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-merge-tags.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
@@ -169,11 +169,11 @@
 
 <p>La capacidad de regenerar las imágenes y las miniaturas de página web ha sido añadido al Administrador de lotes.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo-2.3-regenerate-websize-configure.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo-2.3-regenerate-websize-configure.png" class="screenshot">
 
 <p>Cuando se regenera el tamaño de imagen web Piwigo lo creará por defecto en HD (alta definición).Si no hay imagen HD disponible y si el tamaño Web actual es mayor que el tamaño de las dimensiones, Piwigo lo tratará como alta definición y creara una foto de tamaño web reducido.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo-2.3-regenerate-websize-processing.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo-2.3-regenerate-websize-processing.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑Volver al resumen</a></div>
 
@@ -181,7 +181,7 @@
 
 <p>La capacidad de recortar las miniaturas ha sido añadido a la Administrador de lotes.Puede crear miniaturas cuadrada o amplia ahora sin necesidad de instalar un plugin.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo230beta1_03_crop_thumbnails.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_03_crop_thumbnails.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑Volver al resumen</a></div>
 
@@ -189,7 +189,7 @@
 
 <p>Ahora puede administrar el orden predeterminado de las fotografías sin necesidad de escribir código SQL (usuarios avanzados: todavía se puede sobrescribir el parámetro en el archivo de configuración local)</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=123204&filename=piwigo-2.3.0beta2-default_sort_order_user_interface.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3.0beta2-default_sort_order_user_interface.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
@@ -198,7 +198,7 @@
 
 <p>Usted puede aplicar los permisos de un álbum padre(por ejemplo, <em> Partes </em>) en su sub-albums (<em>Partes / Navidad 2011</em> y <em>Partes / Feliz cumpleaños 2012</em>).</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-permissions-on-subalbums.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-permissions-on-subalbums.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
 
@@ -206,7 +206,7 @@
 
 <p>Al activar el plugin Editor LocalFiles, un nuevo vínculo - <em>CSS</em> - aparece para cada tema.Simplemente abre el Editor de LocalFiles en el correspondiente archivo CSS.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=123204&filename=piwigo-2.3.0beta2-CSS-shortcut.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3.0beta2-CSS-shortcut.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
 
@@ -214,11 +214,11 @@
 
 <p>Es su galería disponible en Inglés, español, francés y alemán? Casi todas las etiquetas son multilingües con el plugin<em>Extended Description</em> , desde la descripción de la foto para el nombre del álbum y hasta el titular de página. Ahora usted también puede tener etiquetas multilingües.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=123204&filename=piwigo-2.3-multilanguage-tags-create.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3-multilanguage-tags-create.png" class="screenshot">
 
 <p>Todas las etiquetas multilingües también aparecerá en la lista de auto-complecion al agregar etiquetas a una foto.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=123204&filename=piwigo-2.3-multilanguage-tags-add.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3-multilanguage-tags-add.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
 
@@ -241,11 +241,11 @@
 
 <p>En comparación con Piwigo 2.2, hay 6 nuevos idiomas: afrikaans, Български (búlgaro), Eesti (Estonia), Ελληνικά (griego), 한국어 (coreano), ภาษา ไทย (Tailandés).</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.3-new-languages.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.3-new-languages.png" class="screenshot">
 
-<p>Eso es un gran esfuerzo de nuestro equipo de traducción. Además de los nuevos lenguajes, se han introducido recientemente un <a href="http://piwigo.org/translate" target="_blank">herramienta de traducción en línea</a> creado por nuestros más recientes (y más joven) de los principales miembros del equipo, mistic100.</p>
+<p>Eso es un gran esfuerzo de nuestro equipo de traducción. Además de los nuevos lenguajes, se han introducido recientemente un <a href="https://piwigo.org/translate" target="_blank">herramienta de traducción en línea</a> creado por nuestros más recientes (y más joven) de los principales miembros del equipo, mistic100.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-translate-chinese.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-translate-chinese.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ Volver al resumen</a></div>
 

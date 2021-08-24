@@ -75,11 +75,11 @@
 <section class="container">
 <h3 id="design">Modernized design</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
 
 <p>Here we go with the biggest change on 2.9: design! Dark header, footer and menubar. Less borders. Brand new administration home page, called "Dashboard", with big icons for quick access to main pages.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
 
 <p>Piwigo 2.9 comes with a modernized Batch Manager: icons for checkboxes, specific fieldset separator (only on this page, waiting for user feedback), new colors for selected thumbnail (dark gray) and "below the cursor" (Piwigo orange) thumbnails.</p>
 
@@ -89,13 +89,13 @@
 
 <p>When a new version is released, your Piwigo will notify you by email.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="tag_manager">Tag manager, selection mode</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
 
 <p>The tag manager now has a distinct selection mode, to apply actions in batch.</p>
 
@@ -103,7 +103,7 @@
 
 <h3 id="deletion">Album deletion</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
 
 <p>When deleting an album containing photos, Piwigo will now ask you what you want to do with photos associated to the album.</p>
 
@@ -111,59 +111,59 @@
 
 <h3 id="passgen">Password generator</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
 <p>The user creation form now embeds a password generator. It will create strong and secure passwords, because they're random.</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="deleteblocks">Delete photos by blocks</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
 <p>Deleting thousands of photos at once might not work, so we have implemented a deletion by blocks on orphan photos.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
 <p>... and we also implemented an equivalent for "any photos", not only orphans!</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="duplicates">Duplicates on checksum</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
 <p>In the Batch Manager, find duplicate photos based on checksum (exact match on file content, but file name can differ).</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="quicksearch">Quick search on albums</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
 <p>Quick search now includes matching albums (as in Piwigo 2.6 and earlier)</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="downloadlink">Download link</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
 <p>A new download link is now available on the edition page of the photo.</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="editquicklink">Album edit, quick link</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
 <p>Right after album creation, you can edit it with a single click.</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="rate">Filter ratings by album</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
 <p>In the ratings administration page, you can filter by album.</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="display_options">New display options</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
 <p>On page [Administration > Configuration > Options > Display] you will find new checkboxes, to show or hide the size selector or admin links (edit/caddie/representative). On both thumbnails page and photo page.</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>

@@ -78,19 +78,19 @@
 
 <section class="container">
       <h3 id="user_comments">Komentarze użytkowników: dodane e-mail i strona WWW</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=136482&amp;filename=piwigo-2.5-email-website-user-comments.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-email-website-user-comments.png" class="screenshot" />
       <p>Użytkownicy dodający komentarz, mogą teraz podać swój adres e-mail i adres swojej strony www. Domyślnie, te dwa nowe pola nie są obowiązkowe.</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="tag_duplication">Powielanie tagów</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=136482&amp;filename=piwigo-2.5-duplicate-tag.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-duplicate-tag.png" class="screenshot" />
       <p>W sekcji [Administracja &gt; Zdjęcia &gt; Tagi] można powielać tagi. Piwigo powieli także powiązania ze zdjęciami.</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="pagination_album">Podział listy albumów na strony</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=136821&amp;filename=piwigo-2.5-pagination-on-albums.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/136821/piwigo-2.5-pagination-on-albums.png" class="screenshot" />
       <p>Albumy zostały rozłożone na wiele stron, tak samo jak miniatury. Liczbę albumów przypadającą na jedną stronę można ustalić w sekcji [Administracja &gt; Konfiguracja &gt; Opcje &gt; Wyświetlanie].</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="filter_dimensions">Menadżer wsadowy: filtrowanie po wymiarach</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=137271&amp;filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot" />
       <p>W menadżerze wsadowym można filtrować zdjęcia wg wymiarów (szerokość, wysokość i proporcje). Dodaliśmy także kilka predefiniowanych ustawień:</p>
       <ul>
         <li><em>Portret</em> oznacza proporcje szerokość/wysokość mniejsze od 0.95</li>
@@ -100,26 +100,26 @@
       </ul>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="group_manager">Menadżer grup</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=139769&amp;filename=piwigo-2.5-group-manager.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-group-manager.png" class="screenshot" />
       <p>Piwigo posiada teraz doskonalone zarządzanie grupami. Podobnie jak we wsadowym menadżerze zdjęć, akcje można wykonywać na wielu grupach jednocześnie. Można je łączyć i powielać.</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="icons">Ładniejsze ikony</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=139769&amp;filename=piwigo-2.5-icons.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-icons.png" class="screenshot" />
       <p>Ładniejsze ikony w podstawowym motywie Elegant. Ikony pochodzą z <a href="http://www.entypo.com" target="_blank">Entypo pictograms wg Daniela Bruce'a</a> i <a href="http://typicons.com/" target="_blank">Typicons wg Stephena Hutchingsa</a>.</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="oauth">Powiązanie z Facebook, Google, OpenID...</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=140306&amp;filename=oAuth.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/140306/oAuth.png" class="screenshot" />
       <p>Dzięki nowej wtyczce oAuth, Twoi goście mogą się zalogować przy pomocy: Google, Facebook, OpenID, Instagram, LinkedIn, Tumblr, Twitter, Windows Live, Flickr, Wordpress i Yahoo!.</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="loading_image">Obraz tymczasowy podczas ładowania</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=139769&amp;filename=piwigo-2.5-multiple-size-loading.png"class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-multiple-size-loading.png"class="screenshot" />
       <p>Od czasu Piwigo 2.4, przy wyświetlaniu miniatur, można było czasami zauważyć, że miniaturka jest niedostępna ponieważ Piwigo potrzebował czasu na jej wygenerowanie. W Piwigo 2.5, jeżeli miniatura jest niedostępna wyświetlany jest obraz zastępczy, który zostanie zastąpiony przez obraz właściwy najszybciej jak to tylko będzie możliwe, bez przeładowywania strony.</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="languages">51 języków</h3>
-      <p>Piwigo 2.5 posiada 4 nowe tłumaczenia: galicyjski (Galego), litewski (Lietuvių), tamilski (தமிழ்), hongkoński (中文香港). To kolejny kawał dobrej roboty zespołu tłumaczy. Tłumacze korzystają z <a href="http://piwigo.org/translate" target="_blank">platformy tłumaczeń</a>.</p>
+      <p>Piwigo 2.5 posiada 4 nowe tłumaczenia: galicyjski (Galego), litewski (Lietuvių), tamilski (தமிழ்), hongkoński (中文香港). To kolejny kawał dobrej roboty zespołu tłumaczy. Tłumacze korzystają z <a href="https://piwigo.org/translate" target="_blank">platformy tłumaczeń</a>.</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="physical_albums">Albumy fizyczne i wirtualne</h3>
-      <img src="http://piwigo.org/forum/showimage.php?pid=137271&amp;filename=piwigo-2.5-physical-album.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-physical-album.png" class="screenshot" />
       <p>Na liście albumów łatwo odróżnić albumy fizyczne od wirtualnych (album fizyczny tzn. utworzony jako katalog przez FTP).</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3 id="protection">Zabezpieczenie oryginalnych zdjęć</h3>
@@ -132,9 +132,9 @@
       <p>Domyślnie, Piwigo wiąże adres IP odwiedzającego z jego sesją. Czasami może to stanowić problem, gdy użytkownik znajduje się za źle skonfigurowanym serwerem pośredniczącym, który zmienia adres IP dla każdego żądania www. Z tego powodu dodaliśmy zaawansowaną konfigurację umożliwiającą wyłączenie tego zabezpieczenia. Po prostu dodaj <em>$conf['session_use_ip_address'] = false;</em> do pliku konfiguracyjnego.</p>
       <div class="back_overview"><a href="#overview">↑ powrót na górę</a></div>
       <h3>Funkcjonalności techniczne</h3>
-      <p>Zwróć uwagę, że bardziej szczegółowa dokumentacja jest dostępna w dziale <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Techniczne zmiany w Piwigo 2.5</a>. Zapoznaj się z nią, aby twoje rozszerzenia w pełni współpracowały z Piwigo 2.5.</p>
+      <p>Zwróć uwagę, że bardziej szczegółowa dokumentacja jest dostępna w dziale <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Techniczne zmiany w Piwigo 2.5</a>. Zapoznaj się z nią, aby twoje rozszerzenia w pełni współpracowały z Piwigo 2.5.</p>
       <h4 id="api_explorer">Nowy eksplorator API</h4>
-      <img src="http://piwigo.org/forum/showimage.php?pid=136482&amp;filename=piwigo-2.5-new-web-api-explorer.png" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-new-web-api-explorer.png" class="screenshot" />
       <p>Eksplorator API Piwigo doczekał się nowego wyglądu. Dostępny jest w przeglądarce pod adresem Twojej galerii w pliku tools/ws.htm</p>
       <h4 id="passwords">Zwiększone bezpieczeństwo haseł</h4>
       <p>Bezpieczeństwo haseł zostało znacznie zwiększone poprzez użycie klasy PasswordHash. Klasa ta przeprowadza m.in. "solenie" haseł. Korzystają z niej np. Wordpress, Drupal, phpBB i wiele innych aplikacji internetowych. Skróty MD5 zostaną stopniowo, automatycznie zaktualizowane do haseł "solonych".</p>
@@ -143,7 +143,7 @@
       <h4 id="javascriptpacker">JSmin zamieniony na JavaScriptPacker</h4>
       <p>Klasy PHP JSmin i JavaScriptPacker służą do tego samego: minimalizują rozmiar plików JavaScript. Zmieniliśmy JSmin na JavaScriptPacker ponieważ JSmin nie jest w pełni otwartoźródłowy, zgodnie z oczekiwaniami Debiana.</p>
       <h4 id="flags_sprite">Flagi jako sprite'y CSS</h4>
-      <img src="http://piwigo.org/forum/showimage.php?pid=140306&amp;filename=flag_sprite.jpg" class="screenshot" />
+      <img src="https://piwigo.org/forum/uploads/140306/flag_sprite.jpg" class="screenshot" />
       <p>Flagi w bloku zmiany języka przechowywane są teraz jako jeden obraz, który jest odpowiednio dopasowywany przez przeglądarkę, a nie jako osobne pliki. W rezultacie zamiast wysyłać 51 żądań HTTP, wysyłamy tylko jedno.</p>
       <h4 id="session_messages">Sesje mogą przechowywać informacje, błędy i ostrzeżenia</h4>
       <p>We wtyczkach można używać <em>$_SESSION['page_infos'], $_SESSION['page_errors'], $_SESSION['page_warnings']</em> do przekazywania różnych komunikatów podczas przeładowywania strony.</p>

@@ -76,10 +76,10 @@
 
 <p>El formulario de carga web ha sido reescrito. El nuevo formulario de carga en Piwigo 2.7 está basado en HTML5 en lugar de Flash, que significa una mejor compatibilidad con los navegadores web modernos, así como un aumento de la fiabilidad mediante conexiones lentas, gracias a la carga fragmentada. ¡Arrastrar y soltar harán mucho más fácil la selección de fotos desde el navegador de archivos!</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=154156&filename=piwigo-2.7-upload-form-before-selection.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/154156/piwigo-2.7-upload-form-before-selection.png" class="screenshot">
 Puedes abrir un explorador de archivos local, con el botón "+ Añadir fotos", o puedes arrastrar y soltar archivos en el área de archivos.
 
-<img src="https://piwigo.org/forum/showimage.php?pid=154156&filename=piwigo-2.7-upload-form-transfer-in-progress.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/154156/piwigo-2.7-upload-form-transfer-in-progress.png" class="screenshot">
 Durante la subida, se mostrará una una advertencia si intentas salir de la página. Puedes cancelar la transferencia en cualquier momento.
 
 <p>
@@ -94,28 +94,28 @@ Característica avanzada: ahora se puede subir cualquier tipo de archivo. En tu 
 
 El nuevo plugin "Take a tour" es una guía en directo dentro de tu Piwigo. Actívalo y sigue los pasos. En este momento hay 3 rutas disponibles: "primer contacto", "privacidad" y "nuevas características en 2.7". ¡Y todavía queda más por venir!</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=152597&filename=piwigo-2.7-take-a-tour.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/152597/piwigo-2.7-take-a-tour.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ subir a visión general</a></div>
 
 <h3 id="batch_manager">Gestor de lotes</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=152022&filename=piwigo-2.7-batch-manager-search-filter.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/152022/piwigo-2.7-batch-manager-search-filter.png" class="screenshot">
 <p>
 
 Un filtro de búsqueda se ha añadido al gestor de lotes. Viene con una sintaxis poderosa para buscar fotos en fechas, etiquetas, tamaño, nombre de archivo y opciones de búsqueda como coincidencia exacta, AND/OR, agrupación, exclusión. Tenéis disponible una sección detallada de ayuda. Basta con hacer clic en el (?). La misma sintaxis potente se aplica al campo de búsqueda rápida en el menú lateral público.</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=153704&filename=piwigo-2.7-batch-manager-duplicates-options.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/153704/piwigo-2.7-batch-manager-duplicates-options.png" class="screenshot">
 <p>
 
 En el Gestor de lotes, encuentra duplicados no sólo en los nombres de archivo, sino también en la fecha y hora, anchura y altura.</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=153704&filename=piwigo-2.7-batch-manager-filter-filesize.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/153704/piwigo-2.7-batch-manager-filter-filesize.png" class="screenshot">
 <p>
 
 Encuentra tus fotos con el nuevo filtro del tamaño del archivo en el Gestor de lotes.</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=153704&filename=piwigo-2.7-empty-caddie.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/153704/piwigo-2.7-empty-caddie.png" class="screenshot">
 <p>Enlace de acción fácil para vaciar su carrito con solo en un clic.</p>
 
 <div class="back_overview"><a href="#overview">↑ subir a visión general</a></div>
@@ -124,7 +124,7 @@ Encuentra tus fotos con el nuevo filtro del tamaño del archivo en el Gestor de 
 
 <h3 id="search_form">Formulario de búsqueda</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=152597&filename=piwigo-2.7-search-form.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/152597/piwigo-2.7-search-form.png" class="screenshot">
 <p>
 
 La página de búsqueda se ha reprogramado: la capacidad para seleccionar propiedades en las cuales se aplica la palabra buscada, la lista de autores encontrados en la base de datos, la lista de autocompletado de etiquetas, la lista de autocompletado de álbumes...</p>
@@ -135,10 +135,10 @@ La página de búsqueda se ha reprogramado: la capacidad para seleccionar propie
 
 <h3 id="photo_edit">Photo Edit</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=152022&filename=piwigo-2.7-change-time.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/152022/piwigo-2.7-change-time.png" class="screenshot">
 <p>Ahora puede editar el tiempo, así como la fecha en las fotos.</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=154156&filename=piwigo-2.7-edit-photo-zoom.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/154156/piwigo-2.7-edit-photo-zoom.png" class="screenshot">
 <p>Al editar una foto, puedes hacer clic en la miniatura para abrir un tamaño más grande, sin salir de la página.</p>
 
 <div class="back_overview"><a href="#overview">↑ subir a visión general</a></div>
@@ -147,7 +147,7 @@ La página de búsqueda se ha reprogramado: la capacidad para seleccionar propie
 
 <h3 id="user_comments">Comentarios de los usuarios</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=152597&filename=piwigo-2.7-user-comments-website.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/152597/piwigo-2.7-user-comments-website.png" class="screenshot">
 <p>Puedes desactivar el campo website en los comentarios de los usuarios.</p>
 
 <div class="back_overview"><a href="#overview">↑ subir a visión general</a></div>
@@ -156,7 +156,7 @@ La página de búsqueda se ha reprogramado: la capacidad para seleccionar propie
 
 <h3 id="album_sort_dates">Ordenar álbumes por Fecha</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=153704&filename=piwigo-2.7-albums-sort-by-date.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/153704/piwigo-2.7-albums-sort-by-date.png" class="screenshot">
 <p>Ahora puedes ordenar tus álbumes basados ​​en la fecha de creación o en la fecha de publicación de las fotos.</p>
 
 <div class="back_overview"><a href="#overview">↑ subir a visión general</a></div>
@@ -165,7 +165,7 @@ La página de búsqueda se ha reprogramado: la capacidad para seleccionar propie
 
 <h3 id="filter_plugins">Filtrar los plugins</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=154156&filename=piwigo-2.7-plugin-filter.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/154156/piwigo-2.7-plugin-filter.png" class="screenshot">
 <p>Nuevo filtro para encontrar tus plugins fácilmente antes de instalarlos. Con más de 150 plugins compatibles con Piwigo 2.6, ¡es más que útil!</p>
 
 <div class="back_overview"><a href="#overview">↑ subir a visión general</a></div>
@@ -174,7 +174,7 @@ La página de búsqueda se ha reprogramado: la capacidad para seleccionar propie
 
 <h3 id="languages">58 idiomas</h3>
 
-<p>Piwigo 2.7.0 añade dos idiomas más: El basco (Euskera) y luxemburgués (Lëtzebuergesch). Vuestra participación es bienvenida en la <a href="http://piwigo.org/translate">plataforma de traducción de Piwigo</a>, así como para plugins y temas. Hay muchas líneas de texto por traducir, por lo que realmente necesitamos toda la ayuda posible de la comunidad Piwigo.</p>
+<p>Piwigo 2.7.0 añade dos idiomas más: El basco (Euskera) y luxemburgués (Lëtzebuergesch). Vuestra participación es bienvenida en la <a href="https://piwigo.org/translate">plataforma de traducción de Piwigo</a>, así como para plugins y temas. Hay muchas líneas de texto por traducir, por lo que realmente necesitamos toda la ayuda posible de la comunidad Piwigo.</p>
 
 <div class="back_overview"><a href="#overview">↑ subir a visión general</a></div>
 

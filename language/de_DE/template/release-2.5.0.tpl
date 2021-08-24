@@ -79,7 +79,7 @@
 <section class="container">
 <h3 id="user_comments">Benutzer Kommentare: Email und Webseite hinzugefügt</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-email-website-user-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-email-website-user-comments.png" class="screenshot">
 
 <p>Bei den Benutzer Kommentaren wird nun auch nach Email und Website gefragt. Per Standard sind diese neuen Felder keine Pflichtangabe.</p>
 
@@ -87,7 +87,7 @@
 
 <h3 id="tag_duplication">Stichworte kopieren</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-duplicate-tag.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-duplicate-tag.png" class="screenshot">
 
 <p>Auf der Seite [Administration > Photos > Tags] können nun Stichworte kopiert werden. Piwigo kopiert dabei auch die Verlinkungen zu Fotos.</p>
 
@@ -95,7 +95,7 @@
 
 <h3 id="pagination_album">Blättern in Alben</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136821&filename=piwigo-2.5-pagination-on-albums.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136821/piwigo-2.5-pagination-on-albums.png" class="screenshot">
 
 <p>Blättern in Alben, genauso wie bei den Vorschaubildern. Man kann die Anzahl der Alben pro Seite festlegen unter [Administration > Configuration > Options > Display].</p>
 
@@ -103,7 +103,7 @@
 
 <h3 id="filter_dimensions">Batch Manager: Filtern auf Größen</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
 
 <p>Im Batch Manager kann man nun nach den Größen der Fotos filtern (Breite, Höhe und Verhältnis). Wir haben auch einige <em>Schnell-Verweise</em> auf übliche Verhältnisse hinzugefügt:</p>
 <ul>
@@ -117,7 +117,7 @@
 
 <h3 id="group_manager">Gruppen Manager</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-group-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-group-manager.png" class="screenshot">
 
 <p>Piwigo erhält einen verbesserten Gruppen Manager. Wie bereits im Foto Batch-Manager können nun Aktionen auf verschiedene Gruppen gleichzeitig angewendet werden. Mit dem neuen Gruppen-Manager kann man nun Gruppen zusammenführen oder kopieren.</p>
 
@@ -125,7 +125,7 @@
 
 <h3 id="icons">Schönere Symbole</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-icons.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-icons.png" class="screenshot">
 
 <p>Schönere Symbole für das Elegant Theme. Symbole von <a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a> und <a href="http://typicons.com/" target="_blank">Typicons by Stephen Hutchings</a>.</p>
 
@@ -133,7 +133,7 @@
 
 <h3 id="oauth">Verbinden mit Facebook, Google, OpenID...</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=oAuth.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/oAuth.png" class="screenshot">
 
 <p>Mit dem neuen Plugin oAuth, können sich Besucher nun über externe Authentifizierung-Dienste anmelden: Google, Facebook, OpenID, Instagram, LinkedIn, Tumblr, Twitter, Windows Live, Flickr, Wordpress und Yahoo!.</p>
 
@@ -141,7 +141,7 @@
 
 <h3 id="loading_image">Temporäres Bild während des Ladens</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-multiple-size-loading.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-multiple-size-loading.png" class="screenshot">
 
 <p>Beim Ladevorgang von neuen Bildern wird seit Piwigo 2.4 im Browser oft ein Vorschaubild als <em>fehlend</em> gekennzeichnet da Piwigo dieses erst noch erstellen muss. Unter Piwigo 2.5 wird nun solange das Vorschaubild noch nicht erzeugt ist, ein temporäres Bild angezeigt, das sobald das Vorschaubild generiert wurde ersetzt wird ohne die Seite neu laden zu müssen.</p>
 
@@ -149,13 +149,13 @@
 
 <h3 id="languages">51 Sprachen</h3>
 
-<p>Piwigo 2.5 erhält verglichen mit der Version 2.4.0 vier neue Sprachen: Galician (Galego), Lithuanian (Lietuvių), Tamil (தமிழ்), Honk-Kong (中文香港). Ein weiteres großartiges Stück Arbeit des Übersetzter-Teams. Die Übersetzter haben die <a href="http://piwigo.org/translate" target="_blank">Übersetzungsoberfläche</a> gut angenommen.</p>
+<p>Piwigo 2.5 erhält verglichen mit der Version 2.4.0 vier neue Sprachen: Galician (Galego), Lithuanian (Lietuvių), Tamil (தமிழ்), Honk-Kong (中文香港). Ein weiteres großartiges Stück Arbeit des Übersetzter-Teams. Die Übersetzter haben die <a href="https://piwigo.org/translate" target="_blank">Übersetzungsoberfläche</a> gut angenommen.</p>
 
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 
 <h3 id="physical_albums">Physikalische vs Virtuelle Alben</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-physical-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-physical-album.png" class="screenshot">
 
 <p>In Album-Listen kann man nun ganz einfach die physikalischen Alben erkennen (physikalisches Album = erstellt durch einen FTP Ordner).</p>
 
@@ -181,11 +181,11 @@
 
 <h3>Technische Details</h3>
 
-<p>Entwickler-Hinweis: Eine detailiertere Beschreibung der Änderungen ist unter <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Technical changes in Piwigo 2.5</a> zu finden. Bitte lies die Dokumentation durch um Deine Erweiterung zu Piwigo 2.5. kompatibel zu machen</p>
+<p>Entwickler-Hinweis: Eine detailiertere Beschreibung der Änderungen ist unter <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Technical changes in Piwigo 2.5</a> zu finden. Bitte lies die Dokumentation durch um Deine Erweiterung zu Piwigo 2.5. kompatibel zu machen</p>
 
 <h4 id="api_explorer">Neuer Web-API-Explorer</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-new-web-api-explorer.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-new-web-api-explorer.png" class="screenshot">
 
 <p>Der Piwigo web API explorer hat ein neues grafisches Design. Öffne diesen im Web-Browser der Piwigo Installation unter <em>tools/ws.htm</em></p>
 
@@ -203,7 +203,7 @@
 
 <h4 id="flags_sprite">Sprite-Bilddatei für Fahnen</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=flag_sprite.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/flag_sprite.jpg" class="screenshot">
 
 <p>In der Sparch-Auswahl-Box werden nun nicht mehr 51 separate Fahnen-Bild-Dateien geladen, was gleich 51 HTTP requests ausmachte. Alle Fahnen sind nun in einer einzelnen Bild-Datei enthalten und werden durch CSS Regeln separat angesteuert und im Web-Browser dargestellt.</p>
 

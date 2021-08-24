@@ -80,7 +80,7 @@
 <section class="container">
 <h3 id="user_comments">User comments: Email and Website added</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-email-website-user-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-email-website-user-comments.png" class="screenshot">
 
 <p>User comments ask for an email and website. By default, these new fields are not mandatory.</p>
 
@@ -88,7 +88,7 @@
 
 <h3 id="tag_duplication">Tag duplication</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-duplicate-tag.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-duplicate-tag.png" class="screenshot">
 
 <p>On screen [Administration > Photos > Tags] you can duplicate tags. Piwigo will also duplicate associations with photos.</p>
 
@@ -96,7 +96,7 @@
 
 <h3 id="pagination_album">Pagination on albums</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136821&filename=piwigo-2.5-pagination-on-albums.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136821/piwigo-2.5-pagination-on-albums.png" class="screenshot">
 
 <p>Pagination on albums, just like on thumbnails. You can modify the number of albums per page on screen [Administration > Configuration > Options > Display].</p>
 
@@ -104,7 +104,7 @@
 
 <h3 id="filter_dimensions">Batch manager: filter on dimensions</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
 
 <p>In the Batch Manager, you can filter photos on dimensions (width, height and ratio). We have also added some <em>quick links</em> for specific ratios:</p>
 <ul>
@@ -118,7 +118,7 @@
 
 <h3 id="group_manager">Group manager</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-group-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-group-manager.png" class="screenshot">
 
 <p>Piwigo gets an improved group manager. Just like the photo batch manager, you can apply an action to several groups at once. With the new group manager,  you can merge and duplicate groups.</p>
 
@@ -126,7 +126,7 @@
 
 <h3 id="icons">Better looking icons</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-icons.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-icons.png" class="screenshot">
 
 <p>Better icons for default theme Elegant. Icons from <a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a> and <a href="http://typicons.com/" target="_blank">Typicons by Stephen Hutchings</a>.</p>
 
@@ -134,7 +134,7 @@
 
 <h3 id="oauth">Connect with Facebook, Google, OpenID...</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=oAuth.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/oAuth.png" class="screenshot">
 
 <p>With the new plugin oAuth, your visitors can log in with external authentication: Google, Facebook, OpenID, Instagram, LinkedIn, Tumblr, Twitter, Windows Live, Flickr, Wordpress and Yahoo!.</p>
 
@@ -142,7 +142,7 @@
 
 <h3 id="loading_image">Temporary image while loading</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-multiple-size-loading.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-multiple-size-loading.png" class="screenshot">
 
 <p>Since Piwigo 2.4, when displaying thumbnails, you can sometimes see that the thumbnail is not available because Piwigo has to generate it. With Piwigo 2.5, if the thumbnail is not available we display a default icon, which is replaced by the thumbnail as soon as possible, without reloading the page.</p>
 
@@ -150,13 +150,13 @@
 
 <h3 id="languages">51 languages</h3>
 
-<p>Piwigo 2.5 adds 4 new languages compared to Piwigo 2.4.0: Galician (Galego), Lithuanian (Lietuvių), Tamil (தமிழ்), Hong-Kong (中文香港). That's another huge piece of work from the translation team. Translators have adopted <a href="http://piwigo.org/translate" target="_blank">the translation platform</a>.</p>
+<p>Piwigo 2.5 adds 4 new languages compared to Piwigo 2.4.0: Galician (Galego), Lithuanian (Lietuvių), Tamil (தமிழ்), Hong-Kong (中文香港). That's another huge piece of work from the translation team. Translators have adopted <a href="https://piwigo.org/translate" target="_blank">the translation platform</a>.</p>
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="physical_albums">Physical vs virtual albums</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-physical-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-physical-album.png" class="screenshot">
 
 <p>On albums list, you can easily see the physical albums (physcial album = created as a FTP directory).</p>
 
@@ -182,11 +182,11 @@
 
 <h3>Technical Features</h3>
 
-<p>Please note that more detailed documentation is available about <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Technical changes in Piwigo 2.5</a>. Please read it to make your extensions compatible with Piwigo 2.5.</p>
+<p>Please note that more detailed documentation is available about <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Technical changes in Piwigo 2.5</a>. Please read it to make your extensions compatible with Piwigo 2.5.</p>
 
 <h4 id="api_explorer">New web API explorer</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-new-web-api-explorer.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-new-web-api-explorer.png" class="screenshot">
 
 <p>The Piwigo web API explorer gets a new graphical design. You can open it with your web browser, on your Piwigo installation on tools/ws.htm</p>
 
@@ -204,7 +204,7 @@
 
 <h4 id="flags_sprite">Sprite for flags</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=flag_sprite.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/flag_sprite.jpg" class="screenshot">
 
 <p>In the language switch box, instead of loading 51 flag files, ie 51 HTTP requests, all flags are now on a single picture file and CSS rules split the picture correctly in your web browser.</p>
 

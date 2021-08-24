@@ -79,7 +79,7 @@
 <section class="container">
 <h3 id="user_comments">Kullanıcı yorumları: e-posta ve web sitesi eklendi</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-email-website-user-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-email-website-user-comments.png" class="screenshot">
 
 <p>Artık kullanıcı yorum formu, e-Posta ve web sitesi adresi soracaktır. Varsayılan olarak bu alanlara veri girişi mecburi değildir.</p>
 
@@ -87,7 +87,7 @@
 
 <h3 id="tag_duplication">Etiket çoğaltma/kopyalama</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-duplicate-tag.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-duplicate-tag.png" class="screenshot">
 
 <p>[Yönetim > Fotoğraflar > Etiketler] etiketleri çoğaltabilirsiniz. Piwigo aynı zamanda fotoğraflarla olan ilişkilerini de çoğaltacaktır.</p>
 
@@ -95,7 +95,7 @@
 
 <h3 id="pagination_album">Albümleri sayfalandırma</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136821&filename=piwigo-2.5-pagination-on-albums.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136821/piwigo-2.5-pagination-on-albums.png" class="screenshot">
 
 <p>Albümlerin sayfalandırılması tıpkı küçük resimlerde olduğu gibidir. Ekrana gelen her sayfada kaç albüm olması gerektiğini değiştirebilirsiniz [Yönetim > Yapılandırma > Seçenekler > Görünüm].</p>
 
@@ -103,7 +103,7 @@
 
 <h3 id="filter_dimensions">Küme yöneticisi: boyut filtresi</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
 
 <p>Küme Yöneticisi'nde, boyutlarına göre fotoğrafları filtreleyebilirsiniz (genişlik, yükseklik ve oran). Biz ayrıca özel oranlar için belirli <em>hızlı bağlantılar</em> ekledik:</p>
 <ul>
@@ -117,7 +117,7 @@
 
 <h3 id="group_manager">Grup yönetimi</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-group-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-group-manager.png" class="screenshot">
 
 <p>Piwigo, geliştirilmiş bir grup yöneticisi getirmektedir. Fotoğraf küme yöneticisinde olduğu gibi, aynı anda bir kaç gruba birden eylem uygulayabilirsiniz. Yeni grup yöneticisi ile grupları birleştirebilir ve çoğaltabilirsiniz.</p>
 
@@ -125,7 +125,7 @@
 
 <h3 id="icons">Daha iyi görünüme sahip simgeler</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-icons.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-icons.png" class="screenshot">
 
 <p>Artık varsayılan Elegant teması daha iyi görünümlü simgelere sahip. Simgeler, <a href="http://www.entypo.com" target="_blank">Daniel Bruce (Entypo Sembolleri)</a> ve <a href="http://typicons.com/" target="_blank">Stephen Hutchings (Typicons)</a> tarafından sağlanmıştır.</p>
 
@@ -133,7 +133,7 @@
 
 <h3 id="oauth">Facebook, Google, OpenID... hesabı ile oturum açma</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=oAuth.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/oAuth.png" class="screenshot">
 
 <p>Yeni oAuth eklentisi sayesinde ziyaretçileriniz harici kimlik doğrulaması ile oturum açabilirler: Google, Facebook, OpenID, Instagram, LinkedIn, Tumblr, Twitter, Windows Live, Flickr, Wordpress ve Yahoo!.</p>
 
@@ -141,7 +141,7 @@
 
 <h3 id="loading_image">Yükleme sırasında geçici resim gösterme</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-multiple-size-loading.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-multiple-size-loading.png" class="screenshot">
 
 <p>Piwigo 2.4 'den beri, küçük resimler görüntülenirken Piwigo'nun oluşturması gereken küçük resimlerin kullanılamadığını durumlarla karşılaşmış olabilirsiniz. Piwigo 2.5 ile, küçük resimlerin hazır olmadığı durumlarda sayfayı tekrar yüklemeye gerek kalmadan ve daha sonra asıl küçük resim ile değiştirilecek olan geçici simge görüntülenecektir.</p>
 
@@ -149,13 +149,13 @@
 
 <h3 id="languages">51 dil desteği</h3>
 
-<p>Piwigo 2.4 ile karşılaştırıldığında Piwigo 2.5 'e 4 yeni dil eklenmiştir: Galiçyaca (Galego), Litvanyaca (Lietuvių), Tamilce (தமிழ்), Hong-Kong Çincesi (中文香港). Bu, çeviri ekibi çalışmalarının diğer büyük bir parçasıdır. Çevirmenler buradaki <a href="http://piwigo.org/translate" target="_blank"> çeviri platformunu benimsemişlerdir</a>.</p>
+<p>Piwigo 2.4 ile karşılaştırıldığında Piwigo 2.5 'e 4 yeni dil eklenmiştir: Galiçyaca (Galego), Litvanyaca (Lietuvių), Tamilce (தமிழ்), Hong-Kong Çincesi (中文香港). Bu, çeviri ekibi çalışmalarının diğer büyük bir parçasıdır. Çevirmenler buradaki <a href="https://piwigo.org/translate" target="_blank"> çeviri platformunu benimsemişlerdir</a>.</p>
 
 <div class="back_overview"><a href="#overview">↑ Genel Bakışa Dön</a></div>
 
 <h3 id="physical_albums">Fiziksellere karşı sanal albümler</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-physical-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-physical-album.png" class="screenshot">
 
 <p>Albüm listesinde fiziksel albümleri kolayca görebilirsiniz (fiziksel albüm = FTP dizini olarak oluşturulan albüm).</p>
 
@@ -181,11 +181,11 @@
 
 <h3>Teknik Özellikler</h3>
 
-<p>Daha detaylı bilgi ve belgelere <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Piwigo 2.5 'deki Teknik Değişiklikler</a> 'den ulaşabileceğinizi belirtmek isteriz. Uzantılarınızın Piwigo 2.5 ile uyumlu olması için lütfen bunları okuyunuz.</p>
+<p>Daha detaylı bilgi ve belgelere <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Piwigo 2.5 'deki Teknik Değişiklikler</a> 'den ulaşabileceğinizi belirtmek isteriz. Uzantılarınızın Piwigo 2.5 ile uyumlu olması için lütfen bunları okuyunuz.</p>
 
 <h4 id="api_explorer">Yeni web API gezgini</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-new-web-api-explorer.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-new-web-api-explorer.png" class="screenshot">
 
 <p>Piwigo web API gezgini yeni bir grafiksel görünüme büründü. Ona web tarayıcınızla Piwigo kurulum adresi tools/ws.htm adresinden erişebilirsiniz.</p>
 
@@ -203,7 +203,7 @@
 
 <h4 id="flags_sprite">Tek dosyada toplanan bayraklar</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=flag_sprite.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/flag_sprite.jpg" class="screenshot">
 
 <p>Dil değiştirme kutusunda, 51 HTTP isteği ile 51 ülke bayrağı dosyasının yüklenmesi yerine, artık web tarayıcınızda resmin doğru biçimde bölünmesini sağlayan CSS kuralları ve tek bir resim dosyası bulunmaktadır.</p>
 

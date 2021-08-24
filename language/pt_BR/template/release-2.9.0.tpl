@@ -76,11 +76,11 @@
 <section class="container">
 <h3 id="design">Design modernizado</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
 
 <p>Aqui vamos nós com a maior mudança em 2.9: design! Cabeçalho, rodapé e barra de menus escuros. Menos bordas. Página inicial de administração nova, chamada "Dashboard", com ícones grandes para acesso rápido às páginas principais.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
 
 <p>O Piwigo 2.9 vem com um Gerenciador de Lotes modernizado: ícones para caixas de seleção, separador de campo específico (somente nesta página, aguardando feedback do usuário), novas cores para as miniaturas selecionadas (cinza escuro) e "abaixo do cursor" (Piwigo laranja).</p>
 
@@ -90,13 +90,13 @@
 
 <p>Quando uma nova versão é lançada, o seu Piwigo irá notificá-lo por e-mail.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>
 
 <h3 id="tag_manager">Gerenciador de tags, modo de seleção</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
 
 <p>O gerenciador de tags agora tem um modo de seleção distinto, para aplicar ações em lote.</p>
 
@@ -105,7 +105,7 @@
 
 <h3 id="deletion">Eliminação de álbum</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
 
 <p>Ao excluir um álbum contendo fotos, o Piwigo agora lhe perguntará o que deseja fazer com as fotos associadas ao álbum.</p>
 
@@ -114,7 +114,7 @@
 
 <h3 id="passgen">Gerador de senhas</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
 <p>O formulário de criação do usuário agora incorpora um gerador de senhas. Ele criará senhas fortes e seguras, porque elas são aleatórias.</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>
@@ -122,10 +122,10 @@
 
 <h3 id="deleteblocks">Excluir fotos por blocos</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
 <p>Excluir milhares de fotos de uma só vez pode não funcionar, então implementamos uma exclusão por blocos de fotos órfãs.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
 <p>... e também implementou um equivalente para "quaisquer fotos", não apenas órfãs!</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>
@@ -133,14 +133,14 @@
 
 <h3 id="duplicates">Duplicados na soma de verificação</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
 <p>No Gerenciador de lotes, encontre fotos duplicadas com base na soma de verificação (correspondência exata no conteúdo do arquivo, mas o nome do arquivo pode ser diferente).</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>
 
 <h3 id="quicksearch">Pesquisa rápida de álbuns</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
 <p>A pesquisa rápida agora inclui álbuns correspondentes (como no Piwigo 2.6 e anteriores)</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>
@@ -148,7 +148,7 @@
 
 <h3 id="downloadlink">Link baixar</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
 <p>Um novo link de download está agora disponível na página de edição da foto.</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>
@@ -156,7 +156,7 @@
 
 <h3 id="editquicklink">Editar álbum, link rápido</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
 <p>Logo após a criação do álbum, você pode editá-lo com um único clique.</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>
@@ -164,14 +164,14 @@
 
 <h3 id="rate">Filtrar classificações por álbum</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
 <p>Na página de administração de avaliações, você pode filtrar por álbum.</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>
 
 <h3 id="display_options">Novas opções de exibição</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
 <p>Na página [Administração> Configuração> Opções> Mostrar] você encontrará novas caixas de seleção, para mostrar ou ocultar o seletor de tamanho ou os links de administração (edit/caddy/representative). Na página de miniaturas e na página de fotos.</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar ao menu principal</a></div>

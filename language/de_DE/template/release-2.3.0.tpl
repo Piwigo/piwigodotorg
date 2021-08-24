@@ -86,13 +86,13 @@
 
 <li>Standardmäßig werden unwichtige Informationen verborgen, was eine kompaktere Darstellung ermöglicht</li>
 </ol>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo230beta1_01_plugin_manager.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_01_plugin_manager.png" class="screenshot" /></p>
 <p>Eine weitere kleine Änderung: Nur <em>Webmaster</em> können Plugins aktivieren/deaktivieren. Der <em>administrator</em> Status reicht nicht aus.</p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="upload_form">Verbessertes Upload-Formular</h4>
 <p>Das Upload-Formular wurde stark verbessert. Inmitten sichbarer Verbesserungen, findest du eine vereinfachte Albenauswahl, maximale Datei- und Bildgröße werden angezeigt bevor du Fotos auswählst, der "wählen" Button ist nun in alle Sprachen übersetzt, ein Ladebalken für den gesamten Upload und, zu guter Letzt, Photos werden angezeigt sobald sie hochgeladen sind, progressively.</p>
 
-<p><img src="http://piwigo.org/forum/showimage.php?pid=124400&amp;filename=piwigo-230RC1-upload-form.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-upload-form.png" class="screenshot" /></p>
 <p>Der Upload-Mechanismus wurde wtwas verändert: Anstatt die Privatsphäre und das Album für alle Fotos zu setzen, setzt Piwigo 2.3 die Privatsphäre und das Album für jedes Foto einzeln, as soon as it is uploaded. The result: no more orphan photos in case a single photo fails on your next large batch upload.</p>
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 <h4 id="rating_score">Goodbye <em>"average rate"</em>, welcome <em>"rating score"</em></h4>
@@ -102,61 +102,61 @@
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="update_manager">Aktualisierungsverwaltung</h4>
 <p>Wir haben das <em>Piwigo AutoUpgrade</em> Plugin in Piwigo integriert. Es ist unter [Administration > Werkzeuge > Aktualisierungen] zu finden. Du kannst Piwigo selbst und Piwigo Erweiterungen (Plugins, Themen und Sprachen) aktualisieren.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo230beta1_02_updates.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_02_updates.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="tooltips">Neue Tooltips für Miniaturen</h4>
 <p>Die Tooltips für Miniaturen wurden komplett neu gestaltet und verwenden den Alternativen Text für Bilder  ("alt" html attribute) um die Suchmaschinenoptimierung zu verbessen und um dem Besucher mehr nützliche Informationen zur Verfügung zu stellen.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=124400&amp;filename=piwigo-230RC1-tooltip-on-thumbnail.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-tooltip-on-thumbnail.png" class="screenshot" /></p>
 
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="title_on_banner">Verwende den Galerie-Name im Seitenbanner</h4>
 <p>Der Galerie-Name kann automatisch für den Seitenbanner benutzt werden. Einfach und bequem.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=124400&amp;filename=piwigo-230RC1-gallery_title-in-page-banner.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-gallery_title-in-page-banner.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="lost_password">Neu gestaltet "Passwort vergessen" Funktion</h4>
 <p>Die "Passwort vergessen" Funktion wurde von grundauf neu programmiert. Die neue Funktion ermöglicht Administratoren Passwörter zurückzusetzen ohne direkt auf die Datenbank zuzugreifen.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=124400&amp;filename=piwigo-230RC1-lost-password-redesigned.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-lost-password-redesigned.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="menubar_everywhere">Navigation auf allen Seiten</h4>
 
 <p>Die Navigation erscheint auf allen Seiten. Auf der Tag-, Profil, Kommentar- and Registrierungsseite.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo230beta1_04_menubar_on_all_pages.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_04_menubar_on_all_pages.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="merge_tags">Schlagworte zusammenführen</h4>
 <p>Du kannst Schlagworte zusammenführen ohne die Verknüpfung zu den Fotos zu verlieren.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=124400&amp;filename=piwigo-230RC1-merge-tags.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-merge-tags.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 <h4 id="regenerate">Web- und Miniaturgröße neu erstellen</h4>
 <p>Die Möglichkeit Web- und Miniaturgröße neu zu erstellen wurde der Stapelverarbeitung hinzugefügt.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo-2.3-regenerate-websize-configure.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/122461/piwigo-2.3-regenerate-websize-configure.png" class="screenshot" /></p>
 
 <p>Bei der neuberechnung der Webgröße wird die HD (hochauflösende) Version der Fotos verwendet. Wenn kein HD Bild zur Verfügung steht und die aktuelle Webgröße größer ist, als die Originalgröße des neu zu berechnenden Bildes, verwendet es Piwigo als HD Bild und nutzt es als Webgröße.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo-2.3-regenerate-websize-processing.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/122461/piwigo-2.3-regenerate-websize-processing.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 <h4 id="crop">Miniaturen beschneiden</h4>
 <p>DIe Möglichkeit Miniaturen zu beschneiden wurde zur Stapelverarbeitung hinzugefügt. Du kannst jetzt quadratische oder querformatige Miniaturen erstellen ohne ein Plugin zu installieren.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=122461&amp;filename=piwigo230beta1_03_crop_thumbnails.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_03_crop_thumbnails.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="default_sort_order">Verwalte die standardmäßige Sortierung</h4>
 <p>Du kannst jetzt die standardmäßige Sortierung ändern ohne eine SQL Abfrage anzupassen (Fortgeschrittene Benutzer: Du kannst noch immer die lokale Konfiguration überschreiben)</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=123204&amp;filename=piwigo-2.3.0beta2-default_sort_order_user_interface.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3.0beta2-default_sort_order_user_interface.png" class="screenshot" /></p>
 
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="permissions_sub_albums">Zugriffsrechte auf Unteralben anwenden</h4>
 <p>ZUgriffsrecht können auf Unteralben angewendet werden (zum Beispiel, <em>Parties</em>) auf die Unternalben (<em>Parties / Christmas 2011</em> und<em>Parties / Happy new year 2012</em>).</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=124400&amp;filename=piwigo-230RC1-permissions-on-subalbums.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-permissions-on-subalbums.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 <h4 id="css_link">Verknüpfung zu den CSS Dateien mit dem "LocalFile Editor"</h4>
 
 <p>Wenn du den "LocalFiles Editor" aktivierst, ein neuer Link - <em>CSS</em> - erscheint für jedes THema. Es wird einfach der "LocalFiles Editor" für die relevante CSS Datei geöffnet.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=123204&amp;filename=piwigo-2.3.0beta2-CSS-shortcut.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3.0beta2-CSS-shortcut.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="multilingual_tags">Mehrsprachige Schlagwörter</h4>
 <p>Ist deine Galerie ind englisch, spanisch, französisch und deutsch verfügbar? Mit dem <em>Extended Description</em> Plugin sind fast alle Labels sind mehrsprachig, von der Foto Beschreibung bis zum Album Name über den Seitenbanner. Und jetzt sind auch mehrsprachige Schlagworte möglich.</p>
-<p><img src="http://piwigo.org/forum/showimage.php?pid=123204&amp;filename=piwigo-2.3-multilanguage-tags-create.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3-multilanguage-tags-create.png" class="screenshot" /></p>
 <p>Alle mehrsprachigen Schlagworte erscheinen auch in der Auto-Vervollständigung wenn du Schlagworte zu einen Bild hinzufügst.</p>
 
-<p><img src="http://piwigo.org/forum/showimage.php?pid=123204&amp;filename=piwigo-2.3-multilanguage-tags-add.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3-multilanguage-tags-add.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="photos_per_page">Anzahl der Fotos pro Seite</h4>
 <p>In vorherigen Piwigo Versionen, gab es die Anzahl der Fotos pro Zeile und die Anzahl der Zeilen. Das war in Odnung, da das Layout fest war. Wir haben das Layout in 2005 mit Piwigo 1.5 flexibel gestaltet: Die Anzahl der Fotos pro Zeile wurde nicht angewendet, dieser Wert wurde nur benutzt um die Anzahl der Fotos zu ermitteln. Da kein Thema diesen Parameter benutzt haben wir entschieden diesen zu entfernen und die einfacheren Parameter zu behalten: Anzahl der Fotos pro Seite.</p>
@@ -168,9 +168,9 @@
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h4 id="languages">43 Sprachen, direkt verfügbar</h4>
 <p>Verglichen mit Piwigo 2.2, gibt es 6 neue SPrachen: Afrikaans, Български (bulgarisch), Eesti (estnisch), Ελληνικά (griechisch), 한국어 (koreanisch) , ภาษาไทย (thai).</p>
-<p><img src="http://piwigo.org/screenshots/piwigo-2.3-new-languages.png" class="screenshot" /></p>
-<p>Das ist eine große Leistung unseres Übersetzungsteams. Zusätzlich zu den neuen Sprachen, haben wir kürzlich ein <a href="http://piwigo.org/translate" target="_blank">Online-Übersetzungs-Tool</a> erstellt von unserem neuesten (und jüngsten) Core Team Mitglied, mistic100.</p>
-<p><img src="http://piwigo.org/screenshots/piwigo-translate-chinese.png" class="screenshot" /></p>
+<p><img src="https://piwigo.org/screenshots/piwigo-2.3-new-languages.png" class="screenshot" /></p>
+<p>Das ist eine große Leistung unseres Übersetzungsteams. Zusätzlich zu den neuen Sprachen, haben wir kürzlich ein <a href="https://piwigo.org/translate" target="_blank">Online-Übersetzungs-Tool</a> erstellt von unserem neuesten (und jüngsten) Core Team Mitglied, mistic100.</p>
+<p><img src="https://piwigo.org/screenshots/piwigo-translate-chinese.png" class="screenshot" /></p>
 <div class="back_overview"><a href="#overview">↑ zurück zur Übersicht</a></div>
 <h3>Technische Funktionen</h3>
 

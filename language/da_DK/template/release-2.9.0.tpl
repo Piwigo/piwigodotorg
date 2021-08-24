@@ -76,11 +76,11 @@
 <section class="container">
 <h3 id="design">Moderniseret design</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
 
 <p>Her er den største ændring i 2.9: design! Mørk sidetop, sidefod og menubjælke. Mindre margin. Helt ny administrationshjemmeside, kaldet "Instrumentbræt", med store ikoner til hurtigt adgang til primære sider.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
 
 <p>Piwigo 2.9 leveres med en moderniseret Batch Manager: ikoner til tjekbokse, specifik fieldsetseparator (kun på denne side; afventer brugertilbagemeldinger), nye farver til valgt miniaturebillede (mørkegrå) og "under markøren"-miniaturebilleder (Piwigo-orange).</p>
 
@@ -90,13 +90,13 @@
 
 <p>Når en ny version udgives, giver din Piwigo dig besked på e-mail.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ back to overview</a></div>
 
 <h3 id="tag_manager">Taghåndtering, udvælgelsestilstand</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
 
 <p>Taghåndteringen har nu en særskilt udvælgelsestilstand, beregnet til at udføre batchhandlinger.</p>
 
@@ -105,7 +105,7 @@
 
 <h3 id="deletion">Albumsletning</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
 
 <p>Når der slettes et album, som indeholder fotografier, vil Piwigo nu spørge om hvad du ønsker at gøre ved de fotografier, som er tilknyttet albummet.</p>
 
@@ -114,7 +114,7 @@
 
 <h3 id="passgen">Adgangskodegenerator</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
 <p>Formularen til brugeroprettelse har nu en indlejret adgangskodegenerator. Den opretter stærke og sikre adgangskoder, fordi de er tilfældige.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
@@ -122,10 +122,10 @@
 
 <h3 id="deleteblocks">Sletning af fotografier pr. blok</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
 <p>Sletning af tusindvis af fotografier på én gang, fungerer måske ikke, så vi har implementeret en sletning pr. blok ved forældreløse fotografier.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
 <p>... og vi har desuden implementeret noget tilsvarende for "ethvert fotografi", ikke kun de forældreløse!</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
@@ -133,14 +133,14 @@
 
 <h3 id="duplicates">Duplikater efter kontrolsum</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
 <p>I Batch Manager kan duplikerede fotografier findes baseret på kontrolsum (nøjagtig overensstemmelse på filindholdet, mens filnavnet kan være forskelligt).</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
 
 <h3 id="quicksearch">Hurtigsøgning efter albummer</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
 <p>Hurtigsøgning indeholder nu matchende albummer (som i Piwigo 2.6 og tidligere).</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
@@ -148,7 +148,7 @@
 
 <h3 id="downloadlink">Downloadlink</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
 <p>Et nyt downloadlink er nu tilgængeligt på et fotografis redigeringsside.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
@@ -156,7 +156,7 @@
 
 <h3 id="editquicklink">Albumredigering, hurtiglink</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
 <p>Lige efter albumoprettelse kan du redigere det med et enkelt klik.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
@@ -164,14 +164,14 @@
 
 <h3 id="rate">Filterer vurderinger efter album</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
 <p>I administrationssiden til vurderinger, kan du filtrere efter album.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
 
 <h3 id="display_options">Nye visningsvalgmuligheder</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
 <p>På siden [Administration > Opsætning > Valgmuligheder > Visning] finder du nye tjekbokse, til visning eller skjulning af størrelsesvælgeren eller administrationslinks (rediger/kurv/repræsentant). På både miniturebillede- og fotosiden.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>

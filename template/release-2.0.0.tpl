@@ -90,7 +90,7 @@
 
 <p>Any user with the "administrator" level can use pLoader, so you may use Piwigo as a family photo gallery in an easy way.</p>
 
-<p>Download pLoader <a class="internal" href="http://piwigo.org/ext/extension_view.php?eid=270">for Windows®</a> and <a class="internal" href="http://piwigo.org/ext/extension_view.php?eid=269">for Ubuntu Linux</a>.</p>
+<p>Download pLoader <a class="internal" href="https://piwigo.org/ext/extension_view.php?eid=270">for Windows®</a> and <a class="internal" href="https://piwigo.org/ext/extension_view.php?eid=269">for Ubuntu Linux</a>.</p>
 
 <h4 id="sylvia">Sylvia, new default graphical theme</h4>
 
@@ -100,7 +100,7 @@
 
 <p>This time, we've collaborated with the translation community before releasing. As a consequence 9 languages are available directly in the first release of the branch (in alphabetical order): Deutsch (German), English, Español (Spanish), Français (French), Hrvatski (Croatian), Italiano (Italian), Nederlands (Dutch), Polski (Polish), Русский (Russian).</p>
 
-<p>Many more will come in the next weeks and will be available in the <a href="http://piwigo.org/ext">extensions section of the website</a>.</p>
+<p>Many more will come in the next weeks and will be available in the <a href="https://piwigo.org/ext">extensions section of the website</a>.</p>
 
 <h4 id="synchronization">Simplified Synchronization Process</h4>
 
@@ -221,7 +221,7 @@
 
 <p>Piwigo becomes full UTF-8. It means that we simplify the encoding management. Instead of managing one encoding for each language available, we have a single encoding, ie UTF-8, to manage all existing characters. On the same page, you can have comments in chinese, english, french and russian.</p>
 
-<p>If your photo gallery is worldwide, your visitors will certainly set the interface language to their own language. With <a href="http://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a> plugin, you can have a category title in several languages. Now, interface and content can be language dependent.</p>
+<p>If your photo gallery is worldwide, your visitors will certainly set the interface language to their own language. With <a href="https://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a> plugin, you can have a category title in several languages. Now, interface and content can be language dependent.</p>
 
 <h4 id="php5">PHP 5</h4>
 
@@ -235,6 +235,6 @@
 
 <p>pLoader was made possible because we have added a new web API method : pwg.images.add. pLoader is <em>just</em> a client for this method. With pwg.images.add, no more complex workflow to add photos (FTP + synchronization), just prepare your thumbnails (which is quite simple on client side in any programming language) and call pwg.images.add.</p>
 
-<p>We hope that in the future, community will propose standalone scripts, plugins integrated to famous applications such as <a href="http://en.wikipedia.org/wiki/GIMP">the Gimp</a>, <a href="http://en.wikipedia.org/wiki/Lightroom">Lightroom</a>, <a href="http://en.wikipedia.org/wiki/Apple_Aperture">Aperture</a> or <a href="http://en.wikipedia.org/wiki/DigiKam">digiKam</a>. Happy coding :-) and don't hesitate to come and discuss <a href="http://piwigo.org/forum">on the forum</a>.</p>
+<p>We hope that in the future, community will propose standalone scripts, plugins integrated to famous applications such as <a href="http://en.wikipedia.org/wiki/GIMP">the Gimp</a>, <a href="http://en.wikipedia.org/wiki/Lightroom">Lightroom</a>, <a href="http://en.wikipedia.org/wiki/Apple_Aperture">Aperture</a> or <a href="http://en.wikipedia.org/wiki/DigiKam">digiKam</a>. Happy coding :-) and don't hesitate to come and discuss <a href="https://piwigo.org/forum">on the forum</a>.</p>
 </section>
 </div>

@@ -73,7 +73,7 @@
 
 <p>Как только Piwigo будет уснановлена на вашем сайте, Вы увидете большое и очевидное сообщение "Я хочу добавить фотографии", ссылка с которого ведет на форму загрузки фото.</p>
 
-<img src="http://piwigo.org/screenshots/210-no_photo_center.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-no_photo_center.png" class="screenshot">
 
 <p>Это сделано для того, чтобы избежать вопроса: "Ок, я установил Piwigo, как я могу добавлять фотографии?".
 </p>
@@ -88,11 +88,11 @@
   <li>кликайте кнопку загрузки и смотрите, как совершается загрузка</li>
 </ol>
 
-<img src="http://piwigo.org/screenshots/210-uploadform-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-uploadform-01.png" class="screenshot">
 
 <p>Размеры фотографий автоматически изменяются и создаются миниатюрные картинки.</p>
 
-<img src="http://piwigo.org/screenshots/210-uploadform-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-uploadform-02.png" class="screenshot">
 
 <h4 id="theme_manager">Менеджер тем</h4>
 
@@ -100,17 +100,17 @@
 
 <p>Менеджер тем напрямую связывается с разделом тем на сайте piwigo.org. Как только кто-то добавляет новую тему, вы можете установить ее на собственную галерею.</p>
 
-<img src="http://piwigo.org/screenshots/210-themes_new.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-themes_new.png" class="screenshot">
 
 <p>Установленные темы могут быть активными или неактивными. Неактивную тему могут выбрать посетители вашей галереи.</p>
 
 <p>Всего в 1 клик вы можете назначить тему по умолчанию.</p>
 
-<img src="http://piwigo.org/screenshots/210-themes_installed.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-themes_installed.png" class="screenshot">
 
 <h4 id="languages">23 языка и 1 менеджер языков</h4>
 
-<img src="http://piwigo.org/screenshots/210-languages.png" style="float:right">
+<img src="https://piwigo.org/screenshots/210-languages.png" style="float:right">
 <ul>
   <li>Brasil (Бразильский)</li>
   <li>Castellano (Аргентинский)</li>
@@ -146,48 +146,48 @@
 <ul>
   <li>панель администрирования может быть "темной" или "прозрачной.</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-dark_clear.png">
+<img src="https://piwigo.org/screenshots/210-dark_clear.png">
 <ul>
   <li>в заголовке размещаются быстрые ссылки</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-admin_header.png">
+<img src="https://piwigo.org/screenshots/210-admin_header.png">
 <ul>
   <li>меню организовано по-новому (отдельный раздел для плагинов, собственный пункт в меню отдан комментариям, ожидающим одобрения, экран синхронизации убран в раздел "инструменты", "продвинутые функции" объединены с экраном <em>"поддержка"</em>)</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-menu.png">
+<img src="https://piwigo.org/screenshots/210-menu.png">
 <ul>
   <li>новый дизайн списка настройки плагинов, 1 блок = 1 статус</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-plugin_list.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-plugin_list.png" class="screenshot">
 
 <p>Новый дизайн экрана установки плагинов.</p>
-<img src="http://piwigo.org/screenshots/210-plugin_available.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-plugin_available.png" class="screenshot">
 <ul>
   <li>новый "виджет" для управления тэгами фотографий</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-tags_widget.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-tags_widget.png" class="screenshot">
 <ul>
   <li>фотографии можно сортировать, перетаскивая их</li>
 </ul>
 
-<img src="http://piwigo.org/screenshots/210-drag_sort.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-drag_sort.png" class="screenshot">
 
 <h4 id="display_options">новые возможности настройки</h4>
 
 <p>Новые возможности на странице <strong>Панель администрирования > Настройки > Параметры > Порядок</strong> для кастомизации (тонкой настройки) страниц, выбор опций функционала.</p>
 
-<img src="http://piwigo.org/screenshots/210-display_options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-display_options.png" class="screenshot">
 
 <h4 id="related_tags">Улучшен сервис работы со "связанными словами"</h4>
 
 <p>Даже если Вы сейчас не озадачены поиском по связанным словам, меню Теги ('Связанные слова') отображается в левой панели.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-01.png" class="screenshot">
 
 <p>Мы отображаем единственную ссылку, чтобы показать набор фотографий, относящихся  к  <em>"tag1"</em> + <em>"tag2"</em>.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-02.png" class="screenshot">
 
 <p>Чем больше Вы добавляете меток, тем меньше становиться список подходящих фотографий.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-03.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-03.png" class="screenshot">
 
 <h3>Технические особенности</h3>
 

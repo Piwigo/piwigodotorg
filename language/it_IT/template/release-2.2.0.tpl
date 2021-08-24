@@ -86,18 +86,18 @@
   <li>Il livello di fiducia? alto (le foto sono immediatamente visibili nella galleria) o bassa (le foto devono essere convalidate da un amministratore)</li>
 </ul>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-01.png" class="screenshot">
 
 <p>2. se almeno una autorizzazione corrisponde all'utente corrente, un link "Carica foto" appare nel menu. Questo è il modulo di upload, tale e quale quello presente in amministrazione, con: ridimensionamento automatico, creazione di miniature, rotazione automatica, più foto contemporaneamente, barra di stato...</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-02.png" class="screenshot">
 
 <p>Se l'utente ha un basso livello di fiducia per quest'album, le foto vengono messe in attesa per convalida. Una email di notifica è inviata agli amministratori.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-03.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-03.png" class="screenshot">
 
 <p>3. gli amministratori aprono la pagina delle foto in attesa di convalida e decidono quali foto accettare e quali rifiutare. Gli amministratori possono anche modificare le foto e gli album, prima della convalida.</p>
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-04.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-04.png" class="screenshot">
 
 <h4 id="new_words">Modifica voci "categorie", "elementi", "immagini"</h4>
 
@@ -113,13 +113,13 @@
 
 <p>Ci sono alcuni filtri preimpostati come "le foto senza tag" o "i doppioni". E' inoltre possibile effettuare un filtro su un album specifico includendo i sub-album. E' possibile combinare diversi filtri per ridurre l'insieme di foto filtrate.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step1.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step1.png" class="screenshot">
 
 <p><em>2) Selezione</em></p>
 
 <p>L'insieme appare come un elenco di miniature, con una check box per ogni foto, il suo "livello di privacy" e di un tooltip con il titolo della foto. E' possibile selezionare una foto alla volta, cliccando sulla miniatura o utilizzare le funzioni "tutto", "nessuno", "inverti". Piwigo indica quante foto sono selezionate tra tutte le foto filtrate e visualizzandole su uno sfondo verde chiaro.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png" class="screenshot">
 
 <p><em>3) Applicare un'azione</em></p>
 
@@ -140,7 +140,7 @@
 
 <p>Ogni azione ha i propri parametri specifici e Piwigo visualizza solo i parametri della azione selezionata, per mantenere l'interfaccia utente lal più chiara possibile.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step3.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step3.png" class="screenshot">
 
 <h4 id="language_switch">37 Lingue e 1 nuovo Gestore Lingue</h4>
 
@@ -148,29 +148,29 @@
 
 <p>Il plugin Language Switch produce un <em>display esteso</em>: oltre alle bandiere, vengono visualizzati il nome della lingua.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-language_switch.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-language_switch.png" class="screenshot">
 
 <h4 id="sort_albums">Nuove opzioni di ordinamento per gli album</h4>
 
 <p>L'amministratore può ordinare automaticamente album e sub-album con pochi clic.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_manual.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_manual.png" class="screenshot">
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_automatic.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_automatic.png" class="screenshot">
 
 
 <h4 id="resize_hd">Rimuovere o ridimensionare in alta definizione</h4>
 
 <p>... nel modulo di caricamento (richiede ImageMagick installato sul server)</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-manage_high_definition.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-manage_high_definition.png" class="screenshot">
 
 
 <h4 id="photo_deletion">Cancellazione delle foto più facile</h4>
 
 <p>E' ora possibile eliminare una singola foto direttamente dalla schermata di amministrazione.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-delete_single_photo.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-delete_single_photo.png" class="screenshot">
 
 <p>Proprio come qualunque altra foto, ora è possibile eliminare le foto aggiunte con la sincronizzazione con pochi clic, senza bisogno di eliminarle via FTP e sincronizzarle.</p>
 
@@ -178,9 +178,9 @@
 
 <p>Sulla vista calendario, le settimane possono iniziare il lunedi o la domenica, a voi decidere!</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_monday.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_monday.png" class="screenshot">
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_sunday.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_sunday.png" class="screenshot">
 
 <h4 id="automatic_rotation">Rotazione automatica</h4>
 
@@ -198,22 +198,22 @@ $conf['local_dir_site'] = 'local_site2/';
 <h4 id="orphan_tags">Tag orfani</h4>
 <p>Piwigo individua automaticamente i tag orfani (tags non legati ad una foto) e propone di eliminarli con un solo clic.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-orphan_tags.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-orphan_tags.png" class="screenshot">
 
 <h4 id="extension_updates">Aggiornamento automatico per i temi e le lingue</h4>
 
 <p>Piwigo si collega alla directory estensioni del sito piwigo.org e ricerca una nuova versione dei tuoi temi installati e lingue. Nello stesso modo che fa Piwigo per i plugin. Avrete così la lista degli aggiornamenti disponibili e potrete decidere cosa aggiornare con un semplice clic.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-themes_update.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-themes_update.png" class="screenshot">
 
 <p>A proposito, il plugin <a target="_blank" href="http://it.piwigo.org/ext/extension_view.php?eid=302">Piwigo Auto Upgrade</a> (che dovrebbe presto essere integrato di default in Piwigo), ha una nuova interfaccia utente e la possibilità di aggiornare diverse estensioni alla volta!</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-autoupdate_extensions.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-autoupdate_extensions.png" class="screenshot">
 
 
 <h3>Caratteristiche tecniche</h3>
 
-<p>Una documentazione dettagliata (in inglese) è disponibile su <a href="http://piwigo.org/doc/doku.php?id=en:dev:changes_in_2.2">Technical changes in Piwigo 2.2</a>. Eccovi un riassunto.</p>
+<p>Una documentazione dettagliata (in inglese) è disponibile su <a href="https://piwigo.org/doc/doku.php?id=en:dev:changes_in_2.2">Technical changes in Piwigo 2.2</a>. Eccovi un riassunto.</p>
 
 <h4 id="imagemagick">ImageMagick</h4>
 

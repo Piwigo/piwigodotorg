@@ -93,12 +93,12 @@
 
 <p>Iedere foto wordt nu automatisch gegenereerd in negen groottes: vierkant, thumbnail, XXS-minuscuul, XS-ertra klein, S-klein, M-middel, L-groot, XL-extra groot en XXL-supergroot. De verschillende maten worden 'op verzoek' aangemaakt. Indien niemand ooit bijvoorbeeld XXL foto's selecteert, worden deze niet aangemaakt. Je kunt verschillende maten uitschakelen en ook hun standaardgrootte aanpassen.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
 
 <p>In de fotogalerij kan de bezoeker de grootte kiezen die hij wil zien en deze keuze wordt gedurende het bezoek gehandhaafd.</p>
 
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-multiple-size-gallery-select-box.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-multiple-size-gallery-select-box.png" class="screenshot">
 
 <p>Het selectiedialoog voor de groottes is niet alleen beschikbaar op de fotopagina, maar ook op de thumbnail-pagina. Hierdoor is het mogelijk om een grotere thumbnail te kiezen.</p>
 
@@ -108,7 +108,7 @@
 
 <p>Piwigo heeft nu een mobiel thema dat automatisch geladen wordt indien een gebruiker de fotogalerij bezoekt via een iPhone of een Android telefoon. Het thema <em>SmartPocket</em> kan door de bezoeker worden uitgeschakeld indien hij liever je galerij bekijkt met het 'klassieke' thema. Op een iPad wordt het mobiele thema niet automatisch geladen, maar wordt via een simpel klopje geactiveerd.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-mobile-theme-smartpocket.jpg" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-mobile-theme-smartpocket.jpg" class="screenshot">
 
 <p> Het mobiele thema is geoptimalieerd voor tactiel browsen. Je kunt bijvoorbeeld door op een foto te 'swipen' de volgende foto oproepen.</p>
 
@@ -120,25 +120,25 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/hxA_HUesoOU?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
 
 <p>Je kunt je eigen watermerkbestand (PNG) laden. We raden je aan een transparante achtergrond te gebruiken. Met het configuratiescherm voor het watermerk kun je positie en mate van transparantie van het watermerk op de foto's instellen. Piwigo zal de foto's automatisch verversen waarbij je watermerk zichtbaar wordt.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-watermark-in-action.jpg" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-watermark-in-action.jpg" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ terug naar overzicht</a></div>
 
 <h3 id="elegant">'Elegant' - nieuw default thema</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
 
 <p>Het nieuwe default thema <em>"Elegant"</em>: grijze kleuren, simpeler ontwerp en minder randen.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
 
 <p>Door te klikken kun je het menu tonen of verbergen via een schuivend venster.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
 
 <p>Schuivende vensters zijn ook aanwezig op de fotopagina voor de eigenschappen en het gebruikerscommentaar.</p>
 
@@ -150,7 +150,7 @@
 
 <h3 id="applications">Foto toevoegen - 'toepasssingen' scherm</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-add-photos-applications.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-add-photos-applications.png" class="screenshot">
 
 <p>Het <em>"Piwigo Uploader"</em> scherm is vervangen door een generieker <em>'Toepassingen'</em> scherm. Er zijn verschillende toepassingen voor uploaden, zoals pLoader, Piwigo Mobile voor iOS/Android, iPhoto, Aperture, Lightroom, Shotwell, digiKam en ReGalAndroid.</p>
 
@@ -162,27 +162,27 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/laSD8JCn6gI?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
 
 <p>Plaats je muiscursor boven een album in de lijst om beheerlinks voor dat album te tonen.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
 
 <p>Indien je een album met 'drag and drop' met de hand verplaatst hebt, verschijnt er een knop <em>Handmatige volgorde opslaan</em>.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
 
 <p> Klikken op <em>Maak een nieuw album</em> toont het diallog om een album aan te maken.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
 
 <p>Klikken op <em>Automatisch sorteren</em> roept het scherm hiervoor op.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-album-properties.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-album-properties.png" class="screenshot">
 
 <p>Het scherm voor album beheer heeft een simpeler gebruikersinterface gekregen. Instellingen zoals <em>fotosorteervolgorde</em> en <em>permissies</em> zijn naar hun eigen deelschermen verplaatst.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-album-permissions.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-album-permissions.png" class="screenshot">
 
 <p>De albumstatus <em>publiek/prive</em> is van de albumeigenschappen hierheen verplaatst. De sectie <em>Groepen en gebruikers</em> bevat nu de mogelijkheid om namen automatisch aan te vullen.</p>
 
@@ -192,15 +192,15 @@
 
 <p>Voor iedere thumbnail kun je nu op <em>Zoom</em> en <em>Bewerken</em> klikken. Met <em>zoom</em> open je de foto in grootte M in een 'lightbox'. Met <em>edit</em> kun je het scherm voor fotobeheer openen, hier kun je alle eigenschappen van de foto instellen.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=126782&filename=piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/126782/piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
 
 <p>Er is nu <em>Verplaats naar album</em> toegevoegd. Gebruik dit in de plaats van <em>Aan album toekennen</em> + <em>Toekenning aan album verwijderen</em>. Zoals je op onderstaande afbeelding kunt zien, kun je hier tegelijkertijd een nieuw album aanmaken.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
 
 <p>Het <em>Privacy niveau filter</em> is verbeterd door toevoeging van een selectievakje om foto's met een lager niveau van provacy tesamen te tonen met die met het geselecteerde niveau.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-batch-manager-filter-on-privacy.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-batch-manager-filter-on-privacy.png" class="screenshot">
 
 <p>We hebben <em>shift-kick</em> toegevoegd voor selectie van foto's: klik op een thumbnail en shift-klik op een tweede om alle thumbnails tussen beide erbij te selecteren.</p>
 
@@ -210,7 +210,7 @@
 
 <p>Als je fotopagina's bekijkt, kun je op de rechterzijde van de foto klikken om de volgende te tonen, en op de linkerzijde voor de vorige. Door op de bovenzijde van de foto te klikken ga je naar de albumpagina.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-next-prev-links-on-photo.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-next-prev-links-on-photo.png" class="screenshot">
 
 <p>(De blauwgekleurde delen in bovenstaande afbeelding zijn niet zichtbaar op de foto, ze zijn hier toegevoegd voor verduidelijking.</p>
 
@@ -218,7 +218,7 @@
 
 <h3 id="photo_admin">Scherm voor fotobeheer - opnieuw ontworpen</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
 
 <p>Het beheerscherm voor iedere foto is voorzien van een nieuw ontwerp: een eenvoudiger formaat op een enkele pagina. Iconen zijn vervangen door tekstlinks en gedetailleerde informatie betreffende de foto is toegevoegd (nummerieke identificatie, aantal bezoeken, grootte van de foto, enz.).</p>
 
@@ -226,7 +226,7 @@
 
 <h3 id="username">Wijzig gebruikersnamen</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-change-username.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-change-username.png" class="screenshot">
 
 <p>In het gebruikersprofiel kunnen beheerders de gebruikersnaam van een gebruiker wijzigen. De gebruiker ontvangt hierover autoamtisch een emailbericht.</p>
 
@@ -234,7 +234,7 @@
 
 <h3 id="notification">Gebruikersregistratie en kennisgeving via email</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
 
 <p>Als een nieuwe gebruiker zich registreert of als de beheerder een gebruiker toevoegt, kan de nieuwe gebruiker automatisch een email ontvangen met de URL van je galerij, zijn gebruikersnaam en wachtwoord.</p>
 
@@ -242,7 +242,7 @@
 
 <h3 id="admin_menubar">Menubalk voor beheer - opnieuw ontworpen</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-administration-menubar.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-administration-menubar.png" class="screenshot">
 
 <p>De menubalk voor beheer is gewijzigd. Hij bevat nu iconen en minder lege ruimte.</p>
 
@@ -250,7 +250,7 @@
 
 <h3 id="sort_comments">Sorteer gebruikerscommentaar</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-comments-sort-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-comments-sort-order.png" class="screenshot">
 
 <p>Je mag een sorteervolgorde voor gebruikerscommentaar opgeven: de oudste of de laatste als eerste. In de galerij kan de gebruiker van volgorde wisselen door een enkele klik.</p>
 
@@ -264,13 +264,13 @@
 
 <p>Het <em>Aandachtsgebied</em> is het belangrijkste plek op de foto. Bij fotoinstellingen die de foto afsnijden, zoals <em>Vierkant</em>, zal Piwigo proberen om het aandachtsgebied in de resulterende foto op te nemen. Standaard is het aandachtsgebied in het midden van de foto, je kunt deze zelf van plek en grootte veranderen.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-center-of-interest.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-center-of-interest.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ terug naar overzicht</a></div>
 
 <h3 id="sort_options">Opties voor sorteervolgorde - opnieuw ontworpen</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
 
 <p>We hebben nieuwe opties voor de sorteervolgorde toegevoegd. Dit is bijvoorbeeld <em>Sorteer op fototitel</em> (in plaats van op bestandsnaam, zoals anders). We hebben de labels voor de sorteervolgorde verduidelijkt. Deze instellingen zijn beschikbaar in het beheerscherm, alsmede aan de zijkant van de galerij.</p>
 
@@ -280,7 +280,7 @@
 
 <p>We kwamen er achter dat <em>Galerijslot</em> in het algemene beheerscherm onduidelijk is. We hebben deze functionaliteit verplaatst naar het scherm <em>Onderhoud</em> en hebben een waarschuwing toegevoegd waarin om bevestiging wordt gevraagd.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-gallery-lock-maintenance-action.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-gallery-lock-maintenance-action.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ terug naar overzicht</a></div>
 
@@ -292,7 +292,7 @@
 
 <h3 id="language">Talen</h3>
 
-<p>In Piwigo 2.4 zijn drie nieuwe talen toegevoegd:  Esperanto, Finnish (suomi) and Cambodian (ភាសាខ្មែរ). Voor vrijwel alle talen is de mate van vertaling aanmerkelijk opgevoerd. Felicitaties voor het vertaalteam voor hun harde werk (Merci :-) - vertaler). De vertalers gebruiken meer en meer het <a href="http://piwigo.org/translate" target="_blank">vertaalplatform</a>, dat enige maanden geleden werd opgezet. Dit vergemakkelijkt het gezamenlijke werk. Als je wilt bijdragen aan het vertalen van Piwigo in jouw taal, dan wordt je van harte uitgenodigd om je hiervoor aan te melden.</p>
+<p>In Piwigo 2.4 zijn drie nieuwe talen toegevoegd:  Esperanto, Finnish (suomi) and Cambodian (ភាសាខ្មែរ). Voor vrijwel alle talen is de mate van vertaling aanmerkelijk opgevoerd. Felicitaties voor het vertaalteam voor hun harde werk (Merci :-) - vertaler). De vertalers gebruiken meer en meer het <a href="https://piwigo.org/translate" target="_blank">vertaalplatform</a>, dat enige maanden geleden werd opgezet. Dit vergemakkelijkt het gezamenlijke werk. Als je wilt bijdragen aan het vertalen van Piwigo in jouw taal, dan wordt je van harte uitgenodigd om je hiervoor aan te melden.</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar overzicht</a></div>
 
@@ -325,7 +325,7 @@
 
 <h3>Technische uitbreidingen</h3>
 
-<p>Er is meer gedetailleerde documentatie beschikbaar over de <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.4">technische veranderingen in in Piwigo 2.4</a>. Lees ze alsjeblieft om je extensies compatibel te maken met Piwigo 2.4.</p>
+<p>Er is meer gedetailleerde documentatie beschikbaar over de <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.4">technische veranderingen in in Piwigo 2.4</a>. Lees ze alsjeblieft om je extensies compatibel te maken met Piwigo 2.4.</p>
 
 <h4 id="messages">Eenvormig beheer van berichten</h4>
 

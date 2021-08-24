@@ -89,7 +89,7 @@
 
 <p>Jeder Nutzer, der Administratorenrechte besitzt, kann pLoader benutzen, so ist es ein leichtes Piwigo als Familienfotoalbum zu benutzen.</p>
 
-<p>Download pLoader <a class="internal" href="http://piwigo.org/ext/extension_view.php?eid=270">für Windows®</a> und <a class="internal" href="http://piwigo.org/ext/extension_view.php?eid=269">für Ubuntu Linux</a>.</p>
+<p>Download pLoader <a class="internal" href="https://piwigo.org/ext/extension_view.php?eid=270">für Windows®</a> und <a class="internal" href="https://piwigo.org/ext/extension_view.php?eid=269">für Ubuntu Linux</a>.</p>
 
 <h4>Sylvia, das neue grafische Standartthema</h4>
 
@@ -99,7 +99,7 @@
 
 <p>Dieses Mal haben wir mit der Übersetzungsgemeinschaft vor der Ausgabe zusammengearbeitet. Demzufolge sind 9 Sprachen direkt in der ersten Version enthalten (in alphabetischer Reihenfolge): Deutsch (German), English, Español (Spanish), Français (French), Hrvatski (Croatian), Italiano (Italian), Nederlands (Dutch), Polski (Polish), Русский (Russian).</p>
 
-<p>Es werden noch mehr und sie werden in den nächsten Wochen über den <a href="http://piwigo.org/ext">Extension Manager</a> verfügbar sein.</p>
+<p>Es werden noch mehr und sie werden in den nächsten Wochen über den <a href="https://piwigo.org/ext">Extension Manager</a> verfügbar sein.</p>
 
 <h4>Vereinfachter Synchronisationsprozess</h4>
 
@@ -220,7 +220,7 @@
 
 <p>Piwigo wird komplett UTF-8. Es bedeutet, dass wir das encoding management vereinfachen. Anstatt jede einzelne Codierung für jede verfügbare Sprache zu führen, haben wir eine einzelne Codierung, d. h. UTF-8, um alle vorhandenen Zeichen darzustellen. Auf derselben Seite können Sie Anmerkungen auf Chinesisch, Englisch, Französisch und Russisch sein..</p>
 
-<p>Wenn Ihre Foto-Galerie weltweit bekannt ist, werden Ihre Besucher sicher das Sprachen-Plugin auf ihre eigene Sprache setzen. Mit <a href="http://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a> plugin können sie für jede Sprache einen passenden Kategorietitel wählen. Jetzt können Schnittstelle und Inhalt Sprachabhängiger sein.</p>
+<p>Wenn Ihre Foto-Galerie weltweit bekannt ist, werden Ihre Besucher sicher das Sprachen-Plugin auf ihre eigene Sprache setzen. Mit <a href="https://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a> plugin können sie für jede Sprache einen passenden Kategorietitel wählen. Jetzt können Schnittstelle und Inhalt Sprachabhängiger sein.</p>
 
 <h4>PHP 5</h4>
 

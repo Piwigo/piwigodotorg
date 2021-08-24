@@ -85,7 +85,7 @@
   <section class="container-fluide container-fluide-share-news">
     <div class="container">
       <div class="row row-share-news text-center">
-        <p>We are sharing Piwigo latest news and updates on our <br><a class="bold" href="http://piwigo.org/forum/">Forum</a> and <a class="bold" href="{$PORG_ROOT}{$URL.news}">News</a> page.</p>
+        <p>We are sharing Piwigo latest news and updates on our <br><a class="bold" href="https://piwigo.org/forum/">Forum</a> and <a class="bold" href="{$PORG_ROOT}{$URL.news}">News</a> page.</p>
       </div>
     </div>
   </section>

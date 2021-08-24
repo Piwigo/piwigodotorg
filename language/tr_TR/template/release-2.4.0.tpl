@@ -93,11 +93,11 @@
 
 <p>Her fotoğraf 9 farklı boyutta otomatik olarak oluşturulur: kare, thumbnail, XXS-en küçük, XS-ekstra küçük, S-küçük, M-orta, L-geniş, XL-daha geniş, XXL-en geniş. Boyutlandırma taleplere göre oluşturulur.  Örneğin: Bir fotoğrafın XXL boyutta oluşturulması seçilmezse o boyutta oluşturulmayacaktır. Boyutlandırmayı kendi istediğiniz şekilde ayarlayabilirsiniz.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
 
 <p>Galerilerinizde ziyaretçilerin görmesi gereken boyutları ayarlayabilirsiniz ve ziyaretçilerin tümünde bu boyutlandırma geçerli olacaktır..</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-multiple-size-gallery-select-box.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-multiple-size-gallery-select-box.png" class="screenshot">
 
 <p>The size select box is not only available on the photo page but also on the thumbnail page, allowing use of a larger size as "big thumbnails".</p>
 
@@ -107,7 +107,7 @@
 
 <p>Piwigo Iphone ve Android cihazlarda sayfanız ziyaret edildiğine otomatik olarak Mobile Tema seçeneği ile daha hızlı bir gösterim sunar.  TEğer ziyaretçi klasik tema ile sayfayı ziyaret etmek istese temalar arasında geçiş yapabilir. Ipad tema otomatik olarak yüklenmez sayfa altında ki Tema seçeneği ile istenilen temalar arasında geçiş yapılabilir..</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-mobile-theme-smartpocket.jpg" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-mobile-theme-smartpocket.jpg" class="screenshot">
 
 <p>Mobil tema dokunmatik özelliği aktif kullanmak için organize edilmiştir. Örneğin bir sonraki fotoğrafa geçişte fotoğraf üzerinde parmağınızı kaydırmanız yeterlidir..</p>
 
@@ -119,25 +119,25 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/hxA_HUesoOU?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
 
 <p>Kendi oluşturduğunuz watermark ı PNG dosyası olarak fotoğraflar üzerine entegre edebilirsiniz. Biz şeffaf arka plan kullanmanızı öneriyoruz. Watermark yapılandırma ekranından fotoğraf üzeirnde Watermark uygulayacağınız yeri ve görüntü opaklığını ayarlayabilirsiniz. Piwigo watermark eklenmiş fotoğrafları otomatik olarak yeniler.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-watermark-in-action.jpg" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-watermark-in-action.jpg" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑başa dön</a></div>
 
 <h3 id="elegant">"Elegant" - yeni varsayılan tema</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
 
 <p>Yeni Varsayılan Tema <em>"Elegant"</em>: gri renkler, basit dizayn, daha az sınırlar.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
 
 <p>Slide olarak basit bir tıklama ile menü yü gösterip/ gizlayebilir siniz.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
 
 <p>Slide menü paneli ayrıca fotoğraf özellikleir, kullanıcı yorumları, sayfasında da yeralmaktadır. </p>
 
@@ -149,7 +149,7 @@
 
 <h3 id="applications">Fotoğraf Ekleme - "applications" ekranı</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-add-photos-applications.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-add-photos-applications.png" class="screenshot">
 
 <p><em>"Piwigo Uploader"</em> ekranı daha geniş bir <em>"Applications"</em> ekranı ile değiştirilebilir.  Upload Programları  pLoader, iOS/Android için Piwigo Mobile, iPhoto, Aperture, Lightroom, Shotwell, digiKam ve ReGalAndroid.</p>
 
@@ -161,27 +161,27 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/laSD8JCn6gI?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
 
 <p>Listedeki bir albüm üzerine geldiğinizde albüm ayarları ve bağlantıları görüntülenir.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
 
 <p>Sürükle bırak özelliği ile albüm sırasını ve özelliklerini değiştirebilir ve sonunda  <em>"save manual order"</em> yerinden ayarlarınızı kaydedebilirsiniz.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
 
 <p><em>"create a new album"</em> Tıklarsanız Albüm oluşturma formunu görüntüleyebilirsiniz.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
 
 <p><em>"apply automatic sort order"</em> tıkladığınızda albümlerinizi otomatik olarak sıralayabilirsiniz.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-album-properties.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-album-properties.png" class="screenshot">
 
 <p>Albüm ekranı için yönetim paneli basit kullanıcı ayarları göz önünde bulundurularak yeniden tasarlandı.<em> Fotoğraf sıralama düzeni</em> ve  <em>yetkilendirme</em> ayarları gibi ayarlar farklı sekmeler altına taşındı.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-album-permissions.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-album-permissions.png" class="screenshot">
 
 <p>Albümler için Özel/Herkese Görünür Özellik ayarları Albüm Özellikleri bölümünden buraya taşındı. The <em>"Guruplar ve kullanıcılar"</em> bölümünde otomatik tamamlama özelliği vardır.</p>
 
@@ -191,15 +191,15 @@
 
 <p>Her resim için  <em>Zoom</em> ve <em>Edit</em> linkleri mevcuttur. <em>Zoom</em> linkine tıkladığınızda fotoğrafın M boyutunu bir lightbox içinde gösterir. <em>Edit</em> linkine tıkladığınızda fotoğraf için yönetim ekranı açılır ve tüm değişiklikleri bu ekrandan yapabilirsiniz.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=126782&filename=piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/126782/piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
 
 <p>Action menüsüne <em>Move to album</em> özelliği eklendi. Bu özellik ile resmi  <em>bir albüme ekleyebilir</em> + <em>albümden çıkarabilirsiniz</em>.Aşağıdaki ekrandan da görebileceğiniz gibi yeni albüm oluşturabileceksiniz.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
 
 <p>The <em>privacy level filter</em> has been improved to include a checkbox to allow photos with a lower privacy level to be displayed along with those of the privacy level selected.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-batch-manager-filter-on-privacy.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-batch-manager-filter-on-privacy.png" class="screenshot">
 
 <p>We have also added a <em>"shift-click"</em> feature on photo selection: click on a first thumbnail, then shift+click on another thumbnail, all thumbnails between them will be automatically selected.</p>
 
@@ -209,7 +209,7 @@
 
 <p>Bir galerinin içindeki fotoğrafları gezinirken fotoğrafın sağ tarafına tıkladığınızda bir sonraki fotoğrafa, sol tarafına tıkladığınızda bir önceki fotoğrafa ve fotoğrafın üst tarafına tıkladığınızda ise albüm sayfasına geri dönebilirsiniz.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-next-prev-links-on-photo.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-next-prev-links-on-photo.png" class="screenshot">
 
 <p>(Yukarıda gördüğünüz mavi alanlar resim üzerinde gözükmezler. Maci alanlar grafiksel fotoğraf üzerinde gezinme alanlarını belirlemek için gösterilmiştir.)</p>
 
@@ -217,7 +217,7 @@
 
 <h3 id="photo_admin">Fotoğraf yönetim ekranı - tekrar tasarlandı</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
 
 <p>Fotoğraf ile ilgili ayarları tek bir sayfada yapabilmeniz için fotoğraf yönetim ekranı yeni bir görüntü aldı. TExt linkleri iconlarla ve fotoğraf özellikleri ile değiştirildi( fotoğraf boyutları, ziyaretçi sayıları, vb).</p>
 
@@ -225,7 +225,7 @@
 
 <h3 id="username">Kullanıcı adı değiştirme</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-change-username.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-change-username.png" class="screenshot">
 
 <p>Kullanıcı profilinde, Administrator kullanıcı isimlerini değiştirme hakkına sahip oldu. Kullanıcı ismi değiştikten sonra kullanıcıya mail ile bilgilendirme mesajı gönderilir.</p>
 
@@ -233,7 +233,7 @@
 
 <h3 id="notification">Kullanıcı kaydı ve E-posta Bildirimi</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
 
 <p>Yeni bir kullanıcı üye olduğunda veya Admin tarafından yeni bir kullanıcı eklendiğinde, Galeri adresi, kullanıcı adı ve şifresi otomatik olarak kullanıcıya mail ile bildirilir.</p>
 
@@ -241,7 +241,7 @@
 
 <h3 id="admin_menubar">Yönetim Menüsü- tekrar tasarlandı</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-administration-menubar.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-administration-menubar.png" class="screenshot">
 
 <p>Admin Yönetim Menüsü yeni simgelerle tasarlandı.</p>
 
@@ -249,7 +249,7 @@
 
 <h3 id="sort_comments">Kullanıcı yorumlarını sıralama</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-comments-sort-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-comments-sort-order.png" class="screenshot">
 
 <p>Kullanıcı yorumlarını en yeni ve en eski yorumları gösterebilecek şekilde sıralayabilirsiniz. Galeri içinde gezinirken ziyaretçiler tek tıklama ile bu özelliği kullanabilirler.</p>
 
@@ -263,13 +263,13 @@
 
 <p>The <em>Center of interest</em> is the most meaningful area of the photo. For photo sizes with crop, such as <em>"Square"</em>, Piwigo will do its best to include the center of interest. By default, the center of interest is placed in the middle of the photo. You can drag and expand this area's location and size.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-center-of-interest.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-center-of-interest.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ başa dön</a></div>
 
 <h3 id="sort_options">Sort order options - redesigned</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
 
 <p>We have added new sorting options such as <em>sort by photo title</em> (instead of just by file name) and clarified the sort order labels. These settings are available in the administration panel and also on the gallery side.</p>
 
@@ -279,7 +279,7 @@
 
 <p>We have realized that the <em>"lock gallery"</em> option on the main options screen was unclear. We have moved this option to the <em>Maintenance</em> screen and added a confirmation warning.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-gallery-lock-maintenance-action.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-gallery-lock-maintenance-action.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ başa dön</a></div>
 
@@ -291,7 +291,7 @@
 
 <h3 id="language">Languages</h3>
 
-<p>Piwigo 2.4 adds 3 new languages: Esperanto, Finnish (suomi) and Cambodian (ភាសាខ្មែរ). Almost all languages ​​have seen their rate of translation significantly increase. Congratulations to the translation team for their hard work. The translators are gradually adopting <a href="http://piwigo.org/translate" target="_blank">the translation platform</a> set up a few months ago, which simplifies the collaborative work. If you want to contribute by translating Piwigo into your language, you are warmly invited to register.</p>
+<p>Piwigo 2.4 adds 3 new languages: Esperanto, Finnish (suomi) and Cambodian (ភាសាខ្មែរ). Almost all languages ​​have seen their rate of translation significantly increase. Congratulations to the translation team for their hard work. The translators are gradually adopting <a href="https://piwigo.org/translate" target="_blank">the translation platform</a> set up a few months ago, which simplifies the collaborative work. If you want to contribute by translating Piwigo into your language, you are warmly invited to register.</p>
 
 <div class="back_overview"><a href="#overview">↑ başa dön</a></div>
 
@@ -325,7 +325,7 @@
 
 <h3>Technical Features</h3>
 
-<p>Please note that more detailed documentation is available about <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.4">Technical changes in Piwigo 2.4</a>. Please read it to make your extensions compatible with Piwigo 2.4.</p>
+<p>Please note that more detailed documentation is available about <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.4">Technical changes in Piwigo 2.4</a>. Please read it to make your extensions compatible with Piwigo 2.4.</p>
 
 <h4 id="messages">Unified messages management</h4>
 

@@ -77,7 +77,7 @@
 
 <p>Se ha eliminado del core el sistema de carga de fotografías.</p>
 
-<p>Se habilita mediante el plugin <a target="_blank" href="http://piwigo.org/ext/extension_view.php?eid=303">Community</a> con la funcionalidad de que ya disponía en el formulario de carga, en el panel de administración: redimensionado automático, creación automática de miniaturas, rotación automática, carga simultánea de varios archivos a la vez, indicador de progreso, etc. Puede establecer permisos a nivel de grupo o de usuario, así como darles la posibilidad de crear sub-álbums que a su vez deban ser validados o no por los administradores.</p>
+<p>Se habilita mediante el plugin <a target="_blank" href="https://piwigo.org/ext/extension_view.php?eid=303">Community</a> con la funcionalidad de que ya disponía en el formulario de carga, en el panel de administración: redimensionado automático, creación automática de miniaturas, rotación automática, carga simultánea de varios archivos a la vez, indicador de progreso, etc. Puede establecer permisos a nivel de grupo o de usuario, así como darles la posibilidad de crear sub-álbums que a su vez deban ser validados o no por los administradores.</p>
 
 <p>1. El administrador establece permisos de carga de archivo en función de las siguientes preguntas:</p>
 <ul>
@@ -86,18 +86,18 @@
   <li>¿Nivel de confianza? alto (visualización inmediata) o bajo (los archivos requieren validación)</li>
 </ul>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-01.png" class="screenshot">
 
 <p>2. Si el usuario dispone de permiso para cargar fotografías, al presentarse en la galería le aparece un enlace adicional en el menú.  Éste es el formulario de carga, tan completo como el del panel de administración: redimensionado automático, creación automática de miniaturas, rotación automática, carga simultánea de varios archivos a la vez, indicador de progreso, etc.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-02.png" class="screenshot">
 
 <p>Si se ha establecido un nivel de confianza <em>bajo</em> para este usuario en este álbum, las fotografías quedan pendientes de validación y se les notifica por email a los administradores.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-03.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-03.png" class="screenshot">
 
 <p>3. Los administradores abren el apartado de fotografías pendientes y deciden qué fotografías validar y cuáles rechazar. También pueden editar fotografías e imágenes antes de validarlas.</p>
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-04.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-04.png" class="screenshot">
 
 <h4 id="new_words">Olvidémonos de "categorías", olvidémonos de "elementos", "imágenes", etc.</h4>
 
@@ -113,13 +113,13 @@
 
 <p>Se han definido una serie de criterios prestablecidos, como "fotografías sin etiqueta" o "duplicados". Puede aplicarlos también sobre un álbum en particular, incluyendo o no los sub-álbumes. Puede conbinar varios criterios para acotar más exactamente el conjunto de fotografías seleccionadas.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step1.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step1.png" class="screenshot">
 
 <p><em>2) Selección</em></p>
 
 <p>El conjunto seleccionado aparece como una lista de miniaturas, con una casilla de verificación junto a cada una de ellas, su nivel de privacidad y el título de la misma. Puede seleccionar las fotografías una a una haciendo clic en la miniatura o mediante las opciones "todas", "ninguna", "invertir". Piwigo le informa del número de fotografías que ha seleccionado en el conjunto, que aparecen resaltadas sobre un fondo verde claro.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png" class="screenshot">
 
 <p><em>3) Aplique una acción</em></p>
 
@@ -140,7 +140,7 @@
 
 <p>Cada acción tiene sus parámetros específicos y Piwigo sólo muestra los parámetros de la acción seleccionada, de modo que el interfaz de usuario sea lo más claro posible.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step3.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step3.png" class="screenshot">
 
 <h4 id="language_switch">37 idiomas y nuevo Selector de Idioma</h4>
 
@@ -148,29 +148,29 @@
 
 <p>El plugin Selector de Idioma muestra una <em>ventana extendida</em>: además de las banderitas, aparece el nombre del idioma.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-language_switch.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-language_switch.png" class="screenshot">
 
 <h4 id="sort_albums">Nuevas opciones para ordenar los álbumes</h4>
 
 <p>El administrador puede ordenar automáticamente álbumes y sub-álbumes con unos pocos clics.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_manual.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_manual.png" class="screenshot">
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_automatic.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_automatic.png" class="screenshot">
 
 
 <h4 id="resize_hd">Elimine o redimensione sus fotografías de alta resolución</h4>
 
 <p>... desde el formulario de carga (requiere tener instalado ImageMagick en el servidor)</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-manage_high_definition.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-manage_high_definition.png" class="screenshot">
 
 
 <h4 id="photo_deletion">Simplifique la eliminación de fotografías</h4>
 
 <p>Es posible eliminar una fotografía desde la pantalla de administración de la misma.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-delete_single_photo.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-delete_single_photo.png" class="screenshot">
 
 <p>De igual manera que con cualquier otra fotografía, ahora puede eliminar fotografías añadidas mediante sincronización con sólo unos cuantos clics, sin necesidad de eliminarlas vía FTP y sincronizar.</p>
 
@@ -178,9 +178,9 @@
 
 <p>En la vista Calendario las semanas comienzan en lunes o domingo, ¡usted decide!</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_monday.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_monday.png" class="screenshot">
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_sunday.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_sunday.png" class="screenshot">
 
 <h4 id="automatic_rotation">Rotación automágica</h4>
 
@@ -198,22 +198,22 @@ $conf['local_dir_site'] = 'local_site2/';
 <h4 id="orphan_tags">Etiquetas huérfanas</h4>
 <p>Piwigo detecta automáticamente etiquetas huérfanas (ie.: etiquetas que no enlazan ninguna fotografía) y le propone suprimirlas con un sólo clic.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-orphan_tags.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-orphan_tags.png" class="screenshot">
 
 <h4 id="extension_updates">Actualización automática de temas e Idiomas</h4>
 
 <p>Piwigo conecta con el directorio de extensiones en piwigo.org y busca nuevas versiones de los temas e idiomas que tenga instalados, tal como hace para los plugins. De este modo obtiene una lista de actualizaciones disponibles y tiene la opción de llevar a cabo las que usted decida mediante un sólo clic..</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-themes_update.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-themes_update.png" class="screenshot">
 
-<p>Por cierto, el plugin <a target="_blank" href="http://piwigo.org/ext/extension_view.php?eid=302">Piwigo Auto Upgrade</a> (que debería ser incluido pronto por defecto con Piwigo), tiene una nueva y agradable interfaz e incluye la posibilidad de actualizar varias extensiones a la vez.</p>
+<p>Por cierto, el plugin <a target="_blank" href="https://piwigo.org/ext/extension_view.php?eid=302">Piwigo Auto Upgrade</a> (que debería ser incluido pronto por defecto con Piwigo), tiene una nueva y agradable interfaz e incluye la posibilidad de actualizar varias extensiones a la vez.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-autoupdate_extensions.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-autoupdate_extensions.png" class="screenshot">
 
 
 <h3>Funcionalidad técnica</h3>
 
-<p>Por favor tenga en cuenta que puede encontrar documentación más detallada en <a href="http://piwigo.org/doc/doku.php?id=en:dev:changes_in_2.2">Technical changes in Piwigo 2.2</a> sobre los puntos relacionados a continuación.</p>
+<p>Por favor tenga en cuenta que puede encontrar documentación más detallada en <a href="https://piwigo.org/doc/doku.php?id=en:dev:changes_in_2.2">Technical changes in Piwigo 2.2</a> sobre los puntos relacionados a continuación.</p>
 
 <h4 id="imagemagick">ImageMagick</h4>
 

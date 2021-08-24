@@ -76,11 +76,11 @@
 <section class="container">
 <h3 id="design">Design modernisé</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
 
 <p>Commençons directement par le changement sans doute le plus important de cette 2.9 : le design ! Et plus précisément, le design des pages d'administration. En-tête, pied de page et barre de menu passent en gris foncé. Moins de bordures, pour en finir avec l'effet "boîte dans des boîtes dans des boîtes...". Toute nouvelle page d'accueil pour l'administration, renommée "tableau de bord", avec des grosses icônes pour un accès rapide aux pages principales.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
 
 <p>Une bonne dose de modernisation sur la gestion par lot également : des icônes pour les cases à cocher (ce qui permet de maîtriser visuellement ces éléments), un séparateur spécifique de sections (uniquement sur cette page, à généraliser plus tard), nouvelles couleurs pour les miniatures sélectionnées (gris foncé) et celle "sous le curseur" (orange Piwigo).</p>
 
@@ -90,13 +90,13 @@
 
 <p>Lorsqu'une nouvelle version de Piwigo est disponible, votre Piwigo vous notifie automatiquement par email.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ retour au menu</a></div>
 
 <h3 id="tag_manager">Gestionnaire de tags, mode sélection</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
 
 <p>Le gestionnaire de tags intègre un mode de sélection distinct, pour appliquer des actions par lot.</p>
 
@@ -105,7 +105,7 @@
 
 <h3 id="deletion">Suppression d'album</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
 
 <p>Lorsque vous supprimez un album contenant des photos, Piwigo va maintenant vous demander ce que vous souhaitez faire avec les photos associées à l'album.</p>
 
@@ -114,7 +114,7 @@
 
 <h3 id="passgen">Générateur de mot de passe</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
 <p>Le formulaire de création d'utilisateur intégère dorénavant un générateur de mot de passe. Il va générer des mots de passe forts et sécurisés, car aléatoires.</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au menu</a></div>
@@ -122,10 +122,10 @@
 
 <h3 id="deleteblocks">Suppression par blocs</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
 <p>Supprimer des milliers de photos d'un seul coup, des fois ça plante (et c'est normal). D'où l'idée de procéder en plusieurs étapes, mais qui s'enchaînent automatiquement !</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
 <p>... et pareil pour n'importe quelle suppression par lot, même si ce ne sont pas des orphelines.</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au menu</a></div>
@@ -133,14 +133,14 @@
 
 <h3 id="duplicates">Doublons sur somme de contrôle</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
 <p>Dans la gestion par lot, trouvez les doublons selon la somme de contrôle (une correspondance exacte sur le contenu du fchier, même si le nom du fichier change).</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au menu</a></div>
 
 <h3 id="quicksearch">Recherche rapide sur albums</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
 <p>La recherche rapide va inclure les albums qui répondent aux critères de recherche (comme sur Piwigo 2.6 et plus anciennes).</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au menu</a></div>
@@ -148,7 +148,7 @@
 
 <h3 id="downloadlink">Lien de téléchargement</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
 <p>Un nouveau lien de téléchargement est disponible sur la page d'édition de la photo.</p>
 
 
@@ -157,7 +157,7 @@
 
 <h3 id="editquicklink">Edition d'album, lien rapide</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
 <p>Juste après la création d'un album, vous pourrez l'éditer d'un simple clic.</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au menu</a></div>
@@ -165,14 +165,14 @@
 
 <h3 id="rate">Filtrer les notes par album</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
 <p>Sur la page d'administration des notes, vous pouvez filtrer par album.</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au menu</a></div>
 
 <h3 id="display_options">Nouvelles options d'affichage</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
 <p>Sur la page [Administration > Configuration > Options > Affichage] vous trouverez des nouvelles cases à cocher, pour afficher ou masquer le sélectionneur de taille ou les actions d'administration (éditer/panier/représentation). A la fois pour la page des miniatures et la page de photo.</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au menu</a></div>

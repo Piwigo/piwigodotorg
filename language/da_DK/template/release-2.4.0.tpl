@@ -95,11 +95,11 @@
 
 <p>Hvert billede bliver nu automatisk oprettet i ni mindre størrelser: firkant, miniaturebillede, XXS-meget lille, XS-ekstra lille, S-lille, M-mellem, L-stor, XL-ekstra stor, XXL-kæmpestor. Størrelserne oprettes efter behov.  Hvis ingen eksempelvis vælger XXL-billedstørrelsen, bliver det aldrig oprettet. Du kan slå størrelser fra eller ændre på standarddimensionerne.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
 
 <p>I galleriet kan besøgende vælge hvilke størrelser de ønsker at få vist, og valget huskes under hele besøget.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-multiple-size-gallery-select-box.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-multiple-size-gallery-select-box.png" class="screenshot">
 
 <p>Størrelsesvalget er ikke kun tilgængelig på billedsiden men også på miniaturebilledsiden, hvor der tillades brug af store miniaturebilleder.</p>
 
@@ -109,7 +109,7 @@
 
 <p>Piwigo viser automatisk det mobile tema, hvis en besøgende gennemser galleriet med en mobil enhed som f.eks. en iPhone- eller Android-mobiltelefon. Temaet <em>SmartPocket</em> kan fravælges af den besøgende, hvis denne foretrækker at gennemse dit galleri med det "klassiske" tema. Bemærk at på iPad, bliver det mobile tema ikke automatisk vist, men kan aktiveres med et enkelt klik.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-mobile-theme-smartpocket.jpg" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-mobile-theme-smartpocket.jpg" class="screenshot">
 
 <p>Det mobile tema er optimeret til berøringsvisning. For eksempel kan du føre din fingeren over et billede, for at åbne et nyt.</p>
 
@@ -121,25 +121,25 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/hxA_HUesoOU?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
 
 <p>Du kan importere dit eget vandmærke som PNG-fil. Vi anbefaler en gennemsigtig baggrund. Vandmærkeopsætningssiden giver mulighed for at vælge placering og gennemsigtighed af vandmærket på dine billeder. Piwigo vil genindlæse automatisk billederne, for at vise vandmærket.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-watermark-in-action.jpg" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-watermark-in-action.jpg" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
 
 <h3 id="elegant">"Elegant" - nyt standardtema</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
 
 <p>Nyt standard tema <em>"Elegant"</em>: grå farver, enklere design, færre rammer.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
 
 <p>Med et enkelt klik kan du vise eller skjule menuen som skydepanel.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
 
 <p>Skydepanelet findes også på billedsiden ved billedoplysningerne og brugerkommentarerne.</p>
 
@@ -151,7 +151,7 @@
 
 <h3 id="applications">Tilføj billed-"program"-side</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-add-photos-applications.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-add-photos-applications.png" class="screenshot">
 
 <p><em>Siden "Piwigo-overførsel"</em> er udskiftet med en mere generel <em>"program"</em>-side.  Overførselsprogrammet indeholder pLoader, Piwigo Mobile til OS/Android, iPhoto, Aperture, Lightroom, Shotwell, digiKam og ReGalAndroid.</p>
 
@@ -163,27 +163,27 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/laSD8JCn6gI?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
 
 <p>Lader man musemarkør svæve over et album på listen, vises tilpasningsgenveje for albummet.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
 
 <p>Når man manuelt har flyttet et album med træk og slip, vil knappen <em>"gem manuel tilpasning"</em> dukke op.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
 
 <p>Et klik på <em>"opret et nyt album"</em> viser albumoprettelsesformularen.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
 
 <p>Et klik på <em>"tilføj automatisk sorteringsrækkefølge"</em> viser sorteringsformularen.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-album-properties.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-album-properties.png" class="screenshot">
 
 <p>Administrationssiden til et album er blevet omdesignet, for at gøre den mere brugervenlig. Egenskaber så som <em>billedsorteringsrækkefølge</em> og <em>tilladelser</em> er flyttet til deres egne faneblade.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-album-permissions.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-album-permissions.png" class="screenshot">
 
 <p>Den offentlige/private status for albummer er flyttet hertil fra albumegenskabssiden.  <em>"Grupper og bruger"</em>-området indeholder en automatisk udfyldelsesfunktion.</p>
 
@@ -193,15 +193,15 @@
 
 <p>På hvert miniaturebillede kan man klikke på de nye <em>zoom</em>- og <em>rediger</em>-genveje. <em>Zoom</em>-genvejen åbner M-billedstørrelse i en lyskasse. <em>Rediger</em>-genvejen åbner billedadministrationssiden, hvor man kan ændre på alle billedets egenskaber.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=126782&filename=piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/126782/piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
 
 <p>Funktionen <em>Flyt til album</em> er tilføjet. Brug den i stedet for <em>tilknyt til album</em> og <em>adskil fra album</em>. Som det fremgår af skærmbilledet neden for, kan man oprette et nyt album "i samme ombæring".</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
 
 <p><em>Privatlivsniveaufilteret</em> er blevet forbedret med en afkrydsningsboks, som tillader at billeder med lavt privatlivsniveau vises sammen med dem, der har et valgt privatlivsniveau.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-batch-manager-filter-on-privacy.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-batch-manager-filter-on-privacy.png" class="screenshot">
 
 <p>Vi har også tilføjet en <em>"shift-klik"</em>-funktion ved billedvalg: klik på første miniaturebillede og udfør dernæst shift+klik på et andet miniaturebillede. Alle miniaturebilleder imellem dem bliver automatisk valgt.</p>
 
@@ -211,7 +211,7 @@
 
 <p>Ved gennemsyn af et galleri på billedsiden, kan man klikke til højre for billedet, for at åbne det næste. Til venstre for billedet åbner man det tidligere billede og oven over billederne vender man tilbage til albummet.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-next-prev-links-on-photo.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-next-prev-links-on-photo.png" class="screenshot">
 
 <p>(Bemærk at de blå områder ikke vises på billedet - de er blevet tilføjet her for grafisk at vise navigeringsområderne på billedet.)</p>
 
@@ -219,7 +219,7 @@
 
 <h3 id="photo_admin">Billedadministrationssiden - omdesignet</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
 
 <p>Administrationssiden for hvert billede har fået et nyt design: en mere simpel formular på en enkelt side.  Tekstgenveje har erstattet ikoner og detaljeret oplysninger om billedet er blevet tilføjet (billednummer, antal besøg, billedstørrelse, mv.).</p>
 
@@ -227,7 +227,7 @@
 
 <h3 id="username">Ændring af brugernavne</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-change-username.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-change-username.png" class="screenshot">
 
 <p>I brugerprofilen kan administratorerne ændre enhver brugers brugernavn. Brugeren bliver automatisk orienteret pr. e-mail.</p>
 
@@ -235,7 +235,7 @@
 
 <h3 id="notification">Brugerregistrering og e-mailnotifikation</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
 
 <p>Når en ny bruger registrerer sig eller en administrator tilføjer en ny bruger, kan den nye bruger automatisk blive underrettet pr. e-mail med oplysning om webadressen til dit galleri, brugernavnet og adgangskoden.</p>
 
@@ -243,7 +243,7 @@
 
 <h3 id="admin_menubar">Administrationsmenulinje - omdesignet</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-administration-menubar.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-administration-menubar.png" class="screenshot">
 
 <p>Administrationsmenulinjen er blevet redesignet til at indeholde ikoner og reducere det hvide område.</p>
 
@@ -251,7 +251,7 @@
 
 <h3 id="sort_comments">Sortering af brugerkommentarer</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-comments-sort-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-comments-sort-order.png" class="screenshot">
 
 <p>Man kan definere sorteringsrækkefølgen for brugerkommentarer, de ældste først eller de seneste først. I galleriet kan de besøgende også skifte mellem de to muligheder blot ved et enkelt klik.</p>
 
@@ -265,13 +265,13 @@
 
 <p><em>Interessecentrummet</em> er det vigtigste område i et fotografi. Ved beskårne fotostørrelser, så som <em>"Kvadratisk"</em>, gør Piwigo sit bedste for at medtage fotografiet interessecentrum. Som standard er interessecentrummet placeret i midten af fotografiet. Man kan trække og udvide området placering og størrelse.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-center-of-interest.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-center-of-interest.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
 
 <h3 id="sort_options">Sorteringsrækkefølgevalgmuligheder - omdesignet</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
 
 <p>Vi har tilføjet nye soteringsvalgmuligheder så som <em>sorter efter fototitel</em> (i stedet for bare efter filnavn) samt gjort teksterne vedrørende sorteringsrækkefølge mere sigende. Indstillingerne er tilgængelige i administrationspanelet samt på gallerisideen.</p>
 
@@ -281,7 +281,7 @@
 
 <p>Det gik op for os, at <em>"lås galleri"</em>-valgmuligheden på det primære opsætningsskærmbillede var svær at gennemskue. Vi har flyttet valgmuligheden til skærmen <em>Vedligeholdelse</em> og tilføjet en advarsel, som man skal bekræfte.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-gallery-lock-maintenance-action.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-gallery-lock-maintenance-action.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
 
@@ -293,7 +293,7 @@
 
 <h3 id="language">Sprog</h3>
 
-<p>Piwigo 2.4 tilføjer tre nye sprog: Esperanto, finsk (suomi) og cambodjansk (ភាសាខ្មែរ). Næsten alle sprog har fået en del flere oversættelser. Tak til oversættelsesholdet for deres store arbejde. Oversætterne indfører gradvist <a href="http://piwigo.org/translate" target="_blank">oversættelsesplatformen</a>, som blev taget i brug for nogle måneder siden, hvilket forenkler samarbejdet. Ønsker du at bidrage ved at oversætte Piwigo til dit sprog, skal du være hjertelig velkommen til at registrer dig.</p>
+<p>Piwigo 2.4 tilføjer tre nye sprog: Esperanto, finsk (suomi) og cambodjansk (ភាសាខ្មែរ). Næsten alle sprog har fået en del flere oversættelser. Tak til oversættelsesholdet for deres store arbejde. Oversætterne indfører gradvist <a href="https://piwigo.org/translate" target="_blank">oversættelsesplatformen</a>, som blev taget i brug for nogle måneder siden, hvilket forenkler samarbejdet. Ønsker du at bidrage ved at oversætte Piwigo til dit sprog, skal du være hjertelig velkommen til at registrer dig.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
 
@@ -327,7 +327,7 @@
 
 <h3>Teknisk funktionalitet</h3>
 
-<p>Bemærk at mere udførlig dokumentation er tilgængelige vedrørende <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.4">Tekniske ændringer i Piwigo 2.4</a>. Læs den for at gøre dine udvidelser kompatible med Piwigo 2.4.</p>
+<p>Bemærk at mere udførlig dokumentation er tilgængelige vedrørende <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.4">Tekniske ændringer i Piwigo 2.4</a>. Læs den for at gøre dine udvidelser kompatible med Piwigo 2.4.</p>
 
 <h4 id="messages">Forenet meddelelseshåndtering</h4>
 

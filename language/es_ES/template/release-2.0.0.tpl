@@ -220,7 +220,7 @@
 
 <p>Piwigo se hace totalmente UTF-8. Esto significa que la gestión del encoding es simplificada. En lugar de tener un encoding para cada lengua, no hay más que un único encoding, el UTF-8, para fijar todos los carácteres existentes en el mundo. Sobre la misma página, usted puede tener comentarios en chino, inglés, francés y ruso.</p>
 
-<p>Si su galería foto es internacional, sus visitadores escogerán ciertamente fijar la interfaz en su lengua. ¿ Con plugin <a href="http://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a> usted puede tener un título de categoría en varias idiomas. Desde ahora en adelante, interfaz y contenido pueden depender de la idioma. ¡ Sus visitadores apreciarán!</p>
+<p>Si su galería foto es internacional, sus visitadores escogerán ciertamente fijar la interfaz en su lengua. ¿ Con plugin <a href="https://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a> usted puede tener un título de categoría en varias idiomas. Desde ahora en adelante, interfaz y contenido pueden depender de la idioma. ¡ Sus visitadores apreciarán!</p>
 
 <h4 id="php5">PHP 5</h4>
 

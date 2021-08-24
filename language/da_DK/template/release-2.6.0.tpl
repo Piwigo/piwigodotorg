@@ -77,7 +77,7 @@
 <section class="container">
 <h3 id="mobile_theme">Forbedringer af mobilt tema</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-mobile-new-features.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-mobile-new-features.png" class="screenshot">
 
 <p>Det mobile tema SmartPocket har fået mange nye funktioner: fuld menubjælke, søgeside, tagsside, ny præsentation af miniaturebilleder samt en komplet side til hvert fotografi, indeholdende kommentarer, detaljerede egenskaber og bedømmelser.</p>
 
@@ -85,7 +85,7 @@
 
 <h3 id="user_manager">Brugerhåndtering har fået nyt design</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-user-manager.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-user-manager.png" class="screenshot">
 
 <p>Brugerhåndteringen har fået et nyt design. Fuldstændig udrustet med JavaScript/AJAX for hurtigere handlinger: tilføjelse af bruger, redigering af hver bruger individuelt eller flere ad gangen.</p>
 
@@ -93,11 +93,11 @@
 
 <h3 id="admin_tools">Admin Tools</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-admin-tools-bar.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-admin-tools-bar.png" class="screenshot">
 
 <p>Den nye plugin Admin Tools, administratorværktøjer, tilføjer en ny værktøjslinje på toppen af alle sider i galleriet, indeholdende en række nyttige funktioner: hurtige links til specifikke administrative afsnit, hurtig redigeringsformular til fotografier og albummer, knapperne "tilføj til kurv" og "opsæt som albums miniaturebillede", udviklingsværktøjer (identisk med plugin'en MultiView).</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-admin-tools-quick-edit.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-admin-tools-quick-edit.png" class="screenshot">
 
 <p>Formularen Quick Edit åbner på gallerisiden (ikke på administrationssiden) til hurtige ændringer af fotografier og albummer. Det gør det også muligt for brugere, der ikke er administratorer, at redigere deres egne fotografier (uploadet med Community-plugin'en).</p>
 
@@ -105,7 +105,7 @@
 
 <h3 id="mail_themes">Nye mailtemaer</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=147756&filename=piwigo-2.6-email-template.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147756/piwigo-2.6-email-template.png" class="screenshot">
 
 <p>Mails sendt af Piwigo kan enten anvende et lyst tema (som oven for) eller et mørkt tema. Mailtemaet er ikke længere afhængigt af galleritemaet.</p>
 
@@ -113,7 +113,7 @@
 
 <h3 id="stats_geo">Geoplacering af besøgende</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=143984&filename=piwigo-2.6-map-history.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/143984/piwigo-2.6-map-history.png" class="screenshot">
 
 <p>Baseret på de besøgendes IP-adresser, kan man finde den geografiske placering på siden [Administration > Værktøjer > Historik > Søg] med et valgfrit Google-kort.</p>
 
@@ -121,7 +121,7 @@
 
 <h3 id="group_manager">Gruppehåndtering har fået nyt design</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-group-manager.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-group-manager.png" class="screenshot">
 
 <p>Gruppehåndteringens nye layout, som er baseret på Photo Batch Manager.</p>
 
@@ -130,7 +130,7 @@
 
 <h3 id="admin_icons">Nye admin-ikoner</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-admin-icons.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-admin-icons.png" class="screenshot">
 
 <p>Der er nye ikoner til både administrationsmenuen og undermenuerne. Mange administrationsfaneblade har også fået ikoner. Ikoner vises ved hjælp af <a href="http://fontello.com">Fontello-systemet</a> og samlingerne <em>Font Awesome</em>, <em>Entypo</em>, <em>Iconic</em>, <em>Elusive</em> og <em>MFG Labs</em>. Ikonerne er kompatible med højopløselige skærme så som Retina og moderne smartphones: uanset zoomniveauet vil ikonerne forblive skarpe og pæne.</p>
 
@@ -138,7 +138,7 @@
 
 <h3 id="tag_filter">Tagfilter</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-admin-tag-filter.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-admin-tag-filter.png" class="screenshot">
 
 <p>Der er en ny filtreringstekstboks på siden til administration af tags.</p>
 
@@ -153,7 +153,7 @@
 
 <h3 id="number_tags">Antal tags og kommentarer</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=143984&filename=piwigo-2.6-menu-tags-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/143984/piwigo-2.6-menu-tags-comments.png" class="screenshot">
 
 <p>Antallet af tags og kommentarer vises nu i menubjælken.</p>
 
@@ -162,7 +162,7 @@
 
 <h3 id="comment_manager">Håndtering af kommentarer</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=147347&filename=piwigo-2.6-comment-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147347/piwigo-2.6-comment-manager.png" class="screenshot">
 
 <p>Den nye funktion til håndtering af kommentarer gør det muligt håndtere alle kommentarer, herunder godkendte kommentarer.</p>
 
@@ -176,11 +176,11 @@
 
 <h3 id="edit_album">Albumredigering er forbedret</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=147347&filename=piwigo-2.6-album-edit-link.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147347/piwigo-2.6-album-edit-link.png" class="screenshot">
 
 <p>Der er tilføjet et link til <em>"rediger dette album"</em> når man håndterer underalbummer.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-add-photos-to-album.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-add-photos-to-album.png" class="screenshot">
 
 <p>Der er tilføjet et link til <em>"tilføj fotografier"</em> på albumredigeringssiden, som fører til webuploadformularen.</p>
 
@@ -190,10 +190,10 @@
 
 <p>Temaerne Elegant og SmartPocket har fået en administrationsside.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-elegant-config.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-elegant-config.png" class="screenshot">
 <p>Ved Elegant kan man definere hvordan slidepanelerne skal fungere.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-smartpocket-config.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-smartpocket-config.png" class="screenshot">
 <p>Ved SmartPocket kan man definere hvordan temaet skal opføre sig under visning og ved slideshows.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
@@ -205,20 +205,20 @@
 
 <h3 id="language">56 sprog</h3>
 
-<p>I Piwigo 2.6.0 er amerikansk-engelsk tilføjet som sprog, hvilket har små forskelle i forhold til britisk-engelsk. 45 sprog er blevet opdateret. Piwigo 2.6 understøtter 56 sprog. Man kan deltage på <a href="http://piwigo.org/translate">vores oversættelsesplatform</a>, både til nye sprog, forbedringer og nye tekststrenge til oversættelse.</p>
+<p>I Piwigo 2.6.0 er amerikansk-engelsk tilføjet som sprog, hvilket har små forskelle i forhold til britisk-engelsk. 45 sprog er blevet opdateret. Piwigo 2.6 understøtter 56 sprog. Man kan deltage på <a href="https://piwigo.org/translate">vores oversættelsesplatform</a>, både til nye sprog, forbedringer og nye tekststrenge til oversættelse.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
 
 <h3>Tekniske funktioner</h3>
 
-<p>Bemærk at der findes mere udførlig dokumenation om <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6">Tekniske ændringer i Piwigo 2.6</a> (kun på engelsk). Læs den for at gøre dine egne plugins kompatible med Piwigo 2.6.</p>
+<p>Bemærk at der findes mere udførlig dokumenation om <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6">Tekniske ændringer i Piwigo 2.6</a> (kun på engelsk). Læs den for at gøre dine egne plugins kompatible med Piwigo 2.6.</p>
 
-<h4 id="smarty_3">Smarty 3 <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#smarty_3">mere info</a>)</small></h4>
+<h4 id="smarty_3">Smarty 3 <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#smarty_3">mere info</a>)</small></h4>
 
 <p>Smarty, vores skabelonsystem, er opdateret til version 3. Det anvendes på samme måde, men der er tilføjet nogle fikse funktioner, i særdeleshed er det ikke længere nødvendigt at anvende tag'ene <code>&#123;literal&#125;</code> eller <code>&#123;ldelim&#125;</code>, når man skriver JavaScript/CSS.<br>
 Vi har også tilføjet modifikatoren <code>translate_dec</code>, hvis formål er at erstatte <code>$pwg->l10n_dec</code>.</p>
 
-<h4 id="l10n">Oversættelsesfunktion <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#l10n_translate_sprintf">mere info</a>)</small></h4>
+<h4 id="l10n">Oversættelsesfunktion <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#l10n_translate_sprintf">mere info</a>)</small></h4>
 
 <p>Funktionen <code>l10n</code> er forbedret: man kan tilføje et ekstra parameter, som anvendes til et udføre en <code>sprintf</code> på en streng; den samme gælder skabelonmodifikatoren <code>translate</code>.</p>
 
@@ -227,7 +227,7 @@ Vi har også tilføjet modifikatoren <code>translate_dec</code>, hvis formål er
 
 <p>WebServices er udvidet betragteligt i denne version, og de primære ændringer er:</p>
 
-<h5>Nye metoder <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_api_methods">mere info</a>)</small></h5>
+<h5>Nye metoder <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_api_methods">mere info</a>)</small></h5>
 <ul>
   <li>pwg.groups.add</li>
   <li>pwg.groups.addUser</li>
@@ -244,18 +244,18 @@ Vi har også tilføjet modifikatoren <code>translate_dec</code>, hvis formål er
   <li>pwg.permissions.remove</li>
 </ul>
 
-<h5>Nye valgmuligheder <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_options_for_api_methods">mere info</a>)</small></h5>
+<h5>Nye valgmuligheder <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_options_for_api_methods">mere info</a>)</small></h5>
 <p>Hvert parameter kan defineres med en <code>type</code>, som kontrolleres af WS-controller'en (det er ikke længere nødvendigt at gøre det i metodedefinitionen). Tilgængelige typer er: <code>WS_TYPE_BOOL, WS_TYPE_INT, WS_TYPE_FLOAT, WS_TYPE_POSITIVE, WS_TYPE_NOTNULL, WS_TYPE_ID</code>.</p>
 
 <p>I funktionen <code>PwgServer::addMethod</code> kan der overføres et sjette parameter, et array bestående af boolske valgmuligheder: <code>hidden, admin_only, post_only</code>.</p>
 
-<h4 id="email">Mailsystem <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_email_system">mere info</a>)</small></h4>
+<h4 id="email">Mailsystem <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_email_system">mere info</a>)</small></h4>
 
 <p>Mailfunktionerne er også blevet omskrevet, med det formål at opnå større kompatibilitet med mailklienter og mere funktionalitet for pluginudviklere.<br>
 Vi anvender biblioteket PHPMailer til alle tekniske handlinger, og har implementeret skabeloner til pæne og brugerdefinerbar visning.<br>
 Desuden understøtter det nye system sikre SMTP-forbindelser (SSL/TLS).</p>
 
-<h4 id="gps">GPS-metadata <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#gps_metadata">mere info</a>)</small></h4>
+<h4 id="gps">GPS-metadata <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#gps_metadata">mere info</a>)</small></h4>
 
 <p>Piwigo 2.6 synkroniserer altid GPS-metadata (bredde- og længdegrad), hvis EXIF-synkronisering er aktiveret. Oplysningerne gemmes i billedtabellen, der ikke anvendes af kernesystemet, men er tilgængelig for alle plugins.</p>
 
@@ -263,7 +263,7 @@ Desuden understøtter det nye system sikre SMTP-forbindelser (SSL/TLS).</p>
 
 <p>Oversættelsessystemet er forbedret med reservesprog, hvilket gør det muligt at definere et sprog som barn af et andet (eksempelvis er canadisk-fransk et barn af fransk). Dermed kan der for nogle sprogs vedkommende oversættes bedre og hurtigere.</p>
 
-<h4 id="jquery">Javascript libraries updated <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#jquery_19">mere info</a>)</small></h4>
+<h4 id="jquery">Javascript libraries updated <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#jquery_19">mere info</a>)</small></h4>
 
 <p>jQuery er opdateret til 1.10.2, de største ændringer er opremset på <a href="http://jquery.com/upgrade-guide/1.9/">jQuerys websted</a>.</p>
 
@@ -277,26 +277,26 @@ Desuden understøtter det nye system sikre SMTP-forbindelser (SSL/TLS).</p>
 
 <h3 id="plugin_creation">Forbedringer for pluginudviklere</h3>
 
-<h4 id="new_section">Bedre understøttelse af nye offentlig tilgængelige afsnit <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#generic_template_for_custom_pages">mere info</a>)</small></h4>
+<h4 id="new_section">Bedre understøttelse af nye offentlig tilgængelige afsnit <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#generic_template_for_custom_pages">mere info</a>)</small></h4>
 
 <p>Ny enklere og pænere måde at tilføje en ny side i den offentligt tilgængelige del af Piwigo: erklær <code>$page['is_external']=true;</code> og tildel sideindholdet til skabelonvariablen <code>$CONTENT</code>. Skabelonudviklere skal vise variablen på <code>index.tpl</code>.</p>
 
-<h4 id="maintenance_class">Ny vedligeholdelsesklasse <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:extensions:plugins#plugin_maintenance">mere info</a>)</small></h4>
+<h4 id="maintenance_class">Ny vedligeholdelsesklasse <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:extensions:plugins#plugin_maintenance">mere info</a>)</small></h4>
 
 <p>For at kunne håndtere navngivelseskonflikter, har vi indført <code>PluginMaintain</code>-grænsefladen. Den anvendes til at definere en plugins vedligeholdelsesfunktioner (i filen <code>maintain.inc.php</code>), i en unikt navngivet klasse.<br>
 Den samme grænseflade findes til temaer: <code>ThemeMaintain</code>.</p>
 
-<h4 id="trigger_name">Omdøbning af triggerfunktioner <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#triggers_functions">mere info</a>)</small></h4>
+<h4 id="trigger_name">Omdøbning af triggerfunktioner <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#triggers_functions">mere info</a>)</small></h4>
 
 <p>Vi besluttede at omdøbe de meningsløse funktioner <code>trigger_event</code> og <code>trigger_action</code> til henholdvis <code>trigger_change</code> og <code>trigger_notify</code>. Piwigo 2.6 håndterer begge varianter, men kun de nye vil være til stede i version 2.7. Der er ingen ændringer til håndteringen af triggers med funktioen <code>add_event_handler</code>.</p>
 
-<h4 id="template_cssjs">Skabelonbar CSS- og JS-filer <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#css_js_as_smarty_templates">mere info</a>)</small></h4>
+<h4 id="template_cssjs">Skabelonbar CSS- og JS-filer <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#css_js_as_smarty_templates">mere info</a>)</small></h4>
 
 <p>Man kan nu anvende Smarty-funktioner i .css- og .js-filer, opsæt blot <code>template=true</code>. når <code>combine_script</code> og <code>combine_css</code> benyttes.</p>
 
-<h4 id="action_buttons">Forbedrede skabelonmetoder til sorteringshandlingsknapper <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#add_action_buttons">mere info</a>)</small></h4>
+<h4 id="action_buttons">Forbedrede skabelonmetoder til sorteringshandlingsknapper <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#add_action_buttons">mere info</a>)</small></h4>
 
-<p><a href="http://piwigo.org/releases/2.5.0#action_buttons">I 2.5 tilføjede vi</a> to metoder til sorteringshandlingsknapper på indeks- og fotografisiden. Som planlagt har anvendelsen ændret sig lidt i forbindelse med 2.6: plugins må ikke erklære deres knapper med omgivende <code>&lt;span&gt;</code>, <code>&lt;div&gt;</code> eller  <code>&lt;li&gt;</code>, da denne markup nu håndteres af skabelonen.</p>
+<p><a href="https://piwigo.org/releases/2.5.0#action_buttons">I 2.5 tilføjede vi</a> to metoder til sorteringshandlingsknapper på indeks- og fotografisiden. Som planlagt har anvendelsen ændret sig lidt i forbindelse med 2.6: plugins må ikke erklære deres knapper med omgivende <code>&lt;span&gt;</code>, <code>&lt;div&gt;</code> eller  <code>&lt;li&gt;</code>, da denne markup nu håndteres af skabelonen.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigten</a></div>
 

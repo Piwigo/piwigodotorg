@@ -100,7 +100,7 @@
 
 <p>Cette fois-ci, nous avons collaboré avec la communauté de traduction avant même la release, dès la phase de beta-testing. En conséquence, 9 langues sont disponibles directement dans la première release de la nouvelle branche (par ordre alphabétique) : Deutsch (Allemand), English (Anglais), Español (Espagnol), Français, Hrvatski (Croate), Italiano (Italien), Nederlands (Hollandais), Polski (Polonais), Русский (Russe). </p>
 
-<p>Bien d’autres viendront dans les prochaines semaines et seront disponibles dans la <a href="http://piwigo.org/ext">section extensions du site web</a>.</p>
+<p>Bien d’autres viendront dans les prochaines semaines et seront disponibles dans la <a href="https://piwigo.org/ext">section extensions du site web</a>.</p>
 
 <h4>Simplification du processus de synchronisation</h4>
 
@@ -221,7 +221,7 @@
 
 <p>Piwigo devient entièrement UTF-8. Cela signifie que la gestion de l’encoding est simplifiée. Au lieu d’avoir un encoding pour chaque langue, il n’y a plus qu’un unique encoding, l’UTF-8, pour afficher tous les caractères existants au monde. Sur la même page, vous pouvez avoir des commentaires en chinois, anglais, français et russe.</p>
 
-<p>Si votre galerie photo est internationale, vos visiteurs choisiront certainement d’afficher l’interface dans leur langue. Avec le plugin <a href="http://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a> vous pouvez avoir un titre de catégorie dans plusieurs langues. Dorénavant, interface et contenu peuvent dépendre de la langue. Vos visiteurs apprécieront !</p>
+<p>Si votre galerie photo est internationale, vos visiteurs choisiront certainement d’afficher l’interface dans leur langue. Avec le plugin <a href="https://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a> vous pouvez avoir un titre de catégorie dans plusieurs langues. Dorénavant, interface et contenu peuvent dépendre de la langue. Vos visiteurs apprécieront !</p>
 
 <h4>PHP 5</h4>
 

@@ -80,7 +80,7 @@
 <section class="container">
 <h3 id="user_comments">Comentários do usuário: e-mail e site, adicionados</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-email-website-user-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-email-website-user-comments.png" class="screenshot">
 
 <p>Comentários dos utilizadores solicitado por e-mail e site. Por padrão, esses novos campos não são de preenchimento obrigatório.</p>
 
@@ -88,7 +88,7 @@
 
 <h3 id="tag_duplication">Duplicação de etiquetas</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-duplicate-tag.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-duplicate-tag.png" class="screenshot">
 
 <p>Na tela [Administração> Fotos> Etiquetas] você pode duplicar etiquetas. Piwigo também vai duplicar associações com fotos.</p>
 
@@ -96,7 +96,7 @@
 
 <h3 id="pagination_album">Paginação em álbuns</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136821&filename=piwigo-2.5-pagination-on-albums.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136821/piwigo-2.5-pagination-on-albums.png" class="screenshot">
 
 <p>Paginação em álbuns, assim como em miniaturas. Você pode modificar o número de álbuns por página na tela [Administração> Configuração> Opções> Mostrar].</p>
 
@@ -104,7 +104,7 @@
 
 <h3 id="filter_dimensions">Gerenciador de lotes: filtro sobre as dimensões</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
 
 <p>No Gerenciador de lotes, você pode filtrar fotos por dimensões (largura, altura e proporção). Nós também adicionamos alguns <em>links rápidos</em> para proporções específicas:</p>
 <ul>
@@ -118,7 +118,7 @@
 
 <h3 id="group_manager">Gerente de grupo</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-group-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-group-manager.png" class="screenshot">
 
 <p>Piwigo recebe um gerente de grupo melhorado. Assim como o gerente do lote de fotos, você pode aplicar uma ação em vários grupos ao mesmo tempo. Com o novo gerente de grupo, você pode mesclar e duplicar grupos.</p>
 
@@ -126,7 +126,7 @@
 
 <h3 id="icons">Ícones mais bonitos</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-icons.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-icons.png" class="screenshot">
 
 <p>Melhores ícones para o tema padrão Elegante. ícones de <a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a> e <a href="http://typicons.com/" target="_blank">Typicons by Stephen Hutchings</a>.</p>
 
@@ -134,7 +134,7 @@
 
 <h3 id="oauth">Conecte-se com Facebook, Google, OpenID...</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=oAuth.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/oAuth.png" class="screenshot">
 
 <p>Com o novo oAuth plugin, os visitantes podem entrar com autenticação externa: Google, Facebook, OpenID, Instagram, LinkedIn, Tumblr, Twitter, Windows Live, Flickr, Wordpress e Yahoo!.</p>
 
@@ -142,7 +142,7 @@
 
 <h3 id="loading_image">Imagem temporária durante o carregamento</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-multiple-size-loading.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-multiple-size-loading.png" class="screenshot">
 
 <p>Desde Piwigo 2.4, ao exibir miniaturas, às vezes você pode ver que a miniatura não está disponível porque Piwigo tem que gerá-la. Com Piwigo 2.5, se a miniatura não está disponível, um ícone padrão, substituirá a miniatura o mais rapidamente possível, sem recarregar a página.</p>
 
@@ -150,13 +150,13 @@
 
 <h3 id="languages">51 Idiomas</h3>
 
-<p>Piwigo 2.5 adiciona quatro novos idiomas em comparação com Piwigo 2.4.0: galego (Galego), Lituânio (Lietuvių), Tamil (தமிழ்), Hong-Kong (中文 香港). Essa é outra grande parte do trabalho da equipe de tradução. Tradutores têm adotado <a href="http://piwigo.org/translate" target="_blank">como plataforma de tradução</a>.</p>
+<p>Piwigo 2.5 adiciona quatro novos idiomas em comparação com Piwigo 2.4.0: galego (Galego), Lituânio (Lietuvių), Tamil (தமிழ்), Hong-Kong (中文 香港). Essa é outra grande parte do trabalho da equipe de tradução. Tradutores têm adotado <a href="https://piwigo.org/translate" target="_blank">como plataforma de tradução</a>.</p>
 
 <div class="back_overview"><a href="#overview">↑ Voltar à vista geral</a></div>
 
 <h3 id="physical_albums">Físicos vs álbuns virtuais</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-physical-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-physical-album.png" class="screenshot">
 
 <p>Na lista de álbuns, você pode facilmente ver os álbuns físicos (álbum físico = criado como um diretório FTP).</p>
 
@@ -182,11 +182,11 @@
 
 <h3>Características Técnicas</h3>
 
-<p>Por favor, note que a documentação mais detalhada está disponível em <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.5"> alterações técnicas em Piwigo 2.5 </a>. Por favor, leia-o para fazer suas extensões compatíveis com Piwigo 2.5.</p>
+<p>Por favor, note que a documentação mais detalhada está disponível em <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.5"> alterações técnicas em Piwigo 2.5 </a>. Por favor, leia-o para fazer suas extensões compatíveis com Piwigo 2.5.</p>
 
 <h4 id="api_explorer">Novo web API explorer</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-new-web-api-explorer.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-new-web-api-explorer.png" class="screenshot">
 
 <p>O Piwigo web API explorador recebe um novo design gráfico. Você pode abri-lo com o seu navegador web, em sua instalação Piwigo em ferramentas/ws.htm</p>
 
@@ -204,7 +204,7 @@
 
 <h4 id="flags_sprite">Sprite para bandeiras</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=flag_sprite.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/flag_sprite.jpg" class="screenshot">
 
 <p>Na caixa de mudar o idioma, em vez de carregar 51 imagens de bandeira, ou seja, 51 solicitações HTTP, todas as bandeiras estão agora em um único arquivo de imagem e as regras CSS dividem a imagem corretamente no seu navegador.</p>
 

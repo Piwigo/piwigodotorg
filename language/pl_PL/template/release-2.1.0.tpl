@@ -73,7 +73,7 @@
 
 <p>Jak tylko Piwigo zostanie zainstalowane na Twoim serwerze, dostaniesz wielki i prosty komunikat (link):  "Chcę dodać zdjęcia", który prowadzi do formularza wgrywania zdjęć.</p>
 
-<img src="http://piwigo.org/screenshots/210-no_photo_center.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-no_photo_center.png" class="screenshot">
 
 <p>Celem jest zapobiegnięcie pytaniu "OK, zainstalowałem Piwigo, jak dodać zdjęcia?".</p>
 
@@ -88,11 +88,11 @@
   <li>klikasz na przycisk transferu i obserwujesz postęp wgrywania</li>
 </ol>
 
-<img src="http://piwigo.org/screenshots/210-uploadform-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-uploadform-01.png" class="screenshot">
 
 <p>Rozmiary zdjęć są automatycznie zmieniane oraz tworzone są miniatury.</p>
 
-<img src="http://piwigo.org/screenshots/210-uploadform-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-uploadform-02.png" class="screenshot">
 
 <h4 id="theme_manager">Manadżer tematów</h4>
 
@@ -100,17 +100,17 @@
 
 <p>Manadżer tematów jest podłączony bezpośrednio do katalogu tematów na piwigo.org. Jak tylko zostanie dodany nowy temat przez któregoś z członków społeczności, możesz go zainstalować w swoim Piwigo.</p>
 
-<img src="http://piwigo.org/screenshots/210-themes_new.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-themes_new.png" class="screenshot">
 
 <p>Zainstalowane tematy mogą być aktywne lub nieaktywne. Nieaktywne tematy nie mogą być wybrane przez użytkowników.</p>
 
 <p>Możesz uczynić temat domyślnym za pomocą tylko jednego kliknięcia.</p>
 
-<img src="http://piwigo.org/screenshots/210-themes_installed.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-themes_installed.png" class="screenshot">
 
 <h4 id="languages">23 języki oraz 1 jeden język zarządania</h4>
 
-<img src="http://piwigo.org/screenshots/210-languages.png" style="float:right">
+<img src="https://piwigo.org/screenshots/210-languages.png" style="float:right">
 <ul>
   <li>Brasil (Brazylijski)</li>
   <li>Castellano (Argentyński)</li>
@@ -146,48 +146,48 @@
 <ul>
   <li>administracja może być "ciemna" lub "jasna"</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-dark_clear.png">
+<img src="https://piwigo.org/screenshots/210-dark_clear.png">
 <ul>
   <li>dedykowany nagłówek z szybkimi linkami</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-admin_header.png">
+<img src="https://piwigo.org/screenshots/210-admin_header.png">
 <ul>
   <li>nowa organizacja menu (dedykowana sekcja dla wtyczek, oczekujące komentarze otrzymały także dedykowane menu, ekran synchronizacji został przeniesiony do sekcji "narzędzia", "zaawansowane funkcje" zostały przeniesione do ekranu <em>"maintenance"</em>)</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-menu.png">
+<img src="https://piwigo.org/screenshots/210-menu.png">
 <ul>
   <li>nowy wzór zarządzania listą wtyczek, 1 blok = 1 status</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-plugin_list.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-plugin_list.png" class="screenshot">
 
 <p>nowy wzór dla ekranu instalacji wtyczek.</p>
-<img src="http://piwigo.org/screenshots/210-plugin_available.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-plugin_available.png" class="screenshot">
 <ul>
   <li>nowy "widżet" zarządzania tagami na zdjęciu</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-tags_widget.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-tags_widget.png" class="screenshot">
 <ul>
   <li>sortowanie zdjęć z wykorzystaniem przeciągnij & upuść</li>
 </ul>
 
-<img src="http://piwigo.org/screenshots/210-drag_sort.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-drag_sort.png" class="screenshot">
 
 <h4 id="display_options">nowe możliwości dostosowywania</h4>
 
 <p>Nowy ekran <strong>Admin > Konfiguracja > Opcje > Wyświetlanie</strong> w wieloma opcjami ostosowania funkcji dostepnych dla użytkowników, wybierania zdjęć do wyświetlenia.</p>
 
-<img src="http://piwigo.org/screenshots/210-display_options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-display_options.png" class="screenshot">
 
 <h4 id="related_tags">Poprawione przeglądanie "powiązanych tagów"</h4>
 
 <p>Nawet jeżeli aktualnie nie przeglądasz tagów, Piwigo wyświetla tagi powiązane z bieżącym zdjęciem.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-01.png" class="screenshot">
 
 <p>Wyświetlamy 1 link do wyświetlenia <em>"tag1"</em> + <em>"tag2"</em> dla zestawu zdjęć.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-02.png" class="screenshot">
 
 <p>Im więcej dodasz tagów, tym bardziej zminiejszysz liczbę pasujących zdjęć.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-03.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-03.png" class="screenshot">
 
 <h3>Funkcje Techniczne</h3>
 

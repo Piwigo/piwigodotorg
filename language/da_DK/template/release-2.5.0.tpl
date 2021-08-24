@@ -79,7 +79,7 @@
 <section class="container">
 <h3 id="user_comments">User Comments: E-mail og hjemmeside tilføjet</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-email-website-user-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-email-website-user-comments.png" class="screenshot">
 
 <p>User Comments beder om en e-mailadresse og hjemmeside. Som standard kræves disse nye felter ikke udfyldt.</p>
 
@@ -87,7 +87,7 @@
 
 <h3 id="tag_duplication">Tagkopiering</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-duplicate-tag.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-duplicate-tag.png" class="screenshot">
 
 <p>På skærmbilledet [Administration > Fotografier > Tags] kan man kopiere tags. Piwigo kopierer også fotografitilknytninger.</p>
 
@@ -95,7 +95,7 @@
 
 <h3 id="pagination_album">Sideinddeling af albummer</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136821&filename=piwigo-2.5-pagination-on-albums.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136821/piwigo-2.5-pagination-on-albums.png" class="screenshot">
 
 <p>Sideinddeling af albummer, præcis som miniaturebilleder. Man kan ændre antallet af albummer pr. side på skærmbilledet [Administration > Opsætning > Valgmuligheder > Visning].</p>
 
@@ -103,7 +103,7 @@
 
 <h3 id="filter_dimensions">Batch Manager: filtrering på dimensioner</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
 
 <p>I Batch Manager kan man filtrere fotografier på dimensioner (bredde, højde og størrelsesforhold). Vi har også tilføjet nogle <em>hurtige links</em> til specifikke størrelsesforhold:</p>
 <ul>
@@ -117,7 +117,7 @@
 
 <h3 id="group_manager">Gruppehåndtering</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-group-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-group-manager.png" class="screenshot">
 
 <p>Piwigo har fået en bedre gruppehåndtering. Tilsvarende Batch Manager til fotografier, kan man udføre handlinger på flere grupper på én gang. Med den nye gruppehåndtering kan man sammenlægge og kopiere grupper.</p>
 
@@ -125,7 +125,7 @@
 
 <h3 id="icons">Pænere ikoner</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-icons.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-icons.png" class="screenshot">
 
 <p>Pænere ikoner i standardtemaet Elegant. Ikonerne kommer fra <a href="http://www.entypo.com" target="_blank">Entypo Pictograms af Daniel Bruce</a> og <a href="http://typicons.com/" target="_blank">Typicons af Stephen Hutchings</a>.</p>
 
@@ -133,7 +133,7 @@
 
 <h3 id="oauth">Log på vha. Facebook, Google, OpenID ...</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=oAuth.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/oAuth.png" class="screenshot">
 
 <p>Med den nye oAuth-plugin, kan ens besøgende logge på med ekstern autentifikation: Google, Facebook, OpenID, Instagram, LinkedIn, Tumblr, Twitter, Windows Live, Flickr, Wordpress og Yahoo!.</p>
 
@@ -141,7 +141,7 @@
 
 <h3 id="loading_image">Midlertidigt billede under indlæsning</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-multiple-size-loading.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-multiple-size-loading.png" class="screenshot">
 
 <p>Siden Piwigo 2.4, ved visning af miniaturebilleder, kan man nogle gange se at miniaturebilledet ikke er tilgængeligt, fordi Piwigo først skal generere det. Med Piwigo 2.5, hvis miniaturebilledet ikke er tilgængeligt, viser vi en standardikon, som bliver erstattet af miniaturebilledet så hurtigt som muligt, uden at siden skal genindlæses.</p>
 
@@ -149,13 +149,13 @@
 
 <h3 id="languages">51 sprog</h3>
 
-<p>Piwigo 2.5 tilføjer fire nye sprog sammenlignet med Piwigo 2.4.0: Galicisk (Galego), litauisk (Lietuvių), tamil (தமிழ்), hongkong-kinesisk (中文香港). Det skyldes endnu et stort arbejde fra oversættelsesholdet. Oversætterne har taget <a href="http://piwigo.org/translate" target="_blank">oversættelsesplatformen</a> i brug.</p>
+<p>Piwigo 2.5 tilføjer fire nye sprog sammenlignet med Piwigo 2.4.0: Galicisk (Galego), litauisk (Lietuvių), tamil (தமிழ்), hongkong-kinesisk (中文香港). Det skyldes endnu et stort arbejde fra oversættelsesholdet. Oversætterne har taget <a href="https://piwigo.org/translate" target="_blank">oversættelsesplatformen</a> i brug.</p>
 
 <div class="back_overview"><a href="#overview">↑ tilbage til oversigt</a></div>
 
 <h3 id="physical_albums">Fysiske vs. virtuelle albummer</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-physical-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-physical-album.png" class="screenshot">
 
 <p>På albumlister kan man let se fysiske albummer (fysisk album = oprettet som en FTP-mappe).</p>
 
@@ -181,11 +181,11 @@
 
 <h3>Tekniske funktioner</h3>
 
-<p>Bemærk at mere udførlig dokumentation er tilgængelig vedrørende <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Tekniske ændringer i Piwigo 2.5</a>. Læs den igennem for at kunne gøre dine udvidelser kompatible med Piwigo 2.5.</p>
+<p>Bemærk at mere udførlig dokumentation er tilgængelig vedrørende <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.5">Tekniske ændringer i Piwigo 2.5</a>. Læs den igennem for at kunne gøre dine udvidelser kompatible med Piwigo 2.5.</p>
 
 <h4 id="api_explorer">Ny web-API-udforsker</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-new-web-api-explorer.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-new-web-api-explorer.png" class="screenshot">
 
 <p>Piwigos web-API-udforsker har fået et nyt grafisk design. Den åbnes i en webbrowser i Piwigo-installationen under tools/ws.htm</p>
 
@@ -203,7 +203,7 @@
 
 <h4 id="flags_sprite">Sprite til flag</h4>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=140306&filename=flag_sprite.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/flag_sprite.jpg" class="screenshot">
 
 <p>I stedet for at indlæse 51 flagfiler, dvs. 51 HTTP-forespørgsler, i boksen til skift af sprog, er alle flag nu i en enkelt billedfil og CSS-regler opsplitter billedet korrekt i brugerens webbrowser.</p>
 

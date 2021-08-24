@@ -77,11 +77,11 @@
 <section class="container">
 <h3 id="design">Обновленный дизайн</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
 
 <p>Дизайн - это то, в чем мы сделали наибольшие изменения для версии 2.9! Темный заголовок, подвал и меню. Без границ. Совершенно новая домашняя страница администратора, названная нами "Dashboard" (Приборная панель), с большими иконками для быстрого доступа к основным страницам.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
 
 <p>Piwigo 2.9 вышел с обновленным Пакетным менеджером: иконки чекбоксов, специальные разделители полей (только на этой странице; но скоро и на странице обратной связи), новые цвета для выбранных миниатюр (темно-серый) и миниатюр "под курсором" (оранжевый Piwigo).</p>
 
@@ -91,13 +91,13 @@
 
 <p>Когда выйдет новая версия Piwigo, Вы будете оповещены по е-майлу.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>
 
 <h3 id="tag_manager">Менеджер тэгов, режим выбора</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
 
 <p>Менеджет тэгов теперь обладает четким режимом выбора, позволяющим пакетные/групповые действия.</p>
 
@@ -106,7 +106,7 @@
 
 <h3 id="deletion">Удаление альбомов</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
 
 <p>При удалении альбомов, содержащих изображения, Piwigo спросит Вас, что Вы хотите сделать с изображениями, связанными с этими альбомами.</p>
 
@@ -115,7 +115,7 @@
 
 <h3 id="passgen">Генератор паролей</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
 <p>Форма создания новых пользователей теперь содержит генератор паролей. Он создает сильные, защищенные пароли, формируемые случайным образом.</p>
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>
@@ -123,10 +123,10 @@
 
 <h3 id="deleteblocks">Удаление изображений пачками</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
 <p>Одновременное удаление тысяч изображений пока невозможно, но мы уже создали удаление пачками, пока только для изображений-"потеряшек", не имеющих связей ни с одним альбомом в галерее.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
 <p>... а также нами внедрен инструмент для любых изображений, не только "потеряшек"!</p>
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>
@@ -134,14 +134,14 @@
 
 <h3 id="duplicates">Дубликаты по контрольным суммам</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
 <p>В Пакетном менеджере реализован поиск дубликатов изображений, основанный на контрольной сумме файлов (для файлов с одинаковым содержанием, но с разными названиями).</p>
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>
 
 <h3 id="quicksearch">Быстрый поиск по альбомам</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
 <p>Быстрый поиск теперь идет и во вложенных альбомах (как было в Piwigo 2.6 и раньше)</p>
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>
@@ -149,7 +149,7 @@
 
 <h3 id="downloadlink">Ссылка на скачивание</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
 <p>Новыя ссылка для скачивания теперь доступна на странице редактирования изображения.</p>
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>
@@ -157,7 +157,7 @@
 
 <h3 id="editquicklink">Редактирование альбомов</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
 <p>Сразу после создания альбома, Вы можете начать редактировать его в один клик.</p>
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>
@@ -165,14 +165,14 @@
 
 <h3 id="rate">Фильтр по рейтингу альбомов</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
 <p>На странице администрирования рейтинги можно фильтровать по альбомам.</p>
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>
 
 <h3 id="display_options">Новые параметры отображения</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
 <p>На странице [Администрирование > Конфигурация > Опции > Отображение] Вы сможете найти новые чекбоксы, которые позволяют показать или скрыть ссылки/иконки выбора размера изображения и ссылки для админов (редактирование/корзинка/представление). На обеих страницах - и для миниатюр и для полных изображений.</p>
 
 <div class="back_overview"><a href="#overview">↑ вернуться</a></div>

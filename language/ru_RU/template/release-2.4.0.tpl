@@ -93,11 +93,11 @@
 
 <p>Теперь для каждой фотографии автоматически создается девять версий разных размеров: квадрат, миниатюра, XXS-крошечная, XS-очень маленькая, S-маленькая, M-средняя, L-большая, XL-очень большая, XXL-огромная. Фотографии новых размеров создаются "по требованию". Например, фотография размера XXL не создается, если никто ее не просматривал. Вы можете инактивировать определенные размеры или даже изменить размеры по умолчанию.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
 
 <p>При посещении галереи, пользователь может выбрать желаемый размер отображения фотографий и этот параметр будет храниться в течение всей пользовательской сессии.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-multiple-size-gallery-select-box.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-multiple-size-gallery-select-box.png" class="screenshot">
 
 <p>Выпадающее меню с выбором размера фотографий доступно не только со страницы фотографии, но и со страницы миниатюр. Это позволяет использовать большой размер для отображения более крупных миниатюр.</p>
 
@@ -107,7 +107,7 @@
 
 <p>Теперь в Piwigo есть мобильный вид, который автоматически используется, когда посетитель входит на сайт с помощью мобильного устройства, такого как смартфоны iPhone или Android. Пользователь может отключить тему <em>SmartPocket</em>, если он предпочитает классический вид галереи. Пожалуйста, обратите внимание, что на планшетных компьютерах iPad мобильный вид не включается автоматически, но его можно активировать простым кликом.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-mobile-theme-smartpocket.jpg" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-mobile-theme-smartpocket.jpg" class="screenshot">
 
 <p>Интерфейс "мобильной темы" оптимизирован для сенсорного управления. Например, Вы можете провести пальцем по фотографии чтобы перейти к следующей.</p>
 
@@ -119,25 +119,25 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/hxA_HUesoOU?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
 
 <p>Вы можете импортировать собственный водяной знак в виде файла PNG. Мы рекомендуем использовать прозрачный фон рисунка. С помощью экрана настроек водяного знака можно выбрать позицию и степень прозрачности водяного знака на Ваших фотографиях. Piwigo автоматически применит водяной знак к Вашим фотографиям.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-watermark-in-action.jpg" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-watermark-in-action.jpg" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ обратно к обзору</a></div>
 
 <h3 id="elegant">"Elegant" - новый дизайн по умолчанию</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
 
 <p>Новая тема по умолчанию <em>"Elegant"</em>: серая цветовая гамма, упрощенный дизайн, меньше рамок и обрамлений.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
 
 <p>С помощью клика можно отобразить или скрыть меню выдвигающейся панели.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
 
 <p>Скользящие панели также имеются на страницах с фотографиями для просмотра их свойств и пользовательских комментариев.</p>
 
@@ -149,7 +149,7 @@
 
 <h3 id="applications">Добавить фотографию - новая вкладка "Приложения"</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-add-photos-applications.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-add-photos-applications.png" class="screenshot">
 
 <p>Вкладка <em>"Загрузчик Piwigo"</em> заменена более общей вкладкой <em>"Приложения"</em>.  Приложения для загрузки фотографий включают pLoader, Piwigo Mobile для iOS/Android, iPhoto, Aperture, Lightroom, Shotwell, digiKam и ReGalAndroid.</p>
 
@@ -161,27 +161,27 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/laSD8JCn6gI?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
 
 <p>Список действий для редактирования альбома отображается при наведении курсора на его название.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
 
 <p>Когда Вы упорядочили альбомы с помощью перетаскивания, появляется новая кнопка <em>"сохранить порядок"</em>.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
 
 <p>При клике на кнопку <em>"создать новый альбом"</em> появляется форма создания альбома.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
 
 <p>При клике на кнопку <em>"автоматический порядок сортировки"</em> появится форма настроек сортировки фотографий.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-album-properties.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-album-properties.png" class="screenshot">
 
 <p>Экран управления настройками альбома был изменен для упрощения пользовательского интерфейса. Свойства <em>порядок сортировки фотографий</em> и <em>права доступа</em> перенесены на отдельные вкладки.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-album-permissions.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-album-permissions.png" class="screenshot">
 
 <p>Управление статусом альбома перенесено на эту вкладку с экрана со свойствами альбома. В секции <em>"Группы и пользователи"</em> при вводе в строку поиска используется автозаполнение.</p>
 
@@ -191,15 +191,15 @@
 
 <p>Для каждой миниатюры теперь доступны новые ссылки <em>Увеличить</em> и <em>Изменить</em>. Ссылка <em>Увеличить</em> открывает фотографию среднего размера. Ссылка <em>Изменить</em> ведет на страницу в интерфейсе администратора, на которой можно изменить все настройки фотографии.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=126782&filename=piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/126782/piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
 
 <p>Добавлено новое действие <em>Перенести в альбом</em>. Используйте его вместо <em>ассоциировать с альбомом</em> + <em>отделить от альбома</em>. Как показано на скриншоте внизу, Вы можете создавать альбомы "на лету".</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
 
 <p>В улучшенный <em>Фильтр уровня доступа</em> добавлена кнопка-флажок для отображения фотографий с более низким уровнем доступа, нежели выбранный.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-batch-manager-filter-on-privacy.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-batch-manager-filter-on-privacy.png" class="screenshot">
 
 <p>Мы также добавили свойство <em>"shift-клик"</em> для выбора нескольких фотографий: кликните на первой иконке из тех, которые Вы хотите выбрать, затем нажмите shift и кликните на последней иконке. В результате будут выбраны все фотографии между этими двумя.</p>
 
@@ -209,7 +209,7 @@
 
 <p>При просмотре галереи Вы можете кликнуть на правой области фотографии, чтобы открыть следующую, на левой области для просмотра предыдущей фотографии, или на верхнюю часть фотографии, чтобы вернуться на страницу альбома с миниатюрами.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-next-prev-links-on-photo.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-next-prev-links-on-photo.png" class="screenshot">
 
 <p>(Заметьте, что голубые области, показанные на рисунке, не отображаются на фотографии при просмотре - они только графически показывают навигационные области фотографии.)</p>
 
@@ -217,7 +217,7 @@
 
 <h3 id="photo_admin">Страница свойств фотографии - новый дизайн</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
 
 <p>Для страницы настроек фотографии в интерфейсе администратора разработан новый дизайн: упрощенная форма на одной странице. Иконки заменены текстовыми ссылками и добавлена детальная информация о фотографии (цифровой идентификатор, количество просмотров, размер фотографии и т.д.).</p>
 
@@ -225,7 +225,7 @@
 
 <h3 id="username">Изменение имени пользователя</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-change-username.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-change-username.png" class="screenshot">
 
 <p>Администратор может изменить имя пользователя в пользовательском профиле. При этом пользователю отправляется автоматическое уведомление на email.</p>
 
@@ -233,7 +233,7 @@
 
 <h3 id="notification">Регистрация пользователя и оповещения по email</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
 
 <p>Новому пользователю на email может быть выслано уведомление с WWW-адресом галереи, именем пользователя и паролем. Уведомление высылается при регистрации пользователя или добавлении нового пользователя администратором.</p>
 
@@ -241,7 +241,7 @@
 
 <h3 id="admin_menubar">Главное меню администратора - новый дизайн</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-administration-menubar.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-administration-menubar.png" class="screenshot">
 
 <p>Дизайн меню интерфейса администратора был изменен. Теперь в меню есть иконки и уменьшены промежутки между пунктами.</p>
 
@@ -249,7 +249,7 @@
 
 <h3 id="sort_comments">Сортировка комментариев пользователей</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-comments-sort-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-comments-sort-order.png" class="screenshot">
 
 <p>Вы можете настроить порядок отображения комментариев пользователей: сначала старые или сначала новые. Посетитель галереи также может переключать порядок сортировки комментариев.</p>
 
@@ -263,13 +263,13 @@
 
 <p><em>Область интереса</em>  - это область фотографии, имеющая наибольшее смысловое значение. Для размеров фотографий, использующих кадрирование, таких как <em>"Квадрат"</em>, Piwigo будет стараться включить область интереса в финальную фотографию. По умолчанию, область интереса расположена в центре фотографии. Вы можете сместить область и изменить ее размер вручную.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-center-of-interest.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-center-of-interest.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ обратно к обзору</a></div>
 
 <h3 id="sort_options">Порядок сортировки - новый дизайн</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
 
 <p>Мы добавили новые возможности для сортировки фотографий, такие как <em>сортировка по имени фото</em> (вместо имени файла) и сделали более прозрачным процесс сортировки. Эти настройки доступны в интерфейсе администратора, а также из пользовательского интерфейса.</p>
 
@@ -279,7 +279,7 @@
 
 <p>Мы понимаем, что назначение функции <em>"блокировать галерею"</em> в основном меню администратора не было полностью понятным. Мы перенесли эту функцию в раздел <em>Обслуживание</em> и добавили предупредительное уведомление.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.4-gallery-lock-maintenance-action.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.4-gallery-lock-maintenance-action.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ обратно к обзору</a></div>
 
@@ -291,7 +291,7 @@
 
 <h3 id="language">Языки</h3>
 
-<p>В Piwigo 2.4 добавлено три новых языка: эсперанто, финский (suomi) и камбоджийский (ភាសាខ្មែរ). Практически для всех языков качество перевода значительно улучшилось. Наши поздравления и благодарности команде переводчиков за их сложную работу. Переводчики постепенно берут на вооружение <a href="http://piwigo.org/translate" target="_blank">платформу перевода</a>, которая была введена в работу несколько месяцев назад. Этот интерфейс упрощает совместную работу. Если вы хотите внести свой вклад в перевод Piwigo на Ваш язык, мы сердечно приглашаем Вас зарегистрироваться.</p>
+<p>В Piwigo 2.4 добавлено три новых языка: эсперанто, финский (suomi) и камбоджийский (ភាសាខ្មែរ). Практически для всех языков качество перевода значительно улучшилось. Наши поздравления и благодарности команде переводчиков за их сложную работу. Переводчики постепенно берут на вооружение <a href="https://piwigo.org/translate" target="_blank">платформу перевода</a>, которая была введена в работу несколько месяцев назад. Этот интерфейс упрощает совместную работу. Если вы хотите внести свой вклад в перевод Piwigo на Ваш язык, мы сердечно приглашаем Вас зарегистрироваться.</p>
 
 <div class="back_overview"><a href="#overview">↑ обратно к обзору</a></div>
 
@@ -325,7 +325,7 @@
 
 <h3>Технические свойства</h3>
 
-<p>Обратите внимание, что детальная документация доступна здесь: <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.4">Технические изменения в Piwigo 2.4</a>. Пожалуйста, ознакомьтесь с этим документом, чтобы сделать Ваши расширения совместимыми с Piwigo 2.4.</p>
+<p>Обратите внимание, что детальная документация доступна здесь: <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.4">Технические изменения в Piwigo 2.4</a>. Пожалуйста, ознакомьтесь с этим документом, чтобы сделать Ваши расширения совместимыми с Piwigo 2.4.</p>
 
 <h4 id="messages">Унифицированное управление системными сообщениями</h4>
 

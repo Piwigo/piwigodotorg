@@ -93,7 +93,7 @@
 
 <p>现在，每张图片都将自动生成9种尺寸： 方形，缩略图，XXS-微小，XS-特小，S-小，M-中， L-大， XL-特大， XXL-巨型。 尺寸根据 "需求"生成。 例如： 如果从未有人选择浏览XXL尺寸的图片，系统将不会生成这个尺寸的图片。您也可以选择取消某些尺寸选项或更改每个尺寸的值。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-multiple-size-configuration-screen.png" class="screenshot">
 
 <p>访问者可根据喜好来选择图片的显示尺寸，系统会为该访客保存此偏好并应用到他的所有访问中。</p>
 
@@ -119,7 +119,7 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/hxA_HUesoOU?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-watermark-configuration-screen.png" class="screenshot">
 
 <p>您可以上传自己的PNG水印文件了。我们建议您使用透明背景的文件。在水印设置页面，您可以对水印的位置、水印的透明度进行调节和设置。Piwigo将自动刷新图片，以显示您的水印。</p>
 
@@ -129,15 +129,15 @@
 
 <h3 id="elegant">"典雅" - 全新的默认主题</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-albums.jpg" class="screenshot">
 
 <p>全新的默认主题 <em>"典雅 "</em>: 灰色，简洁设计，极少的边框。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-default-theme-elegant-album-thumbnails.jpg" class="screenshot">
 
 <p>只要简单地点击一下鼠标，即可显示或隐藏周边的滑动栏目。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-photo-properties-on-gallery.jpg" class="screenshot">
 
 <p>在照片页面中，也会有滑动栏目，显示访问者留言及照片信息。</p>
 
@@ -149,7 +149,7 @@
 
 <h3 id="applications">添加图片 - "应用" 页面</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-add-photos-applications.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-add-photos-applications.png" class="screenshot">
 
 <p><em>"Piwigo Uploader"</em> 页面已被 <em>"应用"</em> 页面所取代。 上传工具包括： pLoader， Piwigo Mobile for iOS/Android, iPhoto, Aperture, Lightroom, Shotwell, digiKam 以及 ReGalAndroid.</p>
 
@@ -161,19 +161,19 @@
 <iframe width="720" height="405" src="http://www.youtube.com/embed/laSD8JCn6gI?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-hidden-options.png" class="screenshot">
 
 <p>鼠标悬停在对应的相册名称上即可显示管理项等子功能。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-save-manual-order.png" class="screenshot">
 
 <p>当您手动向上或向下拖拽一个相册后，按钮<em> "保存手动排序"</em>  会随之显示出来。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-create-album.png" class="screenshot">
 
 <p>点击 <em>"创建一个新相册"</em> 将会显示出创建表格。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&amp;filename=piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-administration-album-redesign-automatic-sort.png" class="screenshot">
 
 <p>点击 <em>"应用自动排序"</em> 将会显示出排序选项。</p>
 
@@ -181,7 +181,7 @@
 
 <p>我们简化了管理页面。诸如： <em>照片排序</em> 或 <em>许可</em> 等属性被单独添加至专属标签中。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128846&filename=piwigo-2.4-album-permissions.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128846/piwigo-2.4-album-permissions.png" class="screenshot">
 
 <p>相册的“公开/私人”属性从相册属性页面移至此处。<em>"用户级分组"</em> 部分加入自动完成功能。</p>
 
@@ -191,11 +191,11 @@
 
 <p>对于每个缩略图，您都可以点击<em>放大</em> 和 <em>编辑</em> 按钮了。 点击<em>放大</em> 按钮，将会在窗口中打开M尺寸的图片。 点击<em>编辑</em> 按钮，则可转至图片管理页面编辑和设置已选定的图片。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=126782&filename=piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/126782/piwigo-2.40beta1-batch-manager-zoom-link.png" class="screenshot">
 
 <p>新增<em>移至相册</em> 选项。用以替代<em>关联至相册</em> + <em>与相册取消关联</em> 的选项。正如下图所示，您也可以在此直接创建相册了。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-batch-manager-move-photos.png" class="screenshot">
 
 <p>强化<em>隐私级别设置</em> 功能，包括增设复选框允许选择较低级的隐私级，这就可以允许拥有相应隐私级别的用户浏览该图片了。</p>
 
@@ -217,7 +217,7 @@
 
 <h3 id="photo_admin">图片管理页面 - 重新设计</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-photo-administration-screen-redesign.png" class="screenshot">
 
 <p>每张图片的管理页面都加入了新的元素：每个页面都有独立的表格。  用文字连接取代了图标，图片详情更新内容（数字标示符，浏览量，图片尺寸等)。</p>
 
@@ -225,7 +225,7 @@
 
 <h3 id="username">更改用户名</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-change-username.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-change-username.png" class="screenshot">
 
 <p>用户资料页面中，管理员可以改变任意用户的用户名。用户会收到E-mail 通知其变更信息。</p>
 
@@ -233,7 +233,7 @@
 
 <h3 id="notification">用户注册和E-mail通知</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=127519&filename=piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/127519/piwigo-2.4.0beta2-send-user-connection-settings-by-email.png" class="screenshot">
 
 <p>当有新用户注册或管理员创建了新的用户时，新用户将会自动收到相册地址发来的E-mail通知，其中包括用户的用户名和密码信息。</p>
 
@@ -241,7 +241,7 @@
 
 <h3 id="admin_menubar">管理菜单栏 - 重新设计</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-administration-menubar.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-administration-menubar.png" class="screenshot">
 
 <p>管理菜单栏已被重新设计并简化，加入图标并减少白色空格区域。</p>
 
@@ -249,7 +249,7 @@
 
 <h3 id="sort_comments">用户评论分类</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-comments-sort-order.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-comments-sort-order.png" class="screenshot">
 
 <p>您可以对用户的评论进行分类排序，按时间顺序排列：新到旧或旧到新。在相册集中，访问者可通过简单地点击来切换相应的排序选项。</p>
 
@@ -263,13 +263,13 @@
 
 <p><em>兴趣中心</em> 是指该图片中最具有意义的区域。如剪切过的图片 <em>"方形"</em> ， Piwigo 将会尽力保证兴趣中心的完整。默认状态下，兴趣中心设置为图片的中央部分。您可以通过拖拽来调整该区域的位置及大小。</p>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=129585&filename=piwigo-2.4-center-of-interest.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/129585/piwigo-2.4-center-of-interest.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ 返回至概览</a></div>
 
 <h3 id="sort_options">排序选项 - 重新设计</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=128192&filename=piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/128192/piwigo-2.4-new-sort-orders-labels.png" class="screenshot">
 
 <p>我们添加了一些全新的排序选项，如： <em>按图片标题排序</em> (原来仅有：按文件名排序) 且配有注视让选项一目了然。本设定在管理页面中可以找到，同时也会显示在相册边栏中。</p>
 

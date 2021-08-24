@@ -88,17 +88,17 @@
 
 <p>Qualsiasi utente con il livello "amministratore" può utilizzare pLoader, quindi si può utilizzare Piwigo come una galleria di foto di famiglia in modo semplice.</p>
 
-<p>Scaricare pLoader per <a class="internal" href="http://piwigo.org/ext/extension_view.php?eid=270">Windows®</a> e per <a class="internal" href="http://piwigo.org/ext/extension_view.php?eid=269">Linux Ubuntu</a>.</p>
+<p>Scaricare pLoader per <a class="internal" href="https://piwigo.org/ext/extension_view.php?eid=270">Windows®</a> e per <a class="internal" href="https://piwigo.org/ext/extension_view.php?eid=269">Linux Ubuntu</a>.</p>
 
 <h4>Sylvia, nuovo tema grafico di default</h4>
 
-<p>Nuovo tema grafico Sylvia con sfondo grigio scuro e decorazione floreale rosa. <a href="http://piwigo.org/forum/profile.php?id=3890">stripy</a> si è unito al team nel 2008 e ha lavorato sulla progettazione di questo nuovo tema per Piwigo.</p>
+<p>Nuovo tema grafico Sylvia con sfondo grigio scuro e decorazione floreale rosa. <a href="https://piwigo.org/forum/profile.php?id=3890">stripy</a> si è unito al team nel 2008 e ha lavorato sulla progettazione di questo nuovo tema per Piwigo.</p>
 
 <h4>9 Lingue</h4>
 
 <p>Questa volta, abbiamo collaborato con la comunità di traduzione prima del rilascio. Di conseguenza 9 lingue sono disponibili direttamente nella prima release (in ordine alfabetico): Deutsch (tedesco), English (inglese), Español (spagnolo), Français (francese), Hrvatski (croato), Italiano (italiano), Nederlands (olandese), Polski (polacco), Русский (russo).</p>
 
-<p>Altre arriveranno nelle prossime settimane e saranno disponibili in <a href="http://piwigo.org/ext">sezione estensioni del sito</a>.</p>
+<p>Altre arriveranno nelle prossime settimane e saranno disponibili in <a href="https://piwigo.org/ext">sezione estensioni del sito</a>.</p>
 
 <h4>Semplificata la sincronizzazione dei processi</h4>
 
@@ -219,7 +219,7 @@
 
 <p>Piwigo si trasforma in UTF-8 completo. Significa che abbiamo una semplificazione della gestione di codifica. Invece di gestire una codifica per ogni lingua disponibile, abbiamo una codifica unica, vale a dire UTF-8, per gestire tutti i caratteri esistenti. Nella stessa pagina, è possibile avere commenti in cinese, inglese, francese e russo.</p>
 
-<p>Se la tua galleria fotografica è a livello mondiale, i visitatori sapranno certamente impostare la lingua di interfaccia per la propria lingua. Con il plugin <a href="http://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a>, si può avere un titolo di categoria in diverse lingue. Ora, l'interfaccia e il contenuto può essere dipendente dal linguaggio.</p>
+<p>Se la tua galleria fotografica è a livello mondiale, i visitatori sapranno certamente impostare la lingua di interfaccia per la propria lingua. Con il plugin <a href="https://piwigo.org/ext/extension_view.php?eid=175">Extended Description</a>, si può avere un titolo di categoria in diverse lingue. Ora, l'interfaccia e il contenuto può essere dipendente dal linguaggio.</p>
 
 <h4>PHP 5</h4>
 
@@ -233,7 +233,7 @@
 
 <p>pLoader è stato reso possibile perché abbiamo aggiunto un nuovo metodo di web API: pwg.images.add. pLoader è <em>just</em> un client per questo metodo. Con pwg.images.add, nessun flusso di lavoro complesso per aggiungere foto (FTP + sincronizzazione), solo preparare le miniature (il che è abbastanza semplice sul lato client in qualsiasi linguaggio di programmazione) e chiamare pwg.images.add.</p>
 
-<p>Ci auguriamo che in futuro, la comunità proporrà uno script standalone, plugins integrati per applicazioni famose come <a href="http://en.wikipedia.org/wiki/GIMP">the Gimp</a>, <a href="http://en.wikipedia.org/wiki/Lightroom">Lightroom</a>, <a href="http://en.wikipedia.org/wiki/Apple_Aperture">Aperture</a> or <a href="http://en.wikipedia.org/wiki/DigiKam">digiKam</a>. Happy coding :-) e non esitate a venirne a discutere <a href="http://piwigo.org/forum">sul forum</a>.</p>
+<p>Ci auguriamo che in futuro, la comunità proporrà uno script standalone, plugins integrati per applicazioni famose come <a href="http://en.wikipedia.org/wiki/GIMP">the Gimp</a>, <a href="http://en.wikipedia.org/wiki/Lightroom">Lightroom</a>, <a href="http://en.wikipedia.org/wiki/Apple_Aperture">Aperture</a> or <a href="http://en.wikipedia.org/wiki/DigiKam">digiKam</a>. Happy coding :-) e non esitate a venirne a discutere <a href="https://piwigo.org/forum">sul forum</a>.</p>
 
 </div>
 </section>

@@ -105,7 +105,7 @@
 
 <h3 id="mail_themes">全新的邮件主题</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=147756&filename=piwigo-2.6-email-template.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147756/piwigo-2.6-email-template.png" class="screenshot">
 
 <p>Piwigo发出的邮件既可以使用简洁主题（如上）或黑色主题。邮件主题不再局限于相册主题。</p>
 
@@ -113,7 +113,7 @@
 
 <h3 id="stats_geo">定位访问者</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=143984&filename=piwigo-2.6-map-history.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/143984/piwigo-2.6-map-history.png" class="screenshot">
 
 <p>基于访问者的IP地址，可于[Administration - 管理> Tools - 工具> History - 历史> Search - 搜索] 页面使用Google地图找到访问者的大致位置。</p>
 
@@ -153,7 +153,7 @@
 
 <h3 id="number_tags">标签-Tags 及 评论计数</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=143984&filename=piwigo-2.6-menu-tags-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/143984/piwigo-2.6-menu-tags-comments.png" class="screenshot">
 
 <p>菜单栏中现可显示标签-Tags及评论的数量了。</p>
 
@@ -162,7 +162,7 @@
 
 <h3 id="comment_manager">回复评论管理</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=147347&filename=piwigo-2.6-comment-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147347/piwigo-2.6-comment-manager.png" class="screenshot">
 
 <p>崭新的回复评论管理页面将可以使你管理所有回复，包括已生效的评论内容。</p>
 
@@ -176,7 +176,7 @@
 
 <h3 id="edit_album">更新相册编辑</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=147347&filename=piwigo-2.6-album-edit-link.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147347/piwigo-2.6-album-edit-link.png" class="screenshot">
 
 <p>当管理子相册时，有了<em>"编辑此相册"</em> 的连接。</p>
 

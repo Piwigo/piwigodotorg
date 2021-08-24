@@ -78,7 +78,7 @@
 
 <p>Poprzednie wgrywanie plików przez użytkownika zostało całkowicie usunięte.</p>
 
-<p>Teraz powraca ono z powrotem za pomocą wtyczki <a target="_blank" href="http://piwigo.org/ext/extension_view.php?eid=303">Community</a> z rozszerzonym formularzem wgrywania, który znajdował się już w panelu administracyjnym : automatyczna zmiana rozmiaru, automatyczne tworzenie miniatur, automatyczne obracanie, wiele zdjęć za jednym razem, pasek postępu... Definiuj uprawnienia do wgrywania dla grupy lub użytkownika, z możliwością tworzenia pod-albumów lub nie oraz z zatwierdzaniem przez administratora lub nie.</p>
+<p>Teraz powraca ono z powrotem za pomocą wtyczki <a target="_blank" href="https://piwigo.org/ext/extension_view.php?eid=303">Community</a> z rozszerzonym formularzem wgrywania, który znajdował się już w panelu administracyjnym : automatyczna zmiana rozmiaru, automatyczne tworzenie miniatur, automatyczne obracanie, wiele zdjęć za jednym razem, pasek postępu... Definiuj uprawnienia do wgrywania dla grupy lub użytkownika, z możliwością tworzenia pod-albumów lub nie oraz z zatwierdzaniem przez administratora lub nie.</p>
 
 <p>1. administrator tworzy uprawnienia do wgrywania odpowiadając na następujące pytania:</p>
 <ul>
@@ -87,18 +87,18 @@
   <li>poziom zaufania? wysoki (natychmiastowa widoczność w galerii) lub niski (zdjęcia muszą być zatwierdzone)</li>
 </ul>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-01.png" class="screenshot">
 
 <p>2. jeżeli użytkownik posiada przynajmniej jedno z uprawnień, to do menu zostaje dodany link "Wgrywanie zdjęć". Jest to formularz wgrywania taki sam jak w panelu administracyjnym: automatyczna zmiana rozmiaru, automatyczne tworzenie miniatur, automatyczne obracanie, wiele zdjęć za jednym razem, pasek postępu...</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-02.png" class="screenshot">
 
 <p>Jeżeli użytkownik posiada niski poziom zaufania dla danego albumu, zdjęcia będą oczekiwać na zatwierdzenie. Administratorzy zostaną powiadomieni mail'owo.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-03.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-03.png" class="screenshot">
 
 <p>3. administratorzy otwierają ekran z oczekującymi zdjęciami i decydują które zdjęcia zatwierdzić, a które odrzucić. Administratorzy mogą także przed zatwierdzeniem edytować zdjęcia i albumy.</p>
-<img src="http://piwigo.org/screenshots/piwigo-2.2-user_upload_community-04.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-user_upload_community-04.png" class="screenshot">
 
 <h4 id="new_words">Zapomnij o "kategoriach", zapomnij o "elementach", "obrazach"</h4>
 
@@ -114,13 +114,13 @@
 
 <p>Jest kilka filtrów predefiniowanych jak "zdjęcia bez tagów" czy "duplikaty". Możesz także filtrować konkretny album, zawierając (lub nie) pod-albumy. Możesz uzywać wielu filtrów naraz, aby zredukować liczbę zdjęć w zestawie..</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step1.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step1.png" class="screenshot">
 
 <p><em>2) Wybierz</em></p>
 
 <p>Odfiltrowany zestaw pojawia się jako lista miniatur z check-box'em koło każdego zdjęcia, poziomem prywatności oraz dymkiem z tytułem zdjęcia. Możesz wybrać zdjęcia klikając je pojedynczo na miniaturach, lub użyć skrótów "wszystkie", "żadne", "odwróć". Piwigo pokaże Ci ile zdjęć zostało aktualnie wybranych ze wszystkich odfiltrowanych zdjęć, oznaczając je zielonym tłem.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png" class="screenshot">
 
 <p><em>3) Zastosuj akcję</em></p>
 
@@ -141,7 +141,7 @@
 
 <p>Każda akcja ma swoje parametry, a Piwigo wyświetla parametry tylko dla wybranych akcji, aby uczynić interfejs jak najbardziej przejrzystym.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-batch_manager_step3.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step3.png" class="screenshot">
 
 <h4 id="language_switch">37 języków i nowy przełącznik języków</h4>
 
@@ -149,29 +149,29 @@
 
 <p>Wtyczka do zmiany języków generuje <em>rozszerzone wyświetlanie</em>: w dodatkowych flagach, wyświetlamy nazwę języka.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-language_switch.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-language_switch.png" class="screenshot">
 
 <h4 id="sort_albums">Nowe opcje sortowania dla albumów</h4>
 
 <p>Administrator może automatycznie posortować albumy oraz pod-albumy za pomocą jednego kliknięcia.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_manual.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_manual.png" class="screenshot">
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_automatic.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-album_sorting_options_automatic.png" class="screenshot">
 
 
 <h4 id="resize_hd">Usuń lub zmień rozmiar swoich zdjęć wysokiej rozdzielczości</h4>
 
 <p>... w formularzu wgrywania (wymaga zainstalowanego ImageMagick na serwerze)</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-manage_high_definition.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-manage_high_definition.png" class="screenshot">
 
 
 <h4 id="photo_deletion">Uproszczone usuwanie zdjęć</h4>
 
 <p>Możliwość usuwania pojedynczych zdjęć z poziomu panelu administracyjnego.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-delete_single_photo.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-delete_single_photo.png" class="screenshot">
 
 <p>Tak jak każde inne zdjęcie, możesz teraz usuwać zdjęcia dodane podczas synchronizacji za pomocą kilku kliknięć bez potrzeby usuwania przy pomocy FTP oraz synchronizacji.</p>
 
@@ -179,9 +179,9 @@
 
 <p>W widoku kalendarza, tygodnie mogą się rozpoczynać od poniedziałku lub niedzieli - Ty decydujesz!</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_monday.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_monday.png" class="screenshot">
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_sunday.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-calendar_week_starts_on_sunday.png" class="screenshot">
 
 <h4 id="automatic_rotation">Automatyczne obracanie</h4>
 
@@ -199,22 +199,22 @@ $conf['local_dir_site'] = 'local_site2/';
 <h4 id="orphan_tags">Osierocone Tagi</h4>
 <p>Piwigo automatycznie wykryje osierocone tagi (jak tagi nie przypięte do żadnych zdjęć) i zaproponuje ich usunięcie przy pomocy jednego kliknięcia.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-orphan_tags.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-orphan_tags.png" class="screenshot">
 
 <h4 id="extension_updates">Automatyczna aktualizacja dla języków oraz tematów</h4>
 
 <p>Piwigo łączy się do katalogu piwigo.org i wyszukuje nowe wersje Twoich zainstalowanych tematów oraz języków. Tak samo Piwigo działa dla wtyczek. Następnie wyświetla listę dostępnych aktualizacji i musisz zdecydować co chcesz zaktualizować jednym kliknięciem.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-themes_update.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-themes_update.png" class="screenshot">
 
-<p>Przy okazji, wtyczka <a target="_blank" href="http://piwigo.org/ext/extension_view.php?eid=302">Automatyczna Aktualizacja Piwigo</a> (która wkrótce powinna być domyślnie instalowana), ma nowy interfejs użytkownika oraz możliwość instalacji wielu aktualizacji za jednym zamachem!</p>
+<p>Przy okazji, wtyczka <a target="_blank" href="https://piwigo.org/ext/extension_view.php?eid=302">Automatyczna Aktualizacja Piwigo</a> (która wkrótce powinna być domyślnie instalowana), ma nowy interfejs użytkownika oraz możliwość instalacji wielu aktualizacji za jednym zamachem!</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.2-autoupdate_extensions.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.2-autoupdate_extensions.png" class="screenshot">
 
 
 <h3>Funkcjonalności techniczne</h3>
 
-<p>Bardziej szczegółowa dokumentacja znajduje się pod tutaj: <a href="http://piwigo.org/doc/doku.php?id=en:dev:changes_in_2.2">Techniczne zmiany w Piwigo 2.2</a>. To jest tylko podsumowanie.</p>
+<p>Bardziej szczegółowa dokumentacja znajduje się pod tutaj: <a href="https://piwigo.org/doc/doku.php?id=en:dev:changes_in_2.2">Techniczne zmiany w Piwigo 2.2</a>. To jest tylko podsumowanie.</p>
 
 <h4 id="imagemagick">ImageMagick</h4>
 

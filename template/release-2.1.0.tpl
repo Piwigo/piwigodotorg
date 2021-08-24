@@ -73,7 +73,7 @@
 
 <p>As soon as Piwigo is installed on your website, you get a big and obvious message "I want to add photos" which goes to the new photo upload form.</p>
 
-<img src="http://piwigo.org/screenshots/210-no_photo_center.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-no_photo_center.png" class="screenshot">
 
 <p>The goal is to avoid the question "OK, Piwigo installed, how do I add photos now?".</p>
 
@@ -88,11 +88,11 @@
   <li>click on the transfer button and watch the upload progressing</li>
 </ol>
 
-<img src="http://piwigo.org/screenshots/210-uploadform-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-uploadform-01.png" class="screenshot">
 
 <p>Photos are automatically resized and thumbnails created.</p>
 
-<img src="http://piwigo.org/screenshots/210-uploadform-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-uploadform-02.png" class="screenshot">
 
 <h4 id="theme_manager">Theme manager</h4>
 
@@ -100,17 +100,17 @@
 
 <p>The theme manager is directly connected to piwigo.org theme directory. As soon as a theme is added by a community contributor, you can install it on your Piwigo installation.</p>
 
-<img src="http://piwigo.org/screenshots/210-themes_new.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-themes_new.png" class="screenshot">
 
 <p>Installed themes can be active or inactive. An inactive theme can't be selected by your users.</p>
 
 <p>With just 1 click, you can set a theme as default.</p>
 
-<img src="http://piwigo.org/screenshots/210-themes_installed.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-themes_installed.png" class="screenshot">
 
 <h4 id="languages">23 languages and 1 language manager</h4>
 
-<img src="http://piwigo.org/screenshots/210-languages.png" style="float:right">
+<img src="https://piwigo.org/screenshots/210-languages.png" style="float:right">
 <ul>
   <li>Brasil (Brazilian)</li>
   <li>Castellano (Argentinian)</li>
@@ -146,48 +146,48 @@
 <ul>
   <li>administration can be "dark" or "clear"</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-dark_clear.png">
+<img src="https://piwigo.org/screenshots/210-dark_clear.png">
 <ul>
   <li>header dedicated to quick links</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-admin_header.png">
+<img src="https://piwigo.org/screenshots/210-admin_header.png">
 <ul>
   <li>new organization for menu (dedicated section for plugins, pending comments get a dedicated menu item, synchronize screen move to the "tools" section, "advanced features" merged into <em>"maintenance"</em> screen)</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-menu.png">
+<img src="https://piwigo.org/screenshots/210-menu.png">
 <ul>
   <li>new design for plugin list management, 1 block = 1 status</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-plugin_list.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-plugin_list.png" class="screenshot">
 
 <p>New design for plugin installation screen.</p>
-<img src="http://piwigo.org/screenshots/210-plugin_available.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-plugin_available.png" class="screenshot">
 <ul>
   <li>new "widget" to manage tags on a photo</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-tags_widget.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-tags_widget.png" class="screenshot">
 <ul>
   <li>sort photos with drag & drop</li>
 </ul>
 
-<img src="http://piwigo.org/screenshots/210-drag_sort.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-drag_sort.png" class="screenshot">
 
 <h4 id="display_options">new customization options</h4>
 
 <p>New <strong>Admin > Configuration > Options > Display</strong> screen with many options to customize available features for users, and select photo properties to display.</p>
 
-<img src="http://piwigo.org/screenshots/210-display_options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-display_options.png" class="screenshot">
 
 <h4 id="related_tags">Improved "related tags" browsing</h4>
 
 <p>Even if you are not currently browsing a tag, Piwigo displays the related tags of the current photo set.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-01.png" class="screenshot">
 
 <p>We display a single link to display the <em>"tag1"</em> + <em>"tag2"</em> photo set.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-02.png" class="screenshot">
 
 <p>The more you add tags, the more it reduces the number of matching photos.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-03.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-03.png" class="screenshot">
 
 <h3>Technical Features</h3>
 

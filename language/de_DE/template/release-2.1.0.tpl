@@ -75,7 +75,7 @@
 
 <p>Sobald Piwigo auf Ihrer Website installiert wird, bekommen Sie eine große und nicht zu übersehende Nachricht "ich will Fotos hinzufügen", welches zum neuen Uploadformular direkt weiterführt.</p>
 
-<img src="http://piwigo.org/screenshots/210-no_photo_center.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-no_photo_center.png" class="screenshot">
 
 <p>Die Ziel ist, die Frage, "OK, Piwigo ist installiert, wie füge ich Fotos jetzt hinzu?".</p>
 
@@ -90,11 +90,11 @@
   <li>klicke auf den Ladebutton und schaue dem Computer beim hochladen zu</li>
 </ol>
 
-<img src="http://piwigo.org/screenshots/210-uploadform-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-uploadform-01.png" class="screenshot">
 
 <p>Fotos werden automatisch der Größe angepasst und die Thumbnails erstellt.</p>
 
-<img src="http://piwigo.org/screenshots/210-uploadform-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-uploadform-02.png" class="screenshot">
 
 <h4 id="theme_manager">Themenmanager</h4>
 
@@ -102,17 +102,17 @@
 
 <p>Der Themenmanager wird mit piwigo.org dem Themen-Verzeichnis direkt verbunden. Sobald ein Thema von einem Communitymitglied hinzugefügt wird, können Sie es in Ihrer Piwigo installieren.</p>
 
-<img src="http://piwigo.org/screenshots/210-themes_new.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-themes_new.png" class="screenshot">
 
 <p>Installierte Themen können aktiviert oder deaktiviert werden. Ein deaktiviertes Thema kann von Benutzern nicht ausgewählt werden.</p>
 
 <p>Mit nur einem Klick wird ein Thema als Standart festgelegt.</p>
 
-<img src="http://piwigo.org/screenshots/210-themes_installed.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-themes_installed.png" class="screenshot">
 
 <h4 id="languages">23 Sprachen und ein Sprachenmanager</h4>
 
-<img src="http://piwigo.org/screenshots/210-languages.png" style="float:right">
+<img src="https://piwigo.org/screenshots/210-languages.png" style="float:right">
 <ul>
   <li>Brasil (Brasilianisch)</li>
   <li>Castellano (Argentinisch)</li>
@@ -148,48 +148,48 @@
 <ul>
   <li>Die Administrationsoberfläche kann "dunkel" oder "hell" eingestellt werden</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-dark_clear.png">
+<img src="https://piwigo.org/screenshots/210-dark_clear.png">
 <ul>
   <li>Ein Link dazu ist direkt im Header</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-admin_header.png">
+<img src="https://piwigo.org/screenshots/210-admin_header.png">
 <ul>
   <li>die neue Organisation für das Menü (eigener Abschnitt für Plugins, wartende Kommentare bekommen auch einen eigenen, die Synchronisation wurde in den Abschnitt "Tools" verschoben, "Erweiterte Features" wurden in der <em> "Verwaltung" </em> verschmolzen.</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-menu.png">
+<img src="https://piwigo.org/screenshots/210-menu.png">
 <ul>
   <li>neues Design für die Pluginverwaltung, 1 Block = 1 Status</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-plugin_list.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-plugin_list.png" class="screenshot">
 
 <p>Neues Design für die Installation von Plugins.</p>
-<img src="http://piwigo.org/screenshots/210-plugin_available.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-plugin_available.png" class="screenshot">
 <ul>
   <li>neues "Widget" um zugehörige Tags für ein Foto zu verwalten</li>
 </ul>
-<img src="http://piwigo.org/screenshots/210-tags_widget.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-tags_widget.png" class="screenshot">
 <ul>
   <li>Sortiere Fotos per Drag & Drop (anklicken, ziehen, fallenlassen)</li>
 </ul>
 
-<img src="http://piwigo.org/screenshots/210-drag_sort.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-drag_sort.png" class="screenshot">
 
 <h4 id="display_options">neue Anpassungsoptionen</h4>
 
 <p>Neu <strong>Administrator > Konfiguration > Optionen > Anzeige</strong> Seite mit vielen Optionen um verfügbare Features für Benutzer, und ausgesuchte Foto-Eigenschaften anzuzeigen.</p>
 
-<img src="http://piwigo.org/screenshots/210-display_options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-display_options.png" class="screenshot">
 
 <h4 id="related_tags">Verbessertes "ähnliche Tags" durchsuchen</h4>
 
 <p>Selbst wenn Sie einn Tag zurzeit nicht durchsuchen, zeigt Piwigo die zusammenhängenden Tags der gegenwärtigen Fotoauswahl.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-01.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-01.png" class="screenshot">
 
 <p>Wir zeigen einen einzelnen Link, um <em> "Tag1" </em> + <em> "Tag2" </em> in der Fotozusammenstellung anzuzeigen.</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-02.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-02.png" class="screenshot">
 
 <p>Je mehr Sie Tags hinzufügen, desto mehr reduziert es die Anzahl ähnlicher Bilder</p>
-<img src="http://piwigo.org/screenshots/210-related_tags-03.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/210-related_tags-03.png" class="screenshot">
 
 <h3>Technische Features</h3>
 

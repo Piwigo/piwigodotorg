@@ -79,7 +79,7 @@
 <section class="container">
 <h3 id="user_comments">用户评价： 加入Email 及 网站</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-email-website-user-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-email-website-user-comments.png" class="screenshot">
 
 <p>在客户评价时可填入Email及网址。不过默认情况下，这两个输入框为非必输项。</p>
 
@@ -87,7 +87,7 @@
 
 <h3 id="tag_duplication">Tag复制</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-duplicate-tag.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-duplicate-tag.png" class="screenshot">
 
 <p>在页面中 [后台管理 > 图片 > 标签] 中， 你可以复制Tags。 Piwigo 可同时复制Tag于图片的关联关系。</p>
 
@@ -95,7 +95,7 @@
 
 <h3 id="pagination_album">页面显示相册数</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=136821&filename=piwigo-2.5-pagination-on-albums.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136821/piwigo-2.5-pagination-on-albums.png" class="screenshot">
 
 <p>相册分页的设置与缩略图分页类似。您可以通过更改每个浏览页面的照片显示数量 [管理页面 > 设置 > 选项 > 显示]来进行设置.</p>
 
@@ -103,7 +103,7 @@
 
 <h3 id="filter_dimensions">批量管理：元素过滤</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-batch-manager-filter-on-dimensions-slider.png" class="screenshot">
 
 <p>在批量管理中，你可以选择过滤图片元素（宽度，高度及比例）。我们同时针对某些特殊比例加入了 <em>快速链接</em>：</p>
 <ul>
@@ -117,7 +117,7 @@
 
 <h3 id="group_manager">群组管理</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-group-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-group-manager.png" class="screenshot">
 
 <p>Piwigo 提升了群组管理的性能。就像图片批量管理器，现在用户可以同时给多个组添一个动作。 通过全新的群组管理器，可将组合并或复制。 </p>
 
@@ -125,7 +125,7 @@
 
 <h3 id="icons">更漂亮的图标</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-icons.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-icons.png" class="screenshot">
 
 <p>Elegant主题默认图标现在更佳美观了。图标源自 <a href="http://www.entypo.com" target="_blank">Entypo pictograms by Daniel Bruce</a> 及  <a href="http://typicons.com/" target="_blank">Typicons by Stephen Hutchings</a>。</p>
 
@@ -133,7 +133,7 @@
 
 <h3 id="oauth">可登陆 Facebook, Google, OpenID...</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=140306&filename=oAuth.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/oAuth.png" class="screenshot">
 
 <p>使用全新的oAuth插件，现在你的访问者可以通过 ：Google, Facebook, OpenID, Instagram, LinkedIn, Tumblr, Twitter, Windows Live, Flickr, Wordpress 及 Yahoo 来进行登录啦！</p>
 
@@ -141,7 +141,7 @@
 
 <h3 id="loading_image">上传中可看临时图片</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=139769&filename=piwigo-2.5-multiple-size-loading.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/139769/piwigo-2.5-multiple-size-loading.png" class="screenshot">
 
 <p>自从 Piwigo 2.4 升级后。可能在查看缩略图时缩略图不可用，因为Piwigo要生成后才可显示。而升级至Piwigo 2.5以后，若无缩略图，Piwigo将会显示一个默认的图标。当缩略图生成之后即可替换现有默认图片，无需重新加载页面。</p>
 
@@ -155,7 +155,7 @@
 
 <h3 id="physical_albums">实际 Vs 虚拟相册</h3>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=137271&filename=piwigo-2.5-physical-album.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/137271/piwigo-2.5-physical-album.png" class="screenshot">
 
 <p>相册列表中，你可以很容易地查看到这些实际相册 (实际相册 = 创建在 FTP 目录下)。</p>
 
@@ -185,7 +185,7 @@
 
 <h4 id="api_explorer">全新网页 API 浏览器</h4>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=136482&filename=piwigo-2.5-new-web-api-explorer.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/136482/piwigo-2.5-new-web-api-explorer.png" class="screenshot">
 
 <p>全新网页 API 浏览器有了全新的视觉体验。可通过网页浏览器打开，在Piwigo上安装tools/ws.htm</p>
 
@@ -203,7 +203,7 @@
 
 <h4 id="flags_sprite">国旗图标</h4>
 
-<img src="https://piwigo.org/forum/showimage.php?pid=140306&filename=flag_sprite.jpg" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/140306/flag_sprite.jpg" class="screenshot">
 
 <p>在语言切换按钮中，配合CSS控制，现在所有旗帜均在一个图片中显示了。取代了先前51个国旗51个图，51次HTTP请求的方式。</p>
 

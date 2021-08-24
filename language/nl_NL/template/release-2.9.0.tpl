@@ -79,11 +79,11 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 <section class="container">
 <h3 id="design">Modern design</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png" class="screenshot">
 
 <p>Hier gaan we met de grootste verandering op 2.9: design! Donkere koptekst, voettekst en menubalk. Minder grenzen. Gloednieuwe startpagina van de administratie, genaamd "Dashboard", met grote pictogrammen voor snelle toegang tot hoofdpagina's.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-redesigned.png" class="screenshot">
 
 <p>Piwigo 2.9 wordt geleverd met een gemoderniseerde Batch Manager: pictogrammen voor checkboxes, specifieke veldscheider (alleen op deze pagina, wachten op gebruikersfeedback), nieuwe kleuren voor de miniaturen van de geselecteerde miniatuur (donkergrijs) en "onder de cursor" (Piwigo oranje).</p>
 
@@ -93,13 +93,13 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 
 <p>Wanneer een nieuwe versie wordt vrijgegeven, zal uw Piwigo u per e-mail op de hoogte stellen.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-email-new-version.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>
 
 <h3 id="tag_manager">Tag manager, selectie mode</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-tag-manager-selection-mode.gif" class="screenshot">
 
 <p>De tag manager heeft nu een aparte selectie modus, om acties in batch aan te passen.</p>
 
@@ -108,7 +108,7 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 
 <h3 id="deletion">Album verwijderen</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-album-deletion-options.png" class="screenshot">
 
 <p>Bij het verwijderen van een album met foto's, zal Piwigo u nu vragen wat u wilt doen met foto's die aan het album zijn gekoppeld.</p>
 
@@ -117,7 +117,7 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 
 <h3 id="passgen">Wachtwoordgenerator</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-password-generator.gif" class="screenshot">
 <p>Het gebruikersformulier heeft nu een wachtwoordgenerator. Het zal sterke en veilige wachtwoorden creëren, omdat ze willekeurig zijn.</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>
@@ -125,10 +125,10 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 
 <h3 id="deleteblocks">Verwijder foto's per groep</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-delete-orphans.gif" class="screenshot">
 <p>Het verwijderen van duizenden foto's tegelijk werkt niet altijd goed, dus we hebben een functie toegevoegd om verweesde foto's op te ruimen.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-batch-manager-delete-progress.png" class="screenshot">
 <p>... en we hebben ook een equivalent voor "elke foto" geïmplementeerd.</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>
@@ -136,14 +136,14 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 
 <h3 id="duplicates">Duplicaten op checksum</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-duplicates-on-checksum.png" class="screenshot">
 <p>In de Batch Manager, kunnen nu ook duplicaat foto's worden gezocht (op checksum).</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>
 
 <h3 id="quicksearch">Snel zoeken op albums</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-quick-search-albums.png" class="screenshot">
 <p>De snel zoeken optie toont nu ook albums (zoals in Piwigo 2.6 en eerder)</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>
@@ -151,7 +151,7 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 
 <h3 id="downloadlink">Download link</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-admin-download-link.png" class="screenshot">
 <p>Een nieuwe download link is beschikbaar op de eigenschappen pagina van een foto.</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>
@@ -159,7 +159,7 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 
 <h3 id="editquicklink">Album bewerken, extra link</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-edit-album-quicklink.png" class="screenshot">
 <p>Direct na het maken van een nieuw album kun je met een klik door om deze te wijzigen.</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>
@@ -167,14 +167,14 @@ Ontwerp is belangrijk. Dit is wat de recente gebruikers test sessies duidelijk o
 
 <h3 id="rate">Filter ratings op album</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-rates-filter-album.png" class="screenshot">
 <p>Op de ratings beheerpagina kun je nu ook filteren op album.</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>
 
 <h3 id="display_options">Nieuwe weergaveopties</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.9-display-options.png" class="screenshot">
 <p>On page [Beheer > Configuratie > Opties > Weergeven] zijn vinkvakjes toegevoegd voor 'Fotogroottes', 'Foto aanpassen' en 'Voeg toe aan het verzamelmandje'.</p>
 
 <div class="back_overview"><a href="#overview">↑ terug naar boven</a></div>

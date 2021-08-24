@@ -90,7 +90,7 @@
   <li>szczegółowe informacje (autor, wersja, opis) są domyślnie ukryte, co w rezultacie daje bardziej przejrzysty wygląd</li>
 </ol>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo230beta1_01_plugin_manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_01_plugin_manager.png" class="screenshot">
 
 <p>Kolejna mała zmiana: tylko <em>webmasterzy</em> mogą aktywować/deaktywować wtyczki. Status <em>administrator</em> nie jest wystarczający.</p>
 
@@ -100,7 +100,7 @@
 
 <p>Wgrywanie zostało mocno usprawnione. Spośród widocznych usprawnień, dostaniesz prostszy wybór albumu, maksymalny rozmiar pliku i rozmiary wyświetlane są zanim wybierzesz zdjęcia, przycisk wyboru jest teraz przetłumaczony na wszystkie języki, pasek postępu dla całego wgrywania, i ostatnie ale niemniej ważne - zdjęcia są wyświetlane jak tylko zostaną wgrane.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-upload-form.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-upload-form.png" class="screenshot">
 
 <p>Silnik systemu wgrywania został trochę zmieniony: zamiast ustawienia prywatności i albumu gdy zostaną wgrane wszystkie zdjęcia, Piwigo 2.3 ustawia prywatnść i album dla każdego zdjęcia od razu po jego wgraniu. Rezultat: nigdy więcej "osieroconych" zdjęć w przypadku gdy wgranie jednego zdjęcia się nie powiedzie przy dużej paczce wgrywania.</p>
 
@@ -118,7 +118,7 @@
 
 <p>Zintegrowaliśmy wtyczkę <em>Piwigo AutoAktualizacji</em> z Piwigo. Możesz znaleźć ją na ekranie [Administracja > Narzędzia > Aktualizacje]. Możesz aktualizować Piwigo raz jego rozszerzenia (wtyczki, tematy i języki).</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo230beta1_02_updates.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_02_updates.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
 
@@ -126,7 +126,7 @@
 
 <p>Podpowiedzi na miniaturach zostały całkowicie zmienione, tak jak tekst alternatywny (atrybut "alt" w html), w celu usprawnienia wyszukiwania i zapewnienia większej ilości informacji dla odwiedzająych.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-tooltip-on-thumbnail.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-tooltip-on-thumbnail.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
 
@@ -134,7 +134,7 @@
 
 <p>Tytuł galerii może być automatycznie wykorzystany jako nagłówek strony. Proste i przekonujące.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-gallery_title-in-page-banner.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-gallery_title-in-page-banner.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
@@ -143,7 +143,7 @@
 
 <p>Funkcjonalność "zapomniane hasło" zostałą przepisana od nowa. Nowa funkcjonalność pozwala administratorom resetować ich hasła bez potrzeby bezpośrendiego dostępu do bazy danych.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-lost-password-redesigned.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-lost-password-redesigned.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
@@ -152,7 +152,7 @@
 
 <p>Pasek menu jest widoczny na wszystkich stronach , włączając w to tagi, profile, komentarze i stronę rejestracji.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo230beta1_04_menubar_on_all_pages.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_04_menubar_on_all_pages.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
@@ -161,7 +161,7 @@
 
 <p>Możesz scalić tagi bez utraty powiązania ze zdjęciami.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-merge-tags.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-merge-tags.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
@@ -170,11 +170,11 @@
 
 <p>Możliwość ponownego wygenerowania miniatur oraz zdjęć o rozmiarach www została dodana do Menadżera Wsadowego.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo-2.3-regenerate-websize-configure.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo-2.3-regenerate-websize-configure.png" class="screenshot">
 
 <p>Podczas generowania zdjęcia o rozmiarach www, Piwigo stworzy go domyślnie ze zdjęcia w wersji HD (wysokiej rozdzielczości). W przypadku gdy zdjęcia HD nie istnieją, a aktualny rozmiar zdjęcia jest większy niż rozmiary www, Piwigo potraktuje go jako HD i zmniejszy rozmiar na jego podstawie.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo-2.3-regenerate-websize-processing.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo-2.3-regenerate-websize-processing.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
 
@@ -182,7 +182,7 @@
 
 <p>Do Menadżera Wsadowego została dodana możliwość kadrowania miniatur. Możesz tworzyć kwadratowe lub szerokie miniatury bez przymusu instalacji wtyczek.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=122461&filename=piwigo230beta1_03_crop_thumbnails.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/122461/piwigo230beta1_03_crop_thumbnails.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
 
@@ -190,7 +190,7 @@
 
 <p>Możesz teraz zarządzać domyślną kolejnością sortowania swoich zdjęć bez pisania jakiegokolwiek kodu SQL (Zaawansowani użytkownicy: w dalszym ciągu możecie nadpisać parametry plikiem konfiguracji lokalnej)</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=123204&filename=piwigo-2.3.0beta2-default_sort_order_user_interface.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3.0beta2-default_sort_order_user_interface.png" class="screenshot">
 
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
@@ -199,7 +199,7 @@
 
 <p>Możesz zastosować uprawnienia do głównego albumu (na przykład, <em>Imprezy</em>) do pod-albumów (<em>Imprezy / Święta 2011</em> oraz <em>Imprezy / Szczęśliwego Nowego Roku 2012</em>).</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=124400&filename=piwigo-230RC1-permissions-on-subalbums.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/124400/piwigo-230RC1-permissions-on-subalbums.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
 
@@ -207,7 +207,7 @@
 
 <p>Jeżeli aktywujesz wtyczkę Edytor Plików Lokalnych, dla każdego tematu zostanie wyświetlony nowy linka - <em>CSS</em>. Otwiera on w Edytorze Plików Lokalnych odpowiedni plik CSS.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=123204&filename=piwigo-2.3.0beta2-CSS-shortcut.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3.0beta2-CSS-shortcut.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
 
@@ -215,11 +215,11 @@
 
 <p>Czy Twoja galeria jest dostępna w angielskim, hiszpańskim, niemieckim? Prawie wszystkie labelki są wielojęzykowe z wykorzystaniem wtyczki <em>Opisy Rozszerzone</em>, z opisem zdjęć, nazwą albumu a także nagłówkiem strony. Teraz także możesz mieć wielojęzykowe tagi.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=123204&filename=piwigo-2.3-multilanguage-tags-create.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3-multilanguage-tags-create.png" class="screenshot">
 
 <p>Wszystkie wielojęzykowe tagi pojawiają się także na liście auto-uzupełniania podczas dodawania tagów do zdjęć.</p>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=123204&filename=piwigo-2.3-multilanguage-tags-add.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/123204/piwigo-2.3-multilanguage-tags-add.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑ powrót do opisu</a></div>
 
@@ -241,11 +241,11 @@
 
 <p>W porównaniu do Piwigo 2.2,jest 6 nowych języków: Afrikaans, Български (bułgarski), Eesti (estoński), Ελληνικά (grecki), 한국어 (koreański) , ภาษาไทย (tajski).</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.3-new-languages.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.3-new-languages.png" class="screenshot">
 
-<p>To wielki sukces naszego zespołu tłumaczącego. Dodatkowo poza nowymi językami, wprowadziliśmy nowe <a href="http://piwigo.org/translate" target="_blank">narzędzie do tłumaczenia online</a> stworzone przez naszego najnowszego (i najmłodszego) członka zespołu, mistic100.</p>
+<p>To wielki sukces naszego zespołu tłumaczącego. Dodatkowo poza nowymi językami, wprowadziliśmy nowe <a href="https://piwigo.org/translate" target="_blank">narzędzie do tłumaczenia online</a> stworzone przez naszego najnowszego (i najmłodszego) członka zespołu, mistic100.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-translate-chinese.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-translate-chinese.png" class="screenshot">
 
 <div class="back_overview"><a href="#overview">↑  powrót do opisu</a></div>
 

@@ -55,7 +55,7 @@
   <section class="container-fluide container-fluide-techs-view">
     <div class="container">
       <div class="row text-center">
-        <p>{'porg_changelogs_technicals_desc1'|translate:'http://piwigo.org/doc/doku.php?id=about:release_and_branchs'}</p>
+        <p>{'porg_changelogs_technicals_desc1'|translate:'https://piwigo.org/doc/doku.php?id=about:release_and_branchs'}</p>
       </div>
     </div>
   </section>

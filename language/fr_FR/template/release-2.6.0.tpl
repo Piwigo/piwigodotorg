@@ -77,7 +77,7 @@
 <section class="container">
 <h3 id="mobile_theme">Améliorations du thème mobile</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-mobile-new-features.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-mobile-new-features.png" class="screenshot">
 
 <p>Le thème mobile SmartPocket acquiert de nombreuses nouvelles fonctionnalités : barre de menu complète, page de recherche, page de tags, nouvelle disposition des miniatures et une page complète pour chaque photo avec les commentaires, les propriétés détaillées et les notes.</p>
 
@@ -85,7 +85,7 @@
 
 <h3 id="user_manager">Nouveau gestionnaire d'utilisateurs</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-user-manager.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-user-manager.png" class="screenshot">
 
 <p>Le gestionnaire d'utilisateurs a été entièrement réécrit. Entièrement en javascript/AJAX pour des actions plus rapides : ajout d'utilisateur, édition de chaque utilisateur individuellement ou par lot.</p>
 
@@ -93,11 +93,11 @@
 
 <h3 id="admin_tools">Plugin Admin Tools</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-admin-tools-bar.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-admin-tools-bar.png" class="screenshot">
 
 <p>Le nouveau plugin Admin Tools colle une barre d'outil en haut de chaque page de la galerie : liens rapide vers les sections de l'administration, formulaire d'édition rapide des photos et albums, des boutons "ajouter au panier", "représentante" ou "supprimer" et des outils de développements (identiques au plugin MultiView).</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-admin-tools-quick-edit.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-admin-tools-quick-edit.png" class="screenshot">
 
 <p>Le formulaire d'édition rapide s'ouvre sur la galerie (et non dans l'administration) pour appliquer facilement des changements à vos photos et albums. Il permet aussi aux non-administrateurs d'éditer et supprimer leurs propres photos (ajoutées grâce au plugin Community)</p>
 
@@ -105,7 +105,7 @@
 
 <h3 id="mail_themes">Nouveaux thèmes d'email</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=147756&filename=piwigo-2.6-email-template.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147756/piwigo-2.6-email-template.png" class="screenshot">
 
 <p>Les emails envoyés par Piwigo peuvent utiliser soit le thème clair (comme ci-dessus) soit le thème foncé. Le thème d'email devient indépendant du thème de la galerie.</p>
 
@@ -113,7 +113,7 @@
 
 <h3 id="stats_geo">Geolocalisation des visiteurs</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=143984&filename=piwigo-2.6-map-history.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/143984/piwigo-2.6-map-history.png" class="screenshot">
 
 <p>Grâce à leur adresse IP, géolocalisez vos visiteurs sur la page [Administration > Outils > Historique > Recherche] avec une carte Google map (optionnelle).</p>
 
@@ -121,7 +121,7 @@
 
 <h3 id="group_manager">Nouveautés pour le gestionnaire de groupes</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-group-manager.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-group-manager.png" class="screenshot">
 
 <p>Nouvelle organisation du gestionnaire de groupes, inspirée du gestionnaire par lot des photos.</p>
 
@@ -130,7 +130,7 @@
 
 <h3 id="admin_icons">Nouvelles icônes administration</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-admin-icons.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-admin-icons.png" class="screenshot">
 
 <p>Nouvelles icônes dans la barre d'administration et icônes pour les sous-menus. De nombreux onglets et liens sont maintenant illustrés d'une icônes. Les icônes sont affichées grâce au <a href="http://fontello.com">système Fontello</a> avec les collections <em>Font Awesome</em>, <em>Entypo</em>, <em>Iconic</em>, <em>Elusive</em> and <em>MFG Labs</em>. Les icônes sont compatibles avec les écrans à haute densité de pixel comme Retina et les smartphones modernes : quelque soit le niveau de zoom, les icônes restent nettes.</p>
 
@@ -138,7 +138,7 @@
 
 <h3 id="tag_filter">Filtre de tags</h3>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-admin-tag-filter.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-admin-tag-filter.png" class="screenshot">
 
 <p>Nouveau champ texte pour le filtrage sur la page d'administration des tags.</p>
 
@@ -153,7 +153,7 @@
 
 <h3 id="number_tags">Nombre de tags et de commentaires</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=143984&filename=piwigo-2.6-menu-tags-comments.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/143984/piwigo-2.6-menu-tags-comments.png" class="screenshot">
 
 <p>Le nombre de tags et de commentaires et affiché dans la barre de menu de la galerie.</p>
 
@@ -162,7 +162,7 @@
 
 <h3 id="comment_manager">Gestionnaire de commentaires</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=147347&filename=piwigo-2.6-comment-manager.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147347/piwigo-2.6-comment-manager.png" class="screenshot">
 
 <p>Le nouveau gestionnaire de commentaires utilisateur vous permet de gérer tous les commentaires, même ceux déjà validés.</p>
 
@@ -176,11 +176,11 @@
 
 <h3 id="edit_album">Editeur d'album amélioré</h3>
 
-<img src="http://piwigo.org/forum/showimage.php?pid=147347&filename=piwigo-2.6-album-edit-link.png" class="screenshot">
+<img src="https://piwigo.org/forum/uploads/147347/piwigo-2.6-album-edit-link.png" class="screenshot">
 
 <p>Nouveau lien <em>"éditer cet album"</em> lorsque vous gérez les sous-albums.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-add-photos-to-album.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-add-photos-to-album.png" class="screenshot">
 
 <p>Nouveau lien <em>"ajouter des photos"</em> sur la page d'édition de l'album, qui vous amène sur la page d'ajout de photo avec l'album préselectionné.</p>
 
@@ -190,10 +190,10 @@
 
 <p>Les thèmes Elegant et SmartPocket gagne une page d'administration.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-elegant-config.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-elegant-config.png" class="screenshot">
 <p>Vous pouvez configurer le comportement des panneaux du thème Elegant.</p>
 
-<img src="http://piwigo.org/screenshots/piwigo-2.6-smartpocket-config.png" class="screenshot">
+<img src="https://piwigo.org/screenshots/piwigo-2.6-smartpocket-config.png" class="screenshot">
 <p>Vous pouvez configurer le comportement de l'affichage et des diaporamas du thème mobile SmartPocket.</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au survol</a></div>
@@ -205,20 +205,20 @@
 
 <h3 id="language">56 langues</h3>
 
-<p>Piwigo 2.6.0 ajoute l'anglais américain, qui est légèrement différent de l'anglais britannique (n'est-il pas ?). 45 langues ont été mises à jour. Votre participation est la bienvenue sur <a href="http://piwigo.org/translate">notre outil de traduction en ligne</a> pour de nouvelles langues, des améliorations et les nouvelles phrases à traduire.</p>
+<p>Piwigo 2.6.0 ajoute l'anglais américain, qui est légèrement différent de l'anglais britannique (n'est-il pas ?). 45 langues ont été mises à jour. Votre participation est la bienvenue sur <a href="https://piwigo.org/translate">notre outil de traduction en ligne</a> pour de nouvelles langues, des améliorations et les nouvelles phrases à traduire.</p>
 
 <div class="back_overview"><a href="#overview">↑ retour au survol</a></div>
 
 <h3>Fonctionnalités pour les développeurs</h3>
 
-<p>Merci de noter qu'une documentation détaillée est disponible <a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6">Technical changes in Piwigo 2.6</a> (en anglais, plutôt américain que britannique). Merci de la lire avec attention pour rendre vos extensions compatibles.</p>
+<p>Merci de noter qu'une documentation détaillée est disponible <a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6">Technical changes in Piwigo 2.6</a> (en anglais, plutôt américain que britannique). Merci de la lire avec attention pour rendre vos extensions compatibles.</p>
 
-<h4 id="smarty_3">Smarty 3 <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#smarty_3">détails</a>)</small></h4>
+<h4 id="smarty_3">Smarty 3 <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#smarty_3">détails</a>)</small></h4>
 
 <p>Smarty, notre système de template, a été mis à jour en version 3. Son utilisation reste la même mais quelques nouvelles fonctionnalités bien cool font leur apparition, en particulier plus besoin d'utiliser <code>&#123;literal&#125;</code> ou <code>&#123;ldelim&#125;</code> lorsque vous écrivez du Javascript ou du CSS.<br>
 Nous avons aussi ajouté le "modifier" <code>translate_dec</code> pour remplacer <code>$pwg->l10n_dec</code>.</p>
 
-<h4 id="l10n">Fonctions de traduction <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#l10n_translate_sprintf">détails</a>)</small></h4>
+<h4 id="l10n">Fonctions de traduction <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#l10n_translate_sprintf">détails</a>)</small></h4>
 
 <p>La fonction <code>l10n</code> a été améliorée: on peut fournir un paramètre supplémentaire qui sera utilisé pour faire un <code>sprintf</code> sur la chaîne; la même amélioration s'applique sur le "modifier" de template <code>translate</code>.</p>
 
@@ -227,7 +227,7 @@ Nous avons aussi ajouté le "modifier" <code>translate_dec</code> pour remplacer
 
 <p>Les WebServices ont été considérablement améliorés avec cette version. Les changements principaux sont :</p>
 
-<h5>Nouvelles méthodes <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_api_methods">détails</a>)</small></h5>
+<h5>Nouvelles méthodes <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_api_methods">détails</a>)</small></h5>
 <ul>
   <li>pwg.groups.add</li>
   <li>pwg.groups.addUser</li>
@@ -244,12 +244,12 @@ Nous avons aussi ajouté le "modifier" <code>translate_dec</code> pour remplacer
   <li>pwg.permissions.remove</li>
 </ul>
 
-<h5>Nouvelles options <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_options_for_api_methods">détails</a>)</small></h5>
+<h5>Nouvelles options <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_options_for_api_methods">détails</a>)</small></h5>
 <p> Chaque paramètre peut être défini avec un <code>type</code> qui sera vérifié par le contrôleur des webservices (plus besoin de faire cette vérification dans le code de la fonction). Les types disponibles sont : <code>WS_TYPE_BOOL, WS_TYPE_INT, WS_TYPE_FLOAT, WS_TYPE_POSITIVE, WS_TYPE_NOTNULL, WS_TYPE_ID</code>.</p>
 
 <p>La fonction <code>PwgServer::addMethod</code> peut prendre 6 paramètres, un tableau d'options booléenne : <code>hidden, admin_only, post_only</code>.</p>
 
-<h4 id="email">Moteur d'email <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_email_system">détails</a>)</small></h4>
+<h4 id="email">Moteur d'email <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#new_email_system">détails</a>)</small></h4>
 
 <p>Les fonctions d'envoi d'email ont été réécrites pour une meilleure compatibilité avec les clients de messagerie et davantage de possibilités pour les développeurs de plugins.<br>
 
@@ -257,7 +257,7 @@ Nous utilisons la librairie PHPMailer pour toutes les opérations techniques et 
 
 De plus, le nouveau moteur d'email supporte les connexion sécurisées pour SMPT (SSL/TLS).</p>
 
-<h4 id="gps">Métadonnées GPS <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#gps_metadata">détails</a>)</small></h4>
+<h4 id="gps">Métadonnées GPS <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#gps_metadata">détails</a>)</small></h4>
 
 <p>Piwigo 2.6 synchronisera systématiquement les métadonnées GPS (latitude et longitude) si la synchronisation des EXIF est activée (ce qui est le cas par défaut). Ces métadonnées sont stockées dans la table piwigo_images, non utilisées dans le "core" mais disponible pour n'importe quel plugin.</p>
 
@@ -265,7 +265,7 @@ De plus, le nouveau moteur d'email supporte les connexion sécurisées pour SMPT
 
 <p>Le système de traduction a été amélioré avec le principe de "langue de secours", qui permet de définir une langue comme "fille" d'une autre. Par exemple le québecois est "fille" du français.</p>
 
-<h4 id="jquery">Librairies Javascript mises à jour <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#jquery_19">détails</a>)</small></h4>
+<h4 id="jquery">Librairies Javascript mises à jour <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#jquery_19">détails</a>)</small></h4>
 
 <p>jQuery a été mis à jour en version 1.10.2, les changements majeurs sont décrits sur <a href="http://jquery.com/upgrade-guide/1.9/">le site de jQuery</a>.</p>
 
@@ -279,26 +279,26 @@ De plus, le nouveau moteur d'email supporte les connexion sécurisées pour SMPT
 
 <h3 id="plugin_creation">Améliorations pour les créateurs de plugins</h3>
 
-<h4 id="new_section">Meilleur support des sections publiques <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#generic_template_for_custom_pages">détails</a>)</small></h4>
+<h4 id="new_section">Meilleur support des sections publiques <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#generic_template_for_custom_pages">détails</a>)</small></h4>
 
 <p>Nouveau système plus simple et propre pour ajouter une page sur le côté public de Piwigo: déclarez <code>$page['is_external']=true;</code>  et assignez le contenu de votre page à la variable de template <code>$CONTENT</code>. Les créateurs de template doivent afficher cette variable dans <code>index.tpl</code>.</p>
 
-<h4 id="maintenance_class">Nouvelle classe de maintenance <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:extensions:plugins#plugin_maintenance">détails</a>)</small></h4>
+<h4 id="maintenance_class">Nouvelle classe de maintenance <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:extensions:plugins#plugin_maintenance">détails</a>)</small></h4>
 
 <p>Afin d'éviter les conflits de nom, nous avons créé l'interface <code>PluginMaintain</code>. Elle permet de définir les fonctions de maintenance d'un plugin (dans le fichier <code>maintain.inc.php</code>).<br>
 La même interface existe pour les thèmes : <code>ThemeMaintain</code>.</p>
 
-<h4 id="trigger_name">Fonction trigger renommées <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#triggers_functions">détails</a>)</small></h4>
+<h4 id="trigger_name">Fonction trigger renommées <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#triggers_functions">détails</a>)</small></h4>
 
 <p>Nous avons décidé de renommer <code>trigger_event</code> et <code>trigger_action</code> car trop peu explicites. Elles deviennent <code>trigger_change</code> et <code>trigger_notify</code>. Piwigo 2.6 reste compatible avec les anciens noms mais ils disparaîtront avec Piwigo 2.7. Aucun changement pour la fonction <code>add_event_handler</code> qui "attrape" ces évènements.</p>
 
-<h4 id="template_cssjs">Template pour CSS et JS <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#css_js_as_smarty_templates">détails</a>)</small></h4>
+<h4 id="template_cssjs">Template pour CSS et JS <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#css_js_as_smarty_templates">détails</a>)</small></h4>
 
 <p>Vous pouvez dorénavant utiliser les fonctions Smarty dans les fichier <code>.css</code> et <code>.js</code>, ajoutez simplement <code>template=true</code> lors du chargement par <code>combine_script</code> et <code>combine_css</code>.</p>
 
-<h4 id="action_buttons">Méthodes de tri des boutons d'action <small>(<a href="http://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#add_action_buttons">détails</a>)</small></h4>
+<h4 id="action_buttons">Méthodes de tri des boutons d'action <small>(<a href="https://piwigo.org/doc/doku.php?id=dev:changes_in_2.6#add_action_buttons">détails</a>)</small></h4>
 
-<p><a href="http://piwigo.org/releases/2.5.0#action_buttons">Dans la version 2.5 nous avons ajouté</a> deux méthodes pour trier les boutons d'action sur la page index.php et picture.php. Comme prévu, l'utilisation change légèrement pour la version 2.6 : les plugins ne doivent plus déclarer leurs boutons avec les balises HTML <code>&lt;span&gt;, &lt;div&gt; ou &lt;li&gt;</code> autour, car elles sont déjà gérées par le template.</p>
+<p><a href="https://piwigo.org/releases/2.5.0#action_buttons">Dans la version 2.5 nous avons ajouté</a> deux méthodes pour trier les boutons d'action sur la page index.php et picture.php. Comme prévu, l'utilisation change légèrement pour la version 2.6 : les plugins ne doivent plus déclarer leurs boutons avec les balises HTML <code>&lt;span&gt;, &lt;div&gt; ou &lt;li&gt;</code> autour, car elles sont déjà gérées par le template.</p>
 
 
 <div class="back_overview"><a href="#overview">↑ retour au survol</a></div>
