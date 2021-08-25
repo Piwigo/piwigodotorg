@@ -136,7 +136,7 @@
 <div class="interview-container">
   <div class="interview interview1">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
-    <img class="photo" src="https://media-exp1.licdn.com/dms/image/C5603AQF0QYPuIETgZA/profile-displayphoto-shrink_200_200/0?e=1612396800&v=beta&t=60YTWR0cWUEkpOOJGNC72wCsuUey8swlEqNLMKZt7so">
+    <img class="photo" src="{$PORG_ROOT_URL}/images/changelogs/11/zacharie.jpg">
     <p class="first">{'porg_v11_zacharie_text1'|translate}</p>
     <p>{'porg_v11_zacharie_text2'|translate}
   </div>
