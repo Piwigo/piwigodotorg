@@ -38,6 +38,7 @@ $(document).ready(function() {
             <p id="homepage-intro-para">{'porg_home_desc1'|translate} {'porg_home_desc2'|translate}</p>
             <div class="col-sm-12 get-piwigo-button">
               <a class="btn btn-default" href="{$PORG_ROOT}{$URL.get_piwigo}" role="button">{'Get Piwigo'|translate}</a>
+              <p><i class="icon-download"></i>{'Download or'|translate}<i class="icon-download-cloud"></i>{'Cloud hosting'|translate}</p>
             </div>
           </div>
 
@@ -46,9 +47,9 @@ $(document).ready(function() {
           </div>
 
           <div class="col-md-12 latest-activites">
-            <p class="pwg-release-date"><i class="icon-tag"></i>{'version %s'|translate:$LATEST_VERSION_NUMBER} <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
-            <p class="pwg-release-date"><i class="icon-megaphone"></i>{$LATEST_NEWS_TITLE} <span class="latest-news">{$LATEST_NEWS_DATE}</span></p>
-            <p class="pwg-release-date"><i class="icon-code-branch"></i>Latest activity<span class="latest-code-change">{$LATEST_CODE_ACTIVTY}</span></p>
+            <p class="pwg-activities"><i class="icon-tag"></i><a href="{$PORG_ROOT}{$URL.changelogs}"><span>{'version %s'|translate:$LATEST_VERSION_NUMBER}</span></a> <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
+            <p class="pwg-activities"><i class="icon-megaphone"></i><a href="{$PORG_ROOT}{$URL.news}"><span>{$LATEST_NEWS_TITLE}</span></a><span class="latest-news">{$LATEST_NEWS_DATE}</span></p>
+            <p class="pwg-activities"><i class="icon-code-branch"></i><a href="{$PORG_ROOT}{$URL.coding_activity}"><span>{'Latest activity'|translate}</span></a><span class="latest-code-change">{$LATEST_CODE_ACTIVTY}</span></p>
           </div>
 
         </div>
