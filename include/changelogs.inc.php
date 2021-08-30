@@ -4,10 +4,14 @@ include(PORG_PATH . '/data/release.data.php');
 
 global $template, $lang_info;
 
-unset($porg_releases['1.0.0']);
-
 foreach ($porg_releases as $version => $version_content)
 {
+  if (isset($version_content['show_in_changelogs']) and !$version_content['show_in_changelogs'])
+  {
+    unset($porg_releases[$version]);
+    continue;
+  }
+
   $porg_releases[$version]['state'] = 'minor';
 
   $major_version_ends_with = (version_compare($version, '11') >= 0) ? '.0.0' : '.0';

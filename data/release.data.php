@@ -1,6 +1,21 @@
 <?php
 
 $porg_releases = array(
+  '12.0.0' => array(
+    'released_on' => '2021-09-10',
+    'md5sum' => '4f6532e56bc8e3f7e13655dd6a01731d',
+    'summary' => array('User manager', 'Plugin manager', 'Activities'),
+    'subtitle' => 'A major update, focused on design and user experience, once more.',
+    'features' => array(),
+    'bugs' => array(),
+    'known_issues' => array(),
+    'show_in_changelogs' => false,
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+  ),
+
   '11.5.0' => array(
     'released_on' => '2021-05-14',
     'md5sum' => 'f40e3d4d0e6ceca510cb5004b643cce7',
@@ -1513,6 +1528,7 @@ $porg_releases = array(
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
+    'show_in_changelogs' => false,
     'languages' => array(
       'new' => array(),
       'updated' => array(),

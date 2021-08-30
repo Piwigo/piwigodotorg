@@ -7157,6 +7157,40 @@ section.release-notes-overview li a {
     margin-top:0;
     text-align:center;
  }
+
+ /* Changelog version 12 */
+
+ .release-12_0_0 .container-release-note{
+    display:none;
+ }
+
+ .release-12_0_0 .container-download-release{
+     display:none;
+ }
+
+ .release-12_0_0 .download11{
+     display:block;
+ }
+
+ .release-12_0_0 .piwigo12-img {
+    max-width:100%;
+ }
+
+ .release-12_0_0  .release-notes-intro{
+    margin-top: 60px;
+    margin-bottom:30px;
+ }
+
+ .release-12_0_0 #releaseNotesMain.major-release .release-notes-intro .intro-text{
+     text-align:left;
+ }
+
+ .release-12_0_0 #releaseNotesMain.major-release #intro-title{
+    margin:30px;
+    margin-top:0;
+    text-align:center;
+ }
+
 /******************************
  * Piwigo coding-activity CSS *
  ******************************/
