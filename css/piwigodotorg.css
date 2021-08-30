@@ -526,8 +526,8 @@
 }
 
 .get-piwigo-button p{
-  font-size:12px;
-  padding-right:15px;
+  font-size:14px;
+  padding-left:15px;
   font-weight:400;
   display:inline;
 }
@@ -558,13 +558,36 @@
   text-align:left;
 }
 
-.pwg-banner .pwg-release-date {
+.pwg-banner .pwg-activities {
     text-align: center;
     font-size:1em;
-    color:#7e7e7e;
     margin-top: 20px;
     padding:0 15px;
     font-weight:700;
+    display:inline-block;
+}
+
+.pwg-banner .pwg-activities a span{
+    color:#7E7E7E;
+    text-decoration:none;
+}
+
+.pwg-banner .pwg-activities a span:hover{
+    text-decoration:underline;
+}
+
+.pwg-banner .pwg-activities > * {
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.pwg-banner .pwg-activities a span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    display: block;
+
 }
 
 .latest-activites .icon-tag,
@@ -573,7 +596,7 @@
 }
 
 .latest-activites .icon-megaphone,
-.pwg-banner .latest-news{
+.pwg-banner .latest-news {
     color: #7E64D0;
 }
 
@@ -602,6 +625,10 @@
       margin-left: 10px;
       font-size:13px;
       font-weight:700;
+  }
+
+.pwg-banner .pwg-activities i {
+      margin-right:5px;
   }
 
 .pwg-banner .pwg-news {
@@ -637,6 +664,7 @@
 
 .latest-activites{
     text-align:center;
+    margin:50px 0;
 }
 
 .latest-activites p{
