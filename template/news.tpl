@@ -31,9 +31,6 @@ $(document).ready(function() {
           <h1>{'Latest news'|translate}</h1>
           <p>{'porg_news_desc1'|translate} {'porg_news_desc2'|translate}</p>
         </div>
-        <div class="col-md-6 pwg-whats-news-elements text-right">
-          <a href="{$PORG_ROOT}{$URL.coding_activity}" class="btn"><span class="bold"><img src="{$PORG_ROOT_URL}images/news/code.svg"/>Coding Activity</span></a>
-        </div>
       </div>
     </div>
   </section>

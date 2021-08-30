@@ -129,6 +129,7 @@
           <ul class="dropdown-menu dropdown-menu-left">
             <li><a href="{$PORG_ROOT}{$URL.news}">{'Latest news'|translate}</a></li>
             <li><a href="{$PORG_ROOT}{$URL.newsletters}">{'Newsletters'|translate}</a></li>
+            <li><a href="{$PORG_ROOT}{$URL.coding_activity}">Coding Activity</a>
           </ul>
         </li>
         <li class="pwg-navbar-button">
