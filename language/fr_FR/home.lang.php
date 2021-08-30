@@ -27,5 +27,8 @@ $lang['porg_love_title'] = 'Ils aiment Piwigo... et ils le disent !';
 $lang['Discover Piwigo'] = 'Découvrir Piwigo';
 $lang['Explore more features'] = 'Découvrez les fonctionnalités';
 $lang['version %s'] = 'version %s';
+$lang['Latest activity'] = 'Dernière activité';
+$lang['Download or'] = 'télécharger où';
+$lang['Cloud hosting'] = 'hébergement cloud';
 
 ?>
