@@ -291,9 +291,19 @@ function porg_get_latest_version_nocache()
   // echo '['.__FUNCTION__.'] called<br>';
   include(PORG_PATH . '/data/release.data.php');
 
-  $latest_version_number = array_keys($porg_releases)[0];
-  $latest_version = array_shift($porg_releases);
-  $latest_version['version'] = $latest_version_number;
+  $latest_version = null;
+
+  foreach ($porg_releases as $version => $version_content)
+  {
+    if (isset($version_content['show_in_changelogs']) and !$version_content['show_in_changelogs'])
+    {
+      continue;
+    }
+    $latest_version = $version_content;
+    $latest_version['version'] = $version;
+    break;
+  }
+
   // echo '<pre>'; print_r($latest_version); echo '</pre>';
   return $latest_version;
 }
