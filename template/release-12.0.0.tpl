@@ -159,7 +159,7 @@
 <div class="interview-container">
   <div class="interview interview1">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
-    <img class="photo" src="{$PORG_ROOT_URL}/images/changelogs/12/louis.jpg">
+    <img class="photo" src="https://piwigo.org/screenshots/keanu.jpg">
     <p class="first">{'porg_v12_louis_text1'|translate}</p>
     <p>{'porg_v12_louis_text2'|translate}
   </div>
