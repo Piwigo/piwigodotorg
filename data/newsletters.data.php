@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2021-07-01' => array (
+                'title' => 'Piwigo 12 en beta, Piwigo NG sur le Google Play Store',
+                'image' => 'https://piwigo.org/screenshots/piwigo-12-plugin-activation.gif',
+                'summary' => 'Première version beta pour Piwigo 12. Nouvelles fonctionnalités, nouvelles interfaces. Piwigo NG (application Android) est maintenant disponible sur le Google Play Store. Plus facile à installer, plus facile à tester.',
+            ),
             '2021-05-04' => array (
                 'title' => 'Piwigo NG pour Android, 19 ans et Piwigo 11',
                 'image' => 'https://piwigo.org/screenshots/newsletter/20210430-piwigo-ng-android.png',
@@ -259,6 +264,11 @@
             ),
         ),
         'en' => array(
+            '2021-06-30' => array (
+                'title' => 'Piwigo 12 beta, Piwigo NG on Google Play Store',
+                'image' => 'https://piwigo.org/screenshots/piwigo-12-plugin-activation.gif',
+                'summary' => 'First beta version for Piwigo 12. New features, new designs. Piwigo NG is now available on Google Play Store. Still in beta, but easier to install and test.',
+            ),
             '2021-05-03' => array (
                 'title' => 'Piwigo NG for Android, 19 years old and Piwigo 11',
                 'image' => 'https://piwigo.org/screenshots/newsletter/20210430-piwigo-ng-android.png',
