@@ -40,3 +40,6 @@ $lang['Why choose Piwigo?'] = 'Waarom Piwigo kiezen?';
 $lang['porg_love_title'] = 'Zij houden van Piwigo';
 $lang['porg_showcase_title'] = 'Mooie fotogalerijen gemaakt met Piwigo';
 $lang['version %s'] = 'versie %s';
+$lang['Cloud hosting'] = 'cloudhosting';
+$lang['Download or'] = 'download of';
+$lang['Latest activity'] = 'Laatste activiteit';
