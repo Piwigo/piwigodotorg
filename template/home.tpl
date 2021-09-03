@@ -47,9 +47,18 @@ $(document).ready(function() {
           </div>
 
           <div class="col-md-12 latest-activites">
-            <p class="pwg-activities"><i class="icon-tag"></i><a href="{$PORG_ROOT}{$URL.changelogs}"><span>{'version %s'|translate:$LATEST_VERSION_NUMBER}</span></a> <span class="release-date">{$LATEST_VERSION_DATE}</span></p>
-            <p class="pwg-activities"><i class="icon-megaphone"></i><a href="{$PORG_ROOT}{$URL.news}"><span>{$LATEST_NEWS_TITLE}</span></a><span class="latest-news">{$LATEST_NEWS_DATE}</span></p>
-            <p class="pwg-activities"><i class="icon-code-branch"></i><a href="{$PORG_ROOT}{$URL.coding_activity}"><span>{'Latest activity'|translate}</span></a><span class="latest-code-change">{$LATEST_CODE_ACTIVTY}</span></p>
+            <p class="pwg-activities release-date"><i class="icon-tag"></i>
+              <a href="{$PORG_ROOT}{$URL.changelogs}">{'version %s'|translate:$LATEST_VERSION_NUMBER}</a>
+              <span>{$LATEST_VERSION_DATE}</span>
+            </p>
+            <p class="pwg-activities latest-news"><i class="icon-megaphone"></i>
+              <a href="{$PORG_ROOT}{$URL.news}">{$LATEST_NEWS_TITLE}</a>
+              <span >{$LATEST_NEWS_DATE}</span>
+            </p>
+            <p class="pwg-activities latest-code-change"><i class="icon-code-branch"></i>
+              <a href="{$PORG_ROOT}{$URL.coding_activity}">{'Latest activity'|translate}</a>
+              <span>{$LATEST_CODE_ACTIVTY}</span>
+            </p>
           </div>
 
         </div>

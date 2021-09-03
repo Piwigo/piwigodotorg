@@ -527,9 +527,13 @@
 
 .get-piwigo-button p{
   font-size:14px;
-  padding-left:15px;
   font-weight:400;
   display:inline;
+}
+
+.get-piwigo-button i{
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 .pwg-banner .btn, .get-started .btn {
@@ -567,14 +571,14 @@
     display:inline-block;
 }
 
-.pwg-banner .pwg-activities a span{
+.pwg-banner .pwg-activities a {
     color:#7E7E7E;
     text-decoration:none;
 }
 
-.pwg-banner .pwg-activities a span:hover{
+/* .pwg-banner .pwg-activities a span:hover{
     text-decoration:underline;
-}
+} */
 
 .pwg-banner .pwg-activities > * {
     display:inline-block;
@@ -591,44 +595,43 @@
 }
 
 .latest-activites .icon-tag,
-.pwg-banner .release-date{
+.pwg-banner .release-date span,
+.pwg-banner .release-date a:hover{
     color: #6CADD9;
 }
 
 .latest-activites .icon-megaphone,
-.pwg-banner .latest-news {
+.pwg-banner .latest-news span,
+.pwg-banner .latest-news a:hover {
     color: #7E64D0;
 }
 
 .latest-activites .icon-code-branch,
-.pwg-banner .latest-code-change{
+.pwg-banner .latest-code-change span,
+.pwg-banner .latest-code-change a:hover{
     color: #6ECE5E;
 }
 
-.pwg-banner .release-date{
+.pwg-banner .release-date span{
     background-color: #ebf5ff;
 }
 
-.pwg-banner .latest-news{
+.pwg-banner .latest-news span{
     background-color: #E0DAF4;
 }
 
-.pwg-banner .latest-code-change{
+.pwg-banner .latest-code-change span{
     background-color: #d6ffcf;
 }
 
-.pwg-banner .release-date,
-.pwg-banner .latest-news,
-.pwg-banner .latest-code-change{
+.pwg-banner .release-date span,
+.pwg-banner .latest-news span,
+.pwg-banner .latest-code-change span{
       padding: 5px 10px;
       border-radius: 25px;
       margin-left: 10px;
       font-size:13px;
       font-weight:700;
-  }
-
-.pwg-banner .pwg-activities i {
-      margin-right:5px;
   }
 
 .pwg-banner .pwg-news {
