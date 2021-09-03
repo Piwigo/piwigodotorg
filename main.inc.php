@@ -66,6 +66,14 @@ function porg_user_init()
 
 /* Load Piwigo.org language */
 function porg_lang_init() {
+    global $lang;
+
+    /* we need some strings for time_since (Piwigo should have these strings in common.lang.php) */
+    if (!isset($lang['%s ago']))
+    {
+        load_language('admin.lang');
+    }
+
     /* Load en_UK translation */
     load_language('plugin.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
     /* Load user language translation */
