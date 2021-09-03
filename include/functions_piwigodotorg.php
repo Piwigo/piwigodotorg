@@ -523,21 +523,27 @@ function porg_set_pcom_urls()
   $template->assign('PCOM_URL', $pcom_url);
 }
 
-function porg_get_coding_activty(){
+function porg_get_coding_activity()
+{
   global $conf;
-  $cache_path = $conf['data_location'].'porg_coding_activity.cache.php';
-  if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 minutes ago'))
+  $cache_path = $conf['data_location'].'porg_coding_activity.cache.php';  
+  $coding_activity = null;
+  if (!is_file($cache_path) or filemtime($cache_path) < strtotime('5 minutes ago'))
   {
     $coding_activity_url = "https://piwigo.org/activity/api/commits.get.php";
     $coding_activity_json = @file_get_contents($coding_activity_url);
     if ($coding_activity_json !== false)
     {
-      file_put_contents($cache_path, serialize(json_decode($coding_activity_json, true)));
+      $coding_activity = json_decode($coding_activity_json, true);
+      file_put_contents($cache_path, serialize($coding_activity));
     }
   }
     
-  $coding_activity_json_data = json_decode($coding_activity_json, true);
+  if (is_null($coding_activity))
+  {
+    $coding_activity = unserialize(file_get_contents($cache_path));
+  }
 
-  return $coding_activity_json_data;
+  return $coding_activity;
 }
 ?>

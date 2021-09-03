@@ -1,19 +1,7 @@
 <?php
 global $template, $lang_info, $conf;
 
-$cache_path = $conf['data_location'].'porg_coding_activity.cache.php';
-if (!is_file($cache_path) or filemtime($cache_path) < strtotime('1 minutes ago'))
-{
-  $url = 'https://piwigo.org/activity/api/commits.get.php';
-
-  $content = @file_get_contents($url);
-  if ($content !== false)
-  {
-    file_put_contents($cache_path, serialize(json_decode($content, true)));
-  }
-}
-
-$commits = unserialize(file_get_contents($cache_path));
+$commits = porg_get_coding_activity();
 
 $current_day = null;
 

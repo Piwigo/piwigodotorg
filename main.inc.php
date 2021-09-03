@@ -294,8 +294,8 @@ function porg_load_content()
         $latest_article = $latest_articles['topics'][0]['subject'];
         $latest_article_date = $latest_articles['topics'][0]['posted_on'];
         
-        $coding_activity_json_data = porg_get_coding_activty();
-        $latest_coding_activity_date = $coding_activity_json_data[0]['occured_on'];
+        // $coding_activity = porg_get_coding_activity();
+        // $latest_coding_activity_date = porg_get_coding_activity()[0]['occured_on'];
 
         $template->assign(
             array(
@@ -307,7 +307,7 @@ function porg_load_content()
                 'NB_YEARS' => porg_get_nb_years(),
                 'LATEST_NEWS_TITLE' => $latest_articles['topics'][0]['subject'],
                 'LATEST_NEWS_DATE' => time_since($latest_article_date,'week'),
-                'LATEST_CODE_ACTIVTY' => time_since($latest_coding_activity_date, 'hour')
+                'LATEST_CODE_ACTIVTY' => time_since(porg_get_coding_activity()[0]['occured_on'], 'hour')
             )
         );
 
