@@ -28,7 +28,7 @@ $lang['Discover Piwigo'] = 'Découvrir Piwigo';
 $lang['Explore more features'] = 'Découvrez les fonctionnalités';
 $lang['version %s'] = 'version %s';
 $lang['Latest activity'] = 'Dernière activité';
-$lang['Download or'] = 'télécharger où';
+$lang['Download or'] = 'téléchargement ou';
 $lang['Cloud hosting'] = 'hébergement cloud';
 
 ?>
