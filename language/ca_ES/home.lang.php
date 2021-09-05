@@ -25,3 +25,6 @@ $lang['porg_home_title'] = 'Gestioneu la vostra col·lecció de fotos amb Piwigo
 $lang['porg_love_title'] = 'Els hi encanta Piwigo';
 $lang['porg_showcase_title'] = 'Precioses galeries fotogràfiques creades amb Piwigo';
 $lang['version %s'] = 'versió %s';
+$lang['Cloud hosting'] = 'allotjament al núvol';
+$lang['Download or'] = 'descarrega o';
+$lang['Latest activity'] = 'Activitat més recent';
