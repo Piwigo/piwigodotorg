@@ -40,3 +40,6 @@ $lang['Why choose Piwigo?'] = 'Dlaczego Piwigo?';
 $lang['porg_love_title'] = 'Oni kochają Piwigo';
 $lang['porg_showcase_title'] = 'Piękne galerie zdjęć utworzone z Piwigo';
 $lang['version %s'] = 'wersja %s';
+$lang['Cloud hosting'] = 'hosting w chmurze';
+$lang['Download or'] = 'pobierz lub';
+$lang['Latest activity'] = 'Najnowsze aktywności';
