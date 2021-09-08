@@ -14,6 +14,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image'=>'12/piwigo12-features-matrix.jpg'
   ),
 
   '11.5.0' => array(
@@ -163,6 +164,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image'=>'11/piwigo11.svg'
   ),
 
   '2.10.2' => array(
@@ -227,6 +229,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/screenshots/github-screenshot-2.10.jpg'
   ),
 
   '2.9.5' => array(
@@ -376,6 +379,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/screenshots/piwigo-2.9-admin-redesign.png'
   ),
 
   '2.8.6' => array(
@@ -504,6 +508,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/screenshots/piwigo-2.8-album-notify-users.png'
   ),
 
   '2.7.4' => array(
@@ -569,6 +574,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/forum/uploads/154156/piwigo-2.7-upload-form-before-selection.png'
   ),
 
   '2.6.5' => array(
@@ -647,6 +653,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/screenshots/piwigo-2.6-mobile-new-features.png'
   ),
 
   '2.5.6' => array(
@@ -738,6 +745,7 @@ $porg_releases = array(
       'new' => array('gl_ES', 'lt_LT', 'ta_IN', 'zh_HK'),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/forum/uploads/137271/piwigo-2.5-batch-manager-filter-on-dimensions-slider.png'
   ),
 
   '2.4.7' => array(
@@ -842,6 +850,7 @@ $porg_releases = array(
       'new' => array('eo_EO', 'fi_FI', 'km_KH'),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/forum/uploads/129585/piwigo-2.4-multiple-size-configuration-screen.png'
   ),
 
   '2.3.5' => array(
@@ -920,6 +929,7 @@ $porg_releases = array(
       'new' => array('af_ZA', 'bg_BG', 'et_EE', 'el_GR', 'ko_KR', 'th_TH'),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/forum/uploads/124400/piwigo-230RC1-upload-form.png'
   ),
 
   '2.2.5' => array(
@@ -998,6 +1008,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/screenshots/piwigo-2.2-batch_manager_step2.png'
   ),
 
   '2.1.6' => array(
@@ -1089,6 +1100,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
+    'changelogs_image' => 'https://piwigo.org/screenshots/210-no_photo_center.png'
   ),
 
   '2.0.10' => array(
@@ -1528,7 +1540,7 @@ $porg_releases = array(
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
-    'show_in_changelogs' => false,
+    'show_in_changelogs' => true,
     'languages' => array(
       'new' => array(),
       'updated' => array(),
