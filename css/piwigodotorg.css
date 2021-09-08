@@ -5803,6 +5803,10 @@ label {
     padding-top:30px;
 }
 
+.container-fluide-changelogs{
+    margin-top:50px;
+}
+
  .container-fluide-changelogs h1{
     margin-top: 20px;
     font-size: 56px;
@@ -5844,6 +5848,7 @@ label {
  .container-changelogs-versions {
     margin: 60px 0;
     overflow:hidden;
+    padding-bottom:150px;
  }
 
 .container-changelogs-versions .version-wave{
