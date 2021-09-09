@@ -1,0 +1,6 @@
+
+<?php
+$lang['porg_v12_enora_text1'] = 'Je m’appelle Enora et j’ai eu la chance d’intégrer l’équipe de Piwigo dans le cadre de mes études en  UI / UX Design à Nantes (France). J’ai pu travailler sur les maquettes des interfaces de  l’administration de la V.12 afin de la rendre la plus confortable pour les utilisateurs.';
+$lang['porg_v12_enora_text2'] = 'J’ai utilisé mes connaissances, que j’ai pu améliorer et retravailler grâce aux conseils de l’équipe et qui m’ont permis de réaliser de nombreuses maquettes de l’administration. J’ai voulu rafraîchir les interfaces et essayer de m’adapter à chaque type d’utilisateur de Piwigo afin de simplifier l’utilisation pour chacun.';
+$lang['porg_v12_louis_text1'] = 'Je m\'appelle Louis et je suis arrivé à Piwigo en Octobre 2020 pour mes études en informatique. J\'ai d\'abord travaillé sur les finitions de la version 11 : corrections des bugs durant la phase de beta-test et derniers ajustements.';
+$lang['porg_v12_louis_text2'] = 'J\'ai ensuite implémenté des nouveautés pour la version 12 de Piwigo en intégrant les maquettes préparées par les designers. Notamment cette nouvelle génération du gestionnaire d\'utilisateurs. <i>Note de la rédaction : le gestionnaire d\'utilisateur sera complété par Matthieu, qu\'on vous présentera pour Piwigo 13 !</i>';

@@ -2,12 +2,6 @@
 
 <div id="releaseNotesMain" class="major-release">
 
-<section class="container-fluid release11-header">
-  <div class="row text-center">
-    <img class="piwigo12-img" src="{$PORG_ROOT_URL}/images/changelogs/12/piwigo12-features-matrix.jpg">
-  </div>
-</section>
-
 <section class="container release-notes-intro">
   <div class="row">
     <div class="col-sm-12 col-md-6 text-center">
@@ -30,7 +24,11 @@
   </div>
 </section>
 
-
+<section class="container release11-header">
+  <div class="row text-center">
+    <img class="piwigo12-img" src="{$PORG_ROOT_URL}/images/changelogs/12/piwigo12-features-matrix.jpg">
+  </div>
+</section>
 
 <section class="container">
 
@@ -97,6 +95,7 @@
     <img class="photo" src="{$PORG_ROOT_URL}/images/changelogs/12/enora.jpg">
     <p class="first">{'porg_v12_enora_text1'|translate}</p>
     <p>{'porg_v12_enora_text2'|translate}
+    <div class="interview-signature"><a href="https://www.linkedin.com/in/enora-delavigne-891275195/">Enora</a></div>
   </div>
 </div>
 
@@ -159,9 +158,10 @@
 <div class="interview-container">
   <div class="interview interview1">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
-    <img class="photo" src="https://piwigo.org/screenshots/keanu.jpg">
+    <img class="photo" src="{$PORG_ROOT_URL}/images/changelogs/12/louis.jpg">
     <p class="first">{'porg_v12_louis_text1'|translate}</p>
     <p>{'porg_v12_louis_text2'|translate}
+    <div class="interview-signature"><a href="https://www.linkedin.com/in/louis-auzuret/">Louis</a></div>
   </div>
 </div>
 

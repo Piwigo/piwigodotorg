@@ -7483,10 +7483,12 @@ section.release-notes-overview li a {
  }
 
  /* Changelog version 12 */
-
- .release-12_0_0 .container-release-note{
-    display:none;
- }
+.release-12_0_0 .container-release-note {
+    background: linear-gradient(135deg, rgb(255, 119, 0) 0%, rgb(249, 76, 93) 50%, rgb(249, 76, 93) 100%);
+}
+.release-12_0_0 .container-release-note span {
+    color: white;
+}
 
  .release-12_0_0 .container-download-release{
      display:none;
