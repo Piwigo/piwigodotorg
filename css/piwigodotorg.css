@@ -6562,6 +6562,14 @@ label {
     color: #2883c3;
 }
 
+.badge.badge-quote {
+    background-color: #dfeff5;
+    color: #119ccc;
+}
+.badge.badge-quote a {
+    color: #119ccc;
+}
+
 #releaseNotesMain.major-release h3 span[class*=" icon-"]::before {
     font-size:25px;
     margin-left: 0;
@@ -7516,6 +7524,79 @@ section.release-notes-overview li a {
     margin-top:0;
     text-align:center;
  }
+
+.release-menu {
+    margin-top:50px;
+    padding:0;
+}
+
+.release-menu-title-line {
+    text-align:center;
+}
+
+.release-menu-title {
+    display:inline-block;
+    background: linear-gradient(90deg, rgba(251,88,68,1) 0%, rgba(249,77,91,1) 100%);
+    color:white;
+    padding:10px 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.release-menu-content-container {
+    background:linear-gradient(135deg, rgb(255, 119, 0) 0%, rgb(249, 76, 93) 50%, rgb(249, 76, 93) 100%);
+    padding:4px;
+}
+
+.release-menu-content {
+    background-color: white;
+    margin:0;
+    padding-top: 20px;
+}
+
+.release-menu-content li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 9px;
+}
+.release-menu-content li a {
+    color: #333;
+}
+.release-menu-content li a:hover {
+    color: #f70;
+    text-decoration: none;
+}
+.badge.badge-quote:hover {
+    background-color: #b4e9fd;
+}
+.badge.badge-quote a:hover {
+    color: #119ccc;
+}
+.release-menu-content li i {
+    margin-right: 3px;
+}
+.release-menu-content li.badge.badge-quote img {
+    height: 12px;
+    margin-right: 7px;
+}
+
+a.btn-back-to-menu {
+    width: 50px;
+    height: 50px;
+    background: url(../images/changelogs/back-to-menu.svg);
+    display: none;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+}
+a.btn-back-to-menu:hover {
+    background: url(../images/changelogs/back-to-menu-hover.svg);
+    background-size: cover;
+}
 
 /******************************
  * Piwigo coding-activity CSS *

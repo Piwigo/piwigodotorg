@@ -30,10 +30,42 @@
   </div>
 </section>
 
+<section id="release_menu" class="container release-menu">
+  <div class="release-menu-title-line"><div class="release-menu-title">Au menu</div></div>
+  <div class="release-menu-content-container">
+    <div class="row release-menu-content">
+      <div class="col-md-4">
+        <ul>
+          <li><a href="#user_manager" class="icon-arrows-cw">User manager</a></li>
+          <li><a href="#plugin_manager" class="icon-arrows-cw">Plugin manager</a></li>
+          <li class="badge badge-quote"><a href="#interview_enora"><img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">Interview Enora</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li><a href="#activites" class="icon-star">Users activity log</a></li>
+          <li><a href="#album_sort" class="icon-star">Sort albums</a></li>
+          <li><a href="#maintenance"  class="icon-brush">Maintenance</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li class="badge badge-quote"><a href="#interview_louis"><img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">Interview Louis</a></li>
+          <li><a href="#alternate_views" class="icon-star">Alternate views</a></li>
+          <li><a href="#technical_features" class="icon-tools">Technical features</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="#release_menu" class="btn-back-to-menu" title="go to menu"></a>
+
 <section class="container">
 
 <div class="section-part">
-  <h3 id="modus">{'porg_v12_user_manager_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v12_badge_redesign'|translate}</span></h3>
+  <h3 id="user_manager">{'porg_v12_user_manager_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v12_badge_redesign'|translate}</span></h3>
   <div class="row">
     <div class="col-sm-2 col-md-3"></div>
     <p class="col-sm-8 col-md-6 descriptive-text">{'porg_v12_user_manager_text'|translate}</p>
@@ -75,7 +107,7 @@
 </div>
 
 <div class="section-part">
-  <h3 id="admin-redesign">{'porg_v12_plugin_manager_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v12_badge_redesign'|translate}</span></h3>
+  <h3 id="plugin_manager">{'porg_v12_plugin_manager_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v12_badge_redesign'|translate}</span></h3>
 
   <div class="row second-image-and-caption">
     <div class="col-sm-12 col-md-4">
@@ -89,7 +121,7 @@
   </div>
 </div>
 
-<div class="interview-container">
+<div id="interview_enora" class="interview-container">
   <div class="interview interview1">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
     <img class="photo" src="{$PORG_ROOT_URL}/images/changelogs/12/enora.jpg">
@@ -100,7 +132,7 @@
 </div>
 
 <div class="section-part">
-  <h3 id="dashboard">{'porg_v12_activities_title'|translate}<span class="badge badge-new icon-star">{'porg_v12_badge_new'|translate}</span></h3>
+  <h3 id="activities">{'porg_v12_activities_title'|translate}<span class="badge badge-new icon-star">{'porg_v12_badge_new'|translate}</span></h3>
 
   <div class="row first-image-and-caption">
     <div class="col-sm-12 col-md-8 ">
@@ -115,7 +147,7 @@
 </div>
 
 <div class="section-part">
-  <h3 id="upload-form">{'porg_v12_album_sort_title'|translate}<span class="badge badge-new icon-star">{'porg_v12_badge_new'|translate}</span></h3>
+  <h3 id="album_sort">{'porg_v12_album_sort_title'|translate}<span class="badge badge-new icon-star">{'porg_v12_badge_new'|translate}</span></h3>
 
   <div class="row second-image-and-caption">
     <div class="col-sm-12 col-md-4">
@@ -130,7 +162,7 @@
 </div>
 
 <div class="section-part">
-  <h3 id="upload-form">{'porg_v12_maintenance_title'|translate}<span class="badge badge-refresh icon-brush">{'porg_v12_badge_refresh'|translate}</span></h3>
+  <h3 id="maintenance">{'porg_v12_maintenance_title'|translate}<span class="badge badge-refresh icon-brush">{'porg_v12_badge_refresh'|translate}</span></h3>
 
   <div class="row first-image-and-caption">
     <div class="col-sm-12 col-md-8 ">
@@ -155,7 +187,7 @@
   </div>
 </div>
 
-<div class="interview-container">
+<div id="interview_louis" class="interview-container">
   <div class="interview interview1">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
     <img class="photo" src="{$PORG_ROOT_URL}/images/changelogs/12/louis.jpg">
@@ -166,7 +198,7 @@
 </div>
 
 <div class="section-part">
-  <h3 id="upload-form">{'porg_v12_alternate_views_title'|translate}<span class="badge badge-new icon-star">{'porg_v12_badge_new'|translate}</span></h3>
+  <h3 id="alternate_views">{'porg_v12_alternate_views_title'|translate}<span class="badge badge-new icon-star">{'porg_v12_badge_new'|translate}</span></h3>
 
   <div class="row first-image-and-caption">
     <div class="col-sm-12 col-md-8 ">
@@ -181,7 +213,7 @@
 
 </div>
 
-<div class="section-part technical-features">
+<div id="technical_features" class="section-part technical-features">
 
 <div class="row">
 
@@ -219,3 +251,5 @@
 </div> {* .section-part.technical-features *}
 </section>
 </div>
+
+<script src="{$PORG_ROOT_URL_PLUGINS}js/release-major.js"></script>
