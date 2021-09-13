@@ -109,6 +109,12 @@
 <div class="section-part">
   <h3 id="plugin_manager">{'porg_v12_plugin_manager_title'|translate}<span class="badge badge-redesign icon-arrows-cw">{'porg_v12_badge_redesign'|translate}</span></h3>
 
+  <div class="row">
+    <div class="col-sm-2 col-md-2"></div>
+    <p class="col-sm-8 col-md-8 descriptive-text">{'porg_v12_plugin_manager_text'|translate}</p>
+    <div class="col-sm-2 col-md-2"></div>
+  </div>
+
   <div class="row second-image-and-caption">
     <div class="col-sm-12 col-md-4">
       <p class="screenshot-caption">{'porg_v12_plugin_manager_image1_label'|translate}</p>
@@ -133,6 +139,12 @@
 
 <div class="section-part">
   <h3 id="activities">{'porg_v12_activities_title'|translate}<span class="badge badge-new icon-star">{'porg_v12_badge_new'|translate}</span></h3>
+
+  <div class="row">
+    <div class="col-sm-2 col-md-2"></div>
+    <p class="col-sm-8 col-md-8 descriptive-text">{'porg_v12_activities_text'|translate}</p>
+    <div class="col-sm-2 col-md-2"></div>
+  </div>
 
   <div class="row first-image-and-caption">
     <div class="col-sm-12 col-md-8 ">
@@ -220,15 +232,14 @@
   <h3>{'Technical features'|translate}</h3>
   <p class=" descriptive-text col-sm-12 extra-side-padding" id="technical-first-paragraph">{'porg_v12_technical_features1'|translate} <a href="https://github.com/Piwigo/Piwigo/wiki/Technical-changes-in-Piwigo-12" class="icon-info-circled">{'porg_v12_technical_features2'|translate}</a>. {'porg_v12_technical_features3'|translate}</p>
 
+  <div class="col-sm-12 col-md-6">
+    <h4 class="col-sm-12">{'porg_v12_technical_features6'|translate}</h4>
+    <p class=" descriptive-text col-sm-12">{'porg_v12_technical_features7'|translate}</p>
+  </div>
 
   <div class="col-sm-12 col-md-6">
     <h4 class="col-sm-12">{'porg_v12_technical_features4'|translate}</h4>
     <p class=" descriptive-text col-sm-12">{'porg_v12_technical_features5'|translate}</p>
-  </div>
-
-  <div class="col-sm-12 col-md-6">
-    <h4 class="col-sm-12">{'porg_v12_technical_features6'|translate}</h4>
-    <p class=" descriptive-text col-sm-12">{'porg_v12_technical_features7'|translate}</p>
   </div>
 
   <div class="col-sm-12 col-md-6">
@@ -237,8 +248,8 @@
   </div>
 
   <div class="col-sm-12 col-md-6">
-    <h4 >{'porg_v12_technical_features15'|translate}</h4>
-    <ul>
+    <h4 class="col-sm-12">{'porg_v12_technical_features15'|translate}</h4>
+    <ul class="api-methods col-sm-12">
       <li><span class="badge new">{'new'|translate}</span><code>pwg.activity.downloadLog</code></li>
       <li><span class="badge new">{'new'|translate}</span><code>pwg.activity.getList</code></li>
       <li><span class="badge new">{'new'|translate}</span><code>pwg.categories.calculateOrphans</code></li>
