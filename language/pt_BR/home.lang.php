@@ -22,3 +22,6 @@ $lang['porg_love_title'] = 'Eles amam Piwigo';
 $lang['porg_showcase_title'] = 'Belas galerias de fotos criadas com Piwigo';
 $lang['version %s'] = '
 versão %s';
+$lang['Cloud hosting'] = 'hospedagem nas nuvens';
+$lang['Download or'] = 'baixar ou';
+$lang['Latest activity'] = 'Última atividade';
