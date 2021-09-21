@@ -667,7 +667,7 @@
 
 .latest-activites{
     text-align:center;
-    margin:50px 0;
+    margin:40px 0;
 }
 
 .latest-activites p{
@@ -679,8 +679,13 @@
     .get-piwigo-button{
         margin-top:40px;
         margin-left:0;
-    }
-    
+    }    
+}
+
+@media (max-width: 1199px) {
+    .pwg-banner .responsive-image img{
+        width:200%;
+    }    
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -753,6 +758,9 @@
     }
     .btn-refresh{
       display:none;
+    }
+    .pwg-banner .get-piwigo-button p{
+        margin-top: 30px;
     }
 
 }
