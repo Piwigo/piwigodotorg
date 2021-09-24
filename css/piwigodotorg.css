@@ -6017,14 +6017,14 @@ label {
 }
 
 .container-changelogs-versions .right-image-changelogs .corner1{
-    top: -30px;
-    left: 86px;
+    top: -50px;
+    left: 40px;
     position:absolute;
 }
 
 .container-changelogs-versions .right-image-changelogs .corner2{
-    bottom: -30px;
-    right: 96px;
+    bottom: -50px;
+    right: 40px;
     position:absolute;
 }
 
@@ -6056,15 +6056,15 @@ label {
 }
 
 .container-changelogs-versions .left-image-changelogs .corner3{
-    top: -30px;
-    right:90px;
+    top: -50px;
+    right:40px;
     position:absolute;
     transform: rotate(-90deg);
 }
 
 .container-changelogs-versions .left-image-changelogs .corner4{
-    bottom: -30px;
-    left:90px;
+    bottom: -50px;
+    left:40px;
     position:absolute;
     transform: rotate(-90deg);
 }
@@ -6093,6 +6093,10 @@ label {
  .version-wave-bottom,
  .no-wave{
      margin-bottom:40px;
+ }
+
+ .version-wave-bottom {
+    margin-top:-2px;
  }
 
 
@@ -6228,6 +6232,21 @@ label {
 }
 
 @media (max-width: 991px){
+    .container-fluide-changelogs h1{
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 40px;
+    }
+    .container-fluide-changelogs p {
+        font-size: 16px;
+        margin-top: 40px;
+        text-align: left;
+        padding: 0;
+        line-height: normal;
+    }
+    .changelogs-intro-image img{
+        margin-top:50px;
+    }
     .left-image-changelogs,
     .right-image-changelogs,
     .changelogs-intro-text{

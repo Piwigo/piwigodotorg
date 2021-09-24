@@ -14,7 +14,7 @@
 
 <section>
   <div class="container-changelogs-versions">
-    <div class="row grid text-center">
+    <div class="row text-center">
 
 {foreach from=$releases key=version item=summary}
   {if $summary@iteration is odd}
