@@ -58,6 +58,7 @@
 }
 
 .popover-title {
+    font-size:  14px !important;
     color: #FF7700;
     text-align: center;
 }
