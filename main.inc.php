@@ -288,13 +288,25 @@ function porg_load_content()
     }
     else
     {
+        $meta_description = null;
+        load_language('home.lang', PORG_PATH); // loaded here only to search the page_meta_description language key
+        if (isset($lang['page_meta_description']))
+        {
+            $meta_description = $lang['page_meta_description'];
+        }
+
         if ('en_UK' != $user['language'])
         {
           load_language('home.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+          load_language('home.lang', PORG_PATH);
         }
-        load_language('home.lang', PORG_PATH);
         $template->set_filenames(array('porg_page' => realpath(PORG_PATH . 'template/' . 'home.tpl')));
         $meta_title = porg_get_page_title('home');
+
+        if (!isset($meta_description))
+        {
+            $meta_description = l10n('porg_home_title').'. '.l10n('porg_home_desc1').' '.l10n('porg_home_desc2');
+        }
 
         $latest_version = porg_get_latest_version();
         $latest_articles = porg_get_news(0,1);
@@ -307,7 +319,6 @@ function porg_load_content()
 
         $template->assign(
             array(
-                'meta_description' => l10n('porg_home_title').'. '.l10n('porg_home_desc1').' '.l10n('porg_home_desc2'),
                 'SHOWCASES' => get_showcases(),
                 'TESTIMONIALS' => porg_get_testimonials_sample(),
                 'LATEST_VERSION_NUMBER' => $latest_version['version'],
