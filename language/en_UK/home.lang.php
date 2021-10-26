@@ -1,7 +1,8 @@
 <?php
-$lang['Piwigo - Manage your photo collection'] = 'Piwigo - Manage your photo collection';
-$lang['porg_home_title'] = 'Manage your photo collection with Piwigo';
-$lang['porg_home_desc1'] = 'Piwigo is open source photo gallery software for the web.';
+$lang['page_meta_description'] = 'Manage your photo library with Piwigo ! Free and open source software to organize and share your photos and digital media on the web.';
+$lang['Piwigo - Manage your photo collection'] = 'Piwigo - Open source photo management software';
+$lang['porg_home_title'] = 'Manage your photo library with Piwigo';
+$lang['porg_home_desc1'] = 'Piwigo is open source photo management software. Manage, organize and share your photo easily on the web.';
 $lang['porg_home_desc2'] = 'Designed for organisations, teams and individuals.';
 $lang['porg_home_organisation_title'] = 'Thousands of organizations and millions of individuals love using Piwigo';
 $lang['Why choose Piwigo?'] = 'Why choose Piwigo?';
