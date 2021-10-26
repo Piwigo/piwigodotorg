@@ -8,12 +8,12 @@ $lang['porg_v12_user_manager_image1_label'] = 'The user manager was rewritten fr
 $lang['porg_v12_user_manager_image2_label'] = 'When set in selection mode, you can apply the same action to several users at once.';
 $lang['porg_v12_user_manager_image3_label'] = 'The user edition box was also redesigned.';
 $lang['porg_v12_plugin_manager_title'] = 'Plugin manager';
-$lang['porg_v12_plugin_manager_text'] = 'The plugin manager already received a facelift with Piwigo 11, but we decided to make evolves again for this version 12.<br>
+$lang['porg_v12_plugin_manager_text'] = 'The plugin manager already received a facelift with Piwigo 11, but we decided to make it evolve again for this version 12.<br>
 <br>
 1) Until now, activated and deactivated plugins were displayed separately. Now they\'re all displayed together, and can be filtered.<br>
 <br>
 2) In previous versions, When you activated a plugin, the screen reloaded, and you had to search in the list for the newly activated plugin, in order to access its settings. Not practical at all, especially with many plugins.';
-$lang['porg_v12_plugin_manager_text'] = 'With Piwigo 12, a single click on a switch activates the plugin. No more page reload. Life changer! Well... maybe not your "whole" life but a least your life when you manage your plugins!';
+$lang['porg_v12_plugin_manager_image1_label'] = 'With Piwigo 12, a single click on a switch activates the plugin. No more page reload. Life changer! Well... maybe not your "whole" life but a least your life when you manage your plugins!';
 $lang['porg_v12_activities_title'] = 'Users activity log';
 $lang['porg_v12_activities_text'] = 'A new screen appears in Piwigo 12: the User Activity Log. It allows you to see the actions performed in the Piwigo administration, by each user: add / delete / modify an album, a photo, a group… You can filter this list for each administrator.';
 $lang['porg_v12_activities_image1_label'] = 'You can even export these activities to a CSV file that can be opened with any spreadsheet software (Excel, Libre Office…).';
