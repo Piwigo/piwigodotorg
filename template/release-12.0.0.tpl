@@ -12,7 +12,7 @@
             <a class="btn" href="//piwigo.org/download/dlcounter.php?code={$version}">{'Download Piwigo %s'|translate:$version}</a>
             <p class="release-date"><i class="icon-dropbox"></i>{'Released on %s'|translate:$released_on}</p>
             <a class="copy-md5sum" title="Copy md5sum" data-clipboard-text="{$md5sum}"><i class="icon-clipboard"></i></a>
-            <a id="popover" title="{$md5sum} <a class='btn-close-popover' onclick='$(&quot;#popover&quot;).popover(&quot;hide&quot;);'><i class='icon-cancel-circled'></i></a>" data-html="true" data-toggle="popover" data-placement="bottom" data-content="{'The MD5 sum is a convenient tool to make sure that your file is not corrupted.'|translate|escape:html} {'You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.'|translate|escape:html}">md5sum</a>
+            <a id="popoverCustom" title="{$md5sum} <a class='btn-close-popover' onclick='$(&quot;#popoverCustom&quot;).popover(&quot;hide&quot;);'><i class='icon-cancel-circled'></i></a>" data-html="true" data-toggle="popover" data-placement="bottom" data-content="{'The MD5 sum is a convenient tool to make sure that your file is not corrupted.'|translate|escape:html} {'You can compare the md5sum of your downloaded file with the official md5sum provided on piwigo.org.'|translate|escape:html}">md5sum</a>
           </div>
       </div>
     </div>
@@ -31,28 +31,28 @@
 </section>
 
 <section id="release_menu" class="container release-menu">
-  <div class="release-menu-title-line"><div class="release-menu-title">Au menu</div></div>
+  <div class="release-menu-title-line"><div class="release-menu-title">{'The menu'|translate}</div></div>
   <div class="release-menu-content-container">
     <div class="row release-menu-content">
       <div class="col-md-4">
         <ul>
-          <li><a href="#user_manager" class="icon-arrows-cw">User manager</a></li>
-          <li><a href="#plugin_manager" class="icon-arrows-cw">Plugin manager</a></li>
-          <li class="badge badge-quote"><a href="#interview_enora"><img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">Interview Enora</a></li>
+          <li><a href="#user_manager" class="icon-arrows-cw">{'porg_v12_user_manager_title'|translate}</a></li>
+          <li><a href="#plugin_manager" class="icon-arrows-cw">{'porg_v12_plugin_manager_title'|translate}</a></li>
+          <li class="badge badge-quote"><a href="#interview_enora"><img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">{'Interview %s'|translate:'Enora'}</a></li>
         </ul>
       </div>
       <div class="col-md-4">
         <ul>
-          <li><a href="#activites" class="icon-star">Users activity log</a></li>
-          <li><a href="#album_sort" class="icon-star">Sort albums</a></li>
-          <li><a href="#maintenance"  class="icon-brush">Maintenance</a></li>
+          <li><a href="#activites" class="icon-star">{'porg_v12_activities_title'|translate}</a></li>
+          <li><a href="#album_sort" class="icon-star">{'porg_v12_album_sort_title'|translate}</a></li>
+          <li><a href="#maintenance"  class="icon-brush">{'porg_v12_maintenance_title'|translate}</a></li>
         </ul>
       </div>
       <div class="col-md-4">
         <ul>
-          <li class="badge badge-quote"><a href="#interview_louis"><img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">Interview Louis</a></li>
-          <li><a href="#alternate_views" class="icon-star">Alternate views</a></li>
-          <li><a href="#technical_features" class="icon-tools">Technical features</a></li>
+          <li class="badge badge-quote"><a href="#interview_louis"><img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">{'Interview %s'|translate:'Louis'}</a></li>
+          <li><a href="#alternate_views" class="icon-star">{'porg_v12_alternate_views_title'|translate}</a></li>
+          <li><a href="#technical_features" class="icon-tools">{'Technical features'|translate}</a></li>
         </ul>
 
       </div>

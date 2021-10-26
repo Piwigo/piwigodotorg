@@ -49,7 +49,7 @@
                   </ul>
                 </div>
                 <a href="{$PORG_ROOT}{$URL.release}-{$version}">
-                  <button class="details-major-version">See all the details</button>
+                  <button class="details-major-version">{'See all the details'|translate}</button>
                 </a>
               </div>  
               <div class="minor-versions-container">

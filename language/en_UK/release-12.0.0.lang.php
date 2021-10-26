@@ -1,4 +1,7 @@
 <?php
+$lang['A major update, focused on design and user experience, once more.'] = 'A major update, focused on design and user experience, once more.';
+$lang['The menu'] = 'The menu';
+$lang['Interview %s'] = 'Interview %s';
 $lang['porg_v12_intro1'] = 'Shorter, Stronger, Lighter, Faster';
 $lang['porg_v12_intro2'] = 'Version 12 comes much faster than version 11. We have decided to bring less changes but on shorter release cycle. Less changes but still strong changes. In the continuous effort of the last years, we\'re still focusing on the administration panel. And we\'re not finished yet! We still have many improvements in preparation for the future. Rewritten user manager, redesigned plugin manager, added activity viewer are some obvious changes you will see right away. Less visible, we have implemented a new mechanism, the lounge, to make your big galleries much lighter to load.';
 $lang['porg_v12_intro3'] = 'Grab a coffee and enjoy your read.';
@@ -28,6 +31,7 @@ $lang['porg_v12_maintenance_image1_label'] = 'Maintenance page design was refres
 $lang['porg_v12_maintenance_image2_label'] = 'Maintenance now displays the list of active plugins.';
 $lang['porg_v12_alternate_views_title'] = 'Alternate views';
 $lang['porg_v12_alternate_views_image1_label'] = 'Actually added in version 11.4, let\'s introduced this new feature properly! We have received many feedbacks concerning the "tile" view of the album manager in Piwigo 11. Many unhappy messages. We have decided to offer alternate views on the album manager, plugin manager and the new user manager.';
+$lang['Technical features'] = 'Technical features';
 $lang['porg_v12_technical_features1'] = 'Please note that more detailed documentation is available about';
 $lang['porg_v12_technical_features2'] = 'Technical changes in Piwigo 12';
 $lang['porg_v12_technical_features3'] = 'Please read it to make your extensions compatible with Piwigo 12.';
