@@ -7631,15 +7631,35 @@ a.btn-back-to-menu:hover {
  ******************************/
 
 .container-fluid-coding-activity {
-    background-color: #F46755;
+    color:black;
+    margin-top:50px;
 }
 
-.container-fluid-coding-activity h1, .container-fluid-coding-activity p {
-    color: white;
+.container-fluid-coding-activity h1{
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 76px;
+    transition: all 1s;
 }
 
 .container-fluid-coding-activity p {
+    color: #7e7e7e;
     font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
+}
+
+.coding-activity-intro{
+    text-align: left;
+}
+
+.coding-activity-intro-image img{
+    width:80%;
 }
 
 .coding-activity-logo {
@@ -7663,14 +7683,13 @@ a.btn-back-to-menu:hover {
     color: #FF7700;
     font-size: 18px;
     text-transform: capitalize;
+    margin-top:15px;
 }
 
 .commit {
-    margin-left: 20px;
-    margin-bottom: 0px;
-    border: 1px solid #eee;
-    padding: 10px;
-    margin-top: -1px;
+    margin:20px;
+    padding: 20px;
+    box-shadow:0 0 5px #ccc;
 }
 
 .commit + .commit {
@@ -7694,7 +7713,6 @@ a.btn-back-to-menu:hover {
 }
 
 .commit:hover {
-    border: 1px solid #FF7700;
     border-collapse: collapse;
 }
 

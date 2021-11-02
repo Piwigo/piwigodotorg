@@ -1,11 +1,14 @@
 
 <section class="container-fluid container-fluid-coding-activity">
     <div class="container">
-        <div class="col-md-6">
-            <h1>Coding activity</h1>
-            <p>Latest commits in Piwigo core, plugins, themes and other tools. This page gathers data from various code repositories to provide a "one place to watch".</p>
+        <div class="col-md-6 ">
+            <div class="coding-activity-intro">
+                <h1>{'Coding activity'|translate}</h1>
+                <p>{'porg_codingactivity_intro'|translate}</p>
         </div>
-        <div class="col-md-6 coding-activity-logo">
+        </div>
+        <div class="col-xs-12 col-md-6 text-center coding-activity-intro-image">
+            <img class="" src="{$PORG_ROOT_URL}images/coding_activity/coding_banner_activity.svg"/>
         </div>
     </div>
 </section>
