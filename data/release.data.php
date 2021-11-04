@@ -2,14 +2,14 @@
 
 $porg_releases = array(
   '12.0.0' => array(
-    'released_on' => '2021-09-10',
-    'md5sum' => '4f6532e56bc8e3f7e13655dd6a01731d',
+    'released_on' => '2021-11-04 11:45:00',
+    'md5sum' => '68cd64b238fabcc1615fc97441d0851a',
     'summary' => array('User manager', 'Plugin manager', 'Activities'),
     'subtitle' => 'A major update, focused on design and user experience, once more.',
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
-    'show_in_changelogs' => false,
+    'show_in_changelogs' => true,
     'languages' => array(
       'new' => array(),
       'updated' => array(),
