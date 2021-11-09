@@ -187,6 +187,13 @@ SELECT state
     {
         $template->assign('LANGUAGE_CSS', $language_css);
     }
+
+    $google_site_verification = 'ZtCOdnWB4uApRb14TLrXoJHIbzGpowhoCEoN4xYWTB4';
+    if ('fr.' == $page['porg_domain_prefix'])
+    {
+        $google_site_verification = '_xMV5Z_ZbU2nmJluoSdvX4-P5vFYGX87vU1yKolqED8';
+    }
+    $template->assign('GOOGLE_SITE_VERIFICATION', $google_site_verification);
 }
 
 add_event_handler('init', 'porg_load_content');

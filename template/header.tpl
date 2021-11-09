@@ -16,7 +16,7 @@
     <meta name="description" content="{$meta_description|escape:html}">
 {/if}
 
-    <meta name="google-site-verification" content="ZtCOdnWB4uApRb14TLrXoJHIbzGpowhoCEoN4xYWTB4" />
+    <meta name="google-site-verification" content="{$GOOGLE_SITE_VERIFICATION}" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/css/bootstrap.min.css">
