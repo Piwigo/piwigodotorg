@@ -1,6 +1,28 @@
 <?php
 
 $porg_releases = array(
+  '12.1.0' => array(
+    'released_on' => '2021-11-11',
+    'md5sum' => 'c6edb6d0617ccbdc27bf35e06efbaa96',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 1555, 'section' => 'Display'),
+      array('id' => 1554, 'section' => 'Photos'),
+      array('id' => 1553, 'section' => 'web API'),
+      array('id' => 1552, 'section' => 'Photos'),
+      array('id' => 1550, 'section' => 'Technical'),
+      array('id' => 1549, 'section' => 'Tools'),
+      array('id' => 1547, 'section' => 'Technical'),
+      array('id' => 1546, 'section' => 'Tools'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('en_UK','fi_FI','fr_FR'),
+    ),
+  ),
+
   '12.0.0' => array(
     'released_on' => '2021-11-04 11:45:00',
     'md5sum' => '68cd64b238fabcc1615fc97441d0851a',
