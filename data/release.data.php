@@ -2,7 +2,7 @@
 
 $porg_releases = array(
   '12.1.0' => array(
-    'released_on' => '2021-11-11',
+    'released_on' => '2021-11-11 19:30:00',
     'md5sum' => 'c6edb6d0617ccbdc27bf35e06efbaa96',
     'summary' => array('bug fixes'),
     'features' => array(),
