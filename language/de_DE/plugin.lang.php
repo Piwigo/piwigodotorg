@@ -164,3 +164,4 @@ $lang['porg_guides_install_step2_list3'] = 'Passwort';
 $lang['porg_guides_install_step3_paragraph0'] = 'Besuch die Web Adresse mit einem Web Browser (z.B. http://example.com/photos), wenn alle Dateien übertragen sind. Piwigo erkennt automatisch, dass noch kein Setup erfolgt ist und leitet dich automatisch auf die Installationsseite weiter.';
 $lang['porg_guides_installation_instruction_title'] = 'Installationsanleitungen';
 $lang['porg_guides_update_instruction_title'] = 'Aktualisierungsanleitungen';
+$lang['Coding Activity'] = 'Codierung Aktivität';
