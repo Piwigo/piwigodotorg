@@ -27,3 +27,7 @@ $lang['Admin redesign'] = 'Redesenho do administrador';
 $lang['Dark mode'] = 'Modo escuro';
 $lang['Default theme Modus'] = 'Tema padrão Modus';
 $lang['Read more'] = 'Consulte Mais informação';
+$lang['User manager'] = 'Gerente de usuário';
+$lang['See all the details'] = 'Veja detalhes';
+$lang['Plugin manager'] = 'Gerenciador de plugins';
+$lang['Activities'] = 'Atividades';
