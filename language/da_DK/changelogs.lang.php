@@ -27,3 +27,7 @@ $lang['Admin redesign'] = 'Admin redesignet';
 $lang['Dark mode'] = 'Mørk tilstand';
 $lang['Default theme Modus'] = 'Modus standardtema ';
 $lang['Read more'] = 'Læs mere';
+$lang['Activities'] = 'Aktiviteter';
+$lang['Plugin manager'] = 'Pluginhåndtering';
+$lang['See all the details'] = 'Se detaljer';
+$lang['User manager'] = 'Brugerhåndtering';
