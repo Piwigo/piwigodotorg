@@ -161,3 +161,4 @@ $lang['porg_guides_install_step3_list2'] = 'Usuário';
 $lang['porg_guides_install_step3_list2_span'] = 'Atenção, seu provedor de hospedagem na web pode fornecer configurações de conexão separadas para FTP e MySQL.';
 $lang['porg_guides_install_step3_list3'] = 'Senha';
 $lang['porg_guides_install_step3_list4'] = 'Nome do Banco de Dados';
+$lang['Coding Activity'] = 'Atividade de codificação';
