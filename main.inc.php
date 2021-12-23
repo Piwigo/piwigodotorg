@@ -199,7 +199,7 @@ SELECT state
 add_event_handler('init', 'porg_load_content');
 function porg_load_content()
 {
-    global $template, $logger, $lang, $user;
+    global $template, $logger, $lang, $user, $page, $lang_info;
 
     $logger->info(__FUNCTION__.', $_GET[porg] = '.(isset($_GET['porg']) ? $_GET['porg'] : 'null'));
 
@@ -320,6 +320,24 @@ function porg_load_content()
         
         $latest_article = $latest_articles['topics'][0]['subject'];
         $latest_article_date = $latest_articles['topics'][0]['posted_on'];
+
+        if ($latest_article_date < time() - conf_get_param('porg_news_maximum_freshness', 180)*24*60*60 )
+        {
+          $current_lang = $lang_info['code'];
+          $current_domain_prefix = $page['porg_domain_prefix'];
+
+          $lang_info['code'] = 'en';
+          $page['porg_domain_prefix'] = '';
+
+          $latest_articles = porg_get_news(0,1);
+          $latest_article = $latest_articles['topics'][0]['subject'];
+          $latest_article_date = $latest_articles['topics'][0]['posted_on'];
+
+          $template->assign('ENGLISH_NEWS', 'https://piwigo.org/news');
+
+          $lang_info['code'] = $current_lang;
+          $page['porg_domain_prefix'] = $current_domain_prefix;
+        }
         
         // $coding_activity = porg_get_coding_activity();
         // $latest_coding_activity_date = porg_get_coding_activity()[0]['occured_on'];

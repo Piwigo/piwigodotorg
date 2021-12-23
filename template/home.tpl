@@ -52,7 +52,7 @@ $(document).ready(function() {
               <span>{$LATEST_VERSION_DATE}</span>
             </p>
             <p class="pwg-activities latest-news"><i class="icon-megaphone"></i>
-              <a href="{$PORG_ROOT}{$URL.news}">{$LATEST_NEWS_TITLE}</a>
+              <a href="{if isset($ENGLISH_NEWS)}{$ENGLISH_NEWS}{else}{$PORG_ROOT}{$URL.news}{/if}">{$LATEST_NEWS_TITLE}</a>
               <span >{$LATEST_NEWS_DATE}</span>
             </p>
             <p class="pwg-activities latest-code-change"><i class="icon-code-branch"></i>
