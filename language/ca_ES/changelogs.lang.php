@@ -27,3 +27,7 @@ $lang['Admin redesign'] = 'Redisseny de l\'administrador';
 $lang['Dark mode'] = 'Mode fosc';
 $lang['Default theme Modus'] = 'Tema Modus per defecte';
 $lang['Read more'] = 'Més informació';
+$lang['Activities'] = 'Activitats';
+$lang['Plugin manager'] = 'Gestor de connectors';
+$lang['See all the details'] = 'Detalls';
+$lang['User manager'] = 'Gestor d\'usuaris';
