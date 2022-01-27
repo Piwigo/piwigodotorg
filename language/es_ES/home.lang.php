@@ -43,3 +43,4 @@ $lang['version %s'] = 'versión %s';
 $lang['Cloud hosting'] = 'alojamiento en la nube';
 $lang['Download or'] = 'descargar o';
 $lang['Latest activity'] = 'Actividad más reciente';
+$lang['page_meta_description'] = '¡Gestiona tu biblioteca fotográfica con Piwigo! Software libre y de código abierto para organizar y compartir tus fotos y medios digitales en la web.';
