@@ -8,6 +8,7 @@ $lang['porg_urls']['get-involved'] = 'get-involved';
 $lang['porg_urls']['get-piwigo'] = 'get-piwigo';
 $lang['porg_urls']['get-started'] = 'get-started';
 $lang['porg_urls']['coding-activity'] = 'coding-activity';
+$lang['porg_urls']['mobile-applications'] = 'mobile-applications';
 $lang['porg_urls']['news'] = 'news';
 $lang['porg_urls']['newsletters'] = 'newsletter';
 $lang['porg_urls']['press'] = 'press';

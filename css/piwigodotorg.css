@@ -1518,6 +1518,14 @@ h2{
     border-radius: 0px;
 }
 
+.mobile_applications .store-buttons{
+    padding-top:50px;
+}
+
+.mobile_applications .store-buttons img{
+    width:100%;
+}
+
 @media (max-width: 991px) {
     .btn-applestore img {
         width: 100%;
@@ -4757,6 +4765,294 @@ position: absolute;
       }
   }
 
+/**********************************
+ * Piwigo Mobile applications CSS *
+ **********************************/  
+
+ .mobile_applications,
+ .mobile_main_section,
+ .mobile_first_section .row,
+ .mobile_third_section .row{
+    position: relative;
+  }
+
+  .mobile_main_section,
+  .mobile_first_section .row,
+  .mobile_third_section{
+    margin-top:50px;
+   }
+  
+  .mobile_applications h1 {
+      margin-top: 20px;
+      font-size: 50px;
+      font-weight: 900;
+      text-align: left;
+      color: #3c3c3c;
+      line-height: 76px;
+      transition: all 1s;
+      margin:0;
+  }
+
+  .mobile_applications h2{
+    font-weight: bold;
+    font-size: 28px;
+    color: #3c3c3c;
+  }
+  
+  .mobile_applications p{
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
+  }
+
+  .mobile_applications .mobile_main_section p{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #7e7e7e;
+  }
+
+  .mobile_applications .mobile_first_section p{
+    color: #3c3c3c;
+    margin-bottom: 0;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+  }
+  
+  .mobile_center_text_right{
+      right:0;
+  }
+
+  .mobile_center_text_left{
+      left:0;
+  }
+
+  .mobile_center_text_right,
+  .mobile_center_text_left{
+       position:absolute;
+       top:50%;
+       transform:translateY(-50%);
+   }
+
+   .float-right{
+       float:right;
+   }
+
+   .float-left{
+        float:left;
+    }
+
+   .mobile_applications img{
+        width:100%;
+   }
+
+   .mobile_main_section img,
+   #mobile_image_2,
+   #mobile_image_5,
+   #mobile_image_6{
+       width:70%;
+   }
+
+   .mobile-second-section{
+       background-color:#FFEACF;
+       text-align:center;
+   }
+
+   .mobile-fourth-section{
+      background-color:#f7fbff;
+      text-align:center;
+    }
+
+   .mobile-second-section h2,
+   .mobile-second-section h3,
+   .mobile-second-section p {
+    color: #eb8400;
+   }
+
+   .mobile-fourth-section h2,
+   .mobile-fourth-section h3,
+   .mobile-fourth-section p {
+    color: #286aac;
+   }
+   
+   .mobile-second-section h2,
+   .mobile-fourth-section h2 {
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: 900;
+   }
+
+   .mobile-second-section h3,
+   .mobile-fourth-section h3{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 900;
+   }
+
+   .mobile-second-section p,
+   .mobile-fourth-section p{
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+   }
+
+   .mobile-second-section img,
+   .mobile-fourth-section img{
+    max-width:75%;
+    height: 200px;
+    object-fit: contain;
+   }
+
+   .mobile-second-section .row div,
+   .mobile_fifth_section .row div{
+       text-align:center;
+   }
+
+   .mobile_fifth_section img{
+       width:auto;
+       display:block;
+       margin: 30px auto;
+       max-height:350px;
+       
+   }
+
+   #androidModal,
+   #iosModal{
+       text-align:center;
+   }
+
+   #androidModal h5,
+   #iosModal h5{
+    font-weight: bold;
+    font-size: 18px;
+    color: #3c3c3c;
+    padding:15px;
+   }
+
+   #androidModal .modal-body,
+   #iosModal .modal-body{
+       padding:30px;
+   }
+
+   #androidModal .close,
+   #iosModal .close{
+       color:black;
+   }
+
+   #androidModal .close:before,
+   #androidModal .close:after,
+   #iosModal .close:before,
+   #iosModal .close:after{
+    display:none;
+    }
+
+    #androidModal a img,
+    #iosModal a img{
+        width:40%;
+    }
+
+    #mobile_image_1,
+    #mobile_image_4,
+    #mobile_image_3{
+        width:45%;
+    }
+ 
+    .mobile_applications button{
+     background-color: #ff7700;
+     padding: 15px 25px;
+     border: 1px solid #ff7700;
+     text-transform: uppercase;
+     color:white;
+     font-weight:600;
+    }
+ 
+    .mobile-applications-mobile-display{
+        display:none;
+    }
+
+    .ios-only span{
+        padding:5px 20px;
+        border-radius:15px;
+        background-color: #57b894;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+    }
+  
+   @media (max-width: 992px){
+      .mobile_applications h1{
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 40px;
+      }
+      .mobile_applications h2,
+      .mobile-second-section h2, 
+      .mobile-fourth-section h2{
+        font-size: 25px;
+      }
+      .mobile-applications h3{
+        margin: 15px 0;
+      }
+      .mobile_applications p {
+          font-size: 16px;
+          margin-top: 40px;
+          text-align: left;
+          padding: 0;
+          line-height: normal;
+          
+      }
+      #mobile_applications-main-image{
+          margin-top:50px;
+      }
+      .mobile_center_text_right, 
+      .mobile_center_text_left{
+          position:relative;
+        top: unset;
+        transform: unset;
+      }
+      .mobile_applications .store-buttons {
+          text-align:center;
+          padding-top:40px;
+          padding-bottom:50px;
+      }
+      .mobile_applications .store-buttons img{
+          width:200px;
+      }
+      .mobile-applications-mobile-display{
+          display:block;
+      }
+      .mobile-applications-desktop-display{
+          display:none;
+      }
+      .mobile-second-section p,
+      .mobile-fourth-section p{
+        margin: 0;
+        padding: 0 20px;
+        padding-bottom: 80px;
+      }
+
+      .mobile_first_section img,
+      .mobile_third_section img{
+         position: relative;
+         margin-top:20px;
+         margin-bottom:60px;
+       }
+       .ios-only{
+           margin:15px auto;
+       }
+   }
+  
+
+   
 /********************
  * Piwigo Demo page *
  ********************/

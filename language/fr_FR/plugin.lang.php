@@ -34,6 +34,7 @@ $lang['Plugins'] = 'Plugins';
 $lang['Showcases'] = 'Exemples';
 $lang['Donate'] = 'Faire un don';
 $lang['Coding Activity'] = 'Activités de développement';
+$lang['Mobile applications'] = 'Applications mobiles';
 
 /* languages */
 $lang['language_af_ZA'] = 'Afrikaans';
