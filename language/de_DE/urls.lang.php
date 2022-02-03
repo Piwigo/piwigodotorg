@@ -47,3 +47,4 @@ $lang['porg_doc_urls']['upgrade'] = 'https://de.piwigo.org/doc/doku.php?id=benut
 $lang['porg_doc_urls']['upgrade_auto'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:automatische';
 $lang['porg_doc_urls']['upgrade_manual'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:manuelle';
 $lang['porg_urls']['showcases'] = 'beispiele';
+$lang['porg_urls']['mobile-applications'] = 'Mobile-Anwendungen';
