@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2022-02-04' => array (
+                'title' => 'Piwigo NG 1.0.0 pour Android, Piwigo 12 pour tout le monde',
+                'image' => 'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2022/02/01/20220201120012-f5dbe03a-la.png',
+                'summary' => 'Piwigo NG pour Android passe en version stable et devient la nouvelle application officielle. Piwigo 12 est maintenant compatible avec la grande majorité des extensions.',
+            ),
             '2021-07-01' => array (
                 'title' => 'Piwigo 12 en beta, Piwigo NG sur le Google Play Store',
                 'image' => 'https://piwigo.org/screenshots/piwigo-12-plugin-activation.gif',
@@ -264,6 +269,11 @@
             ),
         ),
         'en' => array(
+            '2022-02-04' => array (
+                'title' => 'Piwigo NG 1.0.0 for Android, Piwigo 12 for everyone',
+                'image' => 'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2022/02/01/20220201120012-f5dbe03a-la.png',
+                'summary' => 'Piwigo NG 1.0.0 is the new official application for Android phones. Piwigo 12 is now compatible with nearly all themes and plugins. Time to update!',
+            ),
             '2021-06-30' => array (
                 'title' => 'Piwigo 12 beta, Piwigo NG on Google Play Store',
                 'image' => 'https://piwigo.org/screenshots/piwigo-12-plugin-activation.gif',
