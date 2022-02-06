@@ -178,17 +178,17 @@
         <div class="col-md-6"col-xs-12 >
           <img src="{$PORG_ROOT_URL}images/mobile_applications/Group_88.png"/>
 {if $device_type == "mobile" || $device_type == 'tablet'}
-          <a href="https://apps.apple.com/fr/app/piwigo/id472225196"><button type="button">{'mobile_applications_download_play_store1'|translate}</button></a>
+          <a href="https://play.google.com/store/apps/developer?id=Piwigo+Team"><button type="button">{'mobile_applications_download_app_store1'|translate}</button></a>
 {else}
-          <button type="button" data-toggle="modal" data-target="#iosModal">{'mobile_applications_download_play_store1'|translate}</button>
+          <button type="button" data-toggle="modal" data-target="#androidModal">{'mobile_applications_download_app_store1'|translate}</button>
 {/if}
         </div>
         <div class="col-md-6"col-xs-12 >
           <img src="{$PORG_ROOT_URL}images/mobile_applications/Group_87.png"/>
 {if $device_type == "mobile" || $device_type == 'tablet'}
-          <a href="https://play.google.com/store/apps/developer?id=Piwigo+Team"><button type="button">{'mobile_applications_download_app_store1'|translate}</button></a>
+          <a href="https://apps.apple.com/fr/app/piwigo/id472225196"><button type="button">{'mobile_applications_download_play_store1'|translate}</button></a>
 {else}
-           <button type="button" data-toggle="modal" data-target="#androidModal">{'mobile_applications_download_app_store1'|translate}</button>
+           <button type="button" data-toggle="modal" data-target="#iosModal">{'mobile_applications_download_play_store1'|translate}</button>
 {/if}  
         </div>
       </div>

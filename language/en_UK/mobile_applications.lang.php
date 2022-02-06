@@ -37,7 +37,7 @@ $lang['mobile_applications_download_app_store2'] = 'or download the application 
 $lang['mobile_applications_download_play_store2'] = 'or download the application via the app store';
 $lang['mobile_applications_scan_qr'] = 'Scan this QR code with your phone!';
 
-$lang['ios_only'] = 'IOS only';
+$lang['ios_only'] = 'iOS only';
 
 
 ?>

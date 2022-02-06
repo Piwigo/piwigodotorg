@@ -39,7 +39,7 @@ $lang['mobile_applications_scan_qr'] = 'Scanner ce QR code avec votre téléphon
 
 
 
-$lang['ios_only'] = 'IOS seulement';
+$lang['ios_only'] = 'uniquement sur iOS';
 
 
 ?>
