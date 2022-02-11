@@ -76,7 +76,7 @@
             <a class="btn" href="https://itunes.apple.com/fr/app/piwigo/id472225196/"><img src="{$PORG_ROOT_URL}images/get_piwigo/applestore.svg"/></a>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12 btn-googleplay">
-            <a class="btn" href="https://play.google.com/store/apps/details?id=org.piwigo.android"><img src="{$PORG_ROOT_URL}images/get_piwigo/googleplay.svg"/></a>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.piwigo.piwigo_ng"><img src="{$PORG_ROOT_URL}images/get_piwigo/googleplay.svg"/></a>
           </div>
         </div>
 
