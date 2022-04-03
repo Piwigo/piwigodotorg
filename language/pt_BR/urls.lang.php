@@ -48,3 +48,4 @@ $lang['porg_urls']['manual_installation'] = 'guias/instalação/manual';
 $lang['porg_urls']['manual_update'] = 'guias/atualização/manual';
 $lang['porg_urls']['netinstall'] = 'guias/instalação/netinstall';
 $lang['porg_urls']['requirements'] = 'guias/instalação/requisitos';
+$lang['porg_urls']['mobile-applications'] = 'aplicações-móveis';
