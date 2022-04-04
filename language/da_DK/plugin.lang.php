@@ -162,3 +162,4 @@ $lang['porg_guides_install_step3_paragraph1'] = 'Nu følger MySQL-databaseindsti
 $lang['porg_guides_install_info2'] = 'Piwigo-holdet anbefaler FileZilla som FTP-klient, da den som Piwigo er fri software og kompatibel med Windows og Linux.';
 $lang['porg_get_started_question_desc1'] = 'Du kan få hjælp i vores <a href="%s">forum</a> eller finde dine egne svar i <a href="%s">dokumentationen</a>';
 $lang['Coding Activity'] = 'Kodeaktivitet';
+$lang['Mobile applications'] = 'Mobil-applikationer';
