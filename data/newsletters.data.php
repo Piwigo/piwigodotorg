@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2022-05-02' => array (
+                'title' => 'Piwigo a 20 ans, Piwigo 13 en version bêta',
+                'image' => 'https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2022/05/02/20220502135854-25c284c5.png',
+                'summary' => 'Vous y croyez, vous ? Le 15 avril, Piwigo a fêté ses 20 ans. Faites nous un cadeau en envoyant un témoignage :-) Nouveau format pour présenter Piwigo 13 : une vidéo qui présente les nouveautés à venir.',
+            ),
             '2022-02-04' => array (
                 'title' => 'Piwigo NG 1.0.0 pour Android, Piwigo 12 pour tout le monde',
                 'image' => 'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2022/02/01/20220201120012-f5dbe03a-la.png',
@@ -269,6 +274,11 @@
             ),
         ),
         'en' => array(
+            '2022-05-02' => array (
+                'title' => 'Piwigo turns 20, Piwigo 13 available in beta',
+                'image' => 'https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2022/05/02/20220502153103-fcdddfcb.png',
+                'summary' => 'Do you believe that? On April 15, Piwigo celebrated its 20th anniversary. Your testimonial would be a nice birthday gift! Discover Piwigo 13 in a commented video.',
+            ),
             '2022-02-04' => array (
                 'title' => 'Piwigo NG 1.0.0 for Android, Piwigo 12 for everyone',
                 'image' => 'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2022/02/01/20220201120012-f5dbe03a-la.png',
@@ -531,6 +541,11 @@
             ),
         ),
         'de' => array(
+            '2022-05-03' => array (
+                'title' => 'Piwigo wird 20! Piwigo 13 in der Beta-Phase verfügbar',
+                'image' => 'https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2022/05/02/20220502153103-fcdddfcb.png',
+                'summary' => 'Können Sie das glauben? Am 15. April feierte Piwigo sein 20-jähriges Bestehen. Entdecken Sie Piwigo 13 in einem kommentierten Video.',
+            ),
             '2020-05-01' => array (
                 'title' => 'Umfrage 2020, Piwigo wird 18, Piwigo in der c’t',
                 'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2020/04/29/20200429123104-eea44280-me.jpg',
