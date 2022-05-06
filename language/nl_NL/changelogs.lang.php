@@ -23,7 +23,11 @@
 $lang['porg_changelogs_desc1'] = 'Dit is de lijst met alle stabiele Piwigo releases.';
 $lang['porg_changelogs_desc2'] = 'Gebruik onze laatste release: je krijgt betere ondersteuning en alle bekende beveiligingsproblemen worden verholpen.';
 $lang['porg_changelogs_technicals_desc1'] = 'Als je technische weergaven van de releases nodig hebt ga dan naar de <a href="%s">Branches en Releases</a> pagina';
-$lang['Admin redesign'] = 'Beheer opnieuw ontwerpen';
+$lang['Admin redesign'] = 'Herontwerp door beheerder';
 $lang['Dark mode'] = 'Donkere modus';
 $lang['Default theme Modus'] = 'Standaard thema Modus';
 $lang['Read more'] = 'Lees meer';
+$lang['Plugin manager'] = 'Plugin beheerder';
+$lang['See all the details'] = 'Bekijk details';
+$lang['User manager'] = 'Gebruiker beheer';
+$lang['Activities'] = 'Activiteiten';
