@@ -78,24 +78,39 @@ $(document).ready(function() {
   <div class="container-fluide container-piwigo-users">
     <div class="container">
       <h3>{'porg_home_organisation_title'|translate}</h3>
-      <div class="equal text-center organization-content">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/arles_logo.svg">
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+{assign var="counter" value="0"}
+          <div class="item row active">
+{foreach from=$user_logos item=$logo}
+  {assign var="counter" value=$counter + 1}
+            <div class="col col-sm-3 center-block">
+              <img id="{$logo.name}" class="img-responsive" src="{$logo.element_url}">
+            </div>
+  {if $counter == 16}
+          </div>         
+  {elseif $counter % 4 == 0}
+          </div>
+          <div class="item item{$counter} row">
+  {/if}
+
+{/foreach}
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/s3v.png" class="logo-societe-3-vallees">
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/logo-paris1-pantheon-sorbonne.png">
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <span class="helper"></span><img src="{$PORG_ROOT_URL}images/home/logo-federation-francaise-natation.png" class="logo-federation-francaise-natation">
-        </div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
       </div>
     </div>
   </div>
-  <img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-bottom1.svg">
-
+<img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-bottom1.svg">
 
   <div class="container-fluide">
     <div class="container">
@@ -223,3 +238,9 @@ $(document).ready(function() {
       </div>
     </div>
   </section>
+
+<script>
+$('.carousel').carousel('pause').carousel({
+  interval: 3000
+})
+</script>
