@@ -41,3 +41,10 @@ $lang['porg_doc_urls']['upgrade'] = 'https://tr.piwigo.org/doc/doku.php?id=yukse
 $lang['porg_doc_urls']['upgrade_auto'] = 'https://tr.piwigo.org/doc/doku.php?id=yukseltme:otomatik';
 $lang['porg_doc_urls']['upgrade_manual'] = 'https://tr.piwigo.org/doc/doku.php?id=yukseltme:elle';
 $lang['porg_urls']['showcases'] = 'örnekler';
+$lang['porg_urls']['requirements'] = 'guides/install/requirements (kılavuzlar/kurulum/gereksinimler)';
+$lang['porg_urls']['netinstall'] = 'guides/install/netinstall (kılavuzlar/kurulum/netinstall)';
+$lang['porg_urls']['mobile-applications'] = 'mobil uygulamalar';
+$lang['porg_urls']['manual_update'] = 'guides/update/manual (kılavuzlar/güncelleme/kılavuz)';
+$lang['porg_urls']['manual_installation'] = 'guides/install/manual (kılavuzlar/kurulum/kılavuz)';
+$lang['porg_urls']['guides'] = 'guides(kılavuzlar)';
+$lang['porg_urls']['automatic_update'] = 'guides/update/automatic (kılavuzlar/güncelleme/otomatik)';
