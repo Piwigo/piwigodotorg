@@ -38,3 +38,4 @@ $lang['porg_issue_846'] = '#844 numaralı sorunun çözümü';
 $lang['porg_issue_834'] = 'PHP 7.2 desteği için başlangıç çalışmaları';
 $lang['porg_issue_748'] = 'user_list_backend.php üzerinde \'kullanıcılar görüntülenemiyor - 403\'';
 $lang['porg_issue_596'] = 'PHP 7.1 ve template.class.php uyumsuzluğu';
+$lang['porg_issue_902'] = '[2.9.4] kullanıcı listesi artık sayfalandırılmamış veya filtrelenmemiş.';
