@@ -199,7 +199,7 @@ SELECT state
 add_event_handler('init', 'porg_load_content');
 function porg_load_content()
 {
-    global $template, $logger, $lang, $user, $page, $lang_info;
+    global $template, $logger, $lang, $user, $page, $lang_info, $conf;
 
     $logger->info(__FUNCTION__.', $_GET[porg] = '.(isset($_GET['porg']) ? $_GET['porg'] : 'null'));
 
@@ -404,6 +404,69 @@ function porg_load_content()
             'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
         )
     );
+
+    /**
+     * force refresh of all porg cache
+     */
+ 
+    $refresh_visuals = conf_get_param('refresh_visuals');
+
+    if(isset($_GET['refresh_cache']) && $_GET['refresh_cache'] == $refresh_visuals)
+    {
+      $files = glob($conf['data_location'].PORG_ID . '/*');
+      foreach ($files as $file) {
+        is_dir($file) ? removeDirectory($file) : unlink($file);
+      }
+      rmdir($conf['data_location'].PORG_ID);
+
+    }
+
+    /**
+     * Use ressources.piwigo.com to get logos and examples
+    */
+
+    $logos_cache_path = $conf['data_location'].'/'.PORG_ID.'/porg_logos.cache.php'; 
+    $result = null;
+
+    if (!is_file($logos_cache_path) or filemtime($logos_cache_path) < strtotime('24 hours ago'))
+    {
+      $result = get_user_logos($logos_cache_path);
+    }
+    else{
+      $result = unserialize(file_get_contents($logos_cache_path));
+    }
+
+    $user_logos = $result['result']['images'];
+
+    $template->assign(
+      array(
+          'user_logos' => $user_logos,
+      )
+  );  
+}
+
+function get_user_logos($cache_path)
+{
+  global $conf;
+
+  $curl = curl_init();
+  curl_setopt($curl, CURLOPT_URL, "https://ressources.piwigo.com/ws.php?format=json&method=pwg.categories.getImages&cat_id=3");
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+  $user_logos_json = curl_exec($curl);
+
+  if ($user_logos_json !== false)
+  {
+    $user_logos = json_decode($user_logos_json, true);
+    if (mkgetdir(dirname($cache_path)))
+    {
+      file_put_contents($cache_path, serialize($user_logos));
+    }
+    
+  }
+
+  curl_close($curl);
+
+  return $user_logos;
 }
 
 add_event_handler('init', 'porg_load_footer');

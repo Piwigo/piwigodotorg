@@ -275,13 +275,17 @@ function porg_get_latest_version()
 {
   global $conf;
 
-  $cache_path = $conf['data_location'].'porg_latest_version.cache.php';
+  $cache_path = $conf['data_location'].'/'.PORG_ID.'/porg_latest_version.cache.php';
   // echo "<pre>data  = ".filemtime(PORG_PATH.'/data/release.data.php')."\n";
   // echo "cache = ".filemtime($cache_path).'</pre>';
   if (!is_file($cache_path) or filemtime($cache_path) < filemtime(PORG_PATH.'/data/release.data.php'))
   {
     $latest_version = porg_get_latest_version_nocache();
-    file_put_contents($cache_path, serialize($latest_version));
+    if (mkgetdir(dirname($cache_path)))
+    {
+      file_put_contents($cache_path, serialize($latest_version));
+    }
+    
   }
 
   return unserialize(file_get_contents($cache_path));
@@ -315,7 +319,7 @@ function porg_get_news($start, $count)
 
   $topics = null;
 
-  $cache_path = $conf['data_location'].'porg_news-'.$lang_info['code'].'.cache.php';
+  $cache_path = $conf['data_location'].'/'.PORG_ID.'/porg_news-'.$lang_info['code'].'.cache.php';
   if (!is_file($cache_path) or filemtime($cache_path) < strtotime('15 minutes ago'))
   {
     $forum_url = 'https://'.$page['porg_domain_prefix'].'piwigo.org/forum';
@@ -368,8 +372,10 @@ function porg_get_news($start, $count)
         }
 
       }
-
-      file_put_contents($cache_path, serialize($topics));
+      if (mkgetdir(dirname($cache_path)))
+      {
+        file_put_contents($cache_path, serialize($topics));
+      }
     }
   }
 
@@ -527,7 +533,7 @@ function porg_set_pcom_urls()
 function porg_get_coding_activity()
 {
   global $conf;
-  $cache_path = $conf['data_location'].'porg_coding_activity.cache.php';  
+  $cache_path = $conf['data_location'].'/'.PORG_ID.'/porg_coding_activity.cache.php';  
   $coding_activity = null;
   if (!is_file($cache_path) or filemtime($cache_path) < strtotime('5 minutes ago'))
   {
@@ -536,7 +542,10 @@ function porg_get_coding_activity()
     if ($coding_activity_json !== false)
     {
       $coding_activity = json_decode($coding_activity_json, true);
-      file_put_contents($cache_path, serialize($coding_activity));
+      if (mkgetdir(dirname($cache_path)))
+      {
+        file_put_contents($cache_path, serialize($coding_activity));
+      }
     }
   }
     
