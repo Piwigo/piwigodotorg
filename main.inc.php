@@ -409,16 +409,10 @@ function porg_load_content()
      * force refresh of all porg cache
      */
  
-    $refresh_visuals = conf_get_param('refresh_visuals');
-
-    if(isset($_GET['refresh_cache']) && $_GET['refresh_cache'] == $refresh_visuals)
+    if (isset($_GET['refresh_cache']) && $_GET['refresh_cache'] == conf_get_param('porg_refresh_cache_key', 'please'))
     {
-      $files = glob($conf['data_location'].PORG_ID . '/*');
-      foreach ($files as $file) {
-        is_dir($file) ? removeDirectory($file) : unlink($file);
-      }
-      rmdir($conf['data_location'].PORG_ID);
-
+      include_once(PHPWG_ROOT_PATH.'admin/include/functions.php');
+      deltree($conf['data_location'].PORG_ID);
     }
 
     /**
