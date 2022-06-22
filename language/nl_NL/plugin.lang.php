@@ -163,3 +163,5 @@ $lang['porg_guides_install_step3_list2'] = 'Gebruiker';
 $lang['porg_guides_install_step3_list2_span'] = 'Pas op, je web hosting provider kan gescheiden verbindingen for FTP en MySQL leveren. ';
 $lang['porg_guides_install_step3_list3'] = 'Wachtwoord';
 $lang['porg_guides_install_step3_list4'] = 'Database naam';
+$lang['Mobile applications'] = 'Mobiele applicaties';
+$lang['Coding Activity'] = 'Codeeractiviteit';
