@@ -1,6 +1,28 @@
 <?php
 
 $porg_releases = array(
+  '12.3.0' => array(
+    'released_on' => '2022-06-30 16:00:00',
+    'md5sum' => '7c3b18ad58920dc84e5b5079248dabb9',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 1634, 'section' => 'Users & Groups'),
+      array('id' => 1628, 'section' => 'UX'),
+      array('id' => 1616, 'section' => 'Technical'),
+      array('id' => 1602, 'section' => 'Users & Groups'),
+      array('id' => 1599, 'section' => 'Photos'),
+      array('id' => 1596, 'section' => 'Technical'),
+      array('id' => 1594, 'section' => 'Security'),
+      array('id' => 1571, 'section' => 'Users & Groups'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('ca_ES','cs_CZ','da_DK','de_DE','el_GR','en_UK','es_AR','es_ES','et_EE','fi_FI','fr_FR','is_IS','it_IT','ja_JP','lv_LV','mn_MN','nb_NO','nl_NL','pt_BR','ro_RO','sk_SK','sl_SI','tr_TR','uk_UA','zh_CN'),
+    ),
+  ),
+
   '12.2.0' => array(
     'released_on' => '2022-01-01 21:30:00',
     'md5sum' => '678b3c33015357ff6e1c58ff981f4190',
