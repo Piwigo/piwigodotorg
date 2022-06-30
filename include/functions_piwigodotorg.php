@@ -325,7 +325,22 @@ function porg_get_news($start, $count)
     $forum_url = 'https://'.$page['porg_domain_prefix'].'piwigo.org/forum';
     $url = $forum_url.'/news.php?format=json';
 
-    $content = @file_get_contents($url);
+    if (conf_get_param('porg_fetch_news_check_ssl', true))
+    {
+      $content = file_get_contents($url);
+    }
+    else
+    {
+      $arrContextOptions = array(
+        "ssl" => array(
+          "verify_peer" => false,
+          "verify_peer_name" => false,
+        ),
+      );
+
+      $content = file_get_contents($url, false, stream_context_create($arrContextOptions));
+    }
+
     if ($content !== false)
     {
       $topics = json_decode($content, true);
@@ -537,11 +552,27 @@ function porg_get_coding_activity()
   $coding_activity = null;
   if (!is_file($cache_path) or filemtime($cache_path) < strtotime('5 minutes ago'))
   {
-    $coding_activity_url = "https://piwigo.org/activity/api/commits.get.php";
-    $coding_activity_json = @file_get_contents($coding_activity_url);
-    if ($coding_activity_json !== false)
+    $url = "https://piwigo.org/activity/api/commits.get.php";
+
+    if (conf_get_param('porg_fetch_news_check_ssl', true))
     {
-      $coding_activity = json_decode($coding_activity_json, true);
+      $content = file_get_contents($url);
+    }
+    else
+    {
+      $arrContextOptions = array(
+        "ssl" => array(
+          "verify_peer" => false,
+          "verify_peer_name" => false,
+        ),
+      );
+
+      $content = file_get_contents($url, false, stream_context_create($arrContextOptions));
+    }
+
+    if ($content !== false)
+    {
+      $coding_activity = json_decode($content, true);
       if (mkgetdir(dirname($cache_path)))
       {
         file_put_contents($cache_path, serialize($coding_activity));
