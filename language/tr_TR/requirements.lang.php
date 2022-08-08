@@ -9,7 +9,7 @@ $lang['porg_guides_requirements_minimal'] = 'Minimum Gereklilikler';
 $lang['porg_guides_requirements_optional'] = 'İsteğe Bağlı Gereklilikler';
 $lang['porg_guides_requirements_minimal_first'] = 'Nginx veya Apache gibi bir ağ sunucusu';
 $lang['porg_guides_requirements_paragraph'] = 'Piwigo\'nun çalışması için bir web barındırma gerekir. Tüm içeriğin (kurulum, barındırma, yedeklemeler) dahil olduğu bir fotoğraf galerisi çözümü için veya yalnızca kurulum yapmadan Piwigo\'yu denemek istiyorsanız, <a href="%s">Piwigo.com\'da ücretsiz bir deneme hesabı açmayı düşünebilirsiniz< /a>.';
-$lang['porg_guides_requirements_minimal_third'] = 'PHP 7.3+. Piwigo, PHP 5.3+ ile çalışabilir, ancak eski sürümler sitenizi güvenlik açıklarına maruz bırakabilir. <a href="https://www.php.net/supported-versions.php" target="_blank">resmi olarak PHP tarafından desteklenen sürümlere</a> bakın.';
+$lang['porg_guides_requirements_minimal_third'] = 'PHP 7.4+. Piwigo, PHP 7.0+ ile çalışabilir, ancak eski sürümler sitenizi güvenlik açıklarına maruz bırakabilir. <a href="https://www.php.net/supported-versions.php" target="_blank">resmi olarak PHP tarafından desteklenen sürümlere</a> bakın.';
 $lang['porg_guides_requirements_minimal_fourth'] = 'Bir grafik kitaplığı: Performansları ve görüntü kalitesi için ImageMagick önerilir, ancak genellikle PHP ile birlikte verilen GD de yeterlidir.';
 $lang['porg_guides_requirements_optional_first'] = 'Meta Verileri Yazma veya EXIF/IPTC meta verileriyle ilgilenen diğer herhangi bir eklenti için exiftool gereklidir';
 $lang['porg_guides_requirements_optional_third'] = 'PDF dosyalarından poster oluşturmak için pdftoppm önerilir (ImageMagick yerine)';

@@ -9,7 +9,6 @@ $lang['porg_guides_requirements_minimal_first'] = 'En webserver som Nginx eller 
 $lang['porg_guides_requirements_minimal_fourth'] = 'Et grafisk bibliotek: ImageMagick anbefales pga. dets ydeevne og billedkvalitet, men GD, som ofte installeres med PHP, klarer det også.';
 $lang['porg_guides_requirements_minimal_second'] = 'MySQL 5 (eller tilsvarende med MariaDB)';
 $lang['porg_guides_requirements_minimal_sixth'] = 'Tilstrækkelig diskplads til dine billeder: ud over de billeder, du overfører, gemmer Piwigo også forskellige størrelser i din servers cachemappe.';
-$lang['porg_guides_requirements_minimal_third'] = 'PHP 5.3 (7.0 eller 7.1 anbefales)';
 $lang['porg_guides_requirements_optional'] = 'Valgfrie krav';
 $lang['porg_guides_requirements_optional_first'] = 'exiftool kræves af plugin\'en Write Metadata og enhver anden plugin, som håndterer EXIF-/IPTC-metadata';
 $lang['porg_guides_requirements_optional_second'] = 'ffmpeg er krævet af plugin\'en VideoJS for at oprette videoplakaten';

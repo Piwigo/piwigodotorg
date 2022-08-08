@@ -14,6 +14,5 @@ $lang['porg_guides_requirements_minimal_second'] = 'MySQL 5 (или эквива
 $lang['porg_guides_requirements_optional_second'] = 'ffmpeg требуется для плагина VideoJS для создания видео-постеров';
 $lang['porg_guides_requirements_optional_third'] = 'pdftoppm рекомендуется для создания афиш из файлов PDF (вместо ImageMagick)';
 $lang['porg_guides_requirements_minimal'] = 'Минимальные требования';
-$lang['porg_guides_requirements_minimal_third'] = 'PHP 5.3 (рекомендуем 7.0 или 7.1)';
 $lang['porg_guides_requirements_optional'] = 'Дополнительные (необязательные) требования';
 $lang['porg_guides_requirements_minimal_fifth'] = 'понадобится программное обеспечение для клиента FTP - для загрузки файлов (NetInstall или полный пакет. Команда Piwigo рекомендует FTP-клиент FileZilla, потому что это бесплатно, как и Piwigo, и отлично совместимо с Windows, Mac и Linux.';
