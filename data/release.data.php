@@ -1,6 +1,22 @@
 <?php
 
 $porg_releases = array(
+  '13.0.0' => array(
+    'released_on' => '2022-08-24 11:45:00',
+    'md5sum' => 'cc1615fc9768cd64b238fab441d0851a',
+    'summary' => array('Album manager', 'Visit log', 'Multiple-format'),
+    'subtitle' => 'New album manager, new visit log, multiple-format improved.',
+    'features' => array(),
+    'bugs' => array(),
+    'known_issues' => array(),
+    'show_in_changelogs' => false,
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+    'changelogs_image'=>'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2022/08/02/20220802091013-ead3d91c-la.jpg'
+  ),
+
   '12.3.0' => array(
     'released_on' => '2022-06-30 16:00:00',
     'md5sum' => '7c3b18ad58920dc84e5b5079248dabb9',

@@ -12,3 +12,8 @@ $lang['Dark mode'] = 'Dark mode';
 $lang['Activities'] = 'Activities';
 $lang['User manager'] = 'User manager';
 $lang['Plugin manager'] = 'Plugin manager';
+
+// Piwigo 13
+$lang['Album manager'] = 'Album manager';
+$lang['Visit log'] = 'Visit log';
+$lang['Multiple-format'] = 'Multiple-format';

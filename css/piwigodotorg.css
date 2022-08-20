@@ -6924,7 +6924,8 @@ label {
     color: #2e9999;
 }
 
-#releaseNotesMain.major-release h3 span.badge.badge-refresh {
+#releaseNotesMain.major-release h3 span.badge.badge-refresh,
+#releaseNotesMain.major-release h4 span.badge.badge-refresh {
     background-color: #cfebff;
     color: #2883c3;
 }
@@ -7891,6 +7892,48 @@ section.release-notes-overview li a {
     margin-top:0;
     text-align:center;
  }
+
+/* Changelog version 13 */
+.release-13_0_0 .container-release-note {
+    background: linear-gradient(135deg, rgb(255, 119, 0) 0%, rgb(249, 76, 93) 50%, rgb(249, 76, 93) 100%);
+}
+.release-13_0_0 .container-release-note span {
+    color: white;
+}
+
+ .release-13_0_0 .container-download-release{
+     display:none;
+ }
+
+ .release-13_0_0 .download13{
+     display:block;
+     margin-top: 22px;
+ }
+
+ .release-13_0_0 .piwigo13-img {
+    width:100%;
+ }
+
+ .release-13_0_0  .release-notes-intro{
+    margin-top: 60px;
+    margin-bottom:30px;
+ }
+
+ .release-13_0_0 #releaseNotesMain.major-release .release-notes-intro .intro-text{
+     text-align:left;
+ }
+
+ .release-13_0_0 #releaseNotesMain.major-release #intro-title{
+    margin:30px;
+    margin-top:0;
+    text-align:center;
+ }
+
+.release-13_0_0 h4#apibrowser {
+    margin-bottom: 20px;
+}
+
+ /* any release */
 
 .release-menu {
     margin-top:50px;

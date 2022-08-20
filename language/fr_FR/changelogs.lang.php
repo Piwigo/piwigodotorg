@@ -12,4 +12,9 @@ $lang['Dark mode'] = 'Mode sombre';
 $lang['Activities'] = 'Activités';
 $lang['User manager'] = 'Gestionnaire d\'utilisateurs';
 $lang['Plugin manager'] = 'Gestionnaire de plugins';
+
+// Piwigo 13
+$lang['Album manager'] = 'Gestionnaire d\'albums';
+$lang['Visit log'] = 'Historique des visites';
+$lang['Multiple-format'] = 'Formats multiples';
 ?>
