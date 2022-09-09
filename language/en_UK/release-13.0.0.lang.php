@@ -8,7 +8,7 @@ $lang['porg_v13_intro3'] = '';
 
 $lang['porg_v13_albums_title'] = 'Album manager';
 $lang['porg_v13_albums_text'] = 'We have merged the page to move albums and the page to manage albums. As such the new album manager shows a tree view in which you can see the whole hierarchy of your albums, without changing page at any time.';
-$lang['porg_v13_albums_image1_label'] = 'There you can create sub-albums, rename an album or move any album without chaging page. Time savings guaranteed.';
+$lang['porg_v13_albums_image1_label'] = 'There you can create sub-albums, rename an album or move any album without changing page. Time savings guaranteed.';
 
 $lang['porg_v13_history_title'] = 'Visit history';
 $lang['porg_v13_history_text'] = 'The search tool in the visit history has been revamped. It is both aesthetically and technically modernized, but it is also possible to combine filters by clicking on a photo, a user or an IP address.';
@@ -32,7 +32,7 @@ $lang['porg_v13_tagrename_title'] = 'Tag renaming';
 $lang['porg_v13_tagrename_image1_label'] = 'We changed the way to rename a tag. Previously it was too small so we moved it in a popin.';
 
 $lang['porg_v13_apppromo_title'] = 'Mobile applications';
-$lang['porg_v13_apppromo_text'] = 'As you may have already seen in the news, Piwigo now has a solid proposition on smartphone, both on iOS (iphone) and Android (all other smartphones).';
+$lang['porg_v13_apppromo_text'] = 'As you may have already seen in the news, Piwigo now has a solid proposition on smartphone, both on iOS (iPhone) and Android (all other smartphones).';
 $lang['porg_v13_apppromo_image1_label'] = 'Piwigo 13 will promote mobile applications. Too many users still don\'t know about them! Of course this banner ad is hidden "forever" in 1 click.';
 
 $lang['porg_v13_news_title'] = 'Latest news';
@@ -63,8 +63,8 @@ $lang['porg_v13_badge_redesign'] = 'redesign';
 $lang['porg_v13_badge_new'] = 'new';
 $lang['porg_v13_badge_refresh'] = 'refresh';
 
-$lang['porg_v13_api_s1'] = 'serach a photo matching the provided format';
-$lang['porg_v13_api_s2'] = 'delete a photo extended format';
+$lang['porg_v13_api_s1'] = 'search a photo matching the provided format';
+$lang['porg_v13_api_s2'] = 'delete an extended photo format';
 $lang['porg_v13_api_s3'] = 'set a user preference';
 $lang['porg_v13_api_s4'] = 'search among history of visits';
 $lang['porg_v13_api_s5'] = 'new input parameter <code>format_of</code>';
