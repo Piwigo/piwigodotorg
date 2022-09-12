@@ -4955,8 +4955,7 @@ position: absolute;
     object-fit: contain;
    }
 
-   .mobile-second-section .row div,
-   .mobile_fifth_section .row div{
+   .mobile-second-section .row div{
        text-align:center;
    }
 
@@ -4964,8 +4963,11 @@ position: absolute;
        width:auto;
        display:block;
        margin: 30px auto;
-       max-height:350px;
-       
+       max-height:350px; 
+   }
+
+   .mobile_fifth_section button {
+      min-width:250px;
    }
 
    #androidModal,
@@ -5092,6 +5094,11 @@ position: absolute;
        .ios-only{
            margin:15px auto;
        }
+
+       .mobile_fifth_section div {
+        text-align:center;
+        margin-bottom:15px;
+     }
    }
   
 
