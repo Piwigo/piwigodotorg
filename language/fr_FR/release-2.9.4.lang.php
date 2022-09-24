@@ -14,4 +14,8 @@ $lang['porg_issue_834'] = 'compatibilité PHP 7.2';
 $lang['porg_issue_748'] = 'Liste utilisateurs inaccessible';
 $lang['porg_issue_596'] = 'PHP 7.1 et template.class.php incompatibles';
 $lang['porg_issue_258'] = '[albums] gestion par lot et filtre sur album supprimé';
-?>
+$lang['porg_issue_846'] = 'Correction du problème n°844';
+$lang['porg_issue_866'] = 'Inclure l\'identificateur de session pwg_token dans la requête POST de la liste des utilisateurs (Corrige le problème N°748)
+';
+$lang['porg_issue_897'] = '[2.9.4] affichage T_FUNCTION inattendu dans functions_mysqli.inc.php à la ligne 403';
+$lang['porg_issue_902'] = '[2.9.4] la liste des utilisateurs n\'est plus paginée ou filtrée';
