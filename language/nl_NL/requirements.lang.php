@@ -15,3 +15,5 @@ $lang['porg_guides_requirements_optional_first'] = 'exiftool is vereist voor plu
 $lang['porg_guides_requirements_optional_second'] = 'ffmpeg is vereist voor plug-in VideoJS om een ​​videoposter te maken';
 $lang['porg_guides_requirements_optional_third'] = 'pdftoppm wordt aanbevolen om een ​​poster van PDF-bestanden te genereren (in plaats van ImageMagick)';
 $lang['porg_guides_requirements_paragraph'] = 'Piwigo vereist een webhosting. Voor een fotogalerijoplossing met alles inbegrepen (installatie, hosting, back-ups), of als u Piwigo gewoon zonder installatie wilt proberen, kunt u overwegen om <a href="%s"> een gratis proefaccount te openen op Piwigo.com < / a>';
+$lang['porg_guides_requirements_minimal_second'] = 'MySQL 5.6+ of MariaDB 10.1+. MySQL 5.0werken maar worden niet meer onderhouden.';
+$lang['porg_guides_requirements_minimal_third'] = 'PHP 7.4+. Piwigo kan werken met PHP 7.0+ maar deze end-of-life versies worden niet meer onderhouden en kunnen uw site blootleggen aan beveiligingsproblemen. Zie op <a href="https://www.php.net/supported-versions.php" target="_blank">voor officieel door PHP ondersteunde versies.</a>.';
