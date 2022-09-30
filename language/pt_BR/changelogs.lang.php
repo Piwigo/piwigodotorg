@@ -31,3 +31,6 @@ $lang['User manager'] = 'Gerente de usuário';
 $lang['See all the details'] = 'Veja detalhes';
 $lang['Plugin manager'] = 'Gerenciador de plugins';
 $lang['Activities'] = 'Atividades';
+$lang['Album manager'] = 'Gerenciador de álbuns';
+$lang['Multiple-format'] = 'Múltiplo Formato';
+$lang['Visit log'] = 'Registro de visitas';
