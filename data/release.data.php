@@ -2,14 +2,14 @@
 
 $porg_releases = array(
   '13.0.0' => array(
-    'released_on' => '2022-08-24 11:45:00',
-    'md5sum' => 'cc1615fc9768cd64b238fab441d0851a',
+    'released_on' => '2022-10-11 11:24:00',
+    'md5sum' => '88f4721e347952bbdfcd5fd12232dfd3',
     'summary' => array('Album manager', 'Visit log', 'Multiple-format'),
     'subtitle' => 'New album manager, new visit log, multiple-format improved.',
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
-    'show_in_changelogs' => false,
+    'show_in_changelogs' => true,
     'languages' => array(
       'new' => array(),
       'updated' => array(),
