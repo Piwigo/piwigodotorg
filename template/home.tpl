@@ -43,7 +43,7 @@ $(document).ready(function() {
           </div>
 
           <div class="col-sm-12 col-md-6 responsive-image">
-            <img class="img-fluid" src="{$PORG_ROOT_URL}/images/home/responsive-screens.jpg">
+            <img class="img-fluid" src="{$PORG_ROOT_URL}/images/home/responsive-screens.png">
           </div>
 
           <div class="col-md-12 latest-activites">
