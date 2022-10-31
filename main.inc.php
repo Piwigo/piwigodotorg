@@ -231,6 +231,14 @@ function porg_load_content()
             'donate' => 'get-involved', // TODO redirect on the #donate
             );
 
+        // on all Piwigo photo upload form, since version 13, we display an add for the
+        // mobile-applications page but Piwigo doesn't know the url in each language, so
+        // let's redirect it properly
+        if ('mobile-applications' == $_GET['porg'] and porg_get_page_url('mobile-applications') != 'mobile-applications')
+        {
+            $redirects['mobile-applications'] = 'mobile-applications';
+        }
+
         // specific case for releases/a.b.c => release-a.b.c
         if (preg_match('/^releases\/(\d+\.\d+\.\d+)$/', $_GET['porg'], $matches))
         {
