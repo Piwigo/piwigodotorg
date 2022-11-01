@@ -51,7 +51,7 @@ $lang['porg_v13_technical_features13'] = 'Classi e dati per &lt;body&gt;';
 $lang['porg_v13_technical_features12'] = 'Apprendi di più';
 $lang['porg_v13_technical_features1'] = 'Prego notare che è disponibile della documentazione più dettagliata su';
 $lang['porg_v13_tagrename_title'] = 'Rinomina tag';
-$lang['porg_v13_tagrename_image1_label'] = 'Abbiamo cambiato la modalità per rinominare un tag. Prima era troppo piccolo, perciò lo abbiamo spostato all\'interno di ';
+$lang['porg_v13_tagrename_image1_label'] = 'Abbiamo cambiato la modalità per rinominare un tag. Prima era troppo piccolo, perciò lo abbiamo spostato in un popin';
 $lang['porg_v13_svg_title'] = 'Supporto ai file SVG';
 $lang['porg_v13_svg_text'] = 'Essi già esistevano come "file di qualunque tipo", ma Piwigo 13 è in grado di mostrare file SVG direttamente all\'interno della pagina web. Se utilizzi Piwigo per organizzare i tuoi loghi ed icone, sicuramente apprezzerai tale miglioramento.
 Abbiamo già lavorato per rendere Modus (il tema predefinito) e Bootstrap (il secondo tema più popolare) compatibili con questa nuova caratteristica.';
@@ -60,3 +60,7 @@ $lang['porg_v13_multiformat_text'] = 'Molteplici formati possono essere caricati
 Ma un momento... cosa sono esattamente questi "molteplici formati"? È possibile presentare una fotografia in diversi formati immagine. Per esempio puoi caricare la stessa immagine in formato JPEG, RAW, TIFF, ecc, nelle loro diverse varianti. I formati vengono elencati vicino alla stessa fotografia, come differenti opzioni di scaricamento.';
 $lang['porg_v13_remi_text1'] = 'Il mio nome è Rémi ed ho lavorato come sviluppatore per Piwigo per più di un anno [Nota dell\'editore: da febbraio 2021]. Sono entrato nel team con l\'obiettivo principale di rendere l\'applicazione Android in linea con quella di iOS. Non è facile, ma sono motivato.';
 $lang['porg_v13_plugin_manager_title'] = 'Gestione dei plugin';
+$lang['porg_v13_technical_features7'] = 'PHP 8.1 sta arrivando in tanti webhost e molti di voi hanno riferito di problemi con Piwigo 12. La compatibilità con PHP 8.1 richiede la migrazione a Smarty 4.1 (template engine).';
+$lang['porg_v13_technical_features6'] = 'Compatibilità con PHP 8.1';
+$lang['porg_v13_technical_features14'] = 'Per semplificare la personalizzazione e le possibile elaborazioni del front-end, abbiamo aggiunto classi di CSS al tag &lt;body&gt; ed anche l\'attributo <code>data</code>.';
+$lang['porg_v13_technical_features2'] = 'Cambiamenti tecnici in Piwigo 13';
