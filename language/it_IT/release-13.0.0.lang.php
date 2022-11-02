@@ -64,3 +64,5 @@ $lang['porg_v13_technical_features7'] = 'PHP 8.1 sta arrivando in tanti webhost 
 $lang['porg_v13_technical_features6'] = 'Compatibilità con PHP 8.1';
 $lang['porg_v13_technical_features14'] = 'Per semplificare la personalizzazione e le possibile elaborazioni del front-end, abbiamo aggiunto classi di CSS al tag &lt;body&gt; ed anche l\'attributo <code>data</code>.';
 $lang['porg_v13_technical_features2'] = 'Cambiamenti tecnici in Piwigo 13';
+$lang['porg_v13_technical_features5'] = 'Inserite fra le variabili di configurazione (comuni a tutti gli utenti) ed i cookie (specifici del browser web), le preferenze dell\'utente consentono di mantenere nel tempo le proprie impostazioni, indipendentemente dalla sessione. Nuove funzioni:
+<code>userprefs_get_param</code>, <code>userprefs_update_param</code>, <code>userprefs_delete_param</code>.';
