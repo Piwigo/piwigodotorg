@@ -51,6 +51,7 @@ $porg_languages = array(
   'fi_FI' => 'suomi',
   'fr_CA' => 'Québecois',
   'fr_FR' => 'Français',
+  'ga_IE' => 'Gaeilge',
   'gl_ES' => 'Galego',
   'he_IL' => 'עברית',
   'hr_HR' => 'Hrvatski',

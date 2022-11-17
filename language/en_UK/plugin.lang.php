@@ -61,6 +61,7 @@ $lang['language_fa_IR'] = 'Persian';
 $lang['language_fi_FI'] = 'Finnish';
 $lang['language_fr_CA'] = 'French Canadian';
 $lang['language_fr_FR'] = 'French';
+$lang['language_ga_IE'] = 'Gaeilic';
 $lang['language_gl_ES'] = 'Galician';
 $lang['language_he_IL'] = 'Hebrew';
 $lang['language_hr_HR'] = 'Croatian';
