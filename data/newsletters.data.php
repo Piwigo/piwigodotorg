@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2022-11-17' => array (
+                'title' => 'Piwigo 13',
+                'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2022/10/11/20221011115708-ead3d91c-sm.jpg',
+                'summary' => 'Sortie il y a un mois, Piwigo 13 est maintenant disponible en version 13.2.0 et il temps de prévenir les abonnés à la newsletter !',
+            ),
             '2022-05-02' => array (
                 'title' => 'Piwigo a 20 ans, Piwigo 13 en version bêta',
                 'image' => 'https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2022/05/02/20220502135854-25c284c5.png',
@@ -274,6 +279,11 @@
             ),
         ),
         'en' => array(
+            '2022-11-17' => array (
+                'title' => 'Piwigo 13',
+                'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2022/10/11/20221011115708-ead3d91c-sm.jpg',
+                'summary' => 'One month ago we proudly released Piwigo 13.0.0. 2 bug fixing versions later, it\'s time to make sure all newsletter subscribers are notified about Piwigo 13.2.0!',
+            ),
             '2022-05-02' => array (
                 'title' => 'Piwigo turns 20, Piwigo 13 available in beta',
                 'image' => 'https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2022/05/02/20220502153103-fcdddfcb.png',
