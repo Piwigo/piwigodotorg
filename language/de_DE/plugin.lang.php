@@ -166,3 +166,4 @@ $lang['porg_guides_installation_instruction_title'] = 'Installationsanleitungen'
 $lang['porg_guides_update_instruction_title'] = 'Aktualisierungsanleitungen';
 $lang['Coding Activity'] = 'Codierung Aktivität';
 $lang['Mobile applications'] = 'Mobile Anwendungen';
+$lang['language_ga_IE'] = 'Gälisch';
