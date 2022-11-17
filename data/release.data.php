@@ -1,6 +1,37 @@
 <?php
 
 $porg_releases = array(
+  '13.2.0' => array(
+    'released_on' => '2022-11-17 09:30:00',
+    'md5sum' => '3abd38fa8c35cd43ba5d51b815ad30ec',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 1796, 'section' => 'Albums'),
+      array('id' => 1795, 'section' => 'Photos'),
+      array('id' => 1794, 'section' => 'Albums'),
+      array('id' => 1793, 'section' => 'Albums'),
+      array('id' => 1792, 'section' => 'Security'),
+      array('id' => 1787, 'section' => 'Photos'),
+      array('id' => 1784, 'section' => 'Tools'),
+      array('id' => 1783, 'section' => 'Tools'),
+      array('id' => 1782, 'section' => 'Tools'),
+      array('id' => 1781, 'section' => 'Albums'),
+      array('id' => 1780, 'section' => 'Albums'),
+      array('id' => 1775, 'section' => 'Albums'),
+      array('id' => 1774, 'section' => 'Photos'),
+      array('id' => 1772, 'section' => 'UX'),
+      array('id' => 1770, 'section' => 'Photos'),
+      array('id' => 1768, 'section' => 'Albums'),
+      array('id' => 1767, 'section' => 'Users & Groups'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array('ga_IE'),
+      'updated' => array('ca_ES','cs_CZ','da_DK','de_DE','en_UK','es_ES','eu_ES','fr_CA','fr_FR','hu_HU','is_IS','it_IT','ja_JP','nb_NO','nl_NL','pt_BR','ro_RO','ru_RU','sk_SK','sr_RS','sv_SE','tr_TR','vi_VN','zh_CN','zh_TW'),
+    ),
+  ),
+
   '13.1.0' => array(
     'released_on' => '2022-10-22 12:00:00',
     'md5sum' => '9f0ce3027ff5488b2ab555c9ae47f418',
