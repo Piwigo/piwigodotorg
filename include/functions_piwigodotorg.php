@@ -541,6 +541,13 @@ function porg_set_pcom_urls()
     $pcom_url['why'] = 'https://'.$pcom_prefix.'piwigo.com/position';
     $pcom_url['clients'] = 'https://'.$pcom_prefix.'piwigo.com/examples';
   }
+  elseif ('nl.' == $pcom_prefix)
+  {
+    $pcom_url['pricing'] = 'https://'.$pcom_prefix.'piwigo.com/prijzen';
+    $pcom_url['signup'] = 'https://'.$pcom_prefix.'piwigo.com/aanmelden';
+    $pcom_url['why'] = 'https://'.$pcom_prefix.'piwigo.com/waarom';
+    $pcom_url['clients'] = 'https://'.$pcom_prefix.'piwigo.com/klanten';
+  }
 
   $template->assign('PCOM_URL', $pcom_url);
 }
