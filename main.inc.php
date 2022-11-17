@@ -363,31 +363,36 @@ function porg_load_content()
             )
         );
 
-        // display language info, only if we're on the English website
-        if ('en_UK' == $user['language'])
+        // propose to switch to the most appropriate language, if available
+        $subdomain = 'en';
+        if (!empty($page['porg_domain_prefix']))
         {
-            $browser_language = substr(@$_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, 2);
+            $subdomain = substr($page['porg_domain_prefix'], 0, 2);
+        }
 
-            // specific case for pt_BR, let's say it's "br" to make things simpler
-            if ('pt' == $browser_language)
-            {
-                $browser_language = 'br';
-            }
+        $browser_language = substr(@$_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, 2);
 
-            if ('en' != $browser_language)
+        // specific case for pt_BR, let's say it's "br" to make things simpler
+        if ('pt' == $browser_language)
+        {
+            $browser_language = 'br';
+        }
+
+        if ($browser_language != $subdomain)
+        {
+            include(PORG_PATH . '/data/languages.data.php');
+            if (isset($porg_languages_switch[$browser_language]) and preg_match('/^(http.*?)([a-z]+\.)?piwigo.org/', get_absolute_root_url(), $matches))
             {
-                include(PORG_PATH . '/data/languages.data.php');
-                if (isset($porg_languages_switch[$browser_language]) and preg_match('/^(http.*?)([a-z]+\.)?piwigo.org/', get_absolute_root_url(), $matches))
-                {
-                    $base_url = $matches[1];
-                    $template->assign(
-                        'LANGUAGE_INFO',
-                        array(
-                            'url' => $base_url.$browser_language.'.piwigo.org',
-                            'label' => $porg_languages_switch[$browser_language],
-                        )
-                    );
-                }
+                $new_prefix = ('en' == $browser_language) ? '' : $browser_language.'.';
+
+                $base_url = $matches[1];
+                $template->assign(
+                    'LANGUAGE_INFO',
+                    array(
+                        'url' => $base_url.$new_prefix.'piwigo.org',
+                        'label' => $porg_languages_switch[$browser_language],
+                    )
+                );
             }
         }
     }
