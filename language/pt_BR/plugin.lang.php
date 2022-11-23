@@ -163,3 +163,4 @@ $lang['porg_guides_install_step3_list3'] = 'Senha';
 $lang['porg_guides_install_step3_list4'] = 'Nome do Banco de Dados';
 $lang['Coding Activity'] = 'Atividade de codificação';
 $lang['Mobile applications'] = 'Aplicações Móveis';
+$lang['language_ga_IE'] = 'Gaélico';
