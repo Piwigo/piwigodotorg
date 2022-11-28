@@ -1,6 +1,28 @@
 <?php
 
 $porg_releases = array(
+  '13.3.0' => array(
+    'released_on' => '2022-11-28 15:30:00',
+    'md5sum' => 'b73ee0c6507f7b6838d6c6901ec2bb18',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 1808, 'section' => 'Albums'),
+      array('id' => 1807, 'section' => 'UX'),
+      array('id' => 1806, 'section' => 'Albums'),
+      array('id' => 1803, 'section' => 'Albums'),
+      array('id' => 1802, 'section' => 'Technical'),
+      array('id' => 1801, 'section' => 'UX'),
+      array('id' => 1800, 'section' => 'Users & Groups'),
+      array('id' => 1790, 'section' => 'Albums'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('ca_ES','cs_CZ','da_DK','de_DE','es_ES','et_EE','fr_CA','hu_HU','is_IS','nb_NO','nl_NL','pt_BR','sk_SK','sv_SE','tr_TR'),
+    ),
+  ),
+
   '13.2.0' => array(
     'released_on' => '2022-11-17 09:30:00',
     'md5sum' => '3abd38fa8c35cd43ba5d51b815ad30ec',
