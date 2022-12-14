@@ -40,3 +40,7 @@ $lang['Why choose Piwigo?'] = 'Perché scegliere Piwigo?';
 $lang['porg_love_title'] = 'A loro piace Piwigo ... e lo dicono!';
 $lang['porg_showcase_title'] = 'Alcune gallerie create con Piwigo';
 $lang['version %s'] = 'versione %s';
+$lang['Cloud hosting'] = 'cloud hosting';
+$lang['Download or'] = 'Scarica o';
+$lang['Latest activity'] = 'Ultime attività.';
+$lang['page_meta_description'] = 'Gestisci la tua collezione fotografica con Piwigo! Un programma gratuito ed a codice aperto per organizzare e condividere le tue fotografie e media digitali su internet.';
