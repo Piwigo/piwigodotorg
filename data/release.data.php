@@ -1,6 +1,24 @@
 <?php
 
 $porg_releases = array(
+  '13.4.0' => array(
+    'released_on' => '2022-12-16 17:10:00',
+    'md5sum' => '86eb6f76ad3ff0c3ccce77ee03d995fc',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 1827, 'section' => 'Photos'),
+      array('id' => 1826, 'section' => 'Users & Groups'),
+      array('id' => 1825, 'section' => 'Users & Groups'),
+      array('id' => 1824, 'section' => 'Users & Groups'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('en_GB','en_UK','et_EE','eu_ES','fr_FR','zh_TW'),
+    ),
+  ),
+
   '13.3.0' => array(
     'released_on' => '2022-11-28 15:30:00',
     'md5sum' => 'b73ee0c6507f7b6838d6c6901ec2bb18',
