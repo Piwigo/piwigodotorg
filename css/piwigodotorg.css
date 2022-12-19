@@ -2803,233 +2803,6 @@ h2{
   margin-top: 10px;
 }
 
-/**************************
- * Piwigo testimonies CSS *
- **************************/
-
-.pwg-testimonies {
-    background-color: #54616F;
-}
-
-.pwg-testimonies h1, .pwg-testimonies p {
-    color: #FFFFFF;
-}
-
-.pwg-testimonies p {
-    font-size: 20px;
-}
-
-.pwg-testimonies-title {
-    color: #54616F;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.pwg-testimonies-icon {
-    background-image: url(../images/testimonies/chat.svg);
-    background-size: 350px;
-    background-position: center 85%;
-    background-repeat: no-repeat;
-}
-
-/* Testimonies content - people advice about their experience using piwigo */
-
-.pwg-testimonies-row {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-right: -30px;
-    margin-left: -30px;
-}
-
-.pwg-testimonies-content {
-    margin-bottom: 30px;
-    /* Careful, this breaks the word wherever it is without a hyphen */
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-
-    /* Adds a hyphen where the word breaks */
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-}
-
-.pwg-testimonies-advice {
-    color: #FFFFFF;
-    font-size: 20px;
-    padding: 20px 20px 20px 20px;
-}
-
-.pwg-testimonies-grey {
-    background-color: #54616F;
-}
-
-.pwg-testimonies-blue {
-    background-color: #5593F4;
-}
-
-.pwg-testimonies-red-salmon {
-    background-color: #F46755;
-}
-
-.pwg-testimonies-picture {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.pwg-testimonies-picture img {
-    width: 100%;
-    height: auto;
-}
-
-.pwg-testimonies-AaDT64 .pwg-testimonies-picture img {
-    padding:10px 20px;
-}
-.pwg-testimonies-ffn .pwg-testimonies-picture img {
-    padding:10px 20px;
-}
-
-.pwg-testimonies-user {
-    margin-left: 0px;
-    margin-right: 0px;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
-}
-
-.pwg-testimonies-date, .pwg-testimonies-name {
-    color: #54616F;
-}
-
-.pwg-testimonies-name span {
-    font-size: 20px;
-    line-height: 1.8;
-}
-
-.pwg-testimonies-name p {
-    padding-top: 20px;
-}
-
-.pwg-testimonies-date p {
-    padding-top: 55px;
-    font-size: 12px;
-    text-align: center;
-}
-
-.padding-right-column-left {
-    padding-right: 30px;
-}
-
-.padding-left-column-right {
-    padding-left: 30px;
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .pwg-testimonies-row {
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-    .pwg-testimonies-name p {
-       padding-top: 5px;
-    }
-    .pwg-testimonies-name p > span {
-        font-size: 12px;
-    }
-    .pwg-testimonies-date p {
-        font-size: 12px;
-        padding-top: 30px;
-    }
-}
-
-@media (max-width: 991px) {
-
-    .pwg-testimonies-row {
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-
-    .padding-right-column-left {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    .padding-left-column-right {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    .pwg-testimonies-name span {
-        font-size: 18px;
-        line-height: 1.8;
-    }
-    .pwg-testimonies-name p {
-        font-size: 16px;
-        padding-top: 10px;
-    }
-    .pwg-testimonies-date p {
-        font-size: 10px;
-        padding-top: 47px;
-    }
-}
-
-@media (max-width: 550px) {
-    .pwg-testimonies-name span {
-        font-size: 14px;
-    }
-    .pwg-testimonies-name p {
-        font-size: 12px;
-    }
-    .pwg-testimonies-date p {
-        font-size: 10px;
-        padding-top: 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .pwg-testimonies-name span {
-        font-size: 12px;
-    }
-    .pwg-testimonies-name p {
-        font-size: 10px;
-    }
-    .pwg-testimonies-date p {
-        font-size: 10px;
-        padding-top: 20px;
-    }
-}
-
-@media (max-width: 360px) {
-    .pwg-testimonies-name span {
-        font-size: 10px;
-        line-height: 1.8;
-    }
-    .pwg-testimonies-name p {
-        font-size: 8px;
-        padding-top: 5px;
-    }
-
-    .pwg-testimonies-date p {
-        font-size: 8px;
-        padding-top: 7px;
-    }
-}
-
-
-/* Share testimonies */
-
-.share-testimonies {
-    background-color: #F8F8F8;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.share-testimonies p {
-    font-size: 24px;
-}
-
-.share-testimonies a {
-    color: #FF7700;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 /*************************
  * Piwigo extensions CSS *
  *************************/
@@ -4555,259 +4328,89 @@ position: absolute;
     height: 50px;
 }
 
-/************************
- * Piwigo Showcases CSS *
- ************************/
 
-.pwg-showcases-content{
-    text-align:center;
-    margin:30px 0;
-}
 
-.showcase-text-intro-container{
-    text-align:left;
-    position:relative;
-}
-
-.showcase-text-intro{
-    
-}
-
-.showcase-text-intro h1{
-    margin-top: 20px;
-    font-size: 56px;
-    font-weight: 900;
-    text-align: left;
-    color: #3c3c3c;
-    line-height: 76px;
-    transition: all 1s;
-}
-
-.showcase-text-intro p{
-    color: #7e7e7e;
-    font-size: 20px;
-    margin-top: 40px;
-    font-weight: 700;
-    line-height: 28px;
-    transition: all 1s;
-    text-align: left;
-}
-
-.filter-container{
-    margin:50px 0;
-    text-align:center;
-}
-
-.showcase-illustration{
-    width: 75%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+/*************
+ * Users page
+**************/ 
+ .users-page-intro img{
+    width: 80%;
     right: 0;
-}
-
-.filter-btn{
-    border:1px solid #6CADD9;
-    background-color:transparent;
-    color:#6CADD9;
-    padding:10px 15px;
-    border-radius:20px;
-    font-weight:700;
-    margin:15px 5px;
-    transition: background-color 0.2s ease-out;
-    -webkit-transition: background-color 0.2s ease-out;
-    -moz-transition: background-color 0.2s ease-out;
-    outline:none;
-}
-.filter-btn:hover, .programs-filter-btn-active{
-    background-color:#ebf5ff;
-    color:#6CADD9;
-    border:1px solid #ebf5ff;
-}
-
-.programs-filter-btn-active{
-    background-color:#ebf5ff!important;
-    color:#6CADD9!important;
-    border:1px solid #ebf5ff!important;
-}
-
-.showcase-gallery-link{
-    text-align:center;
-}
-
-.showcase-caption{
-    font-weight:700;
-    color:#7e7e7e;
-    margin:20px 0;
-    font-size:25px;
-}
-
-.showcase-resume{
-    margin-bottom:40px;
-    color:#7e7e7e;
-}
-
-#mix-wrapper{
-    position:relative;
-    display:block;
-    padding:0 15px;
-}
-
-.mix-target{
-    transition: background-color 0.2s ease-out;
-    -webkit-transition: background-color 0.2s ease-out;
-    -moz-transition: background-color 0.2s ease-out;
-    position:relative;
-    display:block;
-    height:440px;
-    margin-bottom:30px;
-}
-
-.mix-target img{
-    width:100%;
-    margin:15px 0;
-}
-
-.mix-target .showcase-gallery-link p{
-    position:absolute;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    color:white;
-    padding:10px 15px;
-    background-color:#ff7700;
-    text-align:center;
-    display:none; 
-    font-weight:bold;   
 }
 
-.mix-target a img, .mix-target img{
-    box-shadow:0 0 10px #ccc;
+.users-page-intro h1{
+  margin-top: 20px;
+  font-size: 56px;
+  font-weight: 900;
+  text-align: left;
+  color: #3c3c3c;
+  line-height: 76px;
+  transition: all 1s;
 }
 
-.mix-target a:hover img {
-    box-shadow:0 0 20px #8f8f8f;
+.users-page h2{
+  margin-top: 20px;
+  font-size: 37px;
+  font-weight: 900;
+  text-align: left;
+  color: #3c3c3c;
+  line-height: 76px;
+  transition: all 1s;
 }
 
-.mix-target a:hover p{
-    display:block;
+.users-page .p-0{
+  padding:0;
 }
 
-
-.lightbox{
-    display:none;
-    position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
+.users-page-intro p{
+  color: #7e7e7e;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 700;
+  line-height: 28px;
+  transition: all 1s;
+  text-align: left;
 }
 
-.lightbox img {
-    width:50%;
-    height:auto;
-    position: absolute;
-    left: 25%;
-    box-shadow:none!important;
-    margin:65px 0;
+.users-page-intro .container{
+  padding-top:180px;
 }
 
-.lightbox:target{
-	outline: none;
-	display: block;
+.users-page-map img{
+  width:100%;
 }
 
-.close {
-    position: absolute;
-    right: 32px;
-    top: 32px;
-    width: 32px;
-    height: 32px;
-    opacity: 1;
-    color:white;
-  }
-  .close:hover {
-    opacity: 1;
-  }
-  .close:before, .close:after {
-    position: absolute;
-    left: 15px;
-    content: ' ';
-    height: 33px;
-    width: 2px;
-    background-color: white;
-  }
-  .close:before {
-    transform: rotate(45deg);
-  }
-  .close:after {
-    transform: rotate(-45deg);
-  }
+.users-page button{
+  width: auto;
+  max-width: 300px;
+  background-color: #ff7700;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
 
-  .showcase-directory-link{
-      text-align:center;
-      background-color: #F8F8F8;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
+.users-page .users-page-logos,
+.users-page .users-page-map{
+  margin-top:150px;
+}
 
-  .showcase-directory-link p{
-    font-size: 16px;
-    font-weight: 700;
-    color: #7e7e7e;
-    margin: 30px 0;
-  }
-
-  .showcase-image-link-container{
-      position:relative;
-  }
-
-  @media (max-width:991px){
-    .showcase-text-intro{
-        position:relative;
-        top:inherit;
-        transform:inherit;
-    }
-    .showcase-text-intro-container{
-        text-align:center;
-    }
-    .showcase-illustration{
-        position:relative;
-        top:inherit;
-        transform:inherit;
-    }
-    .showcase-text-intro h1{
-        text-align: left;
-        font-weight: 900;
-        line-height: 40px;
-        padding: 0;
-        font-size: 30px;
-    }
-    .showcase-text-intro p{
-        font-size: 16px;
-        margin-top: 40px;
-        margin-bottom:40px;
-        text-align: left;
-        padding: 0;
-        line-height: normal;
-    }
-    .mix-target img{
-        width: 100%;
-        margin:0 auto;
-    }
-  }
-
-  @media (max-width:767px){
-      .mix-target{
-          height:auto;
-      }
-  }
-
+.users-page .users-page-logos h2{
+  text-align: center;
+}
+.users-page .users-page-logos .img-container{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+.users-page .users-page-logos img{
+  width:100%;
+}
 /**********************************
  * Piwigo Mobile applications CSS *
  **********************************/  
