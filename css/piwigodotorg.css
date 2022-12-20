@@ -4363,18 +4363,23 @@ position: absolute;
   padding:0;
 }
 
-.users-page-intro p{
+.users-page p.text-content{
   color: #7e7e7e;
   font-size: 20px;
-  margin-top: 40px;
   font-weight: 700;
   line-height: 28px;
   transition: all 1s;
   text-align: left;
+  max-width:500px;
+  margin:40px auto;
 }
 
 .users-page-intro .container{
   padding-top:180px;
+}
+
+.users-page-intro p.text-content{
+  max-width:unset;
 }
 
 .users-page-map img{
@@ -4411,6 +4416,12 @@ position: absolute;
 .users-page .users-page-logos img{
   width:100%;
 }
+
+.users-page h2{
+  text-align:center;
+}
+
+
 /**********************************
  * Piwigo Mobile applications CSS *
  **********************************/  

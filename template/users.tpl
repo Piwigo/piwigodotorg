@@ -5,7 +5,7 @@
         <div class="col-md-12">
           <h1 class="col-md-12">Qui utilise Piwigo ?</h1>
           <div class="col-md-6">
-          <p>Piwigo est utilisé partout dans le monde, par des particuliers et des organisations de toutes tailles. Découvrez des exemples de photothèques créées avec Piwigo !</p>
+          <p class="text-content">Piwigo est utilisé partout dans le monde, par des particuliers et des organisations de toutes tailles. Découvrez des exemples de photothèques créées avec Piwigo !</p>
           <button href="#user-examples" role="button">Découvrir</button>
           </div>
         </div>
@@ -41,8 +41,21 @@
           <img src="{$PORG_ROOT_URL}images/users/users_map.png">
         </div>
         <div class="col-md-6">
-          <h2>Piwigo à travers le monde</h2>
-          <p>Piwigo est un projet international qui compte des utilisateurs aux quatre coins du globe : de la France à l’Inde en passant par les États-Unis, le Brésil, l’Afrique du Sud, l’Allemagne ou encore la Chine.</p>
+          <div class="">
+            <h2>Piwigo à travers le monde</h2>
+            <p class="text-content">Piwigo est un projet international qui compte des utilisateurs aux quatre coins du globe : de la France à l’Inde en passant par les États-Unis, le Brésil, l’Afrique du Sud, l’Allemagne ou encore la Chine.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="users-page container-fluid">
+    <div class="users-page-examples">
+      <div class="row">
+        <div class="col-12">
+          <h2>Découvrez nos fabuleux utilisateurs</h2>
+          <p class="text-content">Nos utilisateurs ont du talent, et ils aiment Piwigo ! À travers des exemples de photothèques et des témoignages, découvrez de multiples façons d’utiliser Piwigo.</p>
         </div>
       </div>
     </div>
