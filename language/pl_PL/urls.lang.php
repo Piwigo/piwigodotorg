@@ -46,3 +46,5 @@ $lang['porg_urls']['manual_update'] = 'przewodniki/uaktualnienie/ręczne';
 $lang['porg_urls']['manual_installation'] = 'przewodniki/instalacja/ręczna';
 $lang['porg_urls']['automatic_update'] = 'przewodniki/uaktualnienie/automatyczne';
 $lang['porg_urls']['guides'] = 'przewodniki';
+$lang['porg_urls']['coding-activity'] = 'programowanie';
+$lang['porg_urls']['mobile-applications'] = 'aplikacje mobilne';
