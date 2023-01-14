@@ -165,3 +165,4 @@ $lang['porg_guides_install_step3_list3'] = 'Wachtwoord';
 $lang['porg_guides_install_step3_list4'] = 'Database naam';
 $lang['Mobile applications'] = 'Mobiele applicaties';
 $lang['Coding Activity'] = 'Codeeractiviteit';
+$lang['language_ga_IE'] = 'Keltisch';
