@@ -163,3 +163,4 @@ $lang['porg_get_started_question_desc1'] = '<a href="%s">Forum</a>\'dan biraz ya
 $lang['Still got some unanswered questions ?'] = 'Hala cevaplanmamış sorularınız mı var?';
 $lang['Mobile applications'] = 'Mobil uygulamalar';
 $lang['Coding Activity'] = 'Kodlama Etkinliği';
+$lang['language_ga_IE'] = 'Galce';
