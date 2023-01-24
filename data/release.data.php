@@ -1,6 +1,31 @@
 <?php
 
 $porg_releases = array(
+  '13.5.0' => array(
+    'released_on' => '2023-01-24 14:40:00',
+    'md5sum' => '910345f54980c82600844a16f85a5663',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 1852, 'section' => 'Technical'),
+      array('id' => 1849, 'section' => 'UX'),
+      array('id' => 1841, 'section' => 'Technical'),
+      array('id' => 1839, 'section' => 'Users & Groups'),
+      array('id' => 1838, 'section' => 'Users & Groups'),
+      array('id' => 1837, 'section' => 'Albums'),
+      array('id' => 1836, 'section' => 'Technical'),
+      array('id' => 1835, 'section' => 'Security'),
+      array('id' => 1834, 'section' => 'Users & Groups'),
+      array('id' => 1832, 'section' => 'Users & Groups'),
+      array('id' => 1831, 'section' => 'Albums'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('br_FR','ca_ES','cs_CZ','da_DK','de_DE','el_GR','en_UK','es_ES','es_MX','fa_IR','fr_CA','fr_FR','is_IS','it_IT','ko_KR','nb_NO','nl_NL','nn_NO','pl_PL','pt_BR','sk_SK','sr_RS','sv_SE','tr_TR','vi_VN','zh_HK','zh_TW'),
+    ),
+  ),
+
   '13.4.0' => array(
     'released_on' => '2022-12-16 17:10:00',
     'md5sum' => '86eb6f76ad3ff0c3ccce77ee03d995fc',
