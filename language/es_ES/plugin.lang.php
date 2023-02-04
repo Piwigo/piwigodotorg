@@ -161,3 +161,6 @@ $lang['porg_guides_manual_update'] = 'Actualización manual';
 $lang['porg_guides_netinstall'] = 'Netinstall';
 $lang['porg_guides_requirements'] = 'Requisitos';
 $lang['porg_guides_update_instruction_title'] = 'Actualizar guías';
+$lang['Coding Activity'] = 'Actividad de código';
+$lang['Mobile applications'] = 'Aplicaciones móviles';
+$lang['language_ga_IE'] = 'Gaélico';
