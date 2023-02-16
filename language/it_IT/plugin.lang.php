@@ -161,3 +161,6 @@ $lang['porg_guides_install_step3_list2'] = 'Il tuo ID di accesso';
 $lang['porg_guides_install_step3_list2_span'] = 'Tieni presente che il tuo host potrebbe fornirti accessi diversi per la connessione al tuo sito Web e a quello del server MySQL.';
 $lang['porg_guides_install_step3_list3'] = 'Password';
 $lang['porg_guides_install_step3_list4'] = 'Il nome della base dati';
+$lang['Coding Activity'] = 'Attività di programmazione.';
+$lang['Mobile applications'] = 'Applicazioni per dispositivi mobili.';
+$lang['language_ga_IE'] = 'Gaelico.';
