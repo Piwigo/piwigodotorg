@@ -1,6 +1,29 @@
 <?php
 
 $porg_releases = array(
+  '13.6.0' => array(
+    'released_on' => '2023-02-24 11:22:00',
+    'md5sum' => 'df228bb7ef19fa0165bad10d3904dcd5',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 1872, 'section' => 'Security'),
+      array('id' => 1871, 'section' => 'web API'),
+      array('id' => 1868, 'section' => 'UX'),
+      array('id' => 1862, 'section' => 'Users & Groups'),
+      array('id' => 1861, 'section' => 'UX'),
+      array('id' => 1859, 'section' => 'UX'),
+      array('id' => 1858, 'section' => 'Users & Groups'),
+      array('id' => 1855, 'section' => 'Security'),
+      array('id' => 1786, 'section' => 'web API'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('ca_ES','cs_CZ','da_DK','de_DE','es_ES','es_MX','eu_ES','fa_IR','is_IS','it_IT','nb_NO','nl_NL','pl_PL','pt_BR','pt_PT','sk_SK','sv_SE','tr_TR','uk_UA','zh_CN','zh_TW'),
+    ),
+  ),
+
   '13.5.0' => array(
     'released_on' => '2023-01-24 14:40:00',
     'md5sum' => '910345f54980c82600844a16f85a5663',
