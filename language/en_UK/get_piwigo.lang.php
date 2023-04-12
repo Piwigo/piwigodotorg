@@ -24,6 +24,8 @@ $lang['porg_get_piwigo_mobile_desc1'] = 'Using your mobile phone as a camera? Pu
 $lang['porg_get_piwigo_mobile_desc2'] = 'You can also browse your entire gallery in full screen mode, create/edit/move your albums or edit photo properties... with just your fingertips!';
 $lang['Advantages'] = 'Advantages';
 $lang['Clients'] = 'Clients';
+$lang['Install & Upgrade Guides'] = 'Install &amp; Upgrade Guides';
+$lang['Get Professional Support'] = 'Get Professional Support';
 //$lang[''] = '';
 //$lang[''] = '';
 

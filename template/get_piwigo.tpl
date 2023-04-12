@@ -29,14 +29,11 @@
           </div>
           <img id="self-hosted-illustration" src="{$PORG_ROOT_URL}images/get_piwigo/self-hosted-illlustration.svg">
           <div class="row">
-            <div class="col-md-4 text-right col-xs-4">
-              <a href="{$URL.manual_installation}">{'Install Guide'|translate}</a>
+            <div class="col-md-6 col-xs-6">
+              <a href="{$URL.guides}">{'Install & Upgrade Guides'|translate}</a>
             </div>
-            <div class="col-md-4 col-xs-4">
-              <a href="{$URL.netinstall}">{'NetInstall'|translate}</a>
-            </div>
-            <div class="col-md-4 text-left col-xs-4">
-              <a href="{$URL.automatic_update}">{'Upgrade Guide'|translate}</a>
+            <div class="col-md-6 col-xs-6">
+              <a href="{$PCOM_URL.pro_support}" target="_blank">{'Get Professional Support'|translate}</a>
             </div>
           </div>
         </div>
@@ -46,18 +43,18 @@
           <h2>{'Cloud-hosted Piwigo'|translate}</h2>
           <p class="">{'porg_get_piwigo_cloud_hosted_desc1'|translate} {'porg_get_piwigo_cloud_hosted_desc2'|translate} {'porg_get_piwigo_cloud_hosted_desc3'|translate}</p>
           <div class="btn-cloud-hosted-piwigo">
-            <a class="btn" href="{$PCOM_URL.pricing}"><span class="bold">{'Start free trial'|translate}</span></a>
+            <a class="btn" href="{$PCOM_URL.pricing}" target="_blank"><span class="bold">{'Start free trial'|translate}</span></a>
           </div>
             <img id="cloud-hosted-illustration" src="{$PORG_ROOT_URL}images/get_piwigo/cloud-hosted-illlustration.svg">
           <div class="row">
             <div class="col-md-4 text-right col-xs-4">
-              <a href="{$PCOM_URL.why}">{'Advantages'|translate}</a>
+              <a href="{$PCOM_URL.why}" target="_blank">{'Advantages'|translate}</a>
             </div>
             <div class="col-md-4 col-xs-4">
-              <a href="{$PCOM_URL.blog}">{'Blog'|translate}</a>
+              <a href="{$PCOM_URL.blog}" target="_blank">{'Blog'|translate}</a>
             </div>
             <div class="col-md-4 text-left col-xs-4">
-              <a href="{$PCOM_URL.clients}">{'Clients'|translate}</a>
+              <a href="{$PCOM_URL.clients}" target="_blank">{'Clients'|translate}</a>
             </div>
           </div>
         </div>

@@ -24,6 +24,8 @@ $lang['porg_get_piwigo_mobile_desc1'] = 'Vous utilisez votre téléphone portabl
 $lang['porg_get_piwigo_mobile_desc2'] = 'Vous pouvez aussi naviguer dans votre galerie en plein écran, créer/éditer/déplacer vos albums ou éditer les propriétés de vos photos... du bout des doigts !';
 $lang['Advantages'] = 'Avantages';
 $lang['Clients'] = 'Clients';
+$lang['Install & Upgrade Guides'] = 'Guides installation &amp; mise à jour';
+$lang['Get Professional Support'] = 'Obtenir du support professionnel';
 //$lang[''] = '';
 //$lang[''] = '';
 
