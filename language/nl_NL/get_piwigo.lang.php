@@ -44,3 +44,5 @@ $lang['Advantages'] = 'Voordelen';
 $lang['Clients'] = 'Klanten';
 $lang['Start free trial'] = 'Start gratis proefperiode';
 $lang['porg_get_piwigo_desc2-2'] = 'of je kunt de Piwigo cloud-service gebruiken';
+$lang['Install & Upgrade Guides'] = 'Installeren & versterken; Upgrade-handleidingen';
+$lang['Get Professional Support'] = 'Krijg professionele Hulp';
