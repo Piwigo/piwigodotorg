@@ -44,3 +44,5 @@ $lang['Start free trial'] = 'Starten Sie Ihre kostenlose Testversion';
 $lang['Advantages'] = 'Vorteile';
 $lang['Clients'] = 'Kunden';
 $lang['porg_get_piwigo_desc2-2'] = 'oder Sie können den Piwigo.com Cloudservice benutzen.';
+$lang['Install & Upgrade Guides'] = 'Installations- und Upgrade-Anleitungen';
+$lang['Get Professional Support'] = 'Professionelle Unterstützung erhalten';
