@@ -44,3 +44,5 @@ $lang['Clients'] = 'Klienci';
 $lang['Download<br>Piwigo %s'] = 'Pobierz <br>Piwigo %s';
 $lang['Start free trial'] = 'Rozpocznij darmowy okres próbny';
 $lang['porg_get_piwigo_desc2-2'] = 'lub skorzystaj z usługi Piwigo.com w chmurze.';
+$lang['Get Professional Support'] = 'Uzyskaj profesjonalne wsparcie';
+$lang['Install & Upgrade Guides'] = 'Przewodniki instalacji i aktualizacji';
