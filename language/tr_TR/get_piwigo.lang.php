@@ -45,3 +45,5 @@ $lang['Clients'] = 'Müşteriler';
 $lang['Start free trial'] = 'Ücretsiz deneme sürümü başlat';
 $lang['porg_get_piwigo_desc2-2'] = 'veya Piwigo.com bulut sistemini kullanabilirsiniz.
 ';
+$lang['Get Professional Support'] = 'Profesyonel Destek Alın';
+$lang['Install & Upgrade Guides'] = 'Yükleme &amp; Yükseltme Kılavuzları';
