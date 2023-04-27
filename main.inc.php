@@ -107,6 +107,13 @@ function porg_add_methods($arr)
         'Show more news'
     );
     $service->addMethod(
+        'porg.news.getLatest',
+        'ws_porg_news_getLatest',
+        array(
+        ),
+        'Get latest news article'
+    );
+    $service->addMethod(
         'porg.home.refresh_showcases',
         'ws_porg_home_refresh_showcases',
         array(
@@ -324,32 +331,13 @@ function porg_load_content()
         }
 
         $latest_version = porg_get_latest_version();
-        $latest_articles = porg_get_news(0,1);
-        
-        $latest_article = $latest_articles['topics'][0]['subject'];
-        $latest_article_date = $latest_articles['topics'][0]['posted_on'];
 
-        if ($latest_article_date < time() - conf_get_param('porg_news_maximum_freshness', 180)*24*60*60 )
+        $latest_article = porg_get_latest_news();
+        if (isset($latest_article['lang']))
         {
-          $current_lang = $lang_info['code'];
-          $current_domain_prefix = $page['porg_domain_prefix'];
-
-          $lang_info['code'] = 'en';
-          $page['porg_domain_prefix'] = '';
-
-          $latest_articles = porg_get_news(0,1);
-          $latest_article = $latest_articles['topics'][0]['subject'];
-          $latest_article_date = $latest_articles['topics'][0]['posted_on'];
-
           $template->assign('ENGLISH_NEWS', 'https://piwigo.org/news');
-
-          $lang_info['code'] = $current_lang;
-          $page['porg_domain_prefix'] = $current_domain_prefix;
         }
         
-        // $coding_activity = porg_get_coding_activity();
-        // $latest_coding_activity_date = porg_get_coding_activity()[0]['occured_on'];
-
         $template->assign(
             array(
                 'SHOWCASES' => get_showcases(),
@@ -357,8 +345,8 @@ function porg_load_content()
                 'LATEST_VERSION_NUMBER' => $latest_version['version'],
                 'LATEST_VERSION_DATE' => time_since($latest_version['released_on'],'month'),
                 'NB_YEARS' => porg_get_nb_years(),
-                'LATEST_NEWS_TITLE' => $latest_articles['topics'][0]['subject'],
-                'LATEST_NEWS_DATE' => time_since($latest_article_date,'week'),
+                'LATEST_NEWS_TITLE' => $latest_article['subject'],
+                'LATEST_NEWS_DATE' => time_since($latest_article['posted_on'], 'week'),
                 'LATEST_CODE_ACTIVTY' => time_since(porg_get_coding_activity()[0]['occured_on'], 'hour')
             )
         );

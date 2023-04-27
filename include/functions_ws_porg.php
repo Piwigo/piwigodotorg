@@ -36,6 +36,13 @@ function ws_porg_news_seemore($params, &$service)
   $template->p();
 }
 
+function ws_porg_news_getLatest($params, &$service)
+{
+  include_once(PORG_PATH.'include/functions_piwigodotorg.php');
+
+  return porg_get_latest_news();
+}
+
 function ws_porg_home_refresh_showcases($params, &$service)
 {
     $final_image = get_showcases($params['exclude']);

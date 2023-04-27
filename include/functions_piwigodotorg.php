@@ -345,6 +345,11 @@ function porg_get_news($start, $count)
     {
       $topics = json_decode($content, true);
 
+      if (is_null($topics))
+      {
+        $topics = array();
+      }
+
       $doc = new DOMDocument();
       $i = 0;
 
@@ -394,9 +399,14 @@ function porg_get_news($start, $count)
     }
   }
 
-  if (is_null($topics))
+  if (is_null($topics) and file_exists($cache_path))
   {
     $topics = unserialize(file_get_contents($cache_path));
+  }
+
+  if (is_null($topics))
+  {
+    $topics = array();
   }
 
   $topics_slice = array_slice($topics, $start, $count);
@@ -409,6 +419,35 @@ function porg_get_news($start, $count)
     'total_count' => count($topics),
     'topics' => $topics_slice,
   );
+}
+
+function porg_get_latest_news()
+{
+  global $page, $lang_info;
+
+  $latest_articles = porg_get_news(0,1);
+
+  if ($latest_articles['total_count'] > 0 and $latest_articles['topics'][0]['posted_on'] > time() - conf_get_param('porg_news_maximum_freshness', 180)*24*60*60 )
+  {
+    $latest_article = $latest_articles['topics'][0];
+  }
+  else
+  {
+    $current_lang = $lang_info['code'];
+    $current_domain_prefix = $page['porg_domain_prefix'];
+
+    $lang_info['code'] = 'en';
+    $page['porg_domain_prefix'] = '';
+
+    $latest_articles = porg_get_news(0,1);
+    $latest_article = $latest_articles['topics'][0];
+    $latest_article['lang'] = $lang_info['code'];
+
+    $lang_info['code'] = $current_lang;
+    $page['porg_domain_prefix'] = $current_domain_prefix;
+  }
+
+  return $latest_article;
 }
 
 function porg_get_newsletters($lang_code)
