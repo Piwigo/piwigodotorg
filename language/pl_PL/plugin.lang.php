@@ -149,3 +149,5 @@ $lang['porg_guides_install_step3_list2'] = 'Użytkownik';
 $lang['porg_guides_install_step3_list5'] = 'Przyrostek dla nazw tablic Piwigo';
 $lang['porg_guides_install_step3_list4'] = 'Nazwa bazy danych';
 $lang['porg_guides_install_step3_list3'] = 'Hasło';
+$lang['Mobile applications'] = 'Aplikacje mobilne';
+$lang['language_ga_IE'] = 'celtycki';
