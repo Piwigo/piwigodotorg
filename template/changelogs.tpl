@@ -25,7 +25,7 @@
           <div class="row">
   {if $summary@iteration is odd}
             <div class="left-image-changelogs col-md-6 col-xs-12">
-    {if $releases[$version].image_corners == 1}
+    {if isset($releases[$version].image_corners) && $releases[$version].image_corners == 1}
               <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
     {/if}
     {if isset($releases[$version].image)}
@@ -33,7 +33,7 @@
     {else}
               <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelog-image{cycle name="color_changelog_image_left" values="-orange,-blue,-purple"}.svg">
     {/if}
-    {if $releases[$version].image_corners == 1}
+    {if isset($releases[$version].image_corners) && $releases[$version].image_corners == 1}
               <img class="corner4" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
     {/if}
             </div>
@@ -92,7 +92,7 @@
               </div>
             </div>
             <div class="right-image-changelogs col-md-6 col-xs-12">
-    {if $releases[$version].image_corners == 1}
+    {if isset($releases[$version].image_corners) && $releases[$version].image_corners == 1}
               <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
     {/if}
         {if isset($releases[$version].image)}
@@ -100,7 +100,7 @@
     {else}
               <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelog-image{cycle name="color_changelog_image_right" values="-blue,-purple,-orange"}.svg">
     {/if}
-    {if $releases[$version].image_corners == 1}
+    {if isset($releases[$version].image_corners) && $releases[$version].image_corners == 1}
               <img class="corner1" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
     {/if}
             </div>

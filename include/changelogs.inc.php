@@ -35,7 +35,7 @@ foreach ($porg_releases as $version => $version_content)
     }
   }
 
-  if($version > 11)
+  if (strnatcmp($version, 11) > 0)
   {
       $major_version = explode(".", $version);
       $porg_releases[$version]['majorVersion'] = $major_version[0].".0";
