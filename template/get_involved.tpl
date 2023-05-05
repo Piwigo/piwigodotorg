@@ -72,7 +72,7 @@
         <img src="{$PORG_ROOT_URL}images/get_involved/plugin.svg"/>
         <p>{'porg_get_involved_dev_plugins_desc'|translate}</p>
         <div class="col-md-12">
-          <a href="//piwigo.org/doc/doku.php?id=dev:extensions:start">{'Coding documentation'|translate}</a>
+          <a href="https://github.com/Piwigo/Piwigo/wiki">{'Coding documentation'|translate}</a>
         </div>
       </div>
       <div class="col-md-4 col-xs-4">
