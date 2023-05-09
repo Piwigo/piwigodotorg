@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2023-05-09' => array (
+                'title' => 'Recherche beta-testeurs pour les apps mobiles et autres news',
+                'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2023/04/28/20230428141403-67120938.jpg',
+                'summary' => 'Les nouvelles versions applications mobiles pour iOS et Android ont besoin de beta-testeurs + quelques infos sur les projets en cours...',
+            ),
             '2022-11-17' => array (
                 'title' => 'Piwigo 13',
                 'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2022/10/11/20221011115708-ead3d91c-sm.jpg',
@@ -279,6 +284,11 @@
             ),
         ),
         'en' => array(
+            '2023-05-09' => array (
+                'title' => 'Hiring beta-testers for mobile apps and other news',
+                'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2023/04/28/20230428141403-67120938.jpg',
+                'summary' => 'The new versions of the mobile apps for iOS and Android need beta-testers + work in progress and other news...',
+            ),
             '2022-11-17' => array (
                 'title' => 'Piwigo 13',
                 'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2022/10/11/20221011115708-ead3d91c-sm.jpg',
@@ -551,6 +561,11 @@
             ),
         ),
         'de' => array(
+            '2023-05-09' => array (
+                'title' => 'Einstellung von Beta-Testern für mobile Anwendungen und andere Neuigkeiten',
+                'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2023/04/28/20230428141403-67120938.jpg',
+                'summary' => 'Die neuen Versionen der mobilen Apps für iOS und Android brauchen Beta-Tester + laufende Arbeiten und andere Neuigkeiten...',
+            ),
             '2022-05-03' => array (
                 'title' => 'Piwigo wird 20! Piwigo 13 in der Beta-Phase verfügbar',
                 'image' => 'https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2022/05/02/20220502153103-fcdddfcb.png',
