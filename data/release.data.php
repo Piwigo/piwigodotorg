@@ -2,7 +2,7 @@
 $porg_releases = array(
   '13.7.0' => array(
     'released_on' => '2023-05-10 19:18:00',
-    'md5sum' => '???',
+    'md5sum' => 'b3ca6a05585156ce3fdc36bf08ec9e7b',
     'summary' => array('bug fixes'),
     'features' => array(),
     'bugs' => array(
