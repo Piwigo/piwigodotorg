@@ -241,7 +241,7 @@ function porg_load_content()
         // on all Piwigo photo upload form, since version 13, we display an add for the
         // mobile-applications page but Piwigo doesn't know the url in each language, so
         // let's redirect it properly
-        if ('mobile-applications' == $_GET['porg'] and porg_get_page_url('mobile-applications') != 'mobile-applications')
+        if ('mobile-applications' == $_GET['porg'] and !preg_match('/^(index\.php\?porg=)?mobile-applications$/', porg_get_page_url('mobile-applications')))
         {
             $redirects['mobile-applications'] = 'mobile-applications';
         }
