@@ -40,3 +40,5 @@ $lang['mobile_applications_copy_move_title'] = 'Kopieren und verschieben Sie Ihr
 $lang['mobile_applications_download'] = 'Die Piwigo-App herunterladen';
 $lang['mobile_applications_download_app_store1'] = 'Download für Androiden';
 $lang['mobile_applications_download_app_store2'] = 'oder laden Sie die Anwendung über den Play Store herunter';
+$lang['mobile_applications_import_options_title'] = 'Importoptionen für Ihre Fotos';
+$lang['mobile_applications_size_quality_title'] = 'Größe und Qualität';
