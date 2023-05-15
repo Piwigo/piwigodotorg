@@ -19,7 +19,9 @@ $porg_releases = array(
       array('id' => 1878, 'section' => 'Users & Groups'),
       array('id' => 1876, 'section' => 'Security'),
     ),
-    'known_issues' => array(),
+    'known_issues' => array(
+      array('id' => 1914, 'section' => 'Albums'),
+    ),
     'languages' => array(
       'new' => array(),
       'updated' => array('da_DK','de_DE','es_MX','fa_IR','fi_FI','fr_FR','nl_NL','pt_PT','ro_RO','sv_SE'),

@@ -11,3 +11,4 @@ $lang['porg_issue_1880'] = '[User Manager] Email edit blocks the user editor';
 $lang['porg_issue_1879'] = '[Dark mode] Change icon style in dark mode';
 $lang['porg_issue_1878'] = '[User Manager] User status isnt translated';
 $lang['porg_issue_1876'] = '[History page] SQL injection issue found in 13.5.0';
+$lang['porg_issue_1914'] = '[13.7.0] bad request on album sort';
