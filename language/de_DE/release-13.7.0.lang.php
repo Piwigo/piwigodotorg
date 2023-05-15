@@ -17,3 +17,4 @@ $lang['porg_issue_1879'] = '[Dunkler Modus] Icon-Stil im dunklen Modus ändern';
 $lang['porg_issue_1880'] = '[User Manager] E-Mail-Bearbeitung blockiert den User-Editor';
 $lang['porg_issue_1876'] = '[History page] SQL-Einspeisungs-Problem in 13.5.0 gefunden';
 $lang['porg_issue_1878'] = '[User Manager] Benutzerstatus wird nicht übersetzt';
+$lang['porg_issue_1914'] = '[13.7.0] Fehlerhafte Anfrage beim Sortieren von Alben';
