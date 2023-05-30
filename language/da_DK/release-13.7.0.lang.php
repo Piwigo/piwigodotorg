@@ -17,3 +17,4 @@ $lang['porg_issue_1905'] = '[Historikside] Gør billederne klikbare så man kan 
 $lang['porg_issue_1907'] = '[da_DK] Manglende nyheder fra piwigo.org';
 $lang['porg_issue_1910'] = 'Der er en SQL-indsprøjtningsfejl i Piwigos funktion \"permalinks\"';
 $lang['porg_issue_1911'] = 'Der er en SQL-indsprøjtningsfejl i Piwigos funktion \"profile\"';
+$lang['porg_issue_1914'] = '[13.7.0] bad request ved sortering af album';
