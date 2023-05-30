@@ -40,3 +40,5 @@ $lang['mobile_applications_confidentiality_texte'] = 'Zoals altijd bij Piwigo zi
 $lang['mobile_applications_albums_title'] = 'Albums altijd goed ingedeeld...';
 $lang['mobile_applications_albums_texte'] = 'Vanuit de Piwigo mobiele applicatie heeft u volledige controle over uw albums. U kunt ze naar eigen inzicht maken, wijzigen en hernoemen. U kunt ook de parameters van elk album definiëren: naam, beschrijving, miniatuurafbeelding ...';
 $lang['ios_only'] = 'Alleen iOS';
+$lang['mobile_applications_size_quality_title'] = 'Grootte en kwaliteit';
+$lang['mobile_applications_import_options_title'] = 'Importeer opties voor uw foto\'s';
