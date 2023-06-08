@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2023-06-08' => array (
+                'title' => 'Piwigo recherche son prochain alternant',
+                'image' => 'https://ressources.piwigo.com/i.php?/uploads/c/v/7/cv7jpz6hf8//2023/06/08/pwg_representative/20230608094627-b79e338e-me.png',
+                'summary' => 'Si vous ou l\'une de vos connaissances cherche son alternance et qu\'il ou elle est intéressée par la photo, le développement et apporter des solutions à des utilisateurs, alors Pierrick sera ravi d\'étudier les candidatures :-)',
+            ),
             '2023-05-09' => array (
                 'title' => 'Recherche beta-testeurs pour les apps mobiles et autres news',
                 'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2023/04/28/20230428141403-67120938.jpg',
