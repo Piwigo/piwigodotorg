@@ -17,3 +17,4 @@ $lang['porg_issue_1880'] = '[Gebruikersbeheer] E-mailbewerking blokkeert de gebr
 $lang['porg_issue_1879'] = '[Donkere modus] Pictogramstijl wijzigen in donkere modus';
 $lang['porg_issue_1878'] = '[Gebruikersbeheer] Gebruikersstatus is niet vertaald';
 $lang['porg_issue_1876'] = '[Geschiedenispagina] Probleem met SQL-injectie gevonden in 13.5.0';
+$lang['porg_issue_1914'] = '[13.7.0] slecht verzoek bij het sorteren van albums';
