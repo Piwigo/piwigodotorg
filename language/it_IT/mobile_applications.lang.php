@@ -40,3 +40,5 @@ $lang['mobile_applications_download_app_store1'] = 'Scarica per Android.';
 $lang['mobile_applications_download_play_store1'] = 'Scarica per iOS.';
 $lang['mobile_applications_geolocalisation_title'] = 'Geolocalizzazione delle tue fotografie.';
 $lang['ios_only'] = 'Solo iOS.';
+$lang['mobile_applications_import_options_title'] = 'Opzioni d\'importazione delle tue fotografie.';
+$lang['mobile_applications_size_quality_title'] = 'Dimensione e qualità.';
