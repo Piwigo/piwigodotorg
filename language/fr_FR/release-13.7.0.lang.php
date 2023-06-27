@@ -17,3 +17,4 @@ $lang['porg_issue_1905'] = '[Page d\'historique]  Les images sont rendues cliqua
 $lang['porg_issue_1907'] = '[da_DK] Manquaient les nouvelles de piwigo.org';
 $lang['porg_issue_1910'] = 'Il y a une injection SQL dans la fonction \"permalinks\" de Piwigo.';
 $lang['porg_issue_1911'] = 'Il y a une injection SQL dans la fonction \"profile\" de piwigo.';
+$lang['porg_issue_1914'] = 'Muvaise demande de tri d\'album';
