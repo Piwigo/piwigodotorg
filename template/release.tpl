@@ -40,7 +40,7 @@
       </div>
   {foreach from=$bugs key=key item=bug}
       <div class="col-md-4">
-        <h2><i class="icon-check"></i><a href="{$bug.url}">{$bug.id} {$bug.section}</a></h2>
+        <h2><i class="{if $bug.is_security}icon-attention{else}icon-check{/if}"{if $bug.is_security} title="{'Security'|translate}"{/if}></i><a href="{$bug.url}">{$bug.id} {$bug.section}</a></h2>
         <p>{$bug.label}<p>
       </div>
   {/foreach}

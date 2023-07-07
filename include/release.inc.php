@@ -50,9 +50,20 @@ if (isset($_GET['version']))
         foreach ($bugs as $bug_content)
         {
             $id = $bug_content['id'];
+
+            $url = 'https://github.com/Piwigo/Piwigo/issues/' . $id;
+            $is_security = false;
+            if (preg_match('/^GHSA-/', $id))
+            {
+                $is_security = true;
+                $url = 'https://github.com/Piwigo/Piwigo/security/advisories/' . $id;
+                $bug_content['section'] = null;
+            }
+
             $bug[] = array(
                 'id' => $id,
-                'url' => 'https://github.com/Piwigo/Piwigo/issues/' . $id,
+                'is_security' => $is_security,
+                'url' => $url,
                 'label' => stripslashes($lang['porg_issue_' . $id]),
                 'section' => isset($bug_content['section']) ? '/ ' . l10n(trim($bug_content['section'])) : null,
             );
