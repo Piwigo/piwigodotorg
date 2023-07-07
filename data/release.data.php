@@ -1,5 +1,24 @@
 <?php
 $porg_releases = array(
+  '13.8.0' => array(
+    'released_on' => '2023-07-07 19:18:00',
+    'md5sum' => '???',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 1925, 'section' => 'UX'),
+      array('id' => 1924, 'section' => 'Security'),
+      array('id' => 1916, 'section' => 'Albums'),
+      array('id' => 1914, 'section' => 'Albums'),
+      array('id' => 'GHSA-934w-qj9p-3qcx', 'section' => 'Security'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('da_DK','es_MX','fa_IR','fi_FI','is_IS','ja_JP'),
+    ),
+  ),
+
   '13.7.0' => array(
     'released_on' => '2023-05-10 19:18:00',
     'md5sum' => 'b3ca6a05585156ce3fdc36bf08ec9e7b',
