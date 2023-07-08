@@ -46,3 +46,4 @@ $lang['porg_urls']['manual_installation'] = 'руководства/устано
 $lang['porg_urls']['manual_update'] = 'руководства/обновление/вручную';
 $lang['porg_urls']['netinstall'] = 'руководства/установка/NetInstall';
 $lang['porg_urls']['requirements'] = 'руководства/установка/требования';
+$lang['porg_urls']['mobile-applications'] = 'мобильные приложения';
