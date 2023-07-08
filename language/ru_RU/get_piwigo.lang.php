@@ -44,3 +44,5 @@ $lang['Start free trial'] = 'Попробуйте бесплатно триал-
 $lang['Clients'] = 'Клиенты';
 $lang['porg_get_piwigo_desc2-2'] = 'или воспользуйтесь облачным сервисом Piwigo.com';
 $lang['Advantages'] = 'Преимущества';
+$lang['Install & Upgrade Guides'] = 'Инструкции по установке и обновлению';
+$lang['Get Professional Support'] = 'Получить профессиональную поддержку';
