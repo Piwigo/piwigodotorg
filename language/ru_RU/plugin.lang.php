@@ -161,3 +161,6 @@ $lang['porg_guides_install_step2_paragraph1'] = 'Start FileZilla and fill the fo
 $lang['porg_guides_install_step3_list5_span'] = 'Most often, web hosting providers allow a single database per customer, but you can create as many tables as you want in the same database. To avoid conflicts with other web applications, or allow several Piwigo installations on the same website, the table names have a prefix. By default, this prefix is ”piwigo_”, but you can change it (only alphanumeric characters are allowed).';
 $lang['porg_guides_install_step3_paragraph0'] = 'Once all files are transfered, go to the web address with a web browser, for example http://example.com/photos Piwigo will detect nothing is installed yet, and redirect you to the installation page.';
 $lang['porg_guides_install_step3_paragraph1'] = 'Now comes the MySQL database settings and the webmaster account to administer your gallery';
+$lang['language_ga_IE'] = 'Гаэльский';
+$lang['Mobile applications'] = 'Мобильные приложения';
+$lang['Coding Activity'] = 'Кодинг';
