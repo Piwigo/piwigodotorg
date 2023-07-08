@@ -8,7 +8,7 @@
 $lang['porg_issue_1377'] = 'Связь/Переход к альбому в пакетном менеджере';
 $lang['porg_issue_1364'] = 'Проблема с плагином AdminTools в "Tag Manager" и в "Move Albums"';
 $lang['porg_issue_1388'] = 'Макс.длина названия альбома слишком короткая в форме  Album -> Move';
-$lang['porg_issue_1080'] = '[2.10] AdminTools на работает Upload form';
+$lang['porg_issue_1080'] = '[2.10] AdminTools не работает Upload form';
 $lang['porg_issue_1368'] = 'пользователь со статусом «гость» все еще может незаметно войти в систему';
 $lang['porg_issue_1412'] = '[Plugin Manager, 11.x] Изменение селектора представления после перезагрузки первой страницы';
 $lang['porg_issue_1400'] = '[ViewSelector]  Тему Darkmode нужно добавить';
