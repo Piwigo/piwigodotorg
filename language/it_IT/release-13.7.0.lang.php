@@ -17,3 +17,4 @@ $lang['porg_issue_1907'] = '[da_DK] News da piwigo.org mancanti.';
 $lang['porg_issue_1910'] = 'C\'è una SQL injection nella funzione \"permalinks\" di Piwigo.';
 $lang['porg_issue_1911'] = 'C\'è una SQL injection nella funzione \"profile\" di Piwigo.';
 $lang['porg_issue_1876'] = '[Cronologia]. Problema relativo ad SQL injection riscontrato nella versione 13.5.0';
+$lang['porg_issue_1914'] = '[13.7.0] Richiesta errata sull\'ordinamento dell\'album.';
