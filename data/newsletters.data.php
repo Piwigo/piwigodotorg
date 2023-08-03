@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2023-08-03' => array (
+                'title' => 'Piwigo 14 en beta-test et nouvelle documentation',
+                'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2023/07/24/20230724191554-96331a5a-la.png',
+                'summary' => 'Piwigo 14 se prépare et nous avons déjà sorti 2 versions de beta-test. La grosse nouveauté réside dans le moteur de recheche. Une nouvelle documentation utilisateur a été publiée, découvrez-la.',
+            ),
             '2023-06-08' => array (
                 'title' => 'Piwigo recherche son prochain alternant',
                 'image' => 'https://ressources.piwigo.com/i.php?/uploads/c/v/7/cv7jpz6hf8//2023/06/08/pwg_representative/20230608094627-b79e338e-me.png',
