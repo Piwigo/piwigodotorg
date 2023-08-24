@@ -21,6 +21,7 @@ $lang['porg_urls']['netinstall'] = 'guides/installation/netinstall';
 $lang['porg_urls']['manual_installation'] = 'guides/installation/manuelle';
 $lang['porg_urls']['automatic_update'] = 'guides/mise-a-jour/automatique';
 $lang['porg_urls']['manual_update'] = 'guides/mise-a-jour/manuelle';
+$lang['porg_urls']['documentation'] = 'https://doc-fr.piwigo.org/';
 
 $lang['porg_doc_urls']['requirements'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:avant';
 $lang['porg_doc_urls']['install'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:installation';

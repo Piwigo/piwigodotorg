@@ -47,11 +47,4 @@
 </div>
 <img class="get-started-wave-bottom"  src="{$PORG_ROOT_URL}images/get_started/wave-bottom-get-started.svg">
 
-  <section class="container-fluide container-fluide-unanswered-questions">
-    <div class="container">
-      <div class="row text-center">
-        <h1>{'Still got some unanswered questions ?'|translate}</h1>
-        <p>{'porg_get_started_question_desc1'|translate:"//{$PORG_DOMAIN_PREFIX}piwigo.org/forum/":"//{$PORG_DOMAIN_PREFIX}piwigo.org/doc"}</p>
-      </div>
-    </div>
-  </section>
+{include file='include/guides_bottom_section.tpl'}
