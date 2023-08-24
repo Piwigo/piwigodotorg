@@ -63,4 +63,4 @@
 
   </section>
 
-{include file='include/guides_bottom_section.tpl'}
+{include file='template/include/guides_bottom_section.tpl'}

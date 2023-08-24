@@ -47,4 +47,4 @@
 </div>
 <img class="get-started-wave-bottom"  src="{$PORG_ROOT_URL}images/get_started/wave-bottom-get-started.svg">
 
-{include file='include/guides_bottom_section.tpl'}
+{include file='template/include/guides_bottom_section.tpl'}

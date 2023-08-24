@@ -173,7 +173,7 @@ SELECT state
 
     $porg_root_url = get_absolute_root_url();
     $porg_root_url_piwigodotorg = get_absolute_root_url() . PORG_PATH;
-    $template->set_template_dir(PORG_PATH.'template');
+    $template->set_template_dir(PORG_PATH);
     $template->set_filenames(array('header_porg' => realpath(PORG_PATH .'template/header.tpl')));
     $template->assign(
         array(
