@@ -54,12 +54,12 @@
               </div>  
               <div class="minor-versions-container">
     {foreach from=$releases[$version].minorVersions key=minorVersions item=minorVersions}
-                <div class="version-minor">
-                  <a href="{$PORG_ROOT}{$URL.release}-{$minorVersions}">
+                <a href="{$PORG_ROOT}{$URL.release}-{$minorVersions}">
+                  <div class="version-minor">
                     <h2>{$minorVersions}</h2>
                     <p>{$releases[$version].minorVersions[$minorVersions]['released_on']}</p>
-                  </a>
-                </div>
+                  </div>
+                </a>
     {/foreach}
               </div>
             </div>
