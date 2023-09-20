@@ -294,6 +294,11 @@
             ),
         ),
         'en' => array(
+            '2023-09-20' => array (
+                'title' => 'Piwigo 14 in beta-test',
+                'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2023/08/03/20230803151719-ed30f121-la.png',
+                'summary' => 'Piwigo 14 has already been released in 3 beta-test versions. Time to test and give your feedback.',
+            ),
             '2023-05-09' => array (
                 'title' => 'Hiring beta-testers for mobile apps and other news',
                 'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2023/04/28/20230428141403-67120938.jpg',
