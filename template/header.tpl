@@ -44,6 +44,8 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="themes/default/icon/favicon.ico">
 
+    <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/flag-icons-master/css/flag-icon.css">
+
 {if $PORG_IS_PRODUCTION}
 {* temporary remove analytics
 <!-- Piwik -->
