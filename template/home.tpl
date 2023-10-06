@@ -86,7 +86,7 @@ $(document).ready(function() {
         <div class="carousel-inner" role="listbox">
 {assign var="counter" value="0"}
           <div class="item row active">
-{foreach from=$user_logos item=$logo}
+{foreach from=$home_logos item=$logo}
   {assign var="counter" value=$counter + 1}
             <div class="col col-sm-3 center-block">
               <img id="{$logo.name}" class="img-responsive" src="{$logo.element_url}">
