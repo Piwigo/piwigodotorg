@@ -420,54 +420,104 @@ function porg_load_content()
     /**
      * Use ressources.piwigo.com to get logos and examples
     */
+    $hl_result = get_ressources("home_logos");
 
-    $logos_cache_path = $conf['data_location'].'/'.PORG_ID.'/porg_logos.cache.php'; 
-    $result = null;
-
-    if (!is_file($logos_cache_path) or filemtime($logos_cache_path) < strtotime('24 hours ago'))
-    {
-      $result = get_user_logos($logos_cache_path);
-    }
-    else{
-      $result = unserialize(file_get_contents($logos_cache_path));
-    }
-
-    $user_logos = $result['result']['images'];
+    $home_logos = $hl_result['result']['images'];
 
     $template->assign(
       array(
-          'user_logos' => $user_logos,
+          'home_logos' => $home_logos,
       )
-  );  
+    );
 }
 
-function get_user_logos($cache_path)
+function get_ressources($ressources_type)
 {
   global $conf;
 
-  $curl = curl_init();
-  curl_setopt($curl, CURLOPT_URL, "https://ressources.piwigo.com/ws.php?format=json&method=pwg.categories.getImages&cat_id=3");
-  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-  $user_logos_json = curl_exec($curl);
+  $ressources_types = array(
+    "home_logos" => array(
+      "cache_path" => $conf['data_location'].PORG_ID.'/porg_home_logos.cache.php',
+      "album_id" => $conf['home_logos_cat_id']
+    ),
+    "logos" => array(
+      "cache_path" => $conf['data_location'].PORG_ID.'/porg_users_logos.cache.php',
+      "album_id" => $conf['user_logos_cat_id']
+    ),
+    "examples" => array(
+      "cache_path" => $conf['data_location'].PORG_ID.'/porg_users_examples.cache.php',
+      "album_id" => $conf['user_examples_cat_id']
+    ),
+    "testimonials" => array(
+      "cache_path" => $conf['data_location'].PORG_ID.'/porg_users_testimonials.cache.php',
+      "album_id" => $conf['user_testimonials_cat_id']
+    ),
+  );
 
-  if ($user_logos_json !== false)
+  $cache_path = $ressources_types[$ressources_type]["cache_path"];
+  $album_id = $ressources_types[$ressources_type]["album_id"];
+
+  if (!is_file($cache_path) or filemtime($cache_path) < strtotime('24 hours ago'))
   {
-    $user_logos = json_decode($user_logos_json, true);
-    if (mkgetdir(dirname($cache_path)))
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, "https://ressources.piwigo.com/ws.php?format=json&method=pwg.categories.getImages&cat_id=".$album_id);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+    $ressources_json = curl_exec($curl);
+  
+    if ($ressources_json !== false)
     {
-      file_put_contents($cache_path, serialize($user_logos));
+      $ressources = json_decode($ressources_json, true);
+      
+      if (mkgetdir(dirname($cache_path)))
+      {
+        file_put_contents($cache_path, serialize($ressources));
+      }
     }
+  
+    curl_close($curl);
+  } 
+  
+  $result = unserialize(file_get_contents($cache_path));
+
+  return $result;
+}
+
+function get_ressources_infos($img_id)
+{
+    global $conf;
+
+    $cache_path = $conf['data_location'].PORG_ID.'/porg_users_img_'.$img_id.'.cache.php';
+
+    if (!is_file($cache_path) or filemtime($cache_path) < strtotime('24 hours ago'))
+    {
+      $curl = curl_init();
+      curl_setopt($curl, CURLOPT_URL, "https://ressources.piwigo.com/ws.php?format=json&method=pwg.images.getInfo&image_id=".$img_id);
+      curl_setopt($curl, CURLOPT_FTPAPPEND, 1);
+      curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+
+      $ressources_json = curl_exec($curl);
+      if ($ressources_json !== false)
+      {
+        $ressources = json_decode($ressources_json, true);
+
+        if (mkgetdir(dirname($cache_path)))
+        {
+          file_put_contents($cache_path, serialize($ressources));
+        }
+      }
     
-  }
+      curl_close($curl);
+    }
+    $result = unserialize(file_get_contents($cache_path));
 
-  curl_close($curl);
-
-  return $user_logos;
+    return $result;
 }
 
 add_event_handler('init', 'porg_load_footer');
 function porg_load_footer()
-{
+{ 
     global $template, $t2;
 
     $porg_root_url = get_absolute_root_url();
