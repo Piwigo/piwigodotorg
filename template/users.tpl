@@ -169,7 +169,7 @@
             <div class="mb-5 w-100">
               <div id="users" class="mb-5 w-100">
 {foreach from=$piwigo_users item=$users}
-                <div class="user col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if $users.type}{$users.type} {/if}{if $users.country}{$users.country} {/if}{if $users.useCase}{$users.useCase} {/if}">
+                <div class="user col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if $users.type}{$users.type} {/if}{if $users.country}{$users.country} {/if}{if $users.useCase}{$users.useCase} {/if}">
                   <div class="card m-3 p-3"  >
   {if $users.type == "logo" }
                     <img class="card-img-top" src="{$users.img_src}">
