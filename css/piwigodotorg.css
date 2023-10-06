@@ -4388,7 +4388,6 @@ position: absolute;
 
 .users-page button{
   width: auto;
-  max-width: 300px;
   background-color: #ff7700;
   border: none;
   border-radius: 0;
@@ -4402,8 +4401,9 @@ position: absolute;
 }
 
 .users-page .users-page-logos,
-.users-page .users-page-map{
-  margin-top:150px;
+.users-page .users-page-map,
+.users-page .users-page-examples{
+  margin-top:100px;
 }
 
 .users-page .users-page-logos h2{
@@ -4421,6 +4421,277 @@ position: absolute;
   text-align:center;
 }
 
+.users-page .vertical-align{
+  position:absolute; 
+  top:50%;
+  transform:translateY(-50%);
+  right:0;
+} 
+
+.users-page .card{
+  border:none;
+  border-radius: 9px;
+  background: #FFF;
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.07);
+}
+
+.users-page .card-img-top{
+  object-fit: contain;
+  width: auto;
+}
+
+.users-page .sector{
+  color: #F37719;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.users-page .country{
+  color: #8E8E8E;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.users-page .author{
+  color: #585656;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.users-page #country{
+  border-radius: 4px;
+  border: 1px solid #F37719;
+  background: #FFF;
+}
+
+.users-page-examples .filter-container{
+  border-radius: 9px;
+  background: #FFEECF;
+  box-shadow: 0px 8px 36px 0px rgba(0, 0, 0, 0.15);
+}
+
+.users-page-examples .sticky{
+  position:sticky;
+  top:0;
+  z-index:99!important;
+}
+
+.users-page-examples .filter-header{
+  text-align:center;
+  border-bottom:2px solid #ff7700;
+}
+
+.users-page-examples h4{
+  color: #3F3D56;
+  font-family: Open Sans;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.users-page-examples i{
+  color: #3F3D56;
+}
+
+.users-page-examples .filter-title span{
+  color: #3F3D56;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.users-page .checkbox {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.users-page .checkbox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.users-page .checkbox label {
+  position: relative;
+  cursor: pointer;
+  padding-left:0;
+}
+
+.users-page .checkbox label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+
+}
+
+.users-page .checkbox input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 8px;
+  width: 6px;
+  height: 14px;
+  border: 2px solid #ff7700;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.users-page-examples .filter-title>*{
+  display:inline-block;
+}
+
+.users-page-examples .filter-title .icon-down-open{
+  float:right;
+  margin-top:5px;
+}
+
+.users-page-examples .rotate{
+  rotate: 180deg;
+}
+
+.users-page .rounded-button{
+	border-radius:25px;
+	border:1px solid #ff7700;
+	background-color:transparent;
+	color:#ff7700;
+	text-transform:unset;
+	color: #F37719;
+	font-size:17px;
+	font-style: normal;
+	font-weight: 400;
+	padding:10px 15px;
+}
+
+.users-page .rounded-button i{
+	color:#ff7700;
+}
+
+.users-page #noMatches h4{
+  font-size:20px;
+  font-weight:400;
+}
+
+.users-page .card-body a.discover-more{
+    background-color: #D9D9D9;
+    color: #585656;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform:none;
+    padding: 15px 25px;
+    margin: 0 auto;
+}
+
+.users-page #usersNotVisible div{
+    display:none;
+}
+
+@media (max-width: 576px) {
+  .users-page-intro img{
+    width:100%;
+  }
+ }
+
+@media (max-width: 768px) { 
+  .users-page-examples .filter-container{
+    z-index:99;
+  }
+  .users-page #anchor{
+    z-index:0;
+  }
+  .users-page-examples .filter-container .filter-header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border:none;
+  }
+  .users-page-examples .filter-container .filter-header {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    margin:0!important;
+  }
+  .users-page .users-page-logos img{
+    width:50%;
+    margin:0 auto;
+  }
+  .users-page .vertical-align{
+    position: relative;
+    top: unset;
+    transform: unset;
+    right: unset;
+  }
+  .users-page-examples .sticky{
+    margin-bottom:30px;
+  }
+  .users-page-examples h4{
+    font-size:20px;
+    margin:0!important;
+    padding-bottom:0
+  }
+  .users-page  p.text-content {
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0;
+    line-height: normal;
+  }
+  .users-page .user,
+  .users-page .filters {
+    padding:0!important;
+  }
+  .users-page .user .card{
+    margin: 15px 0!important;
+  }
+  .users-page .filters{
+    margin-top:30px;
+  }
+  .users-page-examples .filter-title span{
+    font-size:15px;
+  }
+}
+
+@media (max-width: 992px) { 
+  .users-page-intro h1{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-top:0px;
+    text-align:center;
+  }
+  .users-page-intro{
+    text-align:center;
+  }
+  .users-page h2{
+    font-size: 25px;
+    line-height:2;
+  }
+
+}
 
 /**********************************
  * Piwigo Mobile applications CSS *
