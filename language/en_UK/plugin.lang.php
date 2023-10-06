@@ -35,6 +35,7 @@ $lang['Showcases'] = 'Examples';
 $lang['Donate'] = 'Donate';
 $lang['Coding Activity'] = 'Coding Activity';
 $lang['Mobile applications'] = 'Mobile applications';
+$lang['Users'] = 'Users';
 
 /* languages */
 $lang['language_af_ZA'] = 'Afrikaans';
