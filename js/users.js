@@ -66,8 +66,6 @@ function filterExamples(filter)
     }, 1000);
   }
 
-
-
   // Get country value
   var country =  jQuery('#country').val()
 
@@ -123,6 +121,11 @@ function filterExamples(filter)
       jQuery('#noMatches').addClass('d-block');
     }
   }
+
+  // Keep order set in ressources
+  jQuery("#users .user")
+    .sort((a,b) => $(a).data("pos") - $(b).data("pos"))
+    .appendTo("#users");
 
   if($( document ).width() > 768)
   {
