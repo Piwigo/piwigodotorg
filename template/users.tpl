@@ -1,19 +1,31 @@
-  <section class="container-fluid users-page">
+  {* <section class="container-fluid users-page">
     <div class="users-page-intro">
       <img src="{$PORG_ROOT_URL}images/users/users_header.png">
       <div class="container">
         <div class="col-md-12">
-          <h1 class="col-md-12">{"porg_users_title"|translate}</h1>
-          <div class="col-md-6">
-          <p class="text-content">{"porg_users_intro"|translate}</p>
-          <button href="#user-examples" role="button">{"Discover"|translate}</button>
+
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> *}
 
-  <section class="container users-page">
+<section class="users-page container-fluid">
+  <div class="users-page-intro">
+    <div class="row position-relative">
+      <div class="col-md-6 ps-0">
+        <img src="{$PORG_ROOT_URL}images/users/users_map.png">
+      </div>
+      <div class="col-md-6 vertical-align">
+        <h1 class="col-md-12">{"porg_users_title"|translate}</h1>
+        <p class="text-content">{"porg_users_intro"|translate}</p>
+        <a href="#anchor" ><button>{"Discover"|translate}</button></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  {* <section class="container users-page">
     <div class="users-page-logos">
       <h2>{"porg_users_section_1_title"|translate}</h2>
 {assign var="counter" value="-1"}
@@ -32,25 +44,11 @@
       
 
     </div>
-  </section>
+  </section> *}
 
-  <section class="users-page container-fluid">
-    <div class="users-page-map">
-      <div class="row position-relative">
-        <div class="col-md-6 p-0">
-          <img src="{$PORG_ROOT_URL}images/users/users_map.png">
-        </div>
-        <div class="col-md-6 vertical-align">
-          <div class="">
-            <h2>{"porg_users_section_2_title"|translate}</h2>
-            <p class="text-content">{"porg_users_section_2_text"|translate}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="users-page container-fluid">
+
+  <section class="users-page container">
     <div class="users-page-examples">
       
         <div class="col-12 mb-5 pb-5">
@@ -77,12 +75,17 @@
                     <div class="checkbox my-2">
                       <span class="checkmark"></span>  
                       <input type="checkbox" id="example" value="example" onclick="filterExamples('example')"/>
-                      <label for="example">{"porg_users_references"|translate}</label>
+                      <label for="example">{"porg_users_examples"|translate}</label>
                     </div>
                     <div class="checkbox my-2">
                       <span class="checkmark"></span>  
                       <input type="checkbox" id="testimonial" value="testimonial"  onclick="filterExamples('testimonial')"/>
                       <label for="testimonial">{"porg_users_testimonials"|translate}</label>
+                    </div>
+                    <div class="checkbox my-2">
+                      <span class="checkmark"></span>  
+                      <input type="checkbox" id="logo" value="logo" onclick="filterExamples('logo')"/>
+                      <label for="logo">{"porg_users_logos"|translate}</label>
                     </div>
                   </div>
                 </div>
@@ -148,8 +151,9 @@
 
           <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12 " id="anchor">
             <div id="selected-filters" class="mt-3 mx-4 px-2">
-              <button class="example btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('example')">{'porg_users_references'|translate} <i class="icon-cancel"></i></button>
-              <button class="testimonial  btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('testimonial')">{'porg_users_testimonials'|translate} <i class="icon-cancel"></i></button>
+              <button class="example btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('example')">{'porg_users_examples'|translate} <i class="icon-cancel"></i></button>
+              <button class="testimonial btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('testimonial')">{'porg_users_testimonials'|translate} <i class="icon-cancel"></i></button>
+              <button class="logo btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('logo')">{'porg_users_logos'|translate} <i class="icon-cancel"></i></button>
               <button class="company btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('company')">{'porg_users_company'|translate} <i class="icon-cancel"></i></button>
               <button class="tourism btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('tourism')">{'porg_users_tourism'|translate} <i class="icon-cancel"></i></button>
               <button class="education btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('education')">{'porg_users_education'|translate} <i class="icon-cancel"></i></button>
@@ -168,19 +172,21 @@
 
             <div class="mb-5 w-100">
               <div id="users" class="mb-5 w-100">
+
 {foreach from=$piwigo_users item=$users}
-                <div class="user col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if $users.type}{$users.type} {/if}{if $users.country}{$users.country} {/if}{if $users.useCase}{$users.useCase} {/if}">
-                  <div class="card m-3 p-3"  >
+                <div data-pos="{$users.position}" class="user col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if $users.type}{$users.type} {/if}{if $users.country}{$users.country} {/if}{if $users.useCase}{$users.useCase} {/if}">
+                  <div class="card my-3 p-3">
   {if $users.type == "logo" }
                     <img class="card-img-top" src="{$users.img_src}">
   {else if $users.type == "example"}
                     <img class="card-img-top" src="{$users.img_src}">
                     <div class="card-body">
                       <div class="col-12">
-                        <p class="sector d-inline-block pe-3">{"{$users.useCase}"|translate}</p>
+                        <p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>
                         <p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>
                       </div>
                       <p class="author">{$users.author}</p>
+                      <p>{$users.comment}</p>
                       {if $users.url}
                       <div class="text-center my-4 py-4">
                         <a class=" discover-more" href="{$users.url}" target='blank'>{'Discover'|translate}</a>
@@ -191,7 +197,7 @@
                     <div class="card-body">
                       <p>{$users.comment}</p>
                       <div class="col-12">
-                        <p class="sector d-inline-block pe-3">{"{$users.useCase}"|translate}</p>
+                        <p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>
                         <p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>
                       </div>
                       <p class="author">{$users.author}</p>
