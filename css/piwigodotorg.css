@@ -4333,11 +4333,6 @@ position: absolute;
 /*************
  * Users page
 **************/ 
- .users-page-intro img{
-    width: 80%;
-    right: 0;
-    position: absolute;
-}
 
 .users-page-intro h1{
   margin-top: 20px;
@@ -4347,6 +4342,7 @@ position: absolute;
   color: #3c3c3c;
   line-height: 76px;
   transition: all 1s;
+  padding:0;
 }
 
 .users-page h2{
@@ -4382,7 +4378,7 @@ position: absolute;
   max-width:unset;
 }
 
-.users-page-map img{
+.users-page-intro img{
   width:100%;
 }
 
@@ -4401,7 +4397,6 @@ position: absolute;
 }
 
 .users-page .users-page-logos,
-.users-page .users-page-map,
 .users-page .users-page-examples{
   margin-top:100px;
 }
@@ -4595,19 +4590,28 @@ position: absolute;
 }
 
 .users-page .card-body a.discover-more{
-    background-color: #D9D9D9;
-    color: #585656;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform:none;
-    padding: 15px 25px;
-    margin: 0 auto;
+  background-color: #D9D9D9;
+  color: #585656;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform:none;
+  padding: 10px 25px;
+  margin: 0 auto;
 }
 
 .users-page #usersNotVisible div{
     display:none;
+}
+
+.users-page #anchor{
+  padding-left:0;
+}
+
+.users-page .user{
+  padding-left:10px;
+  padding-right:10px;
 }
 
 @media (max-width: 576px) {
