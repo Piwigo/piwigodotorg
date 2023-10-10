@@ -185,13 +185,14 @@
                         <p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>
                         <p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>
                       </div>
-                      <p class="author">{$users.author}</p>
-                      <p>{$users.comment}</p>
                       {if $users.url}
-                      <div class="text-center my-4 py-4">
-                        <a class=" discover-more" href="{$users.url}" target='blank'>{'Discover'|translate}</a>
-                      </div>
+                      <a href="{$users.url}" target='blank'>
+                        <p class="author"><i class="icon-link"></i>{$users.author}</p>
+                      </a>
+                      {else}
+                      <p class="author">{$users.author}</p>
                       {/if}
+                      <p>{$users.comment}</p>
                     </div>
   {else if $users.type == "testimonial"}
                     <div class="card-body">
@@ -200,7 +201,13 @@
                         <p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>
                         <p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>
                       </div>
-                      <p class="author">{$users.author}</p>
+                      {if $users.url}
+                        <a href="{$users.url}" target='blank'>
+                          <p class="author"><i class="icon-link"></i>{$users.author}</p>
+                        </a>
+                      {else}
+                        <p class="author">{$users.author}</p>
+                      {/if}
                     </div>
   {/if}
                 </div>

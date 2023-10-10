@@ -4461,6 +4461,21 @@ position: absolute;
   line-height: normal;
 }
 
+.users-page-examples .author i{
+  font-size:13px;
+  color:#585656;
+  margin-right:5px;
+}
+
+.users-page a .author{
+  text-decoration: underline;
+}
+
+.users-page a .author:hover,
+.users-page a .author:hover i{
+  color:#F37719;
+}
+
 .users-page #country{
   border-radius: 4px;
   border: 1px solid #F37719;
