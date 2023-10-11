@@ -174,7 +174,7 @@
               <div id="users" class="mb-5 w-100">
 
 {foreach from=$piwigo_users item=$users}
-                <div data-pos="{$users.position}" class="user col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if $users.type}{$users.type} {/if}{if $users.country}{$users.country} {/if}{if $users.useCase}{$users.useCase} {/if}">
+                <div data-pos="{$users.position}" class="user col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if isset($users.type)}{$users.type} {/if}{if isset($users.country)}{$users.country} {/if}{if isset($users.useCase)}{$users.useCase} {/if}">
                   <div class="card my-3 p-3">
   {if $users.type == "logo" }
                     <img class="card-img-top" src="{$users.img_src}">
@@ -182,8 +182,8 @@
                     <img class="card-img-top" src="{$users.img_src}">
                     <div class="card-body">
                       <div class="col-12">
-                        <p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>
-                        <p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>
+                        {if $users.useCase}<p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>{/if}
+                        {if $users.useCase}<p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>{/if}
                       </div>
                       {if $users.url}
                       <a href="{$users.url}" target='blank'>
@@ -198,8 +198,8 @@
                     <div class="card-body">
                       <p>{$users.comment}</p>
                       <div class="col-12">
-                        <p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>
-                        <p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>
+                        {if $users.useCase}<p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>{/if}
+                        {if $users.country}<p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>{/if}
                       </div>
                       {if $users.url}
                         <a href="{$users.url}" target='blank'>
