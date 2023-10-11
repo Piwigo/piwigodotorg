@@ -185,7 +185,7 @@
                         {if $users.useCase}<p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>{/if}
                         {if $users.useCase}<p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>{/if}
                       </div>
-                      {if $users.url}
+                      {if isset($users.url)}
                       <a href="{$users.url}" target='blank'>
                         <p class="author"><i class="icon-link"></i>{$users.author}</p>
                       </a>
@@ -201,7 +201,7 @@
                         {if $users.useCase}<p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>{/if}
                         {if $users.country}<p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>{/if}
                       </div>
-                      {if $users.url}
+                      {if isset($users.url)}
                         <a href="{$users.url}" target='blank'>
                           <p class="author"><i class="icon-link"></i>{$users.author}</p>
                         </a>
