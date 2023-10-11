@@ -182,8 +182,8 @@
                     <img class="card-img-top" src="{$users.img_src}">
                     <div class="card-body">
                       <div class="col-12">
-                        {if $users.useCase}<p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>{/if}
-                        {if $users.useCase}<p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>{/if}
+                        {if isset($users.useCase)}<p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>{/if}
+                        {if isset($users.country)}<p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>{/if}
                       </div>
                       {if isset($users.url)}
                       <a href="{$users.url}" target='blank'>
@@ -198,8 +198,8 @@
                     <div class="card-body">
                       <p>{$users.comment}</p>
                       <div class="col-12">
-                        {if $users.useCase}<p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>{/if}
-                        {if $users.country}<p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>{/if}
+                        {if isset($users.useCase)}<p class="sector d-inline-block pe-3">{"porg_users_{$users.useCase}"|translate}</p>{/if}
+                        {if isset($users.country)}<p class="d-inline-block country"><span class="flag-icon flag-icon-{$users.country|lower} me-2"></span>{"country_{$users.country}"|translate}</p>{/if}
                       </div>
                       {if isset($users.url)}
                         <a href="{$users.url}" target='blank'>
