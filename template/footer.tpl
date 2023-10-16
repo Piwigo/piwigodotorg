@@ -28,9 +28,8 @@
                   <li><a href="{$PORG_ROOT}{$URL.demo}">{'Demo'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.what_is_piwigo}">{'What is Piwigo?'|translate}</a> </li>
                   <li><a href="{$PORG_ROOT}{$URL.features}">{'Features'|translate}</a> </li>
-                  <li><a href="{$PORG_ROOT}{$URL.showcases}">{'Showcases'|translate}</a></li>
                   <li><a href="{$PORG_ROOT}{$URL.changelogs}">{'Changelogs'|translate}</a></li>
-                  <li><a href="{$PORG_ROOT}{$URL.testimonials}">{'Testimonials'|translate}</a></li>
+                  <li><a href="{$PORG_ROOT}{$URL.users}">{'Users'|translate}</a></li>
                 </ul>
             </div>
             <div class="col-md-15 col-xs-6">
