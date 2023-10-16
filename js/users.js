@@ -76,11 +76,24 @@ function filterExamples(filter)
   }
 
   var checkedFilters = new Array();
+  var filterUsers = new Array();
+  var filterDisplay = new Array();
 
   // Foreach filter checked add to array
   jQuery("input:checkbox:checked").each(function(){
+
     checkedFilters.push(jQuery(this).val());
+    // 
+    if (jQuery(this).parent().parent().attr('id') == 'filter-display')
+    {
+      filterDisplay.push(jQuery(this).val());
+    }
+    else if (jQuery(this).parent().parent().attr('id') == 'filter-users')
+    {
+      filterUsers.push(jQuery(this).val());
+    }
   });
+
 
   // If nothing is in filter array then display all use-case cards 
   // The cards are moved to another div rather than hidden. This is due to masonry.
@@ -102,18 +115,56 @@ function filterExamples(filter)
   // Else for each filter in array add class to display card
   else
   {
+    console.log(checkedFilters)
+
     // Hide all cards and then for each filter display card with specific class
     $('#users').find('.user').detach().prependTo('#usersNotVisible');
-    jQuery(checkedFilters).each(function(index, elem){
-      if (country != "all"){
-        // Filter with country
-        $('#usersNotVisible').find('.'+elem+'.'+country).detach().prependTo('#users');
-      }
-      else{
-        // Filter without country set
-        $('#usersNotVisible').find('.'+elem).detach().prependTo('#users');
-      }
+
+    // Only display filter
+    if (filterDisplay.length !== 0 && filterUsers.length === 0)
+    {
+      jQuery(filterDisplay).each(function(index, display){
+        if (country != "all"){
+          // Filter with country
+          $('#usersNotVisible').find('.'+display+'.'+country).detach().prependTo('#users');
+        }
+        else{
+          // Filter without country set
+          $('#usersNotVisible').find('.'+display).detach().prependTo('#users');
+        }
+      });
+    }
+    // Only user filter
+    else if (filterUsers.length !== 0 && filterDisplay.length === 0)
+    {
+      jQuery(filterUsers).each(function(index, user){
+        if (country != "all"){
+          // Filter with country
+          $('#usersNotVisible').find('.'+user+'.'+country).detach().prependTo('#users');
+        }
+        else{
+          // Filter without country set
+          $('#usersNotVisible').find('.'+user).detach().prependTo('#users');
+        }
+      });
+    }
+    else
+    {
+    jQuery(filterDisplay).each(function(index, display){
+      jQuery(filterUsers).each(function(index, user){
+        if (country != "all"){
+          // Filter with country
+          $('#usersNotVisible').find('.'+display+'.'+user+'.'+country).detach().prependTo('#users');
+        }
+        else{
+          // Filter without country set
+          $('#usersNotVisible').find('.'+display+'.'+user).detach().prependTo('#users');
+        }
+      });
     });
+    }
+
+
     
     // if no use-case cards match filter display no match message
     if(jQuery('#users').find('.user:visible').length == 0) {

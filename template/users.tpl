@@ -177,7 +177,9 @@
                 <div data-pos="{$users.position}" class="user col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if isset($users.type)}{$users.type} {/if}{if isset($users.country)}{$users.country} {/if}{if isset($users.useCase)}{$users.useCase} {/if}">
                   <div class="card my-3 p-3">
   {if $users.type == "logo" }
-                    <img class="card-img-top" src="{$users.img_src}">
+                    {if isset($users.url)}<a href="{$users.url}">{/if}
+                      <img class="card-img-top w-100" src="{$users.img_src}">
+                    {if isset($users.url)}</a>{/if}
   {else if $users.type == "example"}
                     <img class="card-img-top" src="{$users.img_src}">
                     <div class="card-body">

@@ -43,6 +43,8 @@ for ($i = 0; $i <= $longest_array; $i++) {
 
   if ($logo != null)
   {
+    $logo_infos = get_ressources_infos($logo['id']);
+
     $filtered_data = array(
       "id" => $logo['id'],
       "position" => $counter++,
@@ -50,6 +52,28 @@ for ($i = 0; $i <= $longest_array; $i++) {
       "img_src" => $logo['element_url'],
       "date" => $logo['date_creation']? $logo['date_creation'] : $logo['date_available'],
     );
+
+    $logo_tags = $logo_infos['result']['tags'];
+
+    foreach($logo_tags as $tag)
+    {
+      $tag = explode(":", $tag['name'], 2);
+      switch ($tag[0])
+      {
+        case 'country':
+          $filtered_data['country'] = $tag[1];
+          break;
+        case 'organization':
+          $filtered_data['organization'] = $tag[1];
+          break;
+        case 'url':
+          $filtered_data['url'] = $tag[1];
+          break;
+        case 'use-case':
+          $filtered_data['useCase'] = $tag[1];
+          break;
+      }
+    }
 
     array_push($piwigo_users, $filtered_data);
   }
