@@ -16,11 +16,12 @@
 
   <section class="users-page container">
     <div class="users-page-examples">
-      
+{*      
         <div class="col-12 mb-5 pb-5">
           <h2>{"porg_users_section_3_title"|translate}</h2>
           <p class="text-content">{"porg_users_section_3_text"|translate}</p>
         </div>
+*}
         <div class="container-fluid">
 
           <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-xs-12 sticky">
