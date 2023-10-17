@@ -237,8 +237,6 @@ function porg_load_content()
             'hosting' => 'get-piwigo',
             'hosting/' => 'get-piwigo',
             'donate' => 'get-involved', // TODO redirect on the #donate
-            'testimonials' => 'users',
-            'examples' => 'users',
             );
 
         // on all Piwigo photo upload form, since version 13, we display an add for the

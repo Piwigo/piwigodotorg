@@ -20,9 +20,9 @@ function porg_get_pages()
     'newsletters' => 'Newsletters',
     'press' => 'Press',
     'release' => null, // will be filled by include/release.inc.php
-    // 'showcases' => 'Showcases',
+    'showcases' => 'Showcases',
     'users' => 'Users',
-    // 'testimonials' => 'Testimonials',
+    'testimonials' => 'Testimonials',
     'mobile-apps-privacy-policy' => 'Privacy Policy for Mobile Apps',
     'demo' => 'Demo',
     'guides' => 'guides',
