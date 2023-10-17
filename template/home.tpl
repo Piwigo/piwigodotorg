@@ -196,7 +196,7 @@ $(document).ready(function() {
 
       <div class="row text-center showcase-refresh">
         <div class="col-md-7 col-xs-12 showcase-button">
-            <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.showcases}">{'View more showcases'|translate}</a>
+            <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.users}">{'View more showcases'|translate}</a>
         </div>
         <div class="col-md-5 col-xs-12 btn-refresh">
             <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
@@ -212,7 +212,7 @@ $(document).ready(function() {
 {foreach from=$TESTIMONIALS item=testimonial name=testimonials_loop}
           <div class="content-advice-box">
             <img class="home-quotes" alt="quotes" src="{$PORG_ROOT_URL}images/home/quotes.svg">
-            <p class="user-advice">{$testimonial.content}{if $testimonial.is_cut}... <a href="{$URL.testimonials}">see more</a>{/if}</p>
+            <p class="user-advice">{$testimonial.content}{if $testimonial.is_cut}... <a href="{$URL.users}">see more</a>{/if}</p>
             <p class="user-advice-name">{$testimonial.user.username}, {$testimonial.user.type}, {$testimonial.user.country}</p>
           </div>
   {if $smarty.foreach.testimonials_loop.index == ceil(count($TESTIMONIALS) / 2) - 1}
