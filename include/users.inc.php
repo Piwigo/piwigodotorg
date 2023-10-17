@@ -36,135 +36,78 @@ $counter = 0;
 // This helps mix the differnt types of users displayed
 // For each type add information accordingly by type
 
-for ($i = 0; $i <= $longest_array; $i++) {
+$dispatched_lists = array(
+  'logo' => $users_logos,
+  'example' => $users_examples,
+  'testimonial' => $users_testimonials,
+);
 
-  //Logo
-  $logo = array_shift($users_logos);
+$total = 0;
+foreach ($dispatched_lists as $type => $list)
+{
+  // echo count($list).' '.$type.'<br>';
+  $total += count($list);
+}
 
-  if ($logo != null)
+for ($i = 0; $i < $total; $i++)
+{
+  // on each iteration we want to pick randomly an item among logos OR testimonials OR examples.
+  // We don't have the same number of each type, so must put a weight on each type before
+  // randomly picking a type to add to the $piwigo_users unique list
+  $weighted_types = array();
+  foreach (array_keys($dispatched_lists) as $type)
   {
-    $logo_infos = get_ressources_infos($logo['id']);
-
-    $filtered_data = array(
-      "id" => $logo['id'],
-      "position" => $counter++,
-      "type" => "logo",
-      "img_src" => $logo['element_url'],
-      "date" => $logo['date_creation']? $logo['date_creation'] : $logo['date_available'],
+    $weighted_types = array_merge(
+      $weighted_types,
+      array_fill(0, count($dispatched_lists[$type]), $type)
     );
-
-    $logo_tags = $logo_infos['result']['tags'];
-
-    foreach($logo_tags as $tag)
-    {
-      $tag = explode(":", $tag['name'], 2);
-      switch ($tag[0])
-      {
-        case 'country':
-          $filtered_data['country'] = $tag[1];
-          break;
-        case 'organization':
-          $filtered_data['organization'] = $tag[1];
-          break;
-        case 'url':
-          $filtered_data['url'] = $tag[1];
-          break;
-        case 'use-case':
-          $filtered_data['useCase'] = $tag[1];
-          break;
-      }
-    }
-
-    array_push($piwigo_users, $filtered_data);
   }
-  
-  // Testimonials
-  for ($k = 0 ; $k <= 1 ; $k++)
+  $type = $weighted_types[array_rand($weighted_types)];
+  $item = array_shift($dispatched_lists[$type]);
+
+  $item_infos = get_ressources_infos($item['id']);
+
+  $filtered_data = array(
+    "id" => $item['id'],
+    "position" => $counter++,
+    "type" => $type,
+    "date" => $item['date_creation']? $item['date_creation'] : $item['date_available'],
+  );
+
+  if (in_array($type, array('logo', 'example')))
   {
-    $testimonial = array_shift($users_testimonials);
-
-    if ($testimonial != null)
-    {
-      $testimonial_infos = get_ressources_infos($testimonial['id']);
-
-      $filtered_data  = array(
-        "id" => $testimonial['id'],
-        "position" => $counter++,
-        "type" => "testimonial",
-        "comment" => trigger_change('render_category_name', $testimonial['comment']),
-        "date" => $testimonial['date_creation']? $testimonial['date_creation'] : $testimonial['date_available'],
-        "author" => $testimonial['name']
-      );
-    
-      $testimonial_tags = $testimonial_infos['result']['tags'];
-    
-      foreach($testimonial_tags as $tag)
-      {
-        $tag = explode(":", $tag['name'], 2);
-        switch ($tag[0])
-        {
-          case 'country':
-            $filtered_data['country'] = $tag[1];
-            break;
-          case 'organization':
-            $filtered_data['organization'] = $tag[1];
-            break;
-          case 'url':
-            $filtered_data['url'] = $tag[1];
-            break;
-          case 'use-case':
-            $filtered_data['useCase'] = $tag[1];
-            break;
-        }
-      }
-      array_push($piwigo_users, $filtered_data);
-    }
+    $filtered_data['img_src'] = $item['element_url'];
   }
 
-  // Examples
-  for ($j = 0 ; $j <= 2 ; $j++)
+  if (in_array($type, array('testimonial', 'example')))
   {
-    $example = array_shift($users_examples);
+    $filtered_data['comment'] = trigger_change('render_category_name', $item['comment']);
+    $filtered_data['author'] = $item['name'];
+  }
 
-    if ($example != null)
+  $item_tags = $item_infos['result']['tags'];
+
+  foreach($item_tags as $tag)
+  {
+    $tag = explode(":", $tag['name'], 2);
+    switch ($tag[0])
     {
-      $examples_infos = get_ressources_infos($example['id']);
-
-      $filtered_data = array(
-        "id" => $example['id'],
-        "position" => $counter++,
-        "type" => "example",
-        "img_src" => $example['element_url'],
-        "date" => $example['date_creation']? $example['date_creation'] : $example['date_available'],
-        "author" => $example['name'],
-        "comment" => trigger_change('render_category_name', $example['comment'])
-      );
-    
-      $example_tags = $examples_infos['result']['tags'];
-    
-      foreach($example_tags as $tag)
-      {
-        $tag = explode(":", $tag['name'], 2);
-        switch ($tag[0])
-        {
-          case 'country':
-            $filtered_data ['country'] = $tag[1];
-            break;
-          case 'organization':
-            $filtered_data ['organization'] = $tag[1];
-            break;
-          case 'url':
-            $filtered_data ['url'] = $tag[1];
-            break;
-          case 'use-case':
-            $filtered_data ['useCase'] = $tag[1];
-            break;
-        }
-      }
-
-      array_push($piwigo_users, $filtered_data);
+      case 'country':
+        $filtered_data['country'] = $tag[1];
+        break;
+      case 'organization':
+        $filtered_data['organization'] = $tag[1];
+        break;
+      case 'url':
+        $filtered_data['url'] = $tag[1];
+        break;
+      case 'use-case':
+        $filtered_data['useCase'] = $tag[1];
+        break;
     }
   }
+
+  array_push($piwigo_users, $filtered_data);
 }
 
 // Get all countries used in ressources and sort by country name
