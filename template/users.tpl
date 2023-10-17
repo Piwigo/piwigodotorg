@@ -1,14 +1,3 @@
-  {* <section class="container-fluid users-page">
-    <div class="users-page-intro">
-      <img src="{$PORG_ROOT_URL}images/users/users_header.png">
-      <div class="container">
-        <div class="col-md-12">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> *}
 
 <section class="users-page container-fluid">
   <div class="users-page-intro">
@@ -24,29 +13,6 @@
     </div>
   </div>
 </section>
-
-  {* <section class="container users-page">
-    <div class="users-page-logos">
-      <h2>{"porg_users_section_1_title"|translate}</h2>
-{assign var="counter" value="-1"}
-{foreach from=$user_logos item=$logo}
-  {assign var="counter" value=$counter + 1}
-  {if $counter % 4 == 0 || $counter ==0 }
-      <div class= "row">
-  {/if}
-        <div class="col col-md-3 center-block img-container align-items-middle">
-          <img id="{$logo.name}" class="img-responsive" src="{$logo.element_url}">
-        </div>
-  {if $counter % 4 == 3}
-      </div>
-  {/if}
-{/foreach}
-      
-
-    </div>
-  </section> *}
-
-
 
   <section class="users-page container">
     <div class="users-page-examples">
@@ -139,7 +105,7 @@
                       <select id="country" class="w-100">
                         <option value="all">{"porg_users_all_countries"|translate}</option>
 {foreach from=$countries item=$country}
-                        <option value="{$country}">{"country_{$country}"|translate}</option>
+                        <option value="{$country.code}">{"country_{$country.code}"|translate}</option>
 {/foreach}
                       </select>
                     </div>
@@ -177,7 +143,7 @@
                 <div data-pos="{$users.position}" class="user col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if isset($users.type)}{$users.type} {/if}{if isset($users.country)}{$users.country} {/if}{if isset($users.useCase)}{$users.useCase} {/if}">
                   <div class="card my-3 p-3">
   {if $users.type == "logo" }
-                    {if isset($users.url)}<a href="{$users.url}">{/if}
+                    {if isset($users.url)}<a href="{$users.url}" target="blank">{/if}
                       <img class="card-img-top w-100" src="{$users.img_src}">
                     {if isset($users.url)}</a>{/if}
   {else if $users.type == "example"}
