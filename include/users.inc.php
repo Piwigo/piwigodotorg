@@ -167,7 +167,7 @@ for ($i = 0; $i <= $longest_array; $i++) {
   }
 }
 
-// Get all countries used in ressources
+// Get all countries used in ressources and sort by country name
 $countries = array();
 foreach($piwigo_users as $user)
 {
@@ -175,11 +175,18 @@ foreach($piwigo_users as $user)
   {
     continue;
   }
-  if (!in_array($user['country'], $countries))
+
+  if (!array_key_exists($user['country'], $countries))
   {
-    array_push($countries, $user['country']);
+    $countries[$user['country']] = array(
+      'code' => $user['country'],
+      'simplified_country' => remove_accents(l10n('country_'.$user['country'])),
+    );
   }
 }
+
+$simplified_country  = array_column($countries, 'simplified_country');
+array_multisort($simplified_country, SORT_ASC, $countries);
 
 $template->assign(
   array(
