@@ -2,14 +2,14 @@ jQuery( document ).ready(function() {
   
   if($( document ).width() > 768)
   {
-    // On page laod add masonry effect to use-case cards
-    $('#users').masonry({
-      itemSelector: '.user',
-      horizontalOrder: true,
-
+    // On page load add masonry effect to use-case cards, masonry only applied once images have loaded
+    $('#users').imagesLoaded( function() {
+      $('#users').masonry({
+        itemSelector: '.user',
+        horizontalOrder: true,
+      });
     });
-    
-    jQuery('#users').masonry();
+
   }
 
   if($( document ).width() < 768)
