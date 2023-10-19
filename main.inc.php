@@ -463,23 +463,23 @@ function get_ressources($ressources_type)
   $ressources_types = array(
     "home_logos" => array(
       "cache_path" => $conf['data_location'].PORG_ID.'/porg_home_logos.cache.php',
-      "album_id" => $conf['home_logos_cat_id']
+      "album_id" => conf_get_param('home_logos_cat_id', 3)
     ),
     "home_examples" => array(
       "cache_path" => $conf['data_location'].PORG_ID.'/porg_home_examples.cache.php',
-      "album_id" => $conf['home_examples_cat_id']
+      "album_id" => conf_get_param('home_examples_cat_id', 39)
     ),
     "logos" => array(
       "cache_path" => $conf['data_location'].PORG_ID.'/porg_users_logos.cache.php',
-      "album_id" => $conf['user_logos_cat_id']
+      "album_id" => conf_get_param('user_logos_cat_id', 18)
     ),
     "examples" => array(
       "cache_path" => $conf['data_location'].PORG_ID.'/porg_users_examples.cache.php',
-      "album_id" => $conf['user_examples_cat_id']
+      "album_id" => conf_get_param('user_examples_cat_id', 7)
     ),
     "testimonials" => array(
       "cache_path" => $conf['data_location'].PORG_ID.'/porg_users_testimonials.cache.php',
-      "album_id" => $conf['user_testimonials_cat_id']
+      "album_id" => conf_get_param('user_examples_cat_id', 33)
     ),
   );
 
