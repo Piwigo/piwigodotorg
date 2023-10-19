@@ -560,6 +560,9 @@ function get_ressources_infos($img_id)
         case 'use-case':
           $tags['useCase'] = $tag[1];
           break;
+        case 'url':
+            $tags['url'] = $tag[1];
+            break;
       }
     }
 

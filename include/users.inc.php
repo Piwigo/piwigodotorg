@@ -101,7 +101,6 @@ array_multisort($simplified_country, SORT_ASC, $countries);
 
 $template->assign(
   array(
-      'user_logos' => $users_logos,
       'piwigo_users' => $piwigo_users,
       'countries' => $countries,
   )
