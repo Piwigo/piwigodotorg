@@ -311,6 +311,9 @@ function porg_load_content()
     }
     else
     {
+        load_language('countries.lang', PORG_PATH, array('language' => 'en_UK', 'no_fallback' => true));
+        load_language('countries.lang', PORG_PATH);
+
         $meta_description = null;
         load_language('home.lang', PORG_PATH); // loaded here only to search the page_meta_description language key
         if (isset($lang['page_meta_description']))
@@ -338,11 +341,35 @@ function porg_load_content()
         {
           $template->assign('ENGLISH_NEWS', 'https://piwigo.org/news');
         }
+
+        $showcases = get_ressources("home_examples");
+        shuffle($showcases);
+        $rand_showcases = array_slice($showcases,0, 4);
+
+        $testimonials = get_ressources("testimonials");
+        shuffle($testimonials);
+        $rand_testimonials = array_slice($testimonials,0, 4);
+
+        $testimonials_content = array();
+
+        foreach($rand_testimonials as $testimonial)
+        {   
+            $item_content = array(
+                "id" => $testimonial['id'],
+                "comment" => trigger_change('render_category_name', $testimonial['comment']),
+                "author" => $testimonial['name'],
+            );
+
+            $item_tags = get_ressources_infos($testimonial['id']);
+            $item = array_merge($item_content, $item_tags);
+
+            array_push($testimonials_content, $item);
+        }
         
         $template->assign(
             array(
-                'SHOWCASES' => get_showcases(),
-                'TESTIMONIALS' => porg_get_testimonials_sample(),
+                'SHOWCASES' =>  $rand_showcases,
+                'TESTIMONIALS' => $testimonials_content,
                 'LATEST_VERSION_NUMBER' => $latest_version['version'],
                 'LATEST_VERSION_DATE' => time_since($latest_version['released_on'],'month'),
                 'NB_YEARS' => porg_get_nb_years(),
@@ -420,9 +447,7 @@ function porg_load_content()
     /**
      * Use ressources.piwigo.com to get logos and examples
     */
-    $hl_result = get_ressources("home_logos");
-
-    $home_logos = $hl_result['result']['images'];
+    $home_logos = get_ressources("home_logos");
 
     $template->assign(
       array(
@@ -439,6 +464,10 @@ function get_ressources($ressources_type)
     "home_logos" => array(
       "cache_path" => $conf['data_location'].PORG_ID.'/porg_home_logos.cache.php',
       "album_id" => $conf['home_logos_cat_id']
+    ),
+    "home_examples" => array(
+      "cache_path" => $conf['data_location'].PORG_ID.'/porg_home_examples.cache.php',
+      "album_id" => $conf['home_examples_cat_id']
     ),
     "logos" => array(
       "cache_path" => $conf['data_location'].PORG_ID.'/porg_users_logos.cache.php',
@@ -480,7 +509,9 @@ function get_ressources($ressources_type)
   
   $result = unserialize(file_get_contents($cache_path));
 
-  return $result;
+  $items = $result['result']['images'];
+
+  return $items;
 }
 
 function get_ressources_infos($img_id)
@@ -512,7 +543,27 @@ function get_ressources_infos($img_id)
     }
     $result = unserialize(file_get_contents($cache_path));
 
-    return $result;
+    $img_tags = $result['result']['tags'];
+
+    $tags = array();
+    foreach($img_tags as $tag)
+    {
+      $tag = explode(":", $tag['name'], 2);
+      switch ($tag[0])
+      {
+        case 'country':
+          $tags['country'] = $tag[1];
+          break;
+        case 'organization':
+          $tags['organization'] = $tag[1];
+          break;
+        case 'use-case':
+          $tags['useCase'] = $tag[1];
+          break;
+      }
+    }
+
+    return $tags;
 }
 
 add_event_handler('init', 'porg_load_footer');

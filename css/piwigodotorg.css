@@ -1126,6 +1126,29 @@ h2{
     letter-spacing: 1px;
 }
 
+.testimonials-button .btn-view-more-testimonials{
+    border-color: 0px;
+    border: 2px solid #92f7f8;
+    color: #92f7f8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom:40px;
+}
+
+.testimonials-button .btn-view-more-testimonials:hover{
+    background-color: rgba(11,8,31,1);
+    border: 2px solid rgba(11,8,31,1);
+    color: #FFFFFF;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+}
+
+
 .showcase-button{
   text-align:right;
 }

@@ -45,8 +45,12 @@ function ws_porg_news_getLatest($params, &$service)
 
 function ws_porg_home_refresh_showcases($params, &$service)
 {
-    $final_image = get_showcases($params['exclude']);
-    return json_encode($final_image);
+    $showcases = get_ressources("home_examples");
+
+    shuffle($showcases);
+    $rand_showcases = array_slice($showcases,0, 4);
+
+    return json_encode($rand_showcases);
 }
 
 function ws_porg_contact_send($params, &$service)

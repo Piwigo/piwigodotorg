@@ -2,26 +2,27 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $('.btn-refresh .refresh-showcases').click(function() {
-      /* get the list of showcase to exclude */
-      var excludes = [];
-      jQuery(".showcase").each(function() {
-        excludes.push(jQuery(this).data('showcaseid'));
-      });
-
-      var basesrc = jQuery(".showcases-home").data('basesrc');
 
       $.ajax({
         type: "POST",
         url: "ws.php?method=porg.home.refresh_showcases&format=json",
         dataType: "json",
         data: {
-          exclude: excludes,
         },
         success: function(response) {
+
           var showcases = jQuery.parseJSON(response['result']);
+
+          console.log(showcases)
+          jQuery('.showcases-home').empty();
+
+
           showcases.forEach(function (item, index) {
-            $('.showcase'+(index+1)).data('showcaseid', item.id);
-            $('.showcase'+(index+1)+' img').attr("src", basesrc+item.id+".jpg").attr("title", item.name);
+            jQuery('.showcases-home').append('<div class="col-md-3 col-xs-12 showcases-content">\
+              <div class="showcase" >\
+                <img src="'+item.element_url+'" alt="'+item.name+'">\
+              </div>\
+              </div>');
           });
         },
       });
@@ -184,10 +185,10 @@ $(document).ready(function() {
     <div class="row text-center">
       <h2>{'porg_showcase_title'|translate}</h2>
       <div class="showcases-home" data-basesrc="{$PORG_ROOT_URL}images/showcases/">
-  {foreach from=$SHOWCASES item=showcase name=showcases}
+  {foreach from=$SHOWCASES item=$showcase}
         <div class="col-md-3 col-xs-12 showcases-content">
-          <div class="showcase showcase{$smarty.foreach.showcases.iteration}" data-showcaseid="{$showcase.id}">
-            <img src="{$PORG_ROOT_URL}images/showcases/{$showcase.id}.jpg" alt="{$showcase.name}" title="{$showcase.name}">
+          <div class="showcase" >
+            <img src="{$showcase.element_url}" alt="{$showcase.name}">
           </div>
         </div>
   {/foreach}
@@ -196,7 +197,7 @@ $(document).ready(function() {
 
       <div class="row text-center showcase-refresh">
         <div class="col-md-7 col-xs-12 showcase-button">
-            <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.users}">{'View more showcases'|translate}</a>
+            <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.users}#anchor">{'View more showcases'|translate}</a>
         </div>
         <div class="col-md-5 col-xs-12 btn-refresh">
             <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
@@ -212,14 +213,19 @@ $(document).ready(function() {
 {foreach from=$TESTIMONIALS item=testimonial name=testimonials_loop}
           <div class="content-advice-box">
             <img class="home-quotes" alt="quotes" src="{$PORG_ROOT_URL}images/home/quotes.svg">
-            <p class="user-advice">{$testimonial.content}{if $testimonial.is_cut}... <a href="{$URL.users}">see more</a>{/if}</p>
-            <p class="user-advice-name">{$testimonial.user.username}, {$testimonial.user.type}, {$testimonial.user.country}</p>
+            <p class="user-advice">{$testimonial.comment}</p>
+            <p class="user-advice-name">{$testimonial.author}, {"porg_users_{$testimonial.useCase}"|translate}, {"country_{$testimonial.country}"|translate}</p>
           </div>
   {if $smarty.foreach.testimonials_loop.index == ceil(count($TESTIMONIALS) / 2) - 1}
         </div>
         <div class="col col-md-6">
   {/if}
 {/foreach}
+        </div>
+        <div class="row text-center">
+          <div class="col-xs-12 testimonials-button">
+              <a type="button" class="btn btn-view-more-testimonials" href="{$PORG_ROOT}{$URL.users}#anchor">{'View more showcases'|translate}</a>
+          </div>
         </div>
       </div>
     </div>

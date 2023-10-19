@@ -158,3 +158,10 @@ $lang['porg_guides_install_image_caption4'] = 'Piwigo is installed';
 $lang['porg_guides_install_info2'] = 'The Piwigo team recommends FileZilla as an FTP client because, just like Piwigo, it is free and compatible with Windows and Linux.';
 $lang['Still got some unanswered questions ?'] = 'Still got some unanswered questions?';
 $lang['porg_get_started_question_desc1'] = 'You can get some help on the <a href="%s">forum</a> or find your own answers in the <a href="%s">documentation</a>';
+
+$lang['porg_users_company'] = 'Companies';
+$lang['porg_users_education'] = 'Education & Research';
+$lang['porg_users_tourism'] = 'Tourism & Culture';
+$lang['porg_users_association'] = 'Non Profits';
+$lang['porg_users_perso'] = 'Photographers & individuals';
+$lang['porg_users_public'] = 'Public sector';

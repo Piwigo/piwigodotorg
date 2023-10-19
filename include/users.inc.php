@@ -5,25 +5,13 @@ load_language('countries.lang', PORG_PATH);
 $piwigo_users = array();
 
 // Get users page logos
-$users_logos_cache_path = $conf['data_location'].PORG_ID.'/porg_users_logos.cache.php'; 
-$users_logos_cat_id = $conf['user_logos_cat_id'];
-
-$ul_result = get_ressources("logos");
-
-$users_logos = $ul_result['result']['images'];
+$users_logos = get_ressources("logos");
 
 // Get users page gallery examples
-$users_examples_cache_path = $conf['data_location'].PORG_ID.'/porg_users_examples.cache.php'; 
-$users_examples_cat_id = $conf['user_examples_cat_id'];
-
-$ue_result = get_ressources("examples");
-
-$users_examples = $ue_result['result']['images'];
+$users_examples = get_ressources("examples");
 
 // Get users page testimonials
-$ut_result = get_ressources("testimonials");
-
-$users_testimonials = $ut_result['result']['images'];
+$users_testimonials = get_ressources("testimonials");
 
 // Get longest array of users for number of iterations
 $longest_array = max(count($users_logos),count($users_examples),count($users_testimonials));
@@ -65,8 +53,6 @@ for ($i = 0; $i < $total; $i++)
   $type = $weighted_types[array_rand($weighted_types)];
   $item = array_shift($dispatched_lists[$type]);
 
-  $item_infos = get_ressources_infos($item['id']);
-
   $filtered_data = array(
     "id" => $item['id'],
     "position" => $counter++,
@@ -85,27 +71,9 @@ for ($i = 0; $i < $total; $i++)
     $filtered_data['author'] = $item['name'];
   }
 
-  $item_tags = $item_infos['result']['tags'];
+  $item_tags = get_ressources_infos($item['id']);
 
-  foreach($item_tags as $tag)
-  {
-    $tag = explode(":", $tag['name'], 2);
-    switch ($tag[0])
-    {
-      case 'country':
-        $filtered_data['country'] = $tag[1];
-        break;
-      case 'organization':
-        $filtered_data['organization'] = $tag[1];
-        break;
-      case 'url':
-        $filtered_data['url'] = $tag[1];
-        break;
-      case 'use-case':
-        $filtered_data['useCase'] = $tag[1];
-        break;
-    }
-  }
+  $filtered_data = array_merge($filtered_data, $item_tags);
 
   array_push($piwigo_users, $filtered_data);
 }

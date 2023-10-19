@@ -10,12 +10,7 @@ $lang['porg_users_examples'] = 'Exemples';
 $lang['porg_users_logos'] = 'Logos';
 $lang['porg_users_testimonials'] = 'Témoignages';
 $lang['porg_users_use_cases'] = 'Cas d\'usages';
-$lang['porg_users_company'] = 'Entreprises';
-$lang['porg_users_education'] = 'Enseignement & Recherche';
-$lang['porg_users_tourism'] = 'Tourisme & Culture';
-$lang['porg_users_association'] = 'Associations';
-$lang['porg_users_perso'] = 'Photographes & particuliers';
-$lang['porg_users_public'] = 'Secteur Public';
+
 $lang['porg_users_all_countries'] = 'Tout les pays';
 
 $lang['porg_users_no_match'] = 'Désolé, aucun exemple ne correspond à vos filtres';
