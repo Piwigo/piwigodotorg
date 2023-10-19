@@ -23,3 +23,4 @@ $lang['version %s'] = 'version %s';
 $lang['Latest activity'] = 'Latest activity';
 $lang['Download or'] = 'download or';
 $lang['Cloud hosting'] = 'cloud hosting';
+$lang['Read more testimonials'] = 'Read more testimonials';

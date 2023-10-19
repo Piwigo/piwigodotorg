@@ -31,5 +31,6 @@ $lang['version %s'] = 'version %s';
 $lang['Latest activity'] = 'Dernière activité';
 $lang['Download or'] = 'téléchargement ou';
 $lang['Cloud hosting'] = 'hébergement cloud';
+$lang['Read more testimonials'] = 'Voir d\'autres témoignages';
 
 ?>

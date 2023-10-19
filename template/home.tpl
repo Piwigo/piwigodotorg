@@ -224,7 +224,7 @@ $(document).ready(function() {
         </div>
         <div class="row text-center">
           <div class="col-xs-12 testimonials-button">
-              <a type="button" class="btn btn-view-more-testimonials" href="{$PORG_ROOT}{$URL.users}#anchor">{'View more showcases'|translate}</a>
+              <a type="button" class="btn btn-view-more-testimonials" href="{$PORG_ROOT}{$URL.users}#anchor">{'Read more testimonials'|translate}</a>
           </div>
         </div>
       </div>
