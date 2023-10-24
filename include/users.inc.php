@@ -67,7 +67,10 @@ for ($i = 0; $i < $total; $i++)
 
   if (in_array($type, array('testimonial', 'example')))
   {
-    $filtered_data['comment'] = trigger_change('render_category_name', $item['comment']);
+    if (isset($item['comment']))
+    {
+      $filtered_data['comment'] = trigger_change('render_category_name', $item['comment']);
+    }
     $filtered_data['author'] = $item['name'];
   }
 

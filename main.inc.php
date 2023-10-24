@@ -356,7 +356,7 @@ function porg_load_content()
         {   
             $item_content = array(
                 "id" => $testimonial['id'],
-                "comment" => trigger_change('render_category_name', $testimonial['comment']),
+                "comment" => trigger_change('render_category_name', $testimonial['comment'] ?? ''),
                 "author" => $testimonial['name'],
             );
 
