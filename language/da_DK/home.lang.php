@@ -44,3 +44,4 @@ $lang['Cloud hosting'] = 'cloudhosting';
 $lang['Download or'] = 'hent eller';
 $lang['Latest activity'] = 'Seneste aktivitet';
 $lang['page_meta_description'] = 'Håndter dine fotobibliotek med Piwigo! Fri og open source-software til organisering og deling af dine fotografier og digitale medier på nettet.';
+$lang['Read more testimonials'] = 'Læs flere anbefalinger';
