@@ -36,6 +36,7 @@ $lang['Donate'] = 'Faire un don';
 $lang['Coding Activity'] = 'Activités de développement';
 $lang['Mobile applications'] = 'Applications mobiles';
 $lang['Users'] = 'Utilisateurs';
+$lang['Who uses Piwigo ?'] = 'Qui utilise Piwigo ?';
 
 
 /* languages */
