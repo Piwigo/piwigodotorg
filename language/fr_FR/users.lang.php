@@ -11,6 +11,7 @@ $lang['porg_users_examples'] = 'Exemples';
 $lang['porg_users_logos'] = 'Logos';
 $lang['porg_users_testimonials'] = 'Témoignages';
 $lang['porg_users_use_cases'] = 'Cas d\'usages';
+$lang['porg_users_country'] = 'Pays';
 
 $lang['porg_users_all_countries'] = 'Tout les pays';
 

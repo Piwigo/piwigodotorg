@@ -93,7 +93,7 @@
 
                 <div class="filter-section my-5">
                   <a class="filter-title" onclick="toggleFilter('filter-country')">
-                    <span>Country</span>
+                    <span>{"porg_users_country"|translate}</span>
                     <i class="icon-down-open"></i>
                   </a>
                   <div id="filter-country">
