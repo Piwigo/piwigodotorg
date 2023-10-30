@@ -5,10 +5,11 @@
       <div class="col-md-6 ps-0">
         <img src="{$PORG_ROOT_URL}images/users/users_map.png">
       </div>
-      <div class="col-md-6 vertical-align">
-        <h1 class="col-md-12">{"porg_users_title"|translate}</h1>
-        <p class="text-content">{"porg_users_intro"|translate}</p>
-        <a href="#anchor" ><button>{"Discover"|translate}</button></a>
+      <div class="col-md-6 vertical-align intro-text">
+        <h1 class="">{"porg_users_title"|translate}</h1>
+        <p class="text-content bold">{"porg_users_intro"|translate}</p>
+        <p class="text-content">{"porg_users_section_3_text"|translate}</p>
+        <button onclick="scrollFunction()">{"Discover"|translate}</button>
       </div>
     </div>
   </div>
@@ -16,19 +17,13 @@
 
   <section class="users-page container">
     <div class="users-page-examples">
-{*      
-        <div class="col-12 mb-5 pb-5">
-          <h2>{"porg_users_section_3_title"|translate}</h2>
-          <p class="text-content">{"porg_users_section_3_text"|translate}</p>
-        </div>
-*}
+     
         <div class="container-fluid">
 
           <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-xs-12 sticky">
             <div class="filter-container p-4 mt-3">
               <div class="filter-header m-3">
                 <h4>{"porg_users_filter"|translate}</h4>
-               
               </div>
 
               <div class="filters p-4">
@@ -116,7 +111,7 @@
             </div>
           </div>
 
-          <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12 " id="anchor">
+          <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12 " id="our-users">
             <div id="selected-filters" class="mt-3 mx-4 px-2">
               <button class="example btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('example')">{'porg_users_examples'|translate} <i class="icon-cancel"></i></button>
               <button class="testimonial btn rounded-button mx-2 mb-4 d-none" onclick="removeFilter('testimonial')">{'porg_users_testimonials'|translate} <i class="icon-cancel"></i></button>
@@ -188,6 +183,18 @@
           </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluide get-started users-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>{'Get started with Piwigo'|translate}</h2>
+          <p>{'porg_get_started_desc'|translate}</p>
+          <a class="btn" href="{$PORG_ROOT}{$URL.get_piwigo}">{'Get Piwigo'|translate}</a>
+        </div>
       </div>
     </div>
   </section>

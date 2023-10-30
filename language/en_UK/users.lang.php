@@ -1,9 +1,7 @@
 <?php
 $lang['porg_users_title'] = 'Who uses Piwigo?';
-$lang['porg_users_intro'] = 'Piwigo is used all over the world, by individuals and organizations of all sizes. Discover examples of photo libraries created with Piwigo!';
-$lang['porg_users_section_1_title'] = 'They created their photo library with Piwigo';
-$lang['porg_users_section_3_title'] = 'Discover our fabulous users';
-$lang['porg_users_section_3_text'] = 'Our users are talented, and they love Piwigo! Through photo library examples and testimonials, discover multiple ways to use Piwigo.';
+$lang['porg_users_intro'] = 'Piwigo is used all over the world, by individuals and organizations of all sizes. Meet our fabulous users and get inspired with examples of photo libraries created with Piwigo!';
+$lang['porg_users_section_3_text'] = 'There are 1001 ways to use Piwigo. Discover the diversity of Piwigo uses below, through gallery examples and testimonials, all certified 100% authentic. Use the filters on the left to refine your search.';
 $lang['porg_users_filter'] = 'Filter';
 $lang['porg_users_display'] = 'Display';
 $lang['porg_users_examples'] = 'Examples';

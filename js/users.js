@@ -57,12 +57,12 @@ function filterExamples(filter)
   {
     // Scroll to top of use-cases when filters changed
     jQuery('html, body').animate({
-      scrollTop: $("#anchor").offset().top-150
+      scrollTop: $("#our-users").offset().top-150
     }, 1000);
   }
   else{
     jQuery('html, body').animate({
-      scrollTop: $("#anchor").offset().top
+      scrollTop: $("#our-users").offset().top
     }, 1000);
   }
 
@@ -193,3 +193,12 @@ function removeFilter(filter)
   jQuery( '#'+filter).trigger( "click" );
 }
 
+// Scroll function for discover user button
+function scrollFunction() {
+  let e = document.getElementById("our-users");
+  e.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth',
+    inline: 'start'
+  });
+}

@@ -4392,9 +4392,9 @@ position: absolute;
 /*************
  * Users page
 **************/ 
-
 .users-page-intro h1{
   margin-top: 20px;
+  margin-bottom:0;
   font-size: 56px;
   font-weight: 900;
   text-align: left;
@@ -4419,14 +4419,24 @@ position: absolute;
 }
 
 .users-page p.text-content{
-  color: #7e7e7e;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 28px;
-  transition: all 1s;
-  text-align: left;
-  margin:40px auto;
+    color: #3C3C3C;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
+    margin:40px auto;
 }
+
+.users-page p.text-content.bold{
+    color: #3C3C3C;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
+    margin:40px auto;
+  }
 
 .users-page-examples p.text-content{
   text-align:center;

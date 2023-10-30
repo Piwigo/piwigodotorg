@@ -1,9 +1,7 @@
 <?php
 $lang['porg_users_title'] = 'Qui utilise Piwigo ?';
-$lang['porg_users_intro'] = 'Piwigo est utilisé partout dans le monde, par des particuliers et des organisations de toutes tailles. Découvrez des exemples de photothèques créées avec Piwigo !';
-$lang['porg_users_section_1_title'] = 'Ils ont créé leur photothèque avec Piwigo';
-$lang['porg_users_section_3_title'] = 'Découvrez nos fabuleux utilisateurs';
-$lang['porg_users_section_3_text'] = 'Nos utilisateurs ont du talent, et ils aiment Piwigo ! À travers des exemples de photothèques et des témoignages, découvrez de multiples façons d\'utiliser Piwigo.';
+$lang['porg_users_intro'] = 'Piwigo est utilisé partout dans le monde, par des particuliers et des organisations de toutes tailles. Faites connaissance avec nos fabuleux utilisateurs et inspirez-vous avec des exemples de photothèques créées avec Piwigo !';
+$lang['porg_users_section_3_text'] = 'Il y a 1001 façons d\'utiliser Piwigo. Découvrez ci-dessous la diversité des usages de Piwigo, à travers des exemples de galeries et des témoignages, tous certifiés 100% authentiques. Utilisez les filtres à gauche pour affiner votre recherche.';
 $lang['porg_users_filter'] = 'Filtrer';
 $lang['porg_users_display'] = 'Afficher';
 $lang['porg_users_examples'] = 'Exemples';
