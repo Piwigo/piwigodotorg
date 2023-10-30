@@ -7,7 +7,7 @@
           <a class="col-md-4 col-xs-12 " href="https://apps.apple.com/fr/app/piwigo/id472225196" target="blank">
             <img src="{$PORG_ROOT_URL}images/mobile_applications/appStore.png"/>
           </a>
-          <a class="col-md-4"col-xs-12  href="https://play.google.com/store/apps/developer?id=Piwigo+Team" target="blank">
+          <a class="col-md-4"col-xs-12  href="https://play.google.com/store/apps/details?id=com.piwigo.piwigo_ng" target="blank">
             <img src="{$PORG_ROOT_URL}images/mobile_applications/playStore.png"/>
           </a>
         </div>
