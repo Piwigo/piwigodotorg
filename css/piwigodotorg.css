@@ -829,7 +829,8 @@ h2{
   margin-left: 0;
   text-align: center;
   list-style: none;
-  padding-top:30px;
+  padding-top:20px;
+  margin-bottom:0;
 }
 
 .carousel-indicators .active{
@@ -853,6 +854,7 @@ h2{
 .container-piwigo-users h3{
   color:#eb8400;
   padding: 30px 0;
+  margin-top:50px;
 }
 
 .border-colors{
@@ -888,6 +890,7 @@ h2{
 
 .fact-content, .take-control {
     padding: 50px;
+    padding-bottom:80px;
 }
 
 .fact-content img {
@@ -916,8 +919,8 @@ h2{
     line-height:1.75em;
     margin-top: 20px;
     color: #3c3c3c;
+    margin-bottom:0;
     font-weight: 700;
-    margin-bottom: 80px;
 }
 
 .homepage-batch-manager-image {
@@ -934,7 +937,7 @@ h2{
 }
 
 .btn-know-content {
-    padding-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .btn-know-content a {
@@ -1023,13 +1026,27 @@ h2{
     font-size:16px;
     border-radius:10px;
     background: linear-gradient(135deg, rgba(25,19,72,0.5) 0%, rgba(11,8,31,1) 100%);
-    margin: 30px 15px 60px;
+    margin: 60px 15px 40px;
     padding-top:20px;
     text-align:left;
 }
 
 .content-advice-box  a{
     color:#0DB4BC;
+}
+
+.testimonials_badges{
+  text-align:right;
+  margin-top:20px;
+}
+
+.testimonials_badges span{
+  padding: 5px 10px;
+  border-radius: 25px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color:#92f7f8;
 }
 
 .home-quotes{
@@ -1055,7 +1072,7 @@ h2{
   color:white;
   padding:0;
   font-weight:900;
-  margin: 50px 0 80px 0;
+  margin: 40px 0 40px 0;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -1081,7 +1098,7 @@ h2{
 /* Piwigo gallery showcases */
 
 .container-showcase {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 80px!important;
 }
 
@@ -1111,8 +1128,14 @@ h2{
     height: auto;
 }
 
+.showcases-home{
+  align-items:baseline;
+  display:flex;
+}
 
-.showcase-button .btn-view-more-showcases, .btn-know-more {
+.showcase-button .btn-view-more-showcases,
+.btn-know-more,
+.users-button .btn-view-more-users {
     border-radius: 0px;
     border: 2px solid #FF7700;
     color: #FF7700;
@@ -1126,8 +1149,13 @@ h2{
     letter-spacing: 1px;
 }
 
+.users-button .btn-view-more-users{
+    background-color:transparent;
+    margin-top:80px;
+    margin-bottom:50px;
+}
+
 .testimonials-button .btn-view-more-testimonials{
-    border-color: 0px;
     border: 2px solid #92f7f8;
     color: #92f7f8;
     padding-top: 15px;
@@ -1139,6 +1167,7 @@ h2{
     font-weight: bold;
     letter-spacing: 1px;
     margin-bottom:40px;
+    margin-top:40px;
 }
 
 .testimonials-button .btn-view-more-testimonials:hover{
@@ -1155,7 +1184,9 @@ h2{
 
 .showcase-button .btn-view-more-showcases:hover,
 .showcase-button .btn-view-more-showcases:focus,
-.btn-know-more:hover, .btn-know-more:focus {
+.btn-know-more:hover,
+.btn-know-more:focus,
+.users-button .btn-view-more-users:hover {
     background-color: #FF7700;
     color: #FFFFFF;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
@@ -1179,7 +1210,7 @@ h2{
 }
 
 .showcase-refresh{
-  padding-top:40px;
+  margin-top:80px;
 }
 
 @media (max-width: 991px) {
@@ -1210,6 +1241,7 @@ h2{
   font-weight: 700;
   font-size: 20px;
   padding-top:20px;
+  padding-bottom:0;
 }
 
 .feature-content a:hover {
@@ -1247,8 +1279,8 @@ h2{
 
 .get-started {
     background-color: #F8F8F8;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
 .get-started h1 {
@@ -1297,6 +1329,10 @@ h2{
       margin-bottom:40px;
     }
   }
+
+.get-started.users-page{
+  margin-top:40px;
+}
 
 /***********************
  * Piwigo download CSS *
@@ -4389,17 +4425,21 @@ position: absolute;
   line-height: 28px;
   transition: all 1s;
   text-align: left;
-  max-width:500px;
   margin:40px auto;
+}
+
+.users-page-examples p.text-content{
+  text-align:center;
+  max-width:75%;
 }
 
 .users-page-intro .container{
   padding-top:180px;
 }
 
-.users-page-intro p.text-content{
+/* .users-page-intro p.text-content{
   max-width:unset;
-}
+} */
 
 .users-page-intro img{
   width:100%;
@@ -4419,9 +4459,12 @@ position: absolute;
   text-transform: uppercase;
 }
 
-.users-page .users-page-logos,
-.users-page .users-page-examples{
+.users-page .users-page-logos{
   margin-top:100px;
+}
+
+.users-page .users-page-examples{
+  margin-top:50px;
 }
 
 .users-page .users-page-logos h2{
@@ -4643,7 +4686,7 @@ position: absolute;
     display:none;
 }
 
-.users-page #anchor{
+.users-page #our-users{
   padding-left:0;
 }
 
@@ -4662,7 +4705,7 @@ position: absolute;
   .users-page-examples .filter-container{
     z-index:99;
   }
-  .users-page #anchor{
+  .users-page #our-users{
     z-index:0;
   }
   .users-page-examples .filter-container .filter-header{

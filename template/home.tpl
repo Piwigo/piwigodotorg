@@ -109,6 +109,11 @@ $(document).ready(function() {
           <li data-target="#carousel-example-generic" data-slide-to="3"></li>
         </ol>
       </div>
+      <div class="row text-center">
+          <div class="col-xs-12 users-button">
+              <a type="button" class="btn btn-view-more-users" href="{$PORG_ROOT}{$URL.users}#our-users">{'Discover our fabulous users'|translate}</a>
+          </div>
+        </div>
     </div>
   </div>
 <img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-bottom1.svg">
@@ -197,7 +202,7 @@ $(document).ready(function() {
 
       <div class="row text-center showcase-refresh">
         <div class="col-md-7 col-xs-12 showcase-button">
-            <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.users}#anchor">{'View more showcases'|translate}</a>
+            <a type="button" class="btn btn-view-more-showcases" href="{$PORG_ROOT}{$URL.users}#our-users">{'View more showcases'|translate}</a>
         </div>
         <div class="col-md-5 col-xs-12 btn-refresh">
             <a type="button" class="refresh-showcases"><img src="{$PORG_ROOT_URL}images/home/refresh.svg"/></a>
@@ -214,7 +219,11 @@ $(document).ready(function() {
           <div class="content-advice-box">
             <img class="home-quotes" alt="quotes" src="{$PORG_ROOT_URL}images/home/quotes.svg">
             <p class="user-advice">{$testimonial.comment}</p>
-            <p class="user-advice-name">{$testimonial.author}, {"porg_users_{$testimonial.useCase}"|translate}, {"country_{$testimonial.country}"|translate}</p>
+            <p class="user-advice-name">{$testimonial.author}</p>
+            <div class="testimonials_badges">
+              {if isset($testimonial.useCase)}<span>{"porg_users_{$testimonial.useCase}"|translate}</span>{/if}
+              {if isset($testimonial.country)}<span>{"country_{$testimonial.country}"|translate}</span>{/if}
+            </div>
           </div>
   {if $smarty.foreach.testimonials_loop.index == ceil(count($TESTIMONIALS) / 2) - 1}
         </div>
@@ -224,7 +233,7 @@ $(document).ready(function() {
         </div>
         <div class="row text-center">
           <div class="col-xs-12 testimonials-button">
-              <a type="button" class="btn btn-view-more-testimonials" href="{$PORG_ROOT}{$URL.users}#anchor">{'Read more testimonials'|translate}</a>
+              <a type="button" class="btn btn-view-more-testimonials" href="{$PORG_ROOT}{$URL.users}#our-users">{'Read more testimonials'|translate}</a>
           </div>
         </div>
       </div>
