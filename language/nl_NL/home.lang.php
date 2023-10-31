@@ -44,3 +44,5 @@ $lang['Cloud hosting'] = 'cloudhosting';
 $lang['Download or'] = 'download of';
 $lang['Latest activity'] = 'Laatste activiteit';
 $lang['page_meta_description'] = 'Beheer uw fotobibliotheek met Piwigo! Gratis en open source software om uw foto\'s en digitale media op internet te ordenen en te delen.';
+$lang['Discover our fabulous users'] = 'Ontdek onze geweldige gebruikers';
+$lang['Read more testimonials'] = 'Lees meer getuigenissen';
