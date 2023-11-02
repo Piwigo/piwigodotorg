@@ -74,6 +74,7 @@ $lang['porg_v11_technical_features16'] = 'Your Piwigo makes calls (HTTP requests
 $lang['porg_v11_technical_features17'] = 'New trigger';
 $lang['porg_v11_technical_features18'] = 'We have added 1 trigger at the end of the central function when uploading a file';
 $lang['porg_v11_technical_features19'] = 'API changes';
+$lang['upload photo in random order chunks'] = 'upload photo in random order chunks';
 $lang['porg_v11_technical_features20'] = 'Calls to piwigo.org in HTTPS only';
 $lang['porg_v11_badge_redesign'] = 'redesign';
 $lang['porg_v11_badge_new'] = 'new';

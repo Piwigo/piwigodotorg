@@ -464,7 +464,7 @@
   <div class="col-sm-12 col-md-6">
     <h4 class="col-sm-12" id="api">{'porg_v11_technical_features19'|translate}</h4>
     <ul class="api-methods col-sm-12">
-      <li><span class="badge new">{'new'|translate}</span><code>pwg.images.uploadAsync</code> upload photo in random order chunks</li>
+      <li><span class="badge new">{'new'|translate}</span><code>pwg.images.uploadAsync</code> {'upload photo in random order chunks'|translate}</li>
       <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.delete</code></li>
       <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.rename</code></li>
       <li><span class="badge new">{'new'|translate}</span><code>pwg.tags.duplicate</code></li>
