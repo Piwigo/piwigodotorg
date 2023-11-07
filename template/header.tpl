@@ -26,7 +26,7 @@
 {if isset($RELEASE_VERSION)} {* only useful on the release note *}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/Coming_Soon/Coming_Soon.css">
 {/if}
-    <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/piwigodotorg.css?202202021845">
+    <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/piwigodotorg.css?202311071351">
 {if (isset($LANGUAGE_CSS))}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}{$LANGUAGE_CSS}">
 {/if}
