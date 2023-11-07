@@ -4393,7 +4393,7 @@ position: absolute;
  * Users page
 **************/ 
 .users-page-intro h1{
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom:0;
   font-size: 56px;
   font-weight: 900;
@@ -4419,40 +4419,31 @@ position: absolute;
 }
 
 .users-page p.text-content{
-    color: #3C3C3C;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    transition: all 1s;
-    text-align: left;
-    margin:40px auto;
+  color: #7e7e7e;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 400;
+  line-height: 28px;
+  transition: all 1s;
+  text-align: left;
+  margin-bottom:40px;
 }
 
 .users-page p.text-content.bold{
-    color: #3C3C3C;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-    transition: all 1s;
-    text-align: left;
-    margin:40px auto;
-  }
+  font-weight: 700;
+}
 
 .users-page-examples p.text-content{
   text-align:center;
   max-width:75%;
 }
 
-.users-page-intro .container{
-  padding-top:180px;
-}
-
-/* .users-page-intro p.text-content{
-  max-width:unset;
-} */
-
-.users-page-intro img{
-  width:100%;
+.users-map{
+  width: 40%;
+  left:0;
+  position:absolute;
+  top: 45px;
+  z-index: -1;
 }
 
 .users-page button{
@@ -4705,6 +4696,10 @@ position: absolute;
   padding-right:10px;
 }
 
+.users-page  .mobile-display{
+    display:none;
+}
+
 @media (max-width: 576px) {
   .users-page-intro img{
     width:100%;
@@ -4768,6 +4763,7 @@ position: absolute;
   .users-page-examples .filter-title span{
     font-size:15px;
   }
+
 }
 
 @media (max-width: 992px) { 
@@ -4784,6 +4780,15 @@ position: absolute;
   .users-page h2{
     font-size: 25px;
     line-height:2;
+  }
+  
+  .desktop-display{
+    display:none;
+  }
+
+  .users-map{
+    position:relative;
+    width:90%;
   }
 
 }

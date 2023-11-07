@@ -1,17 +1,19 @@
 
-<section class="users-page container-fluid">
-  <div class="users-page-intro">
-    <div class="row position-relative">
-      <div class="col-md-6 ps-0">
-        <img src="{$PORG_ROOT_URL}images/users/users_map.png">
+<img class="users-map desktop-display" src="{$PORG_ROOT_URL}images/users/users_map.png">
+<section class="users-page mt-5 pt-5">
+  <div class="users-page-intro container p-0">
+    <div class="">
+      <div class="col-lg-5 p-0">
       </div>
-      <div class="col-md-6 vertical-align intro-text">
-        <h1 class="">{"porg_users_title"|translate}</h1>
-        <p class="text-content bold">{"porg_users_intro"|translate}</p>
-        <p class="text-content">{"porg_users_section_3_text"|translate}</p>
-        <button onclick="scrollFunction()">{"Discover"|translate}</button>
+      <div class="col-lg-7 col-sm-12 intro-text">
+        <div class="mx-2">
+          <h1 class="">{"porg_users_title"|translate}</h1>
+          <p class="text-content bold">{"porg_users_intro"|translate}</p>
+        </div>
       </div>
     </div>
+    <img class="users-map mobile-display" src="{$PORG_ROOT_URL}images/users/users_map.png">
+
   </div>
 </section>
 
