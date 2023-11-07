@@ -479,7 +479,7 @@ function get_ressources($ressources_type)
     ),
     "testimonials" => array(
       "cache_path" => $conf['data_location'].PORG_ID.'/porg_users_testimonials.cache.php',
-      "album_id" => conf_get_param('user_examples_cat_id', 33)
+      "album_id" => conf_get_param('user_testimonials_cat_id', 33)
     ),
   );
 
