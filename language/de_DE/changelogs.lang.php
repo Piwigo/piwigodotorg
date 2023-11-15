@@ -34,3 +34,6 @@ $lang['User manager'] = 'Benutzer-Manager';
 $lang['Album manager'] = 'Album-Verwaltung';
 $lang['Multiple-format'] = 'Multiformat';
 $lang['Visit log'] = 'Besucherprotokoll';
+$lang['Album editor'] = 'Album-Editor';
+$lang['New file formats'] = 'Neue Dateiformate';
+$lang['Search engine'] = 'Suchmaschine';
