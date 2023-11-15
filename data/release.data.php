@@ -1,5 +1,21 @@
 <?php
 $porg_releases = array(
+  '14.0.0' => array(
+    'released_on' => '2023-11-30 12:00:00',
+    'md5sum' => '88f47123347952bbdfcd5fd12232dfd3',
+    'summary' => array('Search engine', 'Album editor', 'New file formats'),
+    'subtitle' => 'New search engine, new album editor, new file types.',
+    'features' => array(),
+    'bugs' => array(),
+    'known_issues' => array(),
+    'show_in_changelogs' => false,
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+    'changelogs_image'=>'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2023/10/16/20231016172415-cd74febf-la.png'
+  ),
+
   '13.8.0' => array(
     'released_on' => '2023-07-07 18:12:00',
     'md5sum' => '5ba5ea3e75fbca5bcc9d77d8c4bbb020',

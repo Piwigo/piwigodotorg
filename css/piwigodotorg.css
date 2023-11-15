@@ -7925,6 +7925,46 @@ section.release-notes-overview li a {
     margin-bottom: 20px;
 }
 
+/* Changelog version 14 */
+.release-14_0_0 .container-release-note {
+    background: linear-gradient(135deg, rgb(255, 119, 0) 0%, rgb(249, 76, 93) 50%, rgb(249, 76, 93) 100%);
+}
+.release-14_0_0 .container-release-note span {
+    color: white;
+}
+
+ .release-14_0_0 .container-download-release{
+     display:none;
+ }
+
+ .release-14_0_0 .download14{
+     display:block;
+     margin-top: 22px;
+ }
+
+ .release-14_0_0 .piwigo14-img {
+    width:100%;
+ }
+
+ .release-14_0_0  .release-notes-intro{
+    margin-top: 60px;
+    margin-bottom:30px;
+ }
+
+ .release-14_0_0 #releaseNotesMain.major-release .release-notes-intro .intro-text{
+     text-align:left;
+ }
+
+ .release-14_0_0 #releaseNotesMain.major-release #intro-title{
+    margin:30px;
+    margin-top:0;
+    text-align:center;
+ }
+
+.release-14_0_0 h4#apibrowser {
+    margin-bottom: 20px;
+}
+
  /* any release */
 
 .release-menu {

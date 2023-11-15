@@ -17,3 +17,8 @@ $lang['Plugin manager'] = 'Plugin manager';
 $lang['Album manager'] = 'Album manager';
 $lang['Visit log'] = 'Visit log';
 $lang['Multiple-format'] = 'Multiple-format';
+
+// Piwigo 14
+$lang['Search engine'] = 'Search engine';
+$lang['Album editor'] = 'Album editor';
+$lang['New file formats'] = 'New file formats';

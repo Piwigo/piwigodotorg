@@ -17,4 +17,9 @@ $lang['Plugin manager'] = 'Gestionnaire de plugins';
 $lang['Album manager'] = 'Gestionnaire d\'albums';
 $lang['Visit log'] = 'Historique des visites';
 $lang['Multiple-format'] = 'Formats multiples';
+
+// Piwigo 14
+$lang['Search engine'] = 'Moteur de recherche';
+$lang['Album editor'] = 'Éditeur d\'album';
+$lang['New file formats'] = 'Nouveaux types de fichier';
 ?>
