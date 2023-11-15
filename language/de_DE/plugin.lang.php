@@ -174,3 +174,4 @@ $lang['porg_users_association'] = 'Gemeinnützig';
 $lang['porg_users_company'] = 'Unternehmen';
 $lang['porg_users_education'] = 'Bildung & Forschung';
 $lang['porg_users_perso'] = 'Fotografen & Einzelpersonen';
+$lang['Who uses Piwigo ?'] = 'Wer nutzt Piwigo?';
