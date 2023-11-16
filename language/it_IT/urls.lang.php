@@ -49,3 +49,4 @@ $lang['porg_urls']['manual_update'] = 'guide/aggiornamento/manuale';
 $lang['porg_urls']['netinstall'] = 'guide/installazione/netinstall';
 $lang['porg_urls']['requirements'] = 'guide/installazione/prerequisiti';
 $lang['porg_urls']['mobile-applications'] = 'Applicazioni per dispositivi mobili.';
+$lang['porg_urls']['users'] = 'chi-usa-piwigo';
