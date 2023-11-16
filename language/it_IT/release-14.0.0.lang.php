@@ -53,8 +53,8 @@ $lang['porg_v14_newfiles_text'] = '<b>HEIC</b>: questo è il tipo di file predef
 <b>PSD</b> (Photoshop) e <b>EPS</b>: Piwigo genererà un JPEG o PNG per la visualizzazione e manterrà il PSD/EPS come file originale.';
 $lang['porg_v14_newfiles_title'] = 'Supporto per nuovi tipi di file';
 $lang['porg_v14_newfiles_title_menu'] = 'supporto per HEIC, WebP, PSD ed EPS';
-$lang['porg_v14_notificationgroup_image1_label'] = 'Si vous avez de nombreux administrateurs mais que vous ne souhaitez pas qu\'ils soient tous notifiés lorsqu\'un utilisateur s\'enregistre, vous pouvez choisir un groupe spécifique.';
+$lang['porg_v14_notificationgroup_image1_label'] = 'Se hai molti amministratori ma non vuoi che tutti ricevano una notifica quando un utente si registra, puoi scegliere un gruppo specifico.';
 $lang['porg_v14_notificationgroup_title'] = 'Gruppo di notifica';
 $lang['porg_v14_search_image1_label'] = 'Questa nuova barra di ricerca sostituisce sia il menu "ricerca rapida" che la pagina "ricerca avanzata".';
-$lang['porg_v14_search_image2_label'] = 'Lorsque vous recherchez le mot "panda", Piwigo peut trouver des albums ou des tags qui correspondent. Piwigo va alors en afficher la liste et vous permettre de cliquer directement sur un tag ou un album correspondant, indépendamment de la recherche en cours.';
+$lang['porg_v14_search_image2_label'] = 'Quando cerchi la parola "panda", Piwigo può trovare degli album o dei tag corrispondenti. Piwigo visualizzerà dunque l\'elenco e ti consentirà di fare clic direttamente sul tag o sull\'album corrispondente, indipendentemente dalla ricerca corrente.';
 $lang['porg_v14_search_image3_label'] = '<b>Cerca in questo gruppo</b>: quando sfogli un album, un tag o una combinazione di tag, Piwigo visualizza un pulsante+icona "Cerca in questo gruppo". Cliccandoci sopra creerai una nuova ricerca prefiltrata sull\'album in questione (o lista di tag) e potrai poi aggiungere altri filtri. Se ad esempio vuoi ritrovare le foto aggiunte nel 2018 nell\'album "animale/volpe", sarà davvero facilissimo.';
