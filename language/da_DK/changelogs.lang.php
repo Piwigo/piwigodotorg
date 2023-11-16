@@ -34,3 +34,6 @@ $lang['User manager'] = 'Brugerhåndtering';
 $lang['Visit log'] = 'Besøgslog';
 $lang['Album manager'] = 'Albumshåndtering';
 $lang['Multiple-format'] = 'Flere formater';
+$lang['Album editor'] = 'Albumredigering';
+$lang['New file formats'] = 'Nye filformater';
+$lang['Search engine'] = 'Søgemaskine';
