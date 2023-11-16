@@ -44,3 +44,5 @@ $lang['Cloud hosting'] = 'cloud hosting';
 $lang['Download or'] = 'Scarica o';
 $lang['Latest activity'] = 'Ultime attività.';
 $lang['page_meta_description'] = 'Gestisci la tua collezione fotografica con Piwigo! Un programma gratuito ed a codice aperto per organizzare e condividere le tue fotografie e media digitali su internet.';
+$lang['Discover our fabulous users'] = 'Scopri i nostri favolosi utenti';
+$lang['Read more testimonials'] = 'Leggi altre testimonianze';
