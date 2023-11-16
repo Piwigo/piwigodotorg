@@ -12,3 +12,4 @@ $lang['porg_issue_1287'] = 'Errore di sintassi nel file in lingua norvegese dopo
 $lang['porg_issue_1284'] = '\"Infinite loop?\" Errore quando si va alla pagina 2 degli album';
 $lang['porg_issue_1257'] = 'admin/batch_manager.php alcuni errori/avvisi su php7.4';
 $lang['porg_issue_1293'] = '11.x Dashboard, Fatal error: dimensione memoria consentita';
+$lang['porg_issue_1292'] = 'La parola di escape "gruppi" non può essere deserializzata';
