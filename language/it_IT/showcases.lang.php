@@ -53,3 +53,4 @@ $lang['porg_showcases_oceanopolis_desc'] = 'Océanopolis Brest, il famoso parco 
 $lang['porg_showcases_oceanopolis_title'] = 'Océanopolis Brest';
 $lang['porg_showcases_ffn_desc'] = 'La Federazione Francese di Nuoto ha scelto Piwigo per raccogliere e condividere un gran numero di fotografie e video.';
 $lang['porg_showcases_ffn_title'] = 'Federazione Francese di Nuoto';
+$lang['porg_showcases_macrogallery_desc'] = 'Un appassionato dilettante presenta in questa fototeca una banca di immagini sugli insetti, ma anche sui ragni e sulla flora. Le foto sono accuratamente classificate e indicizzate per famiglia, classe, ordine... un lavoro impressionante.';
