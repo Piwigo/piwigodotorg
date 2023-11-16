@@ -13,11 +13,11 @@ $lang['porg_v14_intro3'] = 'Piwigo 14 also comes with highly expected support fo
 
 $lang['porg_v14_newfiles_title_menu'] = 'HEIC, WebP, PSD, EPS support';
 $lang['porg_v14_newfiles_title'] = 'New file types supported';
-$lang['porg_v14_newfiles_text'] = '<b>HEIC</b> : this is currently the default file type used for photos on iOS and Android phones. Piwigo will generate a JPEG file for display and keep the HEIC as original file.<br>
+$lang['porg_v14_newfiles_text'] = '<b>HEIC</b>: this is currently the default file type used for photos on iOS and Android phones. Piwigo will generate a JPEG file for display and keep the HEIC as original file.<br>
 <br>
-<b>WebP</b> : the most "supported by web browsers" file type as a JPEG replacement. Piwigo will generate WebP files for multiple-size display. This is a big difference compared to other file types only supported "as input". WebP is supported for import as well as for display. What\'s interesting with WebP is that it can replace JPEG with higher quality for the same file weight, it can replace animated GIF for a much smaller weight and can also replace PNG with lossless quality and transparency.<br>
+<b>WebP</b>: the most "supported by web browsers" file type as a JPEG replacement. Piwigo will generate WebP files for multiple-size display. This is a big difference compared to other file types only supported "as input". WebP is supported for import as well as for display. What\'s interesting with WebP is that it can replace JPEG with higher quality for the same file weight, it can replace animated GIF for a much smaller weight and can also replace PNG with lossless quality and transparency.<br>
 <br>
-<b>PSD</b> (Photoshop) and <b>EPS</b> : Piwigo will generate a JPEG or PNG for display and keep the PSD/EPS as original file.';
+<b>PSD</b> (Photoshop) and <b>EPS</b>: Piwigo will generate a JPEG or PNG for display and keep the PSD/EPS as original file.';
 
 $lang['porg_v14_search_title'] = 'Search engine';
 $lang['porg_v14_search_text'] = 'The new search engine in the gallery is certainly the biggest evolution brought by Piwigo 14. Instead of a form page and then a result page, the new "multi-criteria" search displays search criteria and results at the same time. For now, you can filter on albums, tags, search by word, added by, author, post date and file types. New filters will come in future versions.';
