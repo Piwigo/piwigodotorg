@@ -23,7 +23,7 @@
 $lang['Home'] = 'Startseite';
 $lang['See more'] = 'Mehr';
 $lang['[piwigo.org contact form, %s] %s contacted you on %s'] = '[piwigo.org Kontaktformular %s] %s schrieb Ihnen auf %s';
-$lang['porg_get_started_desc'] = 'Bereit Ihre Fotos mit Piwigo zu verwalten? Kommen Sie in unsere Gemeinschaft!';
+$lang['porg_get_started_desc'] = 'Bereit Ihre Fotos mit Piwigo zu verwalten? Kommen Sie in unsere Community!';
 $lang['Sustainable'] = 'Nachhaltig';
 $lang['Themes & Plugins'] = 'Themen & Plugins';
 $lang['language_id_ID'] = 'Indonesisch';
@@ -173,5 +173,5 @@ $lang['Users'] = 'Benutzer';
 $lang['porg_users_association'] = 'Gemeinnützig';
 $lang['porg_users_company'] = 'Unternehmen';
 $lang['porg_users_education'] = 'Bildung & Forschung';
-$lang['porg_users_perso'] = 'Fotografen & Einzelpersonen';
+$lang['porg_users_perso'] = 'Fotografen & Privatpersonen';
 $lang['Who uses Piwigo ?'] = 'Wer nutzt Piwigo?';

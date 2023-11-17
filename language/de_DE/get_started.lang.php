@@ -20,16 +20,17 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['porg_get_started_desc1'] = 'Wie Sie Ihr selbstgehostetes Piwigo zum Beispiel auf Ihrem eigenen Host laufen lassen können.';
+$lang['porg_get_started_desc1'] = 'Wie Sie Ihr selbstgehostetes Piwigo zum Beispiel auf Ihrem eigenen Webhost laufen lassen können.';
 $lang['porg_get_started_desc2'] = 'Was müssen Sie vorbereiten, was herunterladen und wie installieren?';
 $lang['Requirements'] = 'Voraussetzungen';
 $lang['Still got some unanswered questions ?'] = 'Sind noch Fragen offen?';
 $lang['porg_get_started_requirement_desc1'] = 'Was sind die technischen Voraussetzungen um Piwigo auf Ihrem eigenen Host laufen zu lassen?';
 $lang['porg_get_started_requirement_desc2'] = 'PHP, Datenbank, Webserver, Bildverarbeitung... Hier die Details.';
-$lang['porg_get_started_download_desc'] = 'Laden Sie das Piwigo-Paket mit allen Dateien oder nur das Netinstall-Skript herunter, das das Paket direkt auf Ihrem Webhost herunterlädt.';
+$lang['porg_get_started_download_desc'] = 'Laden Sie das Piwigo-Paket mit allen Dateien herunter oder nur das Netinstall-Skript, welches das Paket direkt auf Ihrem Webhost herunterlädt.';
 $lang['porg_get_started_guide_desc'] = 'Lernen Sie wie Piwigo auf Ihrem Host installieren, vom Download über Datenbankzugangsdaten bis zur ersten Verbindung mit Ihrer Fotogallerie.';
-$lang['porg_get_started_question_desc1'] = 'Sie können Hilfe im <a href="%s">Forum</a> erhalten oder die Antworten in der <a href="%s">Dokumentation</a> finden.';
+$lang['porg_get_started_question_desc1'] = 'Sie können Hilfe und Antworten im <a href="%s">Forum</a> erhalten.';
 $lang['Discover Requirements'] = 'Entdecken Sie die Voraussetzungen';
 $lang['Get-now'] = 'Piwigo bekommen';
 $lang['Installation'] = 'Installation';
 $lang['get-started-download'] = 'Download';
+$lang['Installation guide'] = 'Installationsanleitungen';

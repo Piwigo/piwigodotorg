@@ -48,4 +48,4 @@ $lang['porg_doc_urls']['upgrade_auto'] = 'https://de.piwigo.org/doc/doku.php?id=
 $lang['porg_doc_urls']['upgrade_manual'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:aktualisierungsanleitung:manuelle';
 $lang['porg_urls']['showcases'] = 'beispiele';
 $lang['porg_urls']['mobile-applications'] = 'Mobile-Anwendungen';
-$lang['porg_urls']['users'] = 'Benutzer';
+$lang['porg_urls']['users'] = 'Wer-nutzt-Piwigo';
