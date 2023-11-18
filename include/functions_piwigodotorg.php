@@ -384,7 +384,7 @@ function porg_get_newsletters($lang_code)
   include(PORG_PATH . "data/newsletters.data.php");
 
   if (isset($newsletters[$lang_code]))
-  {
+    {
     $newsletters = $newsletters[$lang_code];
 
     foreach ($newsletters as $idx => $newsletter)
@@ -428,7 +428,7 @@ function porg_display_newsletter($newsletter_id)
 
 function porg_date_format($datetime, $is_timestamp=false)
 {
-  global $lang_info;
+  global $lang_info, $lang;
 
   $timestamp = $datetime;
   if (!$is_timestamp)
@@ -449,8 +449,7 @@ function porg_date_format($datetime, $is_timestamp=false)
 
   if ('de' == $lang_info['code'])
   {
-    setlocale(LC_TIME, "de_DE.UTF-8");
-    return strftime('%d. %B %Y', $timestamp);
+    return date('j. ', $timestamp).$lang['month'][date('n', $timestamp)].date(' Y', $timestamp);
   }
 
   return format_date($timestamp, array('day', 'month', 'year'));
