@@ -4833,6 +4833,7 @@ position: absolute;
     line-height: 28px;
     transition: all 1s;
     text-align: left;
+    font-size:16px;
   }
 
   .mobile_applications .mobile_main_section p{
