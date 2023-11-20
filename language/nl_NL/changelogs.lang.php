@@ -34,3 +34,6 @@ $lang['Activities'] = 'Activiteiten';
 $lang['Album manager'] = 'Album manager';
 $lang['Multiple-format'] = 'Meervoudig formaat';
 $lang['Visit log'] = 'Bezoek log';
+$lang['Album editor'] = 'Album bewerker';
+$lang['New file formats'] = 'Nieuwe bestandstypes';
+$lang['Search engine'] = 'Zoekmachine';
