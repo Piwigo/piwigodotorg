@@ -16,15 +16,15 @@
   <div class="container-changelogs-versions">
     <div class="row text-center">
 
-{foreach from=$releases key=version item=summary}
-  {if $summary@iteration is odd}
+{foreach from=$releases key=version item=summary name=changelog_versions}
+  {if $smarty.foreach.changelog_versions.index % 2 == 0}
   <img class="version-wave-top" src="{$PORG_ROOT_URL}images/changelogs/{cycle name="color_waves_top" values="orange_wave_top,blue_wave_top,purple_wave_top"}.svg">
   {/if}
       <div class="version {cycle name="color" values="version-orange, version-purple, version-blue"} {cycle name="background" values=" wave, no-wave "}   ">
         <div class="container">
           <div class="row">
-  {if $summary@iteration is odd}
-            <div class="left-image-changelogs col-md-6 col-xs-12">
+  {if $smarty.foreach.changelog_versions.index % 2 == 0}
+            <div class="left-image-changelogs col-lg-6 col-md-12 col-xs-12">
     {if isset($releases[$version].image_corners) && $releases[$version].image_corners == 1}
               <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
     {/if}
@@ -37,7 +37,7 @@
               <img class="corner4" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
     {/if}
             </div>
-            <div class="right-text-changelogs col-md-6 col-xs-12">
+            <div class="right-text-changelogs col-lg-6 col-md-12 col-xs-12">
               <div class="version-major">
                 <h2>Version {$version}</h2>
                 <p>{$releases[$version].released_on}</p>
@@ -63,9 +63,8 @@
     {/foreach}
               </div>
             </div>
-  {else if $summary@iteration is even}
-            
-            <div class="left-text-changelogs col-md-6 col-xs-12">
+  {elseif $smarty.foreach.changelog_versions.index % 2 != 0}
+            <div class="left-text-changelogs col-lg-6 col-md-12 col-xs-12">
               <div class="version-major">
                 <h2>Version {$version}</h2>
                 <p>{$releases[$version].released_on}</p>
@@ -91,7 +90,7 @@
     {/foreach}
               </div>
             </div>
-            <div class="right-image-changelogs col-md-6 col-xs-12">
+            <div class="right-image-changelogs col-lg-6 col-md-12 col-xs-12">
     {if isset($releases[$version].image_corners) && $releases[$version].image_corners == 1}
               <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
     {/if}
@@ -111,9 +110,10 @@
           </div>
         </div>
       </div>
-  {if $summary@iteration is odd}
-    <img class="version-wave-bottom" src="{$PORG_ROOT_URL}images/changelogs/{cycle name="color_waves_bottom" values="orange_wave_bottom,blue_wave_bottom,purple_wave_bottom"}.svg">
+  {if $smarty.foreach.changelog_versions.index % 2 == 0}
+  <img class="version-wave-bottom" src="{$PORG_ROOT_URL}images/changelogs/{cycle name="color_waves_bottom" values="orange_wave_bottom,blue_wave_bottom,purple_wave_bottom"}.svg">
   {/if}
+
 {/foreach}
 
     </div>
