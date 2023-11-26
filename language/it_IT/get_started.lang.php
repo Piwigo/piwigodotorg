@@ -33,3 +33,4 @@ $lang['Discover Requirements'] = 'Scopri i requisiti';
 $lang['Get-now'] = 'Ottieni Piwigo ora';
 $lang['Installation'] = 'Installazione';
 $lang['get-started-download'] = 'Scarica';
+$lang['Installation guide'] = 'Guida d\'installazione';
