@@ -155,7 +155,7 @@ $lang['porg_guides_install_step3_paragraph6'] = 'Wenn die Installation abgeschlo
 $lang['porg_guides_install_image_caption4'] = 'Piwigo ist installiert';
 $lang['porg_guides_install_info2'] = 'Das Piwigo Team empfiehlt FileZilla als FTP Client Software weil es genau so frei wie Piwigo ist und es ist kompatibel mit Windows und Linux.';
 $lang['Still got some unanswered questions ?'] = 'Sind noch Fragen offen?';
-$lang['porg_get_started_question_desc1'] = 'Sie können Hilfe im <a href="%s">Forum</a> erhalten oder die Antworten in der <a href="%s">Dokumentation</a> finden.';
+$lang['porg_get_started_question_desc1'] = 'Sie können Hilfe und Antworten im <a href="%s">Forum</a> erhalten.';
 $lang['porg_guides'] = 'Anleitungen';
 $lang['porg_guides_guide_steps'] = 'Anleitungsschritte';
 $lang['porg_guides_install_step2_list1'] = 'Host';
