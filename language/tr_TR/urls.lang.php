@@ -48,3 +48,4 @@ $lang['porg_urls']['manual_update'] = 'guides/update/manual (kılavuzlar/güncel
 $lang['porg_urls']['manual_installation'] = 'guides/install/manual (kılavuzlar/kurulum/kılavuz)';
 $lang['porg_urls']['guides'] = 'guides(kılavuzlar)';
 $lang['porg_urls']['automatic_update'] = 'guides/update/automatic (kılavuzlar/güncelleme/otomatik)';
+$lang['porg_urls']['users'] = 'kimler-piwigo-kullanıyor';
