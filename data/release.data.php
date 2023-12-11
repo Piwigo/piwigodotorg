@@ -1,14 +1,14 @@
 <?php
 $porg_releases = array(
   '14.0.0' => array(
-    'released_on' => '2023-11-30 12:00:00',
-    'md5sum' => '88f47123347952bbdfcd5fd12232dfd3',
+    'released_on' => '2023-12-11 21:52:00',
+    'md5sum' => '6e0f1969a982d4d71d0cab670b8f990f',
     'summary' => array('Search engine', 'Album editor', 'New file formats'),
     'subtitle' => 'New search engine, new album editor, new file types.',
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
-    'show_in_changelogs' => false,
+    'show_in_changelogs' => true,
     'languages' => array(
       'new' => array(),
       'updated' => array(),
