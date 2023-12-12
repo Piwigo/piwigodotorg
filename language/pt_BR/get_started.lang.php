@@ -26,7 +26,6 @@ $lang['porg_get_started_desc1'] = 'Como executar sua auto-hospedagem Piwigo, ou 
 $lang['porg_get_started_desc2'] = 'O que você precisa para preparar, o que baixar, como instalar.';
 $lang['porg_get_started_download_desc'] = 'Baixe o pacote Piwigo, incluindo todos os arquivos, ou apenas o script NetInstall, que irá baixar o pacote diretamente para o seu servidor.';
 $lang['porg_get_started_guide_desc'] = 'Saiba como instalar o Piwigo em seu servidor, desde credenciais no banco de dados, o que baixar, até a primeira conexão em sua biblioteca de fotos.';
-$lang['porg_get_started_question_desc1'] = 'Você pode obter alguma ajuda no <a href="%s">fórum</a> ou encontrar suas próprias respostas na <a href="%s">documentação</a>';
 $lang['porg_get_started_requirement_desc1'] = 'Quais são os pré-requisitos técnicos para executar Piwigo em seu próprio servidor?';
 $lang['porg_get_started_requirement_desc2'] = 'PHP, banco de dados, servidor web, processamento de imagem ... Encontre todos os detalhes.';
 $lang['Discover Requirements'] = '
@@ -35,3 +34,4 @@ $lang['Get-now'] = '
 Obtenha o Piwigo agora';
 $lang['Installation'] = 'Instalação';
 $lang['get-started-download'] = 'Baixar';
+$lang['Installation guide'] = 'Guia de instalação';
