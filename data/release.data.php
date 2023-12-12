@@ -13,7 +13,7 @@ $porg_releases = array(
       'new' => array(),
       'updated' => array(),
     ),
-    'changelogs_image'=>'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2023/10/16/20231016172415-cd74febf-la.png'
+    'changelogs_image'=>'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2023/10/17/20231017101035-7fe4bcb7-la.png'
   ),
 
   '13.8.0' => array(
