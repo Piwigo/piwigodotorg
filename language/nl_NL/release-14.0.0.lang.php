@@ -39,3 +39,22 @@ $lang['The menu'] = 'Het menu';
 $lang['porg_v13_api_s1'] = 'foto\'s linken/losmaken/verplaatsen';
 $lang['Technical features'] = 'Technische eigenschappen';
 $lang['New search engine, new album editor, new file types.'] = 'Nieuwe zoekmachine, nieuwe album bewerker, nieuwe bestandstypes.';
+$lang['porg_v14_search_image2_label'] = 'Wanneer u op het woord "panda" zoekt, kan Piwigo overeenkomsten tussen tags of albums vinden. Piwigo toont de lijst en laat je direct de tag of het album openen, buiten de zoekopdracht om.';
+$lang['porg_v14_search_image1_label'] = 'Deze nieuwe filterbalk voor zoeken vervangt zowel de oude "snelzoeken" in het menu als de "geavanceerd zoeken"-pagina.';
+$lang['porg_v14_search_image3_label'] = '<b>Zoeken in deze set</b>: wanneer u door een album of een tag of een combinatie van tags bladert, biedt Piwigo een knop en een pictogram "zoeken in deze set". Wanneer u erop klikt, maakt u een nieuwe zoekopdracht aan, vooraf gefilterd op het album (of de lijst met tags) en bent u vrij om filters toe te voegen. Als je bijvoorbeeld foto\'s wilt vinden die in het jaar 2018 zijn toegevoegd aan het album "dieren/vossen", wordt dat heel eenvoudig.';
+$lang['porg_v14_search_text'] = 'De nieuwe zoekmachine in de galerij is zeker de grootste evolutie die Piwigo 14 heeft gebracht. In plaats van een formulierpagina en vervolgens een resultatenpagina, geeft de nieuwe "multi-criteria" -zoekopdracht tegelijkertijd zoekcriteria en resultaten weer. Voorlopig kun je filteren op albums, tags, zoeken op woord, toegevoegd op, auteur, berichtdatum en bestandstypen. Nieuwe filters zullen in toekomstige versies verschijnen.';
+$lang['porg_v14_storagetooltips_image1_label'] = 'Mooi uitziende details op de opbergbalk op het dashboard. Voor elke "categorie" bestanden vertelt Piwigo u hoeveel bestanden voor elke bestandsextensie en de bestandsgrootte die ze in beslag nemen op uw opslagcapaciteit.';
+$lang['porg_v14_notificationgroup_image1_label'] = 'Als u veel beheerders heeft, maar niet wilt dat ze allemaal op de hoogte worden gesteld wanneer een nieuwe gebruiker zich abonneert, kunt u filteren op een groep gebruikers.';
+$lang['porg_v14_newfiles_text'] = '<b>HEIC</b>: dit is momenteel het standaardbestandstype dat wordt gebruikt voor foto\'s op iOS- en Android-telefoons. Piwigo genereert een JPEG-bestand voor weergave en behoudt de HEIC als origineel bestand.<br> 
+<br> 
+<b>WebP</b>: het meest "ondersteunde door webbrowsers" bestandstype als JPEG-vervanging. Piwigo genereert WebP-bestanden voor weergave in meerdere formaten. Dit is een groot verschil met andere bestandstypen die alleen "als invoer" worden ondersteund. WebP wordt zowel voor import als voor weergave ondersteund. Wat interessant is aan WebP is dat het JPEG kan vervangen door een hogere kwaliteit voor hetzelfde bestandsgewicht, dat het geanimeerde GIF kan vervangen voor een veel kleiner gewicht en ook PNG kan vervangen met verliesloze kwaliteit en transparantie.<br> <br> 
+<b> 
+PSD </b> (Photoshop) en <b>EPS</b>: Piwigo genereert een JPEG of PNG voor weergave en behoudt de PSD/EPS als origineel bestand.';
+$lang['porg_v14_mimetypes_title'] = 'Mimetypes iconen';
+$lang['porg_v14_mimetypes_image1_label'] = 'De mimetype-iconen, die door Piwigo worden weergegeven als er geen poster beschikbaar is, krijgen een vernieuwing.';
+$lang['porg_v14_intro3'] = 'Piwigo 14 wordt ook geleverd met de langverwachte ondersteuning voor nieuwe afbeeldingsbestandstypen zoals HEIC, compatibiliteit met PHP 8.2, een nieuwe albumeditor en snelheidsverbeteringen.';
+$lang['porg_v14_intro2'] = 'De zoekmachine in de galerij krijgt een diepgaand herontwerp. Uit onze onderzoeken is gebleken dat Piwigo goed was in het vinden van foto\'s tussen duizenden. Laten we Piwigo perfect worden in deze taak! Daarom hebben we de gebruikerservaring helemaal opnieuw ontworpen.';
+$lang['porg_v14_intro1'] = 'Zoeken en verder';
+$lang['porg_v14_duplicates_text'] = 'Tijdens het uploaden zal Piwigo detecteren of hetzelfde bestand al eerder is geüpload. Als er een bestand wordt gevonden, gebruikt Piwigo eenvoudigweg de bestaande foto en koppelt deze aan het uploadalbum, zonder het bestand te dupliceren.<br> 
+<br> 
+Deze optie wordt standaard geactiveerd voor alle nieuwe installaties, maar wordt gedeactiveerd voor bijgewerkte installaties, om te voorkomen dat het uploadgedrag verandert. Uiteraard kunt u deze instelling wijzigen op pagina [Beheer > Configuratie > Opties].';
