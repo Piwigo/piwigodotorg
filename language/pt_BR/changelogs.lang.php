@@ -34,3 +34,6 @@ $lang['Activities'] = 'Atividades';
 $lang['Album manager'] = 'Gerenciador de álbuns';
 $lang['Multiple-format'] = 'Múltiplo Formato';
 $lang['Visit log'] = 'Registro de visitas';
+$lang['Album editor'] = 'Editor de álbum';
+$lang['New file formats'] = 'Novos formatos de arquivo';
+$lang['Search engine'] = 'Mecanismo de busca';
