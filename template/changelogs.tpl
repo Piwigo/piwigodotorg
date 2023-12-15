@@ -53,14 +53,16 @@
                 </a>
               </div>  
               <div class="minor-versions-container">
-    {foreach from=$releases[$version].minorVersions key=minorVersions item=minorVersions}
+    {if isset($releases[$version].minorVersions)}
+      {foreach from=$releases[$version].minorVersions key=minorVersions item=minorVersions}
                 <a href="{$PORG_ROOT}{$URL.release}-{$minorVersions}">
                   <div class="version-minor">
                     <h2>{$minorVersions}</h2>
                     <p>{$releases[$version].minorVersions[$minorVersions]['released_on']}</p>
                   </div>
                 </a>
-    {/foreach}
+      {/foreach}
+    {/if}
               </div>
             </div>
   {elseif $smarty.foreach.changelog_versions.index % 2 != 0}

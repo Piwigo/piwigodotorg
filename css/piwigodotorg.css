@@ -6966,7 +6966,6 @@ label {
   text-align:center;
 }
 
-
 #releaseNotesMain .back_overview {
     margin-bottom:30px;
     font-size:90%;
@@ -6984,11 +6983,11 @@ label {
 }
 
 #releaseNotesMain p.screenshot-caption {
-    font-family: 'Coming Soon', cursive;
-    text-align:center;
-    font-style: italic;
-    font-weight: 600;
-    color: #666;
+  font-family: 'Coming Soon', cursive;
+  text-align:center;
+  font-style: italic;
+  font-weight: 600;
+  color: #666;
 
 }
 
@@ -7193,8 +7192,8 @@ section.release-notes-overview li a {
 }
 
 #releaseNotesMain p {
-    margin: 30px 0;
-    text-align: justify;
+  margin: 30px 0;
+  text-align: justify;
 }
 
 
@@ -7304,15 +7303,19 @@ section.release-notes-overview li a {
     font-size:13px;
   }
   .first-image-and-caption, .second-image-and-caption{
-    margin:40px 0 10px 0;
+    margin:40px 0;
+    padding:20px 0;
   }
   .first-image-and-caption div:last-child{
    position: relative;
    margin:30px 0;
-   padding-top:80px;
+   top:0;
+   transform:unset;
+   padding-top:0px;
   }
   .second-image-and-caption div:first-child{
     position:relative;
+    transform:unset;
   }
   #releaseNotesMain p.screenshot-caption{
     margin:8px;
@@ -7344,7 +7347,7 @@ section.release-notes-overview li a {
   }
 
   #releaseNotesMain p{
-    margin:15px 0;
+    margin:15px auto;
   }
 
   .section-part{
@@ -7397,7 +7400,8 @@ section.release-notes-overview li a {
     padding-left:15px;
     padding-right:15px;
   }
-  #releaseNotesMain.major-release p, #releaseNotesMain .technical-features p#technical-first-paragraph{
+  #releaseNotesMain.major-release p, 
+  #releaseNotesMain .technical-features p#technical-first-paragraph{
     padding-left:30px;
     padding-right:30px;
   }
@@ -7409,16 +7413,41 @@ section.release-notes-overview li a {
     font-size:30px;
     margin-top:30px;
   }
-
+  #releaseNotesMain img.screenshot{
+    margin-top:30px;
+  }
 }
+
 @media (max-width:680px) {
   .technical-features pre {
     font-size:6px;
   }
 }
-@media (max-width:320px) {
+
+@media (max-width:576px) {
   .technical-features pre {
     font-size:5px;
+  }
+  .underline-img{
+    max-width:100%;
+  }
+  #releaseNotesMain.major-release h3 span.badge{
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+  }
+  #releaseNotesMain.major-release h3 span[class*=" icon-"]::before{
+    font-size:15px;
+  }
+  .first-image-and-caption, .second-image-and-caption{
+    margin:0 20px;
+  }
+  .second-image-and-caption{
+    margin-bottom:30px;
+  }
+  .section-framed-container{
+    margin-top:20px;
   }
 }
 
@@ -7477,6 +7506,12 @@ section.release-notes-overview li a {
         padding-right: 20px;
     }
  }
+
+@media (max-width:320px) {
+  .container-download-release .row > a.btn{
+    font-size:15px;
+  }
+}
 
 .container-download-release .row > p > i.icon-info-circled {
     color: #FF7700;
@@ -7964,6 +7999,12 @@ section.release-notes-overview li a {
 
 .release-14_0_0 h4#apibrowser {
     margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .release-14_0_0 #releaseNotesMain.major-release #intro-title{
+    padding:0
+  }
 }
 
  /* any release */
