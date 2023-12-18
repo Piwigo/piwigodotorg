@@ -7,7 +7,7 @@ $lang['New search engine, new album editor, new file types.'] = 'Nouveau moteur 
 $lang['The menu'] = 'Au menu';
 $lang['Interview %s'] = 'Entretien avec %s';
 $lang['porg_v14_intro1'] = 'La recherche et au-delà';
-$lang['porg_v14_intro2'] = 'Le moteur de recherche reçoit une refonte complète de son interface. Nos enquêtes ont montré que Piwigo était bon pour trouver des photos parmi des milliers. Passons de «&nbsp;bon&nbsp;» à «&nbsp;parfait&nbsp;» ! C\'est l\'objectif de cette réécriture en profondeur.';
+$lang['porg_v14_intro2'] = 'L\'interface du moteur de recherche a été complètement reconçue. Nos enquêtes montraient déjà que Piwigo était un bon outil pour retrouver facilement une photo : passons de « bon » à « parfait » ! C\'est l\'objectif de cette réécriture en profondeur.';
 $lang['porg_v14_intro3'] = 'Piwigo 14 apporte également le très attendu support de nouveaux types de fichiers comme les HEIC, la compatibilité avec PHP 8.2, un nouvel éditeur d\'album et des améliorations de performances.';
 
 
@@ -31,7 +31,7 @@ $lang['porg_v14_albumeditor_image1_label'] = 'Nouvel éditeur d\'album : meilleu
 $lang['porg_v14_alice_text1'] = 'Je m’appelle Alice et suis UX/UI designer chez Piwigo depuis juin 2022. Derrière ce curieux acronyme se cache un travail passionnant : créer des interfaces ergonomiques, intuitives et agréables à utiliser pour toute l’application. Mon objectif principal est que vous preniez plaisir à vous servir de Piwigo au quotidien !';
 $lang['porg_v14_alice_text2'] = 'Il m’arrive aussi de porter ma casquette de graphiste pour créer des visuels en tous genres pour étayer les différents sites et actions de communications de Piwigo. Comme par exemple la bannière de la version 14 !';
 
-$lang['porg_v14_notificationgroup_title'] = 'Groupe de notification';
+$lang['porg_v14_notificationgroup_title'] = 'Notifications de groupes';
 $lang['porg_v14_notificationgroup_image1_label'] = 'Si vous avez de nombreux administrateurs mais que vous ne souhaitez pas qu\'ils soient tous notifiés lorsqu\'un utilisateur s\'enregistre, vous pouvez choisir un groupe spécifique.';
 
 $lang['porg_v14_mimetypes_title'] = 'Icônes mimetypes';
