@@ -31,7 +31,7 @@ $lang['porg_v14_albumeditor_image1_label'] = 'New album editor: better use of sp
 $lang['porg_v14_alice_text1'] = 'My name is Alice and I\'m UX/UI designer at Piwigo since June 2022. Behind this curious acronym lies a fascinating job: creating ergonomic, intuitive and user-friendly interfaces for the entire application. My main goal is for you to enjoy using Piwigo every day!'; 
 $lang['porg_v14_alice_text2'] = 'I also sometimes wear my graphic designer hat to create visuals of all kinds to illustrate Piwigo\'s various websites and communications initiatives. Like the banner for version 14, for example!';
 
-$lang['porg_v14_notificationgroup_title'] = 'Notification group';
+$lang['porg_v14_notificationgroup_title'] = 'Groups Notifications';
 $lang['porg_v14_notificationgroup_image1_label'] = 'If you have many administrators but you don\'t want them all to be notified when a new user subscribes, you can filter with a group of users.';
 
 $lang['porg_v14_mimetypes_title'] = 'Mimetypes icons';
