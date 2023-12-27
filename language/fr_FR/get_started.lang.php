@@ -11,6 +11,6 @@ $lang['porg_get_started_download_desc'] = 'Télécharger le paquet Piwigo inclua
 $lang['Get-now'] = 'Obtenir Piwigo';
 $lang['porg_get_started_guide_desc'] = 'Apprenez à installer Piwigo : du téléchargement à la première connexion sur votre photothèque en passant par le paramètrage de la base de données.';
 $lang['Still got some unanswered questions ?'] = 'Encore des questions en suspens ?';
-$lang['porg_get_started_question_desc1'] = 'Vous pouvez obtenir de l\'aide sur le <a href="%s">forum</a> ou trouver vos propres réponses dans la <a href="%s">documentation</a>';
 
 $lang['Installation'] = 'Installation';
+$lang['Installation guide'] = 'Guide d\'installation';
