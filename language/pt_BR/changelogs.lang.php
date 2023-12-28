@@ -21,19 +21,19 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['porg_changelogs_desc1'] = 'Aqui está a lista de todos os lançamentos estáveis do Piwigo.';
-$lang['porg_changelogs_desc2'] = 'Use nossa versão mais recente: você encontrará melhor suporte e conterá todos os erros de segurança conhecidos corrigidos.';
-$lang['porg_changelogs_technicals_desc1'] = 'Se você precisar de uma visão técnica dos lançamentos, vá para a página <a href="%s">Sucursais e lançamentos</a>.';
+$lang['porg_changelogs_desc2'] = 'Use nossa versão mais recente: você encontrará melhor suporte e todos os erros de segurança conhecidos estarão corrigidos.';
+$lang['porg_changelogs_technicals_desc1'] = 'Se você precisar de uma visão técnica dos lançamentos, vá para a página <a href="%s">Ramificações e lançamentos</a>.';
 $lang['Admin redesign'] = 'Redesenho do administrador';
 $lang['Dark mode'] = 'Modo escuro';
 $lang['Default theme Modus'] = 'Tema padrão Modus';
-$lang['Read more'] = 'Consulte Mais informação';
-$lang['User manager'] = 'Gerente de usuário';
+$lang['Read more'] = 'Saiba mais';
+$lang['User manager'] = 'Gerenciamento de usuário';
 $lang['See all the details'] = 'Veja detalhes';
 $lang['Plugin manager'] = 'Gerenciador de plugins';
 $lang['Activities'] = 'Atividades';
 $lang['Album manager'] = 'Gerenciador de álbuns';
-$lang['Multiple-format'] = 'Múltiplo Formato';
+$lang['Multiple-format'] = 'Múltiplos Formatos';
 $lang['Visit log'] = 'Registro de visitas';
 $lang['Album editor'] = 'Editor de álbum';
 $lang['New file formats'] = 'Novos formatos de arquivo';
-$lang['Search engine'] = 'Mecanismo de busca';
+$lang['Search engine'] = 'Mecanismo de pesquisa';
