@@ -1,5 +1,28 @@
 <?php
 $porg_releases = array(
+  '14.1.0' => array(
+    'released_on' => '2023-12-29 12:00:00',
+    'md5sum' => 'd48cc75b9c57b182fd9cb2b01bcc40ee',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 2080, 'section' => 'Albums'),
+      array('id' => 2077, 'section' => 'Albums'),
+      array('id' => 2076, 'section' => 'Photos'),
+      array('id' => 2075, 'section' => 'Photos'),
+      array('id' => 2074, 'section' => 'Technical'),
+      array('id' => 2073, 'section' => 'Photos'),
+      array('id' => 2072, 'section' => 'Albums'),
+      array('id' => 2070, 'section' => 'Photos'),
+      array('id' => 2066, 'section' => 'Technical'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('en_UK','fr_FR','pt_BR'),
+    ),
+  ),
+
   '14.0.0' => array(
     'released_on' => '2023-12-11 21:52:00',
     'md5sum' => '6e0f1969a982d4d71d0cab670b8f990f',
