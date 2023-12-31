@@ -22,7 +22,6 @@
 // +-----------------------------------------------------------------------+
 $lang['porg_get_started_download_desc'] = 'Download Piwigo-pakket inclusief alle bestanden, of alleen het NetInstall-script, dat het pakket rechtstreeks op uw hosting zal downloaden.';
 $lang['porg_get_started_guide_desc'] = 'Leer hoe u Piwigo op uw hosting kunt installeren, van download- en database-inloggegevens tot de eerste verbinding met uw fotobibliotheek.';
-$lang['porg_get_started_question_desc1'] = 'U kunt hulp krijgen op het <a href="%s">forum</a> of uw eigen antwoorden vinden in de <a href="%s">documentatie</a>';
 $lang['porg_get_started_requirement_desc1'] = 'Wat zijn de technische vereisten om Piwigo op uw eigen hosting te laten draaien?';
 $lang['porg_get_started_requirement_desc2'] = 'PHP, database, webserver, beeldverwerking ... Vind alle details.';
 $lang['Requirements'] = 'Vereisten';
@@ -33,3 +32,4 @@ $lang['Discover Requirements'] = 'Ontdek de vereisten';
 $lang['Get-now'] = 'Krijg Piwigo nu';
 $lang['Installation'] = 'Installatie';
 $lang['get-started-download'] = 'Doownload';
+$lang['Installation guide'] = 'Installatiegids';
