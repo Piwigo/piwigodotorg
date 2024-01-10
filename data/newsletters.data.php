@@ -294,6 +294,11 @@
             ),
         ),
         'en' => array(
+            '2024-01-10' => array (
+                'title' => 'Piwigo 14, new search engine, discover Piwigo users',
+                'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2023/10/17/20231017101035-7fe4bcb7-la.png',
+                'summary' => 'Piwigo 14 is live and we are waiting for your feedback on the new search engine. See also our new page "who uses Piwigo?" on piwigo.org.',
+            ),
             '2023-09-20' => array (
                 'title' => 'Piwigo 14 in beta-test',
                 'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2023/08/03/20230803151719-ed30f121-la.png',
