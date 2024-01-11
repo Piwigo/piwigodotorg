@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2024-01-11' => array (
+                'title' => 'Piwigo 14, nouveau moteur de recherche et découvrir nos utilisateurs',
+                'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2023/10/17/20231017101035-7fe4bcb7-la.png',
+                'summary' => 'Piwigo 14 est disponible et nous attendons vos retours utilisateur sur le nouveau moteur de recherche. Découvrez aussi notre nouvelle page "qui utilise Piwigo ?"',
+            ),
             '2023-08-03' => array (
                 'title' => 'Piwigo 14 en beta-test et nouvelle documentation',
                 'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2023/07/24/20230724191554-96331a5a-la.png',
