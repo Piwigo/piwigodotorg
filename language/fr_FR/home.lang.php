@@ -32,6 +32,6 @@ $lang['Latest activity'] = 'Dernière activité';
 $lang['Download or'] = 'téléchargement ou';
 $lang['Cloud hosting'] = 'hébergement cloud';
 $lang['Read more testimonials'] = 'Voir d\'autres témoignages';
-$lang['Discover our fabulous users'] = 'Découvrez nos fabuleux utilisateur';
+$lang['Discover our fabulous users'] = 'Découvrez nos fabuleux utilisateurs';
 
 ?>
