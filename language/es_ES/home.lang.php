@@ -44,3 +44,5 @@ $lang['Cloud hosting'] = 'alojamiento en la nube';
 $lang['Download or'] = 'descargar o';
 $lang['Latest activity'] = 'Actividad más reciente';
 $lang['page_meta_description'] = '¡Gestiona tu biblioteca fotográfica con Piwigo! Software libre y de código abierto para organizar y compartir tus fotos y medios digitales en la web.';
+$lang['Discover our fabulous users'] = 'Descubra a nuestros fabulosos usuarios';
+$lang['Read more testimonials'] = 'Lea más testimonios';
