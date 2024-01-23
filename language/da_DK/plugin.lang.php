@@ -164,3 +164,11 @@ $lang['porg_get_started_question_desc1'] = 'Du kan få hjælp i vores <a href="%
 $lang['Coding Activity'] = 'Kodeaktivitet';
 $lang['Mobile applications'] = 'Mobil-applikationer';
 $lang['language_ga_IE'] = 'Gælisk';
+$lang['Users'] = 'Brugere';
+$lang['porg_users_association'] = 'Velgørende organisationer';
+$lang['porg_users_company'] = 'Virksomheder';
+$lang['porg_users_education'] = 'Uddannelse og forskning';
+$lang['porg_users_perso'] = 'Fotografer og privatpersoner';
+$lang['porg_users_public'] = 'Offentlig sektor';
+$lang['porg_users_tourism'] = 'Turisme og kultur';
+$lang['Who uses Piwigo ?'] = 'Hvem anvender Piwigo?';
