@@ -57,6 +57,7 @@ $porg_languages = array(
   'he_IL' => 'עברית',
   'hr_HR' => 'Hrvatski',
   'hu_HU' => 'Magyar',
+  'hy_AM' => 'Հայերեն (Hayerēn)',
   'ja_JP' => '日本語',
   'id_ID' => 'Bahasa Indonesia',
   'is_IS' => 'Íslenska',
