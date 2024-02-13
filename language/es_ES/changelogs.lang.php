@@ -34,3 +34,6 @@ $lang['Plugin manager'] = 'Gestor de plugins';
 $lang['Visit log'] = 'Ver log';
 $lang['Multiple-format'] = 'Formato multiple';
 $lang['Album manager'] = 'Gestor de álbumes';
+$lang['Album editor'] = 'Editor de álbumes';
+$lang['New file formats'] = 'Nuevos formatos de archivo';
+$lang['Search engine'] = 'Motor de búsqueda';
