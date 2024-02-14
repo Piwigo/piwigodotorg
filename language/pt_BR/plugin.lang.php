@@ -172,3 +172,4 @@ $lang['porg_users_education'] = 'Educação e pesquisa';
 $lang['porg_users_perso'] = 'Fotógrafos e indivíduos';
 $lang['porg_users_public'] = 'Setor público';
 $lang['porg_users_tourism'] = 'Turismo e cultura';
+$lang['language_hy_AM'] = 'Armênio';
