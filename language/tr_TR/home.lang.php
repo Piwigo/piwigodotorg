@@ -45,3 +45,4 @@ $lang['Download or'] = 'indir veya';
 $lang['Latest activity'] = 'Son etkinlik';
 $lang['page_meta_description'] = 'Piwigo ile fotoğraf kitaplığınızı yönetin! Fotoğraflarınızı ve dijital medyanızı web\'de düzenlemek ve paylaşmak için ücretsiz ve açık kaynaklı yazılım.';
 $lang['Read more testimonials'] = 'Daha fazla görüş okuyun';
+$lang['Discover our fabulous users'] = 'Muhteşem kullanıcılarımızı keşfedin';
