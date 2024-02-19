@@ -26,10 +26,10 @@ $lang['porg_get_started_desc1'] = 'Cómo correr tu propio Piwigo, por ejemplo en
 $lang['porg_get_started_desc2'] = 'Qué necesitas preparar, qué descargar, cómo instalarlo';
 $lang['porg_get_started_download_desc'] = 'Descarga el paquete de Piwigo incluyendo todos los archivos, o solo el script de instalación en red, el cual descarga automáticamente el paquete en tu servidor.';
 $lang['porg_get_started_guide_desc'] = 'Aprende como instalar Piwigo en tu hosting, desde la descarga y las credenciales de la base de datos para tu primera conexión en tu librería de fotos.';
-$lang['porg_get_started_question_desc1'] = 'Puedes obtener un poco de ayuda en el <a href="%s">foro</a> o encuentra tu mismo las respuestas en <a href="%s">la documentación</a>';
 $lang['porg_get_started_requirement_desc1'] = '¿Cuáles son los prerequisitos para correr Piwigo en tu propio servidor?';
 $lang['porg_get_started_requirement_desc2'] = 'PHP, base de datos, servidor web, procesamiento de imágenes... encuentra todos los detalles.';
 $lang['Discover Requirements'] = 'Descubra los requisitos';
 $lang['Get-now'] = 'Consiga Piwigo ahora mismo';
 $lang['Installation'] = 'Instalación';
 $lang['get-started-download'] = 'Descarga';
+$lang['Installation guide'] = 'Guía de instalación';
