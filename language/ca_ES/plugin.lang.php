@@ -157,3 +157,4 @@ $lang['porg_get_started_question_desc1'] = 'Podeu obtenir ajuda en el <a href="%
 $lang['porg_guides'] = 'Guies';
 $lang['porg_guides_automatic_update'] = 'Actualització automàtica';
 $lang['porg_guides_guide_steps'] = 'Passos de guia';
+$lang['language_hy_AM'] = 'Armeni';
