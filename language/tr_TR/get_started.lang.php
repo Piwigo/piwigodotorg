@@ -23,7 +23,6 @@
 $lang['porg_get_started_requirement_desc1'] = 'Piwigo\'yu kendi web sunucunuzda kurmanız için teknik gereksinimler nelerdir?';
 $lang['Requirements'] = 'Gereksinimler';
 $lang['Still got some unanswered questions ?'] = 'Hala cevaplanmayan sorularınız mı var?';
-$lang['porg_get_started_question_desc1'] = '<a href="%s">forum</a> üzerinden yardım alabilir veya <a href="%s">documentation</a> kısmında cevapları bulabilirsiniz.';
 $lang['porg_get_started_guide_desc'] = 'Piwigo\'yu, barındırma, indirme ve veritabanı kimlik bilgilerinden fotoğraf kitaplığınızdaki ilk bağlantıya kadar nasıl yükleyeceğinizi öğrenin.';
 $lang['porg_get_started_download_desc'] = 'Tüm dosyaları içeren Piwigo paketini ya da tüm paketi direkt olarak barındırma alanına indirecek olan NetInstall dizisini indirin.';
 $lang['porg_get_started_desc1'] = 'Kendi barındırma hizmetiniz üzerinde Piwigo çalıştırma, nasıl?';
@@ -33,3 +32,4 @@ $lang['Discover Requirements'] = 'Gereksinimleri keşfedin';
 $lang['Get-now'] = 'Piwigo\'yu şimdi edinin';
 $lang['Installation'] = 'Kurulum';
 $lang['get-started-download'] = 'İndir';
+$lang['Installation guide'] = 'Kurulum kılavuzu';
