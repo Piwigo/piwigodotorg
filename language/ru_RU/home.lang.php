@@ -44,3 +44,5 @@ $lang['page_meta_description'] = 'Управляйте своей библиот
 $lang['Latest activity'] = 'Последняя активность';
 $lang['Download or'] = 'скачать или';
 $lang['Cloud hosting'] = 'облачный хостинг';
+$lang['Discover our fabulous users'] = 'Откройте для себя наших потрясающих пользователей';
+$lang['Read more testimonials'] = 'Прочитать больше отзывов';
