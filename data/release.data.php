@@ -1,5 +1,38 @@
 <?php
 $porg_releases = array(
+
+  '14.3.0' => array(
+    'released_on' => '2024-03-01 17:28:00',
+    'md5sum' => 'c499e40ef2991026421aef4f90e0bc52',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 2122, 'section' => 'Photos'),
+      array('id' => 2120, 'section' => 'Albums'),
+      array('id' => 2119, 'section' => 'Albums'),
+      array('id' => 2118, 'section' => 'Technical'),
+      array('id' => 2117, 'section' => 'Tools'),
+      array('id' => 2112, 'section' => 'Photos'),
+      array('id' => 2106, 'section' => 'Tools'),
+      array('id' => 2105, 'section' => 'Albums'),
+      array('id' => 2104, 'section' => 'Albums'),
+      array('id' => 2103, 'section' => 'Albums'),
+      array('id' => 2102, 'section' => 'Photos'),
+      array('id' => 2100, 'section' => 'web API'),
+      array('id' => 2079, 'section' => 'Photos'),
+      array('id' => 2005, 'section' => 'web API'),
+      array('id' => 1612, 'section' => 'UX'),
+      array('id' => 'GHSA-7379-w44f-mfw4', 'section' => 'Security'),
+      array('id' => 'GHSA-8g2g-6f2c-6h7j', 'section' => 'Security'),
+      array('id' => 'GHSA-p362-cfpj-q55f', 'section' => 'Security'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('br_FR','et_EE','hy_AM','pl_PL','pt_BR','ru_RU'),
+    ),
+  ),
+
   '14.2.0' => array(
     'released_on' => '2024-01-30 12:00:00',
     'md5sum' => '49099037d6c922769bdb7fed75dd8cfd',
