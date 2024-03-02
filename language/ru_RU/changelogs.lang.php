@@ -34,3 +34,6 @@ $lang['Plugin manager'] = 'Менеджер плагинов';
 $lang['See all the details'] = 'Смотреть подробности';
 $lang['User manager'] = 'Менеджер пользователй';
 $lang['Visit log'] = 'Лог посещений';
+$lang['Album editor'] = 'Редактор альбома';
+$lang['New file formats'] = 'Новые форматы файлов';
+$lang['Search engine'] = 'Поисковый движок';
