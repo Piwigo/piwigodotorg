@@ -17,3 +17,4 @@ $lang['porg_issue_1907'] = '[da_DK] piwigo.org\'den haber gelmez';
 $lang['porg_issue_1910'] = 'piwigo\'nun \"permalinks\" fonksiyonunda SQL enjeksiyonu imkanı bulunmaktadır';
 $lang['porg_issue_1911'] = 'piwigo\'nun \"profile\" fonksiyonunda SQL enjeksiyonu imkanı bulunmaktadır';
 $lang['porg_issue_1914'] = '[13.7.0] Albüm sıralamasında hata veriyor';
+$lang['porg_issue_1903'] = '[Kullanıcı yöneticisi] Kullanıcıyı silmek için açılır pencerede çevrilmemiş metin bulunuyor';
