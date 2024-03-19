@@ -168,3 +168,4 @@ $lang['porg_users_tourism'] = 'Tourisme & Culture';
 $lang['porg_users_association'] = 'Associations';
 $lang['porg_users_perso'] = 'Photographes & particuliers';
 $lang['porg_users_public'] = 'Secteur Public';
+$lang['language_hy_AM'] = 'Arménien';
