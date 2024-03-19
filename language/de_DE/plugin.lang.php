@@ -176,3 +176,4 @@ $lang['porg_users_education'] = 'Bildung & Forschung';
 $lang['porg_users_perso'] = 'Fotografen & Privatpersonen';
 $lang['Who uses Piwigo ?'] = 'Wer nutzt Piwigo?';
 $lang['language_hy_AM'] = 'Armenien';
+$lang['See pricing'] = 'Siehe Preise';
