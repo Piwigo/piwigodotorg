@@ -115,6 +115,7 @@ $lang['Get started with Piwigo'] = 'Démarrez avec Piwigo';
 $lang['porg_get_started_desc'] = 'Prêt à gérer vos photos grâce à Piwigo ? Rejoignez notre communauté !';
 $lang['[piwigo.org contact form, %s] %s contacted you on %s'] = '[piwigo.org formulaire de contact, %s] %s a pris contact le %s';
 $lang['yesterday'] = 'hier';
+$lang['See pricing'] = 'Voir les tarifs';
 $lang['language_id_ID'] = 'Bahasa Indonésie';
 $lang['language_ka_GE'] = 'Géorgien';
 

@@ -43,7 +43,7 @@
           <h2>{'Cloud-hosted Piwigo'|translate}</h2>
           <p class="">{'porg_get_piwigo_cloud_hosted_desc1'|translate} {'porg_get_piwigo_cloud_hosted_desc2'|translate} {'porg_get_piwigo_cloud_hosted_desc3'|translate}</p>
           <div class="btn-cloud-hosted-piwigo">
-            <a class="btn" href="{$PCOM_URL.pricing}" target="_blank"><span class="bold">{'Start free trial'|translate}</span></a>
+            <a class="btn" href="{$PCOM_URL.pricing}" target="_blank"><span class="bold">{'See pricing'|translate}</span></a>
           </div>
             <img id="cloud-hosted-illustration" src="{$PORG_ROOT_URL}images/get_piwigo/cloud-hosted-illlustration.svg">
           <div class="row">
