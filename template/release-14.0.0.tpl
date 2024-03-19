@@ -24,7 +24,7 @@
   </div>
 </section>
 
-<section class="container">
+<section class="container-fluid">
   <div class="row text-center">
     <img class="piwigo14-img " src="https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2023/10/16/20231016172415-cd74febf.png">
   </div>
