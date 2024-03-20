@@ -175,3 +175,4 @@ $lang['porg_users_perso'] = 'Fotografen & individuen';
 $lang['porg_users_public'] = 'Publieke sector';
 $lang['porg_users_tourism'] = 'Toerisme & Cultuur';
 $lang['language_hy_AM'] = 'Armeens';
+$lang['See pricing'] = 'Prijzen';
