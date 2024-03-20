@@ -173,3 +173,4 @@ $lang['porg_users_education'] = 'Edukacja i badania';
 $lang['porg_users_perso'] = 'Fotografowie i osoby prywatne';
 $lang['porg_users_public'] = 'Sektor publiczny';
 $lang['porg_users_tourism'] = 'Turystyka i kultura';
+$lang['See pricing'] = 'Zobacz cennik';
