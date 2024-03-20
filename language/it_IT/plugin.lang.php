@@ -173,3 +173,4 @@ $lang['porg_users_perso'] = 'Fotografi e privati';
 $lang['porg_users_public'] = 'Settore pubblico';
 $lang['porg_users_tourism'] = 'Turismo e Cultura';
 $lang['language_hy_AM'] = 'Armeno';
+$lang['See pricing'] = 'Vedi listino prezzi.';
