@@ -173,3 +173,4 @@ $lang['porg_users_public'] = 'Offentlig sektor';
 $lang['porg_users_tourism'] = 'Turisme og kultur';
 $lang['Who uses Piwigo ?'] = 'Hvem anvender Piwigo?';
 $lang['language_hy_AM'] = 'Armensk';
+$lang['See pricing'] = 'Se priser';
