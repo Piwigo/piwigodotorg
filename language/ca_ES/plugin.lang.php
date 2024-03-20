@@ -158,3 +158,4 @@ $lang['porg_guides'] = 'Guies';
 $lang['porg_guides_automatic_update'] = 'Actualització automàtica';
 $lang['porg_guides_guide_steps'] = 'Passos de guia';
 $lang['language_hy_AM'] = 'Armeni';
+$lang['See pricing'] = 'Vegeu els preus';
