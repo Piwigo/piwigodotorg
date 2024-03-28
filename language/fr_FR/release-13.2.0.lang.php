@@ -7,7 +7,7 @@
 // +-----------------------------------------------------------------------+
 $lang['porg_issue_1767'] = '[Création d\'utilisateur] Le Popin ne répond pas après la création.';
 $lang['porg_issue_1768'] = 'Changer le libellé du bouton pour appliquer l\'ordre aux albums à la racine';
-$lang['porg_issue_1770'] = 'Certains fichiers RAW sont considérés à tort comme des fichiers TIFF.';
+$lang['porg_issue_1770'] = 'Certains fichiers RAW sont considérés à tort comme des fichiers TIFF';
 $lang['porg_issue_1772'] = '[13.x, formulaire de téléchargement] La promotion de la page des applications mobiles est toujours en anglais';
 $lang['porg_issue_1774'] = 'Le popin des albums liés changent toujours de hauteur.';
 $lang['porg_issue_1775'] = '[Gestionnaire d\'albums] Pas d\'infobulle sur le bouton d\'ordre de tri.';
