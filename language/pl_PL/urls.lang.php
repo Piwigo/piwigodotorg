@@ -48,3 +48,4 @@ $lang['porg_urls']['automatic_update'] = 'przewodniki/uaktualnienie/automatyczne
 $lang['porg_urls']['guides'] = 'przewodniki';
 $lang['porg_urls']['coding-activity'] = 'programowanie';
 $lang['porg_urls']['mobile-applications'] = 'aplikacje mobilne';
+$lang['porg_urls']['users'] = 'kto-używa-piwigo';
