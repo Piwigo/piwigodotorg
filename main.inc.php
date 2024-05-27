@@ -131,6 +131,13 @@ function porg_add_methods($arr)
         ),
         'Send email to Piwigo.org (PLG)'
     );
+    $service->addMethod(
+      'porg.footer.getTemplate',
+      'ws_porg_get_footer_template',
+      array(
+      ),
+      'get template for footer'
+  );
 }
 
 /* Load Piwigo.org header */

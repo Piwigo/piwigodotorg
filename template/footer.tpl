@@ -96,3 +96,246 @@
   </footer>
   </body>
 </html>
+
+<style>
+/* Bootstrap 5 elements in columns - new classes */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+/*********************
+ * Piwigo footer CSS *
+ *********************/
+
+/* Footer container-fluide */
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+    .footer {
+        padding-top: 40px;
+    }
+}
+
+/* Piwigo logo */
+
+.footer-piwigo-logo {
+    margin-bottom: 20px;
+}
+
+.footer-piwigo-logo img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .footer-piwigo-logo {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer-piwigo-logo img {
+        height: 50px;
+        width: auto;
+    }
+}
+
+.footer-contact {
+    color: #FF7700;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.footer-contact a {
+    color: #FF7700;
+    text-decoration: none;
+}
+
+.footer-contact a .glyphicon {
+    margin-right: 5px;
+}
+
+.footer-language {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.footer-language li {
+    line-height: 35px;
+}
+.footer-language li a {
+    color:#666;
+    text-transform: uppercase;
+}
+
+.footer-language .glyphicon {
+    float:left;
+    font-size: 32px;
+}
+
+@media (max-width: 991px) {
+    .footer-language {
+        width: 90%;
+        margin: 0px 15px;
+        margin-bottom: 60px;
+        height: auto;
+    }
+}
+
+.footer-language li {
+    list-style-type: none;
+}
+
+.footer-language a {
+    color: #FF7700;
+    text-decoration: none;
+}
+
+/* Elements in a list Discover - extension ... */
+
+.footer-list ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.footer-list ul li {
+    margin-top: 9px;
+}
+
+.footer-list a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color:#ff7700;
+}
+
+.footer-list h5 {
+    text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+    .footer-list {
+        padding-bottom: 40px;
+    }
+}
+
+/* Social media icon */
+
+.icon-social-media {
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+
+.icon-facebook, .icon-twitter, .icon-github, .icon-google {
+    height: 37px;
+}
+
+.icon-twitter {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .icon-facebook, .icon-twitter, .icon-github, .icon-google {
+        height: 19px;
+    }
+}
+
+/* Button donate and Newsletter */
+
+.footer-donate-content a, .footer-newspaper-content a {
+    background-color: white;
+    width: 100%;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 0px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF7700;
+    line-height: 30px;
+
+}
+
+.footer-donate-content {
+    padding-bottom: 30px;
+}
+
+.footer-donate-content a:hover, .footer-donate-content a:active, .footer-donate-content a:focus,
+.footer-newspaper-content a:hover, .footer-newspaper-content a:active, .footer-newspaper-content a:focus {
+    color: #FF7700;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+}
+
+.footer-newspaper-content img {
+    height: 30px;
+    margin-right: 20px;
+    float: left;
+}
+
+.footer-donate-content img {
+    height: 30px;
+    margin-right: 0px;
+    float: left;
+}
+
+@media (max-width: 1200px) {
+    .footer-donate-content a, .footer-newspaper-content a {
+        font-size: 12px;
+    }
+
+    .footer-donate-content img, .footer-newspaper-content img {
+        height: 20px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-donate-content, .footer-newspaper-content {
+        padding-bottom: 40px;
+    }
+}
+
+</style>
