@@ -74,8 +74,8 @@
               </div>
               <div class="col-xs-12 footer-language">
                 <li class="dropdown active">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>Languages</a>
-                  <ul class="dropdown-menu">
+                  <a href="#" id="language_dropdown" class="dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span>Languages</a>
+                  <ul class="dropdown-menu" aria-labelledby="language_dropdown">
 {foreach from=$switch_languages item=switch_language}
                     <li><a href="{$switch_language.url}">{$switch_language.label}</a></li>
 {/foreach}
@@ -134,6 +134,84 @@
         width: 20%;
         float: left;
     }
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown-menu > li > a {
+  color: #777;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-weight: 600;
+}
+
+.dropdown-menu {
+    left: 50% !important;
+    margin-left: -79px;
+}
+
+.dropdown-menu.show {
+    display: block;
+    inset: revert !important;
+    transform: revert !important;
+}
+
+.dropdown-menu:before {
+    position: absolute;
+    top: -7px;
+    left: 72px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+}
+
+.dropdown-menu:after {
+    position: absolute;
+    top: -6px;
+    left: 73px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    content: '';
+}
+
+.dropdown-menu > li:focus > a, .dropdown-menu > li:hover > a {
+    color: #FF7700;
 }
 
 
