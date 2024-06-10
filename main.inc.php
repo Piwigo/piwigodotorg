@@ -11,6 +11,9 @@ if (!defined('PHPWG_ROOT_PATH')) die('Hacking attempt!');
 /* DEFINE */
 define('PORG_ID', basename(dirname(__FILE__)));
 define('PORG_PATH', PHPWG_PLUGINS_PATH . PORG_ID . '/');
+define('PORG_INSTALLS_TABLE', '`'.conf_get_param('piwigo.org_db_base', 'piwigo_site').'`.installs');
+define('PORG_INSTALL_EXTENSIONS_TABLE', '`'.conf_get_param('piwigo.org_db_base', 'piwigo_site').'`.install_extensions');
+define('PORG_INSTALL_EXTENSION_USAGE_TABLE', '`'.conf_get_param('piwigo.org_db_base', 'piwigo_site').'`.install_extension_usage');
 
 // we put these handlers "before" the test on index page (and the return) because
 // whatever the page, we want to execute them
@@ -131,6 +134,16 @@ function porg_add_methods($arr)
         ),
         'Send email to Piwigo.org (PLG)'
     );
+
+    $service->addMethod(
+        'porg.installs.update',
+        'ws_porg_installs_update',
+        array(
+            'data' => array(),
+        ),
+        'Update (or register if it is the first time) an installation of Piwigo, anonymously, with general statistics'
+    );
+
     $service->addMethod(
       'porg.footer.getTemplate',
       'ws_porg_get_footer_template',

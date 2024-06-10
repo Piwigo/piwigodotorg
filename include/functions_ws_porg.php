@@ -107,6 +107,268 @@ function ws_porg_contact_send($params, &$service)
   exit;
 }
 
+function ws_porg_installs_update($params, &$service)
+{
+  $params['data'] = stripslashes($params['data']);
+
+  $data = json_decode($params['data'], true);
+
+  if (empty($data['origin_hash']) or !preg_match('/^[a-z0-9]{40}$/', $data['origin_hash']))
+  {
+    return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.origin_hash');
+  }
+
+  if (!empty($data['general_stats']['installed_on']) and !preg_match('/^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$/', $data['general_stats']['installed_on']))
+  {
+    return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.general_stats.installed_on');
+  }
+
+  if (!preg_match('/^(imagick|ext_imagick|gd)\//', $data['technical']['graphics_library']))
+  {
+    return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.technical.graphics_library');
+  }
+
+  if (!preg_match('/^[a-z]{2,3}_[A-Z]{2,3}$/', $data['general_stats']['default_language']))
+  {
+    return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.general_stats.default_language');
+  }
+
+  $int_fields = array(
+    'nb_photos',
+    'nb_categories',
+    'nb_tags',
+    'nb_image_tag',
+    'nb_users',
+    'nb_admins',
+    'nb_groups',
+    'nb_rates',
+    'nb_views',
+    'disk_usage',
+    'nb_formats',
+    'formats_disk_usage',
+    'nb_private_plugins',
+    'nb_plugins',
+    'nb_private_themes',
+    'nb_themes',
+    'nb_activities',
+  );
+
+  foreach ($int_fields as $int_field)
+  {
+    if (!empty($data['general_stats'][$int_field]) and !preg_match('/^\d+$/', $data['general_stats'][$int_field]))
+    {
+      return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.general_stats.'.$int_field.' : '.$data['general_stats'][$int_field]);
+    }
+  }
+
+  $bool_fields = array(
+    'use_watermark',
+    'activate_comments',
+    'rate',
+    'log',
+    'history_guest',
+    'history_admin',
+  );
+
+  foreach ($bool_fields as $bool_field)
+  {
+    if (!preg_match('/^(yes|no)$/', $data['features'][$bool_field]))
+    {
+      return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.features.'.$bool_field);
+    }
+  }
+
+  list($dbnow) = pwg_db_fetch_row(pwg_query('SELECT NOW()'));
+
+  // does this install already exist?
+  $query = '
+SELECT
+    *
+  FROM '.PORG_INSTALLS_TABLE.'
+  WHERE origin_hash = \''.$data['origin_hash'].'\'
+;';
+  $registered_installs = query2array($query);
+  $install_id = null;
+  $nb_contacts = 0;
+  if (count($registered_installs) > 0)
+  {
+    if (strtotime($registered_installs[0]['last_contact_on']) > strtotime('1 day ago'))
+    {
+      return new PwgError(429, 'Too Many Requests');
+    }
+
+    $install_id = $registered_installs[0]['install_id'];
+    $nb_contacts = $registered_installs[0]['nb_contacts'];
+  }
+
+  $log_relative_path = implode('/', array_slice(str_split($data['origin_hash']), 0, 4)).'/'.$data['origin_hash'];
+  $log_filepath = '/log/piwigo_installs/'.$log_relative_path.'/'.date('YmdHis').'-'.$data['origin_hash'].'.json';
+
+  if (!is_dir(dirname($log_filepath)))
+  {
+    mkgetdir(dirname($log_filepath), MKGETDIR_DEFAULT&~MKGETDIR_PROTECT_INDEX);
+  }
+
+  file_put_contents($log_filepath, json_encode($data));
+
+  list($graphics_library, $graphics_library_version) = explode('/', $data['technical']['graphics_library'], 2);
+
+  $install = array(
+    'nb_contacts' => $nb_contacts+1,
+    'last_contact_on' => $dbnow,
+    'installed_on' => $data['general_stats']['installed_on'],
+    'graphics_library' => $graphics_library,
+    'graphics_library_version' => pwg_db_real_escape_string(substr($graphics_library_version, 0, 255)),
+    'default_language' => $data['general_stats']['default_language'],
+  );
+
+  foreach (array('php_version', 'piwigo_version', 'os_version', 'db_version') as $input_key)
+  {
+    $install[$input_key] = pwg_db_real_escape_string(substr($data['technical'][$input_key], 0, 255));
+  }
+
+  foreach ($int_fields as $int_field)
+  {
+    $install[$int_field] = $data['general_stats'][$int_field];
+  }
+
+  foreach ($bool_fields as $bool_field)
+  {
+    $install[$bool_field] = 'yes' == $data['features'][$bool_field] ? 'true' : 'false';
+  }
+
+  $install['default_theme'] = pwg_db_real_escape_string(substr($data['general_stats']['default_theme'], 0, 255));
+  
+  if (empty($install_id))
+  {
+    $install['origin_hash'] = $data['origin_hash'];
+    $install['first_contact_on'] = $dbnow;
+
+    single_insert(
+      PORG_INSTALLS_TABLE,
+      $install
+    );
+
+    $install_id = pwg_db_insert_id();
+  }
+  else
+  {
+    single_update(
+      PORG_INSTALLS_TABLE,
+      $install,
+      array('install_id' => $install_id)
+    );
+  }
+
+  // list already registered extensions. We may have to register new ones
+  $query = '
+SELECT
+    *
+  FROM '.PORG_INSTALL_EXTENSIONS_TABLE.'
+;';
+  $registered_exts = query2array($query, 'eid');
+
+  $exts = query2array($query, 'eid');
+
+  $query = '
+SELECT
+    *
+  FROM '.PORG_INSTALL_EXTENSION_USAGE_TABLE.'
+  WHERE install_idx = '.$install_id.'
+;';
+  $install_exts = query2array($query, 'eidx');
+
+  $last_seen_on_updates = array();
+  $usage_updates = array();
+
+  foreach (array('plugins', 'themes') as $ext_type)
+  {
+    foreach ($data[$ext_type] as $ext)
+    {
+      list($eid, $codename, $version) = explode('/', $ext, 3);
+
+      if (!preg_match('/^#(\d+)$/', $eid, $matches))
+      {
+        return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.'.$ext_type.'.eid '.$ext);
+      }
+      else
+      {
+        $eid = $matches[1];
+      }
+
+      if (!preg_match('/^[a-zA-Z0-9_-]+$/', $codename))
+      {
+        return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.'.$ext_type.'.codename '.$ext);
+      }
+
+      if (!isset($exts[$eid]))
+      {
+        single_insert(
+          PORG_INSTALL_EXTENSIONS_TABLE,
+          array(
+            'eid' => $eid,
+            'extension_type' => $ext_type,
+            'codename' => $codename,
+            'first_seen_on' => $dbnow,
+            'last_seen_on' => $dbnow,
+          )
+        );
+      }
+
+      $last_seen_on_updates[] = array('eid'=>$eid, 'last_seen_on'=>$dbnow);
+
+      if (!isset($install_exts[$eid]))
+      {
+        // first_seen datetime NOT NULL,
+        // last_seen datetime NOT NULL,
+        // is_active enum('true','false') NOT NULL default 'true',
+        // last_version_seen varchar(255)
+        single_insert(
+          PORG_INSTALL_EXTENSION_USAGE_TABLE,
+          array(
+            'install_idx' => $install_id,
+            'eidx' => $eid,
+            'first_seen' => $dbnow,
+            'last_seen' => $dbnow,
+          )
+        );
+      }
+
+      $usage_updates[$eid] = array(
+        'install_idx' => $install_id,
+        'eidx' => $eid,
+        'last_seen' => $dbnow,
+        'is_active' => 'true',
+        'last_version_seen' => pwg_db_real_escape_string(substr($version, 0, 255)),
+      );
+    }
+  }
+
+  mass_updates(
+    PORG_INSTALL_EXTENSIONS_TABLE,
+    array('primary' => array('eid'), 'update' => array('last_seen_on')),
+    $last_seen_on_updates
+  );
+
+  mass_updates(
+    PORG_INSTALL_EXTENSION_USAGE_TABLE,
+    array('primary' => array('install_idx', 'eidx'), 'update' => array('last_seen', 'is_active', 'last_version_seen')),
+    $usage_updates
+  );
+
+  $inactive_eids = array_diff(array_keys($install_exts), array_keys($usage_updates));
+  if (count($inactive_eids) > 0)
+  {
+    $query = '
+UPDATE '.PORG_INSTALL_EXTENSION_USAGE_TABLE.'
+  SET is_active = \'false\'
+  WHERE install_idx = '.$install_id.'
+    AND eidx IN ('.implode(',', $inactive_eids).')
+;';
+    pwg_query($query);
+  }
+}
+
 function ws_porg_get_footer_template($params, &$service)
 {
   global $template, $t2, $page;
