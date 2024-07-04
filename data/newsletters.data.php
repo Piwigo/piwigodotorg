@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2024-07-03' => array (
+                'title' => 'Piwigo 15, première version beta',
+                'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2024/07/01/20240701153710-4fff0279.png',
+                'summary' => 'Après de mois de travail pour préparer Piwigo en version 15, voici la première version beta. Alors quoi de neuf ?',
+            ),
             '2024-01-11' => array (
                 'title' => 'Piwigo 14, nouveau moteur de recherche et découvrir nos utilisateurs',
                 'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2023/10/17/20231017101035-7fe4bcb7-la.png',
@@ -299,6 +304,11 @@
             ),
         ),
         'en' => array(
+            '2024-07-03' => array (
+                'title' => 'Piwigo 15, first beta version',
+                'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2024/07/01/20240701153710-4fff0279.png',
+                'summary' => 'We have been working hard for months to prepare the upcoming Piwigo version 15. So what\'s new?',
+            ),
             '2024-01-10' => array (
                 'title' => 'Piwigo 14, new search engine, discover Piwigo users',
                 'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2023/10/17/20231017101035-7fe4bcb7-la.png',
@@ -586,6 +596,11 @@
             ),
         ),
         'de' => array(
+            '2024-07-03' => array (
+                'title' => 'Piwigo 15.0.0 beta1',
+                'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2024/07/01/20240701153710-4fff0279.png',
+                'summary' => 'Wir haben monatelang hart gearbeitet, um die kommende Piwigo-Version 15 vorzubereiten. Hier ist die erste Beta. Was ist also neu?',
+            ),
             '2023-05-09' => array (
                 'title' => 'Einstellung von Beta-Testern für mobile Anwendungen und andere Neuigkeiten',
                 'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2023/04/28/20230428141403-67120938.jpg',
