@@ -34,3 +34,6 @@ $lang['Plugin manager'] = 'Zarządzanie wtyczkami';
 $lang['See all the details'] = 'Sprawdź szczegóły';
 $lang['User manager'] = 'Zarządzanie użytkownikami';
 $lang['Visit log'] = 'Rejestr odwiedzin';
+$lang['Album editor'] = 'Edytor albumu';
+$lang['New file formats'] = 'Nowe formaty plików';
+$lang['Search engine'] = 'Silnik wyszukiwania';
