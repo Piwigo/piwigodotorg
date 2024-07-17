@@ -161,3 +161,7 @@ $lang['porg_guides_install_step3_list2'] = '用户';
 $lang['porg_guides_install_step3_list2_span'] = '需要注意的是，Web提供商所提供的FTP与MySQL账号很可能不相同，请注意区分。';
 $lang['porg_guides_install_step3_list3'] = '密码';
 $lang['porg_guides_install_step3_list4'] = '数据库名称';
+$lang['Coding Activity'] = '编码活动';
+$lang['Mobile applications'] = '移动应用程序';
+$lang['Users'] = '用户';
+$lang['Who uses Piwigo ?'] = '谁使用Piwigo？';
