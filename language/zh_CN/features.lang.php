@@ -60,3 +60,6 @@ $lang['Privacy on your Photos'] = '照片的权限';
 $lang['Upload your photos'] = '更新照片';
 $lang['Users management'] = '用户管理';
 $lang['API'] = 'API';
+$lang['Porg-Features-Advantages'] = 'Piwigo的优势';
+$lang['Porg-Features-OrganizeSharePhotos'] = '整理和分享你的照片';
+$lang['porg_features_see_all_extensions'] = '查看所有扩展';
