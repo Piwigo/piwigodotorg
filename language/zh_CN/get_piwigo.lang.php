@@ -44,3 +44,5 @@ $lang['Advantages'] = '优势';
 $lang['Clients'] = '客户';
 $lang['Start free trial'] = '开始免费试用';
 $lang['porg_get_piwigo_desc2-2'] = '您也可以使用 Piwigo.com 的云服务。';
+$lang['Get Professional Support'] = '获得专业支持';
+$lang['Install & Upgrade Guides'] = '安装和升级指南';
