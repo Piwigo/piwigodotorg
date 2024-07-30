@@ -109,6 +109,8 @@ function ws_porg_contact_send($params, &$service)
 
 function ws_porg_installs_update($params, &$service)
 {
+  global $logger;
+
   $params['data'] = stripslashes($params['data']);
 
   $data = json_decode($params['data'], true);
@@ -116,11 +118,6 @@ function ws_porg_installs_update($params, &$service)
   if (empty($data['origin_hash']) or !preg_match('/^[a-z0-9]{40}$/', $data['origin_hash']))
   {
     return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.origin_hash');
-  }
-
-  if (!empty($data['general_stats']['installed_on']) and !preg_match('/^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$/', $data['general_stats']['installed_on']))
-  {
-    return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.general_stats.installed_on');
   }
 
   if (!preg_match('/^(imagick|ext_imagick|gd)\//', $data['technical']['graphics_library']))
@@ -133,8 +130,23 @@ function ws_porg_installs_update($params, &$service)
     return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.general_stats.default_language');
   }
 
+  $datetime_fields = array(
+    'installed_on',
+    'last_photo_synced',
+    'last_photo',
+  );
+
+  foreach ($datetime_fields as $datetime_field)
+  {
+    if (!empty($data['general_stats'][$datetime_field]) and !preg_match('/^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$/', $data['general_stats'][$datetime_field]))
+    {
+      return new PwgError(WS_ERR_INVALID_PARAM, 'Invalid input parameter data.general_stats.'.$datetime_field.' : '.$data['general_stats'][$datetime_field]);
+    }
+  }
+
   $int_fields = array(
     'nb_photos',
+    'nb_photos_synced',
     'nb_categories',
     'nb_tags',
     'nb_image_tag',
@@ -217,6 +229,8 @@ SELECT
     'nb_contacts' => $nb_contacts+1,
     'last_contact_on' => $dbnow,
     'installed_on' => $data['general_stats']['installed_on'],
+    'last_photo' => $data['general_stats']['last_photo'] ?? null,
+    'last_photo_synced' => $data['general_stats']['last_photo_synced'] ?? null,
     'graphics_library' => $graphics_library,
     'graphics_library_version' => pwg_db_real_escape_string(substr($graphics_library_version, 0, 255)),
     'default_language' => $data['general_stats']['default_language'],
@@ -229,7 +243,7 @@ SELECT
 
   foreach ($int_fields as $int_field)
   {
-    $install[$int_field] = $data['general_stats'][$int_field];
+    $install[$int_field] = $data['general_stats'][$int_field] ?? null;
   }
 
   foreach ($bool_fields as $bool_field)
@@ -258,6 +272,45 @@ SELECT
       $install,
       array('install_id' => $install_id)
     );
+  }
+
+  // file extensions
+  $query = '
+DELETE
+  FROM '.PORG_INSTALL_FILE_EXTENSIONS_TABLE.'
+  WHERE install_idx = '.$install_id.'
+;';
+  pwg_query($query);
+
+  if (isset($data['file_extensions']))
+  {
+    $file_extensions_inserts = array();
+
+    foreach ($data['file_extensions'] as $ext)
+    {
+      if (
+        !empty($ext['ext']) and preg_match('/^[a-zA-Z0-9]{1,50}$/', $ext['ext'])
+        and !empty($ext['counter']) and preg_match('/^\d+$/', $ext['counter'])
+        and !empty($ext['filesize']) and preg_match('/^\d+$/', $ext['filesize'])
+      )
+      {
+        $file_extensions_inserts[] = array(
+          'install_idx' => $install_id,
+          'ext' => $ext['ext'],
+          'counter' => $ext['counter'],
+          'filesize' => $ext['filesize'],
+        );
+      }
+      else
+      {
+        $logger->info('['.__FUNCTION__.'][install_id='.$install_id.'] invalid file_extension : '.$ext['ext'].'/'.$ext['counter'].'/'.$ext['filesize']);
+      }
+    }
+
+    if (count($file_extensions_inserts) > 0)
+    {
+      mass_inserts(PORG_INSTALL_FILE_EXTENSIONS_TABLE, array_keys($file_extensions_inserts[0]), $file_extensions_inserts);
+    }
   }
 
   // list already registered extensions. We may have to register new ones
