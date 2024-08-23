@@ -304,6 +304,11 @@
             ),
         ),
         'en' => array(
+            '2024-08-23' => array (
+                'title' => 'The rebirth of Piwigo documentation',
+                'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2024/08/23/20240823115846-468e38cf-la.png',
+                'summary' => 'It\'s been in the works for months with our team members, now is the time to unveil the brand new documentation for Piwigo.',
+            ),
             '2024-07-03' => array (
                 'title' => 'Piwigo 15, first beta version',
                 'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2024/07/01/20240701153710-4fff0279.png',
