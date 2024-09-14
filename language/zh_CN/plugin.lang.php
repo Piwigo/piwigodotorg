@@ -165,3 +165,4 @@ $lang['Coding Activity'] = '编码活动';
 $lang['Mobile applications'] = '移动应用程序';
 $lang['Users'] = '用户';
 $lang['Who uses Piwigo ?'] = '谁使用Piwigo？';
+$lang['See pricing'] = '查看价格';
