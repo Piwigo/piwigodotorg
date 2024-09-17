@@ -27,3 +27,4 @@ $lang['porg_urls']['manual_update'] = 'vejledninger/opdatering/manuel';
 $lang['porg_urls']['netinstall'] = 'vejledninger/installering/netinstallering';
 $lang['porg_urls']['mobile-applications'] = 'mobil-applikationer';
 $lang['porg_urls']['users'] = 'brugere';
+$lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
