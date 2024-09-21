@@ -172,3 +172,5 @@ $lang['porg_users_education'] = '教育和研究';
 $lang['porg_users_perso'] = '摄影师和个人';
 $lang['porg_users_public'] = '公共部门';
 $lang['porg_users_tourism'] = '旅游和文化';
+$lang['language_ga_IE'] = '盖尔语';
+$lang['language_hy_AM'] = '亚美尼亚语';
