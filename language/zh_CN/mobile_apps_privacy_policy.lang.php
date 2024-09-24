@@ -55,6 +55,6 @@ $lang['porg_privacy_mobile_intro_4'] = 'Piwigo-Android和Piwigo-Mobile的开发�
 $lang['Last updated on %s'] = '最后更新于%s';
 $lang['porg_privacy_mobile_intro_2'] = '本隐私政策适用于这些原生Android和iOS应用程序，这些应用程序连接到不受作者控制的Piwigo网站。';
 $lang['porg_privacy_mobile_intro_3'] = '在Piwigo-Android或Piwigo-Mobile中配置账户以连接到图库之前，请先检查相应网站的隐私政策。';
-$lang['porg_privacy_mobile_intro_1'] = '<a href="%s" target="_blank">Piwigo-Android</a> and <a href="%s" target="_blank">Piwigo-Mobile</a> 是Piwigo的免费、自由和开源客户端应用程序。';
+$lang['porg_privacy_mobile_intro_1'] = '<a href="%s" target="_blank">Piwigo-Android</a> 与 <a href="%s" target="_blank">Piwigo-Mobile</a>是一款专为Piwigo相册软件所设计的，免费、自由且开放源代码的客户端软件。';
 $lang['Privacy Policy for Mobile Apps'] = '移动应用程序隐私政策';
 $lang['porg_privacy_mobile_banner'] = '以下是Piwigo移动应用程序的隐私政策，适用于iOS（即iPhone、iPod或iPad）和Android（基本上所有其他智能手机）。';
