@@ -28,3 +28,4 @@ $lang['porg_urls']['netinstall'] = 'gidsen/installatie/netwerkinstallatie';
 $lang['porg_urls']['requirements'] = 'gidsen/installatie/vereisten';
 $lang['porg_urls']['mobile-applications'] = 'mobiele toepassingen';
 $lang['porg_urls']['users'] = 'wie-gebruikt-piwigo';
+$lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
