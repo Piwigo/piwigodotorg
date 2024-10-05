@@ -50,3 +50,4 @@ $lang['porg_urls']['netinstall'] = 'guides/install/netinstall';
 $lang['porg_urls']['requirements'] = 'guides/install/requirements';
 $lang['porg_urls']['mobile-applications'] = 'aplicaciones-moviles';
 $lang['porg_urls']['users'] = 'quien-usa-piwigo';
+$lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
