@@ -37,3 +37,6 @@ $lang['Visit log'] = 'Besucherprotokoll';
 $lang['Album editor'] = 'Album-Editor';
 $lang['New file formats'] = 'Neue Dateiformate';
 $lang['Search engine'] = 'Suchmaschine';
+$lang['Batch manager redesign'] = 'Überarbeitung des Chargenmanagers';
+$lang['Enhanced user management'] = 'Verbesserte Benutzerverwaltung';
+$lang['System activities'] = 'System-Aktivitäten';
