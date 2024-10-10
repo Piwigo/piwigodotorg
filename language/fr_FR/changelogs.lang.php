@@ -22,4 +22,9 @@ $lang['Multiple-format'] = 'Formats multiples';
 $lang['Search engine'] = 'Moteur de recherche';
 $lang['Album editor'] = 'Éditeur d\'album';
 $lang['New file formats'] = 'Nouveaux types de fichier';
+
+// Piwigo 15
+$lang['Enhanced user management'] = 'Gestion des utilisateurs améliorée';
+$lang['System activities'] = 'Activités système';
+$lang['Batch manager redesign'] = 'Refonte de la gestion par lot';
 ?>

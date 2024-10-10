@@ -1,6 +1,22 @@
 <?php
 $porg_releases = array(
 
+  '15.0.0' => array(
+    'released_on' => '2024-09-30 12:52:00',
+    'md5sum' => 'unknown yet',
+    'summary' => array('Enhanced user management', 'System activities', 'Batch manager redesign'),
+    'subtitle' => 'Enhanced user management, system activities, batch manager redesign.',
+    'features' => array(),
+    'bugs' => array(),
+    'known_issues' => array(),
+    'show_in_changelogs' => false,
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+    'changelogs_image'=>'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2023/10/17/20231017101035-7fe4bcb7-la.png'
+  ),
+
   '14.5.0' => array(
     'released_on' => '2024-07-15 18:22:00',
     'md5sum' => '632da06a4822a663146a74da5203a637',

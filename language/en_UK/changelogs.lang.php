@@ -22,3 +22,8 @@ $lang['Multiple-format'] = 'Multiple-format';
 $lang['Search engine'] = 'Search engine';
 $lang['Album editor'] = 'Album editor';
 $lang['New file formats'] = 'New file formats';
+
+// Piwigo 15
+$lang['Enhanced user management'] = 'Enhanced user management';
+$lang['System activities'] = 'System activities';
+$lang['Batch manager redesign'] = 'Batch manager redesign';

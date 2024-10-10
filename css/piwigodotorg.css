@@ -7280,6 +7280,10 @@ section.release-notes-overview li a {
     margin: 30px 0 0 0;
 }
 
+#releaseNotesMain.major-release .section-framed p a {
+    color:#020002;
+}
+
 .technical-features pre{
   padding:15px;
   width:94%;
@@ -8003,6 +8007,56 @@ section.release-notes-overview li a {
 
 @media (max-width: 991px) {
   .release-14_0_0 #releaseNotesMain.major-release #intro-title{
+    padding:0
+  }
+}
+
+/* Changelog version 15 */
+.release-15_0_0 .container-release-note {
+    background: linear-gradient(135deg, rgb(255, 119, 0) 0%, rgb(249, 76, 93) 50%, rgb(249, 76, 93) 100%);
+}
+.release-15_0_0 .container-release-note span {
+    color: white;
+}
+
+ .release-15_0_0 .container-download-release{
+     display:none;
+ }
+
+ .release-15_0_0 .download14{
+     display:block;
+     margin-top: 22px;
+ }
+
+ .release-15_0_0 .piwigo15-img {
+    width:100%;
+ }
+
+ .release-15_0_0  .release-notes-intro{
+    margin-top: 60px;
+    margin-bottom:30px;
+ }
+
+ .release-15_0_0 #releaseNotesMain.major-release .release-notes-intro .intro-text{
+     text-align:left;
+ }
+
+ .release-15_0_0 #releaseNotesMain.major-release #intro-title{
+    margin:30px;
+    margin-top:0;
+    text-align:center;
+ }
+
+.release-15_0_0 #releaseNotesMain img.screenshot {
+  max-height: 500px;
+}
+
+.release-15_0_0 .first-image-and-caption, .second-image-and-caption, .center-image-without-caption{
+   margin:100px 0;
+}
+
+@media (max-width: 991px) {
+  .release-15_0_0 #releaseNotesMain.major-release #intro-title{
     padding:0
   }
 }
