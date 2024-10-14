@@ -22,3 +22,6 @@ $lang['See all the details'] = '查看具体信息';
 $lang['User manager'] = '用户管理器';
 $lang['Visit log'] = '访问日志';
 $lang['Activities'] = '访问记录';
+$lang['Batch manager redesign'] = '批处理管理器重新设计';
+$lang['Enhanced user management'] = '增强的用户管理';
+$lang['System activities'] = '系统活动';
