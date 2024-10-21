@@ -146,7 +146,7 @@
 <div id="interview_willy" class="interview-container">
   <div class="interview interview1">
     <img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">
-    <img class="photo" src="https://media.licdn.com/dms/image/v2/D4E03AQH0sdmlrxoVVQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1687252863735?e=1733356800&v=beta&t=IaY-GDcHh0_yhF892vSAoUjZv6vKrVfIX0VUPxEsx80">
+    <img class="photo" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2024/10/21/20241021162052-2c3e6d21.jpg">
     <p class="first">{'porg_v15_willy_text1'|translate}</p>
     <p>{'porg_v15_willy_text2'|translate}</p>
     <div class="interview-signature"><a href="https://lintydotdev.vercel.app/">Willy aka Linty</a></div>
