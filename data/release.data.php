@@ -2,19 +2,19 @@
 $porg_releases = array(
 
   '15.0.0' => array(
-    'released_on' => '2024-09-30 12:52:00',
-    'md5sum' => 'unknown yet',
+    'released_on' => '2024-10-22 09:07:12',
+    'md5sum' => '5d512af58722c66f4cee848b180ce28b',
     'summary' => array('Enhanced user management', 'System activities', 'Batch manager redesign'),
     'subtitle' => 'Enhanced user management, system activities, batch manager redesign.',
     'features' => array(),
     'bugs' => array(),
     'known_issues' => array(),
-    'show_in_changelogs' => false,
+    'show_in_changelogs' => true,
     'languages' => array(
       'new' => array(),
       'updated' => array(),
     ),
-    'changelogs_image'=>'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2023/10/17/20231017101035-7fe4bcb7-la.png'
+    'changelogs_image'=>'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2024/08/06/20240806170055-cbb1f206-la.png'
   ),
 
   '14.5.0' => array(
