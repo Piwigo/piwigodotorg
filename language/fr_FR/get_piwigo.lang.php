@@ -2,7 +2,6 @@
 
 $lang['porg_get_piwigo_desc1'] = 'Il y a deux façons d\'utiliser Piwigo.';
 $lang['porg_get_piwigo_desc2'] = 'Soit vous l\'hébergez vous-mêmes, par exemple avec OVH ou o2switch, soit directement sur Piwigo.com.';
-$lang['porg_get_piwigo_desc2-2'] = ', soit directement sur Piwigo.com.';
 $lang['porg_get_piwigo_desc3'] = 'Dans les deux cas vous gardez un contrôle total sur vos données.';
 $lang['Self-hosted Piwigo'] = 'Héberger son Piwigo';
 $lang['porg_get_piwigo_self_hosted_desc1'] = 'Faites tourner Piwigo sur votre propre hébergement, disposant de PHP et MySQL.';
