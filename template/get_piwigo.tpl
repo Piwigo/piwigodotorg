@@ -7,7 +7,7 @@
           <h1>{'Get Piwigo'|translate}</h1>
 
           <div class="col-12 col-md-2"></div>
-          <p class="col-md-8">{'porg_get_piwigo_desc1'|translate} {'porg_get_piwigo_desc2'|translate} {'porg_get_piwigo_desc3'|translate}</p>
+          <p class="col-md-8">{'porg_get_piwigo_desc1'|translate} {'porg_get_piwigo_desc2'|translate} {'porg_get_piwigo_desc2-2'|translate} {'porg_get_piwigo_desc3'|translate}</p>
           <div class="col-12 col-md-2"></div>
 
         </div>
