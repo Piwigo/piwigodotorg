@@ -37,3 +37,6 @@ $lang['Multiple-format'] = 'Flere formater';
 $lang['Album editor'] = 'Albumredigering';
 $lang['New file formats'] = 'Nye filformater';
 $lang['Search engine'] = 'Søgemaskine';
+$lang['Batch manager redesign'] = 'Redesignet batchhåndtering';
+$lang['Enhanced user management'] = 'Forbedret brugerhåndtering';
+$lang['System activities'] = 'Systemaktiviteter';
