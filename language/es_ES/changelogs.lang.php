@@ -37,3 +37,6 @@ $lang['Album manager'] = 'Gestor de álbumes';
 $lang['Album editor'] = 'Editor de álbumes';
 $lang['New file formats'] = 'Nuevos formatos de archivo';
 $lang['Search engine'] = 'Motor de búsqueda';
+$lang['Batch manager redesign'] = 'Rediseño del gestor por lotes';
+$lang['Enhanced user management'] = 'Gestión de usuarios mejorada';
+$lang['System activities'] = 'Actividades del sistema';
