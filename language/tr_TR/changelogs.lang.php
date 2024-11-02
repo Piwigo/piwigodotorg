@@ -22,3 +22,6 @@ $lang['Visit log'] = 'Günlüğü görüntüle';
 $lang['porg_changelogs_desc1'] = 'İşte tüm kararlı Piwigo sürümlerinin listesi.';
 $lang['porg_changelogs_desc2'] = 'En son sürümümüzü kullanın: daha iyi destek alacaksınız ve bilinen tüm güvenlik hataları düzeltilecektir.';
 $lang['porg_changelogs_technicals_desc1'] = 'Sürümlerin teknik görünümlerine ihtiyacınız varsa <a href="%s">Dallar ve Sürümler</a> sayfasına gidin.';
+$lang['Batch manager redesign'] = 'Toplu yöneticinin yeniden tasarımı';
+$lang['Enhanced user management'] = 'Geliştirilmiş kullanıcı yönetimi';
+$lang['System activities'] = 'Sistem aktiviteleri';
