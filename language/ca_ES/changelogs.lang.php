@@ -37,3 +37,6 @@ $lang['Multiple-format'] = 'Formats múltiples';
 $lang['New file formats'] = 'Nous formats de fitxer';
 $lang['Search engine'] = 'Motor de cerca';
 $lang['Visit log'] = 'Registre de visites';
+$lang['Batch manager redesign'] = 'Redisseny del gestor per lots';
+$lang['Enhanced user management'] = 'Gestió d\'usuaris millorada';
+$lang['System activities'] = 'Activitats del sistema';
