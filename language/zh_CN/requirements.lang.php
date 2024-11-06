@@ -12,7 +12,7 @@ $lang['porg_guides_requirements_optional'] = '可选要求';
 $lang['porg_guides_requirements_minimal_sixth'] = '足够的磁盘空间存储您的图片：除了您上传的照片外，Piwigo 还会将“多种尺寸”的照片存储在您服务器的缓存目录中。';
 $lang['porg_guides_requirements_minimal_fifth'] = '需要 FTP 客户端软件来上传文件（网络安装或完整软件包）：Piwigo 团队推荐使用 FileZilla 作为 FTP 客户端软件，因为它和 Piwigo 一样免费，并且兼容 Windows、Mac 和 Linux。';
 $lang['porg_guides_requirements_minimal_fourth'] = '图形库：ImageMagick 因其性能和图像质量而受到推荐，但通常与 PHP 捆绑在一起的 GD 也可以完成这项工作。';
-$lang['porg_guides_requirements_minimal_third'] = 'PHP 7.4+。Piwigo 可以使用 PHP 7.0+ 运行，但这些已停用的版本不再维护，可能会使您的网站面临安全漏洞。请参阅<a href="https://www.php.net/supported-versions.php" target="_blank">官方 PHP 支持版本</a>。';
+$lang['porg_guides_requirements_minimal_third'] = 'PHP 7.4+。Piwigo 可以使用 PHP 7.1+ 运行，但这些已停用的版本不再维护，可能会使您的网站面临安全漏洞。请参阅<a href="https://www.php.net/supported-versions.php" target="_blank">官方 PHP 支持版本</a>。';
 $lang['porg_guides_requirements_minimal_second'] = 'MySQL 5.6+或MariaDB 10.1+。MySQL 5.0可以运行，但不再维护。';
 $lang['porg_guides_requirements_minimal_first'] = '像Nginx或Apache这样的网络服务器';
 $lang['porg_guides_requirements_minimal'] = '最低要求';

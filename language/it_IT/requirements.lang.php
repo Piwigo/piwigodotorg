@@ -11,7 +11,7 @@ $lang['porg_guides_requirements_optional_second'] = 'ffmpeg è richiesto per il 
 $lang['porg_guides_requirements_optional_first'] = 'exiftool è richiesto per il plug-in Write Metadata e altri plug-in che manipolano i metadati EXIF ​​/ IPTC';
 $lang['porg_guides_requirements_optional'] = 'Prerequisiti facoltativi';
 $lang['porg_guides_requirements_minimal_sixth'] = 'Abbastanza spazio su disco per le tue foto: oltre alle foto che carichi, Piwigo memorizzerà "più dimensioni" in una directory della cache sul tuo server.';
-$lang['porg_guides_requirements_minimal_third'] = 'PHP 7.4+. Piwigo può funzionare con PHP 7.0+ ma queste versioni precedenti non sono più ufficialmente supportate e ti espongono a falle di sicurezza. Vedi <a href="https://www.php.net/supported-versions.php" target="_blank"> versioni ufficialmente supportate da PHP </a>.';
+$lang['porg_guides_requirements_minimal_third'] = 'PHP 7.4+. Piwigo può funzionare con PHP 7.1+ ma queste versioni precedenti non sono più ufficialmente supportate e ti espongono a falle di sicurezza. Vedi <a href="https://www.php.net/supported-versions.php" target="_blank"> versioni ufficialmente supportate da PHP </a>.';
 $lang['porg_guides_requirements_minimal_second'] = 'MySQL 5.6+ o MariaDB 10.1+. MySQL 5.0 funziona ma non è più mantenuto ufficialmente.';
 $lang['porg_guides_requirements_minimal_fourth'] = 'Una libreria grafica: ImageMagick è consigliato per le sue prestazioni e la qualità dell\'immagine, ma anche GD, spesso fornito con PHP, può fare il trucco.';
 $lang['porg_guides_requirements_minimal_first'] = 'un server web come Apache o Nginx';
