@@ -149,7 +149,7 @@
     <img class="photo" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2024/10/21/20241021162052-2c3e6d21.jpg">
     <p class="first">{'porg_v15_willy_text1'|translate}</p>
     <p>{'porg_v15_willy_text2'|translate}</p>
-    <div class="interview-signature"><a href="https://lintydotdev.vercel.app/">Willy aka Linty</a></div>
+    <div class="interview-signature"><a href="https://lintylabs.com">Willy aka Linty</a></div>
   </div>
 </div>
 
