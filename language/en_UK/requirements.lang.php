@@ -12,5 +12,3 @@ $lang['porg_guides_requirements_minimal_sixth'] = 'Enough disk space for your pi
 $lang['porg_guides_requirements_optional'] = 'Optional Requirements';
 $lang['porg_guides_requirements_optional_first'] = 'exiftool is required for plugin Write Metadata or any other plugin dealing with EXIF/IPTC metadata';
 $lang['porg_guides_requirements_optional_second'] = 'ffmpeg is required for plugin VideoJS to create video poster';
-$lang['porg_guides_requirements_optional_third'] = 'jpegtran is recommended for plugin RotateImage to rotate images with no compression';
-$lang['porg_guides_requirements_optional_third'] = 'pdftoppm will be recommended to generate poster from PDF files (instead of ImageMagick)';

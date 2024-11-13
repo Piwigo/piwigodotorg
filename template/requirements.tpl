@@ -46,7 +46,6 @@
           <ul class="optional-requirements">
             <li>{'porg_guides_requirements_optional_first'|translate}</li>
             <li>{'porg_guides_requirements_optional_second'|translate}</li>
-            <li>{'porg_guides_requirements_optional_third'|translate}</li>
           </ul>
         </div>
         </div>
