@@ -45,3 +45,25 @@ $lang['porg_v13_apibrowser_title'] = 'API浏览器';
 $lang['porg_v13_apppromo_image1_label'] = 'Piwigo 13将推广移动应用程序。太多用户仍然不知道它们！当然，只需单击一下，这个横幅广告就会“永久”隐藏。';
 $lang['porg_v13_apppromo_text'] = '正如您可能已经在新闻中看到的那样，Piwigo现在在智能手机上有了强大的竞争力，既适用于iOS（iPhone），也适用于Android（所有其他智能手机）。';
 $lang['porg_v13_apppromo_title'] = '移动应用程序';
+$lang['porg_v13_associations_title'] = '关联相册';
+$lang['porg_v13_badge_new'] = '新的';
+$lang['porg_v13_badge_redesign'] = '重新设计';
+$lang['porg_v13_badge_refresh'] = '刷新';
+$lang['porg_v13_history_image1_label'] = '强烈要求，现在可以根据“action=downloaded”进行过滤，仅显示下载列表。';
+$lang['porg_v13_history_text'] = '访问历史记录的搜索工具进行了重新设计，不仅在美学上和技术上更加现代化，还可以通过点击照片、用户或IP地址来组合过滤器。';
+$lang['porg_v13_history_title'] = '访问历史';
+$lang['porg_v13_intro1'] = '专注于用户体验';
+$lang['porg_v13_intro2'] = 'Piwigo 一直致力于让您的用户体验尽可能无缝。因此，在版本 13 中，您会发现管理界面的设计更改、新的树结构相册管理器、直接从网页浏览器添加多种格式的功能、更完整的插件安装程序等。此外，在技术方面，Piwigo 兼容 PHP 8.1，这一版本开始逐步普及。祝大家更新愉快！';
+$lang['porg_v13_matthieu_text1'] = '大家好！我是 Matthieu，我已经在 Piwigo 工作了一年半了（编者注：自 2021 年 2 月起），即使你现在才听说我。我在 Epitech 学习期间加入了团队。我的工作是实现软件的新功能并现代化其用户界面，特别是管理面板，同时在会议期间带来良好的氛围。';
+$lang['porg_v13_matthieu_text2'] = '我还有一年时间才能完成学业，希望通过 Piwigo 学到更多！';
+$lang['porg_v13_multiformat_image1_label'] = '在 Piwigo 13 中，添加照片的网页表单增加了一个添加格式模式，可以在右上角激活。使用本地配置设置 <code>$conf[‘enable_formats’]</code> 使此开关可见。';
+$lang['porg_v13_multiformat_text'] = '可以像照片一样上传多种格式。“多种格式”功能在 6 年前的 Piwigo 2.8 中引入，但当时只能通过“同步”方法添加。随着“同步”方法的使用越来越少，现在可以通过网页上传表单使用这一功能。<br>
+<br>
+那么，“多种格式”到底是什么呢？它是扩展照片的可能性。例如，你有一张基本照片 JPG，可以将其扩展为 RAW 文件、TIFF 文件、另一个带有 CMYK 色彩配置文件的 JPG 等。格式会作为“下载选项”列在照片旁边。';
+$lang['porg_v13_multiformat_title'] = '多种格式';
+$lang['porg_v13_news_image1_label'] = 'Piwigo 13 将显示来自 piwigo.org 的最新消息（如果消息是30天内的）。';
+$lang['porg_v13_news_title'] = '最新消息';
+$lang['porg_v13_plugin_manager_image1_label'] = '插件安装页面进行了现代化改造，增加了过滤器，并显示了更多关于可用插件的信息。Piwigo 13 引入了认证概念，考虑了每个插件的年龄。';
+$lang['porg_v13_plugin_manager_image2_label'] = '插件更新页面进行了重新设计，提供了更多信息。请注意，这是与主要扩展更新页面相同的页面：插件、主题、语言。';
+$lang['porg_v13_plugin_manager_text'] = '在对管理已安装插件的第一个选项卡进行重大改造后，我们接管了更新和安装新插件的选项卡。';
+$lang['porg_v13_associations_image1_label'] = '选择与照片关联的相册的用户界面已完全重新设计，目的有两个：1）使页面的重量（以及其显示速度）与图库中的相册数量无关，2）可以通过简单的点击编辑关联相册。';
