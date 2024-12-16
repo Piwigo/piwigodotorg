@@ -313,6 +313,47 @@ DELETE
     }
   }
 
+  // core updates
+  if (isset($data['updates']))
+  {
+    $query = '
+DELETE
+  FROM '.PORG_INSTALL_UPDATES_TABLE.'
+  WHERE install_idx = '.$install_id.'
+;';
+    pwg_query($query);
+
+    $updates_inserts = array();
+
+    foreach ($data['updates'] as $update)
+    {
+      if (
+        !empty($update['action']) and preg_match('/^(auto)?update$/', $update['action'])
+        and !empty($update['occured_on']) and preg_match('/^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$/', $update['occured_on'])
+        and !empty($update['from_version']) and preg_match('/^[a-zA-Z0-9_.-]{1,50}$/', $update['from_version'])
+        and !empty($update['to_version']) and preg_match('/^[a-zA-Z0-9_.-]{1,50}$/', $update['to_version'])
+      )
+      {
+        $updates_inserts[] = array(
+          'install_idx' => $install_id,
+          'action' => $update['action'],
+          'occured_on' => $update['occured_on'],
+          'from_version' => pwg_db_real_escape_string($update['from_version']),
+          'to_version' => pwg_db_real_escape_string($update['to_version']),
+        );
+      }
+      else
+      {
+        $logger->info('['.__FUNCTION__.'][install_id='.$install_id.'] invalid update : '.@$update['action'].'/'.@$update['occured_on'].'/'.@$update['from_version'].'/'.@$update['to_version']);
+      }
+    }
+
+    if (count($updates_inserts) > 0)
+    {
+      mass_inserts(PORG_INSTALL_UPDATES_TABLE, array_keys($updates_inserts[0]), $updates_inserts);
+    }
+  }
+
   // list already registered extensions. We may have to register new ones
   $query = '
 SELECT

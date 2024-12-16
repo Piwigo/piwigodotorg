@@ -15,6 +15,7 @@ define('PORG_INSTALLS_TABLE', '`'.conf_get_param('piwigo.org_db_base', 'piwigo_s
 define('PORG_INSTALL_EXTENSIONS_TABLE', '`'.conf_get_param('piwigo.org_db_base', 'piwigo_site').'`.install_extensions');
 define('PORG_INSTALL_EXTENSION_USAGE_TABLE', '`'.conf_get_param('piwigo.org_db_base', 'piwigo_site').'`.install_extension_usage');
 define('PORG_INSTALL_FILE_EXTENSIONS_TABLE', '`'.conf_get_param('piwigo.org_db_base', 'piwigo_site').'`.install_file_extensions');
+define('PORG_INSTALL_UPDATES_TABLE', '`'.conf_get_param('piwigo.org_db_base', 'piwigo_site').'`.install_updates');
 
 // we put these handlers "before" the test on index page (and the return) because
 // whatever the page, we want to execute them
