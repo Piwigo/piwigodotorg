@@ -18,4 +18,5 @@ $lang['porg_issue_2234'] = '[dark mode] standardize colors';
 $lang['porg_issue_2159'] = '\"Deprecated: addslashes()....\" when syncing gallery';
 $lang['porg_issue_1960'] = 'PHP8.1:  Deprecated: nl2br(): Passing null to parameter #1 ';
 $lang['porg_issue_1152'] = 'incoherent \"last visit\" for a new user';
+$lang['porg_issue_2296'] = 'Fatal error: Declaration of PwgSession::open must be compatible with SessionHandlerInterface::open';
 ?>

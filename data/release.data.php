@@ -27,7 +27,9 @@ $porg_releases = array(
       array('id' => 1960, 'section' => 'Technical'),
       array('id' => 1152, 'section' => 'Users & Groups'),
     ),
-    'known_issues' => array(),
+    'known_issues' => array(
+      array('id' => 2296, 'section' => 'Technical'),
+    ),
     'languages' => array(
       'new' => array(),
       'updated' => array('ca_ES','cs_CZ','da_DK','de_DE','en_UK','es_ES','et_EE','fa_IR','fi_FI','fr_FR','he_IL','is_IS','it_IT','nb_NO','pl_PL','ru_RU','sk_SK','sr_RS','sv_SE','tr_TR','zh_CN','zh_TW'),
