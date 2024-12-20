@@ -1,6 +1,21 @@
 <?php
 $porg_releases = array(
 
+  '15.3.0' => array(
+    'released_on' => '2024-12-20 11:25:00',
+    'md5sum' => 'a48c906843276ec2b676de40f41ae4a1',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 2296, 'section' => 'Technical'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+  ),
+
   '15.2.0' => array(
     'released_on' => '2024-12-19 17:25:00',
     'md5sum' => 'd34bea2cc3334a7d76a6c255574cfd85',
