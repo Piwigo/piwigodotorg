@@ -24,3 +24,4 @@ $lang['porg_issue_2275'] = '[Albumauswahl] Alben, die nur Zahlen im Namen enthal
 $lang['porg_issue_1152'] = 'unzusammenhängend \„letzter Besuch\“ für einen neuen Benutzer';
 $lang['porg_issue_1960'] = 'PHP8.1:  Veraltet: nl2br(): Übergabe von Null an Parameter #1 ';
 $lang['porg_issue_2159'] = '\„Veraltet: addslashes()....\“ beim Synchronisieren der Galerie';
+$lang['porg_issue_2296'] = 'Fataler Fehler: Deklaration von PwgSession::open muss mit SessionHandlerInterface::open kompatibel sein';
