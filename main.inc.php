@@ -131,8 +131,8 @@ function porg_add_methods($arr)
         'ws_porg_contact_send',
         array(
             'email' => array(),
-            'subject' => array(),
             'message' => array(),
+            'key' => array(),
         ),
         'Send email to Piwigo.org (PLG)'
     );

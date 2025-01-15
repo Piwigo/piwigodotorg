@@ -62,6 +62,7 @@ function ws_porg_contact_send($params, &$service)
     echo json_encode(['code'=>400, 'msg'=>'contact form recipient not configured']);
     exit;
   }
+
   $to = $conf['porg_contact_form_to'];
 
   $error = '';
@@ -76,24 +77,28 @@ function ws_porg_contact_send($params, &$service)
     $email = $params["email"];
   }
 
-  /* SUBJECT */
-  $category = 'misc';
-  if (!empty($params['subject']) and preg_match('/^\w+$/', $params['subject']))
+  /* KEY */
+  if (!verify_ephemeral_key($params['key']))
   {
-    $category = $params['subject'];
+    $error .= 'invalid key';
   }
 
-  $subject = l10n('[piwigo.org contact form, %s] %s contacted you on %s', $category, $email, date('Y-m-d H:i:s'));
+  /* SUBJECT */
+  $subject = l10n('[piwigo.org contact form] %s contacted you on %s', $email, date('Y-m-d H:i:s'));
 
+  /* MESSAGE */
+  if (preg_match('/https?:\/\//', $params['message']))
+  {
+    $error .= 'please, no link in your message';
+  }
+  
   $message = quoted_printable_encode(stripslashes($params["message"]));
 
   if (empty($error))
   {
     $headers = 'From: '.$params['email']."\n";
     $headers.= 'Reply-To: '.$params['email']."\n";
-    $headers.= 'Cc: '.$params['email']."\n";
     $headers.= 'X-Mailer: Piwigo.org Mailer'."\n";
-
     $headers.= "MIME-Version: 1.0\n";
     $headers.= "Content-type: text/plain; charset=utf-8\n";
     $headers.= "Content-Transfer-Encoding: quoted-printable\n";
