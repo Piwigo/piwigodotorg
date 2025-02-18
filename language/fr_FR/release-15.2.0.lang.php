@@ -24,3 +24,4 @@ $lang['porg_issue_2290'] = '[plugins] les liens vers les pages des extensions m�
 $lang['porg_issue_2292'] = '[activités] distinguer les méthodes d\'authentification';
 $lang['porg_issue_2294'] = 'Avertissement de session obsolète en PHP 8.4';
 $lang['porg_issue_2295'] = '[statistiques anonymes à piwigo.org] envoi des mises à jour du noyau';
+$lang['porg_issue_2296'] = 'Erreur fatale : La déclaration de PwgSession::open doit être compatible avec SessionHandlerInterface::open';
