@@ -95,6 +95,7 @@ $lang['language_sl_SI'] = 'Slovenian';
 $lang['language_sr_RS'] = 'Serbian';
 $lang['language_sv_SE'] = 'Swedish';
 $lang['language_ta_IN'] = 'Tamil';
+$lang['language_te_IN'] = 'Telugu';
 $lang['language_th_TH'] = 'Thai';
 $lang['language_tr_TR'] = 'Turkish';
 $lang['language_uk_UA'] = 'Ukrainian';

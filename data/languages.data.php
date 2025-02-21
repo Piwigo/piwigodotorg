@@ -84,6 +84,7 @@ $porg_languages = array(
   'sr_RS' => 'Српски',
   'sv_SE' => 'Svenska',
   'ta_IN' => 'தமிழ்',
+  'te_IN' => 'తెలుగు',
   'th_TH' => 'ภาษาไทย',
   'tr_TR' => 'Türkçe',
   'uk_UA' => 'Українська',

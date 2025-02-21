@@ -1,6 +1,39 @@
 <?php
 $porg_releases = array(
 
+  '15.4.0' => array(
+    'released_on' => '2025-02-20 19:25:00',
+    'md5sum' => '9afbd3b26a1918f939c008d9342c836b',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 2325, 'section' => 'UX'),
+      array('id' => 2324, 'section' => 'Technical'),
+      array('id' => 2323, 'section' => 'Users & Groups'),
+      array('id' => 2322, 'section' => 'Technical'),
+      array('id' => 2319, 'section' => 'Technical'),
+      array('id' => 2317, 'section' => 'Users & Groups'),
+      array('id' => 2316, 'section' => 'Albums'),
+      array('id' => 2315, 'section' => 'Users & Groups'),
+      array('id' => 2314, 'section' => 'Albums'),
+      array('id' => 2311, 'section' => 'Technical'),
+      array('id' => 2310, 'section' => 'Technical'),
+      array('id' => 2309, 'section' => 'Photos'),
+      array('id' => 2308, 'section' => 'UX'),
+      array('id' => 2303, 'section' => 'Users & Groups'),
+      array('id' => 2300, 'section' => 'Technical'),
+      array('id' => 2280, 'section' => 'Users & Groups'),
+      array('id' => 2235, 'section' => 'Photos'),
+      array('id' => 2234, 'section' => 'UX'),
+      array('id' => 698, 'section' => 'Photos'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array('te_IN'),
+      'updated' => array('cs_CZ','de_DE','el_GR','en_GB','en_UK','fa_IR','fr_FR','he_IL','it_IT','ja_JP','nl_NL','sl_SI','zh_CN'),
+    ),
+  ),
+
   '15.3.0' => array(
     'released_on' => '2024-12-20 11:25:00',
     'md5sum' => 'a48c906843276ec2b676de40f41ae4a1',
