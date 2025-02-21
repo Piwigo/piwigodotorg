@@ -74,6 +74,16 @@
           <input type="email" class="form-control input-email" id="form-email" data-error="{'porg_contact_error_email'|translate}" required>
           <div class="help-block with-errors email-error"></div>
         </div>
+        <div class="col-md-4 form-group">
+          <p class="contact-category bold">{'Category'|translate}</p>
+          <span class="dropdown-el">
+            <input type="radio" name="sortType" value="press" id="sort-best" {if $category == 'press'} checked {/if}><label for="sort-best">{'Press inquiry'|translate}</label>
+            <input type="radio" name="sortType" value="partnership" id="sort-low" {if $category == 'partnership'} checked {/if}><label for="sort-low">{'Partnership'|translate}</label>
+            <input type="radio" name="sortType" value="security" id="sort-high" {if $category == 'security'} checked {/if}><label for="sort-high">{'Security report'|translate}</label>
+            <input type="radio" name="sortType" value="beta testing" id="sort-beta" {if $category == 'beta testing'} checked {/if}><label for="sort-beta">{'Beta testing'|translate}</label>
+            <input type="radio" name="sortType" value="testimonial" id="sort-brand" {if $category == 'testimonial'} checked {/if}><label for="sort-brand">{'Testimonial'|translate}</label>
+          </span>
+        </div>
         <div class="col-md-12 form-group">
           <label for="form-message">{'Your message'|translate}</label>
           <textarea class="form-control" id="form-message" rows="5" data-error="{'porg_contact_error_message'|translate}" required></textarea>
