@@ -248,6 +248,11 @@ function porg_get_news($start, $count)
 
   $topics = null;
 
+  if (!in_array($page['porg_domain_prefix'], array('', 'de.', 'fr.')))
+  {
+    return $topics;
+  }
+
   $cache_path = $conf['data_location'].'/'.PORG_ID.'/porg_news-'.$lang_info['code'].'.cache.php';
   if (!is_file($cache_path) or filemtime($cache_path) < strtotime('15 minutes ago'))
   {
