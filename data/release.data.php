@@ -1,6 +1,32 @@
 <?php
 $porg_releases = array(
 
+  '15.5.0' => array(
+    'released_on' => '2025-03-12 11:25:00',
+    'md5sum' => 'a1ca70de46decb09c99b93f9b708fddb',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 2342, 'section' => 'UX'),
+      array('id' => 2341, 'section' => 'Technical'),
+      array('id' => 2340, 'section' => 'Users & Groups'),
+      array('id' => 2339, 'section' => 'Photos'),
+      array('id' => 2337, 'section' => 'Users & Groups'),
+      array('id' => 2336, 'section' => 'Technical'),
+      array('id' => 2335, 'section' => 'Technical'),
+      array('id' => 2334, 'section' => 'Technical'),
+      array('id' => 2333, 'section' => 'Technical'),
+      array('id' => 2329, 'section' => 'Technical'),
+      array('id' => 2327, 'section' => 'Users & Groups'),
+      array('id' => 2326, 'section' => 'Photos'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('da_DK','de_DE','et_EE','fr_FR','he_IL','is_IS','nl_NL','pt_BR','sv_SE'),
+    ),
+  ),
+
   '15.4.0' => array(
     'released_on' => '2025-02-20 19:25:00',
     'md5sum' => '9afbd3b26a1918f939c008d9342c836b',
