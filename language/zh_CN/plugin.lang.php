@@ -174,3 +174,4 @@ $lang['porg_users_public'] = '公共部门';
 $lang['porg_users_tourism'] = '旅游和文化';
 $lang['language_ga_IE'] = '盖尔语';
 $lang['language_hy_AM'] = '亚美尼亚语';
+$lang['language_te_IN'] = '泰卢固语';
