@@ -174,3 +174,4 @@ $lang['porg_users_perso'] = 'Fotografowie i osoby prywatne';
 $lang['porg_users_public'] = 'Sektor publiczny';
 $lang['porg_users_tourism'] = 'Turystyka i kultura';
 $lang['See pricing'] = 'Zobacz cennik';
+$lang['language_te_IN'] = 'Telugu';
