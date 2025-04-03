@@ -174,3 +174,4 @@ $lang['porg_users_tourism'] = 'Turizm ve Kültür';
 $lang['Who uses Piwigo ?'] = 'Kimler Piwigo Kullanıyor?';
 $lang['language_hy_AM'] = 'Ermenice';
 $lang['See pricing'] = 'Fiyatlandırmaları gör';
+$lang['language_te_IN'] = 'Telugu';
