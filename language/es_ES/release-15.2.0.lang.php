@@ -24,3 +24,4 @@ $lang['porg_issue_2290'] = '[plugins] los enlaces a PEM siempre están en inglé
 $lang['porg_issue_2292'] = '[actividades] distinguir métodos de autenticación';
 $lang['porg_issue_2294'] = 'Advertencia de sesión obsoleta en PHP 8.4';
 $lang['porg_issue_2295'] = '[estadísticas anónimas a piwigo.org] enviar actualizaciones del núcleo';
+$lang['porg_issue_2296'] = 'Error crítico: La declaración de PwgSession::open tiene que ser compatible con SessionHandlerInterface::open';
