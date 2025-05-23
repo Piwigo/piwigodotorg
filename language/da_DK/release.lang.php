@@ -37,7 +37,7 @@ $lang['Once you have extracted the files, transfer them onto your web server wit
 $lang['Release note'] = 'Udgivelsesbemærkning';
 $lang['Released on %s'] = 'Udgivet den %s';
 $lang['The MD5 sum is a convenient tool to make sure that your file is not corrupted.'] = 'MD5-summen er en bekvem måde at sikre sig, at ens fil ikke er blevet ødelagt.';
-$lang['The list of major changes is described on <a href="%s">Piwigo %s</a> release note'] = 'Listen over større ændringer er beskrevet udgivelsesbemærkningerne til <a href="%s">Piwigo %s</a>';
+$lang['The list of major changes is described on <a href="%s">Piwigo %s</a> release note'] = 'Listen over større ændringer er beskrevet i udgivelsesbemærkningerne til <a href="%s">Piwigo %s</a>';
 $lang['Updated languages'] = 'Opdaterede sprog';
 $lang['Upgrade'] = 'Opgrader';
 $lang['We recommend the <b>automatic upgrade</b>.'] = 'Vi anbefaler den <b>automatiske opgradering</b>.';
