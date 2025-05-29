@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2025-05-28' => array (
+                'title' => 'Un peu d\'IA, des stats, des actus et un championnat de France',
+                'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2025/05/20/20250520142006-ccce8ac0-la.png',
+                'summary' => 'L\'intelligence artificielle arrive bientôt dans Piwigo, des statistiques anonymes issues des installations de Piwigo, des petites actus et un championnat de France !',
+            ),
             '2024-07-03' => array (
                 'title' => 'Piwigo 15, première version beta',
                 'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2024/07/01/20240701153710-4fff0279.png',
@@ -304,6 +309,11 @@
             ),
         ),
         'en' => array(
+            '2025-05-29' => array (
+                'title' => 'A bit of AI, some statistics and other news',
+                'image' => 'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2025/05/20/20250520141947-1bd4c418-xl.png',
+                'summary' => 'Artificial Intelligence is coming soon to Piwigo, some statistics from anonymous data collected on Piwigo installs and our latest news.',
+            ),
             '2024-08-23' => array (
                 'title' => 'The rebirth of Piwigo documentation',
                 'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2024/08/23/20240823115846-468e38cf-la.png',
@@ -601,6 +611,11 @@
             ),
         ),
         'de' => array(
+            '2025-05-29' => array (
+                'title' => 'Ein bisschen AI, Statistiken, Nachrichten und eine französische Meisterschaft',
+                'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2025/05/20/20250520142006-ccce8ac0-xl.png',
+                'summary' => 'Künstliche Intelligenz kommt bald in Piwigo an, anonyme Statistiken von Piwigo-Installationen, kleine Nachrichten und eine französische Meisterschaft!',
+            ),
             '2024-07-03' => array (
                 'title' => 'Piwigo 15.0.0 beta1',
                 'image' => 'https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2024/07/01/20240701153710-4fff0279.png',
