@@ -1,6 +1,22 @@
 <?php
 $porg_releases = array(
 
+  '15.6.0' => array(
+    'released_on' => '2025-07-25 15:07:00',
+    'md5sum' => 'ddd47a19713a1e0627a8ed37e7fef1a4',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 2390, 'section' => 'Technical'),
+      array('id' => 2376, 'section' => 'Photos'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('br_FR','ca_ES','cs_CZ','de_DE','el_GR','en_UK','es_ES','eu_ES','fi_FI','fr_CA','fr_FR','it_IT','nb_NO','nl_NL','pl_PL','sk_SK','sr_RS','tr_TR','zh_CN','zh_TW'),
+    ),
+  ),
+
   '15.5.0' => array(
     'released_on' => '2025-03-12 11:25:00',
     'md5sum' => 'a1ca70de46decb09c99b93f9b708fddb',
