@@ -176,3 +176,4 @@ $lang['porg_users_public'] = 'Publieke sector';
 $lang['porg_users_tourism'] = 'Toerisme & Cultuur';
 $lang['language_hy_AM'] = 'Armeens';
 $lang['See pricing'] = 'Prijzen';
+$lang['language_te_IN'] = 'Indiase taal (Telugu)';
