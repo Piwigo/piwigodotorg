@@ -174,3 +174,4 @@ $lang['porg_users_public'] = 'Settore pubblico';
 $lang['porg_users_tourism'] = 'Turismo e Cultura';
 $lang['language_hy_AM'] = 'Armeno';
 $lang['See pricing'] = 'Vedi listino prezzi.';
+$lang['language_te_IN'] = 'Telugu';
