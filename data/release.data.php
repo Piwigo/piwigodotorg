@@ -1,6 +1,24 @@
 <?php
 $porg_releases = array(
 
+  '15.7.0' => array(
+    'released_on' => '2025-10-20 18:36:00',
+    'md5sum' => '37bd1b5d8c86c1f2bfa4ac4e63986b28',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 2408, 'section' => 'Photos'),
+      array('id' => 2396, 'section' => 'Photos'),
+      array('id' => 'GHSA-9986-w7jf-33f6', 'section' => 'Security'),
+      array('id' => 'GHSA-h4wx-7m83-xfxc', 'section' => 'Security'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('bg_BG','ca_ES','cs_CZ','da_DK','de_DE','en_UK','es_ES','fr_CA','fr_FR','he_IL','is_IS','it_IT','nb_NO','nl_NL','pl_PL','pt_BR','sv_SE','tr_TR','zh_CN'),
+    ),
+  ),
+
   '15.6.0' => array(
     'released_on' => '2025-07-25 15:07:00',
     'md5sum' => 'ddd47a19713a1e0627a8ed37e7fef1a4',
