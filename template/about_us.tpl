@@ -378,19 +378,13 @@
       <p>{'porg_about_us_business_desc1'|translate} {'porg_about_us_business_desc2'|translate}</p>
     </div>
     <div class="equal row-about-content-business-model">
-      <div class="col-md-4">
-        <div class=" col-about-donations">
-          <h3>{'Donations'|translate}</h3>
-          <p>{'porg_about_us_donation_desc1'|translate} {'porg_about_us_donation_desc2'|translate} {'porg_about_us_donation_desc3'|translate:"{$URL.get_involved}#donate"}</p>
-        </div>
-      </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="col-about-piwigodotcom">
           <h3>{'Piwigo.com'|translate}</h3>
           <p>{'porg_about_us_dotcom_desc1'|translate} {'porg_about_us_dotcom_desc2'|translate} {'porg_about_us_dotcom_desc3'|translate}</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="col-about-prestations">
           <h3>{'Services'|translate}</h3>
           <p>{'porg_about_us_service_desc1'|translate} {'porg_about_us_service_desc2'|translate}</p>
