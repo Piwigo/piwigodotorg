@@ -4,8 +4,7 @@
         <div class="row">
           <div class="col-md-2">
             <div class="text-center icon-social-media">
-              <a href="https://www.facebook.com/Piwigo"><img src="{$PORG_ROOT_URL}images/footer/facebook.svg" class="icon-facebook" alt="Facebook icon"></a>
-              <a href="https://twitter.com/piwigo"><img src="{$PORG_ROOT_URL}images/footer/twitter.svg" class="icon-twitter" alt="Twitter icon"></a>
+              <a href="https://www.linkedin.com/company/piwigo"><img src="{$PORG_ROOT_URL}images/footer/linkedin.svg" class="icon-linkedin" alt="LinkedIn icon"></a>
               <a href="https://github.com/Piwigo"><img src="{$PORG_ROOT_URL}images/footer/github.svg" class="icon-github" alt="Github icon"></a>
             </div>
             <div class="row">
