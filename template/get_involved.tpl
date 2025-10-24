@@ -103,38 +103,6 @@
     </div>
   </section>
 
-  <section class="container container-get-involved-donate" id="donate">
-    <div class="row">
-      <div class="col-md-8 col-get-involved-donate-content">
-        <h2>{'Donate to Piwigo'|translate}</h2>
-        <p>{'porg_get_involved_donate_desc1'|translate} {'porg_get_involved_donate_desc2'|translate} {'porg_get_involved_donate_desc3'|translate}<br><br>
-        {'porg_get_involved_donate_desc4'|translate}<br><br>
-        {'porg_get_involved_donate_desc5'|translate} <a href="https://www.paypal.com/"><img src="{$PORG_ROOT_URL}images/get_involved/paypal.svg"/></a></p>
-      </div>
-      <div class="col-md-4 col-get-involved-donate-form text-center">
-        <h2>{'Your Gift'|translate}</h2>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="text-align:center">
-          <input type="hidden" name="cmd" value="_s-xclick" />
-          <input type="hidden" name="hosted_button_id" value="SY9HLFGH49ERU" />
-          <input type="submit" value="{'Donate'|translate|escape:html}" class="btn btn-gift-donate" />
-        </form>
-{*
-        <button class="btn btn-gift-money bold">100€</button>
-        <button class="btn btn-gift-money bold">50€</button>
-        <button class="btn btn-gift-money bold">25€</button>
-        <button class="btn btn-gift-money bold">Other</button>
-        <div class="form-check">
-          <label class="form-check-label">
-          <input type="checkbox" class="form-check-input">
-          <span>{'Make this a monthly gift'|translate}</span>
-          </label>
-        </div>
-        <button class="btn btn-gift-donate">{'Donate'|translate}</button>
-*}
-      </div>
-    </div>
-  </section>
-
   <section class="container-fluide container-fluide-thanks-donator">
     <div class="container">
       <div class="row row-thanks-donator">

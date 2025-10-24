@@ -10,11 +10,6 @@
             </div>
             <div class="row">
               <div class="col-md-12 col-xs-6">
-                <div class="footer-donate-content">
-                  <a type="button" class="btn" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/{$URL.get_involved}#donate"><img src="{$PORG_ROOT_URL}images/footer/donate.svg" alt="Donate to Piwigo"/>{'Donate'|translate}</a>
-                </div>
-              </div>
-              <div class="col-md-12 col-xs-6">
                 <div class=" footer-newspaper-content">
                   <a type="button" class="btn" href="//{$PORG_DOMAIN_PREFIX}piwigo.org/{$URL.newsletters}"><img src="{$PORG_ROOT_URL}images/footer/newsletters.svg" alt="Newsletter from Piwigo"/>{'Newsletters'|translate}</a>
                 </div>
