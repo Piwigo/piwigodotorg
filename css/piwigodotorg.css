@@ -7276,11 +7276,18 @@ section.release-notes-overview li a {
     padding: 50px;
 }
 
+#releaseNotesMain .section-framed.extension {
+    background-color:#efecfa;
+    color:#463283;
+    padding: 50px;
+}
+
 #releaseNotesMain .section-framed img.information {
     width: 75px;
     margin-top: -88px;
     float: left;
 }
+
 
 #releaseNotesMain.major-release .section-framed p {
     text-align: left;
@@ -7292,6 +7299,17 @@ section.release-notes-overview li a {
 
 #releaseNotesMain.major-release .section-framed p a {
     color:#020002;
+}
+
+#releaseNotesMain .section-framed.extension i{
+  float:left;
+  font-size:100px;
+  margin-top:-130px;
+}
+
+#releaseNotesMain .section-framed.extension i:before{
+  margin:0;
+  width:100%;
 }
 
 .technical-features pre{
@@ -8071,6 +8089,20 @@ section.release-notes-overview li a {
   }
 }
 
+/* Changelog version 16 */
+.release-16_0_0 .container-release-note {
+    background: linear-gradient(135deg, rgb(255, 119, 0) 0%, rgb(249, 76, 93) 50%, rgb(249, 76, 93) 100%);
+}
+.release-16_0_0 .container-release-note span {
+    color: white;
+}
+
+.get-docker{
+  padding:7px 15px;
+  background-color:#ff7700;
+  color:white;
+}
+
  /* any release */
 
 .release-menu {
@@ -8144,6 +8176,10 @@ a.btn-back-to-menu {
 a.btn-back-to-menu:hover {
     background: url(../images/changelogs/back-to-menu-hover.svg);
     background-size: cover;
+}
+
+.piwigo-realease-banner{
+  width:100%
 }
 
 /******************************

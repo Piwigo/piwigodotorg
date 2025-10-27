@@ -1,6 +1,20 @@
 <?php
 $porg_releases = array(
-
+  '16.0.0' => array(
+    'released_on' => '',
+    'md5sum' => '',
+    'summary' => array('Standard pages', 'API keys', 'Docker image'),
+    'subtitle' => 'Standard pages, API keys, Docker image.',
+    'features' => array(),
+    'bugs' => array(),
+    'known_issues' => array(),
+    'show_in_changelogs' => false,
+    'languages' => array(
+      'new' => array(),
+      'updated' => array(),
+    ),
+    'changelogs_image'=>'https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2025/09/02/20250902113553-22ad2a8c.png'
+  ),
   '15.7.0' => array(
     'released_on' => '2025-10-20 18:36:00',
     'md5sum' => '37bd1b5d8c86c1f2bfa4ac4e63986b28',
