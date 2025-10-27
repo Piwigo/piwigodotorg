@@ -44,7 +44,7 @@ $(document).ready(function() {
           </div>
 
           <div class="col-sm-12 col-md-6 responsive-image">
-            <img class="img-fluid" src="{$PORG_ROOT_URL}/images/home/responsive-screens.png">
+            <img class="img-fluid" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2025/10/23/20251023120922-20935845.png">
           </div>
 
           <div class="col-md-12 latest-activites">
