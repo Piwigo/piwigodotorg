@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="col-sm-12 col-md-6 text-center">
-      <p class="intro-text intro-text2_10" id="intro-main-text">Piwigo 16 brings a fresh layer of consistency, control, and security. With the new Standard Pages design, common pages like Sign In, Account and more now share a clean, customizable look. API keys and a new Two-Factor Authentication plugin strengthen gallery protection, while updates to the advanced search and admin screens make everyday tasks smoother.</p>
+      <p class="intro-text intro-text2_10" id="intro-main-text">Piwigo 16 brings a fresh layer of consistency, control, and security. With the new Standard Pages design, common pages like Sign In, Profile and more now share a clean, customizable look. API keys and a new Two-Factor Authentication plugin strengthen gallery protection, while updates to the advanced search and admin screens make everyday tasks smoother.</p>
       <p class="intro-text intro-text2_10" id="intro-main-text"> Piwigo 16 once again proves that thoughtful details make all the difference to managing your photo library.</p>
       
     </div>
@@ -36,7 +36,7 @@
     <div class="row release-menu-content">
       <div class="col-md-4">
         <ul>
-          <li><a href="#standard_pages" class="icon-arrows-cw">Standard pages</a></li>
+          <li><a href="#standard_pages" class="icon-star">Standard pages</a></li>
           <li><a href="#api_keys" class="icon-star">API keys</a></li>
           <li><a href="#2fa" class="icon-puzzle">Two factor authentification</a></li>
           <li><a href="#related_tags" class="icon-brush">Related tags</a></li>
@@ -70,11 +70,11 @@
 
 {* Standard pages *}
 <div class="section-part">
-  <h3 id="standard_pages">Standard pages<span class="badge badge-redesign icon-arrows-cw">Redesign</span></h3>
+  <h3 id="standard_pages">Standard pages<span class="badge badge-new icon-star">New</span></h3>
 
   <div class="row">
     <div class="col-sm-2 col-md-3"></div>
-    <p class="col-sm-8 col-md-6 descriptive-text">We have introduced, an optional, default design for common pages to all themes. Aka the pages Sign in, Register, Forgotten password and Account.</p>
+    <p class="col-sm-8 col-md-6 descriptive-text">We have introduced, an optional, default design for common pages to all themes. Aka the pages Sign in, Register, Forgotten password and Profile.</p>
     <div class="col-sm-2 col-md-3"></div>
   </div>
 
@@ -113,7 +113,7 @@
 
   <div class="row second-image-and-caption ">
     <div class="col-sm-12 col-md-4">
-    <p class="screenshot-caption">On the account page users can handle everything as before (update their email, password and gallery preferences) </p>
+    <p class="screenshot-caption">On the profile page users can handle everything as before (update their email, password and gallery preferences) </p>
     </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
@@ -248,7 +248,7 @@
   <div class="row first-image-and-caption">
     <div class="col-sm-12 col-md-8 ">
       <img class="img-fluid corner1" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
-      <img src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2025/10/24/20251024160311-8fba20ea.png" class="screenshot">
+      <img src="https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2025/10/24/20251024160311-8fba20ea-sm.png" class="screenshot">
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
     <div class="col-sm-12 col-md-4">
@@ -262,7 +262,7 @@
     </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
-      <img src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8//2025/10/24/20251024163202-5094e509.png" class="screenshot">
+      <img src="https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2025/10/24/20251024160644-db578cfd-me.png" class="screenshot">
       <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
   </div>
@@ -295,7 +295,7 @@
 {* i18n date support *}
 <div class="section-framed-container" id="i18n_date">
   <div class="section-part section-framed">
-      <img src="https://localhost/piwigo.org/./plugins/piwigodotorg/images/changelogs/information.svg" class="information">
+      <img src="{$PORG_ROOT_URL}images/changelogs/information.svg" class="information">
       <h3 id="anonymous_stats">I18n date support</h3>
       <p>We have added support for different ways of writing dates according to the languages. At the moment 3 languages are compatible (English, French and German). By default the english way of writing a date is used</p>
       <p>For example: "Tuesday, 7 October 2025" (in english) "mardi 7 octobre 2025" in french and "7. Oktober 2025" in German </p>
@@ -327,7 +327,7 @@
 
 {* Update image from upload form *}
 <div class="section-part">
-  <h3 id="image_update">Updating images in batches<span class="badge badge-refresh image_update">Redesign</span></h3>
+  <h3 id="image_update">Updating images in batches<span class="badge badge-redesign icon-arrows-cw">Redesign</span></h3>
 
   <div class="row">
     <div class="col-sm-2 col-md-3"></div>
@@ -351,7 +351,7 @@
 {*New image sizes *}
 <div class="section-framed-container" id="3xl_4xl">
   <div class="section-part section-framed">
-      <img src="https://localhost/piwigo.org/./plugins/piwigodotorg/images/changelogs/information.svg" class="information">
+      <img src="{$PORG_ROOT_URL}/images/changelogs/information.svg" class="information">
       <h3 id="anonymous_stats">New image sizes 3XL and 4XL</h3>
       <p>With HD images and screen resolutions getting bigger we also needed bigger derivative sizes. If the orignal images allows it, new 3XL and 4XL sizes will be generated by Piwigo. This option isn't activated by default however, to not take up all the storage space for those with smaller servers.</p>
   </div>
