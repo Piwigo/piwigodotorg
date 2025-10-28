@@ -183,7 +183,7 @@
     </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
-      <img src="https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2025/10/07/20251007082655-f29b6e74-xx.png" class="screenshot">
+      <img src="https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2025/10/28/20251028142108-cfab77cf-xx.png" class="screenshot">
       <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
   </div>
