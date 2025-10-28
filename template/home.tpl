@@ -87,7 +87,7 @@ $(document).ready(function() {
         <div class="carousel-inner" role="listbox">
 {assign var="counter" value="0"}
           <div class="item row active">
-{foreach from=$home_logos item=$logo}
+{foreach $home_logos as $logo}
   {assign var="counter" value=$counter + 1}
             <div class="col col-sm-3 center-block">
               <img id="{$logo.name}" class="img-responsive" src="{$logo.element_url}">
@@ -190,7 +190,7 @@ $(document).ready(function() {
     <div class="row text-center">
       <h2>{'porg_showcase_title'|translate}</h2>
       <div class="showcases-home" data-basesrc="{$PORG_ROOT_URL}images/showcases/">
-  {foreach from=$SHOWCASES item=$showcase}
+  {foreach $SHOWCASES as $showcase}
         <div class="col-md-3 col-xs-12 showcases-content">
           <div class="showcase" >
             <img src="{$showcase.element_url}" alt="{$showcase.name}">
@@ -225,7 +225,7 @@ $(document).ready(function() {
               {if isset($testimonial.country)}<span>{"country_{$testimonial.country}"|translate}</span>{/if}
             </div>
           </div>
-  {if $smarty.foreach.testimonials_loop.index == ceil(count($TESTIMONIALS) / 2) - 1}
+  {if $smarty.foreach.testimonials_loop.index == {math equation="ceil(x / 2) - 1" x=$TESTIMONIALS|@count}}
         </div>
         <div class="col col-md-6">
   {/if}
