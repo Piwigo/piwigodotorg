@@ -207,23 +207,6 @@
 
 </div>
 
-{* Newsletter banner *}
-<div class="section-part">
-  <h3 id="newsletter_banner">Newsletter subscription banner<span class="badge badge-new icon-star">New</span></h3>
-
-  <div class="row second-image-and-caption ">
-    <div class="col-sm-12 col-md-4">
-    <p class="screenshot-caption">Piwigo 16 will promote our newsletter. For those that don't yet know about its added value to keep informed about Piwigo. Of course this banner ad is hidden "forever" in 1 click.</p>
-    </div>
-    <div class="col-sm-12 col-md-8  right-image-screenshot">
-      <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
-      <img src="https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2025/07/18/20250718162833-99abd177-la.png" class="screenshot">
-      <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
-    </div>
-  </div>
-
-</div>
-
 {* Interview Romain *}
 <div id="interview_romain" class="interview-container">
   <div class="interview interview1">
