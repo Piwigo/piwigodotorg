@@ -17,8 +17,8 @@
       </div>
     </div>
     <div class="col-sm-12 col-md-6 text-center">
-      <p class="intro-text intro-text2_10" id="intro-main-text">Piwigo 16 brings a fresh layer of consistency, control, and security. With the new Standard Pages design, common pages like Sign In, Profile and more now share a clean, customizable look. API keys and a new Two-Factor Authentication plugin strengthen gallery protection, while updates to the advanced search and admin screens make everyday tasks smoother.</p>
-      <p class="intro-text intro-text2_10" id="intro-main-text"> Piwigo 16 once again proves that thoughtful details make all the difference to managing your photo library.</p>
+      <p class="intro-text intro-text2_10" id="intro-main-text">Piwigo 16 brings a fresh layer of consistency, control, and security. With the new Standard Pages design, pages like Sign In and Profile and more now share a clean, customizable look. API keys and a new Two-Factor Authentication plugin strengthen gallery protection, while updates to the advanced search and admin screens make everyday tasks smoother.</p>
+      <p class="intro-text intro-text2_10" id="intro-main-text">Once again, Piwigo 16 proves that thoughtful details make all the difference when managing your photo library.</p>
       
     </div>
   </div>
