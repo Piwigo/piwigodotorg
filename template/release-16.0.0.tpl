@@ -84,7 +84,7 @@
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
     <div class="col-sm-12 col-md-4">
-      <p class="screenshot-caption">The aim is to provide a minimalist design, easily personnalisable, that is the same for all users no matter the theme they choose to use.</p>
+      <p class="screenshot-caption">The aim is to provide a minimalist design, easily customizable, that is the same for all users no matter the theme they choose to use.</p>
     </div>
   </div>
 
@@ -127,9 +127,10 @@
 <div class="section-framed-container" id="2fa">
   <div class="section-part section-framed extension">
       <i class="icon-puzzle"></i>
-      <h3 id="anonymous_stats">New plugin: Two factor authentication</h3>
-      <p>Using our new standard pages API keys, a new two factor authentication plugin has been developped. It allows users to add an extra layer of security to the Gallery by requiring a second authentication factor after entering your username and password.</p>
-      <p></p>
+      <h3 id="anonymous_stats">Two factor authentication, renewed</h3>
+      <p>Two factor authentication (or 2FA) is the famous confirmation code requested in sign in forms. The confirmation code is sent in a third party system to prevent identity theft.</p>
+
+      <p>Piwigo already had a plugin "Two-factor Authentication" (by mail only) since 2022 but enabling it made authentication impossible to mobile apps or any script using Piwigo API. We have decided to rework it. The new plugin is now compatible with mobile apps, by using the new API keys. Instead of using email to get the confirmation code, we have added compatibility with TOTP (Time-based one-time password) which is far more reliable.</p>
   </div>
 </div>
 
@@ -139,7 +140,7 @@
 
   <div class="row">
     <div class="col-sm-2 col-md-3"></div>
-    <p class="col-sm-8 col-md-6 descriptive-text">We have decided to improve how and where related tags are displayed. An often misunderstood funtcionnality we have worked hard on updating the user flow to display related tags linked to the thumbnails displayed</p>
+    <p class="col-sm-8 col-md-6 descriptive-text">We have decided to improve how and where related tags are displayed. We think it is, and has always been, a great and quite uncommon feature offered by Piwigo. The new way to display related tags will encourage their use and we hope you will happily re-discover them.</p>
     <div class="col-sm-2 col-md-3"></div>
   </div>
 
@@ -156,7 +157,7 @@
 
   <div class="row second-image-and-caption ">
     <div class="col-sm-12 col-md-4">
-    <p class="screenshot-caption">When you open a tag page, you'll see badges showing the different options for combining the current tag with others. You can click on multiple badges to "combine" them and see which pictures have that specific combination of tags.</p>
+    <p class="screenshot-caption">When you open a tag page, you'll see related tags shown as badges for combining with current tags in a single click.</p>
     </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
@@ -178,7 +179,7 @@
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
     <div class="col-sm-12 col-md-4">
-      <p class="screenshot-caption">Following a previous update edit Album page, where the save button got moved, we found that it was better for user experience to have the save button always visible at the bottom of the page.</p>
+      <p class="screenshot-caption">Following a previous update on the edit Album page, where the save button got moved, we found that it was better for user experience to have the save button always visible at the bottom of the page.</p>
     </div>
   </div>
 
@@ -201,7 +202,7 @@
 
   <div class="row">
     <div class="col-sm-2 col-md-3"></div>
-    <p class="col-sm-8 col-md-6 descriptive-text">In Piwigo 14 we introduced a new way to search in the gallery. This search had predefined widgets that were available by default and others that needed activating everytime. Piwigo 16 allows admins to change this.</p>
+    <p class="col-sm-8 col-md-6 descriptive-text">In Piwigo 14 we introduced a new way to search in the gallery. 4 filters were active by default. Piwigo 16 allows admins to change available filters and which ones are displayed by default.</p>
     <div class="col-sm-2 col-md-3"></div>
   </div>
 
@@ -256,9 +257,15 @@
 <div class="section-framed-container" id="i18n_date">
   <div class="section-part section-framed">
       <img src="{$PORG_ROOT_URL}images/changelogs/information.svg" class="information">
-      <h3 id="anonymous_stats">I18n date support</h3>
-      <p>We have added support for different ways of writing dates according to the languages. At the moment 3 languages are compatible (English, French and German). By default the english way of writing a date is used</p>
-      <p>For example: "Tuesday, 7 October 2025" (in english) "mardi 7 octobre 2025" in french and "7. Oktober 2025" in German </p>
+      <h3 id="anonymous_stats">Dates format depends on language</h3>
+      <p>We have added support for different ways of writing dates according to the language. The english way of writing a date is used by default. For example:</p>
+      <ul>
+        <li>"Tuesday, October 7, 2025" in American English</li>
+        <li>"mardi 7 octobre 2025" in French</li>
+        <li>"Dienstag, 7. Oktober 2025" in German</li>
+        <li>"martes, 7 de octubre de 2025" in Spanish</li>
+        <li>...</li>
+      </ul>
   </div>
 </div>
 
@@ -297,7 +304,7 @@
 
   <div class="row second-image-and-caption ">
     <div class="col-sm-12 col-md-4">
-    <p class="screenshot-caption">Piwigo will detect files in the same album with the same filename. Visually the photo will be updated but its properties will remain the same</p>
+    <p class="screenshot-caption">Piwigo will detect files in the same album with the same filename. Visually the photo will be updated but its properties (title, tags, description...) will remain the same.</p>
     </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
@@ -313,7 +320,7 @@
   <div class="section-part section-framed">
       <img src="{$PORG_ROOT_URL}/images/changelogs/information.svg" class="information">
       <h3 id="anonymous_stats">New image sizes 3XL and 4XL</h3>
-      <p>With HD images and screen resolutions getting bigger we also needed bigger derivative sizes. If the orignal images allows it, new 3XL and 4XL sizes will be generated by Piwigo. This option isn't activated by default however, to not take up all the storage space for those with smaller servers.</p>
+      <p>With HD images and screen resolutions getting bigger we also needed bigger display sizes. Even on a small 14 inches screen, the XXL size does not always fills the screen space, because the screen often has a high definition. 3XL and 4XL will now make it possible to "fill the whole space". If the orignal images allows it, new 3XL and 4XL sizes will be generated by Piwigo. This option isn't activated by default to save storage space.</p>
   </div>
 </div>
 
@@ -323,7 +330,7 @@
 
   <div class="row">
     <div class="col-sm-2 col-md-3"></div>
-    <p class="col-sm-8 col-md-6 descriptive-text">The gallery search gets a new widget to search for words, along side the existing one. This widget uses extended synatx and operators to perform the search.</p>
+    <p class="col-sm-8 col-md-6 descriptive-text">The gallery search gets a new widget to search for words, along side the existing one. This widget uses extended syntax and operators to perform the search.</p>
     <div class="col-sm-2 col-md-3"></div>
   </div>
 
@@ -334,13 +341,13 @@
       <img class="img-fluid corner2" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
     </div>
     <div class="col-sm-12 col-md-4">
-      <p class="screenshot-caption">We've added an Expert Mode search widget that lets you refine your queries with much greater precision. You can now exclude words, search for exact matches, and make use of a variety of other operators. </p>
+      <p class="screenshot-caption">We've added an Expert Mode search widget that lets you refine your queries with much greater precision. You can now exclude words, search for exact matches, and make use of a variety of other operators.</p>
     </div>
   </div>
 
   <div class="row second-image-and-caption ">
     <div class="col-sm-12 col-md-4">
-    <p class="screenshot-caption">For users who have never tried advanced search before (mainly because it was only available in the administration), we've redesigned the help pop-in. This is where you'll find guidance on how to use advanced search effectively.</p>
+    <p class="screenshot-caption">For users who have never tried advanced syntax before (mainly because it was only available in the batch manager of the administration), we've redesigned the help pop-in. This is where you'll find guidance on how to use expert mode effectively.</p>
     </div>
     <div class="col-sm-12 col-md-8  right-image-screenshot">
       <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
@@ -380,14 +387,14 @@ Having a job as working on an open source project as always been a dream to me a
 
   <div class="col-sm-12 col-md-6">
     <h4 class="col-sm-12">Change image library priority</h4>
-    <p class=" descriptive-text col-sm-12">Use as a priorty External ImageMahick rather than ImageMagick. ext_imagick is more optimised and uses its own memory. It doesn't relies as much on the PHP wrapper</p>
+    <p class=" descriptive-text col-sm-12">Use as a priority "External ImageMagick" (command lines) rather than "ImageMagick" (PHP wrapper). Calling ImageMagick in command line is more optimized and uses its own memory. The PHP wrapper is not always aware of the latest changes available in the command line.</p>
   </div>
 
   <div class="col-sm-12 col-md-6">
     <h4 class="col-sm-12">API Keys</h4>
-    <p class="descriptive-text col-sm-12">When using 2 factor authentication it wasn't possible to use our API, this created problems for our mobile apps. Thus 2FA wasn't adopted. We have figured out a solution using API keys
+    <p class="descriptive-text col-sm-12">Scripts and apps using Piwigo API will no longer need to provide username/password to authenticate. Instead it is now possible to use an API key. Each API key is linked to a specific user and is time limited.
     <br><br>
-    They allow authentication using specific keys that are linked to a specific user. Other apps can connect to Piwigo's API using the API key. Each key is valid a certain amount of time. To handle these API keys you will find them in the gallery profile only with Standard pages (for now).</p>
+    To handle these API keys you will find them in the gallery profile only with Standard pages (for now). API Keys can also be used to log in, by using the API key ID as username and API key secret as password, to make 2FA compatible with mobile apps.</p>
   </div>
 
   <div class="col-sm-12 col-md-6">
@@ -400,29 +407,6 @@ Having a job as working on an open source project as always been a dream to me a
   </div>
 
 </div> {* .row *}
-
-{* Api keys *}
-{* <div class="section-part">
-  <h3 id="api_keys">API keys<span class="badge badge-new icon-star">New</span></h3>
-
-  <div class="row">
-    <div class="col-sm-2 col-md-3"></div>
-    <p class="col-sm-8 col-md-6 descriptive-text"></p>
-    <div class="col-sm-2 col-md-3"></div>
-  </div>
-
-  <div class="row second-image-and-caption ">
-    <div class="col-sm-12 col-md-4">
-    <p class="screenshot-caption"> </p>
-    </div>
-    <div class="col-sm-12 col-md-8  right-image-screenshot">
-      <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
-      <img src="https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2025/07/18/20250718153853-4ccb24e8-xx.png" class="screenshot">
-      <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
-    </div>
-  </div>
-</div> *}
-
 
 </div> {* .section-part.technical-features *}
 </section>
