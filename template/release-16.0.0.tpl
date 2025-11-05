@@ -37,15 +37,14 @@
       <div class="col-md-4">
         <ul>
           <li><a href="#standard_pages" class="icon-star">Standard pages</a></li>
-          <li><a href="#api_keys" class="icon-star">API keys</a></li>
           <li><a href="#2fa" class="icon-puzzle">Two factor authentification</a></li>
           <li><a href="#related_tags" class="icon-brush">Related tags</a></li>
           <li><a href="#save_buttons" class="icon-brush">Moved save buttons</a></li>
+          <li><a href="#newsletter_banner" class="icon-star">Newsletter banner</a></li>
         </ul>
       </div>
       <div class="col-md-4">
         <ul>
-          <li><a href="#newsletter_banner" class="icon-star">Newsletter banner</a></li>
           <li class="badge badge-quote"><a href="#interview_romain"><img src="{$PORG_ROOT_URL}images/changelogs/quotes.svg" class="quotes">{'Interview %s'|translate:'Romain'}</a></li>
           <li><a href="#widget_management" class="icon-star">Gallery search, widget management</a></li>
           <li><a href="#comments_manager" class="icon-brush">Comments manager</a></li>
@@ -122,28 +121,6 @@
     </div>
   </div>
 
-</div>
-
-{* Api keys *}
-<div class="section-part">
-  <h3 id="api_keys">API keys<span class="badge badge-new icon-star">New</span></h3>
-
-  <div class="row">
-    <div class="col-sm-2 col-md-3"></div>
-    <p class="col-sm-8 col-md-6 descriptive-text">When using 2 factor authentication it wasn't possible to use our API, this created problems for our mobile apps. Thus 2FA wasn't adopted. We have figured out a solution using API keys</p>
-    <div class="col-sm-2 col-md-3"></div>
-  </div>
-
-  <div class="row second-image-and-caption ">
-    <div class="col-sm-12 col-md-4">
-    <p class="screenshot-caption">They allow authentication using specific keys that are linked to a specific user. Other apps can connect to Piwigo's API using the API key. Each key is valid a certain amount of time. To handle these API keys you will find them in the gallery profile only with Standard pages (for now). </p>
-    </div>
-    <div class="col-sm-12 col-md-8  right-image-screenshot">
-      <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
-      <img src="https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2025/07/18/20250718153853-4ccb24e8-xx.png" class="screenshot">
-      <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
-    </div>
-  </div>
 </div>
 
 {* 2FA extension *}
@@ -406,20 +383,46 @@ Having a job as working on an open source project as always been a dream to me a
     <p class=" descriptive-text col-sm-12">Use as a priorty External ImageMahick rather than ImageMagick. ext_imagick is more optimised and uses its own memory. It doesn't relies as much on the PHP wrapper</p>
   </div>
 
-  <div class="col-sm-12 col">
+  <div class="col-sm-12 col-md-6">
+    <h4 class="col-sm-12">API Keys</h4>
+    <p class="descriptive-text col-sm-12">When using 2 factor authentication it wasn't possible to use our API, this created problems for our mobile apps. Thus 2FA wasn't adopted. We have figured out a solution using API keys
+    <br><br>
+    They allow authentication using specific keys that are linked to a specific user. Other apps can connect to Piwigo's API using the API key. Each key is valid a certain amount of time. To handle these API keys you will find them in the gallery profile only with Standard pages (for now).</p>
+  </div>
+
+  <div class="col-sm-12 col-md-6">
     <h4 class="col-sm-12">Docker image</h4>
-    <div class="col-sm-12 col-md-6">
+    <div class="col-sm-12">
       <p class=" descriptive-text">Piwigo 16 introduces an official Docker image, providing a simple and reliable way to run Piwigo in containerized environments. This image is maintained by our team and makes installation and updates easier for users who prefer Docker-based deployments.</p>
-      <a class="btn get-docker" href="https://hub.docker.com/r/piwigo/piwigo">Get our official docker image</a>
-    </div>
-    <div class="col-sm-12 col-md-6">
-      <img class="w-50" src="https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2025/08/28/20250828121444-d63cd3f2.png" class="information">
+      <div class="col-sm-12 text-center"><a class="btn get-docker" href="https://hub.docker.com/r/piwigo/piwigo">Get our official docker image</a></div>
+      <div class="col-sm-12 mt-3 text-center"><img class="w-50" src="https://sandbox.piwigo.com/uploads/4/y/1/4y1zzhnrnw//2025/08/28/20250828121444-d63cd3f2.png" class="information"></div>
     </div>
   </div>
 
-
-
 </div> {* .row *}
+
+{* Api keys *}
+{* <div class="section-part">
+  <h3 id="api_keys">API keys<span class="badge badge-new icon-star">New</span></h3>
+
+  <div class="row">
+    <div class="col-sm-2 col-md-3"></div>
+    <p class="col-sm-8 col-md-6 descriptive-text"></p>
+    <div class="col-sm-2 col-md-3"></div>
+  </div>
+
+  <div class="row second-image-and-caption ">
+    <div class="col-sm-12 col-md-4">
+    <p class="screenshot-caption"> </p>
+    </div>
+    <div class="col-sm-12 col-md-8  right-image-screenshot">
+      <img class="img-fluid corner3" src="{$PORG_ROOT_URL}/images/changelogs/corner-image1.svg">
+      <img src="https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2025/07/18/20250718153853-4ccb24e8-xx.png" class="screenshot">
+      <img class="img-fluid corner4" src="{$PORG_ROOT_URL}/images/changelogs/corner-image2.svg">
+    </div>
+  </div>
+</div> *}
+
 
 </div> {* .section-part.technical-features *}
 </section>
