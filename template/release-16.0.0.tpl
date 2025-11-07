@@ -391,9 +391,9 @@
 
   <div class="col-sm-12 col-md-6">
     <h4 class="col-sm-12">{'pwg_org_release16_tech_features_api_keys'|translate}</h4>
-    <p class="descriptive-text col-sm-12">Scripts and apps using Piwigo API will no longer need to provide username/password to authenticate. Instead it is now possible to use an API key. Each API key is linked to a specific user and is time limited.
+    <p class="descriptive-text col-sm-12">{'pwg_org_release16_api_key_desc'|translate}
     <br><br>
-    To handle these API keys you will find them in the gallery profile only with Standard pages (for now). API Keys can also be used to log in, by using the API key ID as username and API key secret as password, to make 2FA compatible with mobile apps.</p>
+    {'pwg_org_release16_api_key_desc2'|translate}</p>
   </div>
 
   <div class="col-sm-12 col-md-6">

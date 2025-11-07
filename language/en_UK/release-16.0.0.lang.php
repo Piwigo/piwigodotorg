@@ -80,3 +80,5 @@ $lang['pwg_org_release16_interview_lana'] = 'Hi! I\'m Lana (RushLana or Renarde 
 Most of my contributions have been toward the newly released official docker image ensuring it\'s both stable and at feature parity with a standard Piwigo install.';
 $lang['pwg_org_release16_interview_lana2'] = 'Seeing the vibrant community around Piwigo making plugins and custom themes always motivate me to do better.
 Having a job as working on an open source project as always been a dream to me and I hope this reflects in my contributions to Piwigo !';
+$lang['pwg_org_release16_api_key_desc'] = 'Scripts and apps using Piwigo API will no longer need to provide username/password to authenticate. Instead it is now possible to use an API key. Each API key is linked to a specific user and is time limited.';
+$lang['pwg_org_release16_api_key_desc2'] = 'To handle these API keys you will find them in the gallery profile only with Standard pages (for now). API Keys can also be used to log in, by using the API key ID as username and API key secret as password, to make 2FA compatible with mobile apps.';
