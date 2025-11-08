@@ -8097,6 +8097,20 @@ section.release-notes-overview li a {
     color: white;
 }
 
+.release-16_0_0  .release-notes-intro{
+    margin-top: 60px;
+    margin-bottom:30px;
+}
+
+.release-16_0_0 .container-download-release{
+    display:none;
+}
+
+.release-16_0_0 .download14{
+    display:block;
+    margin-top: 22px;
+}
+
 .get-docker{
   padding:7px 15px;
   background-color:#ff7700;

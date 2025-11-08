@@ -40,7 +40,6 @@
           <li><a href="#2fa" class="icon-puzzle">{'pwg_org_release16_menu_2FA'|translate}</a></li>
           <li><a href="#related_tags" class="icon-brush">{'pwg_org_release16_menu_related_tags'|translate}</a></li>
           <li><a href="#save_buttons" class="icon-brush">{'pwg_org_release16_menu_mv_save_btn'|translate}</a></li>
-          <li><a href="#newsletter_banner" class="icon-star">{'pwg_org_release16_menu_newsletter_banner'|translate}</a></li>
         </ul>
       </div>
       <div class="col-md-4">
@@ -170,7 +169,7 @@
 
 {* Moved save button *}
 <div class="section-part">
-  <h3 id="save_buttons">{'pwg_org_release16_title_mv_save_btn'|translate}<span class="badge badge-refresh icon-brush">{'pwg_org_release16_refresh'|translate}</span></h3>
+  <h3 id="save_buttons">{'pwg_org_release16_title_mv_save_btn'|translate}<span class="badge badge-refresh icon-brush">{'pwg_org_release16_badge_refresh'|translate}</span></h3>
 
   <div class="row first-image-and-caption">
     <div class="col-sm-12 col-md-8 ">
@@ -198,7 +197,7 @@
 
 {* Advanced filter management *}
 <div class="section-part">
-  <h3 id="widget_management">{'pwg_org_release16_title_gallery_search'|translate}</h3>
+  <h3 id="widget_management">{'pwg_org_release16_title_gallery_search'|translate}<span class="badge badge-new icon-star">{'pwg_org_release16_new_badge'|translate}</span></h3>
 
   <div class="row">
     <div class="col-sm-2 col-md-3"></div>
