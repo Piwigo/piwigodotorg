@@ -1,0 +1,34 @@
+<?php
+// +-----------------------------------------------------------------------+
+// | This file is part of Piwigo.                                          |
+// |                                                                       |
+// | For copyright and license information, please view the COPYING.txt    |
+// | file that was distributed with this source code.                      |
+// +-----------------------------------------------------------------------+
+$lang['pwg_org_release16_related_tags_desc3'] = 'Wanneer u een tagpagina opent, worden gerelateerde tags weergegeven als badges. U kunt deze met één klik combineren met huidige tags.';
+$lang['pwg_org_release16_tech_features_change_img_priority'] = 'Wijzig afbeelding bibliotheek prioriteit';
+$lang['pwg_org_release16_related_tags_desc'] = 'We hebben besloten om de weergave van gerelateerde tags te verbeteren. We vinden het een geweldige en vrij ongebruikelijke functie van Piwigo, en dat is het altijd al geweest. De nieuwe manier om gerelateerde tags weer te geven, zal het gebruik ervan stimuleren en we hopen dat u ze met plezier zult herontdekken.';
+$lang['pwg_org_release16_related_tags_desc2'] = 'Op elke pagina met miniaturen vindt u de vervolgkeuzelijst met gerelateerde tags in het menu met secundaire acties (aan de rechterkant als u het thema Modus gebruikt).';
+$lang['pwg_org_release16_new_badge'] = 'Nieuw';
+$lang['pwg_org_release16_tech_features_api_keys'] = 'API sleutels';
+$lang['pwg_org_release16_tech_features_change_img_priority_desc'] = 'Gebruik "External ImageMagick" (opdrachtregels) als prioriteit in plaats van "ImageMagick" (PHP-wrapper). Het aanroepen van ImageMagick via de opdrachtregel is geoptimaliseerd en gebruikt zijn eigen geheugen. De PHP-wrapper is niet altijd op de hoogte van de laatste wijzigingen die beschikbaar zijn in de opdrachtregel.';
+$lang['pwg_org_release16_tech_features_docker_image'] = 'Docker image';
+$lang['pwg_org_release16_tech_features_docker_image_desc'] = 'Piwigo 16 introduceert een officiële Docker-image, die een eenvoudige en betrouwbare manier biedt om Piwigo in containeromgevingen te gebruiken. Deze image wordt onderhouden door ons team en maakt installatie en updates eenvoudiger voor gebruikers die de voorkeur geven aan Docker-gebaseerde implementaties.';
+$lang['pwg_org_release16_tech_features_docker_image_get'] = 'Download onze officiële docker-image';
+$lang['pwg_org_release16_tech_features_php_min_version'] = 'Compatibiliteit met PHP 8.4 vereiste de overstap naar Smarty 5.5.2 (template engine). Dit betekent echter dat de minimale PHP-versie die vereist is voor Piwigo nu PHP 7.4 is.';
+$lang['pwg_org_release16_title_update_img_batches'] = 'Afbeeldingen in batches bijwerken';
+$lang['pwg_org_release16_update_img_batches_desc'] = 'Om een ​​set afbeeldingen bij te werken is er nu een optie in het formulier voor het uploaden van foto\'s. Deze optie kan op elk moment worden geactiveerd wanneer u afbeeldingen uploadt.';
+$lang['pwg_org_release16_update_img_batches_desc2'] = 'Piwigo detecteert bestanden in hetzelfde album met dezelfde bestandsnaam. De foto wordt visueel bijgewerkt, maar de eigenschappen (titel, tags, beschrijving...) blijven hetzelfde.';
+$lang['pwg_org_release16_img_format_desc'] = 'Met de toenemende HD-beelden en schermresoluties hadden we ook grotere schermformaten nodig. Zelfs op een klein 14-inch scherm vult het XXL-formaat niet altijd de schermruimte, omdat het scherm vaak een hoge resolutie heeft. 3XL en 4XL maken het nu mogelijk om "de hele ruimte te vullen". Als de originele afbeeldingen dit toelaten, genereert Piwigo nieuwe 3XL- en 4XL-formaten. Deze optie is standaard niet ingeschakeld om opslagruimte te besparen.';
+$lang['pwg_org_release16_interview_lana'] = 'Hallo! Ik ben Lana (RushLana of Renarde op GitHub en de forums). Ik ben in april als stagiair bij het Piwigo-team gekomen en sinds september werk ik fulltime.
+Mijn grootste bijdrage was aan de onlangs uitgebrachte officiële docker-image, om ervoor te zorgen dat deze stabiel is en qua functionaliteit gelijkwaardig aan een standaard Piwigo-installatie.';
+$lang['pwg_org_release16_interview_lana2'] = 'Het zien van de levendige community rond Piwigo die plugins en aangepaste thema\'s maakt, motiveert me altijd om het beter te doen.
+Een baan als open-sourceproject is altijd al een droom voor me geweest en ik hoop dat dit tot uiting komt in mijn bijdragen aan Piwigo!';
+$lang['pwg_org_release16_2FA_desc'] = 'Twee factor authenticatie (of 2FA) is de bekende bevestigingscode die wordt gevraagd in aanmeldformulieren. De bevestigingscode wordt verzonden via een extern systeem om identiteitsdiefstal te voorkomen.';
+$lang['pwg_org_release16_2FA_desc2'] = 'Piwigo had al sinds 2022 een plugin voor "Twee factor authenticatie" (alleen per e-mail), maar door deze plugin te activeren, was authenticatie via mobiele apps of scripts die de Piwigo API gebruikten, onmogelijk. We hebben besloten deze te herzien. De nieuwe plugin is nu compatibel met mobiele apps dankzij de nieuwe API-sleutels. In plaats van e-mail te gebruiken om de bevestigingscode te ontvangen, hebben we compatibiliteit toegevoegd met TOTP (Time-based one-time password), wat veel betrouwbaarder is.';
+$lang['pwg_org_release16_activity_filter_desc'] = 'Het vinden van informatie in de activiteitenlogboeken kan soms lastig zijn. Maar met nieuwe filters is het vinden van informatie over gebruikersactiviteit nog nooit zo eenvoudig geweest.';
+$lang['pwg_org_release16_activity_filter_desc2'] = 'Je kunt een specifieke gebruiker of actie selecteren om informatie te vinden over waarom de informatie over foto\'s, albums of groepen is gewijzigd. Dit kan handig zijn om te achterhalen welke collega een onverwachte actie heeft uitgevoerd, zoals het verwijderen van een album (uiteraard per ongeluk).';
+$lang['pwg_org_release16_api_key_desc'] = 'Scripts en apps die de Piwigo API gebruiken, hoeven geen gebruikersnaam en wachtwoord meer in te voeren voor authenticatie. In plaats daarvan is het nu mogelijk om een ​​API-sleutel te gebruiken. Elke API-sleutel is gekoppeld aan een specifieke gebruiker en heeft een tijdslimiet.';
+$lang['pwg_org_release16_api_key_desc2'] = 'Om deze API-sleutels te beheren, vindt u ze (voorlopig) alleen in het galerijprofiel bij standaardpagina\'s. API-sleutels kunnen ook worden gebruikt om in te loggen, door de API-sleutel-ID als gebruikersnaam en de geheime API-sleutel als wachtwoord te gebruiken, om 2FA compatibel te maken met mobiele apps.';
+$lang['pwg_org_release16_badge_redesign'] = 'Herontwerp';
+$lang['pwg_org_release16_badge_refresh'] = 'Ververst';
