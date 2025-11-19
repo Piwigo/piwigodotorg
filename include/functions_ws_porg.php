@@ -359,6 +359,61 @@ DELETE
     }
   }
 
+  // remote apps
+  if (isset($data['apps']))
+  {
+    $query = '
+DELETE
+  FROM '.PORG_INSTALL_APPS_TABLE.'
+  WHERE install_idx = '.$install_id.'
+;';
+    pwg_query($query);
+
+    $updates_inserts = array();
+
+    $app_names = array(
+      'Piwigo iOS',
+      'Piwigo NG',
+      'Piwigo Android',
+      'Lightroom',
+      'Piwigo Remote Sync',
+      'darktable',
+      'Piwigo Client',
+      'Aperture',
+      'MacShare',
+      'WordPress',
+      'pLoader',
+    );
+
+    foreach ($data['apps'] as $app_name => $app)
+    {
+      if (
+        in_array($app_name, $app_names)
+        and !empty($app['first_encounter']) and preg_match('/^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$/', $app['first_encounter'])
+        and !empty($app['last_encounter']) and preg_match('/^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d$/', $app['last_encounter'])
+        and !empty($app['counter']) and preg_match('/^\d+$/', $app['counter'])
+      )
+      {
+        $updates_inserts[] = array(
+          'install_idx' => $install_id,
+          'app_name' => $app_name,
+          'first_encounter' => $app['first_encounter'],
+          'last_encounter' => $app['last_encounter'],
+          'counter' => $app['counter'],
+        );
+      }
+      else
+      {
+        $logger->info('['.__FUNCTION__.'][install_id='.$install_id.'] invalid app : '.$app_name.'/'.@$app['first_encounter'].'/'.@$app['last_encounter'].'/'.@$app['counter']);
+      }
+    }
+
+    if (count($updates_inserts) > 0)
+    {
+      mass_inserts(PORG_INSTALL_APPS_TABLE, array_keys($updates_inserts[0]), $updates_inserts);
+    }
+  }
+
   // list already registered extensions. We may have to register new ones
   $query = '
 SELECT
