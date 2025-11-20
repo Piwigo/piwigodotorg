@@ -57,6 +57,14 @@ function ws_porg_contact_send($params, &$service)
 {
   global $conf;
 
+  if (isset($_SERVER['HTTP_USER_AGENT']) and preg_match('/Chrome\/134\.0\.0\.0/', $_SERVER['HTTP_USER_AGENT']))
+  {
+    if (preg_match('/^[a-zA-Z]{16,}$/', $params['message']))
+    {
+      return new PwgError(489, 'Invalid request');
+    }
+  }
+
   if (!isset($conf['porg_contact_form_to']))
   {
     echo json_encode(['code'=>400, 'msg'=>'contact form recipient not configured']);
