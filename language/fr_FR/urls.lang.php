@@ -19,6 +19,7 @@ $lang['porg_urls']['guides'] = 'guides';
 $lang['porg_urls']['requirements'] = 'guides/installation/prérequis';
 $lang['porg_urls']['netinstall'] = 'guides/installation/netinstall';
 $lang['porg_urls']['manual_installation'] = 'guides/installation/manuelle';
+$lang['porg_urls']['docker'] = 'guides/installation/docker';
 $lang['porg_urls']['automatic_update'] = 'guides/mise-a-jour/automatique';
 $lang['porg_urls']['manual_update'] = 'guides/mise-a-jour/manuelle';
 $lang['porg_urls']['documentation'] = 'https://doc-fr.piwigo.org/';

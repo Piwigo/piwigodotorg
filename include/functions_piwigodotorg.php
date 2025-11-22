@@ -29,6 +29,7 @@ function porg_get_pages()
     'requirements' => 'Requirements',
     'netinstall' => 'Netinstall',
     'manual_installation' => 'Manual installation',
+    'docker' => 'Docker',
     'automatic_update' => 'Automatic Update',
     'manual_update' => 'Manual Update',
     'mobile-applications' => 'Mobile applications',

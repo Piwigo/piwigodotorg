@@ -30,6 +30,9 @@
             <a href="{$PORG_ROOT}{$URL.manual_installation}">
               <span>{'porg_guides_manual_installation'|translate}</span>
             </a>
+            <a href="{$PORG_ROOT}{$URL.docker}">
+              <span>{'porg_guides_img_docker'|translate}</span>
+            </a>
           </div>
         </div>
       </div>
