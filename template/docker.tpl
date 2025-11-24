@@ -128,7 +128,7 @@ db_user_password=</code></pre>
   {* Step 3 *}
   <div class=" row step3-content-manual-installation pwg-guides-block-content">
     <div class="col-md-6 col-xs-12"> {* Intro *}
-      <h3 class="pwg-guides-h3" id="step3-manual-installation">{'porg_guides_installation_step3'|translate}</h3>
+      <h3 class="pwg-guides-h3" id="step3-docker">{'porg_guides_installation_step3'|translate}</h3>
       <p>{'porg_guides_docker_configuration_intro_paragraph'|translate}</p>
     </div>
     <div class="col-md-6 col-xs-12 framed-info-content col-guides-text" id="guides-right">
@@ -175,7 +175,7 @@ db_user_password=</code></pre>
   {* Step 4 *}
   <div class="row step4-content-manual-installation pwg-guides-block-content">
     <div class="col-md-4 col-xs-12 col-guides-text">
-      <h3 class="pwg-guides-h3" id="step4-manual-installation">{'porg_guides_installation_step4'|translate}</h3>
+      <h3 class="pwg-guides-h3" id="step4-docker">{'porg_guides_installation_step4'|translate}</h3>
       <p>{'porg_guides_install_step3_paragraph6'|translate}</p>
     </div>
     <div class="col-md-8 col-xs-12 guide-image-and-caption">
