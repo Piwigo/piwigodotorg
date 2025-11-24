@@ -119,9 +119,6 @@
         <div class="col-md-6 col-xs-12 col-xs-12 mobile_center_text_right">
           <h2>{'mobile_applications_copy_move_title'|translate}</h2>
           <p>{'mobile_applications_copy_move_texte'|translate}</p>
-          <div class="text-center">
-            <div class="ios-only"><span>{'ios_only'|translate}</span></div>
-          </div>
         </div>
         <div class="col-md-6 col-xs-12 text-center mobile-applications-mobile-display">
           <img id="mobile_image_5" src="{$PORG_ROOT_URL}images/mobile_applications/Group_85.png"/>
@@ -132,9 +129,6 @@
         <div class="col-md-6 col-xs-12 col-xs-12 mobile_center_text_left">
           <h2>{'mobile_applications_share_title'|translate}</h2>
           <p>{'mobile_applications_share_texte'|translate}</p>
-          <div class="text-center">
-            <div class="ios-only"><span>{'ios_only'|translate}</span></div>
-          </div>
         </div>
         <div class="col-md-6 col-xs-12 text-center float-right">
           <img id="mobile_image_4" src="{$PORG_ROOT_URL}images/mobile_applications/Group_86.png"/>
