@@ -28,3 +28,4 @@ $lang['porg_urls']['netinstall'] = 'vejledninger/installering/netinstallering';
 $lang['porg_urls']['mobile-applications'] = 'mobil-applikationer';
 $lang['porg_urls']['users'] = 'brugere';
 $lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
+$lang['porg_urls']['docker'] = 'vejledninger/installering/docker';
