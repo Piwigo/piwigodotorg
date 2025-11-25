@@ -170,3 +170,4 @@ $lang['porg_users_perso'] = 'Photographes & particuliers';
 $lang['porg_users_public'] = 'Secteur Public';
 $lang['language_hy_AM'] = 'Arménien';
 $lang['language_te_IN'] = 'Télougou';
+$lang['porg_guides_img_docker'] = 'Image Docker';
