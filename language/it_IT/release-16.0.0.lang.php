@@ -42,3 +42,10 @@ $lang['pwg_org_release16_badge_redesign'] = 'riprogettazione';
 $lang['pwg_org_release16_badge_refresh'] = 'aggiornare';
 $lang['pwg_org_release16_comment_manager_desc'] = 'Il gestore dei commenti ha un nuovo look: più facile da usare e più accattivante. Lo stile conta!';
 $lang['pwg_org_release16_comment_manager_desc2'] = 'Questa struttura semplifica la distinzione tra i commenti che devono ancora essere approvati e quelli che sono già stati approvati. Una modalità di selezione facilita l\'elaborazione in batch dei commenti.';
+$lang['pwg_org_release16_gallery_search_desc'] = 'In Piwigo 14 abbiamo introdotto un nuovo sistema per la ricerca in una galleria. Per impostazione predefinita vi erano quattro filtri  attivi. Piwigo 16 consente agli amministratori di modificare i filtri disponibili e definire quali mostrare come scelta predefinita.
+';
+$lang['pwg_org_release16_expert_mode_desc2'] = 'Abbiamo aggiunto un filtro di ricerca in Modalità Esperto che ti permette di affinare le tue ricerche con maggiore precisione. Ora puoi escludere parole, cercare corrispondenze esatte e utilizzare una varietà di altri operatori.
+';
+$lang['pwg_org_release16_expert_mode_desc'] = 'La ricerca nella galleria ottiene un nuovo filtro per cercare parole, accanto a quello già esistente. Tale filtro utilizza la sintassi estesa ed operatori per perfezionare la ricerca.
+';
+$lang['pwg_org_release16_expert_mode_des3'] = 'Per gli utenti che non hanno mai provato la sintassi avanzata (principalmente perché era disponibile solo nel batch manager dell\'amministrazione), abbiamo ridisegnato la finestra di aiuto. Qui è dove tu troverai indicazioni su come utilizzare efficacemente la modalità esperto.';
