@@ -102,7 +102,7 @@
                     <div class="my-2">
                       <select id="country" class="w-100">
                         <option value="all">{"porg_users_all_countries"|translate}</option>
-{foreach from=$countries item=$country}
+{foreach $countries as $country}
                         <option value="{$country.code}">{"country_{$country.code}"|translate}</option>
 {/foreach}
                       </select>
@@ -137,7 +137,7 @@
             <div class="mb-5 w-100">
               <div id="users" class="mb-5 w-100">
 
-{foreach from=$piwigo_users item=$users}
+{foreach $piwigo_users as $users}
                 <div data-pos="{$users.position}" class="user col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 {if isset($users.type)}{$users.type} {/if}{if isset($users.country)}{$users.country} {/if}{if isset($users.useCase)}{$users.useCase} {/if}">
                   <div class="card my-3 p-3">
   {if $users.type == "logo" }
