@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2025-11-25' => array (
+                'title' => 'Piwigo 16',
+                'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2025/09/02/20250902113553-22ad2a8c-la.png',
+                'summary' => 'Au menu de cette nouvelle version majeure : des pages dites "standard", de la 2FA, des clefs API, du mode expert pour la recherche...',
+            ),
             '2025-05-28' => array (
                 'title' => 'Un peu d\'IA, des stats, des actus et un championnat de France',
                 'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2025/05/20/20250520142006-ccce8ac0-la.png',
@@ -309,6 +314,11 @@
             ),
         ),
         'en' => array(
+            '2025-11-25' => array (
+                'title' => 'Piwigo 16',
+                'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2025/09/02/20250902113553-22ad2a8c-la.png',
+                'summary' => 'What\'s new for this new major release? standard page, 2FA, API keys, search in expert mode...',
+            ),
             '2025-05-29' => array (
                 'title' => 'A bit of AI, some statistics and other news',
                 'image' => 'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2025/05/20/20250520141947-1bd4c418-xl.png',
