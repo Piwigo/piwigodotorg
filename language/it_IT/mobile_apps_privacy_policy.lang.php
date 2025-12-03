@@ -53,7 +53,6 @@ $lang['porg_privacy_mobile_data_piwigo_2'] = 'Inoltre, tutte le foto, i video e 
 $lang['porg_privacy_mobile_intro_10'] = 'Ti informeremo di eventuali modifiche aggiornando la data "Ultimo aggiornamento" della presente Informativa sulla privacy.';
 $lang['porg_privacy_mobile_intro_11'] = 'Ti invitiamo a rivedere periodicamente questa informativa sulla privacy per rimanere informato sugli aggiornamenti.';
 $lang['porg_privacy_mobile_intro_12'] = 'Sarai ritenuto essere stato informato, sarai soggetto e si riterrà che hai accettato le modifiche di qualsiasi politica sulla privacy riveduta continuando a utilizzare le applicazioni dopo la data di pubblicazione della presente politica sulla privacy rivista.';
-$lang['Contact us'] = 'Contattaci';
 $lang['Geo-Location Information'] = 'Dati sulla posizione';
 $lang['How is the data protected?'] = 'Come vengono protetti i dati?';
 $lang['Last updated on %s'] = 'Ultimo aggiornamento il %s';

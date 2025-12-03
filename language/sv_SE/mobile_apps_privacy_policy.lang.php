@@ -72,4 +72,3 @@ $lang['Mobile Device Access'] = 'Regler för mobila enheter';
 $lang['Last updated on %s'] = 'senast uppdaterad %s';
 $lang['How is the data protected?'] = 'Hur skyddas data?';
 $lang['Geo-Location Information'] = 'Platsinformation';
-$lang['Contact us'] = 'Kontakta oss';

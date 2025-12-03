@@ -21,7 +21,6 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Category'] = 'Categorie';
-$lang['Contact us'] = 'Contact';
 $lang['Partnership'] = 'Partnerschap';
 $lang['Press inquiry'] = 'Klik op onderzoek';
 $lang['Security report'] = 'Veiligheid verslag';

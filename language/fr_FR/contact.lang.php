@@ -1,6 +1,5 @@
 <?php
 
-$lang['Contact us'] = 'Contactez nous';
 $lang['porg_contact_desc1'] = 'Vous pouvez nous laisser un message grâce au formulaire ci-dessous.';
 $lang['porg_contact_desc2'] = 'Utilisez le pour des demandes, questions ou remarques privées.';
 $lang['porg_contact_desc3'] = 'Merci d\'utiliser le forum pour tout ce qui peut se discuter publiquement, cela simplifie le suivi pour l\'équipe.';

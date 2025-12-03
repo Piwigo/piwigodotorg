@@ -20,7 +20,6 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Contact us'] = 'Contáctanos';
 $lang['Geo-Location Information'] = 'Información de geolocalización';
 $lang['How is the data protected?'] = '¿Cómo se protegen los datos?';
 $lang['Last updated on %s'] = 'Última actualización en %s';

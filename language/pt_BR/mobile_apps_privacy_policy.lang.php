@@ -53,7 +53,6 @@ $lang['porg_privacy_mobile_protection_1'] = 'Os aplicativos armazenam dados loca
 $lang['porg_privacy_mobile_protection_2'] = 'Você é responsável por proteger os dados armazenados contra acesso não autorizado.';
 $lang['porg_privacy_mobile_protection_3'] = 'É altamente recomendável usar HTTPS para proteger dados durante a transmissão e os Aplicativos tentam usar conexões criptografadas por HTTPS na primeira vez em que o usuário estabelece uma conexão com uma galeria do Piwigo.';
 $lang['porg_privacy_mobile_protection_4'] = 'Manter certificados e bibliotecas para acesso HTTPS atualizado é de responsabilidade do operador do servidor Piwigo.';
-$lang['Contact us'] = 'Entre em contato conosco';
 $lang['Geo-Location Information'] = 'Informação de geo-localização';
 $lang['How is the data protected?'] = 'Como este dado é protegido?';
 $lang['Last updated on %s'] = 'Última atualização em %s';

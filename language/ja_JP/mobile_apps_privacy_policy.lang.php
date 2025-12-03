@@ -72,4 +72,3 @@ $lang['Mobile Device Access'] = '携帯端末へのアクセス';
 $lang['Last updated on %s'] = '最終更新日 %s';
 $lang['How is the data protected?'] = 'どのようにデータを保護しているか？';
 $lang['Geo-Location Information'] = '位置情報';
-$lang['Contact us'] = '連絡先';

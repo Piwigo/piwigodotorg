@@ -21,7 +21,6 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Category'] = 'Kategória';
-$lang['Contact us'] = 'Kapcsolat';
 $lang['Partnership'] = 'Partnerség';
 $lang['Press inquiry'] = 'Újság-ügyi kérdések';
 $lang['Security report'] = 'Biztonsági jelentés';

@@ -5,7 +5,6 @@
 // | For copyright and license information, please view the COPYING.txt    |
 // | file that was distributed with this source code.                      |
 // +-----------------------------------------------------------------------+
-$lang['Contact us'] = 'Bize Ulaşın';
 $lang['Geo-Location Information'] = 'Coğrafi Konum Bilgileri';
 $lang['How is the data protected?'] = 'Veriler nasıl korunur?';
 $lang['Last updated on %s'] = 'Son güncelleme %s';

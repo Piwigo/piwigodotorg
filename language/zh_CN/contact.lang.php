@@ -24,7 +24,6 @@ $lang['Category'] = '类别';
 $lang['Testimonial'] = '感言';
 $lang['porg_contact_desc2'] = '请将留言内容主要用于评论网站。';
 $lang['porg_contact_desc3'] = '我们推荐使用支持论坛进行使用反馈，便于团队跟进。';
-$lang['Contact us'] = '联系我们';
 $lang['Partnership'] = '合作关系';
 $lang['Press inquiry'] = '媒体调查';
 $lang['Security report'] = '安全报告';

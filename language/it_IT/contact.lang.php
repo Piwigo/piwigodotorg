@@ -21,7 +21,6 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Category'] = 'Categoria';
-$lang['Contact us'] = 'Contattaci';
 $lang['Partnership'] = 'Associazione';
 $lang['Press inquiry'] = 'Inchiesta stampa';
 $lang['Security report'] = 'Rapporto di sicurezza';

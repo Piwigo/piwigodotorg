@@ -31,7 +31,6 @@ $lang['porg_privacy_mobile_data_geo_1'] = '我们可能会请求访问或获得�
 $lang['porg_privacy_mobile_data_piwigo_1'] = '帐户凭据由应用程序存储，并提交到配置的站点，以连接到一个或多个Piwigo图库。';
 $lang['porg_privacy_mobile_data_piwigo_2'] = '除此之外，所有选择下载/上传的照片、视频和其他文件以及输入的内容都会被存储、处理并传输到配置的图库网站。';
 $lang['porg_privacy_mobile_contact_1'] = '如果您对本隐私政策有任何疑问或意见，请通过以下方式联系我们：';
-$lang['Contact us'] = '联系我们';
 $lang['Geo-Location Information'] = '地理位置信息';
 $lang['How is the data protected?'] = '数据是如何保护的？';
 $lang['Mobile Device Access'] = '移动设备访问';

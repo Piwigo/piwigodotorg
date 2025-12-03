@@ -22,7 +22,6 @@
 // +-----------------------------------------------------------------------+
 $lang['porg_contact_desc3'] = 'Alle andre tilbagemeldinger foretrækker vi at få gennem supportforummet, da det dermed er lettere at holde styr på henvendelserne.';
 $lang['Category'] = 'Kategori';
-$lang['Contact us'] = 'Kontakt os';
 $lang['Partnership'] = 'Partnerskab';
 $lang['Press inquiry'] = 'Pressehenvendelser';
 $lang['Security report'] = 'Sikkerhedsrapport';

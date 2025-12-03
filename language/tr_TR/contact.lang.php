@@ -27,7 +27,6 @@ $lang['Testimonial'] = 'Değerlendirme';
 $lang['porg_contact_desc2'] = 'Lütfen bunu esas olarak web sitesinin yorumları için kullanın.';
 $lang['porg_contact_desc3'] = 'Geri bildirimler için destek forumları kullanmayı tercih ederiz cünkü bu yöntem ekibimiz tarafından izleme işini kolaylaştırır.';
 $lang['Category'] = 'Kategori';
-$lang['Contact us'] = 'İletişim';
 $lang['Send message'] = 'Mesaj gönder';
 $lang['Your email address'] = 'Eposta adresiniz';
 $lang['Your message'] = 'Mesajınız';

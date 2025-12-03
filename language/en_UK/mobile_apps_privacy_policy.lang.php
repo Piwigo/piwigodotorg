@@ -52,6 +52,5 @@ $lang['porg_privacy_mobile_security_1'] = 'We use technical security measures to
 $lang['porg_privacy_mobile_security_2'] = 'While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.';
 $lang['porg_privacy_mobile_security_3'] = 'Any information disclosed online is vulnerable to interception and misuse by unauthorized parties.';
 $lang['porg_privacy_mobile_security_4'] = 'Therefore, we cannot guarantee complete security if you provide personal information.';
-$lang['Contact us'] = 'Contact us';
 $lang['porg_privacy_mobile_contact_1'] = 'If you have questions or comments about this Privacy Policy, please contact us at:';
 ?>

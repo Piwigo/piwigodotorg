@@ -119,6 +119,7 @@ $lang['porg_get_started_desc'] = 'Ready to start managing your photos with Piwig
 $lang['[piwigo.org contact form, %s] %s contacted you on %s'] = '[piwigo.org contact form, %s] %s contacted you on %s';
 $lang['yesterday'] = 'yesterday';
 $lang['See pricing'] = 'See pricing';
+$lang['Contact us'] = 'Contact us';
 
 /*Used in guide pages*/
 

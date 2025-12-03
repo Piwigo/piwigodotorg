@@ -1,6 +1,5 @@
 <?php
 
-$lang['Contact us'] = 'Contact us';
 $lang['porg_contact_desc1'] = 'You can leave a message using the contact form below.';
 $lang['porg_contact_desc2'] = 'Please use this mainly for website remarks.';
 $lang['porg_contact_desc3'] = 'We prefer using the Support forums for any feedback, it eases tracking by the team.';

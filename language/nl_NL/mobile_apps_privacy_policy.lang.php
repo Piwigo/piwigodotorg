@@ -72,4 +72,3 @@ $lang['Mobile Device Access'] = 'Toegang tot mobiele apparaten';
 $lang['Last updated on %s'] = 'Laatst bijgewerkt op %s';
 $lang['How is the data protected?'] = 'Hoe zijn de gegevens beschermd?';
 $lang['Geo-Location Information'] = 'Informatie over geolokatie';
-$lang['Contact us'] = 'Contact opnemen';

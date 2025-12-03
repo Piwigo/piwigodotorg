@@ -20,7 +20,6 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Contact us'] = 'Contactez-nous';
 $lang['porg_privacy_mobile_intro_1'] = '<a href="%s" target="_blank">Piwigo-Android</a> et <a href="%s" target="_blank">Piwigo-Mobile</a> sont des applications clientes gratuites, libres et open source pour les galeries Piwigo.';
 $lang['porg_privacy_mobile_intro_10'] = 'Nous vous avertirons de tout changement en mettant à jour la date de "Dernière mise à jour" de la présente politique de confidentialité.';
 $lang['porg_privacy_mobile_intro_11'] = 'Nous vous encourageons à consulter régulièrement cette politique de confidentialité pour rester informé des mises à jour.';

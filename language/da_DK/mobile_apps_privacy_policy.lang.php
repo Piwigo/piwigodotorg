@@ -62,7 +62,6 @@ $lang['porg_privacy_mobile_intro_7'] = 'Læs omhyggeligt disse privatlivsregler'
 $lang['porg_privacy_mobile_intro_8'] = 'Hvis du ikke er enig i betingelserne i denne privatlivspolitik, så bedes du undlade at benytte applikationerne.';
 $lang['porg_privacy_mobile_data_device_1'] = 'Applikationerne kan bede om adgang til visse funktioner på din mobilenhed, herunder din mobilenheds fotobibliotek og filopbevaring, Android AccountManager, Apple Keychain, fremmede og skybaserede opbevaringsmapper, geografisk placering, samt andre funktioner.';
 $lang['porg_privacy_mobile_data_device_2'] = 'Hvis du ønsker at ændre din adgang eller tilladelser, kan du gøre dit i din enheds indstillinger, men vær opmærksom på at nogle adgange er nødvendige for at kunne uploade mediefiler fra din mobilenhed til Piwigo-galleriet eller for at kunne gemme mediefiler fra Piwigo på din mobilenhed.';
-$lang['Contact us'] = 'Kontakt os';
 $lang['Geo-Location Information'] = 'Oplysninger om geografisk placering';
 $lang['How is the data protected?'] = 'Hvordan beskyttes data?';
 $lang['Last updated on %s'] = 'Senest opdateret den %s';

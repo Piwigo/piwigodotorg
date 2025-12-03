@@ -72,4 +72,3 @@ $lang['Mobile Device Data'] = 'Data Perangkat Seluler';
 $lang['Last updated on %s'] = 'Diperbarui %s';
 $lang['How is the data protected?'] = 'Bagaimana data diamankan?';
 $lang['Geo-Location Information'] = 'Informasi Geo-lokasi';
-$lang['Contact us'] = 'Hubungi kami';

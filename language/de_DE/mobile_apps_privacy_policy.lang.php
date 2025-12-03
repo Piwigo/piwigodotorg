@@ -72,4 +72,3 @@ $lang['Mobile Device Access'] = 'Zugriff auf Ihr Mobilgerät';
 $lang['Last updated on %s'] = 'Letzte Aktualisierung: %s';
 $lang['How is the data protected?'] = 'Wie sind Ihre Daten geschützt?';
 $lang['Geo-Location Information'] = 'Standortinformationen';
-$lang['Contact us'] = 'Kontakt';

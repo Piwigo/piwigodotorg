@@ -25,7 +25,6 @@ $lang['porg_contact_desc3'] = 'Preferujemy używanie forum Wsparcia dla wszystki
 $lang['porg_contact_error_email'] = 'Auć, ten adres email jest niepoprawny';
 $lang['porg_contact_error_message'] = 'Auć, twoja wiadomość wydaje się być niepoprawna';
 $lang['Category'] = 'Kategoria';
-$lang['Contact us'] = 'Kontakt z nami';
 $lang['Partnership'] = 'Współpraca';
 $lang['Press inquiry'] = 'Zapytanie prasowe';
 $lang['Security report'] = 'Raport bezpieczeństwa';

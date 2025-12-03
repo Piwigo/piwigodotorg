@@ -57,4 +57,3 @@ $lang['Mobile Device Access'] = 'Hozzáférés a Mobil Eszközhöz';
 $lang['Last updated on %s'] = 'Frissítve:%s';
 $lang['How is the data protected?'] = 'Hogyan védjük az adatokat?';
 $lang['Geo-Location Information'] = 'Földrajzi Helyadatok';
-$lang['Contact us'] = 'Kapcsolat';
