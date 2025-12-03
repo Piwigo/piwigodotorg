@@ -24,6 +24,7 @@ $lang['porg_urls']['automatic_update'] = 'guides/mise-a-jour/automatique';
 $lang['porg_urls']['manual_update'] = 'guides/mise-a-jour/manuelle';
 $lang['porg_urls']['documentation'] = 'https://doc-fr.piwigo.org/';
 $lang['porg_urls']['users'] = 'qui-utilise-piwigo';
+$lang['porg_urls']['get-help'] = 'obtenir-de-laide';
 
 $lang['porg_doc_urls']['requirements'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:avant';
 $lang['porg_doc_urls']['install'] = 'https://fr.piwigo.org/doc/doku.php?id=utiliser:apprendre:install:installation';

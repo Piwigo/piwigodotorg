@@ -37,7 +37,9 @@ $lang['Coding Activity'] = 'Activités de développement';
 $lang['Mobile applications'] = 'Applications mobiles';
 $lang['Users'] = 'Utilisateurs';
 $lang['Who uses Piwigo ?'] = 'Qui utilise Piwigo ?';
+$lang['Get help'] = 'Obtenir de l\'aide';
 $lang['Contact us'] = 'Contactez nous';
+
 
 
 /* languages */

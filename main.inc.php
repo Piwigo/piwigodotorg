@@ -282,6 +282,25 @@ function porg_load_content()
             $template->assign('WEBVIEW', true);
         }
 
+        // For get help page
+        if ('get-help' == $_GET['porg'])
+        {
+          $doc_urls = array(
+            'en_UK' => 'https://doc.piwigo.org/',
+            'fr_FR' => 'https://doc-fr.piwigo.org/',
+          );
+
+          $doc_url = $doc_urls['en_UK'];
+          if (isset($doc_url[ $user['language'] ]))
+          {
+            $doc_url = $doc_url[ $user['language'] ];
+          }
+
+          $template->assign(array(
+            'DOC_URL' => $doc_url,
+          ));
+        }
+
         if (isset($redirects[ $_GET['porg'] ]))
         {
             set_status_header(301);

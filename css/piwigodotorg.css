@@ -98,6 +98,59 @@
 }
 
 /*****************************
+* Common CSS *
+******************************/
+
+.light-orange-background{
+  background-color: #FFEACF;
+}
+
+.light-orange-background h2,
+.light-orange-background h3,
+.light-orange-background p{
+  color: #eb8400!important;
+}
+
+.primary-btn{
+  background-color:#ff7700;
+  width: auto;
+  max-width: 300px;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  position: relative;
+  text-wrap: nowrap;
+}
+
+.primary-btn:hover{
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.light-grey-background{
+  background-color: #f8f9fa;
+}
+
+.mobile-display {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .mobile-display {
+        display: block;
+    }
+    .desktop-display{
+        display:none;
+    }
+}
+
+/*****************************
 * Piwigo header (navbar) CSS *
 ******************************/
 
@@ -922,10 +975,6 @@ h2 {
     background-color: #E0DAF4;
 }
 
-.container-piwigo-users {
-    background-color: #FFEACF;
-}
-
 .container-piwigo-users h3 {
     color: #eb8400;
     padding: 30px 0;
@@ -1367,6 +1416,66 @@ h2 {
     .feature-content a {
         font-size: 14px;
     }
+}
+
+/* Get help*/
+.get_help {
+  position: relative;
+  margin-top: 50px;
+}
+
+.get_help h1 {
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 76px;
+    transition: all 1s;
+    margin: 0;
+}
+
+.get_help p {
+    color: #7e7e7e;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+}
+
+.get_help p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.get_help_contact{
+    margin:0 auto;
+    float:unset;
+}
+
+@media (max-width: 991px) {
+    .get_help h1 {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 40px;
+    }
+
+    .get_help p {
+        font-size: 16px;
+        margin-top: 40px;
+        text-align: left;
+        padding: 0;
+        line-height: normal;
+    }
+
+    #get_help-main-image {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+
 }
 
 /* Get started */
@@ -1846,17 +1955,6 @@ h2 {
     font-size: 18px;
 }
 
-.featuresFirstImage {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-}
-
-.featuresFirstImage img {
-    width: 70%;
-}
-
 @media (max-width: 991px) {
     .features h1 {
         font-size: 30px;
@@ -2001,10 +2099,6 @@ h2 {
 }
 
 /* Features elements (file, calendar, lock) */
-
-.features-third-section {
-    background-color: #FFEACF;
-}
 
 .featuresPageOrganizeShareTitle h2 {
     color: #eb8400;
@@ -4155,11 +4249,6 @@ h2 {
 
 /* What can i use piwigo for ? */
 
-.UsePiwigoFor {
-    background-color: #FFEACF;
-    padding-bottom: 40px;
-}
-
 .row-use-piwigo-for {
     margin: 40px 0;
     overflow: hidden;
@@ -4439,7 +4528,7 @@ h2 {
 /* How to use Piwigo */
 
 .container-whatispiwigo-how-to-use-piwigo {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     height: 1000px;
 }
 
@@ -4472,9 +4561,9 @@ h2 {
     }
 }
 
-.topGreyWave {
+/* .topGreyWave {
     margin-bottom: -60px;
-}
+} */
 
 .WhatIsPiwigo_HowToUsePiwigo {
     height: 1000px;
@@ -5053,9 +5142,6 @@ h2 {
     padding-right: 10px;
 }
 
-.users-page .mobile-display {
-    display: none;
-}
 
 @media (max-width: 576px) {
     .users-page-intro img {
@@ -5257,7 +5343,6 @@ h2 {
 }
 
 .mobile-second-section {
-    background-color: #FFEACF;
     text-align: center;
 }
 

@@ -74,7 +74,7 @@
   </section>
 
   <img src="{$PORG_ROOT_URL}images/features/third-section-top-wave.svg">
-  <section class="container-fluide mobile_applications mobile-second-section">
+  <section class="container-fluide mobile_applications mobile-second-section light-orange-background">
     <div class="container ">
       <div class="row">
         <h2>{'mobile_applications_import_options_title'|translate}</h2>

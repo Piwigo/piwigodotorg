@@ -112,6 +112,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-wrench"></span>{'Support'|translate} <span class="glyphicon glyphicon-triangle-bottom"></span></a>
           <ul class="dropdown-menu dropdown-menu-left">
+            <li><a href="{$PORG_ROOT}{$URL.get_help}">{'Get Help'|translate}</a></li>
             <li><a href="{$PORG_ROOT}{$URL.get_started}">{'Get Started'|translate}</a></li>
             <li><a href="{$PORG_ROOT}{$URL.guides}">{'porg_guides'|translate}</a></li>
             <li><a href="//{$PORG_DOMAIN_PREFIX}piwigo.org/forum/">{'Forum'|translate}</a></li>

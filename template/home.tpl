@@ -76,7 +76,7 @@ $(document).ready(function() {
   </section>
 
 <img class="border-colors" src="{$PORG_ROOT_URL}images/home/border-top1.svg">
-  <div class="container-fluide container-piwigo-users">
+  <div class="container-fluide container-piwigo-users light-orange-background">
     <div class="container">
       <h3>{'porg_home_organisation_title'|translate}</h3>
 

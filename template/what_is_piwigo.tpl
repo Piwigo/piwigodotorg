@@ -12,7 +12,7 @@
 
 <div class="container-use-piwigo-for">
   <img src="{$PORG_ROOT_URL}images/whatispiwigo/wave-orange-top.svg"/>
-    <div class="UsePiwigoFor">
+    <div class="UsePiwigoFor light-orange-background">
       <section class="container">
         <div class="row text-center row-use-piwigo-for">
           <h2>{'What can I use Piwigo for ?'|translate}</h2>

@@ -70,7 +70,7 @@ tags to reduce the selection.</p>
 *}
 
 <img src="{$PORG_ROOT_URL}images/features/third-section-top-wave.svg">
-<div class="features-third-section">
+<div class="features-third-section light-orange-background">
   <section class="container">
     <div class="row features-elements">
       <div class="featuresPageOrganizeShareTitle">
