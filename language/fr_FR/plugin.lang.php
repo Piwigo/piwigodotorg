@@ -37,7 +37,6 @@ $lang['Coding Activity'] = 'Activités de développement';
 $lang['Mobile applications'] = 'Applications mobiles';
 $lang['Users'] = 'Utilisateurs';
 $lang['Who uses Piwigo ?'] = 'Qui utilise Piwigo ?';
-$lang['Get help'] = 'Obtenir de l\'aide';
 $lang['Contact us'] = 'Contactez nous';
 
 
@@ -174,3 +173,4 @@ $lang['porg_users_public'] = 'Secteur Public';
 $lang['language_hy_AM'] = 'Arménien';
 $lang['language_te_IN'] = 'Télougou';
 $lang['porg_guides_img_docker'] = 'Image Docker';
+$lang['Get Help'] = 'Trouver de l\'aide';
