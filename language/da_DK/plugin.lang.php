@@ -176,3 +176,5 @@ $lang['language_hy_AM'] = 'Armensk';
 $lang['See pricing'] = 'Se priser';
 $lang['language_te_IN'] = 'Telugu';
 $lang['porg_guides_img_docker'] = 'Docker-image';
+$lang['Contact us'] = 'Kontakt os';
+$lang['Get Help'] = 'Få hjælp';
