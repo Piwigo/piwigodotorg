@@ -175,3 +175,6 @@ $lang['porg_users_tourism'] = 'Turismo y cultura';
 $lang['language_hy_AM'] = 'Armenio';
 $lang['See pricing'] = 'Ver los precios';
 $lang['language_te_IN'] = 'Telugu';
+$lang['Contact us'] = 'Contáctenos';
+$lang['Get Help'] = 'Obtenga ayuda';
+$lang['porg_guides_img_docker'] = 'Imagen de Docker';
