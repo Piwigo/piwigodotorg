@@ -176,3 +176,5 @@ $lang['language_hy_AM'] = 'Armênio';
 $lang['See pricing'] = 'Ver preços';
 $lang['language_te_IN'] = 'Télugo';
 $lang['porg_guides_img_docker'] = 'Imagem Docker';
+$lang['Get Help'] = 'Obtenha ajuda';
+$lang['Contact us'] = 'Contate-nos';
