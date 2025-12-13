@@ -178,3 +178,6 @@ $lang['Who uses Piwigo ?'] = 'Wer nutzt Piwigo?';
 $lang['language_hy_AM'] = 'Armenien';
 $lang['See pricing'] = 'Siehe Preise';
 $lang['language_te_IN'] = 'Indische Sprache (Telugu)';
+$lang['Contact us'] = 'Kontaktieren Sie uns';
+$lang['Get Help'] = 'Hilfe erhalten';
+$lang['porg_guides_img_docker'] = 'Docker-Image';
