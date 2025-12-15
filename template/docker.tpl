@@ -76,7 +76,8 @@
             <p>{'porg_guides_img_docker_step1_create_dotenv'|translate}</p>
           </li>
         <pre><code>piwigo_port=8080
-db_user_password=</code></pre>
+db_user_password=
+timezone=</code></pre>
         <p>{'porg_guides_img_docker_step1_truncate'|translate}</p>
         <p><code>printf $(tr -dc '[:alnum:]' &lt/dev/urandom | head -c64)"\n"</code></p>
         <p>{'porg_guides_img_docker_step1_piwigo_port'|translate:"piwigo_port"}</p>

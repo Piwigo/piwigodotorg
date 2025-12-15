@@ -13,7 +13,7 @@ $lang['porg_guides_img_docker_framed_info'] = 'Ce guide part du principe que vou
 $lang['porg_guides_img_docker_step1_connect_to_server'] = 'Connectez vous à votre serveur et créez un dossier <code>Piwigo</code> :';
 $lang['porg_guides_img_docker_step1_download_compose'] = 'Téléchargez le fichier <code>compose.yaml</code> du répertoire <a href="%s">Piwigo/piwigo-docker</a>';
 $lang['porg_guides_img_docker_step1_curl'] = 'Vous pouvez utiliser la commande <code>curl</code> suivante pour le faire depuis votre terminal :';
-$lang['porg_guides_img_docker_step1_create_dotenv'] = 'Créez un fichier texte appelé <code>.env</code>, avec les champs ci-dessous, ajoutez un mot de passe fort après le signe égal (sans guillemets).';
+$lang['porg_guides_img_docker_step1_create_dotenv'] = 'Créez un fichier texte appelé <code>.env</code>, avec les champs ci-dessous, ajoutez un mot de passe fort et votre timezone après le signe égal (sans guillemets).';
 $lang['porg_guides_img_docker_step1_truncate'] = 'Vous pouvez utiliser <code>truncate</code> pour créer un mot de passe valide :';
 $lang['porg_guides_img_docker_step1_piwigo_port'] = 'Vous pouvez changer le port en modifiant le champ <code>%s</code>';
 $lang['porg_guides_img_docker_step1_start_with'] = 'Démarrez le conteneur avec la commande suivante :';
