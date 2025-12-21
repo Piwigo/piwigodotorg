@@ -23,3 +23,4 @@ $lang['porg_guides_docker_configuration_intro_paragraph'] = 'Sobald der Containe
 $lang['porg_guides_docker_configuration_password'] = 'Verwenden Sie das Passwort, das Sie in der .env-Datei geschrieben haben.';
 $lang['porg_guides_docker_step2_framed_info_path'] = 'Piwigo unterstützt das Hosting auf einer Domain, Subdomain und/oder einem Subpfad. Unabhängig davon, wofür Sie sich entscheiden, wird empfohlen, die Piwigo-Versionsnummer nicht in der URL zu verwenden.';
 $lang['porg_guides_docker_step2_framed_info_port'] = 'Wenn Sie <code>piwigo_port</code> in <code>.env</code> geändert haben, müssen Sie auch den Abschnitt <code>proxy_pass</code> entsprechend anpassen. Beachten Sie, dass Docker alle Ihre Firewall-Regeln standardmäßig ignoriert.';
+$lang['porg_guides_img_docker_step1_piwigo_port'] = 'Sie können den freigegebenen Port ändern, indem Sie <code>%s</code> bearbeiten.';
