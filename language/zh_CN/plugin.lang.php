@@ -176,3 +176,5 @@ $lang['language_ga_IE'] = '盖尔语';
 $lang['language_hy_AM'] = '亚美尼亚语';
 $lang['language_te_IN'] = '泰卢固语';
 $lang['porg_guides_img_docker'] = 'Docker镜像';
+$lang['Contact us'] = '联系我们';
+$lang['Get Help'] = '获取帮助';
