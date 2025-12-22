@@ -28,3 +28,5 @@ $lang['porg_urls']['manual_update'] = 'guides/update/manual';
 $lang['porg_urls']['mobile-applications'] = 'mobile-applications';
 $lang['porg_urls']['netinstall'] = 'guides/install/netinstall';
 $lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
+$lang['porg_urls']['docker'] = '指南 / 安装 / 容器部署';
+$lang['porg_urls']['get-help'] = '获取帮助';
