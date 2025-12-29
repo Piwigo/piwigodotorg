@@ -51,3 +51,5 @@ $lang['porg_urls']['requirements'] = 'guias/instalação/requisitos';
 $lang['porg_urls']['mobile-applications'] = 'aplicações-móveis';
 $lang['porg_urls']['users'] = 'quem-usa-piwigo';
 $lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
+$lang['porg_urls']['docker'] = 'guias/instalação/docker';
+$lang['porg_urls']['get-help'] = 'obter ajuda';
