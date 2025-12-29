@@ -23,3 +23,4 @@ $lang['porg_guides_img_docker_step2_use_piwigo_docker_with_reverse_proxy'] = 'Vo
 $lang['porg_guides_docker_configuration_password'] = 'Use a senha que você escreveu no arquivo .env.';
 $lang['porg_guides_docker_configuration_intro_paragraph'] = 'Após iniciar o contêiner e configurar seu proxy reverso, abra um navegador da web no endereço onde o Piwigo está hospedado. O Piwigo detectará que nada está instalado ainda e o redirecionará para a página de instalação.';
 $lang['porg_guides_docker_configuration_database_settings'] = 'Preencha as configurações de conexão do banco de dados MySQL com o seguinte:';
+$lang['porg_guides_img_docker_step1_piwigo_port'] = 'Você pode alterar a porta exposta editando <code>%s</code>';
