@@ -1,6 +1,29 @@
 <?php
 $porg_releases = array(
 
+  '16.2.0' => array(
+    'released_on' => '2025-12-30 13:05:00',
+    'md5sum' => '8e6688fbaf50d7c2a3b948857aa8dae1',
+    'summary' => array('bug fixes'),
+    'features' => array(),
+    'bugs' => array(
+      array('id' => 2494, 'section' => 'Photos'),
+      array('id' => 2490, 'section' => 'Technical'),
+      array('id' => 2488, 'section' => 'Photos'),
+      array('id' => 2486, 'section' => 'Display'),
+      array('id' => 2484, 'section' => 'web API'),
+      array('id' => 2481, 'section' => 'UX'),
+      array('id' => 2480, 'section' => 'Technical'),
+      array('id' => 2474, 'section' => 'Technical'),
+      array('id' => 2473, 'section' => 'Photos'),
+    ),
+    'known_issues' => array(),
+    'languages' => array(
+      'new' => array(),
+      'updated' => array('br_FR','ca_ES','da_DK','de_DE','el_GR','en_UK','es_ES','fa_IR','fr_CA','fr_FR','he_IL','is_IS','it_IT','nb_NO','nl_NL','pl_PL','pt_BR','ru_RU','sk_SK','sv_SE','zh_CN','zh_TW'),
+    ),
+  ),
+
   '16.1.0' => array(
     'released_on' => '2025-12-02 16:55:00',
     'md5sum' => 'e7765b2aaa79ba00a096258858d0ea3c',
