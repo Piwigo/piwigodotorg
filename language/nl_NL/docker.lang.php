@@ -23,3 +23,4 @@ $lang['porg_guides_img_docker_step1_truncate'] = 'U kunt truncate gebruiken om e
 $lang['porg_guides_img_docker_step2'] = 'Stap 2 - De omgekeerde proxy configureren';
 $lang['porg_guides_img_docker_step2_use_piwigo_docker_subpath'] = 'Als u van plan bent om Piwigo op een subpad te hosten (bijvoorbeeld: <code>my_domain.tld/gallery</code>), moet u deze doorsturen naar de container door <code>proxy_set_header X-Forwarded-Prefix /my_subpath</code> toe te voegen.';
 $lang['porg_guides_img_docker_step2_use_piwigo_docker_with_reverse_proxy'] = 'Wilt u een externe reverse proxy gebruiken met Piwigo Docker; dan kunt u de volgende Nginx-configuratievoorbeelden gebruiken:';
+$lang['porg_guides_img_docker_step1_piwigo_port'] = 'Je kunt de open poort wijzigen door <code>%s</code> te bewerken.';
