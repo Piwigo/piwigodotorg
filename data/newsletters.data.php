@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2026-01-06' => array (
+                'title' => 'Retrospective sur le calendrier de l\'Avent 2025',
+                'image' => 'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2026/01/06/20260106141959-258b9de0-la.jpg',
+                'summary' => 'Nous avons publié un post LinkedIn par jour en attendant le père Noël. Voici un condensé des 25 messages...',
+            ),
             '2025-11-25' => array (
                 'title' => 'Piwigo 16',
                 'image' => 'https://sandbox.piwigo.com/i.php?/uploads/4/y/1/4y1zzhnrnw//2025/09/02/20250902113553-22ad2a8c-la.png',
