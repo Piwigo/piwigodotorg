@@ -175,3 +175,6 @@ $lang['Who uses Piwigo ?'] = 'Kimler Piwigo Kullanıyor?';
 $lang['language_hy_AM'] = 'Ermenice';
 $lang['See pricing'] = 'Fiyatlandırmaları gör';
 $lang['language_te_IN'] = 'Telugu';
+$lang['Contact us'] = 'Bize Ulaşın';
+$lang['Get Help'] = 'Yardım Alın';
+$lang['porg_guides_img_docker'] = 'Docker Görüntüsü';
