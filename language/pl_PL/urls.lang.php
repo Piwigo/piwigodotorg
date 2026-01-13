@@ -50,3 +50,5 @@ $lang['porg_urls']['coding-activity'] = 'programowanie';
 $lang['porg_urls']['mobile-applications'] = 'aplikacje mobilne';
 $lang['porg_urls']['users'] = 'kto-używa-piwigo';
 $lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
+$lang['porg_urls']['docker'] = 'przewodniki/instalacja/docker';
+$lang['porg_urls']['get-help'] = 'uzyskaj-pomoc';
