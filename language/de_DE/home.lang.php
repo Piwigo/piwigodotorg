@@ -22,7 +22,7 @@
 // +-----------------------------------------------------------------------+
 $lang['Albums Hierarchy'] = 'Albenhierachie';
 $lang['Permissions Control'] = 'Zugriffskontrolle';
-$lang['Piwigo - Manage your photo collection'] = 'Piwigo - Organisieren Sie Ihre Fotosammlung';
+$lang['Piwigo - Manage your photo collection'] = 'Piwigo | Open-Source Bilddatenbank für Fotos und Medien';
 $lang['Start discovering Piwigo'] = 'Entdecke Piwigo';
 $lang['View more showcases'] = 'mehr Showcases ansehen';
 $lang['Who are Piwigo users?'] = 'Wer benutzt Piwigo?';
@@ -32,7 +32,7 @@ $lang['porg_home_high_volume_desc'] = 'Piwigo glänzt, wenn es darum geht tausen
 $lang['porg_home_open_source_desc'] = 'Der Source Code ist verfügbar, prüfbar und dank Plugins und Themen erweiterbar.';
 $lang['porg_home_organisation_title'] = 'Tausende von Teams und Millionen von Einzelpersonen lieben es Piwigo zu benutzen';
 $lang['porg_home_sustainable_desc'] = 'Geboren im Jahr 2002 hat Piwigo seine Nutzer seit mehr als %d Jahren unterstützt. Und sich verbessert!';
-$lang['porg_home_title'] = 'Organisieren Sie Ihre Fotosammlung';
+$lang['porg_home_title'] = 'Organisieren Sie Ihre Medien mit einer Open-Source Bilddatenbank';
 $lang['Discover Piwigo'] = 'Entdecken Sie Piwigo';
 $lang['Explore more features'] = 'Entdecken Sie mehr Features';
 $lang['Powerful features for your photo gallery'] = 'Leistungsfähige Features für Ihre Fotogalerie';
