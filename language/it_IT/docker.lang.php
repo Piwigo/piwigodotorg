@@ -23,3 +23,4 @@ $lang['porg_guides_img_docker_step2_use_piwigo_docker_with_reverse_proxy'] = 'Vo
 $lang['porg_guides_docker_configuration_database_settings'] = 'Inserisci i seguenti parametri per la connessione al database MYSQQL';
 $lang['porg_guides_docker_configuration_password'] = 'Utilizza la password che hai scritto nel file .env';
 $lang['porg_guides_img_docker'] = 'Immagine Docker';
+$lang['porg_guides_img_docker_step1_piwigo_port'] = 'Puoi cambiare la porta esposta modificando <code>%s</code>';
