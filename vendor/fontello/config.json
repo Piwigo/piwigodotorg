@@ -189,6 +189,12 @@
       "search": [
         "vector"
       ]
+    },
+    {
+      "uid": "43ab845088317bd348dee1d975700c48",
+      "css": "ok-circled",
+      "code": 59428,
+      "src": "fontawesome"
     }
   ]
 }
