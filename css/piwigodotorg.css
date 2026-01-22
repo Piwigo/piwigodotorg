@@ -9293,7 +9293,6 @@ a.btn-back-to-menu:hover {
 }
 
 .guide-docker-img {
-    aspect-ratio: 1;
     max-width: 100%;
     box-shadow: 0 0 10px #777;
 }
