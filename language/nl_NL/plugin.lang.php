@@ -177,3 +177,6 @@ $lang['porg_users_tourism'] = 'Toerisme & Cultuur';
 $lang['language_hy_AM'] = 'Armeens';
 $lang['See pricing'] = 'Prijzen';
 $lang['language_te_IN'] = 'Indiase taal (Telugu)';
+$lang['Contact us'] = 'Neem contact op';
+$lang['Get Help'] = 'Zoek hulp';
+$lang['porg_guides_img_docker'] = 'Docker Image';
