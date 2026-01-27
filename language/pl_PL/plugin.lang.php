@@ -175,3 +175,6 @@ $lang['porg_users_public'] = 'Sektor publiczny';
 $lang['porg_users_tourism'] = 'Turystyka i kultura';
 $lang['See pricing'] = 'Zobacz cennik';
 $lang['language_te_IN'] = 'Telugu';
+$lang['Contact us'] = 'Skontaktuj się z nami';
+$lang['Get Help'] = 'Uzyskaj pomoc';
+$lang['porg_guides_img_docker'] = 'Obraz dockera';
