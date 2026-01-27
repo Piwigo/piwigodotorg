@@ -57,7 +57,7 @@ function ws_porg_contact_send($params, &$service)
 {
   global $conf;
 
-  if (isset($_SERVER['HTTP_USER_AGENT']) and preg_match('/Chrome\/134\.0\.0\.0/', $_SERVER['HTTP_USER_AGENT']))
+  if (isset($_SERVER['HTTP_USER_AGENT']) and preg_match('/Chrome\/(134|142)\.0\.0\.0/', $_SERVER['HTTP_USER_AGENT']))
   {
     if (preg_match('/^[a-zA-Z]{16,}$/', $params['message']))
     {
