@@ -249,6 +249,19 @@ SELECT
     'default_language' => $data['general_stats']['default_language'],
   );
 
+  $optional_technical_fields = array(
+    'container_type', // added in Piwigo 16.3.0
+    'container_version', // added in Piwigo 16.3.0
+  );
+
+  foreach ($optional_technical_fields as $input_key)
+  {
+    if (!empty($data['technical'][$input_key]))
+    {
+      $install[$input_key] = pwg_db_real_escape_string(substr($data['technical'][$input_key], 0, 255));
+    }
+  }
+
   foreach (array('php_version', 'piwigo_version', 'os_version', 'db_version') as $input_key)
   {
     $install[$input_key] = pwg_db_real_escape_string(substr($data['technical'][$input_key], 0, 255));
