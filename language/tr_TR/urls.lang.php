@@ -50,5 +50,5 @@ $lang['porg_urls']['guides'] = 'guides(kılavuzlar)';
 $lang['porg_urls']['automatic_update'] = 'guides/update/automatic (kılavuzlar/güncelleme/otomatik)';
 $lang['porg_urls']['users'] = 'kimler-piwigo-kullanıyor';
 $lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
-$lang['porg_urls']['docker'] = 'guides/install/docker';
+$lang['porg_urls']['docker_installation'] = 'guides/install/docker';
 $lang['porg_urls']['get-help'] = 'yardim-alin';

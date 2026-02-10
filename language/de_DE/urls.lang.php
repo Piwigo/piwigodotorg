@@ -40,6 +40,7 @@ $lang['porg_urls']['netinstall'] = 'anleitung/installation/netinstall';
 $lang['porg_urls']['manual_installation'] = 'anleitung/installation/manuellle';
 $lang['porg_urls']['automatic_update'] = 'anleitung/aktualisierung/automatische';
 $lang['porg_urls']['manual_update'] = 'anleitung/aktualisierung/manuelle';
+$lang['porg_urls']['manual_docker'] = 'anleitung/aktualisierung/docker';
 
 $lang['porg_doc_urls']['requirements'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung:voraussetzungen';
 $lang['porg_doc_urls']['install'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung';
@@ -50,5 +51,5 @@ $lang['porg_urls']['showcases'] = 'beispiele';
 $lang['porg_urls']['mobile-applications'] = 'Mobile-Anwendungen';
 $lang['porg_urls']['users'] = 'Wer-nutzt-Piwigo';
 $lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
-$lang['porg_urls']['docker'] = 'Anleitungen/Installation/Docker';
+$lang['porg_urls']['docker_installation'] = 'Anleitungen/Installation/Docker';
 $lang['porg_urls']['get-help'] = 'Hilfe erhalten';

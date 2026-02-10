@@ -46,10 +46,12 @@ $lang['porg_urls']['automatic_update'] = 'guías/actualizaciñon/automático';
 $lang['porg_urls']['guides'] = 'guias';
 $lang['porg_urls']['manual_installation'] = 'guides/install/manual';
 $lang['porg_urls']['manual_update'] = 'guides/update/manual';
+$lang['porg_urls']['docker_update'] = 'guías/actualizaciñon/docker';
+
 $lang['porg_urls']['netinstall'] = 'guides/install/netinstall';
 $lang['porg_urls']['requirements'] = 'guides/install/requirements';
 $lang['porg_urls']['mobile-applications'] = 'aplicaciones-moviles';
 $lang['porg_urls']['users'] = 'quien-usa-piwigo';
 $lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
-$lang['porg_urls']['docker'] = 'guías/instalación/docker';
+$lang['porg_urls']['docker_installation'] = 'guías/instalación/docker';
 $lang['porg_urls']['get-help'] = 'obtener-ayuda';
