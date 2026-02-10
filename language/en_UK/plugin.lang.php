@@ -165,6 +165,8 @@ $lang['porg_guides_install_info2'] = 'The Piwigo team recommends FileZilla as an
 $lang['Still got some unanswered questions ?'] = 'Still got some unanswered questions?';
 $lang['porg_get_started_question_desc1'] = 'You can get some help on the <a href="%s">forum</a> or find your own answers in the <a href="%s">documentation</a>';
 $lang['porg_guides_img_docker'] = "Docker Image";
+$lang['porg_guides_docker_update'] = "Docker Image Update";
+
 
 $lang['porg_users_company'] = 'Companies';
 $lang['porg_users_education'] = 'Education & Research';

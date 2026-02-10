@@ -37,7 +37,7 @@ function porg_user_init()
     global $user, $page;
 
     $page['porg_domain_prefix'] = '';
-    $user['language'] = 'en_UK';
+    $user["language"] = "en_UK";
 
     $raw_url = $_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME'];
 

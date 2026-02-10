@@ -30,7 +30,7 @@
             <a href="{$PORG_ROOT}{$URL.manual_installation}">
               <span>{'porg_guides_manual_installation'|translate}</span>
             </a>
-            <a href="{$PORG_ROOT}{$URL.docker}">
+            <a href="{$PORG_ROOT}{$URL.docker_installation}">
               <span>{'porg_guides_img_docker'|translate}</span>
             </a>
           </div>
@@ -51,6 +51,9 @@
             </a>
             <a href="{$PORG_ROOT}{$URL.manual_update}">
               <span>{'porg_guides_manual_update'|translate}</span>
+            </a>
+            <a href="{$PORG_ROOT}{$URL.docker_update}">
+              <span>{'porg_guides_docker_update'|translate}</span>
             </a>
           </div>
           <img src="{$PORG_ROOT_URL}images/features/installation.svg">

@@ -9275,7 +9275,7 @@ a.btn-back-to-menu:hover {
     left: unset;
 }
 
-/* Guide docker */
+/* Guides docker */
 
 .guide-docker-text {
     font-size: 16px;
@@ -9295,6 +9295,16 @@ a.btn-back-to-menu:hover {
 .guide-docker-img {
     max-width: 100%;
     box-shadow: 0 0 10px #777;
+}
+
+.guide-docker-text > h4 {
+    color: #286aac;
+    font-weight: 600;
+    font-size: 18px;
+} 
+
+.guide-docker-update-img {
+    max-width: 80%;
 }
 
 /*Framed info*/
@@ -9681,7 +9691,7 @@ a.btn-back-to-menu:hover {
     padding-left: 0px;
     list-style-type: none;
 }
-
+href
 .footer-list ul li {
     margin-top: 9px;
 }
@@ -9727,7 +9737,7 @@ a.btn-back-to-menu:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
-
+href
 @media (min-width: 992px) and (max-width: 1199px) {
 
     .icon-facebook,
