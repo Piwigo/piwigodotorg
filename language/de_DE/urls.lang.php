@@ -40,7 +40,7 @@ $lang['porg_urls']['netinstall'] = 'anleitung/installation/netinstall';
 $lang['porg_urls']['manual_installation'] = 'anleitung/installation/manuellle';
 $lang['porg_urls']['automatic_update'] = 'anleitung/aktualisierung/automatische';
 $lang['porg_urls']['manual_update'] = 'anleitung/aktualisierung/manuelle';
-$lang['porg_urls']['manual_docker'] = 'anleitung/aktualisierung/docker';
+$lang['porg_urls']['docker_update'] = 'anleitung/aktualisierung/docker';
 
 $lang['porg_doc_urls']['requirements'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung:voraussetzungen';
 $lang['porg_doc_urls']['install'] = 'https://de.piwigo.org/doc/doku.php?id=benutzen:installationsanleitung';
