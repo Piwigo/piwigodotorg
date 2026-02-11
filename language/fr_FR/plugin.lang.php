@@ -173,4 +173,5 @@ $lang['porg_users_public'] = 'Secteur Public';
 $lang['language_hy_AM'] = 'Arménien';
 $lang['language_te_IN'] = 'Télougou';
 $lang['porg_guides_img_docker'] = 'Image Docker';
+$lang['porg_guides_docker_update'] = "Mise à jour Image Docker";
 $lang['Get Help'] = 'Trouver de l\'aide';
