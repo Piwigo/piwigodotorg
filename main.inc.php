@@ -269,6 +269,10 @@ function porg_load_content()
         {
             $redirects['mobile-applications'] = 'mobile-applications';
         }
+        if ('guide-update-docker' == $_GET['porg']) // Redirect even if using en locale
+        {
+            $redirects['guide-update-docker'] = 'docker_update';
+        }
 
         // specific case for releases/a.b.c => release-a.b.c
         if (preg_match('/^releases\/(\d+\.\d+\.\d+)$/', $_GET['porg'], $matches))
@@ -300,7 +304,6 @@ function porg_load_content()
             'DOC_URL' => $doc_url,
           ));
         }
-
         if (isset($redirects[ $_GET['porg'] ]))
         {
             set_status_header(301);
