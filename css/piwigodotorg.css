@@ -9340,9 +9340,13 @@ a.btn-back-to-menu:hover {
     padding: 0;
 }
 
-.framed-info-content a {
+.framed-info a {
+    border: 1px solid #521642;
+    padding: 0px 7px;
+    border-radius: 5px;
     color: #521642;
-    text-decoration: underline;
+    background-color: #fdd5f2;
+    line-height: 1.6;
 }
 
 
