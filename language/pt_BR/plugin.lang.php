@@ -178,3 +178,4 @@ $lang['language_te_IN'] = 'Télugo';
 $lang['porg_guides_img_docker'] = 'Imagem Docker';
 $lang['Get Help'] = 'Obtenha ajuda';
 $lang['Contact us'] = 'Contate-nos';
+$lang['porg_guides_docker_update'] = 'Atualização de imagem Docker';
