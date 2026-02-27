@@ -178,3 +178,4 @@ $lang['language_te_IN'] = '泰卢固语';
 $lang['porg_guides_img_docker'] = 'Docker镜像';
 $lang['Contact us'] = '联系我们';
 $lang['Get Help'] = '获取帮助';
+$lang['porg_guides_docker_update'] = 'Docker 镜像更新';
