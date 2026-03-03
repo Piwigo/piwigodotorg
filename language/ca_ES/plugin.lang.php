@@ -163,3 +163,4 @@ $lang['Contact us'] = 'Contacteu-nos';
 $lang['Get Help'] = 'Obteniu ajuda';
 $lang['language_te_IN'] = 'Telugu';
 $lang['porg_guides_img_docker'] = 'Imatge de Docker';
+$lang['porg_guides_docker_update'] = 'Actualització d\'imatge de Docker';
