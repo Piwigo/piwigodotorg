@@ -178,3 +178,4 @@ $lang['language_te_IN'] = 'Telugu';
 $lang['Contact us'] = 'Contáctenos';
 $lang['Get Help'] = 'Obtenga ayuda';
 $lang['porg_guides_img_docker'] = 'Imagen de Docker';
+$lang['porg_guides_docker_update'] = 'Actualización de imagen de Docker';
