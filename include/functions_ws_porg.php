@@ -97,10 +97,12 @@ function ws_porg_contact_send($params, &$service)
   /* MESSAGE */
   if (preg_match('/https?:\/\//', $params['message']))
   {
-    $error .= 'please, no link in your message';
+    $error .= 'please remove any links from your message';
   }
   
   $message = quoted_printable_encode(stripslashes($params["message"]));
+
+  $message .="\n\n Piwigo url: " . $params['piwigo_url'];
 
   if (empty($error))
   {

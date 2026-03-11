@@ -549,7 +549,6 @@ function get_ressources($ressources_type)
       }
     }
   
-    curl_close($curl);
   } 
   
   $result = unserialize(file_get_contents($cache_path));
@@ -583,8 +582,7 @@ function get_ressources_infos($img_id)
           file_put_contents($cache_path, serialize($ressources));
         }
       }
-    
-      curl_close($curl);
+
     }
     $result = unserialize(file_get_contents($cache_path));
 

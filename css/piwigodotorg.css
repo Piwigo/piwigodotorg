@@ -133,9 +133,49 @@
   color: #ffffff;
 }
 
+.primary-btn.disabled{
+  background-color:#ccc;
+}
+
 .light-grey-background{
   background-color: #f8f9fa;
 }
+
+#success, #error{
+  display:none;
+  padding:40px 0;
+}
+
+#success .success_message {
+  padding:7px 10px;
+  color:#6DCE5E;
+  background-color:#DBF6D7;
+  border-left:6px solid #6DCE5E;
+  box-shadow: 0px 4px 15px 0px #00000033;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  max-width :50%;
+  margin:0 auto;
+}
+
+#error .error_message {
+  padding:7px 10px;
+  color:#EB3D33;
+  background-color:#F8D7DC;
+  border-left:6px solid #EB3D33;
+  box-shadow: 0px 4px 15px 0px #00000033;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  max-width :50%;
+  margin:0 auto;
+}
+
+.contact small.text-muted{
+  color:#EB3D33;
+}
+
 
 .mobile-display {
     display: none;
@@ -1472,10 +1512,6 @@ h2 {
     #get_help-main-image {
         margin-top: 50px;
     }
-}
-
-@media (max-width: 400px) {
-
 }
 
 /* Get started */
@@ -7135,123 +7171,48 @@ label {
  * Piwigo contact CSS *
  **********************/
 
-.container-fluide-contact {
-    background-color: #FF7700;
+.contact {
+  position: relative;
+  margin-top: 50px;
 }
 
-.container-fluide-contact h1,
-.container-fluide-contact p {
-    color: #FFFFFF;
+.contact h1 {
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 76px;
+    transition: all 1s;
+    margin: 0;
 }
 
-.container-fluide-contact h1 {
-    margin-bottom: 20px;
+.contact p {
+    color: #7e7e7e;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
 }
 
-.container-fluide-contact p {
+.contact p {
+    padding-top: 10px;
     font-size: 18px;
 }
 
-.contact-logo {
-    height: 167px;
-    background: url(../images/contact/contact.svg);
-    background-size: 40%;
-    background-position: 66% 0%;
-    background-repeat: no-repeat;
+.contact_form{
+    margin:0 auto;
+    float:unset;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-    .contact-logo {
-        height: 192px;
-        background-position: 66% 55px;
-    }
-}
-
-@media (max-width: 991px) {
-    .contact-logo {
-        display: none;
-    }
-}
-
-.container-contact {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.container-contact label {
-    color: #54616F;
-}
-
-.container-contact input,
-.container-contact textarea {
-    transition: background-color 0.2s ease-out;
-    -webkit-transition: background-color 0.2s ease-out;
-    -moz-transition: background-color 0.2s ease-out;
-}
-
-.container-contact input:active,
-.container-contact textarea:active,
-.container-contact select:active,
-.container-contact input:focus,
-.container-contact textarea:focus,
-.container-contact select:focus {
+.contact textarea:active,
+.contact select:active,
+.contact input:focus,
+.contact textarea:focus,
+.contact select:focus {
     border: 1px solid #FF7700;
     box-shadow: 0 0 0;
-}
-
-.container-fluide-border-orange {
-    height: 1px;
-    border-bottom: 2px solid #FF7700;
-}
-
-.btn-send-mail {
-    margin-top: 50px;
-    font-size: 20px;
-    color: #FF7700;
-    border-radius: 0px;
-    background-color: #FFFFFF;
-    padding-left: 100px;
-    padding-right: 100px;
-    border: 1px solid #FF7700;
-    transition: background-color 0.2s ease-out;
-    -webkit-transition: background-color 0.2s ease-out;
-    -moz-transition: background-color 0.2s ease-out;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
-}
-
-
-.contact-success {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 28px;
-    color: #1D5D2B;
-    background-color: #d4edda;
-    border: 1px solid #c3e6cb;
-    border-radius: 5px;
-    padding: 20px 0;
-}
-
-@media (max-width: 380px) {
-    .btn-send-mail {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-}
-
-.btn-send-mail:hover,
-.btn-send-mail:focus {
-    color: #FFFFFF;
-    background-color: #FF7700;
-}
-
-.input-email {
-    height: 28px;
-}
-
-.contact-category {
-    color: #54616F;
-    margin-bottom: -5px;
-    margin-top: -2px;
 }
 
 .ohnohoney {
@@ -7264,97 +7225,28 @@ label {
     z-index: -1;
 }
 
-/* Dropdown */
-
-.dropdown-el {
-    min-width: 12em;
-    position: relative;
-    display: inline-block;
-    margin-right: 1em;
-    min-height: 2em;
-    max-height: 2em;
-    overflow: hidden;
-    top: .5em;
-    cursor: pointer;
-    text-align: left;
-    white-space: nowrap;
-    color: #444;
-    outline: none;
-    border: .1em solid #CCC;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-    transition: .3s all ease-in-out;
+.contact form small{
+  color:red;
 }
 
-.dropdown-el input {
-    display: none;
-}
+@media (max-width: 991px) {
+    .contact h1 {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 40px;
+    }
 
-.dropdown-el label {
-    border-top: .06em solid #d9d9d9;
-    display: block;
-    height: 2em;
-    line-height: 2em;
-    padding-left: 1em;
-    padding-right: 3em;
-    cursor: pointer;
-    position: relative;
-    font-weight: normal;
-    transition: .3s color ease-in-out;
-}
+    .contact p {
+        font-size: 16px;
+        margin-top: 40px;
+        text-align: left;
+        padding: 0;
+        line-height: normal;
+    }
 
-.dropdown-el label:nth-child(2) {
-    margin-top: 2em;
-    border-top: .06em solid #FF7700;
-}
-
-.dropdown-el input:checked+label {
-    display: block;
-    border-top: none;
-    position: absolute;
-    top: 0;
-}
-
-.dropdown-el input:checked+label:nth-child(2) {
-    margin-top: 0;
-    position: relative;
-}
-
-.dropdown-el::after {
-    content: "";
-    position: absolute;
-    right: 0.8em;
-    top: 0.9em;
-    border: .3em solid #FF7700;
-    border-color: #4F4F4F transparent transparent transparent;
-    transition: .4s all ease-in-out;
-}
-
-.dropdown-el.expanded {
-    border: .06em solid #FF7700;
-    background: #fff;
-    border-radius: .25em;
-    padding: 0;
-    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 5px 0px;
-    max-height: 15em;
-}
-
-.dropdown-el.expanded label {
-    border-top: .06em solid #d9d9d9;
-}
-
-.dropdown-el.expanded label:hover {
-    color: #FF7700;
-    font-weight: bold;
-}
-
-.dropdown-el.expanded input:checked+label {
-    color: #FF7700;
-}
-
-.dropdown-el.expanded::after {
-    transform: rotate(-180deg);
-    top: .55em;
+    #contact-main-image {
+        margin-top: 50px;
+    }
 }
 
 /**********************
@@ -9741,7 +9633,7 @@ href
     margin-left: 20px;
     margin-right: 20px;
 }
-href
+
 @media (min-width: 992px) and (max-width: 1199px) {
 
     .icon-facebook,
