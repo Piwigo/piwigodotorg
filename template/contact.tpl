@@ -215,7 +215,7 @@
 
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">{'Your message'|translate}*</label>
-                <textarea class="form-control" id="form-message" rows="3" required></textarea>
+                <textarea class="form-control" id="form-message" rows="8" required></textarea>
               </div>
 
               <div>
