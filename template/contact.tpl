@@ -199,7 +199,7 @@
           </div>
 
           <div class="row">
-            <div data-toggle="validator" role="form" class="col-xs-12 col-md-6 contact_form">
+            <div data-toggle="validator" role="form" class="col-xs-12 col-md-8 contact_form">
 
               <div class="form-group mt-5">
                 <label for="form-email">{'Your email address'|translate}*</label>
