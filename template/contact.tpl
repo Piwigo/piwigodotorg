@@ -170,7 +170,7 @@
         <p>{'porg_contact_intro_2'|translate}</p>
       </div>
       <div class="col-xs-12 col-md-6">
-        <img id="contact-main-image" class="w-100" src="{$PORG_ROOT_URL}images/get_help/contact.svg"/>
+        <img id="contact-main-image" class="w-100" src="{$PORG_ROOT_URL}images/contact/contact.svg"/>
       </div>
     </div>
   </div>
