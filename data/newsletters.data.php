@@ -2,6 +2,11 @@
 
     $newsletters = array(
         'fr' => array(
+            '2026-03-18' => array (
+                'title' => 'Statistiques d\'installation de Piwigo, stratégie de mise à jour et accompagnement',
+                'image' => 'https://ressources.piwigo.com/i?/uploads/c/v/7/cv7jpz6hf8//2026/03/17/20260317105224-8d3f4ca3-la.jpg',
+                'summary' => 'Depuis la version 15 de Piwigo, nous collectons des statistiques anonymes sur les installations. Notamment la version de Piwigo. Nous avons repéré un phénomène récurrent...',
+            ),
             '2026-01-06' => array (
                 'title' => 'Retrospective sur le calendrier de l\'Avent 2025',
                 'image' => 'https://sandbox.piwigo.com/i?/uploads/4/y/1/4y1zzhnrnw//2026/01/06/20260106141959-258b9de0-la.jpg',
