@@ -92,8 +92,8 @@
   {* Step 4 *}
   <div class="pwg-guides-block-content">
     <h3 id="step4-docker-update" class="pwg-guides-h3">{'porg_guides_img_docker_update_step4'|translate}</h3>
-    <p>{'porg_guides_img_docker_update_pwg_step4_paragraph_1'|translate}</p>
-    <p>{'porg_guides_img_docker_update_pwg_step4_paragraph_2'|translate}</p>
+    <p>{'porg_guides_img_docker_update_pwg_step4_paragraph_1_v2'|translate}</p>
+    <p>{'porg_guides_img_docker_update_pwg_step4_paragraph_2_v2'|translate}</p>
   </div>
 </section>
 

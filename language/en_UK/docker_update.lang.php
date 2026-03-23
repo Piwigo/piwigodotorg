@@ -38,5 +38,5 @@ $lang['porg_guides_img_docker_update_pwg_step3_paragraph_1'] = 'You can fetch th
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_2'] = 'Check the <a href="%s">GitHub wiki</a> to get the .env file matching your version';
 
 // Step 4
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1'] = 'Pull the image with <code>docker compose pull</code> and restart it with <code>docker compose up</code>.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2'] = 'Once you have confirmed everything works you can detatch the terminal by pressing <code>d</code>';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1_v2'] = 'Pull the image with <code>docker compose pull -d</code> and restart it with <code>docker compose up</code>.';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2_v2'] = 'You can check the logs with <code>docker logs</code> and the name (ending with <code>piwigo-main-1</code>).';
