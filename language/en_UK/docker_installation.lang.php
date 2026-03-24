@@ -16,6 +16,7 @@ $lang['porg_guides_img_docker_step1_curl'] = 'You can use curl to download it wi
 $lang['porg_guides_img_docker_step1_create_dotenv'] = 'Create a file named <code>.env</code>, it need to contain the following, with a strong password and your timezone after the equal sign without quotes.';
 $lang['porg_guides_img_docker_step1_truncate'] = 'You can use truncate to generate a valid password with the following command:';
 $lang['porg_guides_img_docker_step1_piwigo_port'] = 'You can change the exposed port by editing <code>%s</code>';
+$lang['porg_guides_img_docker_step1_piwigo_UID_GID'] = 'Set the UID and GID of the user and group you want to give access to the piwigo folder in the <code>%s</code> and <code>%s</code> fields';
 $lang['porg_guides_img_docker_step1_start_with'] = 'Start your container with';
 
 // Step 2

@@ -77,10 +77,13 @@
           </li>
         <pre><code>piwigo_port=8080
 db_user_password=
-timezone=</code></pre>
+timezone=
+PIWIGO_UID=
+PIWIGO_GID=</code></pre>
         <p>{'porg_guides_img_docker_step1_truncate'|translate}</p>
         <p><code>printf $(tr -dc '[:alnum:]' &lt/dev/urandom | head -c64)"\n"</code></p>
         <p>{'porg_guides_img_docker_step1_piwigo_port'|translate:"piwigo_port"}</p>
+        <p>{'porg_guides_img_docker_step1_piwigo_UID_GID'|translate:"PIWIGO_UID":"PIWIGO_GID"}</p>
       </ul>
       <p>{'porg_guides_img_docker_step1_start_with'|translate} <code>docker compose up -d</code></p>
     </div>
