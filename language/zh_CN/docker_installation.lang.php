@@ -24,3 +24,4 @@ $lang['porg_guides_img_docker_step2'] = '步骤2 - 配置反向代理';
 $lang['porg_guides_img_docker_step2_use_piwigo_docker_subpath'] = '如果你打算在子路径上托管Piwigo（例如：<code>my_domain.tld/gallery</code>），你需要通过添加<code>proxy_set_header X-Forwarded-Prefix /my_subpath</code>来将其转发到容器';
 $lang['porg_guides_img_docker_step2_use_piwigo_docker_with_reverse_proxy'] = '您需要为Piwigo Docker使用外部反向代理；以下是一些Nginx配置示例：';
 $lang['porg_guides_img_docker_step1_piwigo_port'] = '你可通过编辑 <code>%s</code> 文件修改暴露的端口号';
+$lang['porg_guides_img_docker_step1_piwigo_UID_GID'] = '在 <code>%s</code> 和 <code>%s</code> 字段中，设置你要授权访问Piwigo文件夹的用户UID和用户组GID。';
