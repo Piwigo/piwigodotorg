@@ -21,11 +21,11 @@ $lang['porg_guides_img_docker_update_step2'] = 'Schritt 2 – Erstellen Sie eine
 $lang['porg_guides_img_docker_update_step2_compose_env'] = 'Sichern Sie Compose- und env-Dateien';
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_1'] = 'Sie können die neueste Version der Datei <code>compose.yaml</code> mit dem folgenden Befehl abrufen:';
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_2'] = 'Überprüfen Sie das <a href="%s">GitHub-Wiki</a>, um die zu Ihrer Version passende .env-Datei zu erhalten.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1'] = 'Ziehen Sie das Image mit <code>docker compose pull</code> und starten Sie es mit <code>docker compose up</code> neu.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2'] = 'Sobald Sie sich vergewissert haben, dass alles funktioniert, können Sie das Terminal durch Drücken von <code>d</code> trennen.';
 $lang['porg_guides_img_docker_update_official_disclaimer_1'] = 'Diese Anleitung gilt nur für das offizielle Piwigo-Image. Wenn Sie einen LinuxServer-Container verwenden, lesen Sie bitte stattdessen die entsprechende Dokumentation.';
 $lang['porg_guides_img_docker_update_official_disclaimer_2'] = 'Wenn Sie zum offiziellen Image wechseln möchten, können Sie <a href="%s">dieser Anleitung folgen</a>.';
 $lang['porg_guides_img_docker_update_pwg_higher_16_3'] = 'Für Container der Version 16.3 und höher';
 $lang['porg_guides_img_docker_update_pwg_higher_16_3_paragraph'] = 'Sie sollten bereits in der Update-Oberfläche sehen können, ob Updates verfügbar sind. Wenn Sie auf die Minor-Version aktualisieren möchten, verwenden Sie die erste Zahl mit dem Tag (z. B.: <code>16</code>).';
 $lang['porg_guides_img_docker_update_pwg_lower_16_3'] = 'Für Container der Version 16.2 und niedriger';
 $lang['porg_guides_img_docker_update_pwg_lower_16_3_p1'] = 'Gehen Sie zu <a href=%s>der Tagliste</a> und suchen Sie das Tag, das Sie aktualisieren möchten.';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1_v2'] = 'Lade das Image mit <code>docker compose pull -d</code> herunter und starte es mit <code>docker compose up</code> neu.';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2_v2'] = 'Sie können die Protokolle mit <code>docker logs</code> und dem Namen (der auf <code>piwigo-main-1</code> endet) einsehen.';
