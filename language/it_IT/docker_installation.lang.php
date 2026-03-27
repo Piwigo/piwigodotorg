@@ -24,3 +24,4 @@ $lang['porg_guides_docker_configuration_database_settings'] = 'Inserisci i segue
 $lang['porg_guides_docker_configuration_password'] = 'Utilizza la password che hai scritto nel file .env';
 $lang['porg_guides_img_docker'] = 'Immagine Docker';
 $lang['porg_guides_img_docker_step1_piwigo_port'] = 'Puoi cambiare la porta esposta modificando <code>%s</code>';
+$lang['porg_guides_img_docker_step1_piwigo_UID_GID'] = 'Imposta UID e GID di utente e gruppo a cui vuoi concedere l\'accesso alla cartella piwigo, nei campi <code>%s</code> e <code>%s</code>';
