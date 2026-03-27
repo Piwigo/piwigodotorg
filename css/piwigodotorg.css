@@ -172,6 +172,10 @@
   margin:0 auto;
 }
 
+#error .error_message ul{
+  margin:0;
+}
+
 .contact small.text-muted{
   color:#EB3D33;
 }
