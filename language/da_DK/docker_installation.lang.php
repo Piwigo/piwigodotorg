@@ -24,3 +24,4 @@ $lang['porg_guides_img_docker_step2'] = 'Trin 2 - Opsæt reverse proxy';
 $lang['porg_guides_img_docker_step2_use_piwigo_docker_subpath'] = 'Hvis du vil host\'e Piwigo på en understi (fx: <code>mit_domæne.tld/gallery</code>), skal du videresende det til containeren ved at tilføje <code>proxy_set_header X-Forwarded-Prefix /min_understi</code>';
 $lang['porg_guides_img_docker_step2_use_piwigo_docker_with_reverse_proxy'] = 'Du bør anvende en ekstern reverse proxy med Piwigo Docker, du kan anvende følgende Nginx-opsætningseksempler.';
 $lang['porg_guides_img_docker_step1_piwigo_port'] = 'Du kan ændre den udstillede port ved at redigere <code>%s</code>';
+$lang['porg_guides_img_docker_step1_piwigo_UID_GID'] = 'Opsæt den brugers og grupps UID og GID, som du ønsker at give adgang til Piwigo-mappen i felterne <code>%s</code> og <code>%s</code>';

@@ -17,8 +17,6 @@ $lang['porg_guides_img_docker_update_official_disclaimer_2'] = 'Hvis du ønsker 
 $lang['porg_guides_img_docker_update_pwg_higher_16_3_paragraph'] = 'Du bør allerede være i stand til at se om der er tilgængelige opdateringer i opdateringsbrugerfladen, hvis du ønsker at opdatere til den mindre version, så anvend det første tal tag\'et har (fx: <code>16</code>)';
 $lang['porg_guides_img_docker_update_pwg_lower_16_3_p1'] = 'Gå til <a href=%s>taglisten</a> og søg efter det tag, som du ønsker at opdatere til';
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_1'] = 'Du kan hente den seneste version af filen <code>compose.yaml</code> med følgende kommando:';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1'] = 'Pull image\'t med <code>docker compose pull</code> og genstart det med <code>docker compose up</code>.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2'] = 'Når du har bekræftet at alt fungerer, kan du detatch\'e terminalen ved at trykke på <code>d</code>';
 $lang['porg_guides_img_docker_update_step1'] = 'Trin 1 - Se efter opdateringer';
 $lang['porg_guides_img_docker_update_step1_paragraph_1'] = 'Containeres versionsnummer vil altid være det samme som Piwigos version, begyndende med 16.3.0 vil de være efterfulgt af et bogstav, for at kunne foretage containerspecifikke opdateringer';
 $lang['porg_guides_img_docker_update_step2'] = 'Trin 2 - Opret en sikkerhedskopi';
@@ -29,3 +27,5 @@ $lang['porg_guides_img_docker_update_step2_db_p1'] = 'Du kan oprette en sikkerhe
 $lang['porg_guides_img_docker_update_step2_db_p2'] = 'Databasens adgangskode skulle være den samme som den du indsatte i <code>.env</code (sørg for at erstatte containernavnet, så det er det samme som dit)';
 $lang['porg_guides_img_docker_update_step2_db_p3'] = 'Du kan nu stoppe din container ved at køre <code>docker compose down</code>';
 $lang['porg_guides_img_docker_update_step2_files'] = 'Sikkerhedskopiering af filer';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1_v2'] = 'Pull imagefilen med <code>docker compose pull -d</code> og genstart den med <code>docker compose up</code>.';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2_v2'] = 'Du kan tjekke logningerne med <code>docker logs</code> samt navnet (som slutter på <code>piwigo-main-1</code>).';
