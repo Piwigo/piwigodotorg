@@ -32,3 +32,4 @@ $lang['porg_guides_docker_configuration_intro_paragraph'] = 'Une fois votre cont
 $lang['porg_guides_docker_step2_framed_info_port'] = 'Si vous avez modifié le port dans le fichier <code>.env</code>, vous aurez également besoin d\'adapter le paramètre <code>proxy_pass</code> pour accéder à votre Piwigo. Gardez en tête que Docker ignore vos règles pare-feu.';
 $lang['porg_guides_docker_configuration_password'] = 'Utilisez le mot de passe noté dans le fichier <code>.env</code>';
 $lang['porg_guides_docker_configuration_database_settings'] = 'Remplissez la section des paramètres de connexion a la base de données MySQL avec les informations suivantes';
+$lang['porg_guides_img_docker_step1_piwigo_UID_GID'] = 'Définissez l\'UID et le GID de l\'utilisateur et du groupe auxquels vous souhaitez donner accès au dossier piwigo dans les champs <code>%s</code> et <code>%s</code>';

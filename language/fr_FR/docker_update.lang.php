@@ -12,7 +12,6 @@ $lang['porg_guides_img_docker_update_official_disclaimer_2'] = 'Si vous voulez m
 
 // Step 1
 $lang['porg_guides_img_docker_update_step1_paragraph_1'] = 'Le numéro de version du conteneur sera toujours le même que la version de Piwigo qu\'il contient. À partir de la version 16.3.0, il y a une lettre à la fin pour dénoter les mises à jour spécifiques au conteneur.';
-$lang['porg_guides_img_docker_update_step1_paragraph_2'] = 'Pour connaître la version de votre conteneur, allez dans Administration > Outils > Mises à Jour';
 
 // 16.3 and after
 $lang['porg_guides_img_docker_update_pwg_higher_16_3'] = 'Pour les conteneurs version 16.3 et supérieure';
@@ -42,5 +41,5 @@ $lang['porg_guides_img_docker_update_pwg_step3_paragraph_1'] = 'Vous pouvez tél
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_2'] = 'Vérifiez le <a href="%s">wiki Github</a> pour modifier votre fichier <code>.env</code> pour qu\'il corresponde à la nouvelle version de votre conteneur';
 
 // Step 4
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1'] = 'Télécharger l\'image avec <code>docker compose pull</code> et relancer votre conteneur avec <code>docker compose up</code>.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2'] = 'Une fois que vous avez confirmer le bon fonctionnement de votre piwigo vous pouvez quitter le terminal avec <code>d</code>';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1_v2'] = 'Récupérez l\'image avec <code>docker compose pull -d</code> et redémarrez-la avec <code>docker compose up</code>.';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2_v2'] = 'Vous pouvez consulter les journaux avec <code>docker logs</code> et le nom (se terminant par <code>piwigo-main-1</code>).';
