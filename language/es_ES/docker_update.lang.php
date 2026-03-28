@@ -13,8 +13,6 @@ $lang['porg_guides_img_docker_update_pwg_lower_16_3'] = 'Para la versión del co
 $lang['porg_guides_img_docker_update_pwg_lower_16_3_p1'] = 'Vaya a la <a href=%s>lista de etiquetas</a> y busque la etiqueta a la que quiere actualizar.';
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_1'] = 'Puede obtener la última versión del archivo <code>compose.yaml</code> con el siguiente mandato:';
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_2'] = 'Consulte la <a href="%s">wiki de GitHub</a> para obtener el archivo .env correspondiente a su versión.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1'] = 'Obtenga la imagen con <code>docker compose pull</code> y reiníciela con <code>docker compose up</code>.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2'] = 'Una vez que haya confirmado que todo funciona, puede desconectar el terminal pulsando <code>d</code>.';
 $lang['porg_guides_img_docker_update_step1'] = 'Paso 1 - Buscar actualizaciones';
 $lang['porg_guides_img_docker_update_step1_paragraph_1'] = 'Los números de versión de los contenedores siempre coincidirán con la versión de Piwigo. A partir de la versión 16.3.0, tendrán una letra adicional al final para permitir actualizaciones específicas del contenedor.';
 $lang['porg_guides_img_docker_update_step2'] = 'Paso 2 - Crear una copia de seguridad';
@@ -29,3 +27,5 @@ $lang['porg_guides_img_docker_update_step2_files_p1'] = 'Para hacer una copia de
 $lang['porg_guides_img_docker_update_step2_p1'] = 'Para garantizar que la actualización sea segura, debe hacer una copia de seguridad tanto de la base de datos como de los archivos de su instancia de Piwigo.';
 $lang['porg_guides_img_docker_update_step3'] = 'Paso 3 - Descargar el nuevo archivo de composición y actualizar <code>.env</code>';
 $lang['porg_guides_img_docker_update_step4'] = 'Paso 4 - Actualizar y reiniciar el contenedor';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1_v2'] = 'Baje la imagen con <code>docker compose pull -d</code> y reiníciela con <code>docker compose up</code>.';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2_v2'] = 'Puede comprobar los registros con <code>docker logs</code> y el nombre (acabado en <code>piwigo-main-1</code>).';

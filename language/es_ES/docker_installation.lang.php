@@ -24,3 +24,4 @@ $lang['porg_guides_img_docker_step1_curl'] = 'Puede usar <i>curl</i> para descar
 $lang['porg_guides_img_docker_step1_download_compose'] = 'Descargue el archivo <code>compose.yaml</code> desde <a href="%s">Piwigo/piwigo-docker</a>.';
 $lang['porg_guides_img_docker_step1_piwigo_port'] = 'Puede cambiar el puerto expuesto editando <code>%s</code>.';
 $lang['porg_guides_img_docker_step1_start_with'] = 'Inicie el contenedor con';
+$lang['porg_guides_img_docker_step1_piwigo_UID_GID'] = 'Defina el UID y el GID del usuario y grupo a que desea dar acceso a la carpeta de Piwigo en los campos <code>%s</code> y <code>%s</code>.';
