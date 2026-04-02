@@ -18,8 +18,6 @@ $lang['porg_guides_img_docker_update_pwg_lower_16_3'] = 'Para a versão 16.2 e i
 $lang['porg_guides_img_docker_update_pwg_lower_16_3_p1'] = 'Acesse a <a href=%s>lista de tags</a> e pesquise a tag que deseja atualizar.';
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_1'] = 'Você pode obter a versão mais recente do arquivo <code>compose.yaml</code> usando o seguinte comando:';
 $lang['porg_guides_img_docker_update_pwg_step3_paragraph_2'] = 'Consulte o <a href="%s">wiki do GitHub</a> para obter o arquivo .env correspondente à sua versão.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1'] = 'Baixe a imagem com <code>docker compose pull</code> e reinicie-a com <code>docker compose up</code>.';
-$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2'] = 'Depois de confirmar que tudo funciona, você pode desconectar o terminal pressionando <code>d</code>.';
 $lang['porg_guides_img_docker_update_step1'] = 'Etapa 1 - Verificando atualizações
 ';
 $lang['porg_guides_img_docker_update_step1_paragraph_1'] = 'Os números de versão dos contêineres sempre corresponderão à versão do Piwigo. A partir da versão 16.3.0, eles terão uma letra adicional para permitir atualizações específicas do contêiner.';
@@ -31,3 +29,5 @@ $lang['porg_guides_img_docker_update_step2_db_p1'] = 'Você pode criar um backup
 $lang['porg_guides_img_docker_update_step2_db_p2'] = 'A senha do banco de dados deve ser a mesma que você inseriu em <code>.env</code> (certifique-se de substituir o nome do contêiner para que corresponda ao seu).';
 $lang['porg_guides_img_docker_update_step2_db_p3'] = 'Agora você pode parar seu contêiner executando <code>docker compose down</code>';
 $lang['porg_guides_img_docker_update_step2_files'] = 'Backup de arquivos';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_1_v2'] = 'Baixe a imagem com <code>docker compose pull -d</code> e reinicie-a com <code>docker compose up</code>.';
+$lang['porg_guides_img_docker_update_pwg_step4_paragraph_2_v2'] = 'Você pode verificar os logs com <code>docker logs</code> e o nome (terminando com <code>piwigo-main-1</code>).';
