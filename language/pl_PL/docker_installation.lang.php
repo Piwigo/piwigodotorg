@@ -24,3 +24,4 @@ $lang['porg_guides_docker_step2_framed_info_path'] = 'Piwigo może być hostowan
 $lang['porg_guides_docker_configuration_password'] = 'Użyj hasła, które zapisałeś w pliku .env';
 $lang['porg_guides_docker_configuration_intro_paragraph'] = 'Po uruchomieniu kontenera i skonfigurowaniu serwera reverse proxy otwórz przeglądarkę internetową i wejdź na adres, na którym hostujesz Piwigo. Piwigo wykryje, że nic jeszcze nie zostało zainstalowane i przekieruje Cię na stronę instalacji.';
 $lang['porg_guides_docker_configuration_database_settings'] = 'Uzupełnij dane połączenia z bazą MySQL poniżej';
+$lang['porg_guides_img_docker_step1_piwigo_UID_GID'] = 'Ustaw UID i GID użytkownika i grupy, którym chcesz przyznać dostęp do folderu piwigo w polach <code>%s</code> i <code>%s</code>';
