@@ -1,13 +1,15 @@
 /* Common button templates */
 .btn-cta {
   display: inline-block;
-  padding: 12px 20px;
-  border-radius: 8px;
-  border: 0;
+  padding: 8px 4px 8px 4px;
+  border-radius: 4px;
+  border: 1px;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
   line-height: 1;
+  height: 30px;
+  width: 177px;
   transition: filter .2s ease;
 }
 
