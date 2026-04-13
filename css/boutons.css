@@ -1,0 +1,43 @@
+/* Basic button templates */
+.btn-cta {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1;
+  transition: filter .2s ease;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+  color: #fff;
+  text-decoration: none;
+  filter: brightness(0.95);
+}
+
+.CTA_principale {
+  background: #ff7700;
+}
+
+.CTA_secondaire {
+  background: #58667a;
+}
+
+.CTA_principale_vert {
+  background: #2e9f4b;
+}
+
+.components-display-showcase {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.components-display-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

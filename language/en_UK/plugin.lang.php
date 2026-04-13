@@ -38,6 +38,7 @@ $lang['Mobile applications'] = 'Mobile applications';
 $lang['Users'] = 'Users';
 $lang['Who uses Piwigo ?'] = 'Who uses Piwigo?';
 $lang['Get Help'] = 'Get Help';
+$lang['Components display'] = 'Components display';
 
 /* languages */
 $lang['language_af_ZA'] = 'Afrikaans';

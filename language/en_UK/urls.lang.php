@@ -26,6 +26,7 @@ $lang['porg_urls']['docker_update'] = 'guides/update/docker';
 $lang['porg_urls']['documentation'] = 'https://doc.piwigo.org/';
 $lang['porg_urls']['users'] = 'who-uses-piwigo';
 $lang['porg_urls']['get-help'] = 'get-help';
+$lang['porg_urls']['components-display'] = 'components-display';
 
 $lang['porg_doc_urls']['requirements'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:install:before';
 $lang['porg_doc_urls']['install'] = 'https://piwigo.org/doc/doku.php?id=user_documentation:learn:install';
