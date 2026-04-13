@@ -1,4 +1,4 @@
-/* Basic button templates */
+/* Common button templates */
 .btn-cta {
   display: inline-block;
   padding: 12px 20px;
@@ -19,15 +19,17 @@
 }
 
 .CTA_principale {
-  background: #ff7700;
+  background: #FF7700;
 }
 
 .CTA_secondaire {
-  background: #58667a;
+  background: #F7F7F7;
+  color: black;
 }
 
 .CTA_principale_vert {
-  background: #2e9f4b;
+  background: #64DBBD;
+  color: black;
 }
 
 .components-display-showcase {

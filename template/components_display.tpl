@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/boutons.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/CommonButton.css">
 
 <section class="components-display-showcase">
   <h1>Components display</h1>
