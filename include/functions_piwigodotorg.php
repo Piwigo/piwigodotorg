@@ -35,7 +35,7 @@ function porg_get_pages()
     'docker_update' => 'Docker Image Update',
     'mobile-applications' => 'Mobile applications',
     'get-help'=>'Get Help',
-    'components-display' => 'Components display',
+    'buttons-display' => 'Buttons display',
     );
 }
 
