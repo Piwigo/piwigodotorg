@@ -10,7 +10,8 @@
   line-height: 1;
   height: 30px;
   width: 177px;
-  transition: filter .2s ease;
+  transition: filter .2s ease-out;
+  text-align: center;
 }
 
 .btn-cta:hover,
