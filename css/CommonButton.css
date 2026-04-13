@@ -32,13 +32,13 @@
   color: black;
 }
 
-.components-display-showcase {
+.buttons-display-showcase {
   max-width: 900px;
   margin: 40px auto;
   padding: 0 16px;
 }
 
-.components-display-list {
+.buttons-display-list {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
