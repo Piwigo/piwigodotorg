@@ -1,38 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600;700&display=swap');
+
+:root {
+  --cta-primary-bg: #ff7700;
+  --cta-primary-text: #ffffff;
+
+  --cta-secondary-bg: #f7f7f7;
+  --cta-secondary-text: #000000;
+
+  --cta-primary-green-bg: #64dbbd;
+  --cta-primary-green-text: #000000;
+}
+
 /* Common button templates */
 .btn-cta {
-  display: inline-block;
-  padding: 8px 4px 8px 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 189px;
+  height: 32px;
+  padding: 9px 26px;
   border-radius: 4px;
-  border: 1px;
-  color: #fff;
+  border: 0;
+  gap: 6px;
+  opacity: 1;
+  color: var(--cta-primary-text);
   text-decoration: none;
-  font-weight: 600;
-  line-height: 1;
-  height: 30px;
-  width: 177px;
-  transition: filter .2s ease-out;
-  text-align: center;
+  font-family: 'Sora', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  transition: border-color .3s ease;
 }
 
 .btn-cta:hover,
 .btn-cta:focus {
-  color: #fff;
   text-decoration: none;
-  filter: brightness(0.95);
 }
 
 .CTA_principale {
-  background: #FF7700;
+  background: var(--cta-primary-bg);
+  color: var(--cta-primary-text);
+}
+
+.CTA_principale:hover,
+.CTA_principale:focus {
+  color: var(--cta-primary-text);
 }
 
 .CTA_secondaire {
-  background: #F7F7F7;
-  color: black;
+  background: var(--cta-secondary-bg);
+  color: var(--cta-secondary-text);
+}
+
+.CTA_secondaire:hover,
+.CTA_secondaire:focus {
+  color: var(--cta-secondary-text);
 }
 
 .CTA_principale_vert {
-  background: #64DBBD;
-  color: black;
+  background: var(--cta-primary-green-bg);
+  color: var(--cta-primary-green-text);
+}
+
+.CTA_principale_vert:hover,
+.CTA_principale_vert:focus {
+  color: var(--cta-primary-green-text);
+}
+
+/* Menu button templates */
+.btn-menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 177px;
+  height: 30px;
+  padding: 8px 4px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  gap: 10px;
+  opacity: 1;
+  text-decoration: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  transition: border-color .3s ease;
+}
+
+.btn-menu:hover,
+.btn-menu:focus {
+  text-decoration: none;
+}
+
+.Menu_btn_green {
+  background: var(--cta-primary-green-bg);
+  color: var(--cta-primary-green-text);
+}
+
+.Menu_btn_green:hover,
+.Menu_btn_green:focus {
+  color: var(--cta-primary-green-text);
+}
+
+.Menu_btn_white {
+  background: var(--cta-secondary-bg);
+  color: var(--cta-secondary-text);
+}
+
+.Menu_btn_white:hover,
+.Menu_btn_white:focus {
+  color: var(--cta-secondary-text);
+}
+
+.Menu_btn_blue {
+  background: #D8F4EC;
+  color: var(--cta-secondary-text);
+}
+
+.Menu_btn_blue:hover,
+.Menu_btn_blue:focus {
+  color: var(--cta-secondary-text);
+}
+
+.Menu_btn_orange {
+  background: var(--cta-primary-bg);
+  color: var(--cta-primary-text);
+}
+
+.Menu_btn_orange:hover,
+.Menu_btn_orange:focus {
+  color: var(--cta-primary-text);
 }
 
 .buttons-display-showcase {
