@@ -12,11 +12,12 @@
     transition: all 0.3s ease;
     margin-bottom: 10px;
     gap: 10px;
+    width: 234px;
 }
 
 .submenu-item:hover {
-    background-color: #ffffff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: #FAFAFA;
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); */
 }
 
 .icon-box {
@@ -124,7 +125,7 @@
 
 
 /* --------- for the good one -------- */
-/* 
+
 .icon-box.features { background-color: #fff0f3; }
 .icon-box.features i { color: #ff3366; }
 
@@ -149,4 +150,4 @@
     margin-left: 8px;
     color: #50e3c2;
     text-decoration: none !important;
-} */
+}

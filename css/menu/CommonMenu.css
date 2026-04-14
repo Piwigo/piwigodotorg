@@ -1,0 +1,66 @@
+.menu-mega-container {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: fit-content;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.menu-columns {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+
+.menu-divider {
+    width: 1px;
+    background-color: #f0f0f0;
+    align-self: stretch;
+}
+
+.menu-horizontal-divider {
+    height: 1px;
+    background-color: #f0f0f0;
+    margin: 15px 0;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+/* .btn-menu {
+    flex: 1;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Menu_btn_green {
+    background-color: #e6f7f3;
+    color: #2d5a52;
+}
+
+.Menu_btn_green:hover {
+    background-color: #d1f0e8;
+}
+
+.Menu_btn_white {
+    background-color: #f7f7f7;
+    color: #2d2d2d;
+}
+
+.Menu_btn_white:hover {
+    background-color: #eeeeee;
+} */

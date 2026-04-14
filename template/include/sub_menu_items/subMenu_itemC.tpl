@@ -12,7 +12,7 @@
                     <span class="icon-ext"><i class="icon-external"></i></span>
                 {else}
                     <span class="arrow">→</span>
-                {endif}
+                {/if}
             </span>
             <p class="description">{$description}</p>
         </div>
