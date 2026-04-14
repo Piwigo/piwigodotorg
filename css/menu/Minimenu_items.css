@@ -1,0 +1,38 @@
+.minimenu_items {
+    /* Mise en forme et positionnement */
+    display: inline-flex; /* Pour que le padding et le gap fonctionnent */
+    align-items: center;
+    justify-content: center;
+    width: 144px; /* N'oublie pas le 'px' */
+    height: 30px;
+    margin-top: 20px; /* 'top' et 'left' demandent une position absolute, margin est plus sûr ici */
+    margin-left: 20px;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 30px;
+    padding: 10px 18px; /* Raccourci pour haut/bas et gauche/droite */
+    
+    /* Fond et bordure */
+    background: #FFFFFF;
+    border: 1px dashed #8D8E8E; /* Le style 'dashed' remplace le 'solid' */
+    
+    /* Typographie */
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 645;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #8D8E8E;
+    
+    /* Transition pour l'animation */
+    transition: all 200ms ease-out;
+    cursor: pointer; /* Pour indiquer que c'est cliquable */
+}
+
+/* État au survol (Hover) */
+.minimenu_items:hover {
+    /* Ajoute ici les changements prévus dans ton Figma pour le Hover */
+    background: #F5F5F5; /* Exemple : un léger gris au survol */
+    border-style: solid; /* Exemple : la bordure devient pleine */
+}
+.selected_minimenu_items {}
