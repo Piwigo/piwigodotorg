@@ -104,3 +104,28 @@
     font-size: 0.9rem;
     text-decoration: none !important;
 }
+
+@media (max-width: 402px) {
+    .submenu-item {
+        width: 100%; 
+        height: auto;
+        padding: 8px;
+        margin-bottom: 5px;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .icon-box {
+        width: 22px;
+        height: 22px;
+    }
+    .arrow {
+        display: none;
+    }
+}
