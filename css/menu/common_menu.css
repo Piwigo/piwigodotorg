@@ -49,7 +49,7 @@
 
     .menu-columns {
         flex-direction: column;
-        gap: 10px;
+        gap: 0;
     }
 
     .menu-column {

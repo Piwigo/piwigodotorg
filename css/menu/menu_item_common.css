@@ -109,8 +109,8 @@
     .submenu-item {
         width: 100%; 
         height: auto;
-        padding: 8px;
-        margin-bottom: 5px;
+        padding: 0;
+        /* margin-bottom: 5px; */
     }
 
     .description {
