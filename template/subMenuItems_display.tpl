@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/MenuItemCommon.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/MenuItemCommon.css">
 
 <section class="menuItems-display-showcase">
 
