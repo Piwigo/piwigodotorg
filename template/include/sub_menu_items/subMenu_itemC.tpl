@@ -1,4 +1,4 @@
-<div class="submenu-container">
+
     <a href="{$href|default:'#'}" class="submenu-item">
         <div class="icon-box {$category_type}"> 
             <i class="{$icon_class}"></i>
@@ -17,7 +17,6 @@
             <p class="description">{$description}</p>
         </div>
     </a>
-</div>
 
 {* for later but to explain -> it's looking if it's an external link or not 
 if not : then it'll show the little arrow 
