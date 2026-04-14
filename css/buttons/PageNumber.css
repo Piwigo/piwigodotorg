@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600;700&display=swap');
+
+.pagination-numbers-container {
+  display: flex;
+  width: 186px;
+  height: 32px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  gap: 23px;
+  transform: rotate(0deg);
+  opacity: 1;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 22px;
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #3C3C3C;
+  text-decoration: none;
+}
+
+.selected_number {
+  width: 32px;
+  height: 32px;
+  gap: 10px;
+  border-radius: 16px;
+  padding-top: 5px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  background: #D8F4EC;
+  color: #329F83;
+}
+
+.number:hover,
+.number:focus {
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.selected_number:hover,
+.selected_number:focus {
+    text-decoration: none;
+    color: #329F83;
+}
