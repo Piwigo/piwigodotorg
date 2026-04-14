@@ -5,9 +5,9 @@
   <p>Les boutons :</p>
 
   <div class="buttons-display-list">
-    {include file='template/include/buttons/CTA_principale.tpl' label='CTA principale'}
-    {include file='template/include/buttons/CTA_secondaire.tpl' label='CTA secondaire'}
-    {include file='template/include/buttons/CTA_principale_vert.tpl' label='CTA principale vert'}
+    {include file='template/include/buttons/CTA_principale.tpl' label='Start your free trial'}
+    {include file='template/include/buttons/CTA_secondaire.tpl' label='Start your free trial'}
+    {include file='template/include/buttons/CTA_principale_vert.tpl' label='Start your free trial'}
   </div>
 
   <div class="buttons-display-list">

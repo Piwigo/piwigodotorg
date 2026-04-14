@@ -4,16 +4,21 @@
 :root {
   --cta-primary-bg: #ff7700;
   --cta-primary-text: #ffffff;
+  --cta-primary-hover: #FF2F63;
 
   --cta-secondary-bg: #f7f7f7;
-  --cta-secondary-text: #000000;
+  --cta-secondary-text: #3C3C3C;
+  --cta-secondary-hover: #D9D9D9;
 
   --cta-primary-green-bg: #64dbbd;
-  --cta-primary-green-text: #000000;
+  --cta-primary-green-text: #29554A;
+  --cta-primary-green-hover: #329F83;
+
 }
 
 /* Common button templates */
 .btn-cta {
+  box-sizing: border-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -21,10 +26,11 @@
   height: 32px;
   padding: 9px 26px;
   border-radius: 4px;
-  border: 0;
+  border: 2px solid transparent;
   gap: 6px;
   opacity: 1;
   color: var(--cta-primary-text);
+  white-space: nowrap;
   text-decoration: none;
   font-family: 'Sora', sans-serif;
   font-style: normal;
@@ -37,7 +43,9 @@
 
 .btn-cta:hover,
 .btn-cta:focus {
+  border: 2px solid transparent;
   text-decoration: none;
+  box-shadow: 0px 4px 10px 0px #77777733;
 }
 
 .CTA_principale {
@@ -47,6 +55,9 @@
 
 .CTA_principale:hover,
 .CTA_principale:focus {
+  background:
+    linear-gradient(var(--cta-primary-bg), var(--cta-primary-bg)) padding-box,
+    linear-gradient(92.17deg, var(--cta-primary-hover) 19.22%, var(--cta-primary-bg) 96.41%) border-box;
   color: var(--cta-primary-text);
 }
 
@@ -57,6 +68,9 @@
 
 .CTA_secondaire:hover,
 .CTA_secondaire:focus {
+  background:
+    linear-gradient(var(--cta-secondary-bg), var(--cta-secondary-bg)) padding-box,
+    linear-gradient(92.17deg, var(--cta-secondary-hover) 19.22%, var(--cta-secondary-bg) 96.41%) border-box;
   color: var(--cta-secondary-text);
 }
 
@@ -67,6 +81,9 @@
 
 .CTA_principale_vert:hover,
 .CTA_principale_vert:focus {
+  background:
+    linear-gradient(var(--cta-primary-green-bg), var(--cta-primary-green-bg)) padding-box,
+    linear-gradient(92.17deg, var(--cta-primary-green-hover) 19.22%, var(--cta-primary-green-bg) 96.41%) border-box;
   color: var(--cta-primary-green-text);
 }
 
@@ -93,7 +110,9 @@
 
 .btn-menu:hover,
 .btn-menu:focus {
+  border: 2px solid transparent;
   text-decoration: none;
+  box-shadow: 0px 4px 10px 0px #77777733;
 }
 
 .Menu_btn_green {
@@ -103,6 +122,9 @@
 
 .Menu_btn_green:hover,
 .Menu_btn_green:focus {
+  background:
+    linear-gradient(var(--cta-primary-green-bg), var(--cta-primary-green-bg)) padding-box,
+    linear-gradient(92.17deg, var(--cta-primary-green-hover) 19.22%, var(--cta-primary-green-bg) 96.41%) border-box;
   color: var(--cta-primary-green-text);
 }
 
@@ -113,17 +135,22 @@
 
 .Menu_btn_white:hover,
 .Menu_btn_white:focus {
+  background:
+    linear-gradient(var(--cta-secondary-bg), var(--cta-secondary-bg)) padding-box,
+    linear-gradient(92.17deg, var(--cta-secondary-hover) 19.22%, var(--cta-secondary-bg) 96.41%) border-box;
   color: var(--cta-secondary-text);
 }
 
 .Menu_btn_blue {
   background: #D8F4EC;
-  color: var(--cta-secondary-text);
+  color: var(--cta-primary-green-text);
 }
 
 .Menu_btn_blue:hover,
 .Menu_btn_blue:focus {
-  color: var(--cta-secondary-text);
+  background: #D8F4EC;
+  border: 2px solid #64DBBD;
+  color: var(--cta-primary-green-text);
 }
 
 .Menu_btn_orange {
@@ -133,13 +160,19 @@
 
 .Menu_btn_orange:hover,
 .Menu_btn_orange:focus {
+  background:
+    linear-gradient(var(--cta-primary-bg), var(--cta-primary-bg)) padding-box,
+    linear-gradient(92.17deg, var(--cta-primary-hover) 19.22%, var(--cta-primary-bg) 96.41%) border-box;
   color: var(--cta-primary-text);
 }
 
 .buttons-display-showcase {
+  display: flex;
+  flex-direction: column;
   max-width: 900px;
   margin: 40px auto;
   padding: 0 16px;
+  gap: 15px;
 }
 
 .buttons-display-list {
