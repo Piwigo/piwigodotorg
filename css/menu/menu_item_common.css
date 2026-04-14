@@ -1,87 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
-
-.submenu-item, 
-.submenu-item:hover, 
+.submenu-item,
+.submenu-item:hover,
 .submenu-item:focus {
-    text-decoration: none !important;
-    color: inherit; 
-    display: flex;
-    align-items: center;
-    border-radius: 12px;
-    padding: 10px;
-    transition: all 0.3s ease;
-    /* margin-bottom: 5px; */
-    gap: 10px; 
-    width: 234px; 
-    /* height: 47px; */
+  text-decoration: none !important;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  /* margin-bottom: 5px; */
+  gap: 10px;
+  width: 234px;
+  /* height: 47px; */
 }
 
 .submenu-item:hover {
-    background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .icon-box {
-    width: 35px; 
-    height: 35px;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0; 
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .icon-box i {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+.menu-svg {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 35px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 35px;
 }
 
 .title {
-    font-weight: 645;
-    font-family: 'Red Hat Display', Bold;
-    display: flex;
-    align-items: center;
-    font-size: 14px;
+  font-weight: 645;
+  font-family: "Red Hat Display", Bold;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
 }
 
 .description {
-    color: #888;
-    font-weight: 400;
-    font-family: 'Red Hat Display';
-    font-size: 12px;
-    margin: 0;
+  color: #888;
+  font-weight: 400;
+  font-family: "Red Hat Display";
+  font-size: 12px;
+  margin: 0;
 }
 
 .arrow {
-    opacity: 0;
-    margin-left: 8px;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    display: inline-block;
+  opacity: 0;
+  margin-left: 8px;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  display: inline-block;
 }
 
 .submenu-item:hover .arrow {
-    opacity: 1;
-    transform: translateX(3px);
+  opacity: 1;
+  transform: translateX(3px);
 }
 
 .submenu-item:hover .title-text,
 .submenu-item:hover .title-text-ext {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 /* --------- category color --------- */
 
-.icon-box.feature-submenu { background-color: #fff0f3 !important; }
-.icon-box.feature-submenu i { color: #ff3366 !important; }
+.icon-box.feature-submenu {
+  background-color: #fff0f3 !important;
+}
+.icon-box.feature-submenu i {
+  color: #ff3366 !important;
+}
 
-.icon-box.use-case-submenu { background-color: #fff5eb !important; }
-.icon-box.use-case-submenu i { color: #ff8c00 !important; }
+.icon-box.use-case-submenu {
+  background-color: #fff5eb !important;
+}
+.icon-box.use-case-submenu i {
+  color: #ff8c00 !important;
+}
 
 /* .icon-box.explore { background-color: #e6fffa !important; }
 .icon-box.explore i { color: #38bba0 !important; }
@@ -91,41 +106,45 @@
 
 /* --------------- EXT ---------------*/
 .title-ext {
-    font-weight: 700;
-    font-size: 1.05rem;
-    color: #2d2d2d;
-    display: flex;
-    align-items: center;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #2d2d2d;
+  display: flex;
+  align-items: center;
 }
 
 .icon-ext {
-    margin-left: 8px;
-    color: #50e3c2;
-    font-size: 0.9rem;
-    text-decoration: none !important;
+  margin-left: 8px;
+  color: #50e3c2;
+  font-size: 0.9rem;
+  text-decoration: none !important;
 }
 
 @media (max-width: 402px) {
-    .submenu-item {
-        width: 100%; 
-        height: auto;
-        padding: 0;
-        /* margin-bottom: 5px; */
-    }
+  .submenu-item {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    align-items: center;
+    /* margin-bottom: 5px; */
+  }
 
-    .description {
-        display: none;
-    }
+  .description {
+    display: none;
+  }
 
-    .title {
-        font-size: 15px;
-    }
+  .title {
+    font-size: 15px;
+  }
 
-    .icon-box {
-        width: 22px;
-        height: 22px;
-    }
-    .arrow {
-        display: none;
-    }
+  .icon-box {
+    width: 22px;
+    height: 22px;
+  }
+  .arrow {
+    display: none;
+  }
+  .menu-svg {
+    object-fit: none;
+  }
 }
