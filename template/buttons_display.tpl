@@ -27,6 +27,8 @@
     {include file='template/include/buttons/page_number.tpl' label='1' href='https://google.com' is_selected=true}
     {include file='template/include/buttons/page_number.tpl' label='2' href='https://google.com'}
     {include file='template/include/buttons/page_number.tpl' label='3' href='https://google.com'}
+    {include file='template/include/buttons/forward_arrow.tpl' href='https://google.com'}
+    {include file='template/include/buttons/forward_arrow.tpl' href='https://google.com' fast=true}
   </div>
 
 </section>

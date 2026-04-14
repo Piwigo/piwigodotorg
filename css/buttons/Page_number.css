@@ -19,6 +19,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 12px;
   height: 22px;
   font-family: 'Sora', sans-serif;
@@ -54,4 +55,30 @@
 .selected_number:focus {
     text-decoration: none;
     color: #329F83;
+}
+
+.pagination-arrow {
+  display: inline-flex;
+  width: 20px; 
+  height: 20px;
+  
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #64DBBD;
+  text-decoration: none;
+}
+
+.pagination-arrow i {
+  display: inline-block;
+  font-size: 18px; 
+  line-height: 1;
+  position: relative;
+}
+
+.pagination-arrow:hover,
+.pagination-arrow:focus {
+  text-decoration: none;
+  color: #64DBBD;
+  opacity: 0.8;
 }
