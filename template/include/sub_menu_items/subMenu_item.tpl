@@ -4,7 +4,9 @@
             <i class="icon-cloud"></i>
         </div>
         <div class="content">
-            <span class="title">Upload & Import <span class="arrow">→</span></span>
+            <span class="title">
+                <span class="title-text">Upload & Import</span> <span class="arrow">→</span>
+            </span>
             <p class="description">Lorem ipsum dolor sit amet</p>
         </div>
     </a>

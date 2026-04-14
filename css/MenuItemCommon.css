@@ -1,17 +1,15 @@
 
-.submenu-item {
+.submenu-item, 
+.submenu-item:hover, 
+.submenu-item:focus {
+    text-decoration: none !important;
+    color: inherit; 
     display: flex;
     align-items: center;
     padding: 15px;
-    text-decoration: none;
     border-radius: 12px;
     transition: all 0.3s ease;
     margin-bottom: 10px;
-    color: #333;
-}
-
-.submenu-item:not(:hover) {
-    background-color: transparent;
 }
 
 .submenu-item:hover {
@@ -49,22 +47,100 @@
     align-items: center;
 }
 
+.title-text:hover{
+    text-decoration: underline;
+}
+
 .description {
     margin: 0;
     font-size: 0.9rem;
     color: #888;
+    /* text-decoration: none !important;  */
 }
 
 .arrow {
     opacity: 0;
     margin-left: 5px;
     transition: opacity 0.3s ease;
+    display: inline-block;
+    
 }
 
-.submenu-item:hover .title {
-    text-decoration: underline;
-}
+/* .submenu-item:hover .title-text {
+    text-decoration: underline !important;
+} */
 
 .submenu-item:hover .arrow {
     opacity: 1;
+    text-decoration: none !important;
 }
+
+/* .submenu-item a{
+    text-decoration: none !important;
+} */
+
+.submenu-item a:hover{
+    text-decoration: none !important;
+}
+
+
+/* --------------- EXT ---------------*/
+.title-ext {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #2d2d2d;
+    display: flex;
+    align-items: center;
+}
+
+/* .icon-ext {
+    margin-left: 8px;
+    color: #50e3c2;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+} */
+
+.submenu-item:hover .title-text-ext {
+    text-decoration: underline !important;
+}
+
+/* .submenu-item:hover .icon-ext {
+    color: #38bba0;
+    transform: translateY(-1px); 
+}
+
+.icon-ext, .icon-ext i {
+    text-decoration: none !important;
+    display: inline-block;
+} */
+
+
+/* --------- for the good one -------- */
+/* 
+.icon-box.features { background-color: #fff0f3; }
+.icon-box.features i { color: #ff3366; }
+
+.icon-box.use-cases { background-color: #fff5eb; }
+.icon-box.use-cases i { color: #ff8c00; }
+
+.icon-box.explore { background-color: #e6fffa; }
+.icon-box.explore i { color: #38bba0; }
+
+.icon-box.ai { background-color: #fff0f3; }
+.icon-box.ai i { color: #ff5c33; }
+
+.submenu-item:hover .title-text {
+    text-decoration: underline !important;
+}
+
+.submenu-item:hover .title-text-ext {
+    text-decoration: underline !important;
+}
+
+.icon-ext {
+    margin-left: 8px;
+    color: #50e3c2;
+    text-decoration: none !important;
+} */
