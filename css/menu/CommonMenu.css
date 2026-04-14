@@ -39,3 +39,30 @@
 .menu-footer .btn-menu {
     width: 241px;
 }
+
+@media (max-width: 402px) {
+    .menu-mega-container {
+        width: 100%;
+        max-width: 350px;
+        padding: 15px;
+    }
+
+    .menu-columns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-column {
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .menu-divider {
+        display: none;
+    }
+
+    .menu-footer {
+        display: none;
+    }
+
+}
