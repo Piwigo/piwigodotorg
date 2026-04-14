@@ -1,6 +1,8 @@
 
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/CommonMenu.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/MenuItemCommon.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/MenuItemCommon.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/Minimenu_items.css">
 
 <section class="menuItems-display-showcase">
 

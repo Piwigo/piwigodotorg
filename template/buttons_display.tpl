@@ -1,15 +1,15 @@
-<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/CommonButton.css">
-<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/CrossButton.css">
-<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/PageNumber.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/Common_button.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/Cross_button.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/Page_number.css">
 
 <section class="buttons-display-showcase">
 
   <p>Les boutons :</p>
 
   <div class="buttons-display-list">
-    {include file='template/include/buttons/CTA_principale.tpl' label='Start your free trial' href='https://google.com'}
-    {include file='template/include/buttons/CTA_secondaire.tpl' label='Start your free trial' href='https://google.com'}
-    {include file='template/include/buttons/CTA_principale_vert.tpl' label='Start your free trial' href='https://google.com'}
+    {include file='template/include/buttons/CTA_primary.tpl' label='Start your free trial' href='https://google.com'}
+    {include file='template/include/buttons/CTA_secondary.tpl' label='Start your free trial' href='https://google.com'}
+    {include file='template/include/buttons/CTA_primary_green.tpl' label='Start your free trial' href='https://google.com'}
   </div>
 
   <div class="buttons-display-list">

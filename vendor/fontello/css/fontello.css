@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?16010832');
-  src: url('../font/fontello.eot?16010832#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?16010832') format('woff2'),
-       url('../font/fontello.woff?16010832') format('woff'),
-       url('../font/fontello.ttf?16010832') format('truetype'),
-       url('../font/fontello.svg?16010832#fontello') format('svg');
+  src: url('../font/fontello.eot?53860569');
+  src: url('../font/fontello.eot?53860569#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?53860569') format('woff2'),
+       url('../font/fontello.woff?53860569') format('woff'),
+       url('../font/fontello.ttf?53860569') format('truetype'),
+       url('../font/fontello.svg?53860569#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?16010832#fontello') format('svg');
+    src: url('../font/fontello.svg?53860569#fontello') format('svg');
   }
 }
 */
@@ -76,8 +76,55 @@
 .icon-download:before { content: '\e813'; } /* '' */
 .icon-down-open:before { content: '\e814'; } /* '' */
 .icon-link:before { content: '\e815'; } /* '' */
+.icon-tech:before { content: '\e816'; } /* '' */
+.icon-travel:before { content: '\e817'; } /* '' */
+.icon-warning-big:before { content: '\e818'; } /* '' */
+.icon-warning:before { content: '\e819'; } /* '' */
+.icon-app:before { content: '\e81a'; } /* '' */
+.icon-arrow-double:before { content: '\e81b'; } /* '' */
+.icon-arrow-simple:before { content: '\e81c'; } /* '' */
+.icon-check-big:before { content: '\e81d'; } /* '' */
+.icon-check-1:before { content: '\e81e'; } /* '' */
+.icon-cloud-oneplace:before { content: '\e81f'; } /* '' */
+.icon-companies:before { content: '\e820'; } /* '' */
+.icon-contribute:before { content: '\e821'; } /* '' */
+.icon-cross:before { content: '\e822'; } /* '' */
+.icon-dev:before { content: '\e823'; } /* '' */
 .icon-ok-circled:before { content: '\e824'; } /* '' */
 .icon-info-circled-1:before { content: '\e825'; } /* '' */
+.icon-dash:before { content: '\e826'; } /* '' */
+.icon-doc:before { content: '\e827'; } /* '' */
+.icon-examples:before { content: '\e828'; } /* '' */
+.icon-education:before { content: '\e829'; } /* '' */
+.icon-pricing:before { content: '\e82a'; } /* '' */
+.icon-photographers:before { content: '\e82b'; } /* '' */
+.icon-permissions:before { content: '\e82c'; } /* '' */
+.icon-nonprofit:before { content: '\e82e'; } /* '' */
+.icon-organize:before { content: '\e82f'; } /* '' */
+.icon-newsletter:before { content: '\e830'; } /* '' */
+.icon-latest-news:before { content: '\e831'; } /* '' */
+.icon-langage:before { content: '\e832'; } /* '' */
+.icon-key:before { content: '\e833'; } /* '' */
+.icon-import:before { content: '\e834'; } /* '' */
+.icon-icon28:before { content: '\e835'; } /* '' */
+.icon-hover-show:before { content: '\e836'; } /* '' */
+.icon-hover-hide:before { content: '\e837'; } /* '' */
+.icon-hover-arrow-simple:before { content: '\e838'; } /* '' */
+.icon-hover-arrow-double:before { content: '\e839'; } /* '' */
+.icon-hide:before { content: '\e83a'; } /* '' */
+.icon-help:before { content: '\e83b'; } /* '' */
+.icon-git:before { content: '\e83c'; } /* '' */
+.icon-flash-1:before { content: '\e83d'; } /* '' */
+.icon-extension:before { content: '\e83e'; } /* '' */
+.icon-rounded-warning:before { content: '\e83f'; } /* '' */
+.icon-rounded-check:before { content: '\e840'; } /* '' */
+.icon-public:before { content: '\e841'; } /* '' */
+.icon-search:before { content: '\e842'; } /* '' */
+.icon-secu:before { content: '\e843'; } /* '' */
+.icon-self-host:before { content: '\e844'; } /* '' */
+.icon-show:before { content: '\e845'; } /* '' */
+.icon-stats:before { content: '\e846'; } /* '' */
+.icon-support:before { content: '\e847'; } /* '' */
 .icon-link-ext:before { content: '\f08e'; } /* '' */
 .icon-check-empty:before { content: '\f096'; } /* '' */
 .icon-download-cloud:before { content: '\f0ed'; } /* '' */
