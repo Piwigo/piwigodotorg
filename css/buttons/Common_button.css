@@ -38,7 +38,7 @@
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0;
-  transition: border-color .3s ease;
+  transition: border-color .3s ease-out;
 }
 
 .btn-cta:hover,
@@ -46,6 +46,11 @@
   border: 2px solid transparent;
   text-decoration: none;
   box-shadow: 0px 4px 10px 0px #77777733;
+}
+
+.btn-cta:active,
+.btn-cta:visited {
+  text-decoration: none;
 }
 
 .CTA_principale {
@@ -99,13 +104,14 @@
   border: 1px solid transparent;
   gap: 10px;
   opacity: 1;
+  white-space: nowrap;
   text-decoration: none;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
   letter-spacing: -3%;
-  transition: border-color .3s ease;
+  transition: border-color .3s ease-out;
 }
 
 .btn-menu:hover,
@@ -113,6 +119,11 @@
   border: 2px solid transparent;
   text-decoration: none;
   box-shadow: 0px 4px 10px 0px #77777733;
+}
+
+.btn-menu:active,
+.btn-menu:visited {
+  text-decoration: none;
 }
 
 .Menu_btn_green {

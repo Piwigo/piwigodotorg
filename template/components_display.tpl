@@ -4,6 +4,6 @@
 
   <div class="components-display-list">
     {include file='template/buttons_display.tpl' label='boutons'}
-    {include file='template/subMenuItems_display.tpl' label='boutons'}
+    {include file='template/subMenuItems_display.tpl'}
   </div>
 </section>
