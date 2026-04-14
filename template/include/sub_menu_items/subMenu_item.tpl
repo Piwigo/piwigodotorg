@@ -10,4 +10,3 @@
             <p class="description">Lorem ipsum dolor sit amet</p>
         </div>
     </a>
-</div>

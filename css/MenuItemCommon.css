@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 .submenu-item, 
 .submenu-item:hover, 
@@ -10,6 +11,7 @@
     border-radius: 12px;
     transition: all 0.3s ease;
     margin-bottom: 10px;
+    gap: 10px;
 }
 
 .submenu-item:hover {
@@ -18,15 +20,16 @@
 }
 
 .icon-box {
-    width: 48px;
-    height: 48px;
+    width: 35px;
+    height: 35px;
     background-color: #fff0f3;
-    border-radius: 10px;
+    border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     flex-shrink: 0;
+    padding: 10px;
 }
 
 .icon-box i {
@@ -40,21 +43,24 @@
 }
 
 .title {
-    font-weight: 700;
+    font-weight: 645;
+    font-family: 'Red Hat Display', Bold;
     font-size: 1.1rem;
     color: #2d2d2d;
     display: flex;
     align-items: center;
 }
 
-.title-text:hover{
+/* .title-text:hover{
     text-decoration: underline;
-}
+} */
 
 .description {
     margin: 0;
     font-size: 0.9rem;
     color: #888;
+    font-weight: 400;
+    font-family: 'Red Hat Display';
     /* text-decoration: none !important;  */
 }
 
@@ -66,9 +72,9 @@
     
 }
 
-/* .submenu-item:hover .title-text {
+.submenu-item:hover .title-text {
     text-decoration: underline !important;
-} */
+}
 
 .submenu-item:hover .arrow {
     opacity: 1;
