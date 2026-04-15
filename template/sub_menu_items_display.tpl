@@ -1,8 +1,8 @@
-
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/common_menu.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/menu_item_common.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/menu_button_common.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/mini_menu_item.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/horizontal_menu.css">
 
 <section class="menuItems-display-showcase">
 
@@ -18,5 +18,17 @@
     {include file='template/include/sub_menu/sub_menu_item_support.tpl' label='boutons'}
     {include file='template/include/sub_menu_items/mini_menu_item.tpl' is_selected=true}
     {include file='template/include/sub_menu_items/mini_menu_item.tpl' is_selected=false}
+    {* sub menu under  *}
+    <div class="container-fluid d-flex justify-content-start">
+      <nav class="horizontal-menu-container d-flex align-items-center justify-content-center">
+        {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=true}
+        {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Organize your media'}
+        {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Search & Find'}
+        {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Share & Collaborate'}
+        {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Customize & Extend'}
+        {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Measure & Monitor'}
+        {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Security & privacy'}
+      </nav>
+    </div>
   </div>
 </section>
