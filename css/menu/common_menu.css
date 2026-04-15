@@ -32,12 +32,14 @@
 
 .menu-footer {
     display: flex;
-    gap: 15px;
+    gap: 40px;
     justify-content: space-around;
 }
 
 .menu-footer .btn-menu {
-    width: 241px;
+    /* max-width: 241px; */
+    flex: 1;
+    align-items: center;
 }
 
 @media (max-width: 402px) {
