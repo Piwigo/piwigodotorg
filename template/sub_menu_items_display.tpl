@@ -17,6 +17,7 @@
     {include file='template/include/sub_menu/sub_menu_item_behind_code.tpl' label='boutons'}
     {include file='template/include/sub_menu/sub_menu_item_support.tpl' label='boutons'}
     {include file='template/include/sub_menu/sub_menu_item_news.tpl' label='boutons'}
+    {include file='template/include/sub_menu/sub_menu_item_product.tpl' label='boutons'}
     {include file='template/include/sub_menu_items/mini_menu_item.tpl' is_selected=true}
     {include file='template/include/sub_menu_items/mini_menu_item.tpl' is_selected=false}
     {* sub menu under  *}

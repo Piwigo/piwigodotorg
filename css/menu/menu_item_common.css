@@ -5,7 +5,7 @@
   color: inherit;
   display: flex;
   align-items: center;
-  border-radius: 12px; /* Arrondi fidèle au visuel */
+  border-radius: 12px; 
   padding: 8px;
   margin: 5px;
   transition: all 0.3s ease;
@@ -60,7 +60,6 @@
   margin: 0;
 }
 
-/* --- Flèche Standard --- */
 .arrow {
   opacity: 0;
   margin-left: 8px;
@@ -80,21 +79,20 @@
 
 /* --- GESTION DES ICÔNES EXTERNES (is_ext) --- */
 
-/* Conteneur pour superposer les deux icônes */
 .icon-ext {
   margin-left: 8px;
-  color: #50e3c2; /* Couleur turquoise spécifique */
+  color: #50e3c2; 
   font-size: 0.9rem;
   display: inline-flex;
   position: relative;
 }
 
-/* Cacher l'icône de survol par défaut */
+
 .icon-ext .icon-ext2 {
   display: none;
 }
 
-/* Basculement au survol de l'item parent */
+
 .submenu-item:hover .icon-ext1 {
   display: none;
 }
@@ -106,18 +104,27 @@
 /* --------- category color --------- */
 
 .icon-box.feature-submenu {
-  background-color: #fff0f3 !important; /* Rose clair */
+  background-color: #fff0f3 !important; 
 }
 .icon-box.feature-submenu i {
-  color: #ff3366 !important; /* Rose vif */
+  color: #ff3366 !important;
 }
 
 .icon-box.use-case-submenu {
-  background-color: #fff5eb !important; /* Orange clair */
+  background-color: #fff5eb !important; 
 }
 .icon-box.use-case-submenu i {
-  color: #ff8c00 !important; /* Orange vif */
+  color: #ff8c00 !important; 
 }
+
+.icon-box.explore-submenu {
+  background-color: #E2FAF4 !important; 
+}
+
+.icon-box.explore-submenu i {
+  color: #329F83 !important; 
+}
+
 
 /* --------------- MEDIA QUERIES ---------------*/
 
