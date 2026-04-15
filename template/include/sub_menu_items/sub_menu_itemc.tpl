@@ -11,7 +11,8 @@
         <span class="title">
             <span class="{$is_ext ? 'title-text-ext' : 'title-text'}">{$title}</span>
             {if $is_ext}
-                <span class="icon-ext"><i class="icon-external"></i></span>
+                <span class="icon-ext" style="font-size: 10px">
+                    <i class="icon-ext1"></i> <i class="icon-ext2"></i> </span>
             {else}
                 <span class="arrow">→</span>
             {/if}
@@ -19,7 +20,6 @@
         <p class="description">{$description}</p>
     </div>
 </a>
-
 {* for later but to explain -> it's looking if it's an external link or not
 if not : then it'll show the little arrow
 if yes : then i'll be the green blueish icon

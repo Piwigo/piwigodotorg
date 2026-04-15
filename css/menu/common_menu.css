@@ -27,7 +27,7 @@
 .menu-horizontal-divider {
     height: 1px;
     background-color: #f0f0f0;
-    margin: 15px 0;
+    margin-bottom: 15px;
 }
 
 .menu-footer {

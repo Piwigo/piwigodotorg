@@ -5,13 +5,11 @@
   color: inherit;
   display: flex;
   align-items: center;
-  border-radius: 12px;
+  border-radius: 12px; /* Arrondi fidèle au visuel */
   padding: 10px;
   transition: all 0.3s ease;
-  /* margin-bottom: 5px; */
   gap: 10px;
   width: 234px;
-  /* height: 47px; */
 }
 
 .submenu-item:hover {
@@ -61,12 +59,11 @@
   margin: 0;
 }
 
+/* --- Flèche Standard --- */
 .arrow {
   opacity: 0;
   margin-left: 8px;
-  transition:
-    opacity 0.3s ease,
-    transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
   display: inline-block;
 }
 
@@ -80,43 +77,48 @@
   text-decoration: underline !important;
 }
 
+/* --- GESTION DES ICÔNES EXTERNES (is_ext) --- */
+
+/* Conteneur pour superposer les deux icônes */
+.icon-ext {
+  margin-left: 8px;
+  color: #50e3c2; /* Couleur turquoise spécifique */
+  font-size: 0.9rem;
+  display: inline-flex;
+  position: relative;
+}
+
+/* Cacher l'icône de survol par défaut */
+.icon-ext .icon-ext2 {
+  display: none;
+}
+
+/* Basculement au survol de l'item parent */
+.submenu-item:hover .icon-ext1 {
+  display: none;
+}
+
+.submenu-item:hover .icon-ext2 {
+  display: inline-block;
+}
+
 /* --------- category color --------- */
 
 .icon-box.feature-submenu {
-  background-color: #fff0f3 !important;
+  background-color: #fff0f3 !important; /* Rose clair */
 }
 .icon-box.feature-submenu i {
-  color: #ff3366 !important;
+  color: #ff3366 !important; /* Rose vif */
 }
 
 .icon-box.use-case-submenu {
-  background-color: #fff5eb !important;
+  background-color: #fff5eb !important; /* Orange clair */
 }
 .icon-box.use-case-submenu i {
-  color: #ff8c00 !important;
+  color: #ff8c00 !important; /* Orange vif */
 }
 
-/* .icon-box.explore { background-color: #e6fffa !important; }
-.icon-box.explore i { color: #38bba0 !important; }
-
-.icon-box.ai { background-color: #fff0f3 !important; }
-.icon-box.ai i { color: #ff5c33 !important; } */
-
-/* --------------- EXT ---------------*/
-.title-ext {
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: #2d2d2d;
-  display: flex;
-  align-items: center;
-}
-
-.icon-ext {
-  margin-left: 8px;
-  color: #50e3c2;
-  font-size: 0.9rem;
-  text-decoration: none !important;
-}
+/* --------------- MEDIA QUERIES ---------------*/
 
 @media (max-width: 402px) {
   .submenu-item {
@@ -124,7 +126,6 @@
     height: auto;
     padding: 0;
     align-items: center;
-    /* margin-bottom: 5px; */
   }
 
   .description {
@@ -139,7 +140,7 @@
     width: 22px;
     height: 22px;
   }
-  .arrow {
+  .arrow, .icon-ext {
     display: none;
   }
   .menu-svg {
