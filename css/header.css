@@ -1,0 +1,28 @@
+.navbar-default {
+    background-color: #ffffff !important;
+    border: none !important;
+    padding: 15px 0;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav > li > a {
+    padding: 10px 15px !important;
+}
+
+.navbar-nav .icon-down-open {
+    font-size: 10px;
+    color: #64DBBD;
+}
+
+.header-icon-item {
+    background: #F7F7F7;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 0 5px;
+    color: #8D8E8E;
+    cursor: pointer;
+}
