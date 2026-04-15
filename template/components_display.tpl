@@ -7,3 +7,24 @@
     {include file='template/sub_menu_items_display.tpl'}
   </div>
 </section>
+
+<div class="container">
+  <div class="row" style="background-color: red">
+      <h1>ROW1</h1>
+      <div class="col-4" style="background-color: orange">
+        <p>Colonne 1</p>
+      </div>
+      <div class="col-2" style="background-color: pink">
+        <p>Colonne 1</p>
+      </div>
+  </div>
+  <div class="row" style="background-color: blue">
+      <h1>ROW2</h1>
+      <div class="col-md-4 col-sm-12" style="background-color: green">
+        <p>Colonne 1</p>
+      </div>
+      <div class="col-md-2 col-sm-6" style="background-color: yellow">
+        <p>Colonne 1</p>
+      </div>
+  </div>
+</div>

@@ -36,7 +36,7 @@
                 category_type='use-case-submenu' 
                 title='Developer resources' 
                 description='Lorem ipsum dolor sit amet' 
-                icon_class='icon-git'}
+                icon_class='icon-github'}
         </div>
     </div>
 

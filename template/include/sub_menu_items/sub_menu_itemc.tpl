@@ -10,7 +10,6 @@
     <div class="content">
         <span class="title">
             <span class="{$is_ext ? 'title-text-ext' : 'title-text'}">{$title}</span>
-
             {if $is_ext}
                 <span class="icon-ext"><i class="icon-external"></i></span>
             {else}
