@@ -6,7 +6,8 @@
   display: flex;
   align-items: center;
   border-radius: 12px; /* Arrondi fidèle au visuel */
-  padding: 10px;
+  padding: 8px;
+  margin: 5px;
   transition: all 0.3s ease;
   gap: 10px;
   width: 234px;
