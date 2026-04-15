@@ -1,0 +1,1 @@
+<a href="{$href|default:'#'}" class="horizontal-menu-button">{$label|default:'Upload & Import'}</a>
