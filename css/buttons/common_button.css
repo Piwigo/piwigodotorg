@@ -22,7 +22,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 189px;
   height: 32px;
   padding: 9px 26px;
   border-radius: 4px;
@@ -97,7 +96,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 177px;
   height: 30px;
   padding: 8px 4px;
   border-radius: 4px;
@@ -190,4 +188,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+.buttons-menu-row > [class*="col-"] {
+  display: flex;
+}
+
+.buttons-menu-row .btn-menu {
+  display: flex;
+  width: 100%;
 }
