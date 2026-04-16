@@ -21,7 +21,7 @@
     {include file='template/include/sub_menu_items/mini_menu_item.tpl' is_selected=true}
     {include file='template/include/sub_menu_items/mini_menu_item.tpl' is_selected=false}
     {* sub menu under  *}
-    <div class="container-fluid d-flex justify-content-start">
+    {* <div class="container-fluid d-flex justify-content-start">
       <nav class="horizontal-menu-container d-flex align-items-center justify-content-center">
         {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=true}
         {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Organize your media'}
@@ -31,6 +31,6 @@
         {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Measure & Monitor'}
         {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Security & privacy'}
       </nav>
-    </div>
+    </div> *}
   </div>
 </section>

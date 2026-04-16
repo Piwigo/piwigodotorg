@@ -39,7 +39,7 @@
                 category_type='feature-submenu'
                 title='Customize & Extend'
                 description='Manage user access'
-                icon_class=''
+                icon_svg='images/icons/personalize.svg'
             }
 
             {include
@@ -112,9 +112,10 @@
             <div class="column-header">Explore</div>
             {include
                 file='template/include/sub_menu_items/sub_menu_itemc.tpl'
-                title='Piwgo AI'
+                category_type='ai-submenu'
+                title='Piwgo AI ✨'
                 description='Add more functionality'
-                icon_class=''
+                icon_svg='images/icons/AI.svg'
             }
 
             {include
@@ -155,6 +156,6 @@
     <div class="menu-horizontal-divider"></div>
 
     <div class="menu-footer">
-        {include file='template/include/buttons/menu_btn_white.tpl' label='Subscribe to newsletter'}
+        {include file='template/include/buttons/menu_btn_white.tpl' label='Contact us for a demo!'}
     </div>
 </div>

@@ -1,4 +1,4 @@
-<a href="{$href|default:'#'}" class="submenu-item">
+<a href="{$href|default:'#'}" class="submenu-item {$category_type}">
     <div class="icon-box {$category_type}">
         {if $icon_svg}
             <img src="{$PORG_ROOT_URL}{$icon_svg}" class="menu-svg" alt="icon">

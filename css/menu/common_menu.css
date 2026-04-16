@@ -61,6 +61,7 @@
         width: 100%;
         max-width: 350px;
         padding: 15px;
+        box-shadow: none;
     }
 
     .menu-columns {
@@ -86,7 +87,27 @@
     }
 
     .column-header{
-        display: none;
+        display: block;
+        width: 100%;
+        padding: 2px;
+        border-radius: 0;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .menu-column:nth-of-type(1) .column-header {
+        background-color: #FFE6EB; 
+        color: #FF3366;
+    }
+
+    .menu-column:nth-of-type(3) .column-header {
+        background-color: #FFF0E0;
+        color: #FF8C00;
+    }
+
+    .menu-column:nth-of-type(5) .column-header {
+        background-color: #E2FAF4;
+        color: #329F83;
     }
 
 }
