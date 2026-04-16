@@ -1,0 +1,149 @@
+/* ── BASE FOOTER ── */
+.site-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #ffffff; /* À ajuster si besoin */
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+
+.site-footer h6 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #FF7700;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.site-footer ul li:hover {
+  color: #3C3C3C;
+}
+
+/* ── COLONNE LOGO & TAGLINE ── */
+.footer-brand {
+  max-width: 250px;
+}
+
+.footer-logo img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.footer-tagline {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* ── BOITE "GET STARTED" ── */
+.footer-get-started {
+  background-color: #F7F7F7;
+  padding: 25px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-get-started h6 {
+  margin-bottom: 5px;
+}
+
+.footer-get-started ul li {
+  color: #3C3C3C;
+  font-weight: 600;
+}
+
+/* Ajustement des boutons dans la boite */
+.footer-get-started .horizontal-menu-button, 
+.footer-get-started .horizontal-menu-button-v2 {
+  width: 100% !important; /* Pour que les boutons remplissent la boite */
+  height: 40px;
+  font-size: 14px;
+}
+
+/* ── BOUTONS HORS BOITE ── */
+.footer-nav-col .horizontal-menu-button {
+  margin-top: 15px;
+  width: auto;
+  padding: 8px 20px;
+}
+
+.footer-divider {
+  border: 0;
+  border-top: 1px solid #EDEDED;
+  margin: 40px 15px 20px 15px; 
+  opacity: 1;
+  width: auto; /* Permet de respecter les marges */
+}
+
+/* ── BARRE DU BAS (BOTTOM BAR) ── */
+.footer-bottom {
+  font-size: 13px;
+}
+
+.footer-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-legal-links li {
+  margin-bottom: 0;
+}
+
+/* Icônes Sociales */
+.footer-social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-social-icon {
+  background-color: #3C3C3C;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: opacity 0.2s;
+}
+
+.footer-social-icon:hover {
+  opacity: 0.8;
+}
+
+.footer-nav-col ul + ul {
+  margin-top: 40px !important; /* Ajuste la valeur selon l'espace Figma */
+}
+
+/* Style spécifique pour la ligne Piwigo AI pour l'alignement de l'étincelle */
+.footer-nav-col ul li span:last-child {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 991px) {
+  .footer-brand {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
