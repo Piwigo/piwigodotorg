@@ -47,21 +47,21 @@
         <div class="col-12 col-md-5 menu-column">
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='feature-submenu'
-                title='Latest news' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'Latest news'|translate}
+                description={'Latest news desc'|translate} 
                 icon_class='icon-latest-news'}
                 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='feature-submenu' 
-                title='Newsletter' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'Newsletter'|translate} 
+                description={'Newsletter desc'|translate} 
                 icon_class='icon-newsletter'}
 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='feature-submenu' 
                 is_ext=true
-                title='Blog' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'Blog'|translate} 
+                description={'Blog desc'|translate} 
                 icon_class='icon-doc'}
         </div>
 
@@ -70,8 +70,8 @@
         <div class="col-12 col-md-5 menu-column">
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='use-case-submenu' 
-                title='Product Updates' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'Product Updates'|translate} 
+                description={'Product Updates desc'|translate} 
                 icon_class='icon-dev'}
         </div>
     </div>
@@ -79,6 +79,6 @@
     <div class="menu-horizontal-divider"></div>
 
     <div class="menu-footer d-flex justify-content-center">
-        {include file='template/include/buttons/menu_btn_white.tpl' label='Subscribe to newsletter'}
+        {include file='template/include/buttons/menu_btn_white.tpl' label={'news btn'|translate}}
     </div>
 </div>

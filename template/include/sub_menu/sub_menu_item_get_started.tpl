@@ -43,14 +43,14 @@
         <div class="col-12 col-md-5 menu-column">
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='feature-submenu' 
-                title='Cloud' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'Cloud'|translate}
+                description={'Cloud desc'|translate} 
                 icon_class='icon-cloud-oneplace'}
                 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='feature-submenu' 
-                title='Self-hosted' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'Self-hosted'|translate} 
+                description={'Self-hosted desc'|translate} 
                 icon_class='icon-self-host'}
         </div>
 
@@ -59,8 +59,8 @@
         <div class="col-12 col-md-5 menu-column">
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='use-case-submenu' 
-                title='Pricing' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'Pricing'|translate} 
+                description={'Pricing desc'|translate} 
                 icon_class='icon-star'}
         </div>
     </div>
@@ -68,7 +68,7 @@
     <div class="menu-horizontal-divider"></div>
 
     <div class="menu-footer d-flex">
-        {include file='template/include/buttons/menu_btn_blue.tpl' label='Free trial'}
-        {include file='template/include/buttons/menu_btn_white.tpl' label='Ask for a demo!'}
+        {include file='template/include/buttons/menu_btn_blue.tpl' label={'Get started btn1'|translate}}
+        {include file='template/include/buttons/menu_btn_white.tpl' label={'Get started btn2'|translate}}
     </div>
 </div>

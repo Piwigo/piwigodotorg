@@ -6,13 +6,90 @@
  * the translation team as well
  */
 
-/* header */
+/* HEADER */
 $lang['Get started'] = 'Get started';
 $lang['Product'] = 'Product';
 $lang['Our users'] = 'Our users';
 $lang['Support'] = 'Support';
 $lang['Behind the code'] = 'Behind the code';
 $lang['News'] = 'News';
+$lang['Free trial'] = 'Free trial';
+
+/* get started sub menu*/
+$lang['Cloud'] = 'Cloud';
+$lang['Cloud desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Self-hosted'] = 'Self-hosted';
+$lang['Self-hosted desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Pricing'] = 'Pricing';
+$lang['Pricing desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Get started btn1'] = 'Free trial';
+$lang['Get started btn2'] = 'Ask for a demo!';
+
+/* product sub menu */
+$lang['Features'] = 'Features';
+$lang['Upload & Import'] = 'Upload & Import';
+$lang['Upload & Import desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Organize your media'] = 'Organize your media';
+$lang['Organize your media desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Search & Find'] = 'Search & Find';
+$lang['Search & Find desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Share & Collaborate'] = 'Share & Collaborate';
+$lang['Share & Collaborate desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Customize & Extend'] = 'Customize & Extend';
+$lang['Customize & Extend desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Measure & Monitor'] = 'Measure & Monitor';
+$lang['Measure & Monitor desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Security & Privacy'] = 'Security & Privacy';
+$lang['Security & Privacy desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Use cases'] = 'Use cases';
+$lang['Travel & Tourism'] = 'Travel & Tourism';
+$lang['Public Sector'] = 'Public Sector';
+$lang['Companies'] = 'Companies';
+$lang['Education & Research'] = 'Education & Research';
+$lang['Nonprofits'] = 'Nonprofits';
+$lang['Photographers & individuals'] = 'Photographers & individuals';
+$lang['Explore'] = 'Explore';
+$lang['Piwigo AI'] = 'Piwigo AI';
+$lang['Piwigo AI desc'] = 'lorem ipsum dolor sit amet';
+$lang['Live demos'] = 'Live demos';
+$lang['Live demos desc'] = 'lorem ipsum dolor sit amet';
+$lang['Mobile apps'] = 'Mobile apps';
+$lang['Mobile apps desc'] = 'lorem ipsum dolor sit amet';
+$lang['API & integrations'] = 'API & integrations';
+$lang['API & integrations desc'] = 'lorem ipsum dolor sit amet';
+$lang['Extensions'] = 'Extensions';
+$lang['Extensions desc'] = 'lorem ipsum dolor sit amet';
+$lang['product btn'] = 'Contact us for a demo!';
+
+/* support sub menu */
+$lang['Professional support'] = 'Professional support';
+$lang['Professional support desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Forum'] = 'Forum';
+$lang['Forum desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Documentation'] = 'Documentation';
+$lang['Documentation desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Installation guides'] = 'Installation guides';
+$lang['Installation guides desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Developer resources'] = 'Developer resources';
+$lang['Developer resources desc'] = 'Lorem ipsum dolor sit amet';
+$lang['support btn'] = 'Contact us for more support!';
+
+/* behind the code sub menu */
+$lang['About Piwigo'] = 'About Piwigo';
+$lang['About Piwigo desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Contribute'] = 'Contribute';
+$lang['Contribute desc'] = 'Lorem ipsum dolor sit amet';
+
+/* news sub menu */
+$lang['Latest news'] = 'Latest news';
+$lang['Latest news desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Newsletter'] = 'Newsletter';
+$lang['Newsletter desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Blog'] = 'Blog';
+$lang['Blog desc'] = 'Lorem ipsum dolor sit amet';
+$lang['Product Updates'] = 'Product Updates';
+$lang['Product Updates desc'] = 'Lorem ipsum dolor sit amet';
+$lang['news btn'] = 'Lorem ipsum dolor sit amet';
 
 /* languages */
 $lang['language_af_ZA'] = 'Afrikaans';

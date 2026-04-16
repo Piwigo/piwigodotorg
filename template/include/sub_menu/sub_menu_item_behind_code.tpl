@@ -24,14 +24,14 @@
         <div class="col-12 menu-column">
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='feature-submenu' 
-                title='About Piwigo' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'About Piwigo'|translate} 
+                description={'About Piwigo desc'|translate}
                 icon_svg='images/icons/pwg.svg'}
                 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl' 
                 category_type='feature-submenu' 
-                title='Contribute' 
-                description='Lorem ipsum dolor sit amet' 
+                title={'Contribute'|translate} 
+                description={'Contribute desc'|translate} 
                 icon_class='icon-contribute'}
         </div>
     </div>

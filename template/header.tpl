@@ -113,7 +113,7 @@
         <a href="#" class="header-mail-btn"><i class="icon-mailext header-mail-icon"></i></a>
         <a href="#" class="header-lang-btn"><i class="icon-langage header-lang-icon"></i><i
             class="icon-down-open header-arrow-icon" aria-hidden="true"></i></a>
-        {include file='template/include/buttons/cta_primary.tpl' label='Free trial' href='#'}
+        {include file='template/include/buttons/cta_primary.tpl' label={'Free trial'|translate} href='#'}
       </div>
     </div><!-- /.container -->
 </nav>
