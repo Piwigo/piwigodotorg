@@ -6,39 +6,13 @@
  * the translation team as well
  */
 
-$lang['Home'] = 'Home';
-$lang['Discover'] = 'Discover';
-$lang['What is Piwigo?'] = 'What is Piwigo?';
-$lang['Features'] = 'Features';
-$lang['Changelogs'] = 'Changelogs';
-$lang['Testimonials'] = 'Testimonials';
-$lang['Extensions'] = 'Extensions';
+/* header */
+$lang['Get started'] = 'Get started';
+$lang['Product'] = 'Product';
+$lang['Our users'] = 'Our users';
 $lang['Support'] = 'Support';
-$lang['Get Started'] = 'Get Started';
-$lang['Forum'] = 'Forum';
-$lang['Documentation'] = 'Documentation';
-$lang['About'] = 'About';
-$lang['About us'] = 'About us';
-$lang['Press'] = 'Press';
-$lang['Get Involved'] = 'Get Involved';
+$lang['Behind the code'] = 'Behind the code';
 $lang['News'] = 'News';
-$lang['Latest news'] = 'Latest news';
-$lang['Newsletters'] = 'Newsletters';
-$lang['Demo'] = 'Demo';
-$lang['Get Piwigo'] = 'Get Piwigo';
-$lang['Contact'] = 'Contact';
-$lang['Languages'] = 'Languages';
-$lang['What\'s new?'] = 'What\'s new?';
-$lang['Themes'] = 'Themes';
-$lang['Plugins'] = 'Plugins';
-$lang['Showcases'] = 'Examples';
-$lang['Donate'] = 'Donate';
-$lang['Coding Activity'] = 'Coding Activity';
-$lang['Mobile applications'] = 'Mobile applications';
-$lang['Users'] = 'Users';
-$lang['Who uses Piwigo ?'] = 'Who uses Piwigo?';
-$lang['Get Help'] = 'Get Help';
-$lang['Components display'] = 'Components display';
 
 /* languages */
 $lang['language_af_ZA'] = 'Afrikaans';
@@ -124,7 +98,6 @@ $lang['See pricing'] = 'See pricing';
 $lang['Contact us'] = 'Contact us';
 
 /*Used in guide pages*/
-
 $lang['porg_guides'] = 'Guides';
 $lang['Installation'] = 'Installation';
 $lang['Update'] = 'Update';

@@ -96,17 +96,17 @@
       <div class="collapse navbar-collapse align-items-center" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right align-items-center">
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Get started'}</li>
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Get started'|translate}}</li>
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Product'}</li>
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Product'|translate}}</li>
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=false label='Our users'}</li>
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=false label={'Our users'|translate}}</li>
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Support'}</li>
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Support'|translate}}</li>
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Behind the code'}</li>
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Behind the code'|translate}}</li>
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='News'}</li>
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'News'|translate}}</li>
         </ul>
       </div>
       <div class="header-buttons">
