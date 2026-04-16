@@ -104,8 +104,8 @@
           <li>{include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='News'}</li>
 
           {* icons TODO *}
-          <li class="header-icon-item"><i class="icon-mail"></i></li>
-          <li class="header-icon-item"><i class="icon-globe"></i> <i class="icon-down-open small-arrow"></i></li>
+          <li class="header-icon-item"><i class="icon-mailext"></i></li>
+          <li class="header-icon-item"><i class="icon-langage"></i> <i class="icon-down-open small-arrow"></i></li>
 
           <li>{include file='template/include/buttons/cta_primary.tpl' label='Free trial' href='https://google.com'}</li>
         </ul>

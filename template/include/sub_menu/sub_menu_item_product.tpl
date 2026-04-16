@@ -7,7 +7,7 @@
                 category_type='feature-submenu'
                 title='Upload & Import'
                 description='Lorem ipsum dolor sit amet'
-                icon_class='icon-cloud'
+                icon_class='icon-cloud-oneplace'
             }
 
             {include
