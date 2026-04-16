@@ -43,8 +43,7 @@
         </ul>
         <ul class="mt-4">
           <li>
-            <span>{'Piwigo AI'|translate}</span>
-            <span>✨</span>
+            <span>{'Piwigo AI'|translate|cat: ' ✨'}</span>
           </li>
           <li><span>{'Mobile apps'|translate}</span></li>
           <li><span>{'Extensions'|translate}</span></li>
@@ -64,7 +63,9 @@
           <li><span>{'Nonprofits'|translate}</span></li>
           <li><span>{'Photographers &amp; Individuals'|translate}</span></li>
         </ul>
-        {include file='template/include/buttons/menu_btn_white.tpl' label={'Meet our users'|translate} href='https://google.com'}
+        <div class="footer-users-btn">
+          {include file='template/include/buttons/menu_btn_white.tpl' label={'Meet our users'|translate} href='https://google.com'}
+        </div>
       </div>
 
       <!-- ── Col 5 : Behind the code + Support ── -->
@@ -95,7 +96,9 @@
           <li><span>{'Product updates'|translate}</span></li>
           <li><span>{'Coding activity'|translate}</span></li>
         </ul>
-        {include file='template/include/buttons/menu_btn_white.tpl' label={'Subscribe to newsletter'|translate} href='https://google.com'}
+        <div class="footer-subscribe-btn">
+          {include file='template/include/buttons/menu_btn_white.tpl' label={'Subscribe to newsletter'|translate} href='https://google.com'}
+        </div>
       </div>
 
     </div><!-- /row -->
@@ -120,12 +123,14 @@
 
         <!-- Right side: Login + social -->
         <div class="d-flex align-items-center gap-3">
-          {include file='template/include/buttons/menu_btn_white.tpl' label={'Login'|translate} href='https://google.com'}
+          <div class="footer-login-btn">
+            {include file='template/include/buttons/menu_btn_white.tpl' label={'Login'|translate} href='https://google.com'}
+          </div>
 
           <div class="footer-social-icons">
-            <span class="footer-social-icon" aria-hidden="true"><i class="icon-github"></i></span>
-            <span class="footer-social-icon" aria-hidden="true"><i class="icon-linkedin"></i></span>
-            <span class="footer-social-icon" aria-hidden="true"><i class="icon-mailext"></i></span>
+            <span class="footer-social-icon footer-social-icon-git" aria-hidden="true"><i class="icon-git"></i></span>
+            <span class="footer-social-icon footer-social-icon-linkedin" aria-hidden="true"><i class="icon-linkedin"></i></span>
+            <span class="footer-social-icon footer-social-icon-mailint" aria-hidden="true"><i class="icon-mailint"></i></span>
           </div>
         </div>
 

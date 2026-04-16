@@ -8,6 +8,10 @@
   font-size: 12px;
   color: #3C3C3C;
 }
+    
+.site-footer .row {
+  align-items: flex-start;
+}
 
 .site-footer h6 {
   font-family: 'Sora', sans-serif;
@@ -35,7 +39,6 @@
   color: #3C3C3C;
 }
 
-/* ── COLONNE LOGO & TAGLINE ── */
 .footer-brand {
   max-width: 250px;
 }
@@ -50,34 +53,68 @@
   line-height: 1.6;
 }
 
-/* ── BOITE "GET STARTED" ── */
 .footer-get-started {
+  /* Figma card target: fixed visual block constrained by the column */
   background-color: #F7F7F7;
-  padding: 25px;
-  border-radius: 8px;
+  width: 100%;
+  max-width: 194px;
+  height: 239px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  margin-top: 0;
+  gap: 10px;
+  justify-content: flex-start;
+  align-self: flex-start;
 }
 
 .footer-get-started h6 {
-  margin-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.footer-get-started ul {
+  margin: 0 0 8px;
 }
 
 .footer-get-started ul li {
   color: #3C3C3C;
   font-weight: 600;
+  margin-bottom: 6px;
 }
 
-/* Ajustement des boutons dans la boite */
-.footer-get-started .horizontal-menu-button, 
-.footer-get-started .horizontal-menu-button-v2 {
-  width: 100% !important; /* Pour que les boutons remplissent la boite */
-  height: 40px;
+.footer-get-started .btn-menu {
+  /* Fill card width for consistent CTA alignment */
+  width: 100% !important;
+  min-height: 30px;
   font-size: 14px;
 }
 
-/* ── BOUTONS HORS BOITE ── */
+.footer-get-started .btn-menu + .btn-menu {
+  margin-top: 2px;
+}
+
+.footer-users-btn .btn-menu {
+  /* Extended width to better match mockup proportions */
+  min-width: 170px;
+  justify-content: center;
+}
+
+.footer-subscribe-btn .btn-menu {
+  /* Keep newsletter button visually prominent */
+  min-width: 200px;
+  justify-content: center;
+}
+
+.footer-login-btn .btn-menu {
+  /* Slightly wider login button for bottom-bar balance */
+  min-width: 160px;
+  justify-content: center;
+}
+
+
 .footer-nav-col .horizontal-menu-button {
   margin-top: 15px;
   width: auto;
@@ -87,12 +124,11 @@
 .footer-divider {
   border: 0;
   border-top: 1px solid #EDEDED;
-  margin: 40px 15px 20px 15px; 
+  margin: 40px 6% 20px 6%; 
   opacity: 1;
-  width: auto; /* Permet de respecter les marges */
+  width: auto;
 }
 
-/* ── BARRE DU BAS (BOTTOM BAR) ── */
 .footer-bottom {
   font-size: 13px;
 }
@@ -107,7 +143,6 @@
   margin-bottom: 0;
 }
 
-/* Icônes Sociales */
 .footer-social-icons {
   display: flex;
   gap: 12px;
@@ -115,33 +150,56 @@
 
 .footer-social-icon {
   background-color: #3C3C3C;
-  color: #ffffff;
+  color: #F7F7F7;
   width: 32px;
   height: 32px;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
   transition: opacity 0.2s;
 }
 
-.footer-social-icon:hover {
-  opacity: 0.8;
+.footer-social-icon-git {
+    font-size: 23px;
+}
+
+.footer-social-icon-linkedin {
+    font-size: 23px;
+}
+/* LinkedIn glyph is reversed by default; use a small square inset to avoid white bleed */
+.footer-social-icon-linkedin .icon-linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  color: #3C3C3C;
+  border-radius: 0;
+  line-height: 1;
+}
+
+.footer-social-icon-linkedin .icon-linkedin::before {
+  line-height: 1;
+}
+
+.footer-social-icon-mailint {
+    font-size: 30px;
 }
 
 .footer-nav-col ul + ul {
-  margin-top: 40px !important; /* Ajuste la valeur selon l'espace Figma */
+  /* Separate secondary list group (AI/apps/extensions) */
+  margin-top: 40px !important;
 }
 
-/* Style spécifique pour la ligne Piwigo AI pour l'alignement de l'étincelle */
 .footer-nav-col ul li span:last-child {
   margin-left: 5px;
   font-size: 12px;
 }
 
-/* ── RESPONSIVE ── */
 @media (max-width: 991px) {
+  /* Remove tight desktop constraints on smaller screens */
   .footer-brand {
     max-width: 100%;
     margin-bottom: 30px;

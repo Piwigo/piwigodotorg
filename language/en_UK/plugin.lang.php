@@ -173,6 +173,7 @@ $lang['[piwigo.org contact form, %s] %s contacted you on %s'] = '[piwigo.org con
 $lang['yesterday'] = 'yesterday';
 $lang['See pricing'] = 'See pricing';
 $lang['Contact us'] = 'Contact us';
+$lang['Login'] = 'Login';
 
 /*Used in guide pages*/
 $lang['porg_guides'] = 'Guides';
