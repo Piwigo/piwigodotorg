@@ -85,30 +85,35 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse"
-          data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false"
-          aria-label="Toggle navigation">
+          data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="{$URL.home}"><img src="{$PORG_ROOT_URL}images/piwigo.org.svg" alt="Piwigo.org"
             title="go to Piwigo.org home page"></a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right ms-auto align-items-center">
-
-          <li>{include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Get started'}</li>
-          <li>{include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Product'}</li>
-          <li>{include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=false label='Our users'}</li>
-          <li>{include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Support'}</li>
-          <li>{include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Behind the code'}</li>
-          <li>{include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='News'}</li>
-
-          {* icons TODO *}
-          <li class="header-icon-item"><i class="icon-mailext"></i></li>
-          <li class="header-icon-item"><i class="icon-langage"></i> <i class="icon-down-open small-arrow"></i></li>
-
-          <li>{include file='template/include/buttons/cta_primary.tpl' label='Free trial' href='https://google.com'}</li>
+      <div class="collapse navbar-collapse align-items-center" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right align-items-center">
+          <li class="nav-btn-wrapper">
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Get started'}</li>
+          <li class="nav-btn-wrapper">
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Product'}</li>
+          <li class="nav-btn-wrapper">
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=false label='Our users'}</li>
+          <li class="nav-btn-wrapper">
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Support'}</li>
+          <li class="nav-btn-wrapper">
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='Behind the code'}</li>
+          <li class="nav-btn-wrapper">
+            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label='News'}</li>
         </ul>
-      </div><!-- /.navbar-collapse -->
+      </div>
+      <div class="header-buttons">
+        <a href="#" class="header-mail-btn"><i class="icon-mailext header-mail-icon"></i></a>
+        <a href="#" class="header-lang-btn"><i class="icon-langage header-lang-icon"></i><i
+            class="icon-down-open header-arrow-icon" aria-hidden="true"></i></a>
+        {include file='template/include/buttons/cta_primary.tpl' label='Free trial' href='#'}
+      </div>
     </div><!-- /.container -->
 </nav>

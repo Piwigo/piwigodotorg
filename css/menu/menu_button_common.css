@@ -2,6 +2,10 @@
     display: inline-flex;
     align-items: center;
     gap: 7px;
+    padding: 6px !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    white-space: nowrap;
     font-family: 'Sora', sans-serif;
     font-weight: 600;
     font-style: SemiBold;
@@ -13,20 +17,21 @@
 }
 
 .submenu_button:hover {
+    padding: 6px !important;
     border-radius: 5px;
-    padding: 6px;
-    gap: 10px;
     background: #F7F7F7;
     text-decoration: none;
     color: #8D8E8E;
 }
 
 .submenu_button:focus {
+    padding: 6px !important;
+    border-radius: 5px;
     text-decoration: none;
     color: #8D8E8E;
 }
 
-.submenu_button__icon {
+.submenu_button_icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;

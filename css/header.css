@@ -2,27 +2,84 @@
     background-color: #ffffff !important;
     border: none !important;
     padding: 15px 0;
+    margin: 15px 15px;
+}   
+
+.navbar .container {
+    width: 1260px;
+    max-width: 1260px;
+    height: 36px;
+    gap: 30px;
+    opacity: 1;
+}
+
+.navbar-brand img {
+    width: 122px;
+    height: 30px;
+    opacity: 1;
+}
+
+.navbar-collapse {
+    width: 761px;
+    height: 26px;
+    gap: 20px;
+    opacity: 1;
+}
+
+.header-buttons {
+    width: 236px;
+    height: 36px;
+    gap: 12px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-mail-btn,
+.header-lang-btn {
+    height: 34px;
+    border-radius: 4px;
+    padding: 8px;
+    background: #F7F7F7;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* the mail icon isn't properly aligned */
+.header-mail-icon {
+    margin-right: 5px;
+}
+
+.header-mail-icon,
+.header-lang-icon {
+    color: #8D8E8E;
 }
 
 .navbar-nav {
     display: flex;
     align-items: center;
+    margin-left: 0px;
 }
 
-.navbar-nav > li > a {
-    padding: 10px 15px !important;
+.nav-btn-wrapper {
+    padding: 10px 10px !important;
 }
 
-.navbar-nav .icon-down-open {
-    font-size: 10px;
+.header-arrow-icon {
+    margin-bottom: 5px;
     color: #64DBBD;
 }
 
-.header-icon-item {
-    background: #F7F7F7;
-    border-radius: 4px;
-    padding: 8px 12px;
-    margin: 0 5px;
-    color: #8D8E8E;
-    cursor: pointer;
+/* hover effect */
+
+.header-mail-btn:hover,
+.header-lang-btn:hover {
+    background: #64DBBD;
+}
+
+.header-mail-btn:hover i,
+.header-lang-btn:hover i {
+    color: #FFFFFF !important;
 }
