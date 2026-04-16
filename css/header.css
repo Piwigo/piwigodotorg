@@ -51,6 +51,11 @@
   font-size: 14px;
 }
 
+/* the mail icon isn't properly aligned */
+.header-mail-icon {
+  margin-right: 5px;
+}
+
 .header-mail-icon,
 .header-lang-icon {
   color: #8d8e8e;
@@ -71,6 +76,8 @@
   color: #64dbbd;
 }
 
+/* hover effect */
+
 .header-mail-btn:hover,
 .header-lang-btn:hover {
   background: #64dbbd;
@@ -85,6 +92,21 @@
 .navbar-toggler-icon,
 .navbar-toggler {
   display: none;
+}
+
+.mobile-sub-content {
+  width: 100%;
+  /* background-color: #f9f9f9; */
+  display: none;
+  /* padding: 10px 0; */
+}
+
+.icon-down-open {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.icon-rotate-180 {
+  transform: rotate(180deg);
 }
 
 @media (max-width: 800px) {
@@ -146,6 +168,7 @@
     padding-top: 0 !important;
     border-bottom: 1px solid #D8F4EC;
     display: flex;
+    flex-direction: column; 
     justify-content: space-between;
     align-items: center;
   }
