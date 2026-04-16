@@ -61,7 +61,7 @@
         width: 100%;
         max-width: 350px;
         padding: 15px;
-        box-shadow: none;
+        /* box-shadow: none; */
     }
 
     .menu-columns {

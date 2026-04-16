@@ -168,6 +168,11 @@
   .icon-box {
     width: 22px;
     height: 22px;
+    border-radius: 0;
+  }
+
+  .icon-box i {
+    font-size: 13px;
   }
   .arrow,
   .icon-ext {
