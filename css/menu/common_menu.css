@@ -1,6 +1,5 @@
-.menu-mega-container {
+/* .menu-mega-container {
     background: #ffffff;
-    /* border-radius: 12px; */
     padding: 20px;
     width: fit-content;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
@@ -37,7 +36,6 @@
 }
 
 .menu-footer .btn-menu {
-    /* max-width: 241px; */
     flex: 1;
     align-items: center;
 }
@@ -61,7 +59,6 @@
         width: 100%;
         max-width: 350px;
         padding: 15px;
-        /* box-shadow: none; */
     }
 
     .menu-columns {
@@ -110,4 +107,113 @@
         color: #329F83;
     }
 
+} */
+
+.menu-mega-container {
+    background: #ffffff;
+    padding: 20px;
+    width: fit-content;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.menu-columns {
+    display: flex; 
+    flex-wrap: nowrap; 
+    gap: 20px;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 250px; 
+}
+
+.menu-divider {
+    width: 1px;
+    background-color: #f0f0f0;
+    align-self: stretch;
+}
+
+.menu-horizontal-divider {
+    height: 1px;
+    background-color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.menu-footer .btn-menu {
+    flex: 1;
+    align-items: center;
+}
+
+.column-header {
+    background-color: #f5f5f5; 
+    color: #888;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding: 6px 0;
+    margin-bottom: 15px; 
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+@media (max-width: 402px) {
+    .menu-mega-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .menu-columns {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .menu-column {
+        min-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .menu-divider,
+    .menu-horizontal-divider,
+    .menu-footer,
+    .btn-menu {
+        display: none;
+    }
+
+    .column-header {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .menu-column:nth-of-type(1) .column-header {
+        background-color: #FFE6EB !important; 
+        color: #FF3366 !important;
+    }
+
+    .menu-column:nth-of-type(3) .column-header {
+        background-color: #FFF0E0 !important;
+        color: #FF8C00 !important;
+    }
+
+
+    .menu-column:nth-of-type(5) .column-header {
+        background-color: #E2FAF4 !important;
+        color: #329F83 !important;
+    }
 }

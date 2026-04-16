@@ -1,4 +1,4 @@
-.submenu-item,
+/* .submenu-item,
 .submenu-item:hover,
 .submenu-item:focus {
   text-decoration: none !important;
@@ -79,7 +79,6 @@
   text-decoration: underline !important;
 }
 
-/* --- GESTION DES ICÔNES EXTERNES (is_ext) --- */
 
 .icon-ext {
   margin-left: 8px;
@@ -101,7 +100,7 @@
   display: inline-block;
 }
 
-/* --------- category color --------- */
+
 
 .icon-box.ai-submenu {
   background: linear-gradient(#ffefe3, #ffcfdb) !important;
@@ -142,7 +141,7 @@
   color: #329f83 !important;
 }
 
-/* --------------- MEDIA QUERIES ---------------*/
+
 
 @media (max-width: 402px) {
   .submenu-item {
@@ -180,5 +179,197 @@
   }
   .menu-svg {
     object-fit: none;
+  }
+} */
+
+.submenu-item {
+  text-decoration: none !important;
+  color: inherit;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  gap: 10px;
+  width: 234px;
+}
+
+.submenu-item:hover,
+.submenu-item:focus {
+  text-decoration: none !important;
+  background-color: #fafafa;
+}
+
+.icon-box {
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.icon-box i {
+  font-size: 16px;
+}
+
+.menu-svg {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.content {
+  min-height: 35px;
+}
+
+.title {
+  font-weight: 600;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+}
+
+.description {
+  color: #888;
+  font-weight: 400;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+.arrow {
+  opacity: 0;
+  margin-left: 8px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.submenu-item:hover .arrow {
+  opacity: 1;
+  transform: translateX(3px);
+}
+
+.submenu-item:hover .title-text,
+.submenu-item:hover .title-text-ext {
+  text-decoration: underline !important;
+}
+
+/* --- GESTION DES ICÔNES EXTERNES (is_ext) --- */
+
+.icon-ext {
+  margin-left: 8px;
+  color: #50e3c2;
+  font-size: 10px;
+  position: relative;
+}
+
+.icon-ext .icon-ext2 {
+  display: none;
+}
+
+.submenu-item:hover .icon-ext1 {
+  display: none;
+}
+
+.submenu-item:hover .icon-ext2 {
+  display: inline-block;
+}
+
+/* --------- category color --------- */
+
+.icon-box.ai-submenu {
+  background: linear-gradient(135deg, #ffefe3, #ffcfdb) !important;
+}
+
+.icon-box.ai-submenu i {
+  background: linear-gradient(135deg, #ff2f63, #ff7700) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+}
+
+.submenu-item.ai-submenu .title-text {
+  background: linear-gradient(135deg, #ff2f63, #ff7700) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.icon-box.feature-submenu {
+  background-color: #fff0f3 !important;
+}
+.icon-box.feature-submenu i {
+  color: #ff3366 !important;
+}
+
+.icon-box.use-case-submenu {
+  background-color: #fff5eb !important;
+}
+.icon-box.use-case-submenu i {
+  color: #ff8c00 !important;
+}
+
+.icon-box.explore-submenu {
+  background-color: #e2faf4 !important;
+}
+.icon-box.explore-submenu i {
+  color: #329f83 !important;
+}
+
+/* --------------- MEDIA QUERIES ---------------*/
+
+@media (max-width: 402px) {
+  .submenu-item {
+    width: 100%;
+    height: auto;
+    padding: 8px 0;
+    margin: 0;
+  }
+
+  .submenu-item:hover {
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  .description,
+  .arrow,
+  .icon-ext {
+    display: none !important;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .icon-box {
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+
+  .icon-box i {
+    font-size: 13px;
+  }
+
+  .menu-svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .header-pink {
+    background-color: #FFE6EB !important;
+    color: #FF3366 !important;
+  }
+
+  .header-orange {
+    background-color: #FFF0E0 !important;
+    color: #FF8C00 !important;
+  }
+
+  .header-green {
+    background-color: #E2FAF4 !important;
+    color: #329F83 !important;
   }
 }
