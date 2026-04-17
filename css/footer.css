@@ -3,21 +3,21 @@
   padding-top: 60px;
   padding-bottom: 40px;
   background-color: #ffffff; /* À ajuster si besoin */
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  color: #3C3C3C;
+  color: #3c3c3c;
 }
-    
+
 .site-footer .row {
   align-items: flex-start;
 }
 
 .site-footer h6 {
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
   font-weight: 800;
   font-size: 14px;
-  color: #FF7700;
+  color: #ff7700;
   margin-bottom: 20px;
   text-transform: none;
 }
@@ -36,7 +36,7 @@
 }
 
 .site-footer ul li:hover {
-  color: #3C3C3C;
+  color: #3c3c3c;
 }
 
 .footer-brand {
@@ -60,7 +60,7 @@
 
 .footer-get-started {
   /* Figma card target: fixed visual block constrained by the column */
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   width: 100%;
   max-width: 194px;
   height: 239px;
@@ -75,6 +75,18 @@
   align-self: flex-start;
 }
 
+.footer-get-started-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-get-started-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 .footer-get-started h6 {
   margin-top: 0;
   margin-bottom: 8px;
@@ -85,7 +97,7 @@
 }
 
 .footer-get-started ul li {
-  color: #3C3C3C;
+  color: #3c3c3c;
   font-weight: 600;
   margin-bottom: 6px;
 }
@@ -121,7 +133,6 @@
   justify-content: center;
 }
 
-
 .footer-nav-col .horizontal-menu-button {
   margin-top: 15px;
   width: auto;
@@ -130,14 +141,32 @@
 
 .footer-divider {
   border: 0;
-  border-top: 1px solid #EDEDED;
-  margin: 40px 6% 20px 6%; 
+  border-top: 1px solid #ededed;
+  margin: 40px 6% 20px 6%;
   opacity: 1;
   width: auto;
 }
 
 .footer-bottom {
   font-size: 13px;
+}
+
+.footer-bottom-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-bottom-legal {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.footer-copyright {
+    margin-bottom: 8px;
 }
 
 .footer-legal-links {
@@ -156,8 +185,8 @@
 }
 
 .footer-social-icon {
-  background-color: #3C3C3C;
-  color: #F7F7F7;
+  background-color: #3c3c3c;
+  color: #f7f7f7;
   width: 32px;
   height: 32px;
   border-radius: 4px;
@@ -168,11 +197,11 @@
 }
 
 .footer-social-icon-git {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 .footer-social-icon-linkedin {
-    font-size: 23px;
+  font-size: 23px;
 }
 /* LinkedIn glyph is reversed by default; use a small square inset to avoid white bleed */
 .footer-social-icon-linkedin .icon-linkedin {
@@ -182,8 +211,7 @@
   width: 16px;
   height: 16px;
   background: #ffffff;
-  color: #3C3C3C;
-  border-radius: 0;
+  color: #3c3c3c;
   line-height: 1;
 }
 
@@ -192,7 +220,7 @@
 }
 
 .footer-social-icon-mailint {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .footer-nav-col ul + ul {
@@ -200,10 +228,236 @@
   margin-top: 36px !important;
 }
 
+.footer-mobile-nav {
+  display: none;
+}
+
+.footer-mobile-nav-accordion {
+  width: 100%;
+}
+
+.footer-mobile-section {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(92.17deg, #ff2f63 19.22%, #ff7700 96.41%) 0 0 1
+    0;
+}
+
+.footer-mobile-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  padding: 8px 0;
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: #ff7700;
+  line-height: 1.2;
+}
+
+.footer-mobile-toggle i {
+  color: #64dbbd;
+  transition: transform 0.3s ease;
+}
+
+.footer-mobile-toggle[aria-expanded="true"] i {
+  transform: rotate(180deg);
+}
+
+.footer-mobile-collapse {
+  padding: 4px 0 14px;
+}
+
+.footer-mobile-collapse ul li {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 991px) {
   /* Remove tight desktop constraints on smaller screens */
   .footer-brand {
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 4px;
+  }
+
+  .site-footer {
+    padding-top: 24px;
+    padding-bottom: 28px;
+    background-color: #ffffff;
+  }
+
+  .site-footer .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-logo img {
+    width: 138px;
+    margin-bottom: 14px;
+  }
+
+  .footer-tagline {
+    font-size: 14px;
+    line-height: 1.35;
+    margin-bottom: 18px;
+  }
+
+  .footer-get-started-col {
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+
+  .footer-get-started {
+    max-width: none;
+    height: auto;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 12px 10px;
+    padding-bottom: 3px;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  .footer-get-started h6 {
+    margin-bottom: 4px;
+  }
+
+  .footer-get-started-content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .footer-get-started-links {
+    flex: 1;
+  }
+
+  .footer-get-started-links li {
+    margin-bottom: 8px;
+    line-height: 1.1;
+  }
+
+  .footer-get-started-actions {
+    width: 170px;
+    flex-shrink: 0;
+    gap: 8px;
+  }
+
+  .footer-get-started .btn-menu {
+    width: 100% !important;
+    min-height: 30px;
+    font-size: 14px;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .footer-get-started .Menu_btn_blue {
+    background: #64dbbd;
+    color: #29554a;
+  }
+
+  .footer-get-started .Menu_btn_green {
+    background: #bfe0d8;
+    color: #29554a;
+  }
+
+  .footer-mobile-nav {
+    display: block;
+    margin-top: 2px;
+  }
+
+  .footer-users-btn .btn-menu {
+    width: 100%;
+    min-width: 0;
+    margin-top: 8px;
+    min-height: 30px;
+    font-size: 14px;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .footer-subscribe-btn {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .footer-subscribe-btn .btn-menu {
+    width: 100%;
+    min-width: 0;
+    min-height: 30px;
+    margin-top: 0;
+    font-size: 14px;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .footer-divider {
+    display: none;
+  }
+
+  .footer-bottom-main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .footer-bottom-actions {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-login-btn {
+    display: none;
+  }
+
+  .footer-social-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-social-icon-linkedin,
+  .footer-social-icon-mailint {
+    font-size: 24px;
+  }
+
+  .footer-social-icon-git {
+    font-size: 18px;
+  }
+
+  .footer-bottom-legal {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .footer-copyright {
+    text-align: center;
+    font-weight: 645;
+    font-size: 14px;
+  }
+
+  .footer-copyright {
+    margin: 0;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+    white-space: nowrap;
+  }
+
+  .footer-legal-links {
+    justify-content: center;
+    gap: 3px 24px;
+  }
+
+  .footer-legal-links li {
+    text-align: center;
+    margin-bottom: 0px !important;
   }
 }
