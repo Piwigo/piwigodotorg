@@ -49,8 +49,13 @@
 }
 
 .footer-tagline {
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.footer-get-started-col {
+  /* Ensure the get started column is visually distinct and properly spaced */
+  margin-top: 12px;
 }
 
 .footer-get-started {
@@ -100,12 +105,14 @@
   /* Extended width to better match mockup proportions */
   min-width: 170px;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .footer-subscribe-btn .btn-menu {
   /* Keep newsletter button visually prominent */
   min-width: 200px;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .footer-login-btn .btn-menu {
@@ -190,12 +197,7 @@
 
 .footer-nav-col ul + ul {
   /* Separate secondary list group (AI/apps/extensions) */
-  margin-top: 40px !important;
-}
-
-.footer-nav-col ul li span:last-child {
-  margin-left: 5px;
-  font-size: 12px;
+  margin-top: 36px !important;
 }
 
 @media (max-width: 991px) {

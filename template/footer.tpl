@@ -10,13 +10,14 @@
           <img src="{$PORG_ROOT_URL}images/piwigo.org.svg" alt="Piwigo logo">
         </div>
         <p class="footer-tagline">
-          Piwigo is open source photo management software. Manage, organize and share your photo easily on the web.
-          Designed for organisations, teams and individuals.
+          {'Footer Piwigo description part 1'|translate} <br>
+          {'Footer Piwigo description part 2'|translate} <br>
+          {'Footer Piwigo description part 3'|translate}
         </p>
       </div>
 
       <!-- ── Col 2 : Get started box ── -->
-      <div class="col-12 col-md-6 col-lg-2">
+      <div class="col-12 col-md-6 col-lg-2 footer-get-started-col">
         <div class="footer-get-started">
           <h6>{'Get started'|translate}</h6>
           <ul>
@@ -24,8 +25,10 @@
             <li><span class="fw-bold">{'Self hosting'|translate}</span></li>
             <li><span class="fw-bold">{'Pricing'|translate}</span></li>
           </ul>
-          {include file='template/include/buttons/menu_btn_blue.tpl' label={'Plan a demo'|translate} href='https://google.com'}
-          {include file='template/include/buttons/menu_btn_green.tpl' label={'Contact us'|translate} href='https://google.com'}
+          {include file='template/include/buttons/menu_btn_blue.tpl' label={'Footer Button 1 Plan a demo'|translate}
+          href='#'}
+          {include file='template/include/buttons/menu_btn_green.tpl' label={'Contact us'|translate}
+          href='#'}
         </div>
       </div>
 
@@ -64,7 +67,8 @@
           <li><span>{'Photographers &amp; Individuals'|translate}</span></li>
         </ul>
         <div class="footer-users-btn">
-          {include file='template/include/buttons/menu_btn_white.tpl' label={'Meet our users'|translate} href='https://google.com'}
+          {include file='template/include/buttons/menu_btn_white.tpl' label={'Footer Button 3 Meet our users'|translate}
+          href='#'}
         </div>
       </div>
 
@@ -97,7 +101,8 @@
           <li><span>{'Coding activity'|translate}</span></li>
         </ul>
         <div class="footer-subscribe-btn">
-          {include file='template/include/buttons/menu_btn_white.tpl' label={'Subscribe to newsletter'|translate} href='https://google.com'}
+          {include file='template/include/buttons/menu_btn_white.tpl' label={'Footer Button 4 Subscribe to newsletter'|translate}
+          href='#'}
         </div>
       </div>
 
@@ -114,23 +119,26 @@
         <!-- Copyright + Legal links -->
         <ul class="footer-legal-links">
           <li><span>Piwigo © 2002 – {$CURRENT_YEAR}</span></li>
-          <li><span>{'Politique de confidentialité'|translate}</span></li>
-          <li><span>{'Politique de cookies'|translate}</span></li>
-          <li><span>{'Mentions légales'|translate}</span></li>
-          <li><span>{'CGU'|translate}</span></li>
-          <li><span>{'RGPD'|translate}</span></li>
+          <li><span>{'Footer legal 1 Privacy Policy'|translate}</span></li>
+          <li><span>{'Footer legal 2 Cookie Policy'|translate}</span></li>
+          <li><span>{'Footer legal 3 Legal Notice'|translate}</span></li>
+          <li><span>{'Footer legal 4 Terms of Use'|translate}</span></li>
+          <li><span>{'Footer legal 5 GDPR'|translate}</span></li>
         </ul>
 
         <!-- Right side: Login + social -->
         <div class="d-flex align-items-center gap-3">
           <div class="footer-login-btn">
-            {include file='template/include/buttons/menu_btn_white.tpl' label={'Login'|translate} href='https://google.com'}
+            {include file='template/include/buttons/menu_btn_white.tpl' label={'Login'|translate}
+            href='#'}
           </div>
 
           <div class="footer-social-icons">
             <span class="footer-social-icon footer-social-icon-git" aria-hidden="true"><i class="icon-git"></i></span>
-            <span class="footer-social-icon footer-social-icon-linkedin" aria-hidden="true"><i class="icon-linkedin"></i></span>
-            <span class="footer-social-icon footer-social-icon-mailint" aria-hidden="true"><i class="icon-mailint"></i></span>
+            <span class="footer-social-icon footer-social-icon-linkedin" aria-hidden="true"><i
+                class="icon-linkedin"></i></span>
+            <span class="footer-social-icon footer-social-icon-mailint" aria-hidden="true"><i
+                class="icon-mailint"></i></span>
           </div>
         </div>
 
