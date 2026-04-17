@@ -68,6 +68,7 @@
 }
 
 .nav-btn-wrapper {
+  position: relative;
   padding: 10px 10px !important;
 }
 
@@ -99,6 +100,29 @@
   /* background-color: #f9f9f9; */
   display: none;
   /* padding: 10px 0; */
+}
+
+/* ONLY FOR PC: Show submenu on hover */
+
+@media (min-width: 801px) {
+  .nav-btn-wrapper:hover .mobile-sub-content {
+    display: block !important;
+    position: absolute;
+    top: calc(100%);
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    background: #ffffff;
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    /* min-width: 300px;
+    padding: 30px; */
+  }
+  .nav-btn-wrapper:hover .icon-down-open {
+    transform: rotate(180deg);
+  }
 }
 
 .icon-down-open {
@@ -171,6 +195,17 @@
     flex-direction: column; 
     justify-content: space-between;
     align-items: center;
+    position: static;
+  }
+
+  .nav-btn-wrapper .mobile-sub-content {
+    position: relative;
+    left: 0 !important;
+    transform: none !important;
+    top: 0;
+    width: 100%;
+    box-shadow: none;
+    display: none; 
   }
 
   .nav-btn-wrapper .submenu_button{
