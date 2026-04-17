@@ -1,0 +1,44 @@
+.btn-pricing {
+  transition: all 0.2s ease-in-out;
+}
+.icon-wrapper {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.pricing-label {
+  font-size: 1.1rem;
+}
+
+.btn-pricing.cloud.active .icon-wrapper {
+  background-color: #ffe4e9;
+  color: #ff4769;
+}
+.btn-pricing.cloud.active .pricing-description {
+  color: #ff4769;
+}
+
+
+.btn-pricing.self-hosted.active .icon-wrapper {
+  background-color: #fff0e4;
+  color: #ff7700;
+}
+.btn-pricing.self-hosted.active .pricing-description {
+  color: #ff7700;
+}
+
+.btn-pricing.inactive {
+  opacity: 0.6;
+}
+.btn-pricing.inactive .icon-wrapper {
+  background-color: #e9ecef; 
+  color: #6c757d;
+}
+
+.btn-pricing:hover:not(.active) {
+  background-color: rgba(0,0,0,0.03) !important;
+}
+
+.btn-pricing:hover:not(.active) i {
+  color : #ff7700 !important;
+}

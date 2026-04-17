@@ -5,6 +5,7 @@
   <div class="components-display-list">
     {include file='template/buttons_display.tpl' label='boutons'}
     {include file='template/sub_menu_items_display.tpl'}
+    {include file="template/include/buttons/pricing_switch.tpl" }
   </div>
 </section>
 
