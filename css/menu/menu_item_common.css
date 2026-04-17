@@ -243,7 +243,9 @@
 .arrow {
   opacity: 0;
   margin-left: 8px;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
   display: inline-block;
 }
 
@@ -348,6 +350,13 @@
     font-size: 15px;
   }
 
+  .title-text,
+  .title-text-ext {
+    font-family:  "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
   .icon-box {
     width: 22px;
     height: 22px;
@@ -365,17 +374,17 @@
   }
 
   .header-pink {
-    background-color: #FFE6EB !important;
-    color: #FF3366 !important;
+    background-color: #ffe6eb !important;
+    color: #ff3366 !important;
   }
 
   .header-orange {
-    background-color: #FFF0E0 !important;
-    color: #FF8C00 !important;
+    background-color: #fff0e0 !important;
+    color: #ff8c00 !important;
   }
 
   .header-green {
-    background-color: #E2FAF4 !important;
-    color: #329F83 !important;
+    background-color: #e2faf4 !important;
+    color: #329f83 !important;
   }
 }
