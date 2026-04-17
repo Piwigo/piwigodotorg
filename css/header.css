@@ -73,8 +73,9 @@
 }
 
 .header-arrow-icon, .arrow-lang {
-  margin-left: 5px;
+  /* margin-left: 5px; */
   color: #64dbbd;
+  /* gap-left: 5px; */
 }
 
 /* hover effect */
@@ -245,10 +246,15 @@
   .mobile-footer-row .header-mail-btn,
   .mobile-footer-row .header-lang-btn {
     flex: 1;
-    height: 45px;
-    border-radius: 6px;
+    height: 34px;
+    border-radius: 4px;
     font-weight: 500;
+    gap: 10px;
   }
+
+  /* .mobile-footer-row .header-lang-icon {
+    margin-right: 10px;
+  } */
 
   .navbar .container {
     width: 100%;
@@ -277,6 +283,11 @@
   /* .icon-cancel:before{
     margin-right: 0 !important;
   } */
+
+  .icon-cross{
+    font-size: 21px;
+    font-weight: normal;
+  }
 
   .submenu_button{
     font-size: 16px;

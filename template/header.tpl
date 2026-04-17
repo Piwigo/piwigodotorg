@@ -52,18 +52,26 @@
     {* temporary remove analytics
     <script type="text/javascript">
       var _paq = _paq || [];
-      _paq.push(["setDomains", ["*.piwigo.org","*.fr.piwigo.org"]]);
+      _paq.push(["setDomains", ["*.piwigo.org", "*.fr.piwigo.org"]]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
-        var u="//piwigo.us/piwik/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        var u = "//piwigo.us/piwik/";
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
         _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        var d = document,
+          g = d.createElement('script'),
+          s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'piwik.js';
+        s.parentNode.insertBefore(g, s);
       })();
     </script>
-    <noscript><p><img src="//piwigo.us/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+    <noscript>
+      <p><img src="//piwigo.us/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p>
+    </noscript>
     *}
   {/if}
 </head>
@@ -88,9 +96,7 @@
         </a>
       </div>
 
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1"
-        aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -98,15 +104,18 @@
 
         <div class="mobile-menu-header d-lg-none">
           <img src="{$PORG_ROOT_URL}images/piwigo.org.svg" alt="Piwigo.org" class="mobile-brand">
-          <button class="navbar-toggler close-menu" type="button" data-bs-toggle="collapse"
-            data-bs-target="#bs-example-navbar-collapse-1">
-            <i class="icon-cancel mobile-close-icon"></i>
+          <button class="navbar-toggler close-menu" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1">
+            <i class="icon-cross mobile-close-icon"></i>
           </button>
         </div>
 
         <ul class="nav navbar-nav navbar-right align-items-center">
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Get started'|translate}}
+            {include
+              file='template/include/sub_menu/sub_menu_button.tpl'
+              is_openable=true
+              label={'Get started'|translate}
+            }
             <div class="mobile-sub-content d-lg-none">
               {include file='template/include/sub_menu/sub_menu_item_get_started.tpl'}</div>
           </li>
@@ -116,7 +125,11 @@
               {include file='template/include/sub_menu/sub_menu_item_product.tpl'}</div>
           </li>
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=false label={'Our users'|translate}}
+            {include
+              file='template/include/sub_menu/sub_menu_button.tpl'
+              is_openable=false
+              label={'Our users'|translate}
+            }
           </li>
           <li class="nav-btn-wrapper">
             {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Support'|translate}}
@@ -124,7 +137,11 @@
               {include file='template/include/sub_menu/sub_menu_item_support.tpl'}</div>
           </li>
           <li class="nav-btn-wrapper">
-            {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Behind the code'|translate}}
+            {include
+              file='template/include/sub_menu/sub_menu_button.tpl'
+              is_openable=true
+              label={'Behind the code'|translate}
+            }
             <div class="mobile-sub-content d-lg-none">
               {include file='template/include/sub_menu/sub_menu_item_behind_code.tpl'}</div>
           </li>
@@ -146,7 +163,13 @@
             </a>
 
             <a href="#" class="header-lang-btn w-50">
-              English (UK) <i class="icon-langage header-lang-icon"></i><i class="icon-down-open arrow-lang"></i>
+            English (UK)
+              <span class="lang-label-group">
+              
+                <i class="icon-langage header-lang-icon"></i>
+                <i class="icon-down-open arrow-lang"></i>
+              </span>
+              
             </a>
           </div>
         </div>

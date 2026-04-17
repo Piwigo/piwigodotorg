@@ -169,7 +169,9 @@
     .menu-mega-container {
         width: 100%;
         max-width: 100%;
-        padding: 15px;
+        padding: 10px;
+        /* padding-top: 0  !important;
+        padding-bottom: 0 !important; */
         box-shadow: none;
     }
 
