@@ -13,11 +13,11 @@
 	font-size: 18px;
 	line-height: 120%;
 	letter-spacing: 0;
-	color: #3C3C3C;
+	color: var(--dark);
 }
 
 .cross-btn:hover,
 .cross-btn:focus {
 	text-decoration: none;
-    color: #FF7700;
+    color: var(--main_orange);
 }

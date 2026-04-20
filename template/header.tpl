@@ -23,6 +23,7 @@
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/fontello/css/fontello.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/Sora/Sora.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/Red_Hat_Display/Red_Hat_Display.css">
+  <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/common.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/header.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/menu/menu_button_common.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/buttons/common_button.css">
@@ -161,11 +162,11 @@
           </div>
 
           <div class="mobile-footer-row d-flex">
-            <a href="#" class="header-mail-btn w-50 mr-2">
+            <a href="#" class="header-mail-btn btn-text w-50 mr-2">
               Contact us <i class="icon-mailext header-mail-icon"></i>
             </a>
 
-            <a href="#" class="header-lang-btn w-50">
+            <a href="#" class="header-lang-btn btn-text w-50">
             English (UK)
               <span class="lang-label-group">
               
@@ -179,8 +180,8 @@
       </div>
 
       <div class="header-buttons d-none d-lg-flex">
-        <a href="#" class="header-mail-btn"><i class="icon-mailext header-mail-icon"></i></a>
-        <a href="#" class="header-lang-btn">
+        <a href="#" class="header-mail-btn btn-text"><i class="icon-mailext header-mail-icon"></i></a>
+        <a href="#" class="header-lang-btn btn-text">
           <i class="icon-langage header-lang-icon"></i>
           <i class="icon-down-open header-arrow-icon" aria-hidden="true"></i>
         </a>

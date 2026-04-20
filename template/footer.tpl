@@ -19,7 +19,7 @@
       <!-- ── Col 2 : Get started box ── -->
       <div class="col-12 col-md-6 col-lg-2 footer-get-started-col">
         <div class="footer-get-started">
-          <h6>{'Get started'|translate}</h6>
+          <h6 class="footer-title">{'Get started'|translate}</h6>
           <div class="footer-get-started-content">
             <ul class="footer-get-started-links">
               <li><span class="fw-bold">{'Cloud'|translate}</span></li>
@@ -40,7 +40,7 @@
       <div class="col-12 d-lg-none footer-mobile-nav">
         <div class="footer-mobile-nav-accordion">
           <div class="footer-mobile-section">
-            <button class="footer-mobile-toggle collapsed" type="button" data-bs-toggle="collapse"
+            <button class="footer-mobile-toggle footer-title collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#footerMobileDiscover" aria-expanded="false" aria-controls="footerMobileDiscover">
               <span>{'Discover Piwigo'|translate}</span>
               <i class="icon-down-open" aria-hidden="true"></i>
@@ -66,7 +66,7 @@
           </div>
 
           <div class="footer-mobile-section">
-            <button class="footer-mobile-toggle collapsed" type="button" data-bs-toggle="collapse"
+            <button class="footer-mobile-toggle footer-title collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#footerMobileUseCases" aria-expanded="false" aria-controls="footerMobileUseCases">
               <span>{'Use cases'|translate}</span>
               <i class="icon-down-open" aria-hidden="true"></i>
@@ -88,7 +88,7 @@
           </div>
 
           <div class="footer-mobile-section">
-            <button class="footer-mobile-toggle collapsed" type="button" data-bs-toggle="collapse"
+            <button class="footer-mobile-toggle footer-title collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#footerMobileBehindCode" aria-expanded="false" aria-controls="footerMobileBehindCode">
               <span>{'Behind the code'|translate}</span>
               <i class="icon-down-open" aria-hidden="true"></i>
@@ -102,7 +102,7 @@
           </div>
 
           <div class="footer-mobile-section">
-            <button class="footer-mobile-toggle collapsed" type="button" data-bs-toggle="collapse"
+            <button class="footer-mobile-toggle footer-title collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#footerMobileSupport" aria-expanded="false" aria-controls="footerMobileSupport">
               <span>{'Support'|translate}</span>
               <i class="icon-down-open" aria-hidden="true"></i>
@@ -119,7 +119,7 @@
           </div>
 
           <div class="footer-mobile-section">
-            <button class="footer-mobile-toggle collapsed" type="button" data-bs-toggle="collapse"
+            <button class="footer-mobile-toggle footer-title collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#footerMobileNews" aria-expanded="false" aria-controls="footerMobileNews">
               <span>{'News'|translate}</span>
               <i class="icon-down-open" aria-hidden="true"></i>
@@ -144,7 +144,7 @@
 
       <!-- ── Col 3 : Discover Piwigo ── -->
       <div class="col-6 col-md-4 col-lg-2 footer-nav-col d-none d-lg-block">
-        <h6>{'Discover Piwigo'|translate}</h6>
+        <h6 class="footer-title">{'Discover Piwigo'|translate}</h6>
         <ul>
           <li><span>{'Upload &amp; Import'|translate}</span></li>
           <li><span>{'Organize your media'|translate}</span></li>
@@ -167,7 +167,7 @@
 
       <!-- ── Col 4 : Use cases ── -->
       <div class="col-6 col-md-4 col-lg-2 footer-nav-col d-none d-lg-block">
-        <h6>{'Use cases'|translate}</h6>
+        <h6 class="footer-title">{'Use cases'|translate}</h6>
         <ul>
           <li><span>{'Travel &amp; Tourism'|translate}</span></li>
           <li><span>{'Public Sector'|translate}</span></li>
@@ -184,13 +184,13 @@
 
       <!-- ── Col 5 : Behind the code + Support ── -->
       <div class="col-6 col-md-4 col-lg-2 footer-nav-col d-none d-lg-block">
-        <h6>{'Behind the code'|translate}</h6>
+        <h6 class="footer-title">{'Behind the code'|translate}</h6>
         <ul>
           <li><span>{'About Piwigo'|translate}</span></li>
           <li><span>{'Contribute'|translate}</span></li>
         </ul>
 
-        <h6 class="mt-4">{'Support'|translate}</h6>
+        <h6 class="footer-title mt-4">{'Support'|translate}</h6>
         <ul>
           <li><span>{'Professional support'|translate}</span></li>
           <li><span>{'Community forum'|translate}</span></li>
@@ -202,7 +202,7 @@
 
       <!-- ── Col 6 : News ── -->
       <div class="col-6 col-md-4 col-lg-2 footer-nav-col d-none d-lg-block">
-        <h6>{'News'|translate}</h6>
+        <h6 class="footer-title">{'News'|translate}</h6>
         <ul>
           <li><span>{'Latest news'|translate}</span></li>
           <li><span>{'Blog'|translate}</span></li>

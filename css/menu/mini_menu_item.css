@@ -10,8 +10,8 @@
     opacity: 1;
     border-radius: 30px;
     padding: 10px 18px;
-    background: #FFFFFF;
-    border: 1px dashed #8D8E8E;
+    background: var(--clear);
+    border: 1px dashed var(--dark_text);
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 645;
     font-size: 14px;
@@ -19,14 +19,14 @@
     white-space: nowrap;
     text-align: center;
     text-decoration: none;
-    color: #8D8E8E;
+    color: var(--dark_text);
     transition: all 200ms ease-out;
     cursor: pointer;
 }
 
 .minimenu_item:hover {
-    background: #F7F7F7;
-    color: #8D8E8E;
+    background: var(--grey);
+    color: var(--dark_text);
     text-decoration: none;
 }
 
@@ -34,10 +34,10 @@
 .minimenu_item:active,
 .minimenu_item:visited {
     text-decoration: none;
-    color: #8D8E8E;
+    color: var(--dark_text);
 }
 
 .selected_minimenu_item {
-    background: #D8F4EC !important; 
-    border: 1px solid #64DBBD !important;
+    background: var(--secondary_flash_green) !important; 
+    border: 1px solid var(--main_flash_green) !important;
 }

@@ -196,7 +196,7 @@
 .submenu-item:hover,
 .submenu-item:focus {
   text-decoration: none !important;
-  background-color: #fafafa;
+  background-color: #FAFAFA;
 }
 
 .icon-box {
@@ -263,7 +263,7 @@
 
 .icon-ext {
   margin-left: 8px;
-  color: #50e3c2;
+  color: var(--main_flash_green);
   font-size: 10px;
   position: relative;
 }
@@ -287,7 +287,7 @@
 }
 
 .icon-box.ai-submenu i {
-  background: linear-gradient(135deg, #ff2f63, #ff7700) !important;
+  background: linear-gradient(135deg, #ff2f63, var(--main_orange)) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -295,7 +295,7 @@
 }
 
 .submenu-item.ai-submenu .title-text {
-  background: linear-gradient(135deg, #ff2f63, #ff7700) !important;
+  background: linear-gradient(135deg, #ff2f63, var(--main_orange)) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -305,24 +305,24 @@
 }
 
 .icon-box.feature-submenu {
-  background-color: #fff0f3 !important;
+  background-color: #FFEEF2 !important;
 }
 .icon-box.feature-submenu i {
-  color: #ff3366 !important;
+  color: var(--main_pink) !important;
 }
 
 .icon-box.use-case-submenu {
-  background-color: #fff5eb !important;
+  background-color: #FFF2E5 !important;
 }
 .icon-box.use-case-submenu i {
-  color: #ff8c00 !important;
+  color: var(--main_orange) !important;
 }
 
 .icon-box.explore-submenu {
-  background-color: #e2faf4 !important;
+  background-color: #E2FAF4 !important;
 }
 .icon-box.explore-submenu i {
-  color: #329f83 !important;
+  color: var(--accent_green) !important;
 }
 
 /* --------------- MEDIA QUERIES ---------------*/
@@ -374,17 +374,17 @@
   }
 
   .header-pink {
-    background-color: #ffe6eb !important;
-    color: #ff3366 !important;
+    background-color: #F6C4D1 !important;
+    color: var(--main_pink) !important;
   }
 
   .header-orange {
-    background-color: #fff0e0 !important;
-    color: #ff8c00 !important;
+    background-color: var(--secondary_orange) !important;
+    color: var(--main_orange) !important;
   }
 
   .header-green {
-    background-color: #e2faf4 !important;
-    color: #329f83 !important;
+    background-color: var(--secondary_flash_green) !important;
+    color: var(--accent_green) !important;
   }
 }

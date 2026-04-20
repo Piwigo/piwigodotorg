@@ -24,7 +24,7 @@
   font-size: 18px;
   line-height: 120%;
   letter-spacing: 0;
-  color: #3C3C3C;
+  color: var(--dark);
   text-decoration: none;
 }
 
@@ -44,13 +44,13 @@
 .number:hover,
 .number:focus {
     text-decoration: none;
-    color: #3C3C3C;
+    color: var(--dark);
 }
 
 .selected_number:hover,
 .selected_number:focus {
     text-decoration: none;
-    color: #329F83;
+    color: var(--accent_green);
 }
 
 .pagination-arrow {
@@ -61,7 +61,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  color: #64DBBD;
+  color: var(--main_flash_green);
   text-decoration: none;
 }
 
@@ -75,6 +75,5 @@
 .pagination-arrow:hover,
 .pagination-arrow:focus {
   text-decoration: none;
-  color: #64DBBD;
-  opacity: 0.8;
+  color: var(--main_flash_green);
 }

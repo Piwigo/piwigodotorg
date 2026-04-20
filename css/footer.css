@@ -2,11 +2,11 @@
 .site-footer {
   padding-top: 60px;
   padding-bottom: 40px;
-  background-color: #ffffff; /* À ajuster si besoin */
+  background-color: var(--clear);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  color: #3c3c3c;
+  color: var(--dark);
 }
 
 .site-footer .row {
@@ -14,10 +14,7 @@
 }
 
 .site-footer h6 {
-  font-family: "Sora", sans-serif;
-  font-weight: 800;
-  font-size: 14px;
-  color: #ff7700;
+  color: var(--main_orange);
   margin-bottom: 20px;
   text-transform: none;
 }
@@ -36,7 +33,7 @@
 }
 
 .site-footer ul li:hover {
-  color: #3c3c3c;
+  color: var(--dark);
 }
 
 .footer-brand {
@@ -60,7 +57,7 @@
 
 .footer-get-started {
   /* Figma card target: fixed visual block constrained by the column */
-  background-color: #f7f7f7;
+  background-color: var(--grey);
   width: 100%;
   max-width: 194px;
   height: 239px;
@@ -97,7 +94,7 @@
 }
 
 .footer-get-started ul li {
-  color: #3c3c3c;
+  color: var(--dark);
   font-weight: 600;
   margin-bottom: 6px;
 }
@@ -141,7 +138,7 @@
 
 .footer-divider {
   border: 0;
-  border-top: 1px solid #ededed;
+  border-top: 1px solid var(--grey);
   margin: 40px 6% 20px 6%;
   opacity: 1;
   width: auto;
@@ -166,7 +163,13 @@
 }
 
 .footer-copyright {
-    margin-bottom: 8px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
 }
 
 .footer-legal-links {
@@ -185,8 +188,8 @@
 }
 
 .footer-social-icon {
-  background-color: #3c3c3c;
-  color: #f7f7f7;
+  background-color: var(--dark);
+  color: var(--grey);
   width: 32px;
   height: 32px;
   border-radius: 4px;
@@ -210,8 +213,8 @@
   justify-content: center;
   width: 16px;
   height: 16px;
-  background: #ffffff;
-  color: #3c3c3c;
+  background: var(--clear);
+  color: var(--dark);
   line-height: 1;
 }
 
@@ -238,8 +241,12 @@
 
 .footer-mobile-section {
   border-bottom: 1px solid;
-  border-image: linear-gradient(92.17deg, #ff2f63 19.22%, #ff7700 96.41%) 0 0 1
-    0;
+  border-image: linear-gradient(
+      92.17deg,
+      #ff2f63 19.22%,
+      var(--main_orange) 96.41%
+    )
+    0 0 1 0;
 }
 
 .footer-mobile-toggle {
@@ -250,15 +257,13 @@
   border: 0;
   background: transparent;
   padding: 8px 0;
-  font-family: "Sora", sans-serif;
   font-size: 16px;
-  font-weight: 800;
-  color: #ff7700;
+  color: var(--main_orange);
   line-height: 1.2;
 }
 
 .footer-mobile-toggle i {
-  color: #64dbbd;
+  color: var(--main_flash_green);
   transition: transform 0.3s ease;
 }
 
@@ -284,7 +289,7 @@
   .site-footer {
     padding-top: 24px;
     padding-bottom: 28px;
-    background-color: #ffffff;
+    background-color: var(--clear);
   }
 
   .site-footer .container {
@@ -312,7 +317,7 @@
     max-width: none;
     height: auto;
     width: 100%;
-    background-color: #f7f7f7;
+    background-color: var(--grey);
     padding: 12px 10px;
     padding-bottom: 3px;
     gap: 8px;
@@ -350,16 +355,6 @@
     font-size: 14px;
     display: inline-flex;
     justify-content: center;
-  }
-
-  .footer-get-started .Menu_btn_blue {
-    background: #64dbbd;
-    color: #29554a;
-  }
-
-  .footer-get-started .Menu_btn_green {
-    background: #bfe0d8;
-    color: #29554a;
   }
 
   .footer-mobile-nav {
@@ -447,7 +442,7 @@
     font-family: "Red Hat Display", sans-serif;
     font-size: 14px;
     font-weight: 700;
-    color: #3c3c3c;
+    color: var(--dark);
     white-space: nowrap;
   }
 

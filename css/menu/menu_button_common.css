@@ -12,23 +12,23 @@
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0;
-    color: #8D8E8E;
+    color: var(--dark_text);
     text-decoration: none;
 }
 
 .submenu_button:hover {
     padding: 6px !important;
     border-radius: 5px;
-    background: #F7F7F7;
+    background: var(--grey);
     text-decoration: none;
-    color: #8D8E8E;
+    color: var(--dark_text);
 }
 
 .submenu_button:focus {
     padding: 6px !important;
     border-radius: 5px;
     text-decoration: none;
-    color: #8D8E8E;
+    color: var(--dark_text);
 }
 
 .submenu_button_icon {
@@ -38,6 +38,5 @@
     width: 13px;
     height: 8px;
     opacity: 1;
-    color: #64DBBD;
-    line-height: 1;
+    color: var(--main_flash_green);
 }
