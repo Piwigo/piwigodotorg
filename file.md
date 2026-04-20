@@ -5,21 +5,19 @@ Use this checklist to track which files are still needed in the project.
 - English language files kept only for en_GB, en_UK, and en_US.
 - Hidden/editor folders such as .git and .vscode are excluded.
 
-- [ ] css/buttons/common_button.css
-- [ ] css/buttons/cross_button.css
-- [ ] css/buttons/page_number.css
-- [ ] css/footer.css
-- [ ] css/header.css
-- [ ] css/menu/common_menu.css
-- [ ] css/menu/horizontal_menu.css
-- [ ] css/menu/menu_button_common.css
-- [ ] css/menu/menu_item_common.css
-- [ ] css/menu/mini_menu_item.css
+- [x] css/buttons/common_button.css
+- [x] css/buttons/cross_button.css
+- [x] css/buttons/page_number.css
+- [x] css/footer.css
+- [x] css/header.css
+- [x] css/menu/common_menu.css
+- [x] css/menu/horizontal_menu.css
+- [x] css/menu/menu_button_common.css
+- [x] css/menu/menu_item_common.css
+- [x] css/menu/mini_menu_item.css
 - [ ] css/piwigodotorg.css
 - [ ] css/webview.css
 - [ ] data/languages.data.php
-- [ ] explications.md
-- [ ] icones.md
 - [ ] images/about_us/add-user.svg
 - [ ] images/about_us/avatar1.svg
 - [ ] images/about_us/avatar2.svg
@@ -391,7 +389,7 @@ Use this checklist to track which files are still needed in the project.
 - [ ] include/users.inc.php
 - [ ] include/what_is_piwigo.inc.php
 - [ ] index.php
-- [ ] js/header.js
+- [x] js/header.js
 - [ ] js/jquery-3.2.1.min.js
 - [ ] js/piwigodotorg.js
 - [ ] js/release-major.js
@@ -411,59 +409,7 @@ Use this checklist to track which files are still needed in the project.
 - [ ] language/en_UK/mobile_apps_privacy_policy.lang.php
 - [ ] language/en_UK/news.lang.php
 - [ ] language/en_UK/newsletters.lang.php
-- [ ] language/en_UK/plugin.lang.php
-- [ ] language/en_UK/release.lang.php
-- [ ] language/en_UK/release-11.0.0.lang.php
-- [ ] language/en_UK/release-11.1.0.lang.php
-- [ ] language/en_UK/release-11.2.0.lang.php
-- [ ] language/en_UK/release-11.3.0.lang.php
-- [ ] language/en_UK/release-11.4.0.lang.php
-- [ ] language/en_UK/release-11.5.0.lang.php
-- [ ] language/en_UK/release-12.0.0.lang.php
-- [ ] language/en_UK/release-12.1.0.lang.php
-- [ ] language/en_UK/release-12.2.0.lang.php
-- [ ] language/en_UK/release-12.3.0.lang.php
-- [ ] language/en_UK/release-13.0.0.lang.php
-- [ ] language/en_UK/release-13.1.0.lang.php
-- [ ] language/en_UK/release-13.2.0.lang.php
-- [ ] language/en_UK/release-13.3.0.lang.php
-- [ ] language/en_UK/release-13.4.0.lang.php
-- [ ] language/en_UK/release-13.5.0.lang.php
-- [ ] language/en_UK/release-13.6.0.lang.php
-- [ ] language/en_UK/release-13.7.0.lang.php
-- [ ] language/en_UK/release-13.8.0.lang.php
-- [ ] language/en_UK/release-14.0.0.lang.php
-- [ ] language/en_UK/release-14.1.0.lang.php
-- [ ] language/en_UK/release-14.2.0.lang.php
-- [ ] language/en_UK/release-14.3.0.lang.php
-- [ ] language/en_UK/release-14.4.0.lang.php
-- [ ] language/en_UK/release-14.5.0.lang.php
-- [ ] language/en_UK/release-15.0.0.lang.php
-- [ ] language/en_UK/release-15.1.0.lang.php
-- [ ] language/en_UK/release-15.2.0.lang.php
-- [ ] language/en_UK/release-15.3.0.lang.php
-- [ ] language/en_UK/release-15.4.0.lang.php
-- [ ] language/en_UK/release-15.5.0.lang.php
-- [ ] language/en_UK/release-15.6.0.lang.php
-- [ ] language/en_UK/release-15.7.0.lang.php
-- [ ] language/en_UK/release-16.0.0.lang.php
-- [ ] language/en_UK/release-16.1.0.lang.php
-- [ ] language/en_UK/release-16.2.0.lang.php
-- [ ] language/en_UK/release-16.3.0.lang.php
-- [ ] language/en_UK/release-2.10.0.lang.php
-- [ ] language/en_UK/release-2.10.1.lang.php
-- [ ] language/en_UK/release-2.10.2.lang.php
-- [ ] language/en_UK/release-2.8.1.lang.php
-- [ ] language/en_UK/release-2.8.2.lang.php
-- [ ] language/en_UK/release-2.8.3.lang.php
-- [ ] language/en_UK/release-2.8.4.lang.php
-- [ ] language/en_UK/release-2.8.5.lang.php
-- [ ] language/en_UK/release-2.8.6.lang.php
-- [ ] language/en_UK/release-2.9.1.lang.php
-- [ ] language/en_UK/release-2.9.2.lang.php
-- [ ] language/en_UK/release-2.9.3.lang.php
-- [ ] language/en_UK/release-2.9.4.lang.php
-- [ ] language/en_UK/release-2.9.5.lang.php
+- [x] language/en_UK/plugin.lang.php
 - [ ] language/en_UK/showcases.lang.php
 - [ ] language/en_UK/testimonials.lang.php
 - [ ] language/en_UK/urls.lang.php
@@ -485,37 +431,37 @@ Use this checklist to track which files are still needed in the project.
 - [ ] template/docker_update.tpl
 - [ ] template/extensions.tpl
 - [ ] template/features.tpl
-- [ ] template/footer.tpl
+- [x] template/footer.tpl
 - [ ] template/get_help.tpl
 - [ ] template/get_involved.tpl
 - [ ] template/get_piwigo.tpl
 - [ ] template/get_started.tpl
 - [ ] template/guides.tpl
-- [ ] template/header.tpl
+- [x] template/header.tpl
 - [ ] template/home.tpl
-- [ ] template/include/buttons/cross_button.tpl
-- [ ] template/include/buttons/cta_primary.tpl
-- [ ] template/include/buttons/cta_primary_green.tpl
-- [ ] template/include/buttons/cta_secondary.tpl
-- [ ] template/include/buttons/forward_arrow.tpl
-- [ ] template/include/buttons/menu_btn_blue.tpl
-- [ ] template/include/buttons/menu_btn_green.tpl
-- [ ] template/include/buttons/menu_btn_orange.tpl
-- [ ] template/include/buttons/menu_btn_white.tpl
-- [ ] template/include/buttons/page_number.tpl
-- [ ] template/include/guides_bottom_section.tpl
-- [ ] template/include/sub_menu/horizontal_menu_button.tpl
-- [ ] template/include/sub_menu/sub_menu_button.tpl
-- [ ] template/include/sub_menu/sub_menu_item_behind_code.tpl
-- [ ] template/include/sub_menu/sub_menu_item_get_started.tpl
-- [ ] template/include/sub_menu/sub_menu_item_news.tpl
-- [ ] template/include/sub_menu/sub_menu_item_product.tpl
-- [ ] template/include/sub_menu/sub_menu_item_support.tpl
-- [ ] template/include/sub_menu/sub_menu_item_user.tpl
-- [ ] template/include/sub_menu_items/mini_menu_item.tpl
-- [ ] template/include/sub_menu_items/sub_menu_item.tpl
-- [ ] template/include/sub_menu_items/sub_menu_itemc.tpl
-- [ ] template/include/sub_menu_items/sub_menu_itemext.tpl
+- [x] template/include/buttons/cross_button.tpl
+- [x] template/include/buttons/cta_primary.tpl
+- [x] template/include/buttons/cta_primary_green.tpl
+- [x] template/include/buttons/cta_secondary.tpl
+- [x] template/include/buttons/forward_arrow.tpl
+- [x] template/include/buttons/menu_btn_blue.tpl
+- [x] template/include/buttons/menu_btn_green.tpl
+- [x] template/include/buttons/menu_btn_orange.tpl
+- [x] template/include/buttons/menu_btn_white.tpl
+- [x] template/include/buttons/page_number.tpl
+- [x] template/include/guides_bottom_section.tpl
+- [x] template/include/sub_menu/horizontal_menu_button.tpl
+- [x] template/include/sub_menu/sub_menu_button.tpl
+- [x] template/include/sub_menu/sub_menu_item_behind_code.tpl
+- [x] template/include/sub_menu/sub_menu_item_get_started.tpl
+- [x] template/include/sub_menu/sub_menu_item_news.tpl
+- [x] template/include/sub_menu/sub_menu_item_product.tpl
+- [x] template/include/sub_menu/sub_menu_item_support.tpl
+- [x] template/include/sub_menu/sub_menu_item_user.tpl
+- [x] template/include/sub_menu_items/mini_menu_item.tpl
+- [x] template/include/sub_menu_items/sub_menu_item.tpl
+- [x] template/include/sub_menu_items/sub_menu_itemc.tpl
+- [x] template/include/sub_menu_items/sub_menu_itemext.tpl
 - [ ] template/manual_installation.tpl
 - [ ] template/manual_update.tpl
 - [ ] template/mobile_applications.tpl
