@@ -5,6 +5,13 @@
     gap: 20px;
     padding: 40px 20px;
     overflow-x: auto;
+
+    /* TO HIDE THE OVERFLOW  */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
 }
 
 .pricing-card {
@@ -160,4 +167,17 @@
 
 .card-selfhosted .features-list a {
     text-decoration: underline !important;
+}
+
+
+@media (max-width: 767px) {
+    .pricing-main-grid {
+        justify-content: flex-start !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    
+    .pricing-card {
+        min-height: 750px !important;
+    }
 }

@@ -9,6 +9,7 @@
     {include file='template/buttons_display.tpl' label='boutons'}
     {* {include file='template/sub_menu_items_display.tpl'} *}
     {include file="template/include/buttons/pricing_switch.tpl" }
+    {include file="template/include/card/pricing_opt_display.tpl" }
     {include file="template/include/get_started/get_started_cta.tpl" }
     {include file="template/include/get_started/short_get_started_cta.tpl" }
   </div>
