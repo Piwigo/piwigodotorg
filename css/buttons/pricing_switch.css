@@ -1,14 +1,16 @@
 .btn-pricing-switch {
     background-color: #F2F2F2;
-    width: 494px;
+    /* width: 494px; */
     height: 56px;
     box-sizing: border-box;
+    gap: 8px;
 }
 
 .btn-pricing {
-    width: 50%;
-    height: 100%;
+    /* width: 227px; */
+    height: 46px;
     padding: 0 8px !important;
+    padding-right: 20px !important;
     transition: all 0.2s ease-in-out;
 }
 
@@ -41,7 +43,7 @@
 
 .btn-pricing.active {
     background-color: #FFFFFF !important;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
 }
 
 .btn-pricing.cloud.active .icon-wrapper {
@@ -73,6 +75,43 @@
     color: #8D8E8E;
 }
 
-.btn-pricing.inactive:hover i {
+.btn-pricing.cloud.inactive:hover .icon-wrapper {
+    /* background-color: #FFE4E9; */
+    color: #FF4769;
+}
+
+.btn-pricing.cloud.inactive:hover .pricing-description {
+    color: #FF4769;
+}
+
+.btn-pricing.self-hosted.inactive:hover .icon-wrapper {
+    /* background-color: #FFF0E4; */
     color: #FF7700;
+}
+
+.btn-pricing.self-hosted.inactive:hover .pricing-description {
+    color: #FF7700;
+}
+
+@media (max-width: 800px) {
+    .btn-pricing-switch {
+        height: 56px;
+        /* width: 322px; */
+        padding: 5px !important;
+    }
+
+    .btn-pricing {
+        width: auto;
+        height: 46px;
+        /* padding: 7px 7px !important; */
+        justify-content: center;
+    }
+
+    .icon-wrapper {
+        margin-right: 10px;
+    }
+
+    .pricing-description {
+        display: none !important;
+    }
 }

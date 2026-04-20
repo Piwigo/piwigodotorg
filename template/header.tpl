@@ -46,6 +46,7 @@
   <script src="{$PORG_ROOT_URL_PLUGINS}vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="{$PORG_ROOT_URL_PLUGINS}js/piwigodotorg.js"></script>
   <script src="{$PORG_ROOT_URL_PLUGINS}js/header.js"></script>
+  <script src="{$PORG_ROOT_URL_PLUGINS}js/pricing_switch.js"></script>
 
   <link rel="shortcut icon" type="image/x-icon" href="themes/default/icon/favicon.ico">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/flag-icons-master/css/flag-icon.css">
