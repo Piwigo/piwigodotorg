@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/pricing_switch.css">
+
 <section class="components-display-showcase">
   <h1>Components display</h1>
   <p>Page de démonstration des composants.</p>
