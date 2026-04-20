@@ -24,7 +24,6 @@
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/Sora/Sora.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/Red_Hat_Display/Red_Hat_Display.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/common.css">
-  <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/header.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/menu/menu_button_common.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/buttons/common_button.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/common_menu.css">
