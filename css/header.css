@@ -125,13 +125,20 @@
 
 .icon-down-open {
   display: inline-block;
-  transition: transform 0.3s ease;
+  transition: none;
 }
 .icon-rotate-180 {
   transform: rotate(180deg);
 }
 
 @media (max-width: 800px) {
+
+  .navbar-collapse,
+  .navbar-collapse.collapse,
+  .navbar-collapse.collapsing,
+  .collapsing {
+    transition: none !important;
+  }
 
     .navbar-default{
         margin-left: 0;
