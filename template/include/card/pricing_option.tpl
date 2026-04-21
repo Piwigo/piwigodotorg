@@ -24,7 +24,7 @@
         <div class="features-list text-start">
             <ul class="list-unstyled mb-4">
                 {foreach from=$features item=feature}
-                    <li class="d-flex align-items-start mb-3">
+                    <li class="d-flex align-items-start mb-3 {if strpos($feature.text, 'storage') !== false}storage-feature-container{/if}">
                         {if isset($feature.not_included) && $feature.not_included}
                             <i class="icon-cross me-2 mt-1 text-muted opacity-50"></i>
                         {else}
@@ -41,6 +41,12 @@
 
                         {if isset($feature.info) && $feature.info}
                             <i class="icon-rounded-warning ms-auto text-info-light flex-shrink-0"></i>
+                        {/if}
+
+                        {if strpos($feature.text, 'storage') !== false}
+                            <div class="storage-hover-popover shadow-lg">
+                                {include file="template/include/card/storage_card_display.tpl"}
+                            </div>
                         {/if}
                     </li>
                 {/foreach}
@@ -75,5 +81,6 @@
             href=$link_trial
             label="Start your 30 days free trial"
         }
+        <h2 class="h2-mobile-top-page text-center">{$title}</h2>
     </div>
 </div>

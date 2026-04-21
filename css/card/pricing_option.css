@@ -5,13 +5,12 @@
     gap: 20px;
     padding: 40px 20px;
     overflow-x: auto;
-
-    /* TO HIDE THE OVERFLOW  */
-    &::-webkit-scrollbar {
-        display: none;
-    }
     -ms-overflow-style: none;  
     scrollbar-width: none; 
+}
+
+.pricing-main-grid::-webkit-scrollbar {
+    display: none;
 }
 
 .pricing-card {
@@ -29,7 +28,6 @@
 }
 
 .pricing-card:hover {
-    transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important;
 }
 
@@ -59,7 +57,7 @@
     color: var(--main_pink) !important;
     display: flex;
     justify-content: center;
-    align-items: flex-start !important;
+    align-items: center !important;
     margin-bottom: 5px !important;
     font-weight: 800 !important;
     height: 60px !important;
@@ -71,9 +69,8 @@
 }
 
 .price-text .currency {
-    font-size: 26px !important;
-    margin-top: 7px !important;
-    margin-right: 4px;
+    font-size: 45px !important;
+    margin-top: 5px !important;
     line-height: 1 !important;
 }
 
@@ -110,10 +107,38 @@
     padding-left: 5px;
 }
 
+.storage-feature-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.storage-hover-popover {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    z-index: 1000;
+    width: 400px;
+    height: 220px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.storage-feature-container:hover .storage-hover-popover {
+    display: block;
+}
+
 .icon-check-1 {
     color: var(--main_pink) !important;
     font-size: 14px;
     flex-shrink: 0;
+    display: inline-flex !important;
+    align-items: center;
+    height: 19px; 
+    margin: 0 !important;
 }
 
 .card-selfhosted .icon-check-1 {
@@ -124,12 +149,20 @@
     color: #E9E9E9 !important;
     font-size: 12px;
     flex-shrink: 0;
+    display: inline-flex !important;
+    align-items: center;
+    height: 19px;
+    margin-top: 4px !important;
 }
 
 .text-info-light {
     color: var(--main_flash_green) !important; 
     font-size: 16px;
     flex-shrink: 0;
+    margin-top: 2px !important;
+    display: inline-flex !important;
+    align-items: center;
+    height: 19px;
 }
 
 .features-list p.fw-bold {
@@ -174,7 +207,7 @@
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .pricing-main-grid {
         justify-content: flex-start !important;
         padding-left: 20px !important;
@@ -191,5 +224,11 @@
         padding-top: 12px;
         margin-bottom: 0px !important;
         color: #F6C4D1 !important;
+    }
+
+    .storage-hover-popover {
+        width: 320px;
+        left: 0;
+        transform: none;
     }
 }

@@ -1,0 +1,26 @@
+<div class="storage-popover-content p-3 text-start">
+    <h5 class="popover-title fw-bold mb-2">
+        The storage space included in your offer is not enough for you?
+    </h5>
+    <p class="popover-description text-muted mb-4">
+        You can order additional storage space. The price will be added to that of your subscription (billed annually).
+    </p>
+
+    <div class="d-flex justify-content-between align-items-start">
+        {assign var="storage_options" value=[
+            ['gb' => '50',   'price' => '5'],
+            ['gb' => '100',  'price' => '10'],
+            ['gb' => '250',  'price' => '25'],
+            ['gb' => '500',  'price' => '50'],
+            ['gb' => '1000', 'price' => '100']
+        ]}
+
+        {foreach from=$storage_options item=option}
+            <div style="flex: 1;">
+                {include file="template/include/card/storage_card.tpl" 
+                    storage_gb=$option.gb 
+                    price=$option.price}
+            </div>
+        {/foreach}
+    </div>
+</div>

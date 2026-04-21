@@ -10,6 +10,7 @@
     {* {include file='template/sub_menu_items_display.tpl'} *}
     {include file="template/include/buttons/pricing_switch.tpl" }
     {include file="template/include/card/pricing_opt_display.tpl" }
+    {* {include file="template/include/card/storage_card_display.tpl" } *}
     {include file="template/include/card/get_started_cta.tpl" }
     {include file="template/include/card/short_get_started_cta.tpl" }
     {include file="template/include/card/newsletter_card_display.tpl" }
