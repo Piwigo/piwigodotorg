@@ -24,7 +24,7 @@
                 <img src="{$PORG_ROOT_URL}images/piwigo.org.svg" alt="Piwigo.org" class="mobile-brand">
                 <button class="navbar-toggler close-menu" type="button" data-bs-toggle="collapse"
                     data-bs-target="#bs-example-navbar-collapse-1">
-                    <i class="icon-cross mobile-close-icon"></i>
+                    <i class="icon-cross mobile-close-icon" style="color: #64DBBD !important;"></i>
                 </button>
             </div>
 

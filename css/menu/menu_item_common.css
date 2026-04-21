@@ -259,8 +259,6 @@
   text-decoration: underline !important;
 }
 
-/* --- GESTION DES ICÔNES EXTERNES (is_ext) --- */
-
 .icon-ext {
   margin-left: 8px;
   color: var(--main_flash_green);
@@ -327,7 +325,7 @@
 
 /* --------------- MEDIA QUERIES ---------------*/
 
-@media (max-width: 402px) {
+@media (max-width: 677px) {
   .submenu-item {
     width: 100%;
     height: auto;

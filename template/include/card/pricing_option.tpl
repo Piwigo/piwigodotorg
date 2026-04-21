@@ -75,6 +75,5 @@
             href=$link_trial
             label="Start your 30 days free trial"
         }
-        <h2 class="h2-mobile-top-page text-center">{$title}</h2>
     </div>
 </div>
