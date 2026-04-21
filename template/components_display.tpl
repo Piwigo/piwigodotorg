@@ -14,6 +14,7 @@
     {include file="template/include/card/get_started_cta.tpl" }
     {include file="template/include/card/short_get_started_cta.tpl" }
     {include file="template/include/card/newsletter_card_display.tpl" }
+    {include file="template/include/card/faq_item_display.tpl" }
   </div>
 </section>
 
