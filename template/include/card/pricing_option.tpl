@@ -1,23 +1,23 @@
 <div class="pricing-card card-{$type} {if $is_best_deal}best-deal-border{/if} shadow-sm d-flex flex-column p-4 rounded-4 bg-white h-100">
 
     {if $is_best_deal}
-        <div class="best-deal-badge">Best deal</div>
+        <div class="best-deal-badge">{'Best deal'|translate}</div>
     {/if}
 
     <div class="text-center mb-4 pricing-header">
-        <h2 class="fw-bolder mb-1 h3">{$title}</h2>
-        <p class="text-muted small lh-sm mb-0">{$subtitle}</p>
+        <h2 class="fw-bolder mb-1 h3">{$title|translate}</h2>
+        <p class="text-muted small lh-sm mb-0">{$subtitle|translate}</p>
     </div>
 
     <div class="price-section text-center mb-4">
         <div class="fw-bolder price-text">
             <span class="currency">€</span>{$price}
         </div>
-        <div class="text-muted small">excl. VAT / month<br>Billed annually</div>
+        <div class="text-muted small">{'excl. VAT / month'|translate}<br>{'Billed annually'|translate}</div>
     </div>
 
     <div class="mb-4 text-center">
-        {include file="template/include/buttons/menu_btn_green.tpl" href=$link_try label="Try it free"}
+        {include file="template/include/buttons/menu_btn_green.tpl" href=$link_try label={'Try it free'|translate}}
     </div>
 
     <div class="features-wrapper flex-grow-1">
@@ -33,9 +33,9 @@
 
                         <span class="small {if isset($feature.not_included) && $feature.not_included}text-muted{else}text-secondary{/if}">
                             {if isset($feature.url)}
-                                <a href="{$feature.url}" class="text-decoration-underline text-inherit">{$feature.text}</a>
+                                <a href="{$feature.url}" class="text-decoration-underline text-inherit">{$feature.text|translate}</a>
                             {else}
-                                {$feature.text}
+                                {$feature.text|translate}
                             {/if}
                         </span>
 
@@ -52,7 +52,7 @@
                 {/foreach}
             </ul>
 
-            <p class="fw-bold small mb-3 text-dark">Features & Services</p>
+            <p class="fw-bold small mb-3 text-dark">{'Features & Services'|translate}</p>
             <ul class="list-unstyled mb-0">
                 {foreach from=$services item=service}
                     <li class="d-flex align-items-start mb-3">
@@ -60,9 +60,9 @@
 
                         <span class="small text-secondary">
                             {if isset($service.url)}
-                                <a href="{$service.url}" class="text-decoration-underline text-inherit">{$service.text}</a>
+                                <a href="{$service.url}" class="text-decoration-underline text-inherit">{$service.text|translate}</a>
                             {else}
-                                {$service.text}
+                                {$service.text|translate}
                             {/if}
                         </span>
 
@@ -79,8 +79,8 @@
         {include
             file="template/include/buttons/menu_btn_white.tpl"
             href=$link_trial
-            label="Start your 30 days free trial"
+            label={'Start your 30 days free trial'|translate}
         }
-        <h2 class="h2-mobile-top-page text-center">{$title}</h2>
+        <h2 class="h2-mobile-top-page text-center">{$title|translate}</h2>
     </div>
 </div>

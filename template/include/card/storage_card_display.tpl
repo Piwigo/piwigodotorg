@@ -1,9 +1,9 @@
 <div class="storage-popover-content p-3 text-start">
     <h5 class="popover-title fw-bold mb-2">
-        The storage space included in your offer is not enough for you?
+        {'The storage space included in your offer is not enough for you?'|translate}
     </h5>
     <p class="popover-description text-muted mb-4">
-        You can order additional storage space. The price will be added to that of your subscription (billed annually).
+        {'You can order additional storage space. The price will be added to that of your subscription (billed annually).'|translate}
     </p>
 
     <div class="d-flex justify-content-between align-items-start">
