@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/get_started/get_started.css">
-
 <section class="short-get-started-cta py-4 py-md-5">
 	<div class="container short-get-started-container">
 		<div class="row justify-content-center">
