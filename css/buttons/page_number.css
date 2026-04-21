@@ -26,6 +26,7 @@
   letter-spacing: 0;
   color: var(--dark);
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .selected_number {
@@ -44,7 +45,7 @@
 .number:hover,
 .number:focus {
     text-decoration: none;
-    color: var(--dark);
+    color: var(--main_orange);
 }
 
 .selected_number:hover,
@@ -63,6 +64,8 @@
   flex-shrink: 0;
   color: var(--main_flash_green);
   text-decoration: none;
+
+  transition: 0.3s ease;
 }
 
 .pagination-arrow i {
@@ -75,5 +78,5 @@
 .pagination-arrow:hover,
 .pagination-arrow:focus {
   text-decoration: none;
-  color: var(--main_flash_green);
+  color: var(--main_orange);
 }
