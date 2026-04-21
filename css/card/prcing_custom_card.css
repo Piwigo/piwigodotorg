@@ -1,0 +1,73 @@
+.custom-feature-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-hover-popover {
+    display: none;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    z-index: 1050;
+    width: 548px;
+    min-height: 246px;
+    border-radius: 10px;
+    border: 1px solid #E9ECEF;
+    box-shadow: 0 4px 20px rgba(119, 119, 119, 0.25);
+    pointer-events: auto; 
+}
+
+.custom-feature-container:hover .custom-hover-popover {
+    display: block;
+}
+
+.custom-tooltip-content h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #333333;
+    line-height: 1.2;
+}
+
+.custom-tooltip-content p {
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+.custom-btn-wrapper .Menu_btn_white {
+    width: 100% !important;
+    display: block !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    padding: 8px 0 !important;
+}
+
+.custom-tooltip-illustration {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .custom-hover-popover {
+        width: 340px; 
+        left: 0;
+        transform: translateX(-10%); 
+    }
+    
+    .custom-tooltip-content .row {
+        flex-direction: column-reverse;
+    }
+    
+    .custom-tooltip-content .col-5 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .custom-tooltip-content .col-7 {
+        width: 100%;
+    }
+}

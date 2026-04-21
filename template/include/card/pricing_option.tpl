@@ -24,7 +24,7 @@
         <div class="features-list text-start">
             <ul class="list-unstyled mb-4">
                 {foreach from=$features item=feature}
-                    <li class="d-flex align-items-start mb-3 {if strpos($feature.text, 'storage') !== false}storage-feature-container{else if isset($feature.info) && $feature.info}info-icon-container{/if}">
+                    <li class="d-flex align-items-start mb-3">
                         {if isset($feature.not_included) && $feature.not_included}
                             <i class="icon-cross text-muted opacity-50"></i>
                         {else}
@@ -40,18 +40,18 @@
                         </span>
 
                         {if isset($feature.info) && $feature.info}
-                            <i class="icon-rounded-warning ms-auto text-info-light flex-shrink-0"></i>
-                            
-                            {if strpos($feature.text, 'storage') === false}
-                                <div class="global-hover-popover shadow-lg">
-                                    {include file="template/include/card/pricing_global_card.tpl"}
-                                </div>
-                            {/if}
-                        {/if}
+                            <div class="info-icon-container ms-auto">
+                                <i class="icon-rounded-warning text-info-light flex-shrink-0"></i>
 
-                        {if strpos($feature.text, 'storage') !== false}
-                            <div class="storage-hover-popover shadow-lg">
-                                {include file="template/include/card/storage_card_display.tpl"}
+                                {if strpos($feature.text, 'storage') !== false}
+                                    <div class="storage-hover-popover shadow-lg">
+                                        {include file="template/include/card/storage_card_display.tpl"}
+                                    </div>
+                                {else}
+                                    <div class="global-hover-popover shadow-lg">
+                                        {include file="template/include/card/pricing_global_card.tpl"}
+                                    </div>
+                                {/if}
                             </div>
                         {/if}
                     </li>
@@ -61,22 +61,31 @@
             <p class="fw-bold small mb-3 text-dark">{'Features & Services'|translate}</p>
             <ul class="list-unstyled mb-0">
                 {foreach from=$services item=service}
-                    <li class="d-flex align-items-start mb-3 {if isset($service.info) && $service.info}info-icon-container{/if}">
+                    <li class="d-flex align-items-start mb-3">
                         <i class="icon-check-1 me-2 mt-1"></i>
 
                         <span class="small text-secondary">
                             {if isset($service.url)}
                                 <a href="{$service.url}" class="text-decoration-underline text-inherit">{$service.text|translate}</a>
+                            {elseif strpos($service.text, 'Custom graphic personalization') !== false}
+                                <span class="custom-link-container text-decoration-underline js-custom-tooltip-trigger" style="cursor: pointer;">
+                                    {$service.text|translate}
+                                    <div class="custom-hover-popover shadow-lg">
+                                        {include file="template/include/card/pricing_custom_card.tpl"}
+                                    </div>
+                                </span>
                             {else}
                                 {$service.text|translate}
                             {/if}
                         </span>
 
                         {if isset($service.info) && $service.info}
-                            <i class="icon-rounded-warning ms-auto text-info-light flex-shrink-0"></i>
-                            
-                            <div class="global-hover-popover shadow-lg">
-                                {include file="template/include/card/pricing_global_card.tpl"}
+                            <div class="info-icon-container ms-auto">
+                                <i class="icon-rounded-warning text-info-light flex-shrink-0"></i>
+
+                                <div class="global-hover-popover shadow-lg">
+                                    {include file="template/include/card/pricing_global_card.tpl"}
+                                </div>
                             </div>
                         {/if}
                     </li>
@@ -89,7 +98,7 @@
         {include
             file="template/include/buttons/menu_btn_white.tpl"
             href=$link_trial
-            label={'Start your 30 days free trial'|translate}
+            label={'Start your 30 days free trial'|translate} 
         }
         <h2 class="h2-mobile-top-page text-center">{$title|translate}</h2>
     </div>

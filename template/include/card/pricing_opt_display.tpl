@@ -1,3 +1,4 @@
+
 <section class="pricing-global-wrapper">
     
     <div id="pricing-cloud-content" class="pricing-content-wrapper">
@@ -71,7 +72,7 @@
                     ['text' => {'More options for organizing, categorizing and presenting your content'|translate}, 'info' => true],
                     ['text' => {'More automation and productivity'|translate}, 'info' => true],
                     ['text' => {'More advanced features'|translate}, 'info' => true],
-                    ['text' => {'Custom graphic personalization'|translate}, 'info' => true, 'url' => '#'],
+                    ['text' => {'Custom graphic personalization'|translate}, 'info' => true],
                     ['text' => {'Custom data import (priced upon request)'|translate}]
                 ]}
                 {include file="template/include/card/pricing_option.tpl" 
@@ -210,3 +211,4 @@
         </div>
     </div>
 </section>
+<script src="{$PORG_ROOT_URL_PLUGINS}js/pricing_custom_card.js"></script>
