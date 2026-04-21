@@ -200,6 +200,52 @@ SELECT state
 
     $porg_root_url = get_absolute_root_url();
     $porg_root_url_piwigodotorg = get_absolute_root_url() . PORG_PATH;
+
+    include(PORG_PATH . '/data/languages.data.php');
+    $switch_languages = array();
+
+    if ($is_production)
+    {
+        if (preg_match('/^(http.*?)([a-z]+\.)?piwigo.org/', $porg_root_url, $matches))
+        {
+            $base_url = str_replace('http://', 'https://', $matches[1]);
+
+            foreach ($porg_subdomains as $subdomain => $lang_code)
+            {
+                $prefix = ('en' == $subdomain) ? '' : $subdomain.'.';
+
+                $switch_languages[] = array(
+                    'url' => $base_url.$prefix.'piwigo.org',
+                    'label' => $porg_languages[$lang_code],
+                );
+            }
+        }
+    }
+    else
+    {
+        $current_path = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/';
+        $path = parse_url($current_path, PHP_URL_PATH);
+        $query = parse_url($current_path, PHP_URL_QUERY);
+        $params = array();
+
+        if (!empty($query))
+        {
+            parse_str($query, $params);
+        }
+
+        unset($params['lang']);
+
+        foreach ($porg_subdomains as $subdomain => $lang_code)
+        {
+            $params['lang'] = $lang_code;
+
+            $switch_languages[] = array(
+                'url' => $path.'?'.http_build_query($params),
+                'label' => $porg_languages[$lang_code],
+            );
+        }
+    }
+
     $template->set_template_dir(PORG_PATH);
     $template->set_filenames(array('header_porg' => realpath(PORG_PATH .'template/header.tpl')));
     $template->assign(
@@ -214,6 +260,7 @@ SELECT state
             'PCOM_PREFIX' => isset($page['porg_pcom_prefix']) ? $page['porg_pcom_prefix'] : '',
             'PORG_IS_PRODUCTION' => preg_match('/^([a-z]+\.)?piwigo\.org$/', $_SERVER['HTTP_HOST']),
             'HEADER_SHOW_HOME' => in_array($user['language'], array('en_UK', 'zh_CN', 'it_IT', 'pt_BR')),
+            'switch_languages' => $switch_languages,
         )
     );
 

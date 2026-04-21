@@ -81,7 +81,11 @@
 @media (max-width: 767px) {
   .news-card {
     max-width: 362px;
-    height: 360px;
+    height: 400px;
+  }
+
+  .news-card-img img {
+    height: 225px;
   }
 
   .news-card-text {

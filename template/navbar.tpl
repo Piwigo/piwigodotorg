@@ -29,7 +29,7 @@
             </div>
 
             <ul class="nav navbar-nav navbar-right align-items-center">
-                <li class="nav-btn-wrapper">
+                    <li class="nav-btn-wrapper nav-btn-get-started">
                     {include
               file='template/include/sub_menu/sub_menu_button.tpl'
               is_openable=true
@@ -38,24 +38,23 @@
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_get_started.tpl'}</div>
                 </li>
-                <li class="nav-btn-wrapper">
-                    {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Product'|translate}}
+                <li class="nav-btn-wrapper nav-btn-product">
+                    {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true is_selected=true label={'Product'|translate}}
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_product.tpl'}</div>
                 </li>
                 <li class="nav-btn-wrapper">
                     {include
               file='template/include/sub_menu/sub_menu_button.tpl'
-              is_openable=false
               label={'Our users'|translate}
                     }
                 </li>
-                <li class="nav-btn-wrapper">
+                <li class="nav-btn-wrapper nav-btn-support">
                     {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Support'|translate}}
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_support.tpl'}</div>
                 </li>
-                <li class="nav-btn-wrapper">
+                <li class="nav-btn-wrapper nav-btn-behind-code">
                     {include
               file='template/include/sub_menu/sub_menu_button.tpl'
               is_openable=true
@@ -64,7 +63,7 @@
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_behind_code.tpl'}</div>
                 </li>
-                <li class="nav-btn-wrapper">
+                <li class="nav-btn-wrapper nav-btn-news">
                     {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'News'|translate}}
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_news.tpl'}
@@ -97,10 +96,17 @@
 
         <div class="header-buttons d-none d-lg-flex">
             <a href="#" class="header-mail-btn btn-text"><i class="icon-mailext header-mail-icon"></i></a>
-            <a href="#" class="header-lang-btn btn-text">
-                <i class="icon-langage header-lang-icon"></i>
-                <i class="icon-down-open header-arrow-icon" aria-hidden="true"></i>
-            </a>
+            <div class="header-lang-dropdown">
+                <a href="#" class="header-lang-btn btn-text js-lang-toggle" aria-expanded="false" aria-controls="header-lang-menu" aria-haspopup="true">
+                    <i class="icon-langage header-lang-icon"></i>
+                    <i class="icon-down-open header-arrow-icon" aria-hidden="true"></i>
+                </a>
+                <div id="header-lang-menu" class="header-lang-menu" role="menu" aria-label="Language selector">
+                        {foreach from=$switch_languages item=switch_language}
+                            <a href="{$switch_language.url}" class="header-lang-option minimenus-item" role="menuitem">{$switch_language.label}</a>
+                        {/foreach}
+                </div>
+            </div>
             {include file='template/include/buttons/cta_primary.tpl' label={'Free trial'|translate} href='#'}
         </div>
     </div>
