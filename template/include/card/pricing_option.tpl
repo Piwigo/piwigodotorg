@@ -69,11 +69,12 @@
         </div>
     </div>
 
-    <div class="mt-4 text-center">
+    <div class="price-footer mt-4 text-center">
         {include
             file="template/include/buttons/menu_btn_white.tpl"
             href=$link_trial
             label="Start your 30 days free trial"
         }
+        <h2 class="h2-mobile-top-page text-center">{$title}</h2>
     </div>
 </div>

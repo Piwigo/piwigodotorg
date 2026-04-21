@@ -170,6 +170,9 @@
     text-decoration: underline !important;
 }
 
+.price-footer h2 {
+    display: none;
+}
 
 @media (max-width: 767px) {
     .pricing-main-grid {
@@ -180,5 +183,13 @@
     
     .pricing-card {
         min-height: 750px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .price-footer h2 {
+        display: block;
+        padding-top: 12px;
+        margin-bottom: 0px !important;
+        color: #F6C4D1 !important;
     }
 }
