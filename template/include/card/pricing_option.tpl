@@ -24,9 +24,9 @@
         <div class="features-list text-start">
             <ul class="list-unstyled mb-4">
                 {foreach from=$features item=feature}
-                    <li class="d-flex align-items-start mb-3 {if strpos($feature.text, 'storage') !== false}storage-feature-container{/if}">
+                    <li class="d-flex align-items-start mb-3 {if strpos($feature.text, 'storage') !== false}storage-feature-container{else if isset($feature.info) && $feature.info}info-icon-container{/if}">
                         {if isset($feature.not_included) && $feature.not_included}
-                            <i class="icon-cross me-2 mt-1 text-muted opacity-50"></i>
+                            <i class="icon-cross text-muted opacity-50"></i>
                         {else}
                             <i class="icon-check-1 me-2 mt-1"></i>
                         {/if}
@@ -41,6 +41,12 @@
 
                         {if isset($feature.info) && $feature.info}
                             <i class="icon-rounded-warning ms-auto text-info-light flex-shrink-0"></i>
+                            
+                            {if strpos($feature.text, 'storage') === false}
+                                <div class="global-hover-popover shadow-lg">
+                                    {include file="template/include/card/pricing_global_card.tpl"}
+                                </div>
+                            {/if}
                         {/if}
 
                         {if strpos($feature.text, 'storage') !== false}
@@ -55,7 +61,7 @@
             <p class="fw-bold small mb-3 text-dark">{'Features & Services'|translate}</p>
             <ul class="list-unstyled mb-0">
                 {foreach from=$services item=service}
-                    <li class="d-flex align-items-start mb-3">
+                    <li class="d-flex align-items-start mb-3 {if isset($service.info) && $service.info}info-icon-container{/if}">
                         <i class="icon-check-1 me-2 mt-1"></i>
 
                         <span class="small text-secondary">
@@ -68,6 +74,10 @@
 
                         {if isset($service.info) && $service.info}
                             <i class="icon-rounded-warning ms-auto text-info-light flex-shrink-0"></i>
+                            
+                            <div class="global-hover-popover shadow-lg">
+                                {include file="template/include/card/pricing_global_card.tpl"}
+                            </div>
                         {/if}
                     </li>
                 {/foreach}
