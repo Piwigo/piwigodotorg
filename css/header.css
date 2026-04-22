@@ -6,8 +6,8 @@
 }
 
 .navbar .container {
-  width: 1260px;
-  max-width: 1260px;
+  width: min(1360px, 100%);
+  max-width: 1360px;
   height: 36px;
   gap: 30px;
   opacity: 1;
@@ -16,6 +16,8 @@
 .navbar-brand img {
   width: 122px;
   height: 30px;
+  position: relative;
+  top: -3px;
   opacity: 1;
 }
 
@@ -27,7 +29,7 @@
 }
 
 .header-buttons {
-  width: 236px;
+  width: 300px;
   height: 36px;
   gap: 12px;
   opacity: 1;
@@ -351,10 +353,21 @@
   .mobile-footer-row .header-mail-btn,
   .mobile-footer-row .header-lang-btn {
     flex: 1;
+    width: auto !important;
     height: 34px;
     border-radius: 4px;
     font-weight: 500;
     gap: 10px;
+  }
+
+  .mobile-footer-row .header-mail-btn {
+    flex: 0.65;
+  }
+
+  .mobile-footer-row .header-lang-btn {
+    flex: 1.35;
+    white-space: nowrap;
+    flex-wrap: nowrap;
   }
 
   /* .mobile-footer-row .header-lang-icon {
