@@ -164,6 +164,16 @@
   display: block;
 }
 
+body.plugin-tooltip-open .info-icon-container:hover .storage-hover-popover,
+body.custom-tooltip-open .info-icon-container:hover .storage-hover-popover,
+body.plugin-tooltip-open .info-icon-container:hover .global-hover-popover {
+  display: none !important;
+}
+
+body.custom-tooltip-open .info-icon-container:hover .global-hover-popover {
+  display: none !important;
+}
+
 .js-custom-tooltip-trigger.is-active .custom-hover-popover {
   display: block !important;
 }
