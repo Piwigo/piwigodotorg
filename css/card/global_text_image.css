@@ -18,3 +18,35 @@
 	background: transparent;
 	box-shadow: none;
 }
+
+.feature-description-mobile {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.feature-parts-stack {
+		gap: 70px;
+	}
+
+	.feature-title {
+		text-align: center;
+	}
+
+	.feature-description-desktop {
+		display: none;
+	}
+
+	.feature-description-mobile {
+		display: block;
+		margin-top: 8px;
+	}
+
+	.feature-image-container {
+		justify-content: flex-start;
+	}
+
+	.feature-image {
+		width: 100%;
+		max-width: 510px;
+	}
+}
