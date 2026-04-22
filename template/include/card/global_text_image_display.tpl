@@ -3,7 +3,8 @@
 
 <section class="feature-section py-5">
     <div class="container">
-        {include file="template/include/card/triple_true.tpl" text_1="Stop juggling between hard drives and scattered folders" text_2="Keep all your media in one centralized library" text_3="Avoid duplicates and lost files"}
+
+        {include file="template/include/card/triple_true.tpl" title="Bring all your media together in one centralized library" subtitle="Import media from multiple sources, support all file formats, and let your team contribute to one organized library." text_1="Stop juggling between hard drives and scattered folders" text_2="Keep all your media in one centralized library" text_3="Avoid duplicates and lost files"}
 
         <div class="feature-parts-stack">
             {include file="template/include/card/global_text_image.tpl" title="File upload from multiple sources" desc_part_1="Your online administration panel allows you to upload files to Piwigo easily, quickly, in one click." desc_part_2="You can also, if you wish, synchronize a directory on your hard drive, or import files from one of the compatible applications - digiKam, Lightroom, Shotwell..." image="{$PORG_ROOT_URL}images/features/import/upload.png" }

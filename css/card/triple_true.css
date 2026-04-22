@@ -1,57 +1,90 @@
+.triple-true-header {
+  max-width: 720px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.triple-true-title {
+  margin: 0 0 17px;
+  text-align: center;
+}
+
+.triple-true-subtitle {
+  display: block;
+  margin: 0 auto;
+  color: var(--dark_text);
+  text-align: center;
+  max-width: 610px;
+  width: 100%;
+}
+
 .feature-benefits-strip {
-	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 121px;
-	padding: 40px 117px 23px;
-	width: 66vw;
-	margin: 0 auto 70px;
-	box-sizing: border-box;
-	border-radius: 10px;
-	background: var(--grey);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 121px;
+  padding: 40px 117px 23px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto 70px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: var(--grey);
 }
 
 .feature-benefit-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
 }
 
 .feature-benefit-icon {
-	width: 44px;
-	height: 44px;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 6px;
-	background: var(--secondary_flash_green);
-	color: var(--accent_green);
-	font-size: 22px;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: var(--secondary_flash_green);
+  color: var(--accent_green);
+  font-size: 22px;
 }
 
 .feature-benefit-text {
-	max-width: 210px;
-	font-weight: 600;
-	line-height: 1.25;
-	color: var(--dark);
+  max-width: 210px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--dark);
 }
 
 @media (max-width: 768px) {
-	.feature-benefits-strip {
-		grid-template-columns: 1fr;
-		gap: 22px;
-		padding: 71px;
-		margin-bottom: 70px;
-        width: 80vw;
-        max-width: 400px;
-	}
+  .triple-true-header {
+    padding: 0 20px;
+  }
 
-	.feature-benefit-item {
-		gap: 20px;
-	}
+  .triple-true-title {
+    padding: 0 20px;
+  }
 
-	.feature-benefit-text {
-		max-width: 150px;
-	}
+  .triple-true-subtitle {
+    padding: 0 40px;
+  }
+
+  .feature-benefits-strip {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 71px;
+    margin-bottom: 70px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .feature-benefit-item {
+    gap: 20px;
+  }
+
+  .feature-benefit-text {
+    max-width: 150px;
+  }
 }
