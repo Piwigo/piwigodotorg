@@ -34,6 +34,14 @@
                         <span class="small {if isset($feature.not_included) && $feature.not_included}text-muted{else}text-secondary{/if}">
                             {if isset($feature.url)}
                                 <a href="{$feature.url}" class="text-decoration-underline text-inherit">{$feature.text|translate}</a>
+
+                            {elseif $feature.text|lower|strpos:"support included" !== false}
+                                <span class="custom-link-container text-decoration-underline js-plugin-tooltip-trigger" style="cursor: pointer;">
+                                    {$feature.text|translate}
+                                    <div class="pricing-plugin-popover">
+                                        {include file="template/include/card/pricing_plugin_card.tpl"}
+                                    </div>
+                                </span>
                             {else}
                                 {$feature.text|translate}
                             {/if}
@@ -42,8 +50,7 @@
                         {if isset($feature.info) && $feature.info}
                             <div class="info-icon-container ms-auto">
                                 <i class="icon-rounded-warning text-info-light flex-shrink-0"></i>
-
-                                {if strpos($feature.text, 'storage') !== false}
+                                {if $feature.text|lower|strpos:"storage" !== false}
                                     <div class="storage-hover-popover shadow-lg">
                                         {include file="template/include/card/storage_card_display.tpl"}
                                     </div>
@@ -67,7 +74,8 @@
                         <span class="small text-secondary">
                             {if isset($service.url)}
                                 <a href="{$service.url}" class="text-decoration-underline text-inherit">{$service.text|translate}</a>
-                            {elseif strpos($service.text, 'Custom graphic personalization') !== false}
+                            
+                            {elseif $service.text|lower|strpos:"custom graphic personalization" !== false}
                                 <span class="custom-link-container text-decoration-underline js-custom-tooltip-trigger" style="cursor: pointer;">
                                     {$service.text|translate}
                                     <div class="custom-hover-popover shadow-lg">
@@ -82,7 +90,6 @@
                         {if isset($service.info) && $service.info}
                             <div class="info-icon-container ms-auto">
                                 <i class="icon-rounded-warning text-info-light flex-shrink-0"></i>
-
                                 <div class="global-hover-popover shadow-lg">
                                     {include file="template/include/card/pricing_global_card.tpl"}
                                 </div>

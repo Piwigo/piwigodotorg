@@ -35,6 +35,7 @@
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/storage_card.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/pricing_global_card.css">
   <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/pricing_custom_card.css">
+  <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/pricing_plugin_card.css">
 
   {if (isset($LANGUAGE_CSS))}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}{$LANGUAGE_CSS}">

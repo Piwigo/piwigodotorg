@@ -147,7 +147,7 @@
                     ['text' => {'Professional user support via email, video call, and phone by appointment'|translate}],
                     ['text' => {'Response time: 48 business hours'|translate}],
                     ['text' => {'3 administrators'|translate}],
-                    ['text' => {'Support included for over 100 plugins'|translate}, 'info' => true, 'url' => '#']
+                    ['text' => {'Support included for over 100 plugins'|translate}, 'info' => true]
                 ]}
                 {include file="template/include/card/pricing_option.tpl" 
                     type="selfhosted" 
@@ -170,7 +170,7 @@
                     ['text' => {'Professional user support via email, video call, and phone by appointment'|translate}],
                     ['text' => {'Response time: 24 business hours'|translate}],
                     ['text' => {'5 administrators'|translate}],
-                    ['text' => {'Support included on over 100 plugins and 20 Enterprise plugins'|translate}, 'info' => true, 'url' => '#']
+                    ['text' => {'Support included on over 100 plugins and 20 Enterprise plugins'|translate}, 'info' => true]
                 ]}
                 {include file="template/include/card/pricing_option.tpl" 
                     type="selfhosted" 
@@ -193,7 +193,7 @@
                     ['text' => {'Professional user support via email, video call, and phone by appointment'|translate}],
                     ['text' => {'Response time: 8 business hours (priority)'|translate}],
                     ['text' => {'Unlimited administrators'|translate}],
-                    ['text' => {'Support included on over 120 plugins and VIP plugins'|translate}, 'info' => true, 'url' => '#'],
+                    ['text' => {'Support included on over 120 plugins and VIP plugins'|translate}, 'info' => true],
                     ['text' => {'Annual audit of your use of Piwigo'|translate}, 'info' => true]
                 ]}
                 {include file="template/include/card/pricing_option.tpl" 
@@ -212,3 +212,4 @@
     </div>
 </section>
 <script src="{$PORG_ROOT_URL_PLUGINS}js/pricing_custom_card.js"></script>
+<script src="{$PORG_ROOT_URL_PLUGINS}js/pricing_plugin_card.js"></script>
