@@ -175,6 +175,18 @@
 .pricing-card .Menu_btn_green,
 .pricing-card .Menu_btn_white {
   width: 100% !important;
+.pricing-card .icon-check-1 {
+    color: var(--main_pink) !important;
+    font-size: 14px;
+    flex-shrink: 0;
+    display: inline-flex !important;
+    align-items: center;
+    height: 19px; 
+    margin: 0 !important;
+}
+
+.pricing-card.card-selfhosted .icon-check-1 {
+    color: var(--main_orange) !important;
 }
 
 .best-deal-border .Menu_btn_green {

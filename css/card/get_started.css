@@ -28,6 +28,7 @@ CTA
 
 .get-started-copy {
   padding-top: 60px;
+  padding-left: 105px;
   display: flex;
   flex-direction: column;
 }
