@@ -8,7 +8,7 @@
   position: absolute;
   bottom: 45px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(120%);
   background: #ffffff;
   z-index: 1050;
   width: 548px;
@@ -84,7 +84,7 @@
   .custom-hover-popover {
     width: 280px !important;
     left: 50% !important;
-    transform: translateX(-50%) !important;
+    transform: translateX(-50%) translateY(120%) !important;
     padding: 20px !important;
     bottom: 30px !important;
     min-height: auto !important;

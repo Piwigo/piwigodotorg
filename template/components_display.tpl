@@ -8,7 +8,7 @@
 
   <div class="components-display-list">
     {include file='template/buttons_display.tpl' label='boutons'}
-    {* {include file='template/sub_menu_items_display.tpl'} *}
+    {include file='template/sub_menu_items_display.tpl'}
     {include file="template/include/buttons/pricing_switch.tpl" }
     {include file="template/include/card/pricing_opt_display.tpl" }
     {* {include file="template/include/card/storage_card_display.tpl" } *}
@@ -40,3 +40,4 @@
       </div>
   </div>
 </div>
+
