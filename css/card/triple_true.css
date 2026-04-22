@@ -58,6 +58,21 @@
   color: var(--dark);
 }
 
+.green-feature-benefit-icon{
+  background: var(--secondary_flash_green);
+  color: var(--accent_green);
+}
+
+.orange-feature-benefit-icon{
+  background: var(--secondary_orange);
+  color: var(--main_orange);
+}
+
+.pink-feature-benefit-icon{
+  background: var(--secondary_pink);
+  color: var(--main_pink);
+}
+
 @media (max-width: 768px) {
   .triple-true-header {
     padding: 0 20px;
