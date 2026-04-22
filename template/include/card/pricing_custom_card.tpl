@@ -1,4 +1,4 @@
-<div class="custom-tooltip-content p-4">
+<div class="custom-tooltip-content">
     <div class="row g-0 align-items-center mb-4">
         <div class="col-7">
             <h5 class="fw-bolder mb-2 text-dark">{'Free custom graphic personalisation'|translate}</h5>
