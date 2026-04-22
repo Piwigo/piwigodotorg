@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: piwigo-piwigodotorg
+Plugin Name: piwigo-website
 Version: 0.1
-Description: Piwigo.org website
+Description: Piwigo.org new website
 Plugin URI: http://www.phpwebgallery.net
 */
 
@@ -171,7 +171,7 @@ function porg_load_header()
       $query = '
 SELECT state
   FROM '.PLUGINS_TABLE.'
-  WHERE id = \'piwigo-piwigodotorg\'
+    WHERE id = \''.PORG_ID.'\'
 ;';
       list($state) = pwg_db_fetch_row(pwg_query($query));
       echo $state; exit();
