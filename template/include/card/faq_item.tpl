@@ -1,4 +1,4 @@
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-6" style="padding: 0 30px !important;">
     <div class="accordion accordion-flush faq-section" id="faqPiwigo-{$faq_id}">
 
         <div class="accordion-item mb-3 border-0 shadow-sm">

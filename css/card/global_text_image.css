@@ -24,8 +24,11 @@
 }
 
 @media (max-width: 768px) {
+
 	.feature-parts-stack {
 		gap: 70px;
+		padding: 0 20px;
+		box-sizing: border-box;
 	}
 
 	.feature-title {

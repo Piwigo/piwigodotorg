@@ -184,7 +184,7 @@
     display: block;
 }
 
-.icon-check-1 {
+.pricing-card .icon-check-1 {
     color: var(--main_pink) !important;
     font-size: 14px;
     flex-shrink: 0;
@@ -194,7 +194,7 @@
     margin: 0 !important;
 }
 
-.card-selfhosted .icon-check-1 {
+.pricing-card.card-selfhosted .icon-check-1 {
     color: var(--main_orange) !important;
 }
 

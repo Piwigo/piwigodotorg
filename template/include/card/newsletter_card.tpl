@@ -1,4 +1,4 @@
-<div class="col-12 col-md-6 col-lg-3 newsletter-card-col">
+<div class="col-12 col-md-6 col-lg-3 newsletter-card-col" style="padding: 0 16px !important;">
     <article class="news-card">
         <div class="news-card-img">
             <img src="{$image}" class="img-fluid" alt="News thumbnail">
