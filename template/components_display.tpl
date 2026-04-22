@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/pricing_switch.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/card/get_started.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/card/pricing_plugin_card.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/card/compare_plan_table.css">
 
 <section class="components-display-showcase">
   <h1>Components display</h1>
@@ -11,6 +12,7 @@
     {include file='template/sub_menu_items_display.tpl'}
     {include file="template/include/buttons/pricing_switch.tpl" }
     {include file="template/include/card/pricing_opt_display.tpl" }
+    {include file="template/include/card/compare_plan_table.tpl" }
     {* {include file="template/include/card/storage_card_display.tpl" } *}
     {include file="template/include/card/get_started_cta.tpl" }
     {include file="template/include/card/short_get_started_cta.tpl" }
