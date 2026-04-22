@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/pricing_switch.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/card/get_started.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/card/pricing_plugin_card.css">
 
 <section class="components-display-showcase">
   <h1>Components display</h1>
