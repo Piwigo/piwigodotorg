@@ -6,9 +6,9 @@
 .custom-hover-popover {
   display: none;
   position: absolute;
-  bottom: 45px;
+  top: 35px;
   left: 50%;
-  transform: translateX(-50%) translateY(120%);
+  transform: translateX(-50%);
   background: #ffffff;
   z-index: 1050;
   width: 548px;
@@ -72,6 +72,12 @@
   margin-top: 20px;
 }
 
+.custom-btn-wrapper a, 
+.custom-btn-wrapper .btn-menu,
+.custom-btn-wrapper [class^="Menu_btn"] {
+    text-decoration: none !important;
+}
+
 .row>* {
     padding: 0 !important;
 }
@@ -84,9 +90,9 @@
   .custom-hover-popover {
     width: 280px !important;
     left: 50% !important;
-    transform: translateX(-50%) translateY(120%) !important;
+    transform: translateX(-50%) !important;
     padding: 20px !important;
-    bottom: 30px !important;
+    top: 35px !important;
     min-height: auto !important;
   }
 

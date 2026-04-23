@@ -35,6 +35,10 @@
                             {if isset($feature.url)}
                                 <a href="{$feature.url}" class="text-decoration-underline text-inherit">{$feature.text|translate}</a>
 
+                            {elseif $feature.text|lower|strpos:"documentation" !== false}
+                                {assign var="translated_text" value=$feature.text|translate}
+                                {$translated_text|replace:'documentation':'<a href="#" class="text-decoration-underline text-inherit">documentation</a>'|replace:'community forum':'<a href="#" class="text-decoration-underline text-inherit">community forum</a>'}
+
                             {elseif $feature.text|lower|strpos:"support included" !== false}
                                 <span class="custom-link-container text-decoration-underline js-plugin-tooltip-trigger" style="cursor: pointer;">
                                     {$feature.text|translate}
@@ -74,7 +78,7 @@
                         <span class="small text-secondary">
                             {if isset($service.url)}
                                 <a href="{$service.url}" class="text-decoration-underline text-inherit">{$service.text|translate}</a>
-                            
+
                             {elseif $service.text|lower|strpos:"custom graphic personalization" !== false}
                                 <span class="custom-link-container text-decoration-underline js-custom-tooltip-trigger" style="cursor: pointer;">
                                     {$service.text|translate}
@@ -107,6 +111,6 @@
             href=$link_trial
             label={'Start your 30 days free trial'|translate} 
         }
-        <h2 class="h2-mobile-top-page text-center">{$title|translate}</h2>
     </div>
+    <h2 class="h2-mobile-top-page text-center">{$title|translate}</h2>
 </div>

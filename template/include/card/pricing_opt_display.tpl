@@ -3,7 +3,6 @@
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/pricing_custom_card.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/storage_card.css">
 
-
 <section class="pricing-global-wrapper">
     
     <div id="pricing-cloud-content" class="pricing-content-wrapper">
@@ -125,11 +124,12 @@
 
     <div id="pricing-selfhosted-content" class="pricing-content-wrapper" style="display: none;">
         <div class="pricing-main-grid">
+            
             {* FREE *}
             <div class="pricing-grid-item">
                 {assign var="f_free" value=[
                     ['text' => {'Access to all features, themes and plugins'|translate}],
-                    ['text' => {'Access to the documentation and the community forum'|translate}, 'url' => '#']
+                    ['text' => {'Access to the documentation and the community forum'|translate}]
                 ]}
                 {include file="template/include/card/pricing_option.tpl" 
                     type="selfhosted" 
@@ -148,7 +148,7 @@
             <div class="pricing-grid-item">
                 {assign var="f_light" value=[
                     ['text' => {'Access to all features, themes and plugins'|translate}],
-                    ['text' => {'Access to the documentation and the community forum'|translate}, 'url' => '#'],
+                    ['text' => {'Access to the documentation and the community forum'|translate}],
                     ['text' => {'Professional user support via email, video call, and phone by appointment'|translate}],
                     ['text' => {'Response time: 48 business hours'|translate}],
                     ['text' => {'3 administrators'|translate}],
@@ -171,7 +171,7 @@
             <div class="pricing-grid-item">
                 {assign var="f_std" value=[
                     ['text' => {'Access to all features, themes and plugins'|translate}],
-                    ['text' => {'Access to the documentation and the community forum'|translate}, 'url' => '#'],
+                    ['text' => {'Access to the documentation and the community forum'|translate}],
                     ['text' => {'Professional user support via email, video call, and phone by appointment'|translate}],
                     ['text' => {'Response time: 24 business hours'|translate}],
                     ['text' => {'5 administrators'|translate}],
@@ -194,7 +194,7 @@
             <div class="pricing-grid-item">
                 {assign var="f_prem" value=[
                     ['text' => {'Access to all features, themes and plugins'|translate}],
-                    ['text' => {'Access to the documentation and the community forum'|translate}, 'url' => '#'],
+                    ['text' => {'Access to the documentation and the community forum'|translate}],
                     ['text' => {'Professional user support via email, video call, and phone by appointment'|translate}],
                     ['text' => {'Response time: 8 business hours (priority)'|translate}],
                     ['text' => {'Unlimited administrators'|translate}],
@@ -216,5 +216,6 @@
         </div>
     </div>
 </section>
+
 <script src="{$PORG_ROOT_URL_PLUGINS}js/pricing_custom_card.js"></script>
 <script src="{$PORG_ROOT_URL_PLUGINS}js/pricing_plugin_card.js"></script>

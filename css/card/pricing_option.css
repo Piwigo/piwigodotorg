@@ -132,31 +132,31 @@
 .storage-hover-popover {
   width: 400px;
   height: 220px;
-  bottom: 30px;
+  top: 35px;
   left: 50%;
-  transform: translateX(-75%) translateY(120%);
+  transform: translateX(-75%);
 }
 
 .global-hover-popover {
   width: 225px;
   min-height: 200px;
-  bottom: 30px;
+  top: 35px;
   left: 50%;
-  transform: translateX(-100%) translateY(120%);
+  transform: translateX(-100%);
 }
 
 .custom-hover-popover {
   width: 540px;
-  bottom: 30px;
+  top: 35px;
   left: 50%;
-  transform: translateX(-50%) translateY(120%);
+  transform: translateX(-50%);
 }
 
 .pricing-plugin-popover {
   width: auto;
-  bottom: 35px;
+  top: 35px;
   left: 50%;
-  transform: translateX(-50%) translateY(120%);
+  transform: translateX(-50%);
 }
 
 .info-icon-container:hover .storage-hover-popover,
@@ -164,7 +164,7 @@
   display: block;
 }
 
-body.plugin-tooltip-open .info-icon-container:hover .storage-hover-popover,
+/* body.plugin-tooltip-open .info-icon-container:hover .storage-hover-popover,
 body.custom-tooltip-open .info-icon-container:hover .storage-hover-popover,
 body.plugin-tooltip-open .info-icon-container:hover .global-hover-popover {
   display: none !important;
@@ -172,7 +172,7 @@ body.plugin-tooltip-open .info-icon-container:hover .global-hover-popover {
 
 body.custom-tooltip-open .info-icon-container:hover .global-hover-popover {
   display: none !important;
-}
+} */
 
 .js-custom-tooltip-trigger.is-active .custom-hover-popover {
   display: block !important;
@@ -282,9 +282,10 @@ body.custom-tooltip-open .info-icon-container:hover .global-hover-popover {
   text-decoration: none !important;
 }
 
-.price-footer h2 {
+.h2-mobile-top-page {
   display: none;
 }
+
 
 @media (max-width: 768px) {
   .pricing-main-grid {
@@ -298,7 +299,10 @@ body.custom-tooltip-open .info-icon-container:hover .global-hover-popover {
     padding-bottom: 20px !important;
   }
 
-  .price-footer h2 {
+  .price-footer .btn-menu{
+    display: block !important;
+  }
+  .h2-mobile-top-page {
     display: block;
     padding-top: 12px;
     margin-bottom: 0px !important;
