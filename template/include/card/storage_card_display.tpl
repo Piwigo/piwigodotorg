@@ -6,7 +6,7 @@
         {'You can order additional storage space. The price will be added to that of your subscription (billed annually).'|translate}
     </p>
 
-    <div class="d-flex justify-content-between align-items-start">
+    <div class="storage-grid-container">
         {assign var="storage_options" value=[
             ['gb' => '50',   'price' => '5'],
             ['gb' => '100',  'price' => '10'],
@@ -16,7 +16,7 @@
         ]}
 
         {foreach from=$storage_options item=option}
-            <div style="flex: 1;">
+            <div class="storage-item-wrapper">
                 {include file="template/include/card/storage_card.tpl" 
                     storage_gb=$option.gb 
                     price=$option.price}
