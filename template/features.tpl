@@ -1,5 +1,8 @@
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/horizontal_menu.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/pages/features.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/card/global_text_image.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/card/triple_true.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/card/get_started.css">
 <script src="{$PORG_ROOT_URL_PLUGINS}js/horizontal_menu.js"></script>
 <script src="{$PORG_ROOT_URL_PLUGINS}js/features_menu_content.js"></script>
 
@@ -7,8 +10,8 @@
 <section class="features-header container-fluid">
   <div class="row align-items-center">
     <div class="col-md-6 features-header-text">
-      <h1 class="d-none d-md-block features-title"><span class="features-title-main">{'main title part1'|translate} </span><span class="features-title-accent">{'main title part2'|translate}</span></h1>
-      <h1 class="h1-mobile d-block d-md-none features-title"><span class="features-title-main">{'main title part1'|translate} </span><span class="features-title-accent">{'main title part2'|translate}</span></h1>
+      <h1 class="d-none d-md-block features-title"><span class="features-title-main">{'main title'|translate}</span></h1>
+      <h1 class="h1-mobile d-block d-md-none features-title"><span class="features-title-main">{'main title'|translate}</span></h1>
       <p>
         {'main description'|translate}
       </p>
@@ -61,3 +64,6 @@
     </div>
   </div>
 </section>
+
+
+{include file="template/include/card/short_get_started_cta.tpl" }
