@@ -3,6 +3,8 @@
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/menu_button_common.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/mini_menu_item.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/horizontal_menu.css">
+<script src="{$PORG_ROOT_URL_PLUGINS}js/horizontal_menu.js"></script>
+  
 
 <section class="menuItems-display-showcase">
 

@@ -1,0 +1,78 @@
+/* Page-specific feature hero background */
+.features-header {
+	position: relative;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-left: 0;
+	padding-right: 0;
+	background: url('../../images/features/bg_vector.png') no-repeat center top;
+	background-size: 110% 80%;
+	background-position: center 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.features-header > .row {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.features-header-text {
+	flex: 0 0 30%;
+	max-width: 30%;
+}
+
+.features-header-image {
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.features-header #features-main-image {
+	position: relative;
+	z-index: 1;
+	max-width: 100%;
+	height: auto;
+}
+
+.features-header .features-title-accent {
+	color: var(--main_orange);
+}
+
+@media (max-width: 768px) {
+	.features-header {
+        padding-left: 20px;
+        padding-right: 20px;
+		padding-bottom: 40px;
+		background: none;
+	}
+
+	.features-header::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: url('../../images/features/bg_vector_m.png') no-repeat center 240px;
+		background-size: 110% 40%;
+		transform-origin: center;
+		pointer-events: none;
+		z-index: 0;
+	}
+
+	.features-header > .row {
+		z-index: 1;
+	}
+
+	.features-header-text,
+	.features-header-image {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+    .features-header .features-title {
+	    padding-bottom: 25px;
+    }
+}

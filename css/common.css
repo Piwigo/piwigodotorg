@@ -298,7 +298,7 @@ li p {
   font-weight: 600;
   font-style: normal;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
   color: var(--dark);
   line-height: 100%;
 }
@@ -348,7 +348,7 @@ li p {
   font-weight: 600;
   font-style: normal;
   font-size: 16px;
-  text-align: left;
+  text-align: center;
   color: var(--dark);
   line-height: 100%;
 }

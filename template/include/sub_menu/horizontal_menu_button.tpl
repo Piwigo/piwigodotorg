@@ -1,1 +1,1 @@
-<a href="{$href|default:'#'}" class="horizontal-menu-button {if $is_selected|default:false} selected-horizontal-menu-button{/if}">{$label|default:'Upload & Import'}</a>
+<a href="{$href|default:'#'}" class="horizontal-menu-button features-menu-item {if $is_selected|default:false} selected-horizontal-menu-button{/if}">{$label|default:'Upload & Import'}</a>

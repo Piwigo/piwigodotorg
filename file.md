@@ -415,7 +415,6 @@ Use this checklist to track which files are still needed in the project.
 - [ ] language/en_UK/urls.lang.php
 - [ ] language/en_UK/users.lang.php
 - [ ] language/en_UK/what_is_piwigo.lang.php
-- [ ] language/en_US/changelogs.lang.php
 - [ ] main.inc.php
 - [ ] mixitup.readme.txt
 - [ ] template/404.tpl

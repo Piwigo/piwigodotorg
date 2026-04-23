@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     buttons.forEach(button => {
         button.addEventListener('click', function(e) {
+            const href = this.getAttribute('href') || '';
+            if (href === '#' || href.startsWith('#')) {
+                e.preventDefault();
+            }
+
             const currentSelected = document.querySelector('.selected-horizontal-menu-button');
             if (currentSelected) {
                 currentSelected.classList.remove('selected-horizontal-menu-button');

@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/common_menu.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/menu_item_common.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/menu/menu_button_common.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/buttons/common_button.css">
 <script src="{$PORG_ROOT_URL_PLUGINS}js/header.js"></script>
 
 <nav class="navbar navbar-default navbar-expand-lg">
