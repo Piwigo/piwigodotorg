@@ -9,34 +9,18 @@
 
 <div class="compare-plans-container">
     <table class="compare-plans-table">
-        <thead>
-            <tr>
-                <th class="feature-col"></th>
-                <th class="plan-col">
-                    <strong>Pro</strong>
-                    <small>{'excl. VAT / month billed annually'|translate}</small>
-                </th>
-                <th class="plan-col">
-                    <strong>Team</strong>
-                    <small>{'excl. VAT / month billed annually'|translate}</small>
-                </th>
-                <th class="plan-col">
-                    <strong>Enterprise</strong>
-                    <small>{'excl. VAT / month billed annually'|translate}</small>
-                </th>
-                <th class="plan-col">
-                    <strong>VIP</strong>
-                    <small>{'excl. VAT / month billed annually'|translate}</small>
-                </th>
-            </tr>
-        </thead>
         <tbody>
             {foreach from=$plans_sections item=section}
                 <tr class="section-header">
-                    <td colspan="5">{$section.title}</td>
+                    <td class="section-title">{$section.title}</td>
+                    <td class="section-plan-name"><strong>Pro</strong><small>{'excl. VAT / month'|translate}<br>{'billed annually'|translate}</small></td>
+                    <td class="section-plan-name"><strong>Team</strong><small>{'excl. VAT / month'|translate}<br>{'billed annually'|translate}</small></td>
+                    <td class="section-plan-name"><strong>Enterprise</strong><small>{'excl. VAT / month'|translate}<br>{'billed annually'|translate}</small></td>
+                    <td class="section-plan-name"><strong>VIP</strong><small>{'excl. VAT / month'|translate}<br>{'billed annually'|translate}</small></td>
                 </tr>
+
                 {foreach from=$section.rows item=row}
-                    <tr>
+                    <tr class="feature-row">
                         <td class="feature-label">
                             <div class="label-content">
                                 <span>{$row.label}</span>
