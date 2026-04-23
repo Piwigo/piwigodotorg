@@ -23,17 +23,15 @@
 
 .horizontal-menu-container .horizontal-menu-button.selected-horizontal-menu-button {
   background-color: var(--main_orange) !important;
-  color: #FFFFFF !important;
+  color: var(--clear) !important;
   outline: none;
 }
 
 .horizontal-menu-container {
-    width: 1260px;
-    max-width: 100%;
     height: 70px;
     background: var(--grey);
     gap: 20px;
-    margin-top: 25px;
+    margin: 25px auto 0;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -45,6 +43,9 @@
     scroll-behavior: smooth;
     justify-content: flex-start !important;
     padding: 0 15px;
+    position: sticky;
+    top: 20px;
+    z-index: 999;
 }
 
 .horizontal-menu-container::-webkit-scrollbar {
@@ -57,10 +58,8 @@
 
 @media (min-width: 768px) {
   .horizontal-menu-container {
-    width: fit-content;
-    max-width: 100%;
-    margin: 25px auto 0;
-    overflow-x: hidden;
+    width: 100%;
+    max-width: 1270px;
     justify-content: center !important;
   }
 }

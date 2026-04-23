@@ -49,6 +49,8 @@ document.addEventListener('DOMContentLoaded', function () {
     if (updateHash && window.location.hash !== '#' + featureKey) {
       history.replaceState(null, '', '#' + featureKey);
     }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function activateFeatureFromHash() {

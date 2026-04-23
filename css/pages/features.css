@@ -48,11 +48,6 @@
   padding-bottom: 16px;
 }
 
-.features-menu-content {
-  max-width: 1260px;
-  margin: 0 auto;
-}
-
 .features-menu-content > .feature-section {
   display: none;
 }
