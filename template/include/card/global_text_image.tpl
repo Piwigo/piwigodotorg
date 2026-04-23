@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6" style="padding-right: 0; padding-left: 0;">
         <div class="feature-image-container">
             <img src="{$image}" class="feature-image" alt="{$title|escape}">
         </div>
