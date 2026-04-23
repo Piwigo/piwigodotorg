@@ -1,17 +1,17 @@
 .storage-popover-content {
-  width: 400px !important; 
-  height: 215px !important; 
+  width: 400px !important;
+  height: 215px !important;
   padding: 25px !important;
   display: flex;
   flex-direction: column;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
 }
 
 .storage-grid-container {
   display: flex;
-  justify-content: flex-start; 
-  gap: 20px; 
+  justify-content: flex-start;
+  gap: 20px;
   align-items: flex-start;
   margin-top: 20px;
 }
@@ -21,7 +21,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  flex: 0 0 47px; 
+  flex: 0 0 47px;
   padding: 0;
 }
 
@@ -43,9 +43,9 @@
 .storage-amount span {
   font-weight: 700 !important;
   font-size: 15px !important;
-  color: #FF4769 !important;
+  color: #ff4769 !important;
   display: block;
-  margin-bottom: 3px; 
+  margin-bottom: 3px;
 }
 
 .price-display-wrapper {
@@ -77,14 +77,58 @@
   white-space: nowrap;
 }
 
+.storage-grid-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 10px;
+  width: 100%;
+}
+
+.storage-item-wrapper {
+  flex: 1;
+}
+
 @media (max-width: 767px) {
+  .storage-item-wrapper {
+    width: 100% !important;
+  }
+
   .storage-popover-content {
-    width: 320px !important;
+    width: 300px !important;
     height: auto !important;
     padding: 15px !important;
   }
-  
+
   .storage-grid-container {
-    gap: 12px;
+    flex-direction: column !important;
+    gap: 15px !important;
+    margin-top: 15px !important;
+  }
+
+  .storage-option-card {
+    flex: 1 1 100% !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    text-align: left !important;
+    width: 100% !important;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 8px !important;
+    width: 100% !important;
+  }
+
+  .storage-amount span {
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .price-display-wrapper {
+    margin-bottom: 0 !important;
+  }
+
+  .price-details p {
+    text-align: right !important;
   }
 }
