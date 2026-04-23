@@ -305,18 +305,18 @@ body.custom-tooltip-open .info-icon-container:hover .global-hover-popover {
   .custom-hover-popover,
   .pricing-plugin-popover {
     left: 50%;
-    bottom: 30px;
   }
-
   .storage-hover-popover {
     width: 300px;
   }
   .global-hover-popover {
     width: 225px;
   }
-  .custom-hover-popover {
+  /* .custom-hover-popover {
     width: 320px;
-  }
+    height: 382px;
+  } */
+
   .pricing-plugin-popover {
     width: 300px;
   }

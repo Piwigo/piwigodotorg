@@ -2,7 +2,7 @@
     <h5 class="popover-title fw-bold mb-2">
         {'The storage space included in your offer is not enough for you?'|translate}
     </h5>
-    <p class="popover-description text-muted mb-4">
+    <p class="popover-description text-muted">
         {'You can order additional storage space. The price will be added to that of your subscription (billed annually).'|translate}
     </p>
 
