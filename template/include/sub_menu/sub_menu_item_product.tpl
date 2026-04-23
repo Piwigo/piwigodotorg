@@ -166,42 +166,49 @@
         <div class="menu-column">
             <div class="column-header header-pink">{'Features'|translate}</div>
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl'
+                href="{$PORG_ROOT}{$URL.features}#upload"
                 category_type='feature-submenu'
                 title={'Upload & Import'|translate}
                 description={'Upload & Import desc'|translate}
                 icon_class='icon-cloud-oneplace'}
 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl'
+                href="{$PORG_ROOT}{$URL.features}#organize"
                 category_type='feature-submenu'
                 title={'Organize your media'|translate}
                 description={'Organize your media desc'|translate}
                 icon_class='icon-organize'}
 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl'
+                href="{$PORG_ROOT}{$URL.features}#search"
                 category_type='feature-submenu'
                 title={'Search & Find'|translate}
                 description={'Search & Find desc'|translate}
                 icon_class='icon-search'}
 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl'
+                href="{$PORG_ROOT}{$URL.features}#share"
                 category_type='feature-submenu'
                 title={'Share & Collaborate'|translate}
                 description={'Share & Collaborate desc'|translate}
                 icon_class='icon-permissions'}
 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl'
+                href="{$PORG_ROOT}{$URL.features}#customize"
                 category_type='feature-submenu'
                 title={'Customize & Extend'|translate}
                 description={'Customize & Extend desc'|translate}
                 icon_svg='images/icons/personalize.svg'}
 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl'
+                href="{$PORG_ROOT}{$URL.features}#measure"
                 category_type='feature-submenu'
                 title={'Measure & Monitor'|translate}
                 description={'Measure & Monitor desc'|translate}
                 icon_class='icon-stats'}
 
             {include file='template/include/sub_menu_items/sub_menu_itemc.tpl'
+                href="{$PORG_ROOT}{$URL.features}#security"
                 category_type='feature-submenu'
                 title={'Security & Privacy'|translate}
                 description={'Security & Privacy desc'|translate}

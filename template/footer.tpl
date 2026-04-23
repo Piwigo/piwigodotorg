@@ -47,13 +47,13 @@
             </button>
             <div id="footerMobileDiscover" class="collapse footer-mobile-collapse" data-bs-parent=".footer-mobile-nav-accordion">
               <ul>
-                <li><span>{'Upload &amp; Import'|translate}</span></li>
-                <li><span>{'Organize your media'|translate}</span></li>
-                <li><span>{'Search &amp; Find'|translate}</span></li>
-                <li><span>{'Share &amp; Collaborate'|translate}</span></li>
-                <li><span>{'Customize &amp; Extend'|translate}</span></li>
-                <li><span>{'Measure &amp; Monitor'|translate}</span></li>
-                <li><span>{'Security &amp; privacy'|translate}</span></li>
+                <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#upload">{'Upload &amp; Import'|translate}</a></li>
+                <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#organize">{'Organize your media'|translate}</a></li>
+                <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#search">{'Search &amp; Find'|translate}</a></li>
+                <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#share">{'Share &amp; Collaborate'|translate}</a></li>
+                <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#customize">{'Customize &amp; Extend'|translate}</a></li>
+                <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#measure">{'Measure &amp; Monitor'|translate}</a></li>
+                <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#security">{'Security &amp; privacy'|translate}</a></li>
               </ul>
               <ul class="mt-3">
                 <li><span>{'Piwigo AI'|translate|cat: ' ✨'}</span></li>
@@ -146,13 +146,13 @@
       <div class="col-6 col-md-4 col-lg-2 footer-nav-col d-none d-lg-block">
         <h6 class="footer-title">{'Discover Piwigo'|translate}</h6>
         <ul>
-          <li><span>{'Upload &amp; Import'|translate}</span></li>
-          <li><span>{'Organize your media'|translate}</span></li>
-          <li><span>{'Search &amp; Find'|translate}</span></li>
-          <li><span>{'Share &amp; Collaborate'|translate}</span></li>
-          <li><span>{'Customize &amp; Extend'|translate}</span></li>
-          <li><span>{'Measure &amp; Monitor'|translate}</span></li>
-          <li><span>{'Security &amp; privacy'|translate}</span></li>
+          <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#upload">{'Upload &amp; Import'|translate}</a></li>
+          <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#organize">{'Organize your media'|translate}</a></li>
+          <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#search">{'Search &amp; Find'|translate}</a></li>
+          <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#share">{'Share &amp; Collaborate'|translate}</a></li>
+          <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#customize">{'Customize &amp; Extend'|translate}</a></li>
+          <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#measure">{'Measure &amp; Monitor'|translate}</a></li>
+          <li><a class="footer-feature-link" href="{$PORG_ROOT}{$URL.features}#security">{'Security &amp; privacy'|translate}</a></li>
         </ul>
         <ul class="mt-4">
           <li>

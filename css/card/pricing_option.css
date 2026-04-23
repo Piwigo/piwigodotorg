@@ -238,15 +238,6 @@ body.custom-tooltip-open .info-icon-container:hover .global-hover-popover {
   z-index: 10;
 }
 
-.icon-check-1 {
-  color: var(--main_pink) !important;
-  font-size: 14px;
-  flex-shrink: 0;
-  display: inline-flex !important;
-  align-items: center;
-  height: 19px;
-}
-
 .card-selfhosted .icon-check-1 {
   color: var(--main_orange) !important;
 }

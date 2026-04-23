@@ -6,15 +6,10 @@ CTA
 }
 
 .get-started-hero .container {
-  width: 1080px;
-  max-width: calc(100% - 40px);
-  height: 510px;
   position: relative;
   border-radius: 10px;
-  overflow: hidden;
-  clip-path: inset(0 round 10px);
+  padding: 40px;
   background: var(--grey);
-  border-top: 15px solid var(--grey);
 }
 
 .get-started-hero .row {
@@ -22,15 +17,8 @@ CTA
   height: 100%;
 }
 
-.get-started-hero .row > .col-lg-6:first-child {
-  padding-left: 100px;
-}
-
 .get-started-copy {
-  padding-top: 60px;
-  padding-left: 105px;
-  display: flex;
-  flex-direction: column;
+  padding: 0 100px;
 }
 
 .get-started-subtitle {
@@ -41,7 +29,6 @@ CTA
 .highlight-wrap {
   position: relative;
   display: inline-block;
-  white-space: nowrap;
   margin-left: 0.15em;
   vertical-align: baseline;
   padding: 0 0.2em;
@@ -63,7 +50,6 @@ CTA
   display: inline-block;
   z-index: 1;
   font-weight: 550;
-  white-space: nowrap;
 }
 
 .get-started-list {
@@ -114,22 +100,15 @@ CTA
 }
 
 .img-rocket {
-  width: 454px;
-  height: 471px;
-  transform: translateX(40px);
+  max-height: 500px;
+  object-fit: contain;
+  margin-bottom: 20px;
 }
 
-@media (max-width: 991px) {
-  .get-started-hero .container {
-    width: calc(100% - 24px);
-    max-width: 362px;
+@media (max-width: 768px) {
+  .get-started-hero{
     height: auto;
-    top: 0;
-    left: 0;
-    margin: 0 auto;
-    border-radius: 10px;
-    clip-path: inset(0 round 10px);
-    border: 20px solid var(--grey);
+    margin: 0 20px;
   }
 
   .get-started-hero .row {
@@ -162,15 +141,10 @@ CTA
 
   .get-started-subtitle {
     max-width: 100%;
-    white-space: nowrap;
   }
 
   .get-started-list {
     margin-bottom: 22px !important;
-  }
-
-  .get-started-list li > span:not(.feature-icon) {
-    white-space: nowrap;
   }
 
   .get-started-copy .btn-cta {
@@ -194,7 +168,6 @@ CTA
 
   .get-started-list li > span:not(.feature-icon) {
     font-size: inherit;
-    white-space: nowrap;
   }
 }
 

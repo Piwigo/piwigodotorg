@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const container = document.querySelector('.horizontal-menu-container');
     const buttons = document.querySelectorAll('.horizontal-menu-button');
 
-    const selectedAtStart = document.querySelector('.selected-horizontal-menu-button');
-    if (selectedAtStart) {
-        setTimeout(() => {
+    setTimeout(() => {
+        const selectedAtStart = document.querySelector('.selected-horizontal-menu-button');
+        if (selectedAtStart) {
             selectedAtStart.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-        }, 200);
-    }
+        }
+    }, 200);
 
     buttons.forEach(button => {
         button.addEventListener('click', function(e) {
