@@ -14,6 +14,7 @@ $lang['Support'] = 'Support';
 $lang['Behind the code'] = 'Behind the code';
 $lang['News'] = 'News';
 $lang['Free trial'] = 'Free trial';
+$lang['English (UK)'] = 'English (UK)';
 
 /* get started sub menu*/
 $lang['Cloud'] = 'Cloud';

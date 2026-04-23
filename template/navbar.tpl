@@ -83,7 +83,7 @@
                     </a>
 
                     <a href="#" class="header-lang-btn btn-text w-50">
-                        English (UK)
+                        {'English (UK)'|translate}
                         <span class="lang-label-group">
 
                             <i class="icon-langage header-lang-icon"></i>
