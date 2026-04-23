@@ -36,6 +36,16 @@
   color: var(--dark);
 }
 
+.footer-feature-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-feature-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 .footer-brand {
   max-width: 250px;
 }
