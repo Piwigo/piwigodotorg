@@ -189,8 +189,7 @@
 
     .menu-divider,
     .menu-horizontal-divider,
-    .menu-footer,
-    .btn-menu {
+    .menu-footer {
         display: none;
     }
 
