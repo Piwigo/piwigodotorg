@@ -36,6 +36,7 @@ function porg_get_pages()
     'mobile-applications' => 'Mobile applications',
     'get-help'=>'Get Help',
     'components-display' => 'Components display',
+    'pricing' => 'Pricing',
     );
 }
 

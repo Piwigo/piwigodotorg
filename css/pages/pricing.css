@@ -1,0 +1,95 @@
+
+.pricing-header-main {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: var(--clear) !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-title {
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: var(--dark);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricing-title .main-orange-text {
+    color: var(--main_orange) !important;
+}
+
+
+.highlight-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+
+.highlight-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+    width: 100%;
+    height: auto; 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.highlight {
+    position: relative;
+    z-index: 2;
+}
+
+.pricing-subtitle {
+    font-size: 18px;
+    color: var(--dark);
+    max-width: 700px;
+    margin: 30px auto 20px auto;
+    text-align: center;
+}
+
+.btn-pricing-switch {
+    margin-bottom: 10px;
+}
+
+.pricing-toggle-description {
+    min-height: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.toggle-desc {
+    font-size: 15px;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.main-pink-text {
+    color: var(--main_pink) !important;
+}
+
+.main-orange-text {
+    color: var(--main_orange) !important;
+}
+
+
+.pricing-content {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .pricing-title {
+        font-size: 32px;
+    }
+    
+}

@@ -1,112 +1,118 @@
 .btn-pricing-switch {
-    background-color: var(--grey);
-    /* width: 494px; */
-    /* height: 56px; */
-    box-sizing: border-box;
-    gap: 8px;
-    border-radius: 100px;
-    padding: 6px 6px 4px 6px !important;
+  background-color: var(--grey);
+  /* width: 494px; */
+  /* height: 56px; */
+  box-sizing: border-box;
+  gap: 8px;
+  border-radius: 100px;
+  padding: 6px 6px 4px 6px !important;
 }
 
 .btn-pricing {
-    /* width: 227px; */
-    height: 46px;
-    padding: 0 8px !important;
-    padding-right: 20px !important;
-    transition: all 0.2s ease-in-out;
-    border-radius: 100px;
+  /* width: 227px; */
+  height: 46px;
+  padding: 0 8px !important;
+  padding-right: 20px !important;
+  transition: all 0.2s ease-in-out;
+  border-radius: 100px;
 }
 
-.btn.inactive:hover{
-    background-color: var(--clear) !important;
-    box-shadow: none !important;
+.btn.inactive:hover {
+  background-color: var(--clear) !important;
+  box-shadow: none !important;
 }
 
 .icon-wrapper {
-    width: 30px;
-    height: 30px;
-    flex-shrink: 0;
-    margin-right: 12px;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-right: 12px;
 }
 
 .icon-wrapper i {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .pricing-label {
-    font-size: 18px;
-    color: var(--dark);
+  font-size: 18px;
+  color: var(--dark);
 }
 
 .pricing-description {
-    font-size: 12px;
-    letter-spacing: 0%;
+  font-size: 12px;
+  letter-spacing: 0%;
 }
 
 .btn-pricing.active {
-    background-color: var(--clear) !important;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+  background-color: var(--clear) !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
 }
 
 .btn-pricing.cloud.active .icon-wrapper {
-    background-color: var(--secondary_pink);
-    color: var(--main_pink);
+  background-color: var(--secondary_pink);
+  color: var(--main_pink);
 }
 .btn-pricing.cloud.active .pricing-description {
-    color: var(--main_pink);
+  color: var(--main_pink);
 }
 
 .btn-pricing.self-hosted.active .icon-wrapper {
-    background-color: var(--secondary_orange);
-    color: var(--main_orange);
+  background-color: var(--secondary_orange);
+  color: var(--main_orange);
 }
 .btn-pricing.self-hosted.active .pricing-description {
-    color: var(--main_orange);
+  color: var(--main_orange);
 }
 
 .btn-pricing.inactive {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .btn-pricing.inactive .icon-wrapper {
-    background-color: #E9E9E9;
-    color: var(--dark_text);
+  background-color: #e9e9e9;
+  color: var(--dark_text);
 }
 
 .btn-pricing.inactive .pricing-description {
-    color: var(--dark_text);
+  color: var(--dark_text);
 }
 
 .btn-pricing.cloud.inactive:hover .icon-wrapper {
-    /* background-color: #FFE4E9; */
-    color: var(--main_pink);
+  /* background-color: #FFE4E9; */
+  color: var(--main_pink);
 }
-
 
 .btn-pricing.self-hosted.inactive:hover .icon-wrapper {
-    /* background-color: #FFF0E4; */
-    color: var(--main_orange);
+  /* background-color: #FFF0E4; */
+  color: var(--main_orange);
 }
 
-@media (max-width: 800px) {
-    .btn-pricing-switch {
-        height: 56px;
-        /* width: 322px; */
-        padding: 5px !important;
-    }
+@media (max-width: 678px) {
+  .btn-pricing-switch {
+    height: 56px;
+    /* width: 322px; */
+    padding: 5px !important;
+  }
 
-    .btn-pricing {
-        width: auto;
-        height: 46px;
-        /* padding: 7px 7px !important; */
-        justify-content: center;
-    }
+  .pricing-label {
+    font-size: 16px;
+    color: var(--dark);
+  }
+  .hidden{
+    display: none;
+  }
+  .btn-pricing {
+    width: auto;
+    height: 46px;
+    /* padding: 7px 7px !important; */
+    justify-content: center;
+  }
 
-    .icon-wrapper {
-        margin-right: 10px;
-    }
+  .icon-wrapper {
+    margin-right: 10px;
+  }
 
-    .pricing-description {
-        display: none !important;
-    }
+  .pricing-description {
+    display: none !important;
+  }
 }
