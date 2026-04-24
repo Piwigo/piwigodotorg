@@ -89,7 +89,7 @@
   .horizontal-menu-container--features {
     margin: 0;
     border-radius: 0;
-    top: 0;
+    top: 20px;
     padding-left: var(--horizontal-menu-edge-padding, 5px);
     padding-right: var(--horizontal-menu-edge-padding, 5px);
     width: 100%;

@@ -6,12 +6,13 @@
                 {$title}
             </h2>
             <p class="feature-description feature-description-desktop mb-4">
-                {$desc_part_1}
-                {if isset($desc_part_2)}
-                    <br>
-                    {$desc_part_2}
-                {/if}
+                {$desc}
             </p>
+            {if $btn_text}
+                <div class="d-none d-md-block">
+                    {include file='template/include/buttons/cta_secondary.tpl' label={$btn_text} href='{$btn_link}'}
+                </div>
+            {/if}
         </div>
     </div>
 
@@ -22,13 +23,12 @@
     </div>
 
     <div class="col-12 d-md-none">
-        <p class="feature-description feature-description-mobile mb-0">
-            {$desc_part_1}
-            {if isset($desc_part_2)}
-                <br>
-                {$desc_part_2}
-            {/if}
+        <p class="feature-description feature-description-mobile {if $btn_text}mb-4{else}mb-0{/if}">
+            {$desc}
         </p>
+        {if $btn_text}
+            {include file='template/include/buttons/cta_secondary.tpl' label={$btn_text} href='{$btn_link}'}
+        {/if}
     </div>
 
 </div>
