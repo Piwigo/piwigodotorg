@@ -1,6 +1,6 @@
 <section class="get-started-hero py-4 py-md-5">
 	<div class="container">
-		<div class="row g-4 align-items-center">
+		<div class="row align-items-center">
 			<div class="col-12 col-lg-6">
 				<div class="get-started-copy">
 					<h1 class="mb-2">{'Get started'|translate}</h1>

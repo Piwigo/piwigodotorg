@@ -12,3 +12,5 @@ href="//{$PORG_DOMAIN_PREFIX}piwigo.org/ext"
 http://localhost/piwigo/index.php?porg=components-display&lang=en_UK#
 
 http://localhost/piwigo/index.php?porg=features
+
+main.inc l40 l206
