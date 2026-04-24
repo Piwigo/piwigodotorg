@@ -33,6 +33,7 @@
 
 	.feature-title {
 		text-align: center;
+		margin-bottom: 0 !important;
 	}
 
 	.feature-description-desktop {
@@ -41,7 +42,6 @@
 
 	.feature-description-mobile {
 		display: block;
-		margin-top: 8px;
 	}
 
 	.feature-image-container {
@@ -51,5 +51,12 @@
 	.feature-image {
 		width: 100%;
 		max-width: 510px;
+	}
+
+	.col-12 .btn-cta {
+		max-width: 100%;
+		white-space: normal;
+		word-break: break-word;
+		height: auto;
 	}
 }

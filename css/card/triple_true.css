@@ -85,6 +85,7 @@
   }
 
   .feature-benefits-strip {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 22px;
     padding: 71px;

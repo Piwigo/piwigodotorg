@@ -28,13 +28,13 @@
   text-decoration: none;
 }
 
-cta-primary {
+.cta-primary {
   background: var(--main_orange);
   color: var(--clear);
 }
 
-cta-primary:hover,
-cta-primary:focus {
+.cta-primary:hover,
+.cta-primary:focus {
   background:
     linear-gradient(var(--main_orange), var(--main_orange)) padding-box,
     linear-gradient(92.17deg, var(--main_pink) 19.22%, var(--main_orange) 96.41%) border-box;
