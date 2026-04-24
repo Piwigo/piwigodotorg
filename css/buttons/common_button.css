@@ -28,39 +28,39 @@
   text-decoration: none;
 }
 
-.CTA_principale {
+.cta-primary {
   background: var(--main_orange);
   color: var(--clear);
 }
 
-.CTA_principale:hover,
-.CTA_principale:focus {
+.cta-primary:hover,
+.cta-primary:focus {
   background:
     linear-gradient(var(--main_orange), var(--main_orange)) padding-box,
     linear-gradient(92.17deg, var(--main_pink) 19.22%, var(--main_orange) 96.41%) border-box;
   color: var(--clear);
 }
 
-.CTA_secondaire {
+.cta-secondary {
   background: var(--grey);
   color: var(--dark);
 }
 
-.CTA_secondaire:hover,
-.CTA_secondaire:focus {
+.cta-secondary:hover,
+.cta-secondary:focus {
   background:
     linear-gradient(var(--grey), var(--grey)) padding-box,
     linear-gradient(92.17deg, #D9D9D9 19.22%, var(--grey) 96.41%) border-box;
   color: var(--dark);
 }
 
-.CTA_principale_vert {
+.cta-primary-green {
   background: var(--main_flash_green);
   color: var(--dark_green);
 }
 
-.CTA_principale_vert:hover,
-.CTA_principale_vert:focus {
+.cta-primary-green:hover,
+.cta-primary-green:focus {
   background:
     linear-gradient(var(--main_flash_green), var(--main_flash_green)) padding-box,
     linear-gradient(92.17deg, var(--accent_green) 19.22%, var(--main_flash_green) 96.41%) border-box;
@@ -95,51 +95,51 @@
   text-decoration: none;
 }
 
-.Menu_btn_green {
+.menu-btn-green {
   background: var(--main_flash_green);
   color: var(--dark_green);
 }
 
-.Menu_btn_green:hover,
-.Menu_btn_green:focus {
+.menu-btn-green:hover,
+.menu-btn-green:focus {
   background:
     linear-gradient(var(--main_flash_green), var(--main_flash_green)) padding-box,
     linear-gradient(92.17deg, var(--accent_green) 19.22%, var(--main_flash_green) 96.41%) border-box;
   color: var(--dark_green);
 }
 
-.Menu_btn_white {
+.menu-btn-white {
   background: var(--grey);
   color: var(--dark);
 }
 
-.Menu_btn_white:hover,
-.Menu_btn_white:focus {
+.menu-btn-white:hover,
+.menu-btn-white:focus {
   background:
     linear-gradient(var(--grey), var(--grey)) padding-box,
     linear-gradient(92.17deg, #D9D9D9 19.22%, var(--grey) 96.41%) border-box;
   color: var(--dark);
 }
 
-.Menu_btn_blue {
+.menu-btn-blue {
   background: #D8F4EC;
   color: var(--dark_green);
 }
 
-.Menu_btn_blue:hover,
-.Menu_btn_blue:focus {
+.menu-btn-blue:hover,
+.menu-btn-blue:focus {
   background: #D8F4EC;
   border: 2px solid #64DBBD;
   color: var(--dark_green);
 }
 
-.Menu_btn_orange {
+.menu-btn-orange {
   background: var(--main_orange);
   color: var(--clear);
 }
 
-.Menu_btn_orange:hover,
-.Menu_btn_orange:focus {
+.menu-btn-orange:hover,
+.menu-btn-orange:focus {
   background:
     linear-gradient(var(--main_orange), var(--main_orange)) padding-box,
     linear-gradient(92.17deg, var(--main_pink) 19.22%, var(--main_orange) 96.41%) border-box;

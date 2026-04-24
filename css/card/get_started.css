@@ -90,7 +90,7 @@ CTA
   min-width: 188px;
 }
 
-.get-started-copy .CTA_secondaire {
+.get-started-copy .cta-secondary {
   background: var(--clear) !important;
   min-width: 131px;
 }
@@ -152,7 +152,7 @@ CTA
   }
 
   .get-started-copy .btn-cta,
-  .get-started-copy .CTA_secondaire {
+  .get-started-copy .cta-secondary {
     width: 100%;
     min-width: 0;
     justify-content: center;

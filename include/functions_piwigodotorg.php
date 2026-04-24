@@ -160,6 +160,12 @@ function porg_label_to_page($label)
     return $flip[$label];
   }
 
+  $porg_pages = porg_get_pages();
+  if (isset($porg_pages[$label]))
+  {
+    return $label;
+  }
+
   return false;
 }
 

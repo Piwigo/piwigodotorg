@@ -1,1 +1,1 @@
-<a href="{$href|default:'#'}" class="btn-menu Menu_btn_white">{$label|default:'Menu white'}</a>
+<a href="{$href|default:'#'}" class="btn-menu menu-btn-white">{$label|default:'Menu white'}</a>

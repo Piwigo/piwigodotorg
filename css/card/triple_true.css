@@ -19,10 +19,11 @@
 }
 
 .feature-benefits-strip {
-  display: grid;
+  display: flex;
+  justify-content: space-around;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 121px;
-  padding: 40px 117px 23px;
+  padding: 40px 120px;
   width: 100%;
   max-width: 1080px;
   margin: 0 auto 70px;
@@ -84,6 +85,7 @@
   }
 
   .feature-benefits-strip {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 22px;
     padding: 71px;
