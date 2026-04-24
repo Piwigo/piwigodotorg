@@ -60,7 +60,7 @@
       {include file='template/features/measure.tpl'}
     </div>
     <div class="feature-section" data-feature-section="security">
-      {include file='template/features/security.tpl'}
+      {include file='template/features/security.tpl' security_sub1_image=$SECURITY_SUB1_IMAGE}
     </div>
   </div>
 </section>
