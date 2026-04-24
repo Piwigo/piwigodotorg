@@ -27,7 +27,8 @@
 
 
 
-<nav class="horizontal-menu-container d-flex align-items-center justify-content-start">
+<nav class="horizontal-menu-container horizontal-menu-container--features d-flex align-items-center justify-content-start">
+  <div class="horizontal-menu-track d-flex align-items-center justify-content-start">
     {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=true feature_key='upload'}
     {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Organize your media' feature_key='organize'}
     {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Search & Find' feature_key='search'}
@@ -35,7 +36,8 @@
     {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Customize & Extend' feature_key='customize'}
     {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Measure & Monitor' feature_key='measure'}
     {include file='template/include/sub_menu/horizontal_menu_button.tpl' is_selected=false label='Security & privacy' feature_key='security'}
-  </nav>
+  </div>
+</nav>
 
 <section class="container-fluid features-menu-content-wrapper">
   <div id="features-menu-content" class="features-menu-content">
