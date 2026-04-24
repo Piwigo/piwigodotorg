@@ -60,3 +60,72 @@ $lang['organize sub6 description'] = "Display your media on a world map based on
 
 $lang['organize sub7 title'] = 'Personal collections';
 $lang['organize sub7 description'] = "Each user can save their favorite photos to access them at any time. They also can create personal collections - selections of files for a one-time or recurring need. Independent from albums and tags, personal collections let users tailor the photo library to their own usage and save time, whether they use Piwigo daily or occasionally.";
+
+// search
+
+$lang['search title'] = 'Find any file in seconds';
+$lang['search description'] = 'Search your media using keywords, filters and metadata. Combine multiple criteria to quickly narrow down results, even in large libraries.';
+$lang['search text 1'] = 'Find the right file quickly, even in large libraries';
+$lang['search text 2'] = 'Narrow down results in seconds instead of browsing endlessly';
+$lang['search text 3'] = 'Access exactly what you need, when you need it';
+
+$lang['search sub1 title'] = 'Keyword search';
+$lang['search sub1 description'] = 'Use the search bar to find files by keyword.<br>Piwigo searches across titles, file names, descriptions, tags and more to return relevant results.';
+
+$lang['search sub2 title'] = 'Advanced search';
+$lang['search sub2 description'] = 'Refine your results using filters such as tags, albums, authors, dates or file types.<br>Combine multiple criteria and adjust them dynamically to find exactly what you need.';
+
+$lang['search sub3 title'] = 'Search within a selection';
+$lang['search sub3 description'] = 'Run a search within a specific album or tag to focus on a subset of your media library.<br>A simple way to explore large collections more efficiently.';
+
+$lang['search sub4 title'] = 'Tag-based navigation';
+$lang['search sub4 description'] = 'Browse your media using tags and related tags.<br>Well-structured tagging makes it easier to discover and retrieve files.';
+
+$lang['search sub5 title'] = 'Date-based search';
+$lang['search sub5 description'] = 'Create custom filters based on your tags to build a tailored search experience.<br>This makes it easier to explore large media libraries through guided filtering, adapted to your own classification system.';
+
+// share
+
+$lang['share title'] = 'Collaborate with your team and partners on your media';
+$lang['share description'] = 'Give each user the right level of access and collaborate easily with internal teams or external contributors.';
+$lang['share text 1'] = 'Share your media easily with your teams and partners';
+$lang['share text 2'] = 'Control exactly who can view, add and edit media';
+$lang['share text 3'] = 'Work together around a single, shared media library';
+
+$lang['share sub1 title'] = 'Users and groups';
+$lang['share sub1 description'] = 'With Piwigo, invite an unlimited number of users to your photo library, and customize their permissions according to their needs. Administrators, contributors or simple viewers: you can manage different levels of access and customize permissions precisely: upload and download, access to albums… Permissions can be defined per user or group, depending on your organization.';
+
+$lang['share sub2 title'] = 'Link sharing';
+$lang['share sub2 description'] = "Need to share a file or album with someone outside your organization? You can send them a download link by email with a limited validity period, even if they don't have a user account on your photo library. This allows you to share content externally without opening access to your entire library.";
+
+$lang['share sub3 title'] = 'Public or Private gallery';
+$lang['share sub3 description'] = "Piwigo allows you to create beautiful public photo galleries, for photographers who want to exhibit their work, or for organizations who share their photo library on the internet. But your photo library can also be completely private, and accessible only to identified users. You can also mix the two approaches, with a private part and a public part: it's up to you! You decide what is public and what remains private.";
+
+$lang['share sub4 title'] = 'Download options';
+$lang['share sub4 description'] = "Choose who can download files from your library. For each user, you can decide whether they can only view files (in low resolution) or download them. You can also disable downloads entirely.";
+
+$lang['share sub5 title'] = 'Collaboration and comments';
+$lang['share sub5 description'] = "With Piwigo, teams can collaborate and exchange online in different ways: by rating files, discussing via comments, sharing albums by email…";
+
+// customize
+
+$lang['customize title'] = 'Make Piwigo truly yours';
+$lang['customize description'] = 'Customize the look and behavior of your photo library, extend its features and connect it to your existing tools.';
+$lang['customize text 1'] = 'Customize your gallery with themes, settings and plugins';
+$lang['customize text 2'] = 'Extend Piwigo with additional features and integrations';
+$lang['customize text 3'] = 'Adapt the platform to your workflows and specific needs';
+
+$lang['customize sub1 title'] = 'Customizable themes';
+$lang['customize sub1 description'] = 'You can choose from nearly 30 themes, or templates, to customize the display of your gallery. Each theme includes multiple configuration options, including colors and layout. This allows you to create a photo library that matches your identity and how you want to present your media.';
+
+$lang['customize sub2 title'] = 'Options and plugins';
+$lang['customize sub2 description'] = "Homepage, login screen, custom banner: many built-in options let you customize your gallery. You also have access to a large library of plugins and extensions to add new features: contact forms, copyright management, slideshows, authentication methods, and more. Choose the features you need and adapt Piwigo to your use case.";
+
+$lang['customize sub3 title'] = 'API and integrations';
+$lang['customize sub3 description1'] = 'Piwigo provides APIs and connectors to integrate your photo library with other tools and workflows.';
+$lang['customize sub3 btn'] = 'Learn more about Piwigo API';
+$lang['customize sub3 description2'] = 'Connect Piwigo to applications such as Lightroom, digiKam or Shotwell, publish content to platforms like WordPress, or use external services such as Imagga or Microsoft Azure AI Vision for image analysis.<br>Authentication integrations are also available, for example with Azure Active Directory or Okta SAML, to enable single sign-on (SSO).';
+
+$lang['customize sub4 title'] = 'Advanced customization';
+$lang['customize sub4 description'] = 'Piwigo can be adapted to more advanced needs through custom development.<br>Depending on your setup or plan, the Piwigo team can support you with graphic customization or the development of specific features. These services are also available for organizations using a self-hosted version.<br>If you have technical skills, you can also customize Piwigo yourself using CSS or PHP.';
+$lang['customize sub4 btn'] = 'Explore examples of custom Piwigo projects';

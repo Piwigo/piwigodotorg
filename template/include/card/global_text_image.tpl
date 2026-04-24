@@ -9,10 +9,14 @@
                 {$desc}
             </p>
             {if $btn_text}
-                <div class="d-none d-md-block">
+                <div class="d-none d-md-block" style="margin-bottom: 1.5rem;">
                     {include file='template/include/buttons/cta_secondary.tpl' label={$btn_text} href='{$btn_link}'}
                 </div>
             {/if}
+            <p class="feature-description feature-description-desktop mb-4">
+                {$desc2}
+            </p>
+
         </div>
     </div>
 
@@ -27,8 +31,13 @@
             {$desc}
         </p>
         {if $btn_text}
-            {include file='template/include/buttons/cta_secondary.tpl' label={$btn_text} href='{$btn_link}'}
+            <div style="margin-bottom: 1.5rem;">
+                {include file='template/include/buttons/cta_secondary.tpl' label={$btn_text} href='{$btn_link}'}
+            </div>
         {/if}
+        <p class="feature-description feature-description-mobile">
+            {$desc2}
+        </p>
     </div>
 
 </div>
