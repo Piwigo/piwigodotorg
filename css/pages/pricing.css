@@ -82,6 +82,23 @@
     animation: fadeIn 0.4s ease;
 }
 
+.d-none-card{
+    display: none !important;
+}
+
+.selfhosted-card-container {
+    background-color: var(--grey) !important;
+    border-radius: 10px !important;
+    padding: 60px !important;
+    padding-bottom: 40px !important;
+    margin: 0 auto 50px auto !important;
+    max-width: 1140px !important;
+}
+
+.selfhosted-card-container h2 {
+    font-size: 32px !important;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }

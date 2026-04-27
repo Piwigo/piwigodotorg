@@ -1,16 +1,17 @@
 $(document).ready(function() {
     function updatePricingCards(type) {
         if (type === 'cloud') {
-
             $('#pricing-selfhosted-content').hide();
             $('#pricing-cloud-content').fadeIn(300);
             $('#desc-selfhosted').addClass('d-none');
             $('#desc-cloud').removeClass('d-none').fadeIn(300);
+            $('#card-selfhosted').addClass('d-none-card');
         } else {
             $('#pricing-cloud-content').hide();
             $('#pricing-selfhosted-content').fadeIn(300);
             $('#desc-cloud').addClass('d-none');
             $('#desc-selfhosted').removeClass('d-none').fadeIn(300);
+            $('#card-selfhosted').removeClass('d-none-card');
         }
     }
 

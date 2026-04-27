@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/pricing_custom_card.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/pricing_global_card.css">
 <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/storage_card.css">
+<link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL}css/card/global_text_image.css">
 
 
 <section class="pricing-header-main container-fluid">
@@ -36,6 +37,10 @@
         </div>
     </div>
 </section>
+
+<div id="card-selfhosted" class="selfhosted-card-container d-none-card">
+    {include file="template/include/card/global_text_image.tpl" title={'title selfhosted card'|translate} desc={'selfhosted description card'|translate} image="{$PORG_ROOT_URL}images/pricing/selfhosted_deploy.png" }
+</div>
 
 <div id="pricing-content-cloud" class="pricing-content">
     {include file="template/include/card/pricing_opt_display.tpl"}
