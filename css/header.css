@@ -143,11 +143,14 @@
   display: flex;
   align-items: center;
   margin-left: 0px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
 .nav-btn-wrapper {
   position: relative;
   padding: 10px 10px !important;
+  flex: 0 0 auto;
 }
 
 .header-arrow-icon,

@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
       history.replaceState(null, '', '#' + featureKey);
     }
 
-    window.scrollTo({ top: window.innerWidth <= 768 ? 550 : 700, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function activateFeatureFromHash() {
