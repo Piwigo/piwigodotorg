@@ -56,12 +56,10 @@
 .icon-hover-show:before { content: '\e836'; } /* '' */
 .icon-hover-hide:before { content: '\e837'; } /* '' */
 .icon-hover-arrow-simple:before { content: '\e838'; } /* '' */
-.icon-mail:before { content: '\e838'; } /* '' */
 .icon-hover-arrow-double:before { content: '\e839'; } /* '' */
 .icon-hide:before { content: '\e83a'; } /* '' */
 .icon-help:before { content: '\e83b'; } /* '' */
 .icon-linkedin:before { content: '\e83c'; } /* '' */
-.icon-git:before { content: '\e83c'; } /* '' */
 .icon-flash-1:before { content: '\e83d'; } /* '' */
 .icon-extension:before { content: '\e83e'; } /* '' */
 .icon-rounded-warning:before { content: '\e83f'; } /* '' */
