@@ -13,4 +13,4 @@ http://localhost/piwigo/index.php?porg=components-display&lang=en_UK#
 
 http://localhost/piwigo/index.php?porg=features
 
-main.inc l40 l206
+main.inc L515 pour selected header (à update à chaque page faite)
