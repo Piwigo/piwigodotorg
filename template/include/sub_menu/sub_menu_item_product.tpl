@@ -290,6 +290,6 @@
     <div class="menu-horizontal-divider"></div>
 
     <div class="menu-footer d-flex justify-content-center">
-        {include file='template/include/buttons/menu_btn_white.tpl' label={'product btn'|translate}}
+        {include file='template/include/buttons/menu_btn_white.tpl' label={'product btn'|translate} href="{$PORG_ROOT}{$URL.contact}"}
     </div>
 </div>

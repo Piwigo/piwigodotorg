@@ -34,24 +34,26 @@
                     {include
               file='template/include/sub_menu/sub_menu_button.tpl'
               is_openable=true
+                  is_selected=$NAV_SELECTED.get_started
               label={'Get started'|translate}
                     }
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_get_started.tpl'}</div>
                 </li>
                 <li class="nav-btn-wrapper nav-btn-product">
-                    {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true is_selected=true label={'Product'|translate}}
+                        {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true is_selected=$NAV_SELECTED.product label={'Product'|translate}}
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_product.tpl'}</div>
                 </li>
                 <li class="nav-btn-wrapper">
                     {include
               file='template/include/sub_menu/sub_menu_button.tpl'
+                  is_selected=$NAV_SELECTED.users
               label={'Our users'|translate}
                     }
                 </li>
                 <li class="nav-btn-wrapper nav-btn-support">
-                    {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'Support'|translate}}
+                        {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true is_selected=$NAV_SELECTED.support label={'Support'|translate}}
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_support.tpl'}</div>
                 </li>
@@ -59,13 +61,14 @@
                     {include
               file='template/include/sub_menu/sub_menu_button.tpl'
               is_openable=true
+                  is_selected=$NAV_SELECTED.behind_code
               label={'Behind the code'|translate}
                     }
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_behind_code.tpl'}</div>
                 </li>
                 <li class="nav-btn-wrapper nav-btn-news">
-                    {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true label={'News'|translate}}
+                        {include file='template/include/sub_menu/sub_menu_button.tpl' is_openable=true is_selected=$NAV_SELECTED.news label={'News'|translate}}
                     <div class="mobile-sub-content d-lg-none">
                         {include file='template/include/sub_menu/sub_menu_item_news.tpl'}
                     </div>

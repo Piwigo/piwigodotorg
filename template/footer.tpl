@@ -30,7 +30,7 @@
               {include file='template/include/buttons/menu_btn_blue.tpl' label={'Footer Button 1 Plan a demo'|translate}
               href='#'}
               {include file='template/include/buttons/menu_btn_green.tpl' label={'Contact us'|translate}
-              href='#'}
+              href="{$PORG_ROOT}{$URL.contact}"}
             </div>
           </div>
         </div>

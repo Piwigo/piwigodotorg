@@ -287,6 +287,7 @@ function porg_load_content()
 
     $meta_title = null;
     $meta_description = null;
+    $current_page = 'home';
 
     $porg_root_url = get_absolute_root_url();
     if (isset($_GET['porg']))
@@ -371,6 +372,8 @@ function porg_load_content()
             {
                 porg_display_newsletter($_GET['newsletter_id']);
             }
+
+            $current_page = $porg_page;
 
             $porg_file = porg_page_to_file($porg_page);
             $tpl_file = PORG_PATH . 'template/' . $porg_file . '.tpl';
@@ -509,6 +512,23 @@ function porg_load_content()
         }
     }
 
+    $nav_selected = array(
+        'get_started' => in_array($current_page, array(
+            'pricing'
+        ), true),
+        'product' => in_array($current_page, array(
+            'features'
+        ), true),
+        'users' => in_array($current_page, array(
+        ), true),
+        'support' => in_array($current_page, array(
+        ), true),
+        'behind_code' => in_array($current_page, array(
+        ), true),
+        'news' => in_array($current_page, array(
+        ), true),
+    );
+
 /*
     if ('fr_FR' == $user['language'])
     {
@@ -526,6 +546,7 @@ function porg_load_content()
         array(
             'meta_title' => $meta_title,
             'meta_description' => $meta_description,
+            'NAV_SELECTED' => $nav_selected,
             'PORG_ROOT_URL' => $porg_root_url . PORG_PATH,
         )
     );
