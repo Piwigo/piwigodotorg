@@ -3,6 +3,7 @@
 .icon-wrench:before { content: '\e801'; } /* '' */
 .icon-attention:before { content: '\e802'; } /* '' */
 .icon-plus-circled:before { content: '\e803'; } /* '' */
+.icon-globe:before { content: '\e804'; } /* '' */
 .icon-flash:before { content: '\e805'; } /* '' */
 .icon-check:before { content: '\e806'; } /* '' */
 .icon-info-circled:before { content: '\e807'; } /* '' */
@@ -55,10 +56,12 @@
 .icon-hover-show:before { content: '\e836'; } /* '' */
 .icon-hover-hide:before { content: '\e837'; } /* '' */
 .icon-hover-arrow-simple:before { content: '\e838'; } /* '' */
+.icon-mail:before { content: '\e838'; } /* '' */
 .icon-hover-arrow-double:before { content: '\e839'; } /* '' */
 .icon-hide:before { content: '\e83a'; } /* '' */
 .icon-help:before { content: '\e83b'; } /* '' */
 .icon-linkedin:before { content: '\e83c'; } /* '' */
+.icon-git:before { content: '\e83c'; } /* '' */
 .icon-flash-1:before { content: '\e83d'; } /* '' */
 .icon-extension:before { content: '\e83e'; } /* '' */
 .icon-rounded-warning:before { content: '\e83f'; } /* '' */
@@ -72,10 +75,8 @@
 .icon-support:before { content: '\e847'; } /* '' */
 .icon-ext1:before { content: '\e848'; } /* '' */
 .icon-github:before { content: '\e849'; } /* '' */
-.icon-git:before { content: '\e84a'; } /* '' */
-.icon-mailint:before { content: '\e84b'; } /* '' */
-.icon-mailext:before { content: '\e872'; } /* '' */
 .icon-check-empty:before { content: '\f096'; } /* '' */
+.icon-download-cloud:before { content: '\f0ed'; } /* '' */
 .icon-dropbox:before { content: '\f16b'; } /* '' */
 .icon-circle-thin:before { content: '\f1db'; } /* '' */
 .icon-brush:before { content: '\f1fc'; } /* '' */
