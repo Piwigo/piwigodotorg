@@ -23,7 +23,9 @@
                 href='{$PORG_ROOT}{$URL.pricing}'
                 title={'Pricing'|translate} 
                 description={'Pricing desc'|translate} 
-                icon_class='icon-star'}
+                icon_class='icon-star'
+                href="{$PORG_ROOT}{$URL.pricing}"
+            }
         </div>
     </div>
 

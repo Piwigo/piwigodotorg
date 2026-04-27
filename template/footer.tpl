@@ -24,7 +24,7 @@
             <ul class="footer-get-started-links">
               <li><span class="fw-bold">{'Cloud'|translate}</span></li>
               <li><span class="fw-bold">{'Self hosting'|translate}</span></li>
-              <li><span class="fw-bold">{'Pricing'|translate}</span></li>
+              <li><a class="footer-feature-link fw-bold" href="{$PORG_ROOT}{$URL.pricing}">{'Pricing'|translate}</a></li>
             </ul>
             <div class="footer-get-started-actions">
               {include file='template/include/buttons/menu_btn_blue.tpl' label={'Footer Button 1 Plan a demo'|translate}
