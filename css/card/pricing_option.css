@@ -187,6 +187,10 @@ body.custom-tooltip-open .info-icon-container:hover .global-hover-popover {
   width: 100% !important;
 }
 
+.pricing-card .btn-menu{
+  width: 100% !important;
+}
+
 .pricing-card .icon-check-1 {
   color: var(--main_pink) !important;
   font-size: 14px;
