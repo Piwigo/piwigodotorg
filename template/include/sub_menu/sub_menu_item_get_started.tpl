@@ -33,6 +33,6 @@
 
     <div class="menu-footer d-flex">
         {include file='template/include/buttons/menu_btn_blue.tpl' label={'Get started btn1'|translate}}
-        {include file='template/include/buttons/menu_btn_white.tpl' label={'Get started btn2'|translate}}
+        {include file='template/include/buttons/menu_btn_white.tpl' label={'Get started btn2'|translate} href="{$PORG_ROOT}{$URL.contact}"}
     </div>
 </div>
