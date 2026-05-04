@@ -20,3 +20,4 @@ $lang['porg_issue_2539'] = '[API] pwg_token bei Anfragen mit api_key automatisch
 $lang['porg_issue_2369'] = 'Fehler bei der Division durch Null';
 $lang['porg_issue_2478'] = 'Das Erstellungsdatum des API-Schlüssels ist nicht sichtbar';
 $lang['porg_issue_2531'] = 'Die Standardseiten-Konfigurationsdatei verschwindet';
+$lang['porg_issue_GHSA-6wj3-7fhw-gfpm'] = 'Update: SQL-Injection';
