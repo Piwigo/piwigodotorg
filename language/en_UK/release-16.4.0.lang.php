@@ -15,4 +15,5 @@ $lang['porg_issue_GHSA-7r67-9xhq-7p2c'] = 'batch manager : check user input';
 $lang['porg_issue_GHSA-7w97-5g4p-xqvv'] = 'standard pages config : more robust check on logo file type';
 $lang['porg_issue_GHSA-j9q6-q52g-g8jw'] = 'photo upload : make sure SVG files have the appropriate file name extension';
 $lang['porg_issue_GHSA-gphq-34pv-gvf3'] = 'install : sanity check for table prefix during install';
+$lang['porg_issue_GHSA-6wj3-7fhw-gfpm'] = 'upgrade: SQL injection';
 ?>

@@ -22,6 +22,7 @@ $porg_releases = array(
       array('id' => 'GHSA-7w97-5g4p-xqvv', 'section' => 'Security'),
       array('id' => 'GHSA-j9q6-q52g-g8jw', 'section' => 'Security'),
       array('id' => 'GHSA-gphq-34pv-gvf3', 'section' => 'Security'),
+      array('id' => 'GHSA-6wj3-7fhw-gfpm', 'section' => 'Security'),
     ),
     'known_issues' => array(),
     'languages' => array(
