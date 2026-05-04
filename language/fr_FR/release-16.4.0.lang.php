@@ -20,3 +20,4 @@ $lang['porg_issue_2538'] = '[e-mail] différencier de et réponse à';
 $lang['porg_issue_2531'] = 'La configuration des pages standard disparait';
 $lang['porg_issue_2369'] = 'Erreur de division par zéro';
 $lang['porg_issue_2478'] = 'La date de création de la clé API n\'est pas visible';
+$lang['porg_issue_GHSA-6wj3-7fhw-gfpm'] = 'Injection SQL lors de la mise à jour';
