@@ -20,3 +20,4 @@ $lang['porg_issue_2555'] = '[usuarios] El usuario genérico no puede generar un 
 $lang['porg_issue_796'] = 'La API pwg.images.getInfo devuelve URL incorrectas con $conf[\'original_url_protection\']';
 $lang['porg_issue_GHSA-7r67-9xhq-7p2c'] = 'gestor de lotes: comprobar la entrada del usuario';
 $lang['porg_issue_GHSA-rr39-mf4j-6594'] = 'Evitar la visualización del contenido en bruto de las cookies';
+$lang['porg_issue_GHSA-6wj3-7fhw-gfpm'] = 'Actualización: inyección SQL';
