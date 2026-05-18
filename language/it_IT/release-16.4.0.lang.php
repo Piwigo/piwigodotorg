@@ -20,3 +20,4 @@ $lang['porg_issue_GHSA-gphq-34pv-gvf3'] = 'installazione: controllo di integrit√
 $lang['porg_issue_GHSA-j9q6-q52g-g8jw'] = 'Caricamento foto: assicurati che i file SVG abbiano l\'estensione del nome file appropriata';
 $lang['porg_issue_GHSA-jhp4-7f82-8f6q'] = 'Ordine di visualizzazione delle foto dell\'album: verifica l\'input dell\'utente prima dell\'utilizzo';
 $lang['porg_issue_GHSA-rr39-mf4j-6594'] = 'impedire la visualizzazione del contenuto dei cookie RAW';
+$lang['porg_issue_GHSA-6wj3-7fhw-gfpm'] = 'aggiornamento: iniezione SQL';
