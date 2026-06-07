@@ -23,3 +23,4 @@ $lang['porg_issue_GHSA-gphq-34pv-gvf3'] = 'nstalação: verificação de integri
 $lang['porg_issue_GHSA-j9q6-q52g-g8jw'] = 'Envio de fotos: certifique-se de que os arquivos SVG tenham a extensão de nome de arquivo apropriada.';
 $lang['porg_issue_GHSA-jhp4-7f82-8f6q'] = 'Ordem de classificação das fotos do álbum: verificar a entrada do usuário antes de usar';
 $lang['porg_issue_GHSA-rr39-mf4j-6594'] = 'Impedir a exibição do conteúdo bruto dos cookies.';
+$lang['porg_issue_GHSA-6wj3-7fhw-gfpm'] = 'atualização: injeção de SQL';
