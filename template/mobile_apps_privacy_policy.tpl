@@ -14,7 +14,7 @@
   <section class="container porg-privacy-content">
     <p>{'porg_privacy_mobile_intro_1'|translate:"https://github.com/Piwigo/Piwigo-Android":"https://github.com/Piwigo/Piwigo-Mobile"} {'porg_privacy_mobile_intro_2'|translate} {'porg_privacy_mobile_intro_3'|translate}</p>
 
-    <p class="porg-privacy-last-update">{'Last updated on %s'|translate:"October 25, 2018"}</p>
+    <p class="porg-privacy-last-update">{'Last updated on %s'|translate:$POLICY_LAST_UPDATE}</p>
 
     <h2>Introduction</h2>
 
@@ -68,6 +68,6 @@
 
     <p>{'porg_privacy_mobile_contact_1'|translate}</p>
 
-    <div class="porg-privacy-address">Piwigo<br>42 Rue des Vignes<br>21800 Quetigny<br>France<br><br>ios@piwigo.org {'or'|translate} android@piwigo.org</div>
+    <div class="porg-privacy-address">Pigolabs / Piwigo<br>12 avenue Jules Verne<br>Batiment A<br>44230 Saint-Sébastien-sur-Loire<br>France<br><br>ios@piwigo.org {'or'|translate} android@piwigo.org</div>
 
   </section>
