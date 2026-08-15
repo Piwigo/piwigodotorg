@@ -26,7 +26,7 @@
 {if isset($RELEASE_VERSION)} {* only useful on the release note *}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}fonts/Coming_Soon/Coming_Soon.css">
 {/if}
-    <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/piwigodotorg.css?202311071351">
+    <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}css/piwigodotorg.css?202510311100">
 {if (isset($LANGUAGE_CSS))}
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}{$LANGUAGE_CSS}">
 {/if}
@@ -49,6 +49,7 @@
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/flag-icons-master/css/flag-icon.css">
 
 {if $PORG_IS_PRODUCTION}
+<script defer data-domain="piwigo.org" src="https://plausible.piwigo.org/js/script.js"></script>
 {* temporary remove analytics
 <!-- Piwik -->
 <script type="text/javascript">
