@@ -36,8 +36,13 @@ foreach ($commits as $commit)
   {
     $commit_url = $commit['url'].'/commit/'.$commit['local_id'];
   }
+  elseif (preg_match('{gitlab\.gravisdev\.com}', $commit['url']))
+  {
+    $commit_url = $commit['url'].'/-/commit/'.$commit['local_id'];
+  }
+
   $commit['commit_id'] = $commit_id;
-  $commit['commit_url'] = $commit_url;
+  $commit['commit_url'] = $commit_url ?? null;
   $commits_activity[$date_formated][] = $commit;
 }
 
