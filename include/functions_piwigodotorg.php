@@ -364,7 +364,7 @@ function porg_get_latest_news()
 
   $latest_articles = porg_get_news(0,1);
 
-  if ($latest_articles['total_count'] > 0 and $latest_articles['topics'][0]['posted_on'] > time() - conf_get_param('porg_news_maximum_freshness', 180)*24*60*60 )
+  if (!empty($latest_articles) and $latest_articles['total_count'] > 0 and $latest_articles['topics'][0]['posted_on'] > time() - conf_get_param('porg_news_maximum_freshness', 180)*24*60*60 )
   {
     $latest_article = $latest_articles['topics'][0];
   }
