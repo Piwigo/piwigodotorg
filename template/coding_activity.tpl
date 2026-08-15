@@ -14,7 +14,7 @@
 </section>
 
 <section class="container container-commit">
-    {foreach from=$commits key=$date item=commits_day}
+    {foreach from=$commits key=date item=commits_day}
     <div class="day">
         <p class="day-headline">{$date}</p>
         {foreach from=$commits_day key=key item=commit}

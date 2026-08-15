@@ -11,6 +11,6 @@
     <h2 class="bold"><a href="{$topic.url}">{$topic.subject}</a></h2>
     <p>{$topic.message}{if $topic.is_cut}...{/if}</p>
   </div>
-  {if $topic.last == true}<div class="news-padding-bottom-right"></div>{/if}
+  {if isset($topic.last) and $topic.last == true}<div class="news-padding-bottom-right"></div>{/if}
 </div>
 {/foreach}
