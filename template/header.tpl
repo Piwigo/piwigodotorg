@@ -49,7 +49,7 @@
     <link rel="stylesheet" type="text/css" href="{$PORG_ROOT_URL_PLUGINS}vendor/flag-icons-master/css/flag-icon.css">
 
 {if $PORG_IS_PRODUCTION}
-<script defer data-domain="piwigo.org" src="https://plausible.piwigo.org/js/script.js"></script>
+<script defer src="https://plausible.piwigo.org/script.js" data-website-id="7fa87a12-dc69-4e3e-8d0f-61b61a9e2833"></script>
 {* temporary remove analytics
 <!-- Piwik -->
 <script type="text/javascript">
